@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/17014202243826.webp",
+        "title": "ФЕСТИВАЛЬ ПРОДАЖ JETOUR",
+        "descr": "ОСОБЫЕ УСЛОВИЯ НА ПОКУПКУ JETOUR В ДЕКАБРЕ",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/special-offers/festival-prodazh-jetour/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Фестиваль Продаж Jetour. Баннер",
+        "badge": {
+        },
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/17014203525609.webp",
+        "title": "ВЫГОДА 150 000 РУБЛЕЙ",
+        "descr": "НА JETOUR DASHING В ДЕКАБРЕ",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Выгода 150К на Дашинг в Декабре. Баннер",
+        "badge": {
+            "autoname": "Jetour Dashing",
+            "title": "Ежегодная национальная премия",
+            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
+            "image": "/img/badge.png"
+        },
+        "autoplay": 7000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "video",
+        "view": "popup-link",
+        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
+        "imageUrl": "/img/banner.jpg",
+        "title": "Новый JETOUR Dashing в НИКА АВТО",
+        "descr": "от&nbsp;2&nbsp;489&nbsp;900&nbsp;₽",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Новый JETOUR Dashing в НИКА АВТО. Баннер",
+        "badge": {
+            "autoname": "Jetour Dashing",
+            "title": "Ежегодная национальная премия",
+            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
+            "image": "/img/badge.png"
+        },
+        "autoplay": ""
+    }
+]
