@@ -7,7 +7,7 @@
         "map": {
             "zoom": 5,
             "balloon": "img/empty-locator.png",
-            "coords": [55.755863, 37.617700],
+            "coords": [55.715873, 47.617700],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     },
@@ -19,7 +19,7 @@
         "map": {
             "zoom": 5,
             "balloon": "img/empty-locator.png",
-            "coords": [55.755863, 37.617700],
+            "coords": [55.725863, 30.627600],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     },
@@ -31,7 +31,7 @@
         "map": {
             "zoom": 5,
             "balloon": "img/empty-locator.png",
-            "coords": [55.755863, 37.617700],
+            "coords": [55.735853, 32.637500],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     },
@@ -43,7 +43,7 @@
         "map": {
             "zoom": 5,
             "balloon": "img/empty-locator.png",
-            "coords": [55.755863, 37.617700],
+            "coords": [56.745843, 37.647400],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     },
@@ -55,7 +55,7 @@
         "map": {
             "zoom": 5,
             "balloon": "img/empty-locator.png",
-            "coords": [55.755863, 37.617700],
+            "coords": [51.755833, 37.657300],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     },
@@ -67,7 +67,7 @@
         "map": {
             "zoom": 5,
             "balloon": "img/empty-locator.png",
-            "coords": [55.755863, 37.617700],
+            "coords": [50.755823, 39.667200],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     }
