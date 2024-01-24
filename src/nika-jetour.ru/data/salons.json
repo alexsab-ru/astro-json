@@ -5,7 +5,7 @@
         "phone":  "8 (3532) 37-17-17",
         "work_hours": "Ежедневно с&nbsp;08:00 до&nbsp;20:00 без перерывов и&nbsp;выходных",
         "map": {
-            "zoom": 15,
+            "zoom": 10,
             "balloon": "img/map.balloon.png",
             "coords": [51.842883,55.159128],
             "ya_link": "https://yandex.ru/maps/48/orenburg/?ll=55.159131%2C51.842659&mode=routes&rtext=~51.842878%2C55.159173&z=17"
