@@ -1,6 +1,7 @@
 [
     {
         "id": 0,
+        "show": true,
         "type": "",
         "videoUrl": "",
         "imageUrl": "/img/banners/specialnye-predlozheniya-na-avtomobili-geely/tyre_Special_offer_2s.webp",
@@ -16,6 +17,7 @@
     },
     {
         "id": 1,
+        "show": true,
         "type": "",
         "videoUrl": "",
         "imageUrl": "/img/banners/OOH_Atlas_Pro_-010723.webp",
@@ -31,6 +33,7 @@
     },
     {
         "id": 2,
+        "show": true,
         "type": "",
         "videoUrl": "",
         "imageUrl": "/img/banners/OOH_New-Tugella_010723.webp",
@@ -46,6 +49,7 @@
     },
     {
         "id": 3,
+        "show": true,
         "type": "",
         "videoUrl": "",
         "imageUrl": "/img/banners/OOH_Coolray_010623-scaled.webp",
@@ -61,6 +65,7 @@
     },
     {
         "id": 4,
+        "show": true,
         "type": "",
         "videoUrl": "",
         "imageUrl": "/img/banners/Geely_Monjaro_2_2t.webp",
