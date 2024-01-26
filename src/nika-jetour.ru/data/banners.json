@@ -3,6 +3,22 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "scroll-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/t2-kv.webp",
+        "title": "JETOUR T2",
+        "descr": "Внедорожник для путешествий",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#t2",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {},
+        "autoplay": 7000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
         "view": "link",
         "videoUrl": "",
         "imageUrl": "/img/banners/17014202243826.webp",
@@ -17,7 +33,7 @@
         "autoplay": 7000
     },
     {
-        "id": 1,
+        "id": 3,
         "show": true,
         "type": "",
         "view": "popup-link",
@@ -38,7 +54,7 @@
         "autoplay": 7000
     },
     {
-        "id": 2,
+        "id": 4,
         "show": true,
         "type": "video",
         "view": "popup-link",
