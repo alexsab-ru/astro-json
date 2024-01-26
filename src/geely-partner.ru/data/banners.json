@@ -5,13 +5,28 @@
         "videoUrl": "",
         "imageUrl": "/img/banners/specialnye-predlozheniya-na-avtomobili-geely/tyre_Special_offer_2s.webp",
         "title": "Специальные предложения на автомобили Geely",
-        "descr": "",
+        "descr": "Максимальная выгода до 687 000 руб",
         "btn": "Подробнее",
         "btnUrl": "/special-offers/specialnye-predlozheniya-na-avtomobili-geely",
         "view": "link",
         "dataTitle": "Специальные предложения на автомобили Geely",
         "dataFormName": "Подробнее. Специальные предложения на автомобили Geely. Баннер",
-        "badge": {},
+        "badge": "",
+        "autoplay": 5000
+    },
+    {
+        "id": 0,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/Atlas-1920.webp",
+        "title": "Новый Geely Atlas",
+        "descr": "ЭСТЕТИКА ПРОГРЕССА",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "view": "popup-link",
+        "dataTitle": "Новый Atlas Geely",
+        "dataFormName": "Подробнее. Новый Atlas Geely. Баннер",
+        "badge": "",
         "autoplay": 5000
     },
     {
@@ -26,7 +41,7 @@
         "view": "popup-link",
         "dataTitle": "Выгода на Atlas Pro до 670 000 ₽",
         "dataFormName": "Подробнее. Выгода на Atlas Pro до 670 000 ₽. Баннер",
-        "badge": {},
+        "badge": "",
         "autoplay": 5000
     },
     {
@@ -41,7 +56,7 @@
         "view": "popup-link",
         "dataTitle": "Выгода на Tugella до 620 000 ₽",
         "dataFormName": "Подробнее. Выгода на Tugella до 620 000 ₽. Баннер",
-        "badge": {},
+        "badge": "",
         "autoplay": 5000
     },
     {
@@ -56,7 +71,7 @@
         "view": "popup-link",
         "dataTitle": "Выгода на Coolray до 605 000 ₽",
         "dataFormName": "Подробнее. Выгода на Coolray до 605 000 ₽. Баннер",
-        "badge": {},
+        "badge": "",
         "autoplay": 5000
     },
     {
@@ -71,7 +86,7 @@
         "view": "popup-link",
         "dataTitle": "Выгода на Monjaro до 687 000 ₽",
         "dataFormName": "Подробнее. Выгода на Monjaro до 687 000 ₽. Баннер",
-        "badge": {},
+        "badge": "",
         "autoplay": 5000
     }
 ]
