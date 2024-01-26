@@ -1,10 +1,30 @@
 [
     {
         "id": "atlas-2024",
+        "show": true,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Новый Atlas",
         "price": 2844990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Новый Atlas",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Новый Atlas",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/Atlas-2024/starry-blue-metallic_500px.webp",
         "colors": [
             {
@@ -79,10 +99,30 @@
     },
     {
         "id": "atlas-pro",
+        "show": true,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Atlas Pro",
         "price": 2188990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Atlas Pro",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Atlas Pro",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/Atlas%20Pro/black-metallic_500px.webp",
         "colors": [
             {
@@ -163,10 +203,30 @@
     },
     {
         "id": "emgrand",
+        "show": true,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Emgrand",
         "price": 1799990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Emgrand",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Emgrand",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/Emgrand/emgrand_500px.webp",
         "colors": [
             {
@@ -247,10 +307,30 @@
     },
     {
         "id": "coolray",
+        "show": true,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Coolray",
         "price": 2009990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Coolray",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Coolray",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/Coolray/blue-metallic_500px.webp",
         "colors": [
             {
@@ -331,10 +411,30 @@
     },
     {
         "id": "new_coolray",
+        "show": true,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Новый Coolray",
         "price": 2404990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Новый Coolray",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Новый Coolray",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/New Coolray/lilac-metallic_500px.webp",
         "colors": [
             {
@@ -391,10 +491,30 @@
     },
     {
         "id": "tugella",
+        "show": true,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Tugella",
         "price": 3454990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Tugella",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Tugella",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/Tugella/gray-metallic_500px.webp",
         "colors": [
             {
@@ -469,10 +589,30 @@
     },
     {
         "id": "monjaro",
+        "show": true,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Monjaro",
         "price": 4167990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Monjaro",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Monjaro",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/Monjaro/emerald-metallic_500px.webp",
         "colors": [
             {
@@ -553,10 +693,30 @@
     },
     {
         "id": "belgee-x50",
+        "show": true,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Belgee X50",
         "price": 1935990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Belgee X50",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Belgee X50",
+                "view": "popup-link"
+            }
+        ],
         "thumb": "/img/models/Belgee X50/black_500px.webp",
         "colors": [
             {
