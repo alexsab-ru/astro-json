@@ -440,31 +440,31 @@
             {
                 "id": "unicorn-grey",
                 "name": "Unicorn Grey / Лиловый перламутр",
-                "carImage": "/img/models/New Coolray/colors/colors/unicorn-grey.webp",
+                "carImage": "/img/models/New Coolray/colors/unicorn-grey.webp",
                 "style": "background-color: #bdadc2;"
             },
             {
                 "id": "magnetic-grey",
                 "name": "Magnetic Grey / Серый",
-                "carImage": "/img/models/New Coolray/colors/colors/magnetic-grey.webp",
+                "carImage": "/img/models/New Coolray/colors/magnetic-grey.webp",
                 "style": "background-color: #696969;"
             },
             {
                 "id": "crystal-white",
                 "name": "Crystal White / Белый",
-                "carImage": "/img/models/New Coolray/colors/colors/crystal-white.webp",
+                "carImage": "/img/models/New Coolray/colors/crystal-white.webp",
                 "style": "background-color: #fff;"
             },
             {
                 "id": "cyber-blue",
                 "name": "Cyber Blue / Голубой металлик",
-                "carImage": "/img/models/New Coolray/colors/colors/cyber-blue.webp",
+                "carImage": "/img/models/New Coolray/colors/cyber-blue.webp",
                 "style": "background-color: #49B6D0;"
             },
             {
                 "id": "bright-vermilion",
                 "name": "Bright Vermilion / Красный",
-                "carImage": "/img/models/New Coolray/colors/colors/bright-vermilion.webp",
+                "carImage": "/img/models/New Coolray/colors/bright-vermilion.webp",
                 "style": "background-color: #ff0000;"
             }
         ],
