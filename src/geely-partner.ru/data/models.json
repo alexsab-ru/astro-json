@@ -30,25 +30,25 @@
             {
                 "id": "gray",
                 "name": "Серо-голубой металлик",
-                "carImage": "/img/models/Atlas-2024/starry-blue-metallic.webp",
+                "carImage": "/img/models/Atlas-2024/colors/starry-blue-metallic.webp",
                 "style": "background-color: #4c5698;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Atlas-2024/black-metallic.webp",
+                "carImage": "/img/models/Atlas-2024/colors/black-metallic.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Atlas-2024/silver-metallic.webp",
+                "carImage": "/img/models/Atlas-2024/colors/silver-metallic.webp",
                 "style": "background-color: #828793;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/Atlas-2024/white.webp",
+                "carImage": "/img/models/Atlas-2024/colors/white.webp",
                 "style": ""
             }
         ],
@@ -128,31 +128,31 @@
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/Atlas%20Pro/red-metallic.webp",
+                "carImage": "/img/models/Atlas%20Pro/colors/red-metallic.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Atlas%20Pro/gray-metallic.webp",
+                "carImage": "/img/models/Atlas%20Pro/colors/gray-metallic.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Atlas%20Pro/white.webp",
+                "carImage": "/img/models/Atlas%20Pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Atlas%20Pro/silver-metallic.webp",
+                "carImage": "/img/models/Atlas%20Pro/colors/silver-metallic.webp",
                 "style": "background-color: #B9B4B4;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Atlas%20Pro/black-metallic.webp",
+                "carImage": "/img/models/Atlas%20Pro/colors/black-metallic.webp",
                 "style": ""
             }
         ],
@@ -232,31 +232,31 @@
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Emgrand/white-metallic.webp",
+                "carImage": "/img/models/Emgrand/colors/white-metallic.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Голубой металлик",
-                "carImage": "/img/models/Emgrand/blue-metallic.webp",
+                "carImage": "/img/models/Emgrand/colors/blue-metallic.webp",
                 "style": "background-color: #50AECE;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Emgrand/gray-metallic.webp",
+                "carImage": "/img/models/Emgrand/colors/gray-metallic.webp",
                 "style": ""
             },
             {
                 "id": "gold",
                 "name": "Золотой металлик",
-                "carImage": "/img/models/Emgrand/gold-metallic.webp",
+                "carImage": "/img/models/Emgrand/colors/gold-metallic.webp",
                 "style": "background-color: #AC9579;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Emgrand/black-metallic.webp",
+                "carImage": "/img/models/Emgrand/colors/black-metallic.webp",
                 "style": ""
             }
         ],
@@ -336,31 +336,31 @@
             {
                 "id": "blue",
                 "name": "Голубой металлик",
-                "carImage": "/img/models/Coolray/blue-metallic.webp",
+                "carImage": "/img/models/Coolray/colors/blue-metallic.webp",
                 "style": "background-color: #50AECE;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Coolray/grey.webp",
+                "carImage": "/img/models/Coolray/colors/grey.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/Coolray/red.webp",
+                "carImage": "/img/models/Coolray/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Coolray/silver-metallic.webp",
+                "carImage": "/img/models/Coolray/colors/silver-metallic.webp",
                 "style": "background-color: #B9B4B4;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Coolray/white.webp",
+                "carImage": "/img/models/Coolray/colors/white.webp",
                 "style": ""
             }
         ],
@@ -440,7 +440,7 @@
             {
                 "id": "lilac",
                 "name": "Лиловый перламутр",
-                "carImage": "/img/models/New Coolray/lilac-metallic.webp",
+                "carImage": "/img/models/New Coolray/colors/lilac-metallic.webp",
                 "style": "background-color: #666B7F;"
             }
         ],
@@ -520,25 +520,25 @@
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Tugella/black-metallic.webp",
+                "carImage": "/img/models/Tugella/colors/black-metallic.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Tugella/white-metallic.webp",
+                "carImage": "/img/models/Tugella/colors/white-metallic.webp",
                 "style": ""
             },
             {
                 "id": "gray-blue",
                 "name": "Серо-голубой металлик",
-                "carImage": "/img/models/Tugella/gray-blue-metallic.webp",
+                "carImage": "/img/models/Tugella/colors/gray-blue-metallic.webp",
                 "style": "background-color: #ABB5C1;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Tugella/gray-metallic.webp",
+                "carImage": "/img/models/Tugella/colors/gray-metallic.webp",
                 "style": ""
             }
         ],
@@ -618,31 +618,31 @@
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Monjaro/black-metallic.webp",
+                "carImage": "/img/models/Monjaro/colors/black-metallic.webp",
                 "style": ""
             },
             {
                 "id": "emerald",
                 "name": "Изумрудный металлик",
-                "carImage": "/img/models/Monjaro/emerald-metallic.webp",
+                "carImage": "/img/models/Monjaro/colors/emerald-metallic.webp",
                 "style": "background-color: #518D9B;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Monjaro/gray-metallic.webp",
+                "carImage": "/img/models/Monjaro/colors/gray-metallic.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Monjaro/silver-metallic.webp",
+                "carImage": "/img/models/Monjaro/colors/silver-metallic.webp",
                 "style": "background-color: #B8B3B3;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Monjaro/white-metallic.webp",
+                "carImage": "/img/models/Monjaro/colors/white-metallic.webp",
                 "style": ""
             }
         ],
@@ -722,7 +722,7 @@
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Belgee X50/black.webp",
+                "carImage": "/img/models/Belgee X50/colors/black.webp",
                 "style": ""
             }
         ],
