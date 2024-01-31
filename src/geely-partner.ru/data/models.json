@@ -453,7 +453,7 @@
                 "id": "crystal-white",
                 "name": "Crystal White / Белый",
                 "carImage": "/img/models/New Coolray/colors/crystal-white.webp",
-                "style": "background-color: #fff;"
+                "style": "background-color: #f3f4f6;"
             },
             {
                 "id": "cyber-blue",
