@@ -2,7 +2,7 @@
     {
         "id": "gs8ii",
         "show": true,
-        "homeImg": "/img/gs8ii/bg.jpg",
+        "homeImg": "/img/models/gs8ii/bg.jpg",
         "slogan": "Новое поколение превосходства",
         "name": "GS8 II",
         "price": "",
@@ -11,31 +11,31 @@
             {
                 "id": "green",
                 "name": "Зеленый металлик",
-                "carImage": "/img/models/gs8ii/green.png",
+                "carImage": "/img/models/gs8ii/colors/green.png",
                 "style": "background-color: #00747c;"
             },
             {
                 "id": "white",
                 "name": "Кристально-белый",
-                "carImage": "/img/models/gs8ii/white.png",
+                "carImage": "/img/models/gs8ii/colors/white.png",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/gs8ii/silver.png",
+                "carImage": "/img/models/gs8ii/colors/silver.png",
                 "style": "background-color: #e0e0e0;"
             },
             {
                 "id": "gray",
                 "name": "Лунный серый",
-                "carImage": "/img/models/gs8ii/gray.png",
+                "carImage": "/img/models/gs8ii/colors/gray.png",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Элегантный черный",
-                "carImage": "/img/models/gs8ii/black.png",
+                "carImage": "/img/models/gs8ii/colors/black.png",
                 "style": ""
             }
         ],
@@ -87,7 +87,7 @@
     {
         "id": "gs8",
         "show": false,
-        "homeImg": "/img/gs8/bg.jpg",
+        "homeImg": "/img/models/gs8/bg.jpg",
         "slogan": "Стремись к большему",
         "name": "GS8",
         "price": "",
@@ -97,37 +97,37 @@
             {
                 "id": "gray",
                 "name": "Лунный серый",
-                "carImage": "/img/models/gs8/gray.png",
+                "carImage": "/img/models/gs8/colors/gray.png",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Элегантный черный",
-                "carImage": "/img/models/gs8/black.png",
+                "carImage": "/img/models/gs8/colors/black.png",
                 "style": ""
             },
             {
                 "id": "ice-blue",
                 "name": "Ледяной синий",
-                "carImage": "/img/models/gs8/ice-blue.png",
+                "carImage": "/img/models/gs8/colors/ice-blue.png",
                 "style": "background-color: #77a0e3;"
             },
             {
                 "id": "blue",
                 "name": "Синий металлик",
-                "carImage": "/img/models/gs8/blue.png",
+                "carImage": "/img/models/gs8/colors/blue.png",
                 "style": ""
             },
             {
                 "id": "brown",
                 "name": "Коричневый металлик",
-                "carImage": "/img/models/gs8/brown.png",
+                "carImage": "/img/models/gs8/colors/brown.png",
                 "style": "background-color: #433026;"
             },
             {
                 "id": "white",
                 "name": "Кристально-белый",
-                "carImage": "/img/models/gs8/white.png",
+                "carImage": "/img/models/gs8/colors/white.png",
                 "style": ""
             }
         ],
@@ -179,7 +179,7 @@
     {
         "id": "gs5",
         "show": true,
-        "homeImg": "/img/gs5/bg.jpg",
+        "homeImg": "/img/models/gs5/bg.jpg",
         "slogan": "Удовольствие везти, наслаждение кататься",
         "name": "GS5",
         "price": "",
@@ -189,37 +189,37 @@
             {
                 "id": "gray",
                 "name": "Лунный серый",
-                "carImage": "/img/models/gs5/gray.png",
+                "carImage": "/img/models/gs5/colors/gray.png",
                 "style": ""
             },
             {
                 "id": "ice-blue",
                 "name": "Ледяной синий",
-                "carImage": "/img/models/gs5/ice-blue.png",
+                "carImage": "/img/models/gs5/colors/ice-blue.png",
                 "style": "background-color: #77a0e3;"
             },
             {
                 "id": "brown",
                 "name": "Коричневый металлик",
-                "carImage": "/img/models/gs5/brown.png",
+                "carImage": "/img/models/gs5/colors/brown.png",
                 "style": "background-color: #433026;"
             },
             {
                 "id": "black",
                 "name": "Элегантный черный",
-                "carImage": "/img/models/gs5/black.png",
+                "carImage": "/img/models/gs5/colors/black.png",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/gs5/silver.png",
+                "carImage": "/img/models/gs5/colors/silver.png",
                 "style": "background-color: #e0e0e0;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/gs5/white.png",
+                "carImage": "/img/models/gs5/colors/white.png",
                 "style": ""
             }
         ],
@@ -271,7 +271,7 @@
     {
         "id": "gn8",
         "show": false,
-        "homeImg": "/img/gn8/bg.jpg",
+        "homeImg": "/img/models/gn8/bg.jpg",
         "slogan": "Лучшее для тех, кто дорог",
         "name": "Gn8",
         "price": "",
@@ -281,25 +281,25 @@
             {
                 "id": "blue",
                 "name": "Синий металлик",
-                "carImage": "/img/models/gn8/blue.png",
+                "carImage": "/img/models/gn8/colors/blue.png",
                 "style": ""
             },
             {
                 "id": "brown",
                 "name": "Коричневый металлик",
-                "carImage": "/img/models/gn8/brown.png",
+                "carImage": "/img/models/gn8/colors/brown.png",
                 "style": "background-color: #433026;"
             },
             {
                 "id": "black",
                 "name": "Элегантный черный",
-                "carImage": "/img/models/gn8/black.png",
+                "carImage": "/img/models/gn8/colors/black.png",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/gn8/white.png",
+                "carImage": "/img/models/gn8/colors/white.png",
                 "style": ""
             }
         ],
