@@ -34,7 +34,7 @@
     {
         "id": 3,
         "show": true,
-        "type": "",
+        "type": "video",
         "view": "scroll-link",
         "videoUrl": "https://alexsab.ru/video/jetour-T2-tiny.mp4",
         "imageUrl": "/img/banners/t2-kv.webp",
@@ -50,7 +50,7 @@
     {
         "id": 4,
         "show": true,
-        "type": "",
+        "type": "video",
         "view": "scroll-link",
         "videoUrl": "https://alexsab.ru/video/jetour-x70plus-tiny.mp4",
         "imageUrl": "/img/banners/16957462836399.webp",
@@ -66,7 +66,7 @@
     {
         "id": 5,
         "show": true,
-        "type": "",
+        "type": "video",
         "view": "scroll-link",
         "videoUrl": "https://alexsab.ru/video/jetour-x90_plus-tiny.mp4",
         "imageUrl": "/img/banners/x90_plus.webp",
