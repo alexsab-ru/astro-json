@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "show": true
+        "show": true,
         "type": "video",
-        "view": "popup-link", 
+        "view": "popup-link",
         "videoUrl": "https://alexsab.ru/video/gac-gs8-onlycar-compress.mov",
         "imageUrl": "/img/banners/1.jpg",
         "title": "Новые автомобили GAC",
