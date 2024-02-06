@@ -759,13 +759,13 @@
                 "id": "gray",
                 "name": "Серый металлик",
                 "carImage": "/img/models/Belgee X50/colors/gray.webp",
-                "style": ""
+                "style": "background-color: #4e5253;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
                 "carImage": "/img/models/Belgee X50/colors/silver.webp",
-                "style": "background-color: #828793;"
+                "style": "background-color: #afaeb3;"
             },
             {
                 "id": "red",
