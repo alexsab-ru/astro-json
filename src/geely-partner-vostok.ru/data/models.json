@@ -748,6 +748,36 @@
                 "name": "Черный металлик",
                 "carImage": "/img/models/Belgee X50/colors/black.webp",
                 "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/Belgee X50/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Belgee X50/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/Belgee X50/colors/silver.webp",
+                "style": "background-color: #828793;"
+            },
+            {
+                "id": "red",
+                "name": "Красный",
+                "carImage": "/img/models/Belgee X50/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Голубой металлик",
+                "carImage": "/img/models/Belgee X50/colors/blue.webp",
+                "style": ""
             }
         ],
         "photos": "",
