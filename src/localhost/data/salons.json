@@ -18,7 +18,7 @@
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
             "zoom": 5,
-            "balloon": "img/empty-locator.png",
+            "balloon": "/img/empty-locator.png",
             "coords": [55.725863, 30.627600],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
@@ -30,7 +30,7 @@
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
             "zoom": 5,
-            "balloon": "img/empty-locator.png",
+            "balloon": "/img/empty-locator.png",
             "coords": [55.735853, 32.637500],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
@@ -42,7 +42,7 @@
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
             "zoom": 5,
-            "balloon": "img/empty-locator.png",
+            "balloon": "/img/empty-locator.png",
             "coords": [56.745843, 37.647400],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
@@ -54,7 +54,7 @@
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
             "zoom": 5,
-            "balloon": "img/empty-locator.png",
+            "balloon": "/img/empty-locator.png",
             "coords": [51.755833, 37.657300],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
@@ -66,7 +66,7 @@
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
             "zoom": 5,
-            "balloon": "img/empty-locator.png",
+            "balloon": "/img/empty-locator.png",
             "coords": [50.755823, 39.667200],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
