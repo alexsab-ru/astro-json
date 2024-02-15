@@ -6,7 +6,7 @@
         "work_hours": "Ежедневно с&nbsp;08:00 до&nbsp;20:00 без перерывов и&nbsp;выходных",
         "map": {
             "zoom": 16,
-            "balloon": "img/map.balloon.png",
+            "balloon": "img/gac-locator.svg",
             "coords": [53.13776, 50.178113],
             "ya_link": "https://yandex.ru/maps/51/samara/?from=api-maps&ll=50.178113%2C53.137760&mode=routes&origin=jsapi_2_1_79&rtext=~53.137760%2C50.178113&rtt=auto&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzM1NjIzMxI40KDQvtGB0YHQuNGPLCDQodCw0LzQsNGA0LAsINCu0LbQvdC-0LUg0YjQvtGB0YHQtSwgMTLRgTQiCg1jtkhCFRGNVEI%2C&z=16"
         }
