@@ -6,7 +6,7 @@
         "work_hours": "пн-пт 9:00-19:00,<br>сб 9:00-18:00,<br>вс 9:00 -18:00 (сервис не работает)",
         "map": {
             "zoom": 17,
-            "balloon": "img/geely-locator.svg",
+            "balloon": "/img/geely-locator.svg",
             "coords": [51.844881, 55.154843],
             "ya_link": "https://yandex.ru/maps/48/orenburg/?ll=55.154674%2C51.844799&mode=routes&rtext=~51.844881%2C55.154843&rtt=pd&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg2Njk2NjYwOBJF0KDQvtGB0YHQuNGPLCDQntGA0LXQvdCx0YPRgNCzLCDQl9Cw0LPQvtGA0L7QtNC90L7QtSDRiNC-0YHRgdC1LCAxMy8xIgoNkJ5cQhUpYU9C&z=17"
         }
