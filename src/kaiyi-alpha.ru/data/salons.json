@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Автоцентр Альфа Kaiyi",
+        "address": "г. Самара, ул. Новоурицкая, д. 22",
+        "phone":  "8 (846) 977-77-75",
+        "work_hours": "Ежедневно с 08:00 до 20:00",
+        "map": {
+            "zoom": 17,
+            "balloon": "/img/kaiyi-locator.svg",
+            "coords": [53.184183, 50.152134],
+            "ya_link": "https://yandex.ru/maps/51/samara/?from=api-maps&ll=50.152134%2C53.184183&mode=routes&origin=jsapi_2_1_79&rtext=~53.184183%2C50.152134&rtt=auto&ruri=~&z=17"
+        }
+    }
+]
