@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/dashing1.webp",
+        "title": "В честь открытия",
+        "descr": "Выгоды на JETOUR в НИКА АВТО до 350 000 ₽",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. В честь открытия. Баннер",
+        "badge": {
+            "autoname": "Jetour Dashing",
+            "title": "Ежегодная национальная премия",
+            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
+            "image": "/img/badge.png"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 2,
+        "type": "video",
+        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
+        "imageUrl": "/img/banner.jpg",
+        "title": "Новый JETOUR Dashing в НИКА АВТО",
+        "descr": "от&nbsp;2&nbsp;489&nbsp;900&nbsp;₽",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Новый JETOUR Dashing в НИКА АВТО. Баннер",
+        "badge": {
+            "autoname": "Jetour Dashing",
+            "title": "Ежегодная национальная премия",
+            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
+            "image": "/img/badge.png"
+        },
+        "autoplay": ""
+    }
+]
