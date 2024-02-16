@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Автохолдинг Kaiyi",
+        "address": "г. Краснодар, Тургеневское шоссе, 20",
+        "phone":  "8 (861) 992-02-03",
+        "work_hours": "Ежедневно с 08:00 до 20:00",
+        "map": {
+            "zoom": 17,
+            "balloon": "/img/kaiyi-locator.svg",
+            "coords": [45.017711, 38.937869],
+            "ya_link": "https://yandex.ru/maps/51/samara/?from=api-maps&ll=38.937869%2C45.017711&mode=routes&origin=jsapi_2_1_79&rtext=~45.017711%2C38.937869&rtt=auto&ruri=~&z=17"
+        }
+    }
+]
