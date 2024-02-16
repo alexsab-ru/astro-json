@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/livan-winter-1920x1080-notxt.webp",
+        "title": "Успей получить зимнюю резину в&nbsp;подарок!",
+        "descr": "Рассрочка <b>11&nbsp;900&nbsp;₽</b> в месяц!",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Успей получить зимнюю резину в&nbsp;подарок. Рассрочка <b>11&nbsp;900&nbsp;₽. Баннер",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/x3Pro/x3pro-hero.jpg",
+        "title": "Быть свободным",
+        "descr": "LIVAN X3PRO от&nbsp;1&nbsp;699&nbsp;900&nbsp;₽",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. LIVAN X3PRO от&nbsp;1&nbsp;699&nbsp;900&nbsp;₽. Баннер",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 2,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/x6pro/x6pro-hero.jpg",
+        "title": "Дайте Старт новому",
+        "descr": "LIVAN X6PRO от&nbsp;2&nbsp;479&nbsp;900&nbsp;₽",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. LIVAN X6PRO. Баннер",
+        "badge": "",
+        "autoplay": ""
+    },
+    {
+        "id": 2,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/s6pro/s6pro.jpg",
+        "title": "Драйв в Вашем стиле",
+        "descr": "LIVAN S6PRO от&nbsp;2&nbsp;429&nbsp;900&nbsp;₽",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. LIVAN S6PRO. Баннер",
+        "badge": "",
+        "autoplay": ""
+    }
+]
