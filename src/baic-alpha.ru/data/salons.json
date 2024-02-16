@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Дилерский центр Baic Альфа",
+        "address": "г. Самара, ул. Новоурицкая, д.&nbsp;22",
+        "phone":  "8 (846) 977-77-10",
+        "work_hours": "Ежедневно с 08:00 до 20:00",
+        "map": {
+            "zoom": 14,
+            "balloon": "/img/baic-locator.svg",
+            "coords": [53.183971, 50.151672],
+            "ya_link": "https://yandex.ru/maps/51/samara/?from=api-maps&ll=50.151672%2C53.183971&mode=routes&origin=jsapi_2_1_79&rtext=~53.183971%2C50.151672&rtt=auto&ruri=~&z=14"
+        }
+    }
+]
