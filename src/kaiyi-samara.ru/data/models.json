@@ -25,7 +25,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/e5/black.png",
+        "thumb": "/img/models/e5/colors/black.png",
         "colors": [
             {
                 "id": "gray",
@@ -123,7 +123,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x3/blue.png",
+        "thumb": "/img/models/x3/colors/blue.png",
         "colors": [
             {
                 "id": "red",
@@ -233,7 +233,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x3pro/red.png",
+        "thumb": "/img/models/x3pro/colors/red.png",
         "colors": [
             {
                 "id": "black",
