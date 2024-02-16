@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/x3Pro/x3pro-hero.jpg",
+        "title": "Выгода до&nbsp;489&nbsp;900&nbsp;₽<sup>*</sup> на&nbsp;Livan.",
+        "descr": "Акция до&nbsp;29.02. Оставьте заявку. Автомобили в&nbsp;наличии",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Выгода до 489900. Баннер",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 2,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/x6pro/x6pro-hero.jpg",
+        "title": "Дайте Старт новому",
+        "descr": "LIVAN X6PRO",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. LIVAN X6PRO. Баннер",
+        "badge": "",
+        "autoplay": ""
+    },
+    {
+        "id": 2,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/s6pro/s6pro.jpg",
+        "title": "Драйв в Вашем стиле",
+        "descr": "LIVAN S6PRO",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. LIVAN S6PRO. Баннер",
+        "badge": "",
+        "autoplay": ""
+    }
+]
