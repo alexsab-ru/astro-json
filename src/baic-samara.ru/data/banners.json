@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "type": "video",
+        "videoUrl": "https://alexsab.ru/video/baic-u5plus-compress.mp4",
+        "imageUrl": "/img/banner.jpg",
+        "title": "Минус 350&nbsp;000&nbsp;₽<sup>*</sup> на&nbsp;BAIC",
+        "descr": "Акция до&nbsp;31.12. Оставьте заявку <br> Автомобили в&nbsp;наличии",
+        "alt": "Акция минус 350000₽",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Минус 350000₽ на BAIC. Баннер",
+        "view": "popup-link",
+        "badge": {},
+        "autoplay": 14000
+    },
+    {
+        "id": 2,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/bj40.webp",
+        "title": "<span class='text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase'>0%</span> первый взнос",
+        "descr": "",
+        "alt": "0% первый взнос",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. 0% первый взнос. Баннер",
+        "view": "popup-link",
+        "badge": "",
+        "autoplay": 5000
+    },
+    {
+        "id": 3,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/baic-tyres-1920x1080-notxt-2.webp",
+        "title": "При покупке любого <span class='text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase'>BAIC</span>",
+        "descr": "вы&nbsp;получаете зимнюю резину в&nbsp;подарок!",
+        "alt": "Зимняя резина в подарок",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Зимняя резина в подарок. Баннер",
+        "view": "popup-link",
+        "badge": "",
+        "autoplay": 5000
+    }
+]

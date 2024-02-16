@@ -1,0 +1,14 @@
+[
+    {
+        "name": "МЕГА Авто Центр Baic",
+        "address": "г. Самара, Московское шоссе, 19&nbsp;км,&nbsp;7",
+        "phone":  "8 (846) 279‒00‒00",
+        "work_hours": "Ежедневно с 08:00 до 20:00",
+        "map": {
+            "zoom": 17,
+            "balloon": "/img/kaiyi-locator.svg",
+            "coords": [53.29123655327133,50.28547222883606],
+            "ya_link": "https://yandex.ru/maps/51/samara/?from=api-maps&ll=50.285472%2C53.291237&mode=routes&origin=jsapi_2_1_79&rtext=~53.291237%2C50.285472&rtt=auto&ruri=~&z=17"
+        }
+    }
+]
