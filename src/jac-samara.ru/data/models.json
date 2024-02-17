@@ -1,0 +1,656 @@
+[
+    {
+        "id": "s3",
+        "show": false,
+        "homeImg": "/img/model-bg.jpg",
+        "slogan": "Вдохновленный мегаполисом",
+        "name": "S3",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac S3",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac S3",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/s3/brown.png",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "/img/s3/white.png",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый фантом",
+                "carImage": "/img/s3/silver.png",
+                "style": "background-color: #dddddd;"
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "/img/s3/gray.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "/img/s3/black.png",
+                "style": ""
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый каштан",
+                "carImage": "/img/s3/brown.png",
+                "style": "background-color: #613302;"
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "/img/s3/red.png",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "/img/s3/blue.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2560",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4345",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1765",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "150",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "iev7s",
+        "show": false,
+        "homeImg": "/img/model-bg.jpg",
+        "slogan": "Управляй будущим",
+        "name": "IEV7S",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac IEV7S",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac IEV7S",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/iev7s/white.png",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "/img/iev7s/white.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Электро",
+            "gearbox": "AT-FGE"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2490",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4135",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1750",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "-",
+                "measure": ""
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "-",
+                "measure": ""
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "js3",
+        "show": true,
+        "homeImg": "/img/model-bg.jpg",
+        "slogan": "Семейный кроссовер для всех",
+        "name": "JS3",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac JS3",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac JS3",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/js3/silver.png",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "/img/js3/white.png",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый фантом",
+                "carImage": "/img/js3/silver.png",
+                "style": "background-color: #dddddd;"
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "/img/js3/gray.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "/img/js3/black.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2560",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4345",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1765",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "150",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "j7",
+        "show": true,
+        "homeImg": "/img/model-bg.jpg",
+        "slogan": "Дизайн от Кутюр",
+        "name": "J7",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгода на до 750 000 ₽ <sup>*</sup>",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгода на&nbsp;J7&nbsp;до&nbsp;750&nbsp;000&nbsp;₽",
+                "data_form_name": "Выгода до 750 000 ₽. Jac J7",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/j7/red.png",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "/img/j7/white.png",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "/img/j7/gray.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "/img/j7/black.png",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "/img/j7/red.png",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "/img/j7/blue.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2760",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4772",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1820",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "210",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "js6",
+        "show": true,
+        "homeImg": "/img/model-bg.jpg",
+        "slogan": "Автомобиль с уважением!",
+        "name": "JS6",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгода на до 750 000 ₽ <sup>*</sup>",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгода на&nbsp;JS6&nbsp;до&nbsp;750&nbsp;000&nbsp;₽",
+                "data_form_name": "Выгода до 750 000 ₽. Jac JS6",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/js6/black.png",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "/img/js6/white.png",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "/img/js6/gray.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "/img/js6/black.png",
+                "style": ""
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый каштан",
+                "carImage": "/img/js6/brown.png",
+                "style": "background-color: #613302;"
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "/img/js6/red.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT6"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2720",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4605",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1890",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "280",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "t6",
+        "show": true,
+        "homeImg": "/img/model-bg.jpg",
+        "slogan": "Тысячи возможностей!",
+        "name": "T6",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгода на до 200 000 ₽ <sup>*</sup>",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгода на&nbsp;T6&nbsp;до&nbsp;200&nbsp;000&nbsp;₽",
+                "data_form_name": "Выгода до 200 000 ₽. Jac T6",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/t6/white.png",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "/img/t6/white.png",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый фантом",
+                "carImage": "/img/t6/silver.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "/img/t6/black.png",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "/img/t6/red.png",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "/img/t6/blue.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бенз/Диз",
+            "gearbox": "LC6T32"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3090",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5325",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1880",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "290/320",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "t8pro",
+        "show": true,
+        "homeImg": "/img/model-bg.jpg",
+        "slogan": "Мужественный характер в ярком облике!",
+        "name": "T8 Pro",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Скоро в продаже!",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Оставить заявку на&nbsp;Jac T8&nbsp;Pro",
+                "data_form_name": "Заявка на Jac T8 Pro",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/t8pro/blue.png",
+        "colors": [
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "/img/t8pro/blue.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "LC6T32"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3090",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5325",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1880",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0-2.4",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "320",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    }
+]

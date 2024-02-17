@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/jac-tyres-1920x1080-notxt-1.webp",
+        "title": "При покупке любого JAC",
+        "descr": "вы получаете зимнюю резину <br> <div class='text-lg sm:text-3xl md:text-4xl lg:text-5xl uppercase mb-4 sm:mb-10'>в подарок!</div>",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Зимняя резина в подарок. Баннер",
+        "view": "popup-link", 
+        "badge": {},
+        "autoplay": 5000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "video",
+        "videoUrl": "https://alexsab.ru/video/jac-t8pro-compress.mp4",
+        "imageUrl": "/img/banners/1.jpg",
+        "title": "Выгода до 750 000 ₽<sup>*</sup> на JAC",
+        "descr": "Акция до&nbsp;31.12. Оставьте заявку. Автомобили в&nbsp;наличии",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Выгода до 750 000 ₽. Баннер",
+        "view": "popup-link", 
+        "badge": {},
+        "autoplay": 14000
+    }
+]
