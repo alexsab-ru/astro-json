@@ -3,6 +3,7 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "popup-link", 
         "videoUrl": "",
         "imageUrl": "/img/banners/1.jpg",
         "title": "Кузов Эксперт",
@@ -11,7 +12,6 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Онлайн запись на сервис",
         "dataFormName": "Онлайн запись на сервис. Баннер",
-        "view": "popup-link", 
         "badge": "",
         "autoplay": 7000
     }

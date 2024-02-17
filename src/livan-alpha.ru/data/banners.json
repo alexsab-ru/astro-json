@@ -1,7 +1,9 @@
 [
     {
         "id": 1,
+        "show": true,
         "type": "",
+        "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/x3Pro/x3pro-hero.jpg",
         "title": "Выгода до&nbsp;489&nbsp;900&nbsp;₽<sup>*</sup> на&nbsp;Livan.",
@@ -15,7 +17,9 @@
     },
     {
         "id": 2,
+        "show": true,
         "type": "",
+        "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/x6pro/x6pro-hero.jpg",
         "title": "Дайте Старт новому",
@@ -29,7 +33,9 @@
     },
     {
         "id": 2,
+        "show": true,
         "type": "",
+        "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/s6pro/s6pro.jpg",
         "title": "Драйв в Вашем стиле",

@@ -1,7 +1,9 @@
 [
     {
         "id": 1,
+        "show": true,
         "type": "",
+        "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/banners/livan-winter-1920x1080-notxt.webp",
         "title": "Успей получить зимнюю резину в&nbsp;подарок!",
@@ -15,7 +17,9 @@
     },
     {
         "id": 1,
+        "show": true,
         "type": "",
+        "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/x3Pro/x3pro-hero.jpg",
         "title": "Быть свободным",
@@ -29,7 +33,9 @@
     },
     {
         "id": 2,
+        "show": true,
         "type": "",
+        "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/x6pro/x6pro-hero.jpg",
         "title": "Дайте Старт новому",
@@ -43,7 +49,9 @@
     },
     {
         "id": 2,
+        "show": true,
         "type": "",
+        "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/s6pro/s6pro.jpg",
         "title": "Драйв в Вашем стиле",
