@@ -16,7 +16,7 @@
             "autoname": "KAIYI E5",
             "title": "Ежегодная национальная премия",
             "descr": "Лучший автомобиль в своём сегменте",
-            "image": "/img/banners/car-year-white.png"
+            "image": "/img/car-year-white.png"
         },
         "autoplay": 5000
     },
