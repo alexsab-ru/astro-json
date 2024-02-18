@@ -5,20 +5,20 @@
         "type": "",
         "view": "popup-link",
         "videoUrl": "",
-        "imageUrl": "/img/banners/kaiyi-tyres-1920x1080-notxt-1.webp",
-        "title": "<div class='text-lg sm:text-3xl md:text-4xl lg:text-5xl mb-1 sm:mb-4 md:mb-4' data-swiper-parallax='-20%'>При покупке любого <span class='text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase'>KAIYI</span></div><div class='text-lg sm:text-3xl md:text-4xl lg:text-5xl mb-1 sm:mb-4 md:mb-4' data-swiper-parallax='-40%'>вы получаете зимнюю резину</div><div class='text-lg sm:text-3xl md:text-4xl lg:text-5xl uppercase mb-4 sm:mb-10' data-swiper-parallax='-60%'>в подарок!</div>",
+        "imageUrl": "/img/banners/kaiyi-x3-comfort.webp",
+        "title": "<div class=\"h-full flex flex-col max-xl:justify-center\"> <div class=\"text-md sm:text-lg md:text-xl lg:text-2xl font-bold mb-2\" data-swiper-parallax=\"-20%\"> Распродажа в Автохолдинге до 29 февраля! </div> <div class=\"text-lg sm:text-2xl md:text-3xl lg:text-4xl uppercase font-bold mb-2\" data-swiper-parallax=\"-20%\"> Скидка на новый КАИ <span class=\"text-2xl sm:text-4xl md:text-5xl lg:text-6xl\">620 000 ₽</span> </div> <p data-swiper-parallax=\"-40%\" class=\"text-sm sm:text-xl md:text-2xl lg:text-3xl mt-2 mb-4 sm:mb-10 hidden min-[475px]:block\"> - Гарантированная скидка по Trade-in 320 000 руб!<br> - При покупке в кредит гарантированная скидка 300 000 руб.<br> Скидки суммируются! </p>",
         "descr": "",
-        "btn": "Узнать подробнее",
+        "btn": "Получить скидку",
         "btnUrl": "#common-modal",
-        "dataTitle": "Узнать подробнее",
-        "dataFormName": "Узнать подробнее. Баннер. Зимняя резина в подарок",
+        "dataTitle": "Получить скидку на KAIYI",
+        "dataFormName": "Распродажа. Скидка 620 000 ₽ до конца февраля. Баннер",
         "badge": {
             "autoname": "KAIYI E5",
             "title": "Ежегодная национальная премия",
             "descr": "Лучший автомобиль в своём сегменте",
             "image": "/img/car-year-white.png"
         },
-        "autoplay": 5000
+        "autoplay": 7000
     },
     {
         "id": 2,
@@ -27,13 +27,45 @@
         "view": "popup-link",
         "videoUrl": "https://alexsab.ru/video/kaiyi-e5-compress.mp4",
         "imageUrl": "/img/banners/banner.webp",
-        "title": "Выгода до&nbsp;450&nbsp;000&nbsp;₽<sup>*</sup> на&nbsp;KAIYI.",
-        "descr": "Акция до&nbsp;31.12. Оставьте заявку. Автомобили в&nbsp;наличии",
+        "title": "Рассрочка без переплат на все модели KAIYI до конца февраля!",
+        "descr": "Еще никогда покупка нового автомобиля не была такой доступной и выгодной!",
+        "btn": "Купить в рассрочку",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Получить рассрочку на KAIYI",
+        "dataFormName": "Купить в рассрочку. Рассрочка без переплат до конца февраля. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 3,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/banner.webp",
+        "title": "С&nbsp;заботой о&nbsp;Вашей безопасности!",
+        "descr": "Комплект зимних шин в&nbsp;подарок",
         "btn": "Узнать подробнее",
         "btnUrl": "#common-modal",
-        "dataTitle": "Узнать подробнее",
-        "dataFormName": "Узнать подробнее. Выгода до 450 000. Баннер",
+        "dataTitle": "Комплект зимних шин в подарок",
+        "dataFormName": "Узнать подробнее. Комплект зимних шин в подарок. Баннер",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 7000
+    },
+    {
+        "id": 4,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/e5.webp",
+        "title": "Только честные условия без навязанных страховок",
+        "descr": "",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать условия кредита без страховок",
+        "dataFormName": "Узнать подробнее. Только честные условия без навязанных страховок. Баннер",
+        "badge": "",
+        "autoplay": 7000
     }
 ]
