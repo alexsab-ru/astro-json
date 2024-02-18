@@ -12,12 +12,7 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Получить скидку на KAIYI",
         "dataFormName": "Распродажа. Скидка 620 000 ₽ до конца февраля. Баннер",
-        "badge": {
-            "autoname": "KAIYI E5",
-            "title": "Ежегодная национальная премия",
-            "descr": "Лучший автомобиль в своём сегменте",
-            "image": "/img/car-year-white.png"
-        },
+        "badge": "",
         "autoplay": 7000
     },
     {
@@ -33,7 +28,12 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Получить рассрочку на KAIYI",
         "dataFormName": "Купить в рассрочку. Рассрочка без переплат до конца февраля. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "KAIYI E5",
+            "title": "Ежегодная национальная премия",
+            "descr": "Лучший автомобиль в своём сегменте",
+            "image": "/img/car-year-white.png"
+        },
         "autoplay": 7000
     },
     {
@@ -65,7 +65,12 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Узнать условия кредита без страховок",
         "dataFormName": "Узнать подробнее. Только честные условия без навязанных страховок. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "KAIYI E5",
+            "title": "Ежегодная национальная премия",
+            "descr": "Лучший автомобиль в своём сегменте",
+            "image": "/img/car-year-white.png"
+        },
         "autoplay": 7000
     }
 ]
