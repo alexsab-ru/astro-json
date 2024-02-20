@@ -348,37 +348,37 @@
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x3pro/colors/white.png",
+                "carImage": "/img/models/x7-kunlun/colors/white.png",
                 "style": "background-color: rgba(238, 238, 238, 1);"
             },
             {
                 "id": "light-gray",
                 "name": "Светло-серый металлик",
-                "carImage": "/img/models/x3pro/colors/light-gray.png",
+                "carImage": "/img/models/x7-kunlun/colors/light-gray.png",
                 "style": "background-color: rgba(187, 187, 187, 1);"
             },
             {
                 "id": "dark-gray",
                 "name": "Тёмно-серый металлик",
-                "carImage": "/img/models/x3pro/colors/dark-gray.png",
+                "carImage": "/img/models/x7-kunlun/colors/dark-gray.png",
                 "style": "background-color: rgba(102, 102, 102, 1);"
             },
             {
                 "id": "black",
                 "name": "Чёрный металлик",
-                "carImage": "/img/models/x3pro/colors/black.png",
+                "carImage": "/img/models/x7-kunlun/colors/black.png",
                 "style": "background-color: rgba(0, 0, 0, 1);"
             },
             {
                 "id": "dark-blue",
                 "name": "Тёмно-синий металлик",
-                "carImage": "/img/models/x3pro/colors/dark-blue.png",
+                "carImage": "/img/models/x7-kunlun/colors/dark-blue.png",
                 "style": "background-color: rgba(3, 6, 41, 1);"
             },
             {
                 "id": "purple",
                 "name": "Фиолетовый металлик",
-                "carImage": "/img/models/x3pro/colors/purple.png",
+                "carImage": "/img/models/x7-kunlun/colors/purple.png",
                 "style": "background-color: rgba(15, 12, 71, 1);"
             }
         ],
