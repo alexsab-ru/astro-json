@@ -582,7 +582,7 @@
         ]
     },
     {
-        "id": "t8pro",
+        "id": "t8-pro",
         "show": true,
         "homeImg": "/img/model-bg.jpg",
         "slogan": "Мужественный характер в ярком облике!",
@@ -599,12 +599,12 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t8pro/colors/blue.png",
+        "thumb": "/img/models/t8-pro/colors/blue.png",
         "colors": [
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/t8pro/colors/blue.png",
+                "carImage": "/img/models/t8-pro/colors/blue.png",
                 "style": ""
             }
         ],
