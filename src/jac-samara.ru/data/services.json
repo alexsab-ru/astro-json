@@ -1,5 +1,5 @@
 [
-    {"icon": "mdi:car-key", "title": "Новые автомобили", "url": "/cars/" },
+    {"icon": "mdi:car-key", "title": "Новые автомобили", "url": "" },
     {"icon": "mdi:car", "title": "Тест-драйв", "url": "" },
     {"icon": "mdi:car-settings", "title": "Сервис", "url": "" },
     {"icon": "mdi:car-wash", "title": "Мойка", "url": "" },
