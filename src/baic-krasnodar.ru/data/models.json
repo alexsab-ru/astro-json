@@ -196,6 +196,238 @@
         ]
     },
     {
+        "id": "x55",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Динамичный кроссовер",
+        "name": "X55",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X55",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X55",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x55/colors/yellow-with-black-roof.png",
+        "colors": [
+            {
+                "id": "yellow-with-black-roof",
+                "name": "Жёлтый металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/yellow-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(161, 153, 7, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "red-with-black-roof",
+                "name": "Красный металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/red-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(201, 17, 18, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "white-with-black-roof",
+                "name": "Белый металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/white-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(193, 193, 193, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "gray-with-black-roof",
+                "name": "Серый металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/gray-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(94, 104, 96, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "light-gray-with-black-roof",
+                "name": "Светло-серый металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/light-gray-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(157, 166, 171, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/x55/colors/red.png",
+                "style": "background-color: rgba(201, 17, 18, 1);"
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/x55/colors/white.png",
+                "style": "background-color: rgba(193, 193, 193, 1);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/x55/colors/gray.png",
+                "style": "background-color: rgba(94, 104, 96, 1);"
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый металлик",
+                "carImage": "/img/models/x55/colors/light-gray.png",
+                "style": "background-color: rgba(157, 166, 171, 1);"
+            },
+            {
+                "id": "yellow",
+                "name": "Жёлтый металлик",
+                "carImage": "/img/models/x55/colors/yellow.png",
+                "style": "background-color: rgba(161, 153, 7, 1);"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7-DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2735",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4620",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1886",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "300",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "x7",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Привлекательный и просторный кроссовер",
+        "name": "X7",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X7",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X7",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x7/colors/gray.png",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Чёрный металлик",
+                "carImage": "/img/models/x7/colors/black.png",
+                "style": "background-color: rgba(0, 0, 0, 1);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/x7/colors/gray.png",
+                "style": "background-color: rgba(133, 133, 133, 1);"
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/x7/colors/silver.png",
+                "style": "background-color: rgba(180, 180, 180, 1);"
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/x7/colors/white.png",
+                "style": "background-color: rgba(233, 233, 233, 1);"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4710",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1892",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "270",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
         "id": "bj40",
         "show": true,
         "homeImg": "/img/models/bj40/bg.jpg",
