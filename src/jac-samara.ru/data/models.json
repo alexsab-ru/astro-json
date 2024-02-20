@@ -2,7 +2,7 @@
     {
         "id": "s3",
         "show": false,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Вдохновленный мегаполисом",
         "name": "S3",
         "price": "",
@@ -118,7 +118,7 @@
     {
         "id": "iev7s",
         "show": false,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Управляй будущим",
         "name": "IEV7S",
         "price": "",
@@ -198,7 +198,7 @@
     {
         "id": "js3",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Семейный кроссовер для всех",
         "name": "JS3",
         "price": "",
@@ -296,7 +296,7 @@
     {
         "id": "j7",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Дизайн от Кутюр",
         "name": "J7",
         "price": "",
@@ -392,7 +392,7 @@
     {
         "id": "js6",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Автомобиль с уважением!",
         "name": "JS6",
         "price": "",
@@ -488,7 +488,7 @@
     {
         "id": "t6",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Тысячи возможностей!",
         "name": "T6",
         "price": "",
@@ -584,7 +584,7 @@
     {
         "id": "t8-pro",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Мужественный характер в ярком облике!",
         "name": "T8 Pro",
         "price": "",
