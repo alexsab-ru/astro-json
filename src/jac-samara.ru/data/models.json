@@ -304,7 +304,7 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгода на до 750 000 ₽ <sup>*</sup>",
+                "label": "Выгода до 750 000 ₽ <sup>*</sup>",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгода на&nbsp;J7&nbsp;до&nbsp;750&nbsp;000&nbsp;₽",
                 "data_form_name": "Выгода до 750 000 ₽. Jac J7",
@@ -400,7 +400,7 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгода на до 750 000 ₽ <sup>*</sup>",
+                "label": "Выгода до 750 000 ₽ <sup>*</sup>",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгода на&nbsp;JS6&nbsp;до&nbsp;750&nbsp;000&nbsp;₽",
                 "data_form_name": "Выгода до 750 000 ₽. Jac JS6",
@@ -496,7 +496,7 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгода на до 200 000 ₽ <sup>*</sup>",
+                "label": "Выгода до 200 000 ₽ <sup>*</sup>",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгода на&nbsp;T6&nbsp;до&nbsp;200&nbsp;000&nbsp;₽",
                 "data_form_name": "Выгода до 200 000 ₽. Jac T6",
