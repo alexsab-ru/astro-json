@@ -52,7 +52,7 @@
                 "style": "background-color: #000000;"
             }
         ],
-        "photos": "https://baic-krasnodar.ru/data/u5plus.json",
+        "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
