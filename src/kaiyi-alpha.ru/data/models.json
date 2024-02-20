@@ -316,5 +316,115 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "id": "x7-kunlun",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Создан для молодого поколения",
+        "name": "X7 Kunlun",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X7 Kunlun",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X7 Kunlun",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x7-kunlun/colors/white.png",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/x3pro/colors/white.png",
+                "style": "background-color: rgba(238, 238, 238, 1);"
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый металлик",
+                "carImage": "/img/models/x3pro/colors/light-gray.png",
+                "style": "background-color: rgba(187, 187, 187, 1);"
+            },
+            {
+                "id": "dark-gray",
+                "name": "Тёмно-серый металлик",
+                "carImage": "/img/models/x3pro/colors/dark-gray.png",
+                "style": "background-color: rgba(102, 102, 102, 1);"
+            },
+            {
+                "id": "black",
+                "name": "Чёрный металлик",
+                "carImage": "/img/models/x3pro/colors/black.png",
+                "style": "background-color: rgba(0, 0, 0, 1);"
+            },
+            {
+                "id": "dark-blue",
+                "name": "Тёмно-синий металлик",
+                "carImage": "/img/models/x3pro/colors/dark-blue.png",
+                "style": "background-color: rgba(3, 6, 41, 1);"
+            },
+            {
+                "id": "purple",
+                "name": "Фиолетовый металлик",
+                "carImage": "/img/models/x3pro/colors/purple.png",
+                "style": "background-color: rgba(15, 12, 71, 1);"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7-DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4710",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1964",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6-2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "275/375",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
     }
 ]
