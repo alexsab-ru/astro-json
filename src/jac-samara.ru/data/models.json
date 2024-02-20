@@ -2,7 +2,7 @@
     {
         "id": "s3",
         "show": false,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Вдохновленный мегаполисом",
         "name": "S3",
         "price": "",
@@ -118,7 +118,7 @@
     {
         "id": "iev7s",
         "show": false,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Управляй будущим",
         "name": "IEV7S",
         "price": "",
@@ -198,7 +198,7 @@
     {
         "id": "js3",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Семейный кроссовер для всех",
         "name": "JS3",
         "price": "",
@@ -296,7 +296,7 @@
     {
         "id": "j7",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Дизайн от Кутюр",
         "name": "J7",
         "price": "",
@@ -304,7 +304,7 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгода на до 750 000 ₽ <sup>*</sup>",
+                "label": "Выгода до 750 000 ₽ <sup>*</sup>",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгода на&nbsp;J7&nbsp;до&nbsp;750&nbsp;000&nbsp;₽",
                 "data_form_name": "Выгода до 750 000 ₽. Jac J7",
@@ -392,7 +392,7 @@
     {
         "id": "js6",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Автомобиль с уважением!",
         "name": "JS6",
         "price": "",
@@ -400,7 +400,7 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгода на до 750 000 ₽ <sup>*</sup>",
+                "label": "Выгода до 750 000 ₽ <sup>*</sup>",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгода на&nbsp;JS6&nbsp;до&nbsp;750&nbsp;000&nbsp;₽",
                 "data_form_name": "Выгода до 750 000 ₽. Jac JS6",
@@ -488,7 +488,7 @@
     {
         "id": "t6",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Тысячи возможностей!",
         "name": "T6",
         "price": "",
@@ -496,7 +496,7 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгода на до 200 000 ₽ <sup>*</sup>",
+                "label": "Выгода до 200 000 ₽ <sup>*</sup>",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгода на&nbsp;T6&nbsp;до&nbsp;200&nbsp;000&nbsp;₽",
                 "data_form_name": "Выгода до 200 000 ₽. Jac T6",
@@ -584,7 +584,7 @@
     {
         "id": "t8-pro",
         "show": true,
-        "homeImg": "/img/model-bg.jpg",
+        "homeImg": "/img/model-bg.webp",
         "slogan": "Мужественный характер в ярком облике!",
         "name": "T8 Pro",
         "price": "",
