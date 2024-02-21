@@ -8,7 +8,7 @@
     {"icon": "mdi:shield-check-outline","title": "Гарантийный ремонт", "url": "" },
     {"icon": "mdi:car-3-plus", "title": "Автомобили с пробегом", "url": "" },
     {"icon": "mdi:autorenew","title": "Trade-in", "url": "" },
-    {"icon": "mdi:car-battery", "title": "Продажа запасный частей", "url": "" },
+    {"icon": "mdi:car-battery", "title": "Продажа запасных частей", "url": "" },
     {"icon": "mdi:cash-100", "title": "Выкуп автомобилей", "url": "" },
     {"icon": "mdi:credit-card-check","title": "Кредитование", "url": "" },
     {"icon": "mdi:shield-car","title": "Страхование", "url": ""}
