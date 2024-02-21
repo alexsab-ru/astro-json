@@ -1,8 +1,8 @@
 [
     {
-        "id": "x3Pro",
+        "id": "x3pro",
         "show": true,
-        "homeImg": "/img/models/x3Pro/bg2.webp",
+        "homeImg": "/img/models/x3pro/bg2.webp",
         "slogan": "Быть свободным",
         "name": "X3PRO",
         "price": 1699900,
@@ -25,36 +25,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x3Pro/thumb.webp",
+        "thumb": "/img/models/x3pro/thumb.webp",
         "colors": [
             {
                 "id": "gold",
                 "name": "Золотой",
-                "carImage": "/img/models/x3Pro/colors/gold.webp",
+                "carImage": "/img/models/x3pro/colors/gold.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/x3Pro/colors/white.webp",
+                "carImage": "/img/models/x3pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x3Pro/colors/red.webp",
+                "carImage": "/img/models/x3pro/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Голубой",
-                "carImage": "/img/models/x3Pro/colors/blue.webp",
+                "carImage": "/img/models/x3pro/colors/blue.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/x3Pro/colors/gray.webp",
+                "carImage": "/img/models/x3pro/colors/gray.webp",
                 "style": ""
             }
         ],
