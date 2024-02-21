@@ -25,30 +25,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x3Pro/colors/gold.png",
+        "thumb": "/img/models/x3Pro/thumb.png",
         "colors": [
             {
                 "id": "gold",
                 "name": "Золотой",
-                "carImage": "/img/models/x3Pro/colors/gold.png",
+                "carImage": "/img/models/x3Pro/colors/gold.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/x3Pro/colors/white.png",
+                "carImage": "/img/models/x3Pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x3Pro/colors/red.png",
+                "carImage": "/img/models/x3Pro/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Голубой",
-                "carImage": "/img/models/x3Pro/colors/blue.png",
+                "carImage": "/img/models/x3Pro/colors/blue.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/x3Pro/colors/gray.webp",
                 "style": ""
             }
         ],
@@ -123,24 +129,24 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x6pro/colors/gray.png",
+        "thumb": "/img/models/x6pro/thumb.png",
         "colors": [
             {
                 "id": "gray",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x6pro/colors/gray.png",
+                "carImage": "/img/models/x6pro/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x6pro/colors/white.png",
+                "carImage": "/img/models/x6pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/x6pro/colors/blue.png",
+                "carImage": "/img/models/x6pro/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -215,24 +221,24 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s6pro/colors/green.png",
+        "thumb": "/img/models/s6pro/thumb.png",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/s6pro/colors/white.png",
+                "carImage": "/img/models/s6pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/s6pro/colors/gray.png",
+                "carImage": "/img/models/s6pro/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "light-blue",
                 "name": "Голубой металлик",
-                "carImage": "/img/models/s6pro/colors/light-blue.png",
+                "carImage": "/img/models/s6pro/colors/light-blue.webp",
                 "style": ""
             }
         ],
