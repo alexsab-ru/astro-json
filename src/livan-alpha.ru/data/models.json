@@ -25,7 +25,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x3Pro/thumb.png",
+        "thumb": "/img/models/x3Pro/thumb.webp",
         "colors": [
             {
                 "id": "gold",
@@ -129,7 +129,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x6pro/thumb.png",
+        "thumb": "/img/models/x6pro/thumb.webp",
         "colors": [
             {
                 "id": "gray",
@@ -221,7 +221,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s6pro/thumb.png",
+        "thumb": "/img/models/s6pro/thumb.webp",
         "colors": [
             {
                 "id": "white",
