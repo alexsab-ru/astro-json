@@ -44,7 +44,7 @@
         "view": "popup-link",
         "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
         "imageUrl": "/img/banners/banner.jpg",
-        "title": "Успей получить свою скидку до <span class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl">500 000</span> руб <br class="hidden xl:inline-block">и подарки от Автохолдинга до конца года.",
+        "title": 'Успей получить свою скидку до <span class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl">500 000</span> руб <br class="hidden xl:inline-block">и подарки от Автохолдинга до конца года.',
         "descr": "Забирай свой новый автомобиль с комплектом зимних шин и сигнализацией в подарок!",
         "btn": "Узнать подробнее",
         "btnUrl": "#common-modal",
