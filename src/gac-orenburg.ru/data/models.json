@@ -1,0 +1,351 @@
+[
+    {
+        "id": "gs8ii",
+        "show": true,
+        "homeImg": "/img/models/gs8ii/bg.jpg",
+        "slogan": "Новое поколение превосходства",
+        "name": "GS8 II",
+        "price": "",
+        "thumb": "/img/models/gs8ii/colors/green.png",
+        "colors": [
+            {
+                "id": "green",
+                "name": "Зеленый металлик",
+                "carImage": "/img/models/gs8ii/colors/green.png",
+                "style": "background-color: #00747c;"
+            },
+            {
+                "id": "white",
+                "name": "Кристально-белый",
+                "carImage": "/img/models/gs8ii/colors/white.png",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "carImage": "/img/models/gs8ii/colors/silver.png",
+                "style": "background-color: #e0e0e0;"
+            },
+            {
+                "id": "gray",
+                "name": "Лунный серый",
+                "carImage": "/img/models/gs8ii/colors/gray.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Элегантный черный",
+                "carImage": "/img/models/gs8ii/colors/black.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2920",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4980",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1950",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "400",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "gs8",
+        "show": false,
+        "homeImg": "/img/models/gs8/bg.jpg",
+        "slogan": "Стремись к большему",
+        "name": "GS8",
+        "price": "",
+        "profit": 300000,
+        "thumb": "/img/models/gs8/colors/gray.png",
+        "colors": [
+            {
+                "id": "gray",
+                "name": "Лунный серый",
+                "carImage": "/img/models/gs8/colors/gray.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Элегантный черный",
+                "carImage": "/img/models/gs8/colors/black.png",
+                "style": ""
+            },
+            {
+                "id": "ice-blue",
+                "name": "Ледяной синий",
+                "carImage": "/img/models/gs8/colors/ice-blue.png",
+                "style": "background-color: #77a0e3;"
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/gs8/colors/blue.png",
+                "style": ""
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый металлик",
+                "carImage": "/img/models/gs8/colors/brown.png",
+                "style": "background-color: #433026;"
+            },
+            {
+                "id": "white",
+                "name": "Кристально-белый",
+                "carImage": "/img/models/gs8/colors/white.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4835",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1910",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "320",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный/Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "gs5",
+        "show": true,
+        "homeImg": "/img/models/gs5/bg.jpg",
+        "slogan": "Удовольствие везти, наслаждение кататься",
+        "name": "GS5",
+        "price": "",
+        "profit": 200000,
+        "thumb": "/img/models/gs5/colors/gray.png",
+        "colors": [
+            {
+                "id": "gray",
+                "name": "Лунный серый",
+                "carImage": "/img/models/gs5/colors/gray.png",
+                "style": ""
+            },
+            {
+                "id": "ice-blue",
+                "name": "Ледяной синий",
+                "carImage": "/img/models/gs5/colors/ice-blue.png",
+                "style": "background-color: #77a0e3;"
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый металлик",
+                "carImage": "/img/models/gs5/colors/brown.png",
+                "style": "background-color: #433026;"
+            },
+            {
+                "id": "black",
+                "name": "Элегантный черный",
+                "carImage": "/img/models/gs5/colors/black.png",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/gs5/colors/silver.png",
+                "style": "background-color: #e0e0e0;"
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/gs5/colors/white.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "MT/AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2710",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4695",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1885",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "216",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "id": "gn8",
+        "show": false,
+        "homeImg": "/img/models/gn8/bg.jpg",
+        "slogan": "Лучшее для тех, кто дорог",
+        "name": "Gn8",
+        "price": "",
+        "profit": "",
+        "thumb": "/img/models/gn8/colors/blue.png",
+        "colors": [
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/gn8/colors/blue.png",
+                "style": ""
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый металлик",
+                "carImage": "/img/models/gn8/colors/brown.png",
+                "style": "background-color: #433026;"
+            },
+            {
+                "id": "black",
+                "name": "Элегантный черный",
+                "carImage": "/img/models/gn8/colors/black.png",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/gn8/colors/white.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3000",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5066",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1923",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "320",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    }
+]
