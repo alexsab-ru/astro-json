@@ -6,7 +6,7 @@
         "slogan": "Открывайте новые горизонты",
         "name": "M8",
         "price": "",
-        "thumb": "/img/models/m8/colors/gold.png",
+        "thumb": "/img/models/m8/colors/gold.webp",
         "colors": [
             {
                 "id": "white",
@@ -18,7 +18,7 @@
                 "id": "gold",
                 "name": "Золотой",
                 "carImage": "/img/models/m8/colors/gold.webp",
-                "style": ""
+                "style": "background-color: #B7A38A;"
             },
             {
                 "id": "black",
