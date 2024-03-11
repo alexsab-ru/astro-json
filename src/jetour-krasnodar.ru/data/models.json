@@ -25,31 +25,31 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t2/color-change/c3b.png",
+        "thumb": "/img/models/t2/colors/c3b.png",
         "colors": [
             {
                 "id": "c1b",
                 "name": "Галактический черный",
-                "carImage": "/img/models/t2/color-change/c1b.png",
-                "style": "background-image: url(/img/models/t2/color-change/c1bkm.png);"
+                "carImage": "/img/models/t2/colors/c1b.png",
+                "style": "background-image: url(/img/models/t2/colors/c1bkm.png);"
             },
             {
                 "id": "c2b",
                 "name": "Cветло-серый",
-                "carImage": "/img/models/t2/color-change/c2b.png",
-                "style": "background-image: url(/img/models/t2/color-change/c2bkm.png);"
+                "carImage": "/img/models/t2/colors/c2b.png",
+                "style": "background-image: url(/img/models/t2/colors/c2bkm.png);"
             },
             {
                 "id": "c3b",
                 "name": "Золотой металлик",
-                "carImage": "/img/models/t2/color-change/c3b.png",
-                "style": "background-image: url(/img/models/t2/color-change/c3bkm.png);"
+                "carImage": "/img/models/t2/colors/c3b.png",
+                "style": "background-image: url(/img/models/t2/colors/c3bkm.png);"
             },
             {
                 "id": "c4b",
                 "name": "Призрачный серый",
-                "carImage": "/img/models/t2/color-change/c4b.png",
-                "style": "background-image: url(/img/models/t2/color-change/c4bkm.png);"
+                "carImage": "/img/models/t2/colors/c4b.png",
+                "style": "background-image: url(/img/models/t2/colors/c4bkm.png);"
             }
         ],
         "photos": "",
@@ -123,49 +123,49 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/dashing/color-change/c4b.png",
+        "thumb": "/img/models/dashing/colors/c4b.png",
         "colors": [
             {
                 "id": "c1b",
                 "name": "Лунный белый",
-                "carImage": "/img/models/dashing/color-change/c1b.png",
-                "style": "background-image: url(/img/models/dashing/color-change/c1bkm.png);"
+                "carImage": "/img/models/dashing/colors/c1b.png",
+                "style": "background-image: url(/img/models/dashing/colors/c1bkm.png);"
             },
             {
                 "id": "c2b",
                 "name": "Галактический черный",
-                "carImage": "/img/models/dashing/color-change/c2b.png",
-                "style": "background-image: url(/img/models/dashing/color-change/c2bkm.png);"
+                "carImage": "/img/models/dashing/colors/c2b.png",
+                "style": "background-image: url(/img/models/dashing/colors/c2bkm.png);"
             },
             {
                 "id": "c3b",
                 "name": "Шелковый красный",
-                "carImage": "/img/models/dashing/color-change/c3b.png",
-                "style": "background-image: url(/img/models/dashing/color-change/c3bkm.png);"
+                "carImage": "/img/models/dashing/colors/c3b.png",
+                "style": "background-image: url(/img/models/dashing/colors/c3bkm.png);"
             },
             {
                 "id": "c4b",
                 "name": "Ванильный голубой",
-                "carImage": "/img/models/dashing/color-change/c4b.png",
-                "style": "background-image: url(/img/models/dashing/color-change/c4bkm.png);"
+                "carImage": "/img/models/dashing/colors/c4b.png",
+                "style": "background-image: url(/img/models/dashing/colors/c4bkm.png);"
             },
             {
                 "id": "c5b",
                 "name": "Призрачный серый",
-                "carImage": "/img/models/dashing/color-change/c5b.png",
-                "style": "background-image: url(/img/models/dashing/color-change/c5bkm.png);"
+                "carImage": "/img/models/dashing/colors/c5b.png",
+                "style": "background-image: url(/img/models/dashing/colors/c5bkm.png);"
             },
             {
                 "id": "c6b",
                 "name": "Изумрудно-зеленый",
-                "carImage": "/img/models/dashing/color-change/c6b.png",
-                "style": "background-image: url(/img/models/dashing/color-change/c6bkm.png);"
+                "carImage": "/img/models/dashing/colors/c6b.png",
+                "style": "background-image: url(/img/models/dashing/colors/c6bkm.png);"
             },
             {
                 "id": "c7b",
                 "name": "Cветло-серый",
-                "carImage": "/img/models/dashing/color-change/c7b.png",
-                "style": "background-image: url(/img/models/dashing/color-change/c7bkm.png);"
+                "carImage": "/img/models/dashing/colors/c7b.png",
+                "style": "background-image: url(/img/models/dashing/colors/c7bkm.png);"
             }
         ],
         "photos": "",
@@ -239,37 +239,37 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x90plus/color-change/c4b.png",
+        "thumb": "/img/models/x90plus/colors/c4b.png",
         "colors": [
             {
                 "id": "c5b",
                 "name": "Арктический белый",
-                "carImage": "/img/models/x90plus/color-change/c5b.png",
-                "style": "background-image: url(/img/models/x90plus/color-change/c5bkm.png);"
+                "carImage": "/img/models/x90plus/colors/c5b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c5bkm.png);"
             },
             {
                 "id": "c1b",
                 "name": "Галактический черный",
-                "carImage": "/img/models/x90plus/color-change/c1b.png",
-                "style": "background-image: url(/img/models/x90plus/color-change/c1bkm.png);"
+                "carImage": "/img/models/x90plus/colors/c1b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c1bkm.png);"
             },
             {
                 "id": "c2b",
                 "name": "Океанический синий",
-                "carImage": "/img/models/x90plus/color-change/c2b.png",
-                "style": "background-image: url(/img/models/x90plus/color-change/c2bkm.png);"
+                "carImage": "/img/models/x90plus/colors/c2b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c2bkm.png);"
             },
             {
                 "id": "c4b",
                 "name": "Фиолетовый дракон",
-                "carImage": "/img/models/x90plus/color-change/c4b.png",
-                "style": "background-image: url(/img/models/x90plus/color-change/c4bkm.png);"
+                "carImage": "/img/models/x90plus/colors/c4b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c4bkm.png);"
             },
             {
                 "id": "c3b",
                 "name": "Призрачный серый",
-                "carImage": "/img/models/x90plus/color-change/c3b.png",
-                "style": "background-image: url(/img/models/x90plus/color-change/c3bkm.png);"
+                "carImage": "/img/models/x90plus/colors/c3b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c3bkm.png);"
             }
         ],
         "photos": "",
@@ -343,49 +343,49 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x70plus/color-change/c4b.png",
+        "thumb": "/img/models/x70plus/colors/c4b.png",
         "colors": [
             {
                 "id": "c1b",
                 "name": "Арктический белый",
-                "carImage": "/img/models/x70plus/color-change/c1b.png",
-                "style": "background-image: url(/img/models/x70plus/color-change/c1bkm.png);"
+                "carImage": "/img/models/x70plus/colors/c1b.png",
+                "style": "background-image: url(/img/models/x70plus/colors/c1bkm.png);"
             },
             {
                 "id": "c2b",
                 "name": "Светло-серый",
-                "carImage": "/img/models/x70plus/color-change/c2b.png",
-                "style": "background-image: url(/img/models/x70plus/color-change/c2bkm.png);"
+                "carImage": "/img/models/x70plus/colors/c2b.png",
+                "style": "background-image: url(/img/models/x70plus/colors/c2bkm.png);"
             },
             {
                 "id": "c3b",
                 "name": "Шелковый красный",
-                "carImage": "/img/models/x70plus/color-change/c3b.png",
-                "style": "background-image: url(/img/models/x70plus/color-change/c3bkm.png);"
+                "carImage": "/img/models/x70plus/colors/c3b.png",
+                "style": "background-image: url(/img/models/x70plus/colors/c3bkm.png);"
             },
             {
                 "id": "c4b",
                 "name": "Призрачный серый",
-                "carImage": "/img/models/x70plus/color-change/c4b.png",
-                "style": "background-image: url(/img/models/x70plus/color-change/c4bkm.png);"
+                "carImage": "/img/models/x70plus/colors/c4b.png",
+                "style": "background-image: url(/img/models/x70plus/colors/c4bkm.png);"
             },
             {
                 "id": "c5b",
                 "name": "Океанический синий",
-                "carImage": "/img/models/x70plus/color-change/c5b.png",
-                "style": "background-image: url(/img/models/x70plus/color-change/c5bkm.png);"
+                "carImage": "/img/models/x70plus/colors/c5b.png",
+                "style": "background-image: url(/img/models/x70plus/colors/c5bkm.png);"
             },
             {
                 "id": "c6b",
                 "name": "Темно-синий",
-                "carImage": "/img/models/x70plus/color-change/c6b.png",
-                "style": "background-image: url(/img/models/x70plus/color-change/c6bkm.png);"
+                "carImage": "/img/models/x70plus/colors/c6b.png",
+                "style": "background-image: url(/img/models/x70plus/colors/c6bkm.png);"
             },
             {
                 "id": "c7b",
                 "name": "Галактический черный",
-                "carImage": "/img/models/x70plus/color-change/c7b.png",
-                "style": "background-image: url(/img/models/x70plus/color-change/c7bkm.png);"
+                "carImage": "/img/models/x70plus/colors/c7b.png",
+                "style": "background-image: url(/img/models/x70plus/colors/c7bkm.png);"
             }
         ],
         "photos": "",
