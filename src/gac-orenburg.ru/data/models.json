@@ -15,16 +15,28 @@
                 "style": ""
             },
             {
-                "id": "gold",
-                "name": "Золотой",
-                "carImage": "/img/models/m8/colors/gold.webp",
-                "style": "background-color: #B7A38A;"
-            },
-            {
                 "id": "black",
                 "name": "Элегантный черный",
                 "carImage": "/img/models/m8/colors/black.webp",
                 "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/m8/colors/blue.webp",
+                "style": ""
+            },
+            {
+                "id": "green",
+                "name": "Зеленый металлик",
+                "carImage": "/img/models/m8/colors/green.webp",
+                "style": ""
+            },
+            {
+                "id": "gold",
+                "name": "Золотой",
+                "carImage": "/img/models/m8/colors/gold.webp",
+                "style": "background-color: #B7A38A;"
             }
         ],
         "photos": "",
