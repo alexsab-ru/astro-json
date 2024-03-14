@@ -30,7 +30,7 @@
                 "id": "green",
                 "name": "Зеленый металлик",
                 "carImage": "/img/models/m8/colors/green.webp",
-                "style": ""
+                "style": "background-color: #00747c;"
             },
             {
                 "id": "gold",
