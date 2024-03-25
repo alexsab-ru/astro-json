@@ -258,6 +258,12 @@
                 "name": "Черный металлик",
                 "carImage": "/img/models/Emgrand/colors/black-metallic.webp",
                 "style": ""
+            },
+            {
+                "id": "gray-blue",
+                "name": "Серо-голубой металлик",
+                "carImage": "/img/models/Emgrand/colors/gray-blue-metallic.webp",
+                "style": "background-color: #bdc9d5;"
             }
         ],
         "photos": "",
