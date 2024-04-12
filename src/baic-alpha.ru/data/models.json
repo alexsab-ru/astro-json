@@ -38,7 +38,7 @@
                 "id": "silver",
                 "name": "Серебристый металлик",
                 "carImage": "/img/models/x75/colors/silver.webp",
-                "style": ""
+                "style": "background-color: rgba(221, 221, 221, 1);"
             },
             {
                 "id": "dark-gray",
