@@ -1,5 +1,146 @@
 [
     {
+        "id": "x75",
+        "centered": true,
+        "show": true,
+        "homeImg": "/img/models/x35/bg.jpg",
+        "slogan": "Современный дизайн и яркая харизма",
+        "name": "X75",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X75",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X75",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x75/colors/red-black.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый перламутр",
+                "carImage": "/img/models/x75/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/x75/colors/silver.webp",
+                "style": ""
+            },
+            {
+                "id": "dark-gray",
+                "name": "Тёмно-серый металлик",
+                "carImage": "/img/models/x75/colors/dark-gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный металлик",
+                "carImage": "/img/models/x75/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/x75/colors/red.webp",
+                "style": "background-color: rgba(135, 26, 26, 1);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/x75/colors/blue.webp",
+                "style": "background-color: rgba(60, 65, 132, 1);"
+            },
+            {
+                "id": "white-black",
+                "name": "Белый перламутр с чёрной крышей",
+                "carImage": "/img/models/x75/colors/white-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(238, 238, 238, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "silver-black",
+                "name": "Серебристый металлик с чёрной крышей",
+                "carImage": "/img/models/x75/colors/silver-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(221, 221, 221, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "dark-gray-black",
+                "name": "Тёмно-серый металлик с чёрной крышей",
+                "carImage": "/img/models/x75/colors/dark-gray-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(136, 136, 136, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "red-black",
+                "name": "Красный металлик с чёрной крышей",
+                "carImage": "/img/models/x75/colors/red-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(135, 26, 26, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "blue-black",
+                "name": "Синий металлик с чёрной крышей",
+                "carImage": "/img/models/x75/colors/blue-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(60, 65, 132, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7-DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4745",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1892",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "300",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
         "id": "u5-plus",
         "show": true,
         "homeImg": "/img/models/u5-plus/bg.jpg",
