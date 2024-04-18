@@ -294,7 +294,7 @@
                 "id": "silver",
                 "name": "Серебристый металлик",
                 "carImage": "/img/models/x35/colors/silver.png",
-                "style": ""
+                "style": "background-color: rgba(170, 170, 170, 1);"
             }
         ],
         "photos": "",
