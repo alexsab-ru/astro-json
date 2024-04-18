@@ -50,6 +50,12 @@
                 "name": "Белый",
                 "carImage": "/img/models/Atlas-2024/colors/white.webp",
                 "style": ""
+            },
+            {
+                "id": "racing-green",
+                "name": "Зеленый металлик",
+                "carImage": "/img/models/Atlas-2024/colors/racing-green.webp",
+                "style": "background-color: #487f76;"
             }
         ],
         "photos": "",
