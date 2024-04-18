@@ -274,7 +274,7 @@
             },
             {
                 "id": "white",
-                "name": "Белый металлик",
+                "name": "Белый перламутр",
                 "carImage": "/img/models/x35/colors/white.png",
                 "style": ""
             },
@@ -286,8 +286,14 @@
             },
             {
                 "id": "bronze",
-                "name": "Бронзовый металликк",
+                "name": "Бронзовый металлик",
                 "carImage": "/img/models/x35/colors/bronze.png",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/x35/colors/silver.png",
                 "style": ""
             }
         ],
