@@ -778,6 +778,12 @@
                 "name": "Белый металлик",
                 "carImage": "/img/models/Monjaro/colors/white-metallic.webp",
                 "style": ""
+            },
+            {
+                "id": "lomo-gray",
+                "name": "Серый матовый",
+                "carImage": "/img/models/Monjaro/colors/lomo-gray.webp",
+                "style": "background-color: #5e6775;"
             }
         ],
         "photos": "",
