@@ -1,5 +1,103 @@
 [
     {
+        "id": "t9",
+        "show": false,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Рождённый для приключений",
+        "name": "T9",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac T9",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac T9",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/t9/colors/red.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "/img/models/t9/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "/img/models/t9/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "/img/models/t9/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "/img/models/t9/colors/blue.webp",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Дизель",
+            "gearbox": "A8R50"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3110",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5330",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1965",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "390",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
         "id": "s3",
         "show": false,
         "homeImg": "/img/model-bg.webp",
