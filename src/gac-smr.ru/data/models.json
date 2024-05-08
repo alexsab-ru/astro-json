@@ -21,18 +21,6 @@
                 "style": ""
             },
             {
-                "id": "blue",
-                "name": "Синий металлик",
-                "carImage": "/img/models/m8/colors/blue.webp",
-                "style": ""
-            },
-            {
-                "id": "green",
-                "name": "Зеленый металлик",
-                "carImage": "/img/models/m8/colors/green.webp",
-                "style": "background-color: #00747c;"
-            },
-            {
                 "id": "gold",
                 "name": "Золотой",
                 "carImage": "/img/models/m8/colors/gold.webp",
@@ -263,7 +251,7 @@
     },
     {
         "id": "gs5",
-        "show": true,
+        "show": false,
         "homeImg": "/img/models/gs5/bg.webp",
         "slogan": "Удовольствие везти, наслаждение кататься",
         "name": "GS5",
