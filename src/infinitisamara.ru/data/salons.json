@@ -1,14 +1,14 @@
 [
     {
         "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (999) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
+        "address": "443085, Самара, Южное шоссе, 12, строение 2",
+        "phone":  "8 (846) 993-66-00",
+        "work_hours": "пн - пт: с 08:30 до 20:00; <br />сб - вс: с 08:30 до 18:00",
         "map": {
-            "zoom": 5,
+            "zoom": 18,
             "balloon": "/img/empty-locator.png",
-            "coords": [55.715873, 47.617700],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+            "coords": [53.139328, 50.179065],
+            "ya_link": "https://yandex.ru/maps/51/samara/?ll=50.179022%2C53.139358&mode=routes&rtext=~53.139328%2C50.179065&rtt=pd&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D44555645251&z=18"
         }
     }
 ]

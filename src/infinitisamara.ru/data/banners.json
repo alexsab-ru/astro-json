@@ -2,10 +2,10 @@
     {
         "id": 1,
         "show": true,
-        "type": "video",
+        "type": "",
         "view": "popup-link",
-        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
-        "imageUrl": "https://gac-smr.ru/img/banners/1.jpg",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.kodixauto.ru/media/resized_image/webp/62a880f8123823d49f15333f/1920/0",
         "title": "Заголовок баннера",
         "descr": "Подзаголовок баннера может быть длиннее или короче",
         "btn": "Онлайн запись",
