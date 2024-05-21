@@ -1,1 +1,22 @@
-[]
+[
+	{
+		"id": "qx50",
+		"name": "QX50",
+		"show": true
+	},
+	{
+		"id": "qx55",
+		"name": "QX55",
+		"show": true
+	},
+	{
+		"id": "qx60",
+		"name": "QX60",
+		"show": true
+	},
+	{
+		"id": "qx80",
+		"name": "QX80",
+		"show": true
+	}
+]
