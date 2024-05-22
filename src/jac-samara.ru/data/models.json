@@ -29,25 +29,37 @@
         "colors": [
             {
                 "id": "white",
-                "name": "Белый глянец",
+                "name": "Белый",
                 "carImage": "/img/models/t9/colors/white.webp",
                 "style": ""
             },
             {
+                "id": "silver",
+                "name": "Серебро",
+                "carImage": "/img/models/t9/colors/silver.webp",
+                "style": "background-color: #DDDDDD;"
+            },
+            {
                 "id": "gray",
-                "name": "Серая платина",
+                "name": "Серый",
                 "carImage": "/img/models/t9/colors/gray.webp",
                 "style": ""
             },
             {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/t9/colors/black.webp",
+                "style": ""
+            },
+            {
                 "id": "red",
-                "name": "Спелая вишня",
+                "name": "Красный",
                 "carImage": "/img/models/t9/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
-                "name": "Синий сапфир",
+                "name": "Синий",
                 "carImage": "/img/models/t9/colors/blue.webp",
                 "style": ""
             }
