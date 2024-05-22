@@ -1,7 +1,7 @@
 [
     {
         "id": "t9",
-        "show": false,
+        "show": true,
         "homeImg": "/img/model-bg.webp",
         "slogan": "Рождённый для приключений",
         "name": "T9",
