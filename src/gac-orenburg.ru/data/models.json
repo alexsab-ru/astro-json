@@ -342,7 +342,7 @@
     },
     {
         "id": "gs5",
-        "show": true,
+        "show": false,
         "homeImg": "/img/models/gs5/bg.webp",
         "slogan": "Удовольствие везти, наслаждение кататься",
         "name": "GS5",
