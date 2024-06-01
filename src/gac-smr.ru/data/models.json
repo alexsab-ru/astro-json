@@ -1,5 +1,84 @@
 [
     {
+        "id": "gs3",
+        "show": true,
+        "homeImg": "/img/models/gs3/bg.webp",
+        "slogan": "Дорогу молодым",
+        "name": "GS3",
+        "price": "",
+        "thumb": "/img/models/gs3/colors/blue.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/gs3/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/gs3/colors/gray.webp",
+                "style": "background-color: #474747"
+            },
+            {
+                "id": "blue",
+                "name": "Голубой",
+                "carImage": "/img/models/gs3/colors/blue.webp",
+                "style": "background-color: #3098B7;"
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "carImage": "/img/models/gs3/colors/silver.webp",
+                "style": "background-color: #DCE3E5;"
+            },
+            {
+                "id": "grey-graphite",
+                "name": "Серый графит",
+                "carImage": "/img/models/gs3/colors/grey-graphite.webp",
+                "style": "background-color: #94A0AE"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7 WDCT"
+        },
+        "globalChars": [
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4410",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1850",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Максимальная мощность",
+                "value": "170",
+                "measure": "л.c."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "250/1400-4500",
+                "measure": "Н*м/об/мин"
+            },
+            {
+                "id": "consumption",
+                "title": "Расход топлива",
+                "value": "5,9",
+                "measure": "л/100 км"
+            }
+        ]
+    },
+    {
         "id": "m8",
         "show": true,
         "homeImg": "/img/models/m8/bg.webp",
