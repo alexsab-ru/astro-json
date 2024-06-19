@@ -2,22 +2,33 @@
     {
         "id": 1,
         "show": true,
-        "type": "video",
+        "type": "",
         "view": "popup-link",
-        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
-        "imageUrl": "https://gac-smr.ru/img/banners/1.jpg",
-        "title": "Заголовок баннера",
-        "descr": "Подзаголовок баннера может быть длиннее или короче",
-        "btn": "Онлайн запись",
+        "videoUrl": "",
+        "imageUrl": "https://tank.ru/uploads/big_images/99e5fde3cb52b4c2acd9667c65796951.jpg",
+        "title": "<span class=\"text-xl font-light\">Веди за собой</span><br/> TANK  500",
+        "descr": "от&nbsp;5&nbsp;599&nbsp;000&nbsp;₽",
+        "btn": "Подробнее",
         "btnUrl": "#common-modal",
-        "dataTitle": "Онлайн запись",
-        "dataFormName": "Онлайн запись. Баннер",
-        "badge": {
-            "autoname": "Jetour Dashing",
-            "title": "Ежегодная национальная премия",
-            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "https://jetour-alpha.ru/img/car-year-white.png"
-        },
+        "dataTitle": "Подробнее TANK 500",
+        "dataFormName": "Подробнее. TANK 500. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "https://tank.ru/uploads/big_images/4c5e3aef791db93842d8d79ac249e35e.jpg",
+        "title": "<span class=\"text-xl font-light\">Следуй за открытиями</span><br/> TANK  300",
+        "descr": "от&nbsp;3&nbsp;649&nbsp;000&nbsp;₽",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Подробнее TANK 300",
+        "dataFormName": "Подробнее. TANK 300. Баннер",
+        "badge": {},
         "autoplay": 6000
     }
 ]
