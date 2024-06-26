@@ -113,7 +113,7 @@
     },
     {
         "id": 6,
-        "show": true,
+        "show": false,
         "type": "video",
         "view": "popup-link",
         "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
@@ -134,7 +134,7 @@
     },
     {
         "id": 7,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "videoUrl": "",
