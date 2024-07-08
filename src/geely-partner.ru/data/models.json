@@ -5,8 +5,8 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Новый Atlas",
-        "price": 2844990,
-        "benefit": "",
+        "price": 2849990,
+        "benefit": 450000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -110,7 +110,7 @@
         "slogan": "",
         "name": "Atlas Pro",
         "price": 2233990,
-        "benefit": "",
+        "benefit": 600000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -214,7 +214,7 @@
         "slogan": "",
         "name": "Emgrand",
         "price": 1659990,
-        "benefit": "",
+        "benefit": 350000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -428,7 +428,7 @@
         "slogan": "",
         "name": "Новый Coolray",
         "price": 2309990,
-        "benefit": "",
+        "benefit": 300000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -532,7 +532,7 @@
         "slogan": "",
         "name": "Tugella",
         "price": 3319990,
-        "benefit": "",
+        "benefit": 640000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -630,7 +630,7 @@
         "slogan": "",
         "name": "Новый OKAVANGO",
         "price": 2999990,
-        "benefit": "",
+        "benefit": 450000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -728,7 +728,7 @@
         "slogan": "",
         "name": "Monjaro",
         "price": 3794990,
-        "benefit": "",
+        "benefit": 450000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -838,7 +838,7 @@
         "slogan": "",
         "name": "Belgee X50",
         "price": 1970990,
-        "benefit": "",
+        "benefit": 320000,
         "benefits": [
             {
                 "url": "#common-modal",
