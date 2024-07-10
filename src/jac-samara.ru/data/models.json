@@ -2,6 +2,7 @@
     {
         "id": "t9",
         "show": true,
+        "testDrive": true,
         "homeImg": "/img/model-bg.webp",
         "slogan": "Рождённый для приключений",
         "name": "T9",
@@ -308,6 +309,7 @@
     {
         "id": "js3",
         "show": true,
+        "testDrive": true,
         "homeImg": "/img/model-bg.webp",
         "slogan": "Семейный кроссовер для всех",
         "name": "JS3",
@@ -406,6 +408,7 @@
     {
         "id": "j7",
         "show": true,
+        "testDrive": true,
         "homeImg": "/img/model-bg.webp",
         "slogan": "Дизайн от Кутюр",
         "name": "J7",
@@ -502,6 +505,7 @@
     {
         "id": "js6",
         "show": true,
+        "testDrive": true,
         "homeImg": "/img/model-bg.webp",
         "slogan": "Автомобиль с уважением!",
         "name": "JS6",
