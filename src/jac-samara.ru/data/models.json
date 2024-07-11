@@ -417,10 +417,18 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгода до 750 000 ₽ <sup>*</sup>",
+                "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгода на&nbsp;J7&nbsp;до&nbsp;750&nbsp;000&nbsp;₽",
-                "data_form_name": "Выгода до 750 000 ₽. Jac J7",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac J7",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac J7",
                 "view": "popup-link"
             }
         ],
@@ -514,10 +522,18 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгода до 750 000 ₽ <sup>*</sup>",
+                "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгода на&nbsp;JS6&nbsp;до&nbsp;750&nbsp;000&nbsp;₽",
-                "data_form_name": "Выгода до 750 000 ₽. Jac JS6",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac JS6",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac JS6",
                 "view": "popup-link"
             }
         ],
@@ -610,10 +626,18 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгода до 200 000 ₽ <sup>*</sup>",
+                "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгода на&nbsp;T6&nbsp;до&nbsp;200&nbsp;000&nbsp;₽",
-                "data_form_name": "Выгода до 200 000 ₽. Jac T6",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac T6",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac T6",
                 "view": "popup-link"
             }
         ],
@@ -706,10 +730,18 @@
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Скоро в продаже!",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac T8 Pro",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
-                "data_title": "Оставить заявку на&nbsp;Jac T8&nbsp;Pro",
-                "data_form_name": "Заявка на Jac T8 Pro",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac T8 Pro",
                 "view": "popup-link"
             }
         ],

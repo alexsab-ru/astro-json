@@ -214,7 +214,7 @@
         "slogan": "",
         "name": "Emgrand",
         "price": 1659990,
-        "benefit": 350000,
+        "benefit": 510000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -324,7 +324,7 @@
         "slogan": "",
         "name": "Coolray",
         "price": 2024990,
-        "benefit": "",
+        "benefit": 410000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -532,7 +532,7 @@
         "slogan": "",
         "name": "Tugella",
         "price": 3319990,
-        "benefit": 640000,
+        "benefit": 920000,
         "benefits": [
             {
                 "url": "#common-modal",

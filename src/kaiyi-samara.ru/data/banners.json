@@ -1,38 +1,17 @@
 [
     {
-        "id": 1,
-        "show": false,
-        "type": "",
-        "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/banners/kaiyi-spring-1920x1080.webp",
-        "title": "<div class='text-lg sm:text-3xl md:text-4xl lg:text-5xl mb-1 sm:mb-4 md:mb-4' data-swiper-parallax='-20%'>При покупке любого <span class='text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase'>KAIYI</span></div><div class='text-lg sm:text-3xl md:text-4xl lg:text-5xl mb-1 sm:mb-4 md:mb-4' data-swiper-parallax='-40%'>вы получаете зимнюю резину</div><div class='text-lg sm:text-3xl md:text-4xl lg:text-5xl uppercase mb-4 sm:mb-10' data-swiper-parallax='-60%'>в подарок!</div>",
-        "descr": "",
-        "btn": "Узнать подробнее",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Узнать подробнее",
-        "dataFormName": "Узнать подробнее. Баннер. Зимняя резина в подарок",
-        "badge": {
-            "autoname": "KAIYI E5",
-            "title": "Ежегодная национальная премия",
-            "descr": "Лучший автомобиль в своём сегменте",
-            "image": "/img/car-year-white.png"
-        },
-        "autoplay": 7000
-    },
-    {
         "id": 2,
         "show": true,
         "type": "video",
         "view": "popup-link",
         "videoUrl": "https://alexsab.ru/video/kaiyi-e5-compress.mp4",
         "imageUrl": "/img/banners/banner.webp",
-        "title": "Минус 700&nbsp;000&nbsp;₽<sup>*</sup> на&nbsp;KAIYI.",
-        "descr": "Акция до&nbsp;30.06. Оставьте заявку. Автомобили в&nbsp;наличии",
+        "title": "Выгода до 630 000 ₽<sup>*</sup> на&nbsp;KAIYI.",
+        "descr": "Акция до&nbsp;31.07. Оставьте заявку. Автомобили в&nbsp;наличии",
         "btn": "Узнать подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Узнать подробнее",
-        "dataFormName": "Узнать подробнее. Выгода до 400 000. Баннер",
+        "dataFormName": "Узнать подробнее. Выгода до 630 000 ₽. Баннер",
         "badge": "",
         "autoplay": 7000
     }

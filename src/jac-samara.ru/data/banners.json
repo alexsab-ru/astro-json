@@ -14,21 +14,5 @@
         "dataFormName": "Узнать подробнее. JAC T6, T8, T9 от 2 390 000₽. Баннер",
         "badge": {},
         "autoplay": 7000
-    },
-    {
-        "id": 2,
-        "show": false,
-        "type": "video",
-        "view": "popup-link",
-        "videoUrl": "https://alexsab.ru/video/jac-t8pro-compress.mp4",
-        "imageUrl": "/img/banners/banner.webp",
-        "title": "Выгода до 750 000 ₽<sup>*</sup> на JAC",
-        "descr": "Акция до&nbsp;30.06. Оставьте заявку. Автомобили в&nbsp;наличии",
-        "btn": "Узнать подробнее",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Узнать подробнее",
-        "dataFormName": "Узнать подробнее. Выгода до 750 000 ₽. Баннер",
-        "badge": {},
-        "autoplay": 14000
     }
 ]
