@@ -2,7 +2,7 @@
     {
         "id": "x50",
         "show": true,
-        "homeImg": "/img/model-bg.webp",
+        "homeImg": "/img/models/x50/model-bg.webp",
         "slogan": "",
         "name": "X50",
         "price": 1970990,
@@ -88,7 +88,7 @@
     {
         "id": "x70",
         "show": true,
-        "homeImg": "/img/model-bg.webp",
+        "homeImg": "/img/models/x70/model-bg.webp",
         "slogan": "",
         "name": "X70",
         "price": 2149990,
