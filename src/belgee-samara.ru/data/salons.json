@@ -1,14 +1,14 @@
 [
     {
         "name": "BELGEE Самара",
-        "address": "Загородное шоссе, 1, Самара",
-        "phone":  "+7 (999) 123-45-67",
-        "work_hours": "пн-пт 9:00-19:00,<br>сб 9:00-18:00,<br>вс 9:00 -18:00 (сервис не работает)",
+        "address": "Московское ш, д. 262 «а», Самара",
+        "phone":  "+7 (846) 377-73-00",
+        "work_hours": "Ежедневно с 08:00 до 20:00",
         "map": {
             "zoom": 17,
             "balloon": "/img/belgee-locator.svg",
-            "coords": [51.844881, 55.154843],
-            "ya_link": "https://yandex.ru/maps/48/orenburg/?ll=55.154674%2C51.844799&mode=routes&rtext=~51.844881%2C55.154843&rtt=pd&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg2Njk2NjYwOBJF0KDQvtGB0YHQuNGPLCDQntGA0LXQvdCx0YPRgNCzLCDQl9Cw0LPQvtGA0L7QtNC90L7QtSDRiNC-0YHRgdC1LCAxMy8xIgoNkJ5cQhUpYU9C&z=17"
+            "coords": [53.248569897688775, 50.21542668375333],
+            "ya_link": "https://yandex.ru/maps/51/samara/?ll=50.215331%2C53.248630&mode=routes&rtext=~53.248570%2C50.215427&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D183569750351&z=17"
         }
     }
 ]
