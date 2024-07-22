@@ -29,27 +29,33 @@
         "colors": [
             {
                 "id": "c1b",
-                "name": "Галактический черный",
+                "name": "Черный",
                 "carImage": "/img/models/t2/colors/c1b.png",
-                "style": "background-image: url(/img/models/t2/colors/c1bkm.png);"
+                "style": "background-color: #000000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "c2b",
-                "name": "Cветло-серый",
+                "name": "Серебряный",
                 "carImage": "/img/models/t2/colors/c2b.png",
-                "style": "background-image: url(/img/models/t2/colors/c2bkm.png);"
+                "style": "background-color: #c8c8c8; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "c3b",
-                "name": "Золотой металлик",
+                "name": "Коричневый",
                 "carImage": "/img/models/t2/colors/c3b.png",
-                "style": "background-image: url(/img/models/t2/colors/c3bkm.png);"
+                "style": "background-color: #ccc0a6; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "c4b",
-                "name": "Призрачный серый",
+                "name": "Серый",
                 "carImage": "/img/models/t2/colors/c4b.png",
-                "style": "background-image: url(/img/models/t2/colors/c4bkm.png);"
+                "style": "background-color: #6b727f; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "/img/models/t2/colors/blue.png",
+                "style": "background-color: #4682B4; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
         "photos": "",
