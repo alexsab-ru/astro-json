@@ -28,10 +28,28 @@
         "thumb": "/img/models/x50/black_500px.webp",
         "colors": [
             {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/x50/colors/red.webp",
+                "style": ""
+            },
+            {
                 "id": "white",
                 "name": "Белый металлик",
                 "carImage": "/img/models/x50/colors/white.webp",
                 "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/x50/colors/silver.webp",
+                "style": "background-color: #c0c0c0;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/x50/colors/gray.webp",
+                "style": "background-color: #696969;"
             },
             {
                 "id": "black",
