@@ -1,0 +1,14 @@
+[
+    {
+        "name": "BELGEE Самара",
+        "address": "Московское ш, д. 262 «а», Самара",
+        "phone":  "+7 (846) 377-73-00",
+        "work_hours": "Ежедневно с 08:00 до 20:00",
+        "map": {
+            "zoom": 17,
+            "balloon": "/img/belgee-locator.svg",
+            "coords": [53.248569897688775, 50.21542668375333],
+            "ya_link": "https://yandex.ru/maps/51/samara/?ll=50.215331%2C53.248630&mode=routes&rtext=~53.248570%2C50.215427&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D183569750351&z=17"
+        }
+    }
+]
