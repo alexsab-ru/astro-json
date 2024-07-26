@@ -2,7 +2,7 @@
     {
         "id": "x50",
         "show": true,
-        "homeImg": "/img/models/x50/model-bg.webp",
+        "homeImg": "img/models/x50/model-bg.webp",
         "slogan": "",
         "name": "X50",
         "price": 1970990,
@@ -25,36 +25,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x50/black_500px.webp",
+        "thumb": "img/models/x50/black_500px.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x50/colors/red.webp",
+                "carImage": "img/models/x50/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x50/colors/white.webp",
+                "carImage": "img/models/x50/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/x50/colors/silver.webp",
+                "carImage": "img/models/x50/colors/silver.webp",
                 "style": "background-color: #c0c0c0;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/x50/colors/gray.webp",
+                "carImage": "img/models/x50/colors/gray.webp",
                 "style": "background-color: #696969;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/x50/colors/black.webp",
+                "carImage": "img/models/x50/colors/black.webp",
                 "style": ""
             }
         ],
@@ -106,7 +106,7 @@
     {
         "id": "x70",
         "show": true,
-        "homeImg": "/img/models/x70/model-bg.webp",
+        "homeImg": "img/models/x70/model-bg.webp",
         "slogan": "",
         "name": "X70",
         "price": 2149990,
@@ -129,42 +129,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x70/red_500px.webp",
+        "thumb": "img/models/x70/red_500px.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x70/colors/white.webp",
+                "carImage": "img/models/x70/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/x70/colors/silver.webp",
+                "carImage": "img/models/x70/colors/silver.webp",
                 "style": "background-color: #d9d9d9;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/x70/colors/black.webp",
+                "carImage": "img/models/x70/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/x70/colors/gray.webp",
+                "carImage": "img/models/x70/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий металлик",
-                "carImage": "/img/models/x70/colors/blue.webp",
+                "carImage": "img/models/x70/colors/blue.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x70/colors/red.webp",
+                "carImage": "img/models/x70/colors/red.webp",
                 "style": ""
             }
         ],
