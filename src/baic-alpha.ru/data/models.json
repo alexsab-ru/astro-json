@@ -639,31 +639,31 @@
                 "style": "background-color: #479228"
             },
             {
-                "id": "green",
+                "id": "matte-red-metallic",
                 "name": "Матовый красный металлик",
                 "carImage": "/img/models/bj40/colors/matte-red-metallic.png",
                 "style": "background-color: #ad0f0f"
             },
             {
-                "id": "green",
+                "id": "matte-black-metallic",
                 "name": "Матовый чёрный металлик",
                 "carImage": "/img/models/bj40/colors/matte-black-metallic.png",
                 "style": "background-color: #222222"
             },
             {
-                "id": "green",
+                "id": "matte-green",
                 "name": "Матовый зелёный",
                 "carImage": "/img/models/bj40/colors/matte-green.png",
                 "style": "background-color: #5f6545"
             },
             {
-                "id": "green",
+                "id": "matte-white",
                 "name": "Матовый белый",
                 "carImage": "/img/models/bj40/colors/matte-white.png",
                 "style": "background-color: #f8f8f8"
             },
             {
-                "id": "green",
+                "id": "matte-grey",
                 "name": "Матовый серый",
                 "carImage": "/img/models/bj40/colors/matte-grey.png",
                 "style": "background-color: #aaaaaa"
