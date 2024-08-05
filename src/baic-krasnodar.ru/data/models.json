@@ -606,37 +606,67 @@
                 "id": "red",
                 "name": "Красный металлик",
                 "carImage": "/img/models/bj40/colors/red.png",
-                "style": ""
+                "style": "background-color: #ee2a0c"
             },
             {
                 "id": "blue",
                 "name": "Синий металлик",
                 "carImage": "/img/models/bj40/colors/blue.png",
-                "style": ""
+                "style": "background-color: #113c6a"
             },
             {
                 "id": "light-blue",
                 "name": "Голубой металлик",
                 "carImage": "/img/models/bj40/colors/light-blue.png",
-                "style": ""
+                "style": "background-color: #94abca"
             },
             {
                 "id": "white",
-                "name": "Белый металлик",
+                "name": "Белый",
                 "carImage": "/img/models/bj40/colors/white.png",
-                "style": ""
+                "style": "background-color: #f4f8f8"
             },
             {
                 "id": "black",
-                "name": "Черный металлик",
+                "name": "Чёрный металлик",
                 "carImage": "/img/models/bj40/colors/black.png",
-                "style": ""
+                "style": "background-color: #000000"
             },
             {
                 "id": "green",
-                "name": "Зеленый металлик",
+                "name": "Зеленый",
                 "carImage": "/img/models/bj40/colors/green.png",
-                "style": ""
+                "style": "background-color: #479228"
+            },
+            {
+                "id": "matte-red-metallic",
+                "name": "Матовый красный металлик",
+                "carImage": "/img/models/bj40/colors/matte-red-metallic.png",
+                "style": "background-color: #ad0f0f"
+            },
+            {
+                "id": "matte-black-metallic",
+                "name": "Матовый чёрный металлик",
+                "carImage": "/img/models/bj40/colors/matte-black-metallic.png",
+                "style": "background-color: #222222"
+            },
+            {
+                "id": "matte-green",
+                "name": "Матовый зелёный",
+                "carImage": "/img/models/bj40/colors/matte-green.png",
+                "style": "background-color: #5f6545"
+            },
+            {
+                "id": "matte-white",
+                "name": "Матовый белый",
+                "carImage": "/img/models/bj40/colors/matte-white.png",
+                "style": "background-color: #f8f8f8"
+            },
+            {
+                "id": "matte-grey",
+                "name": "Матовый серый",
+                "carImage": "/img/models/bj40/colors/matte-grey.png",
+                "style": "background-color: #aaaaaa"
             }
         ],
         "photos": "",
