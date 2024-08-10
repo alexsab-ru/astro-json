@@ -7,7 +7,7 @@
         "videoUrl": "",
         "imageUrl": "/img/specials/zharkoe-leto-s-jetour/banner__1920-1080.webp",
         "title": "Жаркое лето с Jetour!",
-        "descr": "Три повода для покупки в Августе",
+        "descr": "Три повода для покупки в {{monthPrepositional}}",
         "btn": "Узнать подробнее",
         "btnUrl": "/special-offers/zharkoe-leto-s-jetour/",
         "dataTitle": "",
