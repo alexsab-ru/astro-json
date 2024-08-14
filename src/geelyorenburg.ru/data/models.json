@@ -1,5 +1,115 @@
 [
     {
+        "id": "preface",
+        "show": true,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Preface",
+        "price": 2699990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Preface",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Preface",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Preface/gray-blue_500w.webp",
+        "colors": [
+            {
+                "id": "gray-purple",
+                "name": "Серо-фиолетовый металлик",
+                "carImage": "/img/models/Preface/colors/gray-purple.webp",
+                "style": "background-color: #898baa;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/Preface/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Preface/colors/gray.webp",
+                "style": "background-color: #5c5d61;"
+            },
+            {
+                "id": "gray-blue",
+                "name": "Серо-голубой металлик",
+                "carImage": "/img/models/Preface/colors/gray-blue.webp",
+                "style": "background-color: #92a7b2;"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый металлик",
+                "carImage": "/img/models/Preface/colors/green.webp",
+                "style": "background-color: #718377;"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/Preface/colors/black.webp",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCV"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4544",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1831",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "325",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
         "id": "geometry-g6",
         "show": true,
         "homeImg": "/img/models/bg.webp",
