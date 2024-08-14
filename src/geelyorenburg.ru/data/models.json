@@ -111,7 +111,7 @@
     },
     {
         "id": "geometry-g6",
-        "show": true,
+        "show": false,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Geometry G6",
