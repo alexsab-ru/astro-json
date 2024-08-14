@@ -1,0 +1,32 @@
+name: Scrape Data
+
+on:
+  workflow_dispatch:  # Позволяет вручную запускать этот workflow
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run scraper
+      run: node scrape.js
+        # URL="https://www.geely-motors.com" ITEM_XPATH="//header/div[@data-id='carmodels']" ID_XPATH="replace('/div/a/@href', '/model/', '')" MODEL_XPATH="/div/a/span[@class='title']/text()" PRICE_XPATH="/div/a/span[@class='subtitle']/text()" LINK_XPATH="/div/a/@href" OUTPUT_PATH="./src/geelyorenburg.ru/data/cars.json" node .github/scripts/scrape.js
+      env:
+        URL: "https://www.geely-motors.com"
+        ITEM_XPATH: "//header/div[@data-id='carmodels']"
+        ID_XPATH: "replace('//header/div[@data-id=\"carmodels\"]/div/a/@href', '/model/', '')"
+        MODEL_XPATH: "//header/div[@data-id='carmodels']/div/a/span[@class='title']/text()"
+        PRICE_XPATH: "//header/div[@data-id='carmodels']/div/a/span[@class='subtitle']/text()"
+        LINK_XPATH: "//header/div[@data-id='carmodels']/div/a/@href"
+        OUTPUT_PATH: "./src/geelyorenburg.ru/data/cars.json"
