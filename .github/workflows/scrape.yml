@@ -1,6 +1,12 @@
 name: Scrape Data
 
 on:
+  schedule:
+    - cron: '0 6 * * *'  # Запускается в 6 утра каждый день
+  push:
+    paths:
+      - '.github/workflows/scrape.yml'
+      - '.github/scripts/scrape.js'
   workflow_dispatch:  # Позволяет вручную запускать этот workflow
 
 jobs:
