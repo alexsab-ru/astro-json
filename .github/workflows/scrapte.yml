@@ -24,7 +24,7 @@ jobs:
       run: npm install
 
     - name: Scrape geely-motors.com
-      run: node scrape.js
+      run: node .github/scripts/scrape.js
       env:
         URL: "https://www.geely-motors.com"
         ITEM_XPATH: "//header/div[@data-id='carmodels']/div"
@@ -35,7 +35,7 @@ jobs:
         OUTPUT_PATHS: "./src/geelyorenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json"
 
     - name: Scrape belgee.ru
-      run: node scrape.js
+      run: node .github/scripts/scrape.js
       env:
         URL: "https://belgee.ru"
         ITEM_XPATH: "//header/div[@data-id='models']/div"
@@ -46,7 +46,7 @@ jobs:
         OUTPUT_PATHS: "./src/belgee-partner-samara.ru/data/cars.json,./src/belgee-partner-saratov.ru/data/cars.json,./src/belgee-samara.ru/data/cars.json"
 
     - name: Scrape jaccar.ru
-      run: node scrape.js
+      run: node .github/scripts/scrape.js
       env:
         URL: "https://jaccar.ru"
         ITEM_XPATH: "//li[contains(@class, 'menu-models__item')]"
