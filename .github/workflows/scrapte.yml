@@ -52,3 +52,50 @@ jobs:
         LINK_XPATH: "./a[contains(@class, 'js-menu-models-link')]/@href"
         OUTPUT_PATHS: "./src/jac-samara.ru/data/cars.json"
 
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git diff --exit-code; then
+          echo 'check_changes true — git diff'
+          echo "changes=true" >> $GITHUB_ENV
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "script_output=$(echo -n 'Update cars from website' | base64)" >> $GITHUB_OUTPUT
+        elif git status -s; then
+          echo 'check_changes true — git status'
+          echo "changes=true" >> $GITHUB_ENV
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "script_output=$(echo -n 'Update cars from website' | base64)" >> $GITHUB_OUTPUT
+        else
+          echo 'check_changes else'
+          echo "changes=false" >> $GITHUB_ENV
+          echo "changes=false" >> $GITHUB_OUTPUT
+        fi
+      continue-on-error: true
+
+    - name: Commit files
+      if: env.changes == 'true'
+      run: |
+          git config --local user.email "support+actions@github.com"
+          git config --local user.name "github-actions-bot"
+          if [[ $(find ./src -type f -name "*.json") ]]; then git add $(find ./src -type f -name "*.json"); fi
+          git commit -m "Update cars from website" -a || echo "No changes to commit"
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git push origin $GITHUB_REF_NAME
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+    outputs:
+      changes: ${{ steps.check_changes.outputs.changes }}
+      script_output: ${{ steps.check_changes.outputs.script_output }}
+  
+  
+  notify_telegram:
+    needs: build
+    if: ${{ needs.build.outputs.script_output != '' }}
+    uses: ./.github/workflows/github-telegram.yml
+    with:
+      additional-text: |
+        ${{ needs.build.outputs.script_output }}
+    secrets:
+      TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
