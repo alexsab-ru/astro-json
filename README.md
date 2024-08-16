@@ -56,3 +56,14 @@ export LINK_XPATH="./a[contains(text(),'Подробнее')][starts-with(@href,
 export OUTPUT_PATHS="./src/livan-samara.ru/data/cars.json,./src/livanorenburg.ru/data/cars.json"
 node .github/scripts/scrape.js
 ```
+
+```sh
+export URL="https://gacmotor.com.ru/models"
+export ITEM_XPATH="//div[@class='td-models-grid__item']"
+export ID_XPATH="substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/')"
+export MODEL_XPATH="substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/')"
+export PRICE_XPATH="translate(string(.//span[@class='price']/text()), translate(string(.//span[@class='price']/text()), '0123456789', ''), '')"
+export LINK_XPATH=".//a[starts-with(@href, '/models/')]/@href"
+export OUTPUT_PATHS="./src/gac-smr.ru/data/cars.json,./src/gac-orenburg.ru/data/cars.json"
+node .github/scripts/scrape.js
+```
