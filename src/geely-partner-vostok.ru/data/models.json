@@ -5,7 +5,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Preface",
-        "price": 2699990,
+        "price": "{{price-geely-preface}}",
         "benefit": "",
         "benefits": [
             {
@@ -115,7 +115,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Geometry G6",
-        "price": 2139990,
+        "price": "",
         "benefit": "",
         "benefits": [
             {
@@ -195,7 +195,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Новый Atlas",
-        "price": 2844990,
+        "price": "{{price-geely-atlas-2024}}",
         "benefit": "",
         "benefits": [
             {
@@ -299,7 +299,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Atlas Pro",
-        "price": 2233990,
+        "price": "{{price-atlaspro}}",
         "benefit": "",
         "benefits": [
             {
@@ -403,7 +403,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Emgrand",
-        "price": 1659990,
+        "price": "{{price-emgrand}}",
         "benefit": "",
         "benefits": [
             {
@@ -509,11 +509,11 @@
     },
     {
         "id": "coolray",
-        "show": true,
+        "show": false,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Coolray",
-        "price": 2024990,
+        "price": "",
         "benefit": "",
         "benefits": [
             {
@@ -617,7 +617,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Новый Coolray",
-        "price": 2309990,
+        "price": "{{price-geely-coolray-2023}}",
         "benefit": "",
         "benefits": [
             {
@@ -721,7 +721,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Tugella",
-        "price": 3319990,
+        "price": "{{price-newtugella}}",
         "benefit": "",
         "benefits": [
             {
@@ -819,7 +819,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Новый OKAVANGO",
-        "price": 2999990,
+        "price": "{{price-geely-okavango}}",
         "benefit": "",
         "benefits": [
             {
@@ -917,7 +917,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Monjaro",
-        "price": 3794990,
+        "price": "{{price-monjaro}}",
         "benefit": "",
         "benefits": [
             {
@@ -1027,7 +1027,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Belgee X50",
-        "price": 1970990,
+        "price": "{{price-monjaro}}",
         "benefit": "",
         "benefits": [
             {
