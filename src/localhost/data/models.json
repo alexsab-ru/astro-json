@@ -5,7 +5,7 @@
         "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",
         "slogan": "Практичность и комфорт",
         "name": "U5 Plus",
-        "price": "",
+        "price": "{{price}}",
         "benefit": 750000,
         "benefits": [
             {
