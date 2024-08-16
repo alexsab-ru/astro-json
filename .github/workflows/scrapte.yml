@@ -29,3 +29,15 @@ jobs:
         PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
         LINK_XPATH: "./a/@href"
         OUTPUT_PATHS: "./src/geelyorenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json"
+
+    - name: Scrape belgee.ru
+      run: node scrape.js
+      env:
+        URL: "https://belgee.ru"
+        ITEM_XPATH: "//header/div[@data-id='models']/div"
+        ID_XPATH: "substring-after(./a/@href, '/model/')"
+        MODEL_XPATH: "./a/span[@class='title']/text()"
+        PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
+        LINK_XPATH: "./a/@href"
+        OUTPUT_PATHS: "./src/belgee-partner-samara.ru/data/cars.json,./src/belgee-partner-saratov.ru/data/cars.json,./src/belgee-samara.ru/data/cars.json"
+
