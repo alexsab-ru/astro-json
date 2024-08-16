@@ -1,7 +1,19 @@
+# export URL="https://www.geely-motors.com"
+# export ITEM_XPATH="//header/div[@data-id='carmodels']/div"
+# export ID_XPATH="replace('./a/@href', '/model/', '')"
+# export MODEL_XPATH="./a/span[@class='title']/text()"
+# export PRICE_XPATH="./a/span[@class='subtitle']/text()"
+# export LINK_XPATH="./a/@href"
+# export OUTPUT_PATH="./src/geelyorenburg.ru/data/cars.json"
+# python3 .github/scripts/scrape.py
 import requests
 from lxml import html
 import json
 import os
+from dotenv import load_dotenv
+
+# Загрузка переменных окружения из .env файла
+load_dotenv()
 
 def scrape_page(url, xpaths):
     response = requests.get(url)
