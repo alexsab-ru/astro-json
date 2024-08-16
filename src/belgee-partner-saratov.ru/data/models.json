@@ -1,11 +1,11 @@
 [
     {
-        "id": "x50",
+        "id": "belgee-x50",
         "show": true,
         "homeImg": "/img/models/x50/model-bg.webp",
         "slogan": "",
         "name": "X50",
-        "price": "{{price-x50}}",
+        "price": "{{price-belgee-x50}}",
         "benefit": "",
         "benefits": [
             {
@@ -104,12 +104,12 @@
         ]
     },
     {
-        "id": "x70",
+        "id": "belgee-x70",
         "show": true,
         "homeImg": "/img/models/x70/model-bg.webp",
         "slogan": "",
         "name": "X70",
-        "price": "{{price-x70}}",
+        "price": "{{price-belgee-x70}}",
         "benefit": "",
         "benefits": [
             {
