@@ -7,7 +7,7 @@
         "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
         "imageUrl": "https://gac-smr.ru/img/banners/1.jpg",
         "title": "Заголовок баннера до {{lastDay}}.{{month}}.{{year}}",
-        "descr": "Подзаголовок баннера может быть длиннее или короче",
+        "descr": "Подзаголовок баннера может быть длиннее или короче за {{price-u5-plus}}",
         "btn": "Онлайн запись",
         "btnUrl": "#common-modal",
         "dataTitle": "Онлайн запись",
