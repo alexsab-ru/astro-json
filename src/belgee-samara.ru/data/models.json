@@ -1,6 +1,6 @@
 [
     {
-        "id": "belgee-x50",
+        "id": "x50",
         "show": true,
         "homeImg": "/img/models/x50/model-bg.webp",
         "slogan": "",
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "id": "belgee-x70",
+        "id": "x70",
         "show": true,
         "homeImg": "/img/models/x70/model-bg.webp",
         "slogan": "",
