@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t2",
+    "model": "T2",
+    "price": "3659000",
+    "link": "https://jetour-ru.com/models/t2"
+  },
+  {
+    "id": "dashing",
+    "model": "Dashing",
+    "price": "1919900",
+    "link": "https://jetour-ru.com/models/dashing"
+  },
+  {
+    "id": "x70plus",
+    "model": "X70 Plus",
+    "price": "2429900",
+    "link": "https://jetour-ru.com/models/x70plus"
+  },
+  {
+    "id": "x90plus",
+    "model": "X90 Plus",
+    "price": "2679900",
+    "link": "https://jetour-ru.com/models/x90plus"
+  }
+]
