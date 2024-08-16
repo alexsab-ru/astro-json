@@ -5,7 +5,7 @@
         "homeImg": "/img/models/t2/bg.jpg",
         "slogan": "Внедорожник для путешествий",
         "name": "T2",
-        "price": "",
+        "price": "{{price-t2}}",
         "benefit": "",
         "benefits": [
             {
@@ -109,7 +109,7 @@
         "homeImg": "/img/models/dashing/bg.jpg",
         "slogan": "Городской кроссовер",
         "name": "Dashing",
-        "price": "",
+        "price": "{{price-dashing}}",
         "benefit": "",
         "benefits": [
             {
@@ -225,7 +225,7 @@
         "homeImg": "/img/models/x90plus/bg.jpg",
         "slogan": "Вместительный кроссовер на все случаи жизни",
         "name": "X90 Plus",
-        "price": "",
+        "price": "{{price-x90plus}}",
         "benefit": "",
         "benefits": [
             {
@@ -329,7 +329,7 @@
         "homeImg": "/img/models/x70plus/bg.jpg",
         "slogan": "Семейный кроссовер для совместных путешествий",
         "name": "X70 Plus",
-        "price": "",
+        "price": "{{price-x70plus}}",
         "benefit": "",
         "benefits": [
             {
