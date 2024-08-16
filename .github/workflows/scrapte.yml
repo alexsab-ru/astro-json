@@ -7,6 +7,10 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
 
+    # Указываете окружение и его переменные
+    environment:
+      name: ${{ github.ref == 'refs/heads/main' && 'production' || 'development' }}
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -90,12 +94,12 @@ jobs:
   
   
   notify_telegram:
-    needs: build
-    if: ${{ needs.build.outputs.script_output != '' }}
+    needs: scrape
+    if: ${{ needs.scrape.outputs.script_output != '' }}
     uses: ./.github/workflows/github-telegram.yml
     with:
       additional-text: |
-        ${{ needs.build.outputs.script_output }}
+        ${{ needs.scrape.outputs.script_output }}
     secrets:
       TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
       TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
