@@ -5,7 +5,7 @@
         "homeImg": "/img/models/x50/model-bg.webp",
         "slogan": "",
         "name": "X50",
-        "price": 1970990,
+        "price": "{{price-x50}}",
         "benefit": "",
         "benefits": [
             {
@@ -109,7 +109,7 @@
         "homeImg": "/img/models/x70/model-bg.webp",
         "slogan": "",
         "name": "X70",
-        "price": 2149990,
+        "price": "{{price-x70}}",
         "benefit": "",
         "benefits": [
             {
