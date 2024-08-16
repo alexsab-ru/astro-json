@@ -41,3 +41,14 @@ jobs:
         LINK_XPATH: "./a/@href"
         OUTPUT_PATHS: "./src/belgee-partner-samara.ru/data/cars.json,./src/belgee-partner-saratov.ru/data/cars.json,./src/belgee-samara.ru/data/cars.json"
 
+    - name: Scrape jaccar.ru
+      run: node scrape.js
+      env:
+        URL: "https://jaccar.ru"
+        ITEM_XPATH: "//li[contains(@class, 'menu-models__item')]"
+        ID_XPATH: "substring-before(substring-after(.//a[contains(@class, 'js-menu-models-link')]/@href, '/models/'), '/')"
+        MODEL_XPATH: ".//div[contains(@class, 'menu-models__item-title')]/text()"
+        PRICE_XPATH: "translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), '0123456789', ''), '')"
+        LINK_XPATH: "./a[contains(@class, 'js-menu-models-link')]/@href"
+        OUTPUT_PATHS: "./src/jac-samara.ru/data/cars.json"
+
