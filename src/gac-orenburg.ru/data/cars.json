@@ -1,0 +1,20 @@
+[
+  {
+    "id": "gs3",
+    "model": "gs3",
+    "price": "2149000",
+    "link": "https://gacmotor.com.ru/models/gs3"
+  },
+  {
+    "id": "gs8-ii",
+    "model": "gs8-ii",
+    "price": "3599000",
+    "link": "https://gacmotor.com.ru/models/gs8-ii"
+  },
+  {
+    "id": "m8",
+    "model": "m8",
+    "price": "5199999",
+    "link": "https://gacmotor.com.ru/models/m8"
+  }
+]
