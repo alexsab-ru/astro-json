@@ -5,7 +5,7 @@
         "homeImg": "/img/models/x3pro/bg2.webp",
         "slogan": "Быть свободным",
         "name": "X3PRO",
-        "price": 1699900,
+        "price": "{{price-x3pro}}",
         "benefit": "",
         "benefits": [
             {
@@ -109,7 +109,7 @@
         "homeImg": "/img/models/x6pro/bg.webp",
         "slogan": "Дайте старт новому",
         "name": "X6PRO",
-        "price": 2479900,
+        "price": "{{price-x6pro}}",
         "benefit": "",
         "benefits": [
             {
@@ -201,7 +201,7 @@
         "homeImg": "/img/models/s6pro/bg.webp",
         "slogan": "Драйв в Вашем стиле",
         "name": "S6PRO",
-        "price": 2429900,
+        "price": "{{price-s6pro}}",
         "benefit": "",
         "benefits": [
             {

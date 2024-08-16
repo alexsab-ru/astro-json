@@ -1,11 +1,11 @@
 [
     {
-        "id": "x3Pro",
+        "id": "x3pro",
         "show": true,
-        "homeImg": "/img/models/x3Pro/bg2.jpg",
+        "homeImg": "/img/models/x3pro/bg2.webp",
         "slogan": "Быть свободным",
         "name": "X3PRO",
-        "price": 1699900,
+        "price": "{{price-x3pro}}",
         "benefit": "",
         "benefits": [
             {
@@ -25,30 +25,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x3Pro/colors/gold.png",
+        "thumb": "/img/models/x3pro/thumb.webp",
         "colors": [
             {
                 "id": "gold",
                 "name": "Золотой",
-                "carImage": "/img/models/x3Pro/colors/gold.png",
+                "carImage": "/img/models/x3pro/colors/gold.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/x3Pro/colors/white.png",
+                "carImage": "/img/models/x3pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x3Pro/colors/red.png",
+                "carImage": "/img/models/x3pro/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Голубой",
-                "carImage": "/img/models/x3Pro/colors/blue.png",
+                "carImage": "/img/models/x3pro/colors/blue.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/x3pro/colors/gray.webp",
                 "style": ""
             }
         ],
@@ -100,10 +106,10 @@
     {
         "id": "x6pro",
         "show": true,
-        "homeImg": "/img/models/x6pro/bg.jpg",
+        "homeImg": "/img/models/x6pro/bg.webp",
         "slogan": "Дайте старт новому",
         "name": "X6PRO",
-        "price": 2479900,
+        "price": "{{price-x6pro}}",
         "benefit": "",
         "benefits": [
             {
@@ -123,24 +129,24 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x6pro/colors/gray.png",
+        "thumb": "/img/models/x6pro/thumb.webp",
         "colors": [
             {
                 "id": "gray",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x6pro/colors/gray.png",
+                "carImage": "/img/models/x6pro/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x6pro/colors/white.png",
+                "carImage": "/img/models/x6pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/x6pro/colors/blue.png",
+                "carImage": "/img/models/x6pro/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -192,10 +198,10 @@
     {
         "id": "s6pro",
         "show": true,
-        "homeImg": "/img/models/s6pro/bg.jpg",
+        "homeImg": "/img/models/s6pro/bg.webp",
         "slogan": "Драйв в Вашем стиле",
         "name": "S6PRO",
-        "price": 2429900,
+        "price": "{{price-s6pro}}",
         "benefit": "",
         "benefits": [
             {
@@ -215,24 +221,24 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s6pro/colors/green.png",
+        "thumb": "/img/models/s6pro/thumb.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/s6pro/colors/white.png",
+                "carImage": "/img/models/s6pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/s6pro/colors/gray.png",
+                "carImage": "/img/models/s6pro/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "light-blue",
                 "name": "Голубой металлик",
-                "carImage": "/img/models/s6pro/colors/light-blue.png",
+                "carImage": "/img/models/s6pro/colors/light-blue.webp",
                 "style": ""
             }
         ],
