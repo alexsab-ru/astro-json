@@ -1,0 +1,56 @@
+[
+  {
+    "id": "emgrand",
+    "model": "EMGRAND",
+    "price": "1689990",
+    "link": "https://www.geely-motors.com/model/emgrand"
+  },
+  {
+    "id": "geely-preface",
+    "model": "PREFACE",
+    "price": "2699990",
+    "link": "https://www.geely-motors.com/model/geely-preface"
+  },
+  {
+    "id": "geely-coolray-2023",
+    "model": "COOLRAY",
+    "price": "2339990",
+    "link": "https://www.geely-motors.com/model/geely-coolray-2023"
+  },
+  {
+    "id": "atlaspro",
+    "model": "ATLAS PRO",
+    "price": "2248990",
+    "link": "https://www.geely-motors.com/model/atlaspro"
+  },
+  {
+    "id": "geely-atlas-2024",
+    "model": "Новый ATLAS",
+    "price": "2879990",
+    "link": "https://www.geely-motors.com/model/geely-atlas-2024"
+  },
+  {
+    "id": "newtugella",
+    "model": "TUGELLA",
+    "price": "3279990",
+    "link": "https://www.geely-motors.com/model/newtugella"
+  },
+  {
+    "id": "geely-okavango",
+    "model": "Новый OKAVANGO",
+    "price": "3029990",
+    "link": "https://www.geely-motors.com/model/geely-okavango"
+  },
+  {
+    "id": "monjaro",
+    "model": "MONJARO",
+    "price": "3824990",
+    "link": "https://www.geely-motors.com/model/monjaro"
+  },
+  {
+    "id": "belgee-x50",
+    "model": "BELGEE X50",
+    "price": "1985990",
+    "link": "https://www.geely-motors.com/model/belgee-x50"
+  }
+]
