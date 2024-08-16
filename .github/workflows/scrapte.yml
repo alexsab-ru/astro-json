@@ -28,4 +28,4 @@ jobs:
         MODEL_XPATH: "./a/span[@class='title']/text()"
         PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
         LINK_XPATH: "./a/@href"
-        OUTPUT_PATH: "./src/geelyorenburg.ru/data/cars.json"
+        OUTPUT_PATHS: "./src/geelyorenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json"

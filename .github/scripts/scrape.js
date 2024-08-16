@@ -5,7 +5,7 @@ export ID_XPATH="substring-after(./a/@href, '/model/')"
 export MODEL_XPATH="./a/span[@class='title']/text()"
 export PRICE_XPATH="translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a/@href"
-export OUTPUT_PATH="./src/geelyorenburg.ru/data/cars.json"
+export OUTPUT_PATHS="./src/geelyorenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json"
 node .github/scripts/scrape.js
 /**/
 const puppeteer = require('puppeteer');
@@ -64,14 +64,16 @@ async function scrapePage(url, xpaths) {
     return data;
 }
 
-async function saveJson(data, filePath) {
-    try {
-        const directory = path.dirname(filePath);
-        await fs.mkdir(directory, { recursive: true });
-        await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
-        console.log(`Данные успешно сохранены в файл: ${filePath}`);
-    } catch (error) {
-        console.error(`Ошибка сохранения файла: ${error}`);
+async function saveJson(data, filePaths) {
+    for (const filePath of filePaths) {
+        try {
+            const directory = path.dirname(filePath);
+            await fs.mkdir(directory, { recursive: true });
+            await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
+            console.log(`Данные успешно сохранены в файл: ${filePath}`);
+        } catch (error) {
+            console.error(`Ошибка сохранения файла ${filePath}: ${error}`);
+        }
     }
 }
 
@@ -87,7 +89,8 @@ async function saveJson(data, filePath) {
     };
 
     const data = await scrapePage(url, xpaths);
-    
-    const outputFilePath = process.env.OUTPUT_PATH || './output/data.json';
-    await saveJson(data, outputFilePath);
+
+    // Разделение путей сохранения по запятой и обработка их как списка
+    const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
+    await saveJson(data, outputFilePaths);
 })();
