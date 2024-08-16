@@ -1,3 +1,13 @@
+/* * /
+export URL="https://www.geely-motors.com"
+export ITEM_XPATH="//header/div[@data-id='carmodels']/div"
+export ID_XPATH="substring-after(./a/@href, '/model/')"
+export MODEL_XPATH="./a/span[@class='title']/text()"
+export PRICE_XPATH="translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
+export LINK_XPATH="./a/@href"
+export OUTPUT_PATH="./src/geelyorenburg.ru/data/cars.json"
+node .github/scripts/scrape.js
+/**/
 const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
 const path = require('path');
@@ -7,11 +17,11 @@ async function scrapePage(url, xpaths) {
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'domcontentloaded' });
 
-    const data = await page.evaluate((xpaths) => {
+    const data = await page.evaluate((xpaths, baseUrl) => {
         const results = [];
 
-        const evaluateXPath = (xpath) => {
-            const snapshot = document.evaluate(xpath, document, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+        const evaluateXPath = (xpath, contextNode = document) => {
+            const snapshot = document.evaluate(xpath, contextNode, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
             let result = [];
             for (let i = 0; i < snapshot.snapshotLength; i++) {
                 result.push(snapshot.snapshotItem(i));
@@ -22,21 +32,33 @@ async function scrapePage(url, xpaths) {
         const items = evaluateXPath(xpaths.itemXPath);
 
         items.forEach(item => {
-            const id = item.evaluate(xpaths.idXPath, item, null, XPathResult.STRING_TYPE, null).stringValue.trim();
-            const model = item.evaluate(xpaths.modelXPath, item, null, XPathResult.STRING_TYPE, null).stringValue.trim();
-            const price = item.evaluate(xpaths.priceXPath, item, null, XPathResult.STRING_TYPE, null).stringValue.trim();
-            const link = item.evaluate(xpaths.linkXPath, item, null, XPathResult.STRING_TYPE, null).stringValue.trim();
+            const idNode = document.evaluate(xpaths.idXPath, item, null, XPathResult.STRING_TYPE, null);
+            const id = idNode.stringValue.trim();
+            
+            const modelNode = document.evaluate(xpaths.modelXPath, item, null, XPathResult.STRING_TYPE, null);
+            const model = modelNode.stringValue.trim();
+            
+            const priceNode = document.evaluate(xpaths.priceXPath, item, null, XPathResult.STRING_TYPE, null);
+            const price = priceNode.stringValue.trim();
+
+            let linkNode = document.evaluate(xpaths.linkXPath, item, null, XPathResult.STRING_TYPE, null);
+            let link = linkNode.stringValue.trim();
+
+            // Проверяем, является ли ссылка относительной
+            if (!link.startsWith('http')) {
+                link = new URL(link, baseUrl).href;  // Добавляем домен к относительной ссылке
+            }
 
             results.push({
-                ID: id,
-                Модель: model,
-                Цена: price,
-                Ссылка: link
+                id: id,
+                model: model,
+                price: price,
+                link: link
             });
         });
 
         return results;
-    }, xpaths);
+    }, xpaths, url);
 
     await browser.close();
     return data;

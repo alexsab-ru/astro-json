@@ -19,14 +19,13 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run scraper
+    - name: Scrape geely-motors.com
       run: node scrape.js
-        # URL="https://www.geely-motors.com" ITEM_XPATH="//header/div[@data-id='carmodels']" ID_XPATH="replace('/div/a/@href', '/model/', '')" MODEL_XPATH="/div/a/span[@class='title']/text()" PRICE_XPATH="/div/a/span[@class='subtitle']/text()" LINK_XPATH="/div/a/@href" OUTPUT_PATH="./src/geelyorenburg.ru/data/cars.json" node .github/scripts/scrape.js
       env:
         URL: "https://www.geely-motors.com"
-        ITEM_XPATH: "//header/div[@data-id='carmodels']"
-        ID_XPATH: "replace('//header/div[@data-id=\"carmodels\"]/div/a/@href', '/model/', '')"
-        MODEL_XPATH: "//header/div[@data-id='carmodels']/div/a/span[@class='title']/text()"
-        PRICE_XPATH: "//header/div[@data-id='carmodels']/div/a/span[@class='subtitle']/text()"
-        LINK_XPATH: "//header/div[@data-id='carmodels']/div/a/@href"
+        ITEM_XPATH: "//header/div[@data-id='carmodels']/div"
+        ID_XPATH: "substring-after(./a/@href, '/model/')"
+        MODEL_XPATH: "./a/span[@class='title']/text()"
+        PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
+        LINK_XPATH: "./a/@href"
         OUTPUT_PATH: "./src/geelyorenburg.ru/data/cars.json"
