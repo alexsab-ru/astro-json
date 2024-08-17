@@ -110,7 +110,7 @@
         "slogan": "Городской кроссовер",
         "name": "Dashing",
         "price": "{{price-dashing}}",
-        "benefit": "790 000",
+        "benefit": 790000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -226,7 +226,7 @@
         "slogan": "Вместительный кроссовер на все случаи жизни",
         "name": "X90 Plus",
         "price": "{{price-x90plus}}",
-        "benefit": "720 000",
+        "benefit": 720000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -330,7 +330,7 @@
         "slogan": "Семейный кроссовер для совместных путешествий",
         "name": "X70 Plus",
         "price": "{{price-x70plus}}",
-        "benefit": "570 000",
+        "benefit": 570000,
         "benefits": [
             {
                 "url": "#common-modal",
