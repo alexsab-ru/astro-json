@@ -2,7 +2,7 @@ name: Scrape Data
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Запускается в 6 утра каждый день
+    - cron: '0 1 * * *'  # Запускается в 1 по Гринвичу
   push:
     paths:
       - '.github/workflows/scrape.yml'
