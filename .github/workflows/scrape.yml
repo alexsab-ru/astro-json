@@ -112,6 +112,7 @@ jobs:
           echo 'check_changes else'
           echo "changes=false" >> $GITHUB_ENV
           echo "changes=false" >> $GITHUB_OUTPUT
+          echo "script_output=$(echo -n '' | base64)" >> $GITHUB_OUTPUT
         fi
       continue-on-error: true
 
