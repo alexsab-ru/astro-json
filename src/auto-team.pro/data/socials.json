@@ -1,0 +1,11 @@
+{
+    "header": {},
+    "footer": {
+        "vkontakte-full": {
+            "url": "https://vk.com/alexsab"
+        },
+        "telegram-full": {
+            "url": "tg://resolve?domain=alexsab"
+        }
+    }
+}
