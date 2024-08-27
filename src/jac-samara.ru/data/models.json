@@ -852,6 +852,36 @@
         "thumb": "/img/models/t8-pro/colors/blue.webp",
         "colors": [
             {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "/img/models/t8-pro/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебро",
+                "carImage": "/img/models/t8-pro/colors/silver.webp",
+                "style": "background-color: #DDDDDD;"
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "/img/models/t8-pro/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "/img/models/t8-pro/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "/img/models/t8-pro/colors/red.webp",
+                "style": ""
+            },
+            {
                 "id": "blue",
                 "name": "Синий сапфир",
                 "carImage": "/img/models/t8-pro/colors/blue.webp",
