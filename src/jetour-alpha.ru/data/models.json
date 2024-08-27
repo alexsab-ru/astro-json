@@ -1,5 +1,103 @@
 [
     {
+        "id": "x50",
+        "show": true,
+        "homeImg": "/img/models/x50/bg.jpg",
+        "slogan": "Компактный кроссовер",
+        "name": "X50",
+        "price": "{{price-x50}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X50",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X50",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x50/colors/c3b.png",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/x50/colors/black.png",
+                "style": "background-color: #000000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/x50/colors/gray.png",
+                "style": "background-color: #696969; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый",
+                "carImage": "/img/models/x50/colors/light-gray.png",
+                "style": "background-color: #A9A9A9; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/x50/colors/white.png",
+                "style": "background-color: #E0E0E0; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6 DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2720",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4397",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1841",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Максимальная мощность",
+                "value": "147",
+                "measure": "л.с."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
         "id": "t2",
         "show": true,
         "homeImg": "/img/models/t2/bg.jpg",
