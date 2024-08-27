@@ -1,5 +1,21 @@
 [
     {
+        "id": 5,
+        "show": true,
+        "type": "video",
+        "view": "link",
+        "videoUrl": "https://alexsab.ru/video/x50-compress.mp4",
+        "imageUrl": "/img/banners/dla-glavnojh50.png",
+        "title": "X50",
+        "descr": "Компактный кроссовер",
+        "btn": "Подробнее",
+        "btnUrl": "#x50",
+        "dataTitle": "Подробнее JETOUR X50",
+        "dataFormName": "Подробнее JETOUR X50",
+        "badge": "",
+        "autoplay": 14000
+    },
+    {
         "id": 1,
         "show": true,
         "type": "",
@@ -104,21 +120,5 @@
             "image": "/img/badge.png"
         },
         "autoplay": ""
-    },
-    {
-        "id": 5,
-        "show": true,
-        "type": "video",
-        "view": "link",
-        "videoUrl": "https://alexsab.ru/video/x50-compress.mp4",
-        "imageUrl": "/img/banners/dla-glavnojh50.png",
-        "title": "X50",
-        "descr": "Компактный кроссовер",
-        "btn": "Подробнее",
-        "btnUrl": "#x50",
-        "dataTitle": "Подробнее JETOUR X50",
-        "dataFormName": "Подробнее JETOUR X50",
-        "badge": "",
-        "autoplay": 14000
     }
 ]
