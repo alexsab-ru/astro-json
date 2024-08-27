@@ -1,8 +1,14 @@
 [
   {
-    "id": "u5-plus",
-    "model": "UP PLUS",
-    "price": "1234567",
-    "link": "https://localhost/model/u5-plus/"
+    "id": "belgee-x50",
+    "model": "X50",
+    "price": "1985990",
+    "link": "https://belgee.ru/model/belgee-x50"
+  },
+  {
+    "id": "belgee-x70",
+    "model": "X70",
+    "price": "2164990",
+    "link": "https://belgee.ru/model/belgee-x70"
   }
 ]
