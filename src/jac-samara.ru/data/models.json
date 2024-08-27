@@ -136,48 +136,48 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s3/colors/brown.png",
+        "thumb": "/img/models/s3/colors/brown.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/s3/colors/white.png",
+                "carImage": "/img/models/s3/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый фантом",
-                "carImage": "/img/models/s3/colors/silver.png",
+                "carImage": "/img/models/s3/colors/silver.webp",
                 "style": "background-color: #dddddd;"
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/s3/colors/gray.png",
+                "carImage": "/img/models/s3/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/s3/colors/black.png",
+                "carImage": "/img/models/s3/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "brown",
                 "name": "Коричневый каштан",
-                "carImage": "/img/models/s3/colors/brown.png",
+                "carImage": "/img/models/s3/colors/brown.webp",
                 "style": "background-color: #613302;"
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/s3/colors/red.png",
+                "carImage": "/img/models/s3/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/s3/colors/blue.png",
+                "carImage": "/img/models/s3/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -252,12 +252,12 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/iev7s/colors/white.png",
+        "thumb": "/img/models/iev7s/colors/white.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/iev7s/colors/white.png",
+                "carImage": "/img/models/iev7s/colors/white.webp",
                 "style": ""
             }
         ],
@@ -333,30 +333,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/js3/colors/silver.png",
+        "thumb": "/img/models/js3/colors/silver.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/js3/colors/white.png",
+                "carImage": "/img/models/js3/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый фантом",
-                "carImage": "/img/models/js3/colors/silver.png",
+                "carImage": "/img/models/js3/colors/silver.webp",
                 "style": "background-color: #dddddd;"
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/js3/colors/gray.png",
+                "carImage": "/img/models/js3/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/js3/colors/black.png",
+                "carImage": "/img/models/js3/colors/black.webp",
                 "style": ""
             }
         ],
@@ -432,36 +432,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/j7/colors/red.png",
+        "thumb": "/img/models/j7/colors/red.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/j7/colors/white.png",
+                "carImage": "/img/models/j7/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/j7/colors/gray.png",
+                "carImage": "/img/models/j7/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/j7/colors/black.png",
+                "carImage": "/img/models/j7/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/j7/colors/red.png",
+                "carImage": "/img/models/j7/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/j7/colors/blue.png",
+                "carImage": "/img/models/j7/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -537,36 +537,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/js6/colors/black.png",
+        "thumb": "/img/models/js6/colors/black.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/js6/colors/white.png",
+                "carImage": "/img/models/js6/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/js6/colors/gray.png",
+                "carImage": "/img/models/js6/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/js6/colors/black.png",
+                "carImage": "/img/models/js6/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "brown",
                 "name": "Коричневый каштан",
-                "carImage": "/img/models/js6/colors/brown.png",
+                "carImage": "/img/models/js6/colors/brown.webp",
                 "style": "background-color: #613302;"
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/js6/colors/red.png",
+                "carImage": "/img/models/js6/colors/red.webp",
                 "style": ""
             }
         ],
@@ -641,36 +641,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t6/colors/white.png",
+        "thumb": "/img/models/t6/colors/white.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/t6/colors/white.png",
+                "carImage": "/img/models/t6/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый фантом",
-                "carImage": "/img/models/t6/colors/silver.png",
+                "carImage": "/img/models/t6/colors/silver.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/t6/colors/black.png",
+                "carImage": "/img/models/t6/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/t6/colors/red.png",
+                "carImage": "/img/models/t6/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/t6/colors/blue.png",
+                "carImage": "/img/models/t6/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -745,36 +745,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t8/colors/white.png",
+        "thumb": "/img/models/t8/colors/white.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/t8/colors/white.png",
+                "carImage": "/img/models/t8/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/t8/colors/gray.png",
+                "carImage": "/img/models/t8/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/t8/colors/black.png",
+                "carImage": "/img/models/t8/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/t8/colors/red.png",
+                "carImage": "/img/models/t8/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/t8/colors/blue.png",
+                "carImage": "/img/models/t8/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -849,12 +849,12 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t8-pro/colors/blue.png",
+        "thumb": "/img/models/t8-pro/colors/blue.webp",
         "colors": [
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/t8-pro/colors/blue.png",
+                "carImage": "/img/models/t8-pro/colors/blue.webp",
                 "style": ""
             }
         ],
