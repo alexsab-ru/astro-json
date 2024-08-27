@@ -720,6 +720,110 @@
         ]
     },
     {
+        "id": "t8",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Тысячи возможностей!",
+        "name": "T8",
+        "price": "{{price-t8}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac T8",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac T8",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/t8/colors/white.png",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "/img/models/t8/colors/white.png",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "/img/models/t8/colors/gray.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "/img/models/t8/colors/black.png",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "/img/models/t8/colors/red.png",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "/img/models/t8/colors/blue.png",
+                "style": ""
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бенз/Диз",
+            "gearbox": "LC6T32"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3090",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5325",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1880",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Максимальная мощность",
+                "value": "139-190",
+                "measure": "л.с."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
         "id": "t8-pro",
         "show": true,
         "homeImg": "/img/model-bg.webp",
