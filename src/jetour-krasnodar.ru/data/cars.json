@@ -12,6 +12,12 @@
     "link": "https://jetour-ru.com/models/dashing"
   },
   {
+    "id": "x50",
+    "model": "X50",
+    "price": "1990000",
+    "link": "https://jetour-ru.com/models/x50"
+  },
+  {
     "id": "x70plus",
     "model": "X70 Plus",
     "price": "2429900",
