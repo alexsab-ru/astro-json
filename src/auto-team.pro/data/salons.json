@@ -6,7 +6,7 @@
         "work_hours": "ПН—ВС: 8:00 — 20:00",
         "map": {
             "zoom": 5,
-            "balloon": "/img/auto-team.pro/auto_team-locator.svg",
+            "balloon": "/img/auto_team-locator.svg",
             "coords": [51.983505,47.796614],
             "ya_link": "https://yandex.ru/maps/11143/balakovo/?ll=47.796626%2C51.983604&mode=routes&rtext=~51.983505%2C47.796614&rtt=auto&ruri=~&z=17.03"
         }
@@ -18,7 +18,7 @@
         "work_hours": "ПН—ВС: 8:00 — 20:00",
         "map": {
             "zoom": 5,
-            "balloon": "/img/changan/changan-locator.svg",
+            "balloon": "/img/changan-locator.svg",
             "coords": [51.442939, 46.071875],
             "ya_link": "https://yandex.ru/maps/11147/engels/?ll=46.072336%2C51.442867&mode=routes&rtext=~51.442939%2C46.071875&rtt=auto&ruri=~&z=17.03"
         }
@@ -30,7 +30,7 @@
         "work_hours": "ПН—ВС: 8:00 — 20:00",
         "map": {
             "zoom": 5,
-            "balloon": "/img/gac/gac-locator.svg",
+            "balloon": "/img/gac-locator.svg",
             "coords": [51.566911, 46.066645],
             "ya_link": "https://yandex.ru/maps/194/saratov/?ll=46.066641%2C51.566897&mode=routes&rtext=~51.566911%2C46.066645&rtt=auto&ruri=~&z=17.03"
         }
