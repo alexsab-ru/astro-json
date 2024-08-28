@@ -10,41 +10,5 @@
             "coords": [51.983505,47.796614],
             "ya_link": "https://yandex.ru/maps/11143/balakovo/?ll=47.796626%2C51.983604&mode=routes&rtext=~51.983505%2C47.796614&rtt=auto&ruri=~&z=17.03"
         }
-    },
-    {
-        "name": "Чанган Центр Энгельс",
-        "address": "Энгельс, Волжский просп., 75А",
-        "phone":  "8 (8453) 527-007",
-        "work_hours": "ПН—ВС: 8:00 — 20:00",
-        "map": {
-            "zoom": 5,
-            "balloon": "/img/changan-locator.svg",
-            "coords": [51.442939, 46.071875],
-            "ya_link": "https://yandex.ru/maps/11147/engels/?ll=46.072336%2C51.442867&mode=routes&rtext=~51.442939%2C46.071875&rtt=auto&ruri=~&z=17.03"
-        }
-    },
-    {
-        "name": "Саратов Авто Тим",
-        "address": "Саратов, Усть-Курдюмская ул., 6, корп. 1",
-        "phone":  "8 (8452) 45-88-88",
-        "work_hours": "ПН—ВС: 8:00 — 20:00",
-        "map": {
-            "zoom": 5,
-            "balloon": "/img/gac-locator.svg",
-            "coords": [51.566911, 46.066645],
-            "ya_link": "https://yandex.ru/maps/194/saratov/?ll=46.066641%2C51.566897&mode=routes&rtext=~51.566911%2C46.066645&rtt=auto&ruri=~&z=17.03"
-        }
-    },
-    {
-        "name": "Белджи Партнер Саратов",
-        "address": "Саратов, Усть-Курдюмское шоссе, 23",
-        "phone":  "+7 (8452) 229-888",
-        "work_hours": "ПН-ПТ 9:00-19:00,<br>СБ сервис: 9:00-18:00,<br>СБ запчасти: 09:00-16:00,<br>ВС 9:00-16:00 (сервис/запчасти не работает)",
-        "map": {
-            "zoom": 17,
-            "balloon": "/img/belgee-locator.svg",
-            "coords": [51.606740, 46.156122],
-            "ya_link": "https://yandex.ru/maps/11146/saratov-oblast/?ll=46.157000%2C51.606654&mode=routes&rtext=~51.606740%2C46.156122&rtt=auto&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DIgoN3p84QhVNbU5C&z=17"
-        }
     }
 ]
