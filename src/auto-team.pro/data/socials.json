@@ -2,10 +2,13 @@
     "header": {},
     "footer": {
         "vkontakte-full": {
-            "url": "https://vk.com/alexsab"
+            "url": "https://vk.com/avtotimbalakovo"
         },
         "telegram-full": {
-            "url": "tg://resolve?domain=alexsab"
+            "url": "https://t.me/auto_team_balakovo"
+        },
+        "instagram": {
+            "url": "https://www.instagram.com/auto_team_balakovo"
         }
     }
 }
