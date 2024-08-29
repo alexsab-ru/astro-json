@@ -224,7 +224,7 @@
         "homeImg": "/img/models/gs3/bg.webp",
         "slogan": "Дорогу молодым",
         "name": "GS3",
-        "price": "",
+        "price": "{{price-gac-gs3}}",
         "thumb": "/img/models/gs3/colors/blue.webp",
         "colors": [
             {
@@ -304,7 +304,7 @@
         "homeImg": "/img/models/m8/bg.webp",
         "slogan": "Открывайте новые горизонты",
         "name": "M8",
-        "price": "",
+        "price": "{{price-gac-m8}}",
         "thumb": "/img/models/m8/colors/gold.webp",
         "colors": [
             {
@@ -378,7 +378,7 @@
         "homeImg": "/img/models/gs8ii/bg.webp",
         "slogan": "Новое поколение превосходства",
         "name": "GS8 II",
-        "price": "",
+        "price": "{{price-gac-gs8-ii}}",
         "thumb": "/img/models/gs8ii/colors/green.webp",
         "colors": [
             {

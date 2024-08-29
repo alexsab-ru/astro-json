@@ -10,5 +10,23 @@
     "model": "X70",
     "price": "2164990",
     "link": "https://belgee.ru/model/belgee-x70"
+  },
+  {
+    "id": "gac-gs3",
+    "model": "gs3",
+    "price": "2149000",
+    "link": "https://gacmotor.com.ru/models/gs3"
+  },
+  {
+    "id": "gac-gs8-ii",
+    "model": "gs8-ii",
+    "price": "3599000",
+    "link": "https://gacmotor.com.ru/models/gs8-ii"
+  },
+  {
+    "id": "gac-m8",
+    "model": "m8",
+    "price": "5199999",
+    "link": "https://gacmotor.com.ru/models/m8"
   }
 ]
