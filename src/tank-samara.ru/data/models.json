@@ -1,5 +1,6 @@
 [
     {
+        "mark_id": "Tank",
         "id": "300",
         "show": true,
         "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",
@@ -104,6 +105,7 @@
         ]
     },
     {
+        "mark_id": "Tank",
         "id": "500",
         "show": true,
         "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",

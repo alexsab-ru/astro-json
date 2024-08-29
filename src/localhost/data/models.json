@@ -1,5 +1,6 @@
 [
     {
+        "mark_id": "",
         "id": "u5-plus",
         "show": true,
         "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",
@@ -98,6 +99,7 @@
         ]
     },
     {
+        "mark_id": "",
         "id": "atlas-2024",
         "show": true,
         "homeImg": "https://geely-partner.ru/img/models/bg.webp",
@@ -196,6 +198,7 @@
         ]
     },
     {
+        "mark_id": "",
         "id": "atlas-pro",
         "show": true,
         "homeImg": "https://geely-partner.ru/img/models/bg.webp",
@@ -300,6 +303,7 @@
         ]
     },
     {
+        "mark_id": "",
         "id": "emgrand",
         "show": true,
         "homeImg": "https://geely-partner.ru/img/models/bg.webp",
@@ -404,6 +408,7 @@
         ]
     },
     {
+        "mark_id": "",
         "id": "coolray",
         "show": true,
         "homeImg": "https://geely-partner.ru/img/models/bg.webp",
@@ -508,6 +513,7 @@
         ]
     },
     {
+        "mark_id": "",
         "id": "new_coolray",
         "show": true,
         "homeImg": "https://geely-partner.ru/img/models/bg.webp",
@@ -588,6 +594,7 @@
         ]
     },
     {
+        "mark_id": "",
         "id": "tugella",
         "show": true,
         "homeImg": "https://geely-partner.ru/img/models/bg.webp",
@@ -686,6 +693,7 @@
         ]
     },
     {
+        "mark_id": "",
         "id": "monjaro",
         "show": true,
         "homeImg": "https://geely-partner.ru/img/models/bg.webp",
@@ -790,6 +798,7 @@
         ]
     },
     {
+        "mark_id": "",
         "id": "belgee-x50",
         "show": true,
         "homeImg": "https://geely-partner.ru/img/models/bg.webp",

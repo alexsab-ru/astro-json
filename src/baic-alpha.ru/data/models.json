@@ -141,6 +141,7 @@
         ]
     },
     {
+        "mark_id": "Baic",
         "id": "u5-plus",
         "show": true,
         "homeImg": "/img/models/u5-plus/bg.jpg",
@@ -239,6 +240,7 @@
         ]
     },
     {
+        "mark_id": "Baic",
         "id": "x35",
         "show": true,
         "homeImg": "/img/models/x35/bg.jpg",
@@ -343,6 +345,7 @@
         ]
     },
     {
+        "mark_id": "Baic",
         "id": "x55",
         "show": true,
         "homeImg": "/img/model-bg.webp",
@@ -477,6 +480,7 @@
         ]
     },
     {
+        "mark_id": "Baic",
         "id": "x7",
         "show": true,
         "homeImg": "/img/model-bg.webp",
@@ -575,6 +579,7 @@
         ]
     },
     {
+        "mark_id": "Baic",
         "id": "bj40",
         "show": true,
         "homeImg": "/img/models/bj40/bg.jpg",

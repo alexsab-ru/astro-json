@@ -1,5 +1,6 @@
 [
     {
+        "mark_id": "Kaiyi",
         "id": "e5",
         "show": true,
         "homeImg": "/img/models/e5/bg.jpg",
@@ -98,6 +99,7 @@
         ]
     },
     {
+        "mark_id": "Kaiyi",
         "id": "x3",
         "show": true,
         "homeImg": "/img/models/x3/bg.jpg",
@@ -208,6 +210,7 @@
         ]
     },
     {
+        "mark_id": "Kaiyi",
         "id": "x3pro",
         "show": true,
         "homeImg": "/img/models/x3pro/bg.jpg",
@@ -318,6 +321,7 @@
         ]
     },
     {
+        "mark_id": "Kaiyi",
         "id": "x7-kunlun",
         "show": true,
         "homeImg": "/img/model-bg.webp",

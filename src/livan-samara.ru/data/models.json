@@ -1,5 +1,6 @@
 [
     {
+        "mark_id": "Livan",
         "id": "x3pro",
         "show": true,
         "homeImg": "/img/models/x3pro/bg2.webp",
@@ -104,6 +105,7 @@
         ]
     },
     {
+        "mark_id": "Livan",
         "id": "x6pro",
         "show": true,
         "homeImg": "/img/models/x6pro/bg.webp",
@@ -196,6 +198,7 @@
         ]
     },
     {
+        "mark_id": "Livan",
         "id": "s6pro",
         "show": true,
         "homeImg": "/img/models/s6pro/bg.webp",

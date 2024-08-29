@@ -1,5 +1,6 @@
 [
     {
+        "mark_id": "Jetour",
         "id": "t2",
         "show": true,
         "homeImg": "/img/models/t2/bg.jpg",
@@ -104,6 +105,7 @@
         ]
     },
     {
+        "mark_id": "Jetour",
         "id": "dashing",
         "show": true,
         "homeImg": "/img/models/dashing/bg.jpg",
@@ -220,6 +222,7 @@
         ]
     },
     {
+        "mark_id": "Jetour",
         "id": "x90plus",
         "show": true,
         "homeImg": "/img/models/x90plus/bg.jpg",
@@ -324,6 +327,7 @@
         ]
     },
     {
+        "mark_id": "Jetour",
         "id": "x70plus",
         "show": true,
         "homeImg": "/img/models/x70plus/bg.jpg",

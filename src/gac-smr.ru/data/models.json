@@ -1,5 +1,6 @@
 [
     {
+        "mark_id": "GAC",
         "id": "gs3",
         "show": true,
         "homeImg": "/img/models/gs3/bg.webp",
@@ -79,6 +80,7 @@
         ]
     },
     {
+        "mark_id": "GAC",
         "id": "m8",
         "show": true,
         "homeImg": "/img/models/m8/bg.webp",
@@ -152,6 +154,7 @@
         ]
     },
     {
+        "mark_id": "GAC",
         "id": "gs8ii",
         "show": true,
         "homeImg": "/img/models/gs8ii/bg.webp",
@@ -237,6 +240,7 @@
         ]
     },
     {
+        "mark_id": "GAC",
         "id": "gs8",
         "show": false,
         "homeImg": "/img/models/gs8/bg.webp",
@@ -329,6 +333,7 @@
         ]
     },
     {
+        "mark_id": "GAC",
         "id": "gs5",
         "show": false,
         "homeImg": "/img/models/gs5/bg.webp",
@@ -421,6 +426,7 @@
         ]
     },
     {
+        "mark_id": "GAC",
         "id": "gn8",
         "show": false,
         "homeImg": "/img/models/gn8/bg.webp",

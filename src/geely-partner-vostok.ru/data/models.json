@@ -1,5 +1,6 @@
 [
     {
+        "mark_id": "Geely",
         "id": "preface",
         "show": true,
         "homeImg": "/img/models/bg.webp",
@@ -110,6 +111,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "geometry-g6",
         "show": false,
         "homeImg": "/img/models/bg.webp",
@@ -190,6 +192,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "geely-atlas-2024",
         "show": true,
         "homeImg": "/img/models/bg.webp",
@@ -294,6 +297,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "atlaspro",
         "show": true,
         "homeImg": "/img/models/bg.webp",
@@ -398,6 +402,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "emgrand",
         "show": true,
         "homeImg": "/img/models/bg.webp",
@@ -508,6 +513,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "coolray",
         "show": false,
         "homeImg": "/img/models/bg.webp",
@@ -612,6 +618,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "geely-coolray-2023",
         "show": true,
         "homeImg": "/img/models/bg.webp",
@@ -716,6 +723,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "newtugella",
         "show": true,
         "homeImg": "/img/models/bg.webp",
@@ -814,6 +822,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "geely-okavango",
         "show": true,
         "homeImg": "/img/models/bg.webp",
@@ -912,6 +921,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "monjaro",
         "show": true,
         "homeImg": "/img/models/bg.webp",
@@ -1022,6 +1032,7 @@
         ]
     },
     {
+        "mark_id": "Geely",
         "id": "belgee-x50",
         "show": true,
         "homeImg": "/img/models/bg.webp",
