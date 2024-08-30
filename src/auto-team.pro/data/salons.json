@@ -5,7 +5,7 @@
         "phone":  "8 (8453) 220-200",
         "work_hours": "ПН—ВС: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 14,
             "balloon": "/img/auto_team-locator.svg",
             "coords": [51.983505,47.796614],
             "ya_link": "https://yandex.ru/maps/11143/balakovo/?ll=47.796626%2C51.983604&mode=routes&rtext=~51.983505%2C47.796614&rtt=auto&ruri=~&z=17.03"
