@@ -7,7 +7,7 @@
         "slogan": "",
         "name": "Preface",
         "price": "{{price-geely-preface}}",
-        "benefit": "",
+        "benefit": 350000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -198,8 +198,8 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Новый Atlas",
-        "benefit": 450000,
         "price": "{{price-geely-atlas-2024}}",
+        "benefit": 350000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -409,7 +409,7 @@
         "slogan": "",
         "name": "Emgrand",
         "price": "{{price-emgrand}}",
-        "benefit": 510000,
+        "benefit": 350000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -730,7 +730,7 @@
         "slogan": "",
         "name": "Tugella",
         "price": "{{price-newtugella}}",
-        "benefit": 920000,
+        "benefit": 680000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1038,7 +1038,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Belgee X50",
-        "price": "{{price-monjaro}}",
+        "price": "{{price-belgee-x50}}",
         "benefit": 320000,
         "benefits": [
             {
