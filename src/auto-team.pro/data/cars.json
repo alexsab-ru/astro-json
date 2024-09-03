@@ -8,7 +8,7 @@
   {
     "id": "belgee-x70",
     "model": "X70",
-    "price": "2164990",
+    "price": "2184990",
     "link": "https://belgee.ru/model/belgee-x70"
   },
   {
@@ -28,5 +28,89 @@
     "model": "m8",
     "price": "4999999",
     "link": "https://gacmotor.com.ru/models/m8"
+  },
+  {
+    "id": "changan-alsvin",
+    "model": "ALSVIN",
+    "price": "1570000",
+    "link": "https://changanauto.ru/models/alsvin/"
+  },
+  {
+    "id": "changan-eadoplus",
+    "model": "EADOplus",
+    "price": "2049900",
+    "link": "https://changanauto.ru/models/eadoplus/"
+  },
+  {
+    "id": "changan-lamore",
+    "model": "Lamore",
+    "price": "2489900",
+    "link": "https://changanauto.ru/models/lamore/"
+  },
+  {
+    "id": "changan-cs35plusnew",
+    "model": "CS35PLUS NEW",
+    "price": "2069900",
+    "link": "https://changanauto.ru/models/cs35plusnew/"
+  },
+  {
+    "id": "changan-cs55plus",
+    "model": "CS55PLUS",
+    "price": "2449900",
+    "link": "https://changanauto.ru/models/cs55plus/"
+  },
+  {
+    "id": "changan-cs75plus",
+    "model": "CS75plus",
+    "price": "2849900",
+    "link": "https://changanauto.ru/models/cs75plus/"
+  },
+  {
+    "id": "changan-cs85coupe",
+    "model": "CS85COUPE",
+    "price": "3709900",
+    "link": "https://changanauto.ru/models/cs85coupe/"
+  },
+  {
+    "id": "changan-cs95",
+    "model": "CS95",
+    "price": "4149900",
+    "link": "https://changanauto.ru/models/cs95/"
+  },
+  {
+    "id": "changan-cs95new",
+    "model": "CS95NEW",
+    "price": "3979900",
+    "link": "https://changanauto.ru/models/cs95new/"
+  },
+  {
+    "id": "changan-uni-t",
+    "model": "UNI-T",
+    "price": "2729900",
+    "link": "https://changanauto.ru/models/uni-t/"
+  },
+  {
+    "id": "changan-uni-v",
+    "model": "UNI-V",
+    "price": "2759900",
+    "link": "https://changanauto.ru/models/uni-v/"
+  },
+  {
+    "id": "changan-uni-k",
+    "model": "UNI-K",
+    "price": "3399900",
+    "link": "https://changanauto.ru/models/uni-k/"
+  },
+  {
+    "id": "changan-hunter",
+    "model": "HUNTERplus",
+    "price": "3429900",
+    "link": "https://changanauto.ru/models/hunter/"
+  },
+  {
+    "id": "changan-uni-k_idd",
+    "model": "UNI-K iDD",
+    "price": "4779900",
+    "link": "https://changanauto.ru/models/uni-k_idd/"
   }
 ]

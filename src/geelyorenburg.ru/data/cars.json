@@ -1,6 +1,6 @@
 [
   {
-    "id": "emgrand",
+    "id": "geely-emgrand",
     "model": "EMGRAND",
     "price": "1709990",
     "link": "https://www.geely-motors.com/model/emgrand"
@@ -18,7 +18,7 @@
     "link": "https://www.geely-motors.com/model/geely-coolray-2023"
   },
   {
-    "id": "atlaspro",
+    "id": "geely-atlaspro",
     "model": "ATLAS PRO",
     "price": "2268990",
     "link": "https://www.geely-motors.com/model/atlaspro"
@@ -30,7 +30,7 @@
     "link": "https://www.geely-motors.com/model/geely-atlas-2024"
   },
   {
-    "id": "newtugella",
+    "id": "geely-newtugella",
     "model": "TUGELLA",
     "price": "3279990",
     "link": "https://www.geely-motors.com/model/newtugella"
@@ -42,13 +42,13 @@
     "link": "https://www.geely-motors.com/model/geely-okavango"
   },
   {
-    "id": "monjaro",
+    "id": "geely-monjaro",
     "model": "MONJARO",
     "price": "3824990",
     "link": "https://www.geely-motors.com/model/monjaro"
   },
   {
-    "id": "belgee-x50",
+    "id": "geely-belgee-x50",
     "model": "BELGEE X50",
     "price": "1985990",
     "link": "https://www.geely-motors.com/model/belgee-x50"
