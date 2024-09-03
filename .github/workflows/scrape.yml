@@ -97,6 +97,17 @@ jobs:
         LINK_XPATH: ".//a[starts-with(@href, '/models/')]/@href"
         OUTPUT_PATHS: "./src/gac-smr.ru/data/cars.json,./src/gac-orenburg.ru/data/cars.json"
 
+    - name: Scrape changanauto.ru
+      run: node .github/scripts/scrape.js
+      env:
+        URL: "https://changanauto.ru/models/"
+        ITEM_XPATH: "//a[contains(@class,'card_bg-hover')]"
+        ID_XPATH: "substring-before(substring-after(@href, '/models/'),'/')"
+        MODEL_XPATH: ".//span[contains(@class,'card__info-title')]/text()"
+        PRICE_XPATH: "translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), '0123456789', ''), '')"
+        LINK_XPATH: "./@href"
+        OUTPUT_PATHS: "./tmp/auto-team.pro/data/changan.json"
+
     - name: Check for changes
       id: check_changes
       run: |

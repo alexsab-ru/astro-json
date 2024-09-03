@@ -67,3 +67,14 @@ export LINK_XPATH=".//a[starts-with(@href, '/models/')]/@href"
 export OUTPUT_PATHS="./src/gac-smr.ru/data/cars.json,./src/gac-orenburg.ru/data/cars.json"
 node .github/scripts/scrape.js
 ```
+
+```sh
+export URL="https://changanauto.ru/models/"
+export ITEM_XPATH="//a[contains(@class,'card_bg-hover')]"
+export ID_XPATH="substring-before(substring-after(@href, '/models/'),'/')"
+export MODEL_XPATH=".//span[contains(@class,'card__info-title')]/text()"
+export PRICE_XPATH="translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), '0123456789', ''), '')"
+export LINK_XPATH="./@href"
+export OUTPUT_PATHS="./src/auto-team.pro/data/cars.json"
+node .github/scripts/scrape.js
+```
