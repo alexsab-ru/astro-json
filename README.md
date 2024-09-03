@@ -5,7 +5,7 @@
 ```sh
 export URL="https://www.geely-motors.com"
 export ITEM_XPATH="//header/div[@data-id='carmodels']/div"
-export ID_XPATH="substring-after(./a/@href, '/model/')"
+export ID_XPATH="concat('geely-', substring(substring-after(./a/@href, '/model/'), 1 + 6 * starts-with(substring-after(./a/@href, '/model/'), 'geely-')))"
 export MODEL_XPATH="./a/span[@class='title']/text()"
 export PRICE_XPATH="translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a/@href"
@@ -16,7 +16,7 @@ node .github/scripts/scrape.js
 ```sh
 export URL="https://belgee.ru"
 export ITEM_XPATH="//header/div[@data-id='models']/div"
-export ID_XPATH="substring-after(./a/@href, '/model/')"
+export ID_XPATH="concat('belgee-', substring-after(substring-after(./a/@href, '/model/'), 'belgee-'))"
 export MODEL_XPATH="./a/span[@class='title']/text()"
 export PRICE_XPATH="translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a/@href"
@@ -27,7 +27,7 @@ node .github/scripts/scrape.js
 ```sh
 export URL="https://jaccar.ru"
 export ITEM_XPATH="//li[contains(@class, 'menu-models__item')]"
-export ID_XPATH="substring-before(substring-after(.//a[contains(@class, 'js-menu-models-link')]/@href, '/models/'), '/')"
+export ID_XPATH="concat('jac-', substring-before(substring-after(.//a[contains(@class, 'js-menu-models-link')]/@href, '/models/'), '/'))"
 export MODEL_XPATH="substring-after(.//div[contains(@class, 'menu-models__item-title')]/text(), 'JAC ')"
 export PRICE_XPATH="translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a[contains(@class, 'js-menu-models-link')]/@href"
@@ -38,7 +38,7 @@ node .github/scripts/scrape.js
 ```sh
 export URL="https://jetour-ru.com"
 export ITEM_XPATH="//li[contains(@class, 'menu-model-card')]"
-export ID_XPATH="substring-before(substring-after(.//div[contains(@class, 'td-submenu__body')]//a[starts-with(@href, '/models/')]/@href, '/models/'), '?')"
+export ID_XPATH="concat('jetour-', substring-before(substring-after(.//div[contains(@class, 'td-submenu__body')]//a[starts-with(@href, '/models/')]/@href, '/models/'), '?'))"
 export MODEL_XPATH=".//div[@class='td-submenu__title']/text()"
 export PRICE_XPATH="translate(string(.//div[@class='td-submenu__description']/span[1]/span[1]/text()), translate(string(.//div[@class='td-submenu__description']/span[1]/span[1]/text()), '0123456789', ''), '')"
 export LINK_XPATH="substring-before(.//div[contains(@class, 'td-submenu__body')]//a[starts-with(@href, '/models/')]/@href, '?')"
@@ -49,7 +49,7 @@ node .github/scripts/scrape.js
 ```sh
 export URL="https://livan-motors.ru/model/"
 export ITEM_XPATH="//img[starts-with(@src, 'https://livan-motors.ru/storage/model')]/parent::*"
-export ID_XPATH="substring-before(substring-after(./a[contains(text(),'Подробнее')][starts-with(@href, 'https://livan-motors.ru/model/')]/@href, '/model/'), '/')"
+export ID_XPATH="concat('livan-', substring-before(substring-after(./a[contains(text(),'Подробнее')][starts-with(@href, 'https://livan-motors.ru/model/')]/@href, '/model/'), '/'))"
 export MODEL_XPATH="substring-after(./div[@class='text-xl leading-none mb-6']/text(),'LIVAN ')"
 export PRICE_XPATH="translate(string(./div[@class='text-sm mb-6']/text()), translate(string(./div[@class='text-sm mb-6']/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a[contains(text(),'Подробнее')][starts-with(@href, 'https://livan-motors.ru/model/')]/@href"
@@ -60,7 +60,7 @@ node .github/scripts/scrape.js
 ```sh
 export URL="https://gacmotor.com.ru/models"
 export ITEM_XPATH="//div[@class='td-models-grid__item']"
-export ID_XPATH="substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/')"
+export ID_XPATH="concat('gac-', substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/'))"
 export MODEL_XPATH="substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/')"
 export PRICE_XPATH="translate(string(.//span[@class='price']/text()), translate(string(.//span[@class='price']/text()), '0123456789', ''), '')"
 export LINK_XPATH=".//a[starts-with(@href, '/models/')]/@href"
@@ -71,7 +71,7 @@ node .github/scripts/scrape.js
 ```sh
 export URL="https://changanauto.ru/models/"
 export ITEM_XPATH="//a[contains(@class,'card_bg-hover')]"
-export ID_XPATH="substring-before(substring-after(@href, '/models/'),'/')"
+export ID_XPATH="concat('changan-', substring-before(substring-after(@href, '/models/'),'/'))"
 export MODEL_XPATH=".//span[contains(@class,'card__info-title')]/text()"
 export PRICE_XPATH="translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), '0123456789', ''), '')"
 export LINK_XPATH="./@href"
