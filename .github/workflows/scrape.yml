@@ -51,7 +51,7 @@ jobs:
         MODEL_XPATH: "./a/span[@class='title']/text()"
         PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
         LINK_XPATH: "./a/@href"
-        OUTPUT_PATHS: "./src/belgee-partner-samara.ru/data/cars.json,./src/belgee-partner-saratov.ru/data/cars.json,./src/belgee-samara.ru/data/cars.json"
+        OUTPUT_PATHS: "./src/belgee-partner-samara.ru/data/cars.json,./src/belgee-partner-saratov.ru/data/cars.json,./src/belgee-samara.ru/data/cars.json,./tmp/auto-team.pro/data/belgee.json"
 
     - name: Scrape jaccar.ru
       run: node .github/scripts/scrape.js
@@ -95,7 +95,7 @@ jobs:
         MODEL_XPATH: "substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/')"
         PRICE_XPATH: "translate(string(.//span[@class='price']/text()), translate(string(.//span[@class='price']/text()), '0123456789', ''), '')"
         LINK_XPATH: ".//a[starts-with(@href, '/models/')]/@href"
-        OUTPUT_PATHS: "./src/gac-smr.ru/data/cars.json,./src/gac-orenburg.ru/data/cars.json"
+        OUTPUT_PATHS: "./src/gac-smr.ru/data/cars.json,./src/gac-orenburg.ru/data/cars.json,./tmp/auto-team.pro/data/gac.json"
 
     - name: Scrape changanauto.ru
       run: node .github/scripts/scrape.js
@@ -107,6 +107,12 @@ jobs:
         PRICE_XPATH: "translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), '0123456789', ''), '')"
         LINK_XPATH: "./@href"
         OUTPUT_PATHS: "./tmp/auto-team.pro/data/changan.json"
+
+    - name: Merge JSON for auto-team.pro
+      run: node .github/scripts/mergeJson.js
+      env:
+        INPUT_PATHS: "./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
+        OUTPUT_PATHS: "./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
 
     - name: Check for changes
       id: check_changes
