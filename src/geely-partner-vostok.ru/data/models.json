@@ -303,7 +303,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Atlas Pro",
-        "price": "{{price-atlaspro}}",
+        "price": "{{price-geely-atlaspro}}",
         "benefit": 600000,
         "benefits": [
             {
@@ -408,7 +408,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Emgrand",
-        "price": "{{price-emgrand}}",
+        "price": "{{price-geely-emgrand}}",
         "benefit": 350000,
         "benefits": [
             {
@@ -729,7 +729,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Tugella",
-        "price": "{{price-newtugella}}",
+        "price": "{{price-geely-newtugella}}",
         "benefit": 680000,
         "benefits": [
             {
@@ -927,7 +927,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Monjaro",
-        "price": "{{price-monjaro}}",
+        "price": "{{price-geely-monjaro}}",
         "benefit": 450000,
         "benefits": [
             {
@@ -1038,7 +1038,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Belgee X50",
-        "price": "{{price-belgee-x50}}",
+        "price": "{{price-geely-belgee-x50}}",
         "benefit": 320000,
         "benefits": [
             {
