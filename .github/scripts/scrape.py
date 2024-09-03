@@ -25,9 +25,10 @@ def scrape_page(url, xpaths):
 
     data = []
     for item in items:
-        id = item.xpath(xpaths['id_xpath'])[0].strip() if item.xpath(xpaths['id_xpath']) else None
+        print(item.xpath(xpaths['model_xpath']))
+        id = item.xpath(xpaths['id_xpath']).strip() if item.xpath(xpaths['id_xpath']) else None
         model = item.xpath(xpaths['model_xpath'])[0].strip() if item.xpath(xpaths['model_xpath']) else None
-        price = item.xpath(xpaths['price_xpath'])[0].strip() if item.xpath(xpaths['price_xpath']) else None
+        price = item.xpath(xpaths['price_xpath']).strip() if item.xpath(xpaths['price_xpath']) else None
         link = item.xpath(xpaths['link_xpath'])[0].strip() if item.xpath(xpaths['link_xpath']) else None
 
         data.append({

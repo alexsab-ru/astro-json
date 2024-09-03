@@ -77,4 +77,7 @@ export PRICE_XPATH="translate(string(.//span[contains(@class,'card__info-title')
 export LINK_XPATH="./@href"
 export OUTPUT_PATHS="./src/auto-team.pro/data/cars.json"
 node .github/scripts/scrape.js
+
+export OUTPUT_PATH="./src/auto-team.pro/data/cars.json"
+python3 .github/scripts/scrape.py
 ```
