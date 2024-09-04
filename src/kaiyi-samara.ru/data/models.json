@@ -6,7 +6,7 @@
         "homeImg": "/img/models/e5/bg.jpg",
         "slogan": "Совершенство в каждой детали",
         "name": "E5",
-        "price": "",
+        "price": "{{price-kaiyi-e5}}",
         "benefit": "",
         "benefits": [
             {
@@ -105,7 +105,7 @@
         "homeImg": "/img/models/x3/bg.jpg",
         "slogan": "Настоящий я",
         "name": "X3",
-        "price": "",
+        "price": "{{price-kaiyi-x3}}",
         "benefit": "",
         "benefits": [
             {
@@ -216,7 +216,7 @@
         "homeImg": "/img/models/x3pro/bg.jpg",
         "slogan": "",
         "name": "X3 Pro",
-        "price": "",
+        "price": "{{price-kaiyi-x3pro}}",
         "benefit": "",
         "benefits": [
             {
@@ -327,7 +327,7 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Создан для молодого поколения",
         "name": "X7 Kunlun",
-        "price": "",
+        "price": "{{price-kaiyi-x7-kunlun}}",
         "benefit": "",
         "benefits": [
             {
