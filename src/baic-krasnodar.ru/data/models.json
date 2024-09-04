@@ -6,7 +6,7 @@
         "homeImg": "/img/models/x35/bg.jpg",
         "slogan": "Современный дизайн и яркая харизма",
         "name": "X75",
-        "price": "",
+        "price": "{{price-baic-x75}}",
         "benefit": "",
         "benefits": [
             {
@@ -147,7 +147,7 @@
         "homeImg": "/img/models/u5-plus/bg.jpg",
         "slogan": "Практичность и комфорт",
         "name": "U5 Plus",
-        "price": "",
+        "price": "{{price-baic-u5_plus}}",
         "benefit": "",
         "benefits": [
             {
@@ -246,7 +246,7 @@
         "homeImg": "/img/models/x35/bg.jpg",
         "slogan": "Динамика и управляемость",
         "name": "X35",
-        "price": "",
+        "price": "{{price-baic-x35}}",
         "benefit": "",
         "benefits": [
             {
@@ -351,7 +351,7 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Динамичный кроссовер",
         "name": "X55",
-        "price": "",
+        "price": "{{price-baic-x55}}",
         "benefit": "",
         "benefits": [
             {
@@ -486,7 +486,7 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Привлекательный и просторный кроссовер",
         "name": "X7",
-        "price": "",
+        "price": "{{price-baic-x7}}",
         "benefit": "",
         "benefits": [
             {
@@ -585,7 +585,7 @@
         "homeImg": "/img/models/bj40/bg.jpg",
         "slogan": "Баланс между городом и&nbsp;дикой природой",
         "name": "BJ40",
-        "price": "",
+        "price": "{{price-baic-bj40}}",
         "benefit": "",
         "benefits": [
             {
