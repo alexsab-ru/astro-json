@@ -1,5 +1,37 @@
 [
     {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/photo_2024-09-04 10.53.16.webp",
+        "title": "Специальное предложение.<br>Брутальный Х90 с выгодой до 800 000 ₽.",
+        "descr": "Осталось несколько штук. Цена от 2 599 900.<br>До {{lastDay}} {{monthGenitive}} 2024 г.",
+        "btn": "Успеть купить",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Подробнее про JETOUR X90 от 2 599 900 ₽",
+        "dataFormName": "Подробнее про JETOUR X90 от 2 599 900 ₽. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/photo_2024-09-04 10.53.39.webp",
+        "title": "Таких цен не будет.<br>Dashing от 1 919 900 ₽.",
+        "descr": "Выгодные условия по программам трейд-ин и кредит.<br>До {{lastDay}} {{monthGenitive}} 2024 г.",
+        "btn": "Успеть купить",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Подробнее про Dashing от 1 919 900 ₽",
+        "dataFormName": "Подробнее про Dashing от 1 919 900 ₽. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
         "id": 5,
         "show": true,
         "type": "video",
