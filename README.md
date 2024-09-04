@@ -87,3 +87,19 @@ export INPUT_PATHS="./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/dat
 export OUTPUT_PATHS="./src/auto-team.pro/data/cars.json"
 node .github/scripts/mergeJson.js
 ```
+
+```sh
+export BRAND='kaiyi'
+export URL='https://kaiyi-auto.ru/models/'
+export REGEXP='\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
+export OUTPUT_PATHS="./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data/cars.json,./src/kaiyi-samara.ru/data/cars.json"
+node .github/scripts/extractData.js
+```
+
+```sh
+export BRAND='baic'
+export URL='http://baic-auto.ru/models/'
+export REGEXP='\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
+export OUTPUT_PATHS="./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/data/cars.json,./src/baic-samara.ru/data/cars.json"
+node .github/scripts/extractData.js
+```

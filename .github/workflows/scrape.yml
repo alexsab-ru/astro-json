@@ -114,6 +114,22 @@ jobs:
         INPUT_PATHS: "./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
         OUTPUT_PATHS: "./src/auto-team.pro/data/cars.json"
 
+    - name: Scrape kaiyi-auto.ru
+      run: node .github/scripts/extractData.js
+      env:
+        BRAND: 'kaiyi'
+        URL: 'https://kaiyi-auto.ru/models/'
+        REGEXP: '\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
+        OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data/cars.json,./src/kaiyi-samara.ru/data/cars.json"
+
+    - name: Scrape baic-auto.ru
+      run: node .github/scripts/extractData.js
+      env:
+        BRAND: 'baic'
+        URL: 'https://baic-auto.ru/models/'
+        REGEXP: '\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
+        OUTPUT_PATHS: "./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/data/cars.json,./src/baic-samara.ru/data/cars.json"
+
     - name: Check for changes
       id: check_changes
       run: |
