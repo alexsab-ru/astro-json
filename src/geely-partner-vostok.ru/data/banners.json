@@ -7,7 +7,7 @@
         "videoUrl": "",
         "imageUrl": "/img/banners/tugella.webp",
         "title": "<div class='w-fit'><div class='text-6xl sm:text-7xl lg:text-[100px] w-fit'>TUGELLA</div><div class='font-normal text-3xl sm:text-4xl lg:text-[60px] text-right mt-5'>от {{priceb-geely-newtugella}}</div></div>",
-        "descr": "<div class='font-normal text-2xl sm:text-3xl lg:text-4xl mt-10'>С выгодой до 900 000 ₽</div>",
+        "descr": "<div class='font-normal text-2xl sm:text-3xl lg:text-4xl mt-10'>С выгодой до 680 000 ₽</div>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "TUGELLA от {{priceb-geely-newtugella}}",
