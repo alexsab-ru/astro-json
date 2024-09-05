@@ -26,70 +26,91 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/cs55plus/colors/cs55plus_atomic_grey.png",
-        "image": "/img/models/cs55plus/colors/cs55plus_atomic_grey.png",
+        "thumb": "/img/models/cs55plus/colors/cs55plus_atomic_grey.webp",
+        "image": "/img/models/cs55plus/colors/cs55plus_atomic_grey.webp",
         "colors": [
             {
-                "id": "cs55plus_atomic_grey.png",
+                "id": "atomic_grey",
                 "name": "Атомный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_atomic_grey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/atomic-grey.png')"
+                "carImage": "/img/models/cs55plus/colors/cs55plus_atomic_grey.webp",
+                "style": "background-image: url('/img/models/cs55plus/colors/atomic-grey.webp')"
             },
             {
-                "id": "cs55plus_deep_black.png",
+                "id": "deep_black",
                 "name": "Глубокий черный",
-                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_deep_black.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/pitch-black.png')"
+                "carImage": "/img/models/cs55plus/colors/cs55plus_deep_black.webp",
+                "style": "background-image: url('/img/models/cs55plus/colors/pitch-black.webp')"
             },
             {
-                "id": "cs55plus_pearl_white.png",
+                "id": "pearl_white",
                 "name": "Перламутровый белый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_pearl_white.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/pearl-white.png')"
+                "carImage": "/img/models/cs55plus/colors/cs55plus_pearl_white.webp",
+                "style": "background-image: url('/img/models/cs55plus/colors/pearl-white.webp')"
             },
             {
-                "id": "cs55plus_spark_red.png",
+                "id": "spark_red",
                 "name": "Искрящийся красный",
-                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_spark_red.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/eb45079d75720930cff9d5483365af4e.png')"
+                "carImage": "/img/models/cs55plus/colors/cs55plus_spark_red.webp",
+                "style": "background-image: url('/img/models/cs55plus/colors/spark-red.webp')"
             },
             {
-                "id": "cs55plus_star_grey.png",
+                "id": "star_grey",
                 "name": "Звездный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_star_grey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/star-grey.png')"
+                "carImage": "/img/models/cs55plus/colors/cs55plus_star_grey.webp",
+                "style": "background-image: url('/img/models/cs55plus/colors/star-grey.webp')"
             }
+        ],
+        "feed_names": [
+            "CS55PLUS, I Рестайлинг"
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "7 DCT"
         },
         "globalChars": [
             {
-                "id": "1.5T",
-                "title": "1.5T",
-                "value": "Двигатель",
-                "measure": "1.5T"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2656",
+                "measure": "мм"
             },
             {
-                "id": "7 DCT",
-                "title": "7 DCT",
-                "value": "КПП",
-                "measure": "7 DCT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4515",
+                "measure": "мм"
             },
             {
-                "id": "280",
-                "title": "280",
-                "value": "Н/М Крут. момент",
-                "measure": "280"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1865",
+                "measure": "мм"
             },
             {
-                "id": "181",
-                "title": "181",
-                "value": "л.с.",
-                "measure": "181"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "1.5T",
+                "measure": ""
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "7 DCT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "280",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "181",
+                "measure": "л.с."
             }
         ]
     },
@@ -120,64 +141,85 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/cs35plus new/colors/crystalwhite.png",
-        "image": "/img/models/cs35plus new/colors/crystalwhite.png",
+        "thumb": "/img/models/cs35plus new/colors/cs35plusnew_crystal_white.webp",
+        "image": "/img/models/cs35plus new/colors/cs35plusnew_crystal_white.webp",
         "colors": [
             {
-                "id": "crystalwhite.png",
+                "id": "crystal_white",
                 "name": "Кристально белый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs35plusnew/crystalwhite.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/7f297ce9a265bd72f65ba37dbc2bcd47.png')"
+                "carImage": "/img/models/cs35plus new/colors/cs35plusnew_crystal_white.webp",
+                "style": "background-image: url('/img/models/cs35plus new/colors/crystal_white.webp')"
             },
             {
-                "id": "ashengrey.png",
+                "id": "ashen_grey",
                 "name": "Серебристый пепел",
-                "carImage": "https://changanauto.ru/uploads/colors/cs35plusnew/ashengrey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/1c9b761d85d6fe370da8d874e4cdc43b.png')"
+                "carImage": "/img/models/cs35plus new/colors/cs35plusnew_ashen_grey.webp",
+                "style": "background-image: url('/img/models/cs35plus new/colors/ashen_grey.webp')"
             },
             {
-                "id": "red.png",
+                "id": "spark_red",
                 "name": "Искрящийся красный",
-                "carImage": "https://changanauto.ru/uploads/colors/cs35plusnew/red.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/eb45079d75720930cff9d5483365af4e.png')"
+                "carImage": "/img/models/cs35plus new/colors/cs35plusnew_spark_red.webp",
+                "style": "background-image: url('/img/models/cs35plus new/colors/spark_red.webp')"
             },
             {
-                "id": "cs35plusnew_mountain_grey.png",
+                "id": "mountain_grey",
                 "name": "Горный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs35plusnew/cs35plusnew_mountain_grey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs35plusnew/mountain_grey.png')"
+                "carImage": "/img/models/cs35plus new/colors/cs35plusnew_mountain_grey.webp",
+                "style": "background-image: url('/img/models/cs35plus new/colors/mountain_grey.webp')"
             }
+        ],
+        "feed_names": [
+            "CS35PLUS, I Рестайлинг"
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "7 DCT"
         },
         "globalChars": [
             {
-                "id": "1.4T",
-                "title": "1.4T",
-                "value": "Двигатель",
-                "measure": "1.4T"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2600",
+                "measure": "мм"
             },
             {
-                "id": "7 DCT",
-                "title": "7 DCT",
-                "value": "КПП",
-                "measure": "7 DCT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4330",
+                "measure": "мм"
             },
             {
-                "id": "255",
-                "title": "255",
-                "value": "Н/М Крут. момент",
-                "measure": "255"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1825",
+                "measure": "мм"
             },
             {
-                "id": "150",
-                "title": "150",
-                "value": "л.с.",
-                "measure": "150"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "1.4T",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "7 DCT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "255",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "150",
+                "measure": "л.с."
             }
         ]
     },
@@ -208,43 +250,43 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/alsvin/colors/ALSVIN_black.png",
-        "image": "/img/models/alsvin/colors/ALSVIN_black.png",
+        "thumb": "/img/models/alsvin/colors/black.webp",
+        "image": "/img/models/alsvin/colors/black.webp",
         "colors": [
             {
-                "id": "ALSVIN_black.png",
+                "id": "black",
                 "name": "Глубокий черный",
-                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_black.png",
+                "carImage": "/img/models/alsvin/colors/black.webp",
                 "style": "background: linear-gradient(40deg, #000000 45%, white)"
             },
             {
-                "id": "ALSVIN_blue.png",
+                "id": "blue",
                 "name": "Кристальный синий",
-                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_blue.png",
+                "carImage": "/img/models/alsvin/colors/blue.webp",
                 "style": "background: linear-gradient(40deg, #001ebe 45%, white)"
             },
             {
-                "id": "ALSVIN_grey.png",
+                "id": "gray",
                 "name": "Космический серый",
-                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_grey.png",
+                "carImage": "/img/models/alsvin/colors/gray.webp",
                 "style": "background: linear-gradient(40deg, #616e7c 45%, white)"
             },
             {
-                "id": "ALSVIN_red.png",
+                "id": "red",
                 "name": "Искрящийся красный",
-                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_red.png",
+                "carImage": "/img/models/alsvin/colors/red.webp",
                 "style": "background: linear-gradient(40deg, #a71313 45%, white)"
             },
             {
-                "id": "ALSVIN_silver.png",
+                "id": "silver",
                 "name": "Лунный серебристый",
-                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_silver.png",
+                "carImage": "/img/models/alsvin/colors/silver.webp",
                 "style": "background: linear-gradient(40deg, #cdcfd4 45%, white)"
             },
             {
-                "id": "ALSVIN_white.png",
+                "id": "white",
                 "name": "Звездный белый",
-                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_white.png",
+                "carImage": "/img/models/alsvin/colors/white.webp",
                 "style": "background: linear-gradient(40deg, #ffffff 45%, white)"
             }
         ],
@@ -252,32 +294,50 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "5DCT"
         },
         "globalChars": [
             {
-                "id": "1.5л",
-                "title": "1.5л",
-                "value": "Двигатель",
-                "measure": "1.5л"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2535",
+                "measure": "мм"
             },
             {
-                "id": "5DCT",
-                "title": "5DCT",
-                "value": "КПП",
-                "measure": "5DCT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4390",
+                "measure": "мм"
             },
             {
-                "id": "137",
-                "title": "137",
-                "value": "Н/М Крут. момент",
-                "measure": "137"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1725",
+                "measure": "мм"
             },
             {
-                "id": "98",
-                "title": "98",
-                "value": "л.с.",
-                "measure": "98"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "1.5л",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "5DCT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "137",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "98",
+                "measure": "л.с."
             }
         ]
     },
@@ -308,70 +368,88 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/eadoplus/colors/EADOplus _web_black.png",
-        "image": "/img/models/eadoplus/colors/EADOplus _web_black.png",
+        "thumb": "/img/models/eadoplus/colors/eadoplus_black.webp",
+        "image": "/img/models/eadoplus/colors/eadoplus_black.webp",
         "colors": [
             {
-                "id": "EADOplus _web_black.png",
+                "id": "black",
                 "name": "Глубокий черный",
-                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_black.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/020558761f2c1626930a42916f46aae5.png')"
+                "carImage": "/img/models/eadoplus/colors/eadoplus_black.webp",
+                "style": "background-image: url('/img/models/eadoplus/colors/black.webp')"
             },
             {
-                "id": "EADOplus _web_grey.png",
+                "id": "grey",
                 "name": "Космический серый",
-                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_grey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/eadoplus/color_01.png')"
+                "carImage": "/img/models/eadoplus/colors/eadoplus_grey.webp",
+                "style": "background-image: url('/img/models/eadoplus/colors/grey.webp')"
             },
             {
-                "id": "EADOplus _web_white.png",
+                "id": "white",
                 "name": "Звездный белый",
-                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_white.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/eadoplus/color_04.png')"
+                "carImage": "/img/models/eadoplus/colors/eadoplus_white.webp",
+                "style": "background-image: url('/img/models/eadoplus/colors/white.webp')"
             },
             {
-                "id": "EADOplus _web_silver.png",
+                "id": "silver",
                 "name": "Титановый серебристый",
-                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_silver.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/eadoplus/color_02.png')"
+                "carImage": "/img/models/eadoplus/colors/eadoplus_silver.webp",
+                "style": "background-image: url('/img/models/eadoplus/colors/silver.webp')"
             },
             {
-                "id": "EADOplus _web_red.png",
+                "id": "red",
                 "name": "Искрящийся красный",
-                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_red.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/eadoplus/color_03.png')"
+                "carImage": "/img/models/eadoplus/colors/eadoplus_red.webp",
+                "style": "background-image: url('/img/models/eadoplus/colors/red.webp')"
             }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "7 DCT"
         },
         "globalChars": [
             {
-                "id": "1.4",
-                "title": "1.4",
-                "value": "Двигатель",
-                "measure": "1.4"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "",
+                "measure": "мм"
             },
             {
-                "id": "7 DCT",
-                "title": "7 DCT",
-                "value": "КПП",
-                "measure": "7 DCT"
+                "id": "length",
+                "title": "Длина",
+                "value": "",
+                "measure": "мм"
             },
             {
-                "id": "255",
-                "title": "255",
-                "value": "Н/М Крут. момент",
-                "measure": "255"
+                "id": "width",
+                "title": "Ширина",
+                "value": "",
+                "measure": "мм"
             },
             {
-                "id": "150",
-                "title": "150",
-                "value": "л.с.",
-                "measure": "150"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "1.4",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "7 DCT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "255",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "150",
+                "measure": "л.с."
             }
         ]
     },
@@ -402,70 +480,88 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/lamore/colors/lamore_глубокий_черный.png",
-        "image": "/img/models/lamore/colors/lamore_глубокий_черный.png",
+        "thumb": "/img/models/lamore/colors/lamore_deep_black.webp",
+        "image": "/img/models/lamore/colors/lamore_deep_black.webp",
         "colors": [
             {
-                "id": "lamore_глубокий_черный.png",
+                "id": "deep_black",
                 "name": "Глубокий черный",
-                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_глубокий_черный.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Глубокий_черный.png')"
+                "carImage": "/img/models/lamore/colors/lamore_deep_black.webp",
+                "style": "background-image: url('/img/models/lamore/colors/deep_black.webp')"
             },
             {
-                "id": "lamore_горный_серый.png",
+                "id": "mountain_grey",
                 "name": "Горный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_горный_серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Горный_серый.png')"
+                "carImage": "/img/models/lamore/colors/lamore_mountain_grey.webp",
+                "style": "background-image: url('/img/models/lamore/colors/mountain_grey.webp')"
             },
             {
-                "id": "lamore_Сияющий_красный.png",
+                "id": "shining_red",
                 "name": "Сияющий красный",
-                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_Сияющий_красный.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Сияющий_красный.png')"
+                "carImage": "/img/models/lamore/colors/lamore_shining_red.webp",
+                "style": "background-image: url('/img/models/lamore/colors/shining_red.webp')"
             },
             {
-                "id": "lamore_Звездный_белый.png",
+                "id": "starry_white",
                 "name": "Звездный белый",
-                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_Звездный_белый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Звездный_белый.png')"
+                "carImage": "/img/models/lamore/colors/lamore_starry_white.webp",
+                "style": "background-image: url('/img/models/lamore/colors/starry_white.webp')"
             },
             {
-                "id": "lamore_Изысканный_зеленый.png",
+                "id": "exquisite_green",
                 "name": "Изысканный зеленый",
-                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_Изысканный_зеленый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Изысканный_зеленый.png')"
+                "carImage": "/img/models/lamore/colors/lamore_exquisite_green.webp",
+                "style": "background-image: url('/img/models/lamore/colors/exquisite_green.webp')"
             }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "7 DCT"
         },
         "globalChars": [
             {
-                "id": "1.5T",
-                "title": "1.5T",
-                "value": "Двигатель",
-                "measure": "1.5T"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2765",
+                "measure": "мм"
             },
             {
-                "id": "7 DCT",
-                "title": "7 DCT",
-                "value": "КПП",
-                "measure": "7 DCT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4770",
+                "measure": "мм"
             },
             {
-                "id": "300",
-                "title": "300",
-                "value": "Н/М Крут. момент",
-                "measure": "300"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1840",
+                "measure": "мм"
             },
             {
-                "id": "181",
-                "title": "181",
-                "value": "л.с.",
-                "measure": "181"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "1.5T",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "7 DCT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "300",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "181",
+                "measure": "л.с."
             }
         ]
     },
@@ -496,70 +592,88 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/cs75plus/colors/website_75plus_атомный серый.png",
-        "image": "/img/models/cs75plus/colors/website_75plus_атомный серый.png",
+        "thumb": "/img/models/cs75plus/colors/cs75plus_atomic_grey.webp",
+        "image": "/img/models/cs75plus/colors/cs75plus_atomic_grey.webp",
         "colors": [
             {
-                "id": "website_75plus_атомный серый.png",
+                "id": "atomic_grey",
                 "name": "Атомный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_атомный серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color01.png')"
+                "carImage": "/img/models/cs75plus/colors/cs75plus_atomic_grey.webp",
+                "style": "background-image: url('/img/models/cs75plus/colors/atomic_grey.webp')"
             },
             {
-                "id": "website_75plus_глубокий черный.png",
+                "id": "deep_black",
                 "name": "Глубокий черный",
-                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_глубокий черный.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color06.png')"
+                "carImage": "/img/models/cs75plus/colors/cs75plus_deep_black.webp",
+                "style": "background-image: url('/img/models/cs75plus/colors/deep_black.webp')"
             },
             {
-                "id": "website_75plus_горный серый.png",
+                "id": "mountain_grey",
                 "name": "Горный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_горный серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color04.png')"
+                "carImage": "/img/models/cs75plus/colors/cs75plus_mountain_grey.webp",
+                "style": "background-image: url('/img/models/cs75plus/colors/mountain_grey.webp')"
             },
             {
-                "id": "website_75plus_кристальный белый.png",
+                "id": "crystal_white",
                 "name": "Кристальный белый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_кристальный белый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color05.png')"
+                "carImage": "/img/models/cs75plus/colors/cs75plus_crystal_white.webp",
+                "style": "background-image: url('/img/models/cs75plus/colors/crystal_white.webp')"
             },
             {
-                "id": "website_75plus_кристальный синий.png",
+                "id": "crystal_blue",
                 "name": "Кристальный синий",
-                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_кристальный синий.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color03.png')"
+                "carImage": "/img/models/cs75plus/colors/cs75plus_crystal_blue.webp",
+                "style": "background-image: url('/img/models/cs75plus/colors/crystal_blue.webp')"
             }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "6AT"
         },
         "globalChars": [
             {
-                "id": "1.5",
-                "title": "1.5",
-                "value": "Двигатель",
-                "measure": "1.5"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2710",
+                "measure": "мм"
             },
             {
-                "id": "6AT",
-                "title": "6AT",
-                "value": "КПП",
-                "measure": "6AT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4700",
+                "measure": "мм"
             },
             {
-                "id": "265",
-                "title": "265",
-                "value": "Н/М Крут. момент",
-                "measure": "265"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1865",
+                "measure": "мм"
             },
             {
-                "id": "167",
-                "title": "167",
-                "value": "л.с.",
-                "measure": "167"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "1.5",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "6AT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "265",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "167",
+                "measure": "л.с."
             }
         ]
     },
@@ -590,76 +704,94 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/cs85coupe/colors/CS85_webcolors_black.png",
-        "image": "/img/models/cs85coupe/colors/CS85_webcolors_black.png",
+        "thumb": "/img/models/cs85coupe/colors/cs85_black.webp",
+        "image": "/img/models/cs85coupe/colors/cs85_black.webp",
         "colors": [
             {
-                "id": "CS85_webcolors_black.png",
+                "id": "black",
                 "name": "Тихий черный",
-                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_black.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_1.png')"
+                "carImage": "/img/models/cs85coupe/colors/cs85_black.webp",
+                "style": "background-image: url('/img/models/cs85coupe/colors/black.webp')"
             },
             {
-                "id": "CS85_webcolors_blue.png",
+                "id": "blue",
                 "name": "Сияющий синий",
-                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_blue.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_2.png')"
+                "carImage": "/img/models/cs85coupe/colors/cs85_blue.webp",
+                "style": "background-image: url('/img/models/cs85coupe/colors/blue.webp')"
             },
             {
-                "id": "CS85_webcolors_white.png",
+                "id": "white",
                 "name": "Полярный белый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_white.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_3.png')"
+                "carImage": "/img/models/cs85coupe/colors/cs85_white.webp",
+                "style": "background-image: url('/img/models/cs85coupe/colors/white.webp')"
             },
             {
-                "id": "CS85_webcolors_red.png",
+                "id": "red",
                 "name": "Сияющий красный",
-                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_red.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_4.png')"
+                "carImage": "/img/models/cs85coupe/colors/cs85_red.webp",
+                "style": "background-image: url('/img/models/cs85coupe/colors/red.webp')"
             },
             {
-                "id": "CS85_webcolors_viol.png",
+                "id": "viol",
                 "name": "Глубокий фиолетовый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_viol.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_5.png')"
+                "carImage": "/img/models/cs85coupe/colors/cs85_viol.webp",
+                "style": "background-image: url('/img/models/cs85coupe/colors/viol.webp')"
             },
             {
-                "id": "CS85_webcolors_grey.png",
+                "id": "grey",
                 "name": "Серебристый серый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_grey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_6.png')"
+                "carImage": "/img/models/cs85coupe/colors/cs85_grey.webp",
+                "style": "background-image: url('/img/models/cs85coupe/colors/grey.webp')"
             }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "8AT"
         },
         "globalChars": [
             {
-                "id": "2.0T",
-                "title": "2.0T",
-                "value": "Двигатель",
-                "measure": "2.0T"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2705",
+                "measure": "мм"
             },
             {
-                "id": "8AT",
-                "title": "8AT",
-                "value": "КПП",
-                "measure": "8AT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4720",
+                "measure": "мм"
             },
             {
-                "id": "360",
-                "title": "360",
-                "value": "Н/М Крут. момент",
-                "measure": "360"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1845",
+                "measure": "мм"
             },
             {
-                "id": "224",
-                "title": "224",
-                "value": "л.с.",
-                "measure": "224"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "2.0T",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "8AT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "360",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "224",
+                "measure": "л.с."
             }
         ]
     },
@@ -690,25 +822,25 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/cs95/colors/CS95_white.png",
-        "image": "/img/models/cs95/colors/CS95_white.png",
+        "thumb": "/img/models/cs95/colors/cs95_white.webp",
+        "image": "/img/models/cs95/colors/cs95_white.webp",
         "colors": [
             {
-                "id": "CS95_white.png",
+                "id": "white",
                 "name": "Полярный белый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs95/CS95_white.png",
+                "carImage": "/img/models/cs95/colors/cs95_white.webp",
                 "style": "background: linear-gradient(40deg, #c2c2c2 45%, white)"
             },
             {
-                "id": "CS95_grey.png",
+                "id": "grey",
                 "name": "Горный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs95/CS95_grey.png",
+                "carImage": "/img/models/cs95/colors/cs95_grey.webp",
                 "style": "background: linear-gradient(40deg, #434343 45%, white)"
             },
             {
-                "id": "CS95_black.png",
+                "id": "black",
                 "name": "Благородный черный",
-                "carImage": "https://changanauto.ru/uploads/colors/cs95/CS95_black.png",
+                "carImage": "/img/models/cs95/colors/cs95_black.webp",
                 "style": "background: linear-gradient(40deg, #121212 45%, white)"
             }
         ],
@@ -716,32 +848,50 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "6AT"
         },
         "globalChars": [
             {
-                "id": "2.0T",
-                "title": "2.0T",
-                "value": "Двигатель",
-                "measure": "2.0T"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2810",
+                "measure": "мм"
             },
             {
-                "id": "6AT",
-                "title": "6AT",
-                "value": "КПП",
-                "measure": "6AT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4949",
+                "measure": "мм"
             },
             {
-                "id": "355",
-                "title": "355",
-                "value": "Н/М Крут. момент",
-                "measure": "355"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1930",
+                "measure": "мм"
             },
             {
-                "id": "224",
-                "title": "224",
-                "value": "л.с.",
-                "measure": "224"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "2.0T",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "6AT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "355",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "224",
+                "measure": "л.с."
             }
         ]
     },
@@ -772,58 +922,79 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/cs95new/colors/cs95new_Благородный_черный.png",
-        "image": "/img/models/cs95new/colors/cs95new_Благородный_черный.png",
+        "thumb": "/img/models/cs95new/colors/cs95new_noble_black.webp",
+        "image": "/img/models/cs95new/colors/cs95new_noble_black.webp",
         "colors": [
             {
-                "id": "cs95new_Благородный_черный.png",
+                "id": "noble_black",
                 "name": "Благородный черный",
-                "carImage": "https://changanauto.ru/uploads/colors/cs95new/cs95new_Благородный_черный.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs95new/Благородный_черный.png')"
+                "carImage": "/img/models/cs95new/colors/cs95new_noble_black.webp",
+                "style": "background-image: url('/img/models/cs95new/colors/noble_black.webp')"
             },
             {
-                "id": "cs95new_Горный_серый.png",
+                "id": "mountain_grey",
                 "name": "Горный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs95new/cs95new_Горный_серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs95new/Горный_серый.png')"
+                "carImage": "/img/models/cs95new/colors/cs95new_mountain_grey.webp",
+                "style": "background-image: url('/img/models/cs95new/colors/mountain_grey.webp')"
             },
             {
-                "id": "cs95new_Полярный_белый.png",
+                "id": "polar_white",
                 "name": "Полярный белый",
-                "carImage": "https://changanauto.ru/uploads/colors/cs95new/cs95new_Полярный_белый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/cs95new/Полярный_белый.png')"
+                "carImage": "/img/models/cs95new/colors/cs95new_polar_white.webp",
+                "style": "background-image: url('/img/models/cs95new/colors/polar_white.webp')"
             }
+        ],
+        "feed_names": [
+            "CS95PLUS"
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "8AT"
         },
         "globalChars": [
             {
-                "id": "2.0",
-                "title": "2.0",
-                "value": "Двигатель",
-                "measure": "2.0"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2810",
+                "measure": "мм"
             },
             {
-                "id": "8AT",
-                "title": "8AT",
-                "value": "КПП",
-                "measure": "8AT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4949",
+                "measure": "мм"
             },
             {
-                "id": "380",
-                "title": "380",
-                "value": "Н/М Крут. момент",
-                "measure": "380"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1940",
+                "measure": "мм"
             },
             {
-                "id": "226",
-                "title": "226",
-                "value": "л.с.",
-                "measure": "226"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "2.0",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "8AT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "380",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "226",
+                "measure": "л.с."
             }
         ]
     },
@@ -854,76 +1025,97 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/uni-t/colors/T_webcolors_голубой.png",
-        "image": "/img/models/uni-t/colors/T_webcolors_голубой.png",
+        "thumb": "/img/models/uni-t/colors/uni-t_air_blue.webp",
+        "image": "/img/models/uni-t/colors/uni-t_air_blue.webp",
         "colors": [
             {
-                "id": "UNI-T_webcolors_голубой.png",
+                "id": "air_blue",
                 "name": "Воздушный голубой",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_голубой.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/air-blue.png')"
+                "carImage": "/img/models/uni-t/colors/uni-t_air_blue.webp",
+                "style": "background-image: url('/img/models/uni-t/colors/air_blue.webp')"
             },
             {
-                "id": "UNI-T_webcolors_атомный_серый.png",
+                "id": "atomic_grey",
                 "name": "Атомный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_атомный_серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/atomic-grey.png')"
+                "carImage": "/img/models/uni-t/colors/uni-t_atomic_grey.webp",
+                "style": "background-image: url('/img/models/uni-t/colors/atomic_grey.webp')"
             },
             {
-                "id": "UNI-T_webcolors_звездный_серый.png",
+                "id": "star_grey",
                 "name": "Звездный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_звездный_серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/star-grey.png')"
+                "carImage": "/img/models/uni-t/colors/uni-t_star_grey.webp",
+                "style": "background-image: url('/img/models/uni-t/colors/star_grey.webp')"
             },
             {
-                "id": "UNI-T_webcolors_белый.png",
+                "id": "pearl_white",
                 "name": "Перламутровый белый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_белый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/pearl-white.png')"
+                "carImage": "/img/models/uni-t/colors/uni-t_pearl_white.webp",
+                "style": "background-image: url('/img/models/uni-t/colors/pearl_white.webp')"
             },
             {
-                "id": "UNI-T_webcolors_черный.png",
+                "id": "pitch_black",
                 "name": "Глубокий черный",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_черный.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/pitch-black.png')"
+                "carImage": "/img/models/uni-t/colors/uni-t_pitch_black.webp",
+                "style": "background-image: url('/img/models/uni-t/colors/pitch_black.webp')"
             },
             {
-                "id": "UNI-T_webcolors_синий.png",
+                "id": "sky_blue",
                 "name": "Небесный синий",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_синий.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/sky-blue.png')"
+                "carImage": "/img/models/uni-t/colors/uni-t_sky_blue.webp",
+                "style": "background-image: url('/img/models/uni-t/colors/sky_blue.webp')"
             }
+        ],
+        "feed_names": [
+            "UNI-T, I Рестайлинг"
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "7 DCT"
         },
         "globalChars": [
             {
-                "id": "1.5",
-                "title": "1.5",
-                "value": "Двигатель",
-                "measure": "1.5"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2710",
+                "measure": "мм"
             },
             {
-                "id": "7 DCT",
-                "title": "7 DCT",
-                "value": "КПП",
-                "measure": "7 DCT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4515",
+                "measure": "мм"
             },
             {
-                "id": "280",
-                "title": "280",
-                "value": "Н/М Крут. момент",
-                "measure": "280"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1870",
+                "measure": "мм"
             },
             {
-                "id": "167",
-                "title": "167",
-                "value": "л.с.",
-                "measure": "167"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "1.5",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "7 DCT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "280",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "167",
+                "measure": "л.с."
             }
         ]
     },
@@ -954,76 +1146,94 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/uni-v/colors/atomic_grey.png",
-        "image": "/img/models/uni-v/colors/atomic_grey.png",
+        "thumb": "/img/models/uni-v/colors/uni-v_atomic_grey.webp",
+        "image": "/img/models/uni-v/colors/uni-v_atomic_grey.webp",
         "colors": [
             {
-                "id": "atomic_grey.png",
+                "id": "atomic_grey",
                 "name": "Атомный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-v/atomic_grey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_1.png')"
+                "carImage": "/img/models/uni-v/colors/uni-v_atomic_grey.webp",
+                "style": "background-image: url('/img/models/uni-v/colors/atomic_grey.webp')"
             },
             {
-                "id": "bursting_blue.png",
+                "id": "bursting_blue",
                 "name": "Взрывной синий",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-v/bursting_blue.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_2.png')"
+                "carImage": "/img/models/uni-v/colors/uni-v_bursting_blue.webp",
+                "style": "background-image: url('/img/models/uni-v/colors/bursting_blue.webp')"
             },
             {
-                "id": "moonlight_white.png",
+                "id": "moonlight_white",
                 "name": "Лунный белый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-v/moonlight_white.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_3.png')"
+                "carImage": "/img/models/uni-v/colors/uni-v_moonlight_white.webp",
+                "style": "background-image: url('/img/models/uni-v/colors/moonlight_white.webp')"
             },
             {
-                "id": "star_dark.png",
+                "id": "star_dark",
                 "name": "Звездный черный",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-v/star_dark.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_4.png')"
+                "carImage": "/img/models/uni-v/colors/uni-v_star_dark.webp",
+                "style": "background-image: url('/img/models/uni-v/colors/star_dark.webp')"
             },
             {
-                "id": "dazzling_red.png",
+                "id": "dazzling_red",
                 "name": "Ослепительный красный",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-v/dazzling_red.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_5.png')"
+                "carImage": "/img/models/uni-v/colors/uni-v_dazzling_red.webp",
+                "style": "background-image: url('/img/models/uni-v/colors/dazzling_red.webp')"
             },
             {
-                "id": "sparkling_grey.png",
+                "id": "sparkling_grey",
                 "name": "Искрящийся серый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-v/sparkling_grey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_6.png')"
+                "carImage": "/img/models/uni-v/colors/uni-v_sparkling_grey.webp",
+                "style": "background-image: url('/img/models/uni-v/colors/sparkling_grey.webp')"
             }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "7 DCT"
         },
         "globalChars": [
             {
-                "id": "1.5",
-                "title": "1.5",
-                "value": "Двигатель",
-                "measure": "1.5"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "",
+                "measure": "мм"
             },
             {
-                "id": "7 DCT",
-                "title": "7 DCT",
-                "value": "КПП",
-                "measure": "7 DCT"
+                "id": "length",
+                "title": "Длина",
+                "value": "",
+                "measure": "мм"
             },
             {
-                "id": "300",
-                "title": "300",
-                "value": "Н/М Крут. момент",
-                "measure": "300"
+                "id": "width",
+                "title": "Ширина",
+                "value": "",
+                "measure": "мм"
             },
             {
-                "id": "181",
-                "title": "181",
-                "value": "л.с.",
-                "measure": "181"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "1.5",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "7 DCT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "300",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "181",
+                "measure": "л.с."
             }
         ]
     },
@@ -1054,76 +1264,94 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/uni-k/colors/air-blue.png",
-        "image": "/img/models/uni-k/colors/air-blue.png",
+        "thumb": "/img/models/uni-k/colors/uni-k_air-blue.webp",
+        "image": "/img/models/uni-k/colors/uni-k_air-blue.webp",
         "colors": [
             {
-                "id": "air-blue.png",
+                "id": "air-blue",
                 "name": "Воздушный голубой",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k/air-blue.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/air-blue.png')"
+                "carImage": "/img/models/uni-k/colors/uni-k_air-blue.webp",
+                "style": "background-image: url('/img/models/uni-k/colors/air-blue.webp')"
             },
             {
-                "id": "atomic-grey.png",
+                "id": "atomic-grey",
                 "name": "Атомный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k/atomic-grey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/atomic-grey.png')"
+                "carImage": "/img/models/uni-k/colors/uni-k_atomic-grey.webp",
+                "style": "background-image: url('/img/models/uni-k/colors/atomic-grey.webp')"
             },
             {
-                "id": "star-grey.png",
+                "id": "star-grey",
                 "name": "Звездный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k/star-grey.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/star-grey.png')"
+                "carImage": "/img/models/uni-k/colors/uni-k_star-grey.webp",
+                "style": "background-image: url('/img/models/uni-k/colors/star-grey.webp')"
             },
             {
-                "id": "pearl-white.png",
+                "id": "pearl-white",
                 "name": "Перламутровый белый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k/pearl-white.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/pearl-white.png')"
+                "carImage": "/img/models/uni-k/colors/uni-k_pearl-white.webp",
+                "style": "background-image: url('/img/models/uni-k/colors/pearl-white.webp')"
             },
             {
-                "id": "pitch-black.png",
+                "id": "pitch-black",
                 "name": "Глубокий черный",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k/pitch-black.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/pitch-black.png')"
+                "carImage": "/img/models/uni-k/colors/uni-k_pitch-black.webp",
+                "style": "background-image: url('/img/models/uni-k/colors/pitch-black.webp')"
             },
             {
-                "id": "sky-blue.png",
+                "id": "sky-blue",
                 "name": "Небесный синий",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k/sky-blue.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/sky-blue.png')"
+                "carImage": "/img/models/uni-k/colors/uni-k_sky-blue.webp",
+                "style": "background-image: url('/img/models/uni-k/colors/sky-blue.webp')"
             }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "8AT"
         },
         "globalChars": [
             {
-                "id": "2.0",
-                "title": "2.0",
-                "value": "Двигатель",
-                "measure": "2.0"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "",
+                "measure": "мм"
             },
             {
-                "id": "8AT",
-                "title": "8AT",
-                "value": "КПП",
-                "measure": "8AT"
+                "id": "length",
+                "title": "Длина",
+                "value": "",
+                "measure": "мм"
             },
             {
-                "id": "380",
-                "title": "380",
-                "value": "Н/М Крут. момент",
-                "measure": "380"
+                "id": "width",
+                "title": "Ширина",
+                "value": "",
+                "measure": "мм"
             },
             {
-                "id": "226",
-                "title": "226",
-                "value": "л.с.",
-                "measure": "226"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "2.0",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "8AT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "380",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "226",
+                "measure": "л.с."
             }
         ]
     },
@@ -1154,70 +1382,91 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/hunterplus/colors/Снежный-белый.png",
-        "image": "/img/models/hunterplus/colors/Снежный-белый.png",
+        "thumb": "/img/models/hunterplus/colors/hunderplus-snowy-white.webp",
+        "image": "/img/models/hunterplus/colors/hunderplus-snowy-white.webp",
         "colors": [
             {
-                "id": "Снежный-белый.png",
+                "id": "snowy-white",
                 "name": "Снежный белый",
-                "carImage": "https://changanauto.ru/uploads/colors/hunter/Снежный-белый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_Снежный_белый.png')"
+                "carImage": "/img/models/hunterplus/colors/hunderplus-snowy-white.webp",
+                "style": "background-image: url('/img/models/hunterplus/colors/snowy-white.webp')"
             },
             {
-                "id": "Серебристый-серый.png",
+                "id": "silver-grey",
                 "name": "Серебристый серый",
-                "carImage": "https://changanauto.ru/uploads/colors/hunter/Серебристый-серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_серебристый_серый.png')"
+                "carImage": "/img/models/hunterplus/colors/hunderplus-silver-grey.webp",
+                "style": "background-image: url('/img/models/hunterplus/colors/silver-grey.webp')"
             },
             {
-                "id": "Горный-серый.png",
+                "id": "mountain-grey",
                 "name": "Горный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/hunter/Горный-серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_горный_серый.png')"
+                "carImage": "/img/models/hunterplus/colors/hunderplus-mountain-grey.webp",
+                "style": "background-image: url('/img/models/hunterplus/colors/mountain-grey.webp')"
             },
             {
-                "id": "Кобальтовый-синий_.png",
+                "id": "cobalt-blue",
                 "name": "Кобальтовый синий",
-                "carImage": "https://changanauto.ru/uploads/colors/hunter/Кобальтовый-синий_.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_Кобальтовый_синий.png')"
+                "carImage": "/img/models/hunterplus/colors/hunderplus-cobalt-blue.webp",
+                "style": "background-image: url('/img/models/hunterplus/colors/cobalt-blue.webp')"
             },
             {
-                "id": "Рубиновый-красный.png",
+                "id": "ruby-red",
                 "name": "Рубиновый красный",
-                "carImage": "https://changanauto.ru/uploads/colors/hunter/Рубиновый-красный.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_рубиновый_красный.png')"
+                "carImage": "/img/models/hunterplus/colors/hunderplus-ruby-red.webp",
+                "style": "background-image: url('/img/models/hunterplus/colors/ruby-red.webp')"
             }
+        ],
+        "feed_names": [
+            "Hunter Plus"
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "8AT"
         },
         "globalChars": [
             {
-                "id": "2.0",
-                "title": "2.0",
-                "value": "Двигатель",
-                "measure": "2.0"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3180",
+                "measure": "мм"
             },
             {
-                "id": "8AT",
-                "title": "8AT",
-                "value": "КПП",
-                "measure": "8AT"
+                "id": "length",
+                "title": "Длина",
+                "value": "5350",
+                "measure": "мм"
             },
             {
-                "id": "390",
-                "title": "390",
-                "value": "Н/М Крут. момент",
-                "measure": "390"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1980",
+                "measure": "мм"
             },
             {
-                "id": "226",
-                "title": "226",
-                "value": "л.с.",
-                "measure": "226"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "2.0",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "8AT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "390",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "226",
+                "measure": "л.с."
             }
         ]
     },
@@ -1248,70 +1497,88 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/uni-k idd/colors/Атомный-серый.png",
-        "image": "/img/models/uni-k idd/colors/Атомный-серый.png",
+        "thumb": "/img/models/uni-k idd/colors/uni-k_idd_atomic-gray.webp",
+        "image": "/img/models/uni-k idd/colors/uni-k_idd_atomic-gray.webp",
         "colors": [
             {
-                "id": "Атомный-серый.png",
+                "id": "atomic-gray",
                 "name": "Атомный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Атомный-серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Атомный_серый_кружок.png')"
+                "carImage": "/img/models/uni-k idd/colors/uni-k_idd_atomic-gray.webp",
+                "style": "background-image: url('/img/models/uni-k idd/colors/atomic-gray.webp')"
             },
             {
-                "id": "Глубокий-черный.png",
+                "id": "deep-black",
                 "name": "Глубокий черный",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Глубокий-черный.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Глубокий_черный_кружок.png')"
+                "carImage": "/img/models/uni-k idd/colors/uni-k_idd_deep-black.webp",
+                "style": "background-image: url('/img/models/uni-k idd/colors/deep-black.webp')"
             },
             {
-                "id": "Звездный-серый.png",
+                "id": "star-gray",
                 "name": "Звездный серый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Звездный-серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Звездный_серый_кружок.png')"
+                "carImage": "/img/models/uni-k idd/colors/uni-k_idd_star-gray.webp",
+                "style": "background-image: url('/img/models/uni-k idd/colors/star-gray.webp')"
             },
             {
-                "id": "Небесный-серый.png",
+                "id": "sky-gray",
                 "name": "Небесный синий",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Небесный-серый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Небесный_синий_кружок.png')"
+                "carImage": "/img/models/uni-k idd/colors/uni-k_idd_sky-gray.webp",
+                "style": "background-image: url('/img/models/uni-k idd/colors/sky-gray.webp')"
             },
             {
-                "id": "Перламутровый-белый.png",
+                "id": "pearl-white",
                 "name": "Перламутровый белый",
-                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Перламутровый-белый.png",
-                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Перламутровый_белый_кружок.png')"
+                "carImage": "/img/models/uni-k idd/colors/uni-k_idd_pearl-white.webp",
+                "style": "background-image: url('/img/models/uni-k idd/colors/pearl-white.webp')"
             }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "6DCT"
         },
         "globalChars": [
             {
-                "id": "PHEV",
-                "title": "PHEV",
-                "value": "Двигатель",
-                "measure": "PHEV"
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2890",
+                "measure": "мм"
             },
             {
-                "id": "6DCT",
-                "title": "6DCT",
-                "value": "КПП",
-                "measure": "6DCT"
+                "id": "length",
+                "title": "Длина",
+                "value": "4865",
+                "measure": "мм"
             },
             {
-                "id": "585",
-                "title": "585",
-                "value": "Н/М Крут. момент",
-                "measure": "585"
+                "id": "width",
+                "title": "Ширина",
+                "value": "1948",
+                "measure": "мм"
             },
             {
-                "id": "316",
-                "title": "316",
-                "value": "л.с.",
-                "measure": "316"
+                "id": "engine",
+                "title": "Двигатель",
+                "value": "PHEV",
+                "measure": "л"
+            },
+            {
+                "id": "gear",
+                "title": "КПП",
+                "value": "6DCT",
+                "measure": ""
+            },
+            {
+                "id": "torgue",
+                "title": "Крут. момент",
+                "value": "585",
+                "measure": "н.м."
+            },
+            {
+                "id": "power",
+                "title": "Мощность",
+                "value": "316",
+                "measure": "л.с."
             }
         ]
     },
