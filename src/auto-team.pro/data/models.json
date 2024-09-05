@@ -1,5 +1,1321 @@
 [
     {
+        "mark_id": "Changan",
+        "id": "cs55plus",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Симфония технологий",
+        "name": "CS55PLUS",
+        "price": "{{price-changan-cs55plus}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan CS55PLUS",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan CS55PLUS",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/cs55plus/colors/cs55plus_atomic_grey.png",
+        "image": "/img/models/cs55plus/colors/cs55plus_atomic_grey.png",
+        "colors": [
+            {
+                "id": "cs55plus_atomic_grey.png",
+                "name": "Атомный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_atomic_grey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/atomic-grey.png')"
+            },
+            {
+                "id": "cs55plus_deep_black.png",
+                "name": "Глубокий черный",
+                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_deep_black.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/pitch-black.png')"
+            },
+            {
+                "id": "cs55plus_pearl_white.png",
+                "name": "Перламутровый белый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_pearl_white.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/pearl-white.png')"
+            },
+            {
+                "id": "cs55plus_spark_red.png",
+                "name": "Искрящийся красный",
+                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_spark_red.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/eb45079d75720930cff9d5483365af4e.png')"
+            },
+            {
+                "id": "cs55plus_star_grey.png",
+                "name": "Звездный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs55plus/cs55plus_star_grey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/star-grey.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "1.5T",
+                "title": "1.5T",
+                "value": "Двигатель",
+                "measure": "1.5T"
+            },
+            {
+                "id": "7 DCT",
+                "title": "7 DCT",
+                "value": "КПП",
+                "measure": "7 DCT"
+            },
+            {
+                "id": "280",
+                "title": "280",
+                "value": "Н/М Крут. момент",
+                "measure": "280"
+            },
+            {
+                "id": "181",
+                "title": "181",
+                "value": "л.с.",
+                "measure": "181"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "cs35plus new",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Пульс города",
+        "name": "CS35PLUS NEW",
+        "price": "{{price-changan-cs35plusnew}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan CS35PLUS NEW",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan CS35PLUS NEW",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/cs35plus new/colors/crystalwhite.png",
+        "image": "/img/models/cs35plus new/colors/crystalwhite.png",
+        "colors": [
+            {
+                "id": "crystalwhite.png",
+                "name": "Кристально белый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs35plusnew/crystalwhite.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/7f297ce9a265bd72f65ba37dbc2bcd47.png')"
+            },
+            {
+                "id": "ashengrey.png",
+                "name": "Серебристый пепел",
+                "carImage": "https://changanauto.ru/uploads/colors/cs35plusnew/ashengrey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/1c9b761d85d6fe370da8d874e4cdc43b.png')"
+            },
+            {
+                "id": "red.png",
+                "name": "Искрящийся красный",
+                "carImage": "https://changanauto.ru/uploads/colors/cs35plusnew/red.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/eb45079d75720930cff9d5483365af4e.png')"
+            },
+            {
+                "id": "cs35plusnew_mountain_grey.png",
+                "name": "Горный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs35plusnew/cs35plusnew_mountain_grey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs35plusnew/mountain_grey.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "1.4T",
+                "title": "1.4T",
+                "value": "Двигатель",
+                "measure": "1.4T"
+            },
+            {
+                "id": "7 DCT",
+                "title": "7 DCT",
+                "value": "КПП",
+                "measure": "7 DCT"
+            },
+            {
+                "id": "255",
+                "title": "255",
+                "value": "Н/М Крут. момент",
+                "measure": "255"
+            },
+            {
+                "id": "150",
+                "title": "150",
+                "value": "л.с.",
+                "measure": "150"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "alsvin",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Воплощение уверенности",
+        "name": "ALSVIN",
+        "price": "{{price-changan-alsvin}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan ALSVIN",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan ALSVIN",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/alsvin/colors/ALSVIN_black.png",
+        "image": "/img/models/alsvin/colors/ALSVIN_black.png",
+        "colors": [
+            {
+                "id": "ALSVIN_black.png",
+                "name": "Глубокий черный",
+                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_black.png",
+                "style": "background: linear-gradient(40deg, #000000 45%, white)"
+            },
+            {
+                "id": "ALSVIN_blue.png",
+                "name": "Кристальный синий",
+                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_blue.png",
+                "style": "background: linear-gradient(40deg, #001ebe 45%, white)"
+            },
+            {
+                "id": "ALSVIN_grey.png",
+                "name": "Космический серый",
+                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_grey.png",
+                "style": "background: linear-gradient(40deg, #616e7c 45%, white)"
+            },
+            {
+                "id": "ALSVIN_red.png",
+                "name": "Искрящийся красный",
+                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_red.png",
+                "style": "background: linear-gradient(40deg, #a71313 45%, white)"
+            },
+            {
+                "id": "ALSVIN_silver.png",
+                "name": "Лунный серебристый",
+                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_silver.png",
+                "style": "background: linear-gradient(40deg, #cdcfd4 45%, white)"
+            },
+            {
+                "id": "ALSVIN_white.png",
+                "name": "Звездный белый",
+                "carImage": "https://changanauto.ru/uploads/colors/alsvin/ALSVIN_white.png",
+                "style": "background: linear-gradient(40deg, #ffffff 45%, white)"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "1.5л",
+                "title": "1.5л",
+                "value": "Двигатель",
+                "measure": "1.5л"
+            },
+            {
+                "id": "5DCT",
+                "title": "5DCT",
+                "value": "КПП",
+                "measure": "5DCT"
+            },
+            {
+                "id": "137",
+                "title": "137",
+                "value": "Н/М Крут. момент",
+                "measure": "137"
+            },
+            {
+                "id": "98",
+                "title": "98",
+                "value": "л.с.",
+                "measure": "98"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "eadoplus",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Единство формы и содержания",
+        "name": "EADOplus",
+        "price": "{{price-changan-eadoplus}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan EADOplus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan EADOplus",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/eadoplus/colors/EADOplus _web_black.png",
+        "image": "/img/models/eadoplus/colors/EADOplus _web_black.png",
+        "colors": [
+            {
+                "id": "EADOplus _web_black.png",
+                "name": "Глубокий черный",
+                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_black.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/020558761f2c1626930a42916f46aae5.png')"
+            },
+            {
+                "id": "EADOplus _web_grey.png",
+                "name": "Космический серый",
+                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_grey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/eadoplus/color_01.png')"
+            },
+            {
+                "id": "EADOplus _web_white.png",
+                "name": "Звездный белый",
+                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_white.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/eadoplus/color_04.png')"
+            },
+            {
+                "id": "EADOplus _web_silver.png",
+                "name": "Титановый серебристый",
+                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_silver.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/eadoplus/color_02.png')"
+            },
+            {
+                "id": "EADOplus _web_red.png",
+                "name": "Искрящийся красный",
+                "carImage": "https://changanauto.ru/uploads/colors/eadoplus/EADOplus _web_red.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/eadoplus/color_03.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "1.4",
+                "title": "1.4",
+                "value": "Двигатель",
+                "measure": "1.4"
+            },
+            {
+                "id": "7 DCT",
+                "title": "7 DCT",
+                "value": "КПП",
+                "measure": "7 DCT"
+            },
+            {
+                "id": "255",
+                "title": "255",
+                "value": "Н/М Крут. момент",
+                "measure": "255"
+            },
+            {
+                "id": "150",
+                "title": "150",
+                "value": "л.с.",
+                "measure": "150"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "lamore",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Символ элегантности",
+        "name": "Lamore",
+        "price": "{{price-changan-lamore}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan Lamore",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan Lamore",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/lamore/colors/lamore_глубокий_черный.png",
+        "image": "/img/models/lamore/colors/lamore_глубокий_черный.png",
+        "colors": [
+            {
+                "id": "lamore_глубокий_черный.png",
+                "name": "Глубокий черный",
+                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_глубокий_черный.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Глубокий_черный.png')"
+            },
+            {
+                "id": "lamore_горный_серый.png",
+                "name": "Горный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_горный_серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Горный_серый.png')"
+            },
+            {
+                "id": "lamore_Сияющий_красный.png",
+                "name": "Сияющий красный",
+                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_Сияющий_красный.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Сияющий_красный.png')"
+            },
+            {
+                "id": "lamore_Звездный_белый.png",
+                "name": "Звездный белый",
+                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_Звездный_белый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Звездный_белый.png')"
+            },
+            {
+                "id": "lamore_Изысканный_зеленый.png",
+                "name": "Изысканный зеленый",
+                "carImage": "https://changanauto.ru/uploads/colors/lamore/lamore_Изысканный_зеленый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/lamore/Изысканный_зеленый.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "1.5T",
+                "title": "1.5T",
+                "value": "Двигатель",
+                "measure": "1.5T"
+            },
+            {
+                "id": "7 DCT",
+                "title": "7 DCT",
+                "value": "КПП",
+                "measure": "7 DCT"
+            },
+            {
+                "id": "300",
+                "title": "300",
+                "value": "Н/М Крут. момент",
+                "measure": "300"
+            },
+            {
+                "id": "181",
+                "title": "181",
+                "value": "л.с.",
+                "measure": "181"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "cs75plus",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Вдохновлен путешествиями",
+        "name": "CS75plus",
+        "price": "{{price-changan-cs75plus}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan CS75plus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan CS75plus",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/cs75plus/colors/website_75plus_атомный серый.png",
+        "image": "/img/models/cs75plus/colors/website_75plus_атомный серый.png",
+        "colors": [
+            {
+                "id": "website_75plus_атомный серый.png",
+                "name": "Атомный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_атомный серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color01.png')"
+            },
+            {
+                "id": "website_75plus_глубокий черный.png",
+                "name": "Глубокий черный",
+                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_глубокий черный.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color06.png')"
+            },
+            {
+                "id": "website_75plus_горный серый.png",
+                "name": "Горный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_горный серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color04.png')"
+            },
+            {
+                "id": "website_75plus_кристальный белый.png",
+                "name": "Кристальный белый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_кристальный белый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color05.png')"
+            },
+            {
+                "id": "website_75plus_кристальный синий.png",
+                "name": "Кристальный синий",
+                "carImage": "https://changanauto.ru/uploads/colors/cs75plus/website_75plus_кристальный синий.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/CS75plus/color03.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "1.5",
+                "title": "1.5",
+                "value": "Двигатель",
+                "measure": "1.5"
+            },
+            {
+                "id": "6AT",
+                "title": "6AT",
+                "value": "КПП",
+                "measure": "6AT"
+            },
+            {
+                "id": "265",
+                "title": "265",
+                "value": "Н/М Крут. момент",
+                "measure": "265"
+            },
+            {
+                "id": "167",
+                "title": "167",
+                "value": "л.с.",
+                "measure": "167"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "cs85coupe",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Стиль жизни",
+        "name": "CS85COUPE",
+        "price": "{{price-changan-cs85coupe}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan CS85COUPE",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan CS85COUPE",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/cs85coupe/colors/CS85_webcolors_black.png",
+        "image": "/img/models/cs85coupe/colors/CS85_webcolors_black.png",
+        "colors": [
+            {
+                "id": "CS85_webcolors_black.png",
+                "name": "Тихий черный",
+                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_black.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_1.png')"
+            },
+            {
+                "id": "CS85_webcolors_blue.png",
+                "name": "Сияющий синий",
+                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_blue.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_2.png')"
+            },
+            {
+                "id": "CS85_webcolors_white.png",
+                "name": "Полярный белый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_white.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_3.png')"
+            },
+            {
+                "id": "CS85_webcolors_red.png",
+                "name": "Сияющий красный",
+                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_red.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_4.png')"
+            },
+            {
+                "id": "CS85_webcolors_viol.png",
+                "name": "Глубокий фиолетовый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_viol.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_5.png')"
+            },
+            {
+                "id": "CS85_webcolors_grey.png",
+                "name": "Серебристый серый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs85coupe/CS85_webcolors_grey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs85cope/color_6.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "2.0T",
+                "title": "2.0T",
+                "value": "Двигатель",
+                "measure": "2.0T"
+            },
+            {
+                "id": "8AT",
+                "title": "8AT",
+                "value": "КПП",
+                "measure": "8AT"
+            },
+            {
+                "id": "360",
+                "title": "360",
+                "value": "Н/М Крут. момент",
+                "measure": "360"
+            },
+            {
+                "id": "224",
+                "title": "224",
+                "value": "л.с.",
+                "measure": "224"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "cs95",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Новые горизонты",
+        "name": "CS95",
+        "price": "{{price-changan-cs95}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan CS95",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan CS95",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/cs95/colors/CS95_white.png",
+        "image": "/img/models/cs95/colors/CS95_white.png",
+        "colors": [
+            {
+                "id": "CS95_white.png",
+                "name": "Полярный белый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs95/CS95_white.png",
+                "style": "background: linear-gradient(40deg, #c2c2c2 45%, white)"
+            },
+            {
+                "id": "CS95_grey.png",
+                "name": "Горный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs95/CS95_grey.png",
+                "style": "background: linear-gradient(40deg, #434343 45%, white)"
+            },
+            {
+                "id": "CS95_black.png",
+                "name": "Благородный черный",
+                "carImage": "https://changanauto.ru/uploads/colors/cs95/CS95_black.png",
+                "style": "background: linear-gradient(40deg, #121212 45%, white)"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "2.0T",
+                "title": "2.0T",
+                "value": "Двигатель",
+                "measure": "2.0T"
+            },
+            {
+                "id": "6AT",
+                "title": "6AT",
+                "value": "КПП",
+                "measure": "6AT"
+            },
+            {
+                "id": "355",
+                "title": "355",
+                "value": "Н/М Крут. момент",
+                "measure": "355"
+            },
+            {
+                "id": "224",
+                "title": "224",
+                "value": "л.с.",
+                "measure": "224"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "cs95new",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Новые горизонты",
+        "name": "CS95NEW",
+        "price": "{{price-changan-cs95new}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan CS95NEW",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan CS95NEW",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/cs95new/colors/cs95new_Благородный_черный.png",
+        "image": "/img/models/cs95new/colors/cs95new_Благородный_черный.png",
+        "colors": [
+            {
+                "id": "cs95new_Благородный_черный.png",
+                "name": "Благородный черный",
+                "carImage": "https://changanauto.ru/uploads/colors/cs95new/cs95new_Благородный_черный.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs95new/Благородный_черный.png')"
+            },
+            {
+                "id": "cs95new_Горный_серый.png",
+                "name": "Горный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs95new/cs95new_Горный_серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs95new/Горный_серый.png')"
+            },
+            {
+                "id": "cs95new_Полярный_белый.png",
+                "name": "Полярный белый",
+                "carImage": "https://changanauto.ru/uploads/colors/cs95new/cs95new_Полярный_белый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/cs95new/Полярный_белый.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "2.0",
+                "title": "2.0",
+                "value": "Двигатель",
+                "measure": "2.0"
+            },
+            {
+                "id": "8AT",
+                "title": "8AT",
+                "value": "КПП",
+                "measure": "8AT"
+            },
+            {
+                "id": "380",
+                "title": "380",
+                "value": "Н/М Крут. момент",
+                "measure": "380"
+            },
+            {
+                "id": "226",
+                "title": "226",
+                "value": "л.с.",
+                "measure": "226"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "uni-t",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Искусство самовыражения",
+        "name": "UNI-T",
+        "price": "{{price-changan-uni-t}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan UNI-T",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan UNI-T",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/uni-t/colors/T_webcolors_голубой.png",
+        "image": "/img/models/uni-t/colors/T_webcolors_голубой.png",
+        "colors": [
+            {
+                "id": "UNI-T_webcolors_голубой.png",
+                "name": "Воздушный голубой",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_голубой.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/air-blue.png')"
+            },
+            {
+                "id": "UNI-T_webcolors_атомный_серый.png",
+                "name": "Атомный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_атомный_серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/atomic-grey.png')"
+            },
+            {
+                "id": "UNI-T_webcolors_звездный_серый.png",
+                "name": "Звездный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_звездный_серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/star-grey.png')"
+            },
+            {
+                "id": "UNI-T_webcolors_белый.png",
+                "name": "Перламутровый белый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_белый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/pearl-white.png')"
+            },
+            {
+                "id": "UNI-T_webcolors_черный.png",
+                "name": "Глубокий черный",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_черный.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/pitch-black.png')"
+            },
+            {
+                "id": "UNI-T_webcolors_синий.png",
+                "name": "Небесный синий",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-t/UNI-T_webcolors_синий.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/sky-blue.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "1.5",
+                "title": "1.5",
+                "value": "Двигатель",
+                "measure": "1.5"
+            },
+            {
+                "id": "7 DCT",
+                "title": "7 DCT",
+                "value": "КПП",
+                "measure": "7 DCT"
+            },
+            {
+                "id": "280",
+                "title": "280",
+                "value": "Н/М Крут. момент",
+                "measure": "280"
+            },
+            {
+                "id": "167",
+                "title": "167",
+                "value": "л.с.",
+                "measure": "167"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "uni-v",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Эстетика в динамике",
+        "name": "UNI-V",
+        "price": "{{price-changan-uni-v}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan UNI-V",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan UNI-V",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/uni-v/colors/atomic_grey.png",
+        "image": "/img/models/uni-v/colors/atomic_grey.png",
+        "colors": [
+            {
+                "id": "atomic_grey.png",
+                "name": "Атомный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-v/atomic_grey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_1.png')"
+            },
+            {
+                "id": "bursting_blue.png",
+                "name": "Взрывной синий",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-v/bursting_blue.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_2.png')"
+            },
+            {
+                "id": "moonlight_white.png",
+                "name": "Лунный белый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-v/moonlight_white.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_3.png')"
+            },
+            {
+                "id": "star_dark.png",
+                "name": "Звездный черный",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-v/star_dark.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_4.png')"
+            },
+            {
+                "id": "dazzling_red.png",
+                "name": "Ослепительный красный",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-v/dazzling_red.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_5.png')"
+            },
+            {
+                "id": "sparkling_grey.png",
+                "name": "Искрящийся серый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-v/sparkling_grey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-v-color_6.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "1.5",
+                "title": "1.5",
+                "value": "Двигатель",
+                "measure": "1.5"
+            },
+            {
+                "id": "7 DCT",
+                "title": "7 DCT",
+                "value": "КПП",
+                "measure": "7 DCT"
+            },
+            {
+                "id": "300",
+                "title": "300",
+                "value": "Н/М Крут. момент",
+                "measure": "300"
+            },
+            {
+                "id": "181",
+                "title": "181",
+                "value": "л.с.",
+                "measure": "181"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "uni-k",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "",
+        "name": "UNI-K",
+        "price": "{{price-changan-uni-k}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan UNI-K",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan UNI-K",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/uni-k/colors/air-blue.png",
+        "image": "/img/models/uni-k/colors/air-blue.png",
+        "colors": [
+            {
+                "id": "air-blue.png",
+                "name": "Воздушный голубой",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k/air-blue.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/air-blue.png')"
+            },
+            {
+                "id": "atomic-grey.png",
+                "name": "Атомный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k/atomic-grey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/atomic-grey.png')"
+            },
+            {
+                "id": "star-grey.png",
+                "name": "Звездный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k/star-grey.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/star-grey.png')"
+            },
+            {
+                "id": "pearl-white.png",
+                "name": "Перламутровый белый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k/pearl-white.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/pearl-white.png')"
+            },
+            {
+                "id": "pitch-black.png",
+                "name": "Глубокий черный",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k/pitch-black.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/pitch-black.png')"
+            },
+            {
+                "id": "sky-blue.png",
+                "name": "Небесный синий",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k/sky-blue.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/sky-blue.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "2.0",
+                "title": "2.0",
+                "value": "Двигатель",
+                "measure": "2.0"
+            },
+            {
+                "id": "8AT",
+                "title": "8AT",
+                "value": "КПП",
+                "measure": "8AT"
+            },
+            {
+                "id": "380",
+                "title": "380",
+                "value": "Н/М Крут. момент",
+                "measure": "380"
+            },
+            {
+                "id": "226",
+                "title": "226",
+                "value": "л.с.",
+                "measure": "226"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "hunterplus",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Свобода приключений",
+        "name": "HUNTERplus",
+        "price": "{{price-changan-hunter}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan HUNTERplus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan HUNTERplus",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/hunterplus/colors/Снежный-белый.png",
+        "image": "/img/models/hunterplus/colors/Снежный-белый.png",
+        "colors": [
+            {
+                "id": "Снежный-белый.png",
+                "name": "Снежный белый",
+                "carImage": "https://changanauto.ru/uploads/colors/hunter/Снежный-белый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_Снежный_белый.png')"
+            },
+            {
+                "id": "Серебристый-серый.png",
+                "name": "Серебристый серый",
+                "carImage": "https://changanauto.ru/uploads/colors/hunter/Серебристый-серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_серебристый_серый.png')"
+            },
+            {
+                "id": "Горный-серый.png",
+                "name": "Горный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/hunter/Горный-серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_горный_серый.png')"
+            },
+            {
+                "id": "Кобальтовый-синий_.png",
+                "name": "Кобальтовый синий",
+                "carImage": "https://changanauto.ru/uploads/colors/hunter/Кобальтовый-синий_.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_Кобальтовый_синий.png')"
+            },
+            {
+                "id": "Рубиновый-красный.png",
+                "name": "Рубиновый красный",
+                "carImage": "https://changanauto.ru/uploads/colors/hunter/Рубиновый-красный.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/hunter/Пробник_рубиновый_красный.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "2.0",
+                "title": "2.0",
+                "value": "Двигатель",
+                "measure": "2.0"
+            },
+            {
+                "id": "8AT",
+                "title": "8AT",
+                "value": "КПП",
+                "measure": "8AT"
+            },
+            {
+                "id": "390",
+                "title": "390",
+                "value": "Н/М Крут. момент",
+                "measure": "390"
+            },
+            {
+                "id": "226",
+                "title": "226",
+                "value": "л.с.",
+                "measure": "226"
+            }
+        ]
+    },
+    {
+        "mark_id": "Changan",
+        "id": "uni-k idd",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Притяжение индивидуальности",
+        "name": "UNI-K iDD",
+        "price": "{{price-changan-uni-k_idd}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Changan UNI-K iDD",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Changan UNI-K iDD",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/uni-k idd/colors/Атомный-серый.png",
+        "image": "/img/models/uni-k idd/colors/Атомный-серый.png",
+        "colors": [
+            {
+                "id": "Атомный-серый.png",
+                "name": "Атомный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Атомный-серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Атомный_серый_кружок.png')"
+            },
+            {
+                "id": "Глубокий-черный.png",
+                "name": "Глубокий черный",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Глубокий-черный.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Глубокий_черный_кружок.png')"
+            },
+            {
+                "id": "Звездный-серый.png",
+                "name": "Звездный серый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Звездный-серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Звездный_серый_кружок.png')"
+            },
+            {
+                "id": "Небесный-серый.png",
+                "name": "Небесный синий",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Небесный-серый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Небесный_синий_кружок.png')"
+            },
+            {
+                "id": "Перламутровый-белый.png",
+                "name": "Перламутровый белый",
+                "carImage": "https://changanauto.ru/uploads/colors/uni-k_idd/Перламутровый-белый.png",
+                "style": "background-image: url('https://changanauto.ru/uploads/color/uni-k_idd/Перламутровый_белый_кружок.png')"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "PHEV",
+                "title": "PHEV",
+                "value": "Двигатель",
+                "measure": "PHEV"
+            },
+            {
+                "id": "6DCT",
+                "title": "6DCT",
+                "value": "КПП",
+                "measure": "6DCT"
+            },
+            {
+                "id": "585",
+                "title": "585",
+                "value": "Н/М Крут. момент",
+                "measure": "585"
+            },
+            {
+                "id": "316",
+                "title": "316",
+                "value": "л.с.",
+                "measure": "316"
+            }
+        ]
+    },
+    {
         "mark_id": "Belgee",
         "id": "x50",
         "show": true,
