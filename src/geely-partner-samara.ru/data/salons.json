@@ -1,0 +1,14 @@
+[
+    {
+        "name": "GEELY Партнер Самара",
+        "address": "Московское шоссе, 24-й километр, 3ст1",
+        "phone":  "+7 (846) 213 12-13",
+        "work_hours": "ПН-СБ: 09:00 - 20:00, ВС: 09:00 - 18:00",
+        "map": {
+            "zoom": 17,
+            "balloon": "/img/geely-locator.svg",
+            "coords": [53.320899, 50.302575],
+            "ya_link": "https://yandex.ru/maps/51/samara/house/moskovskoye_shosse_24_y_kilometr_3st1/YUkYdQdiTEICQFtpfX9zcXRqbQ==/?ll=50.302784%2C53.320839&utm_source=share&z=17"
+        }
+    }
+]
