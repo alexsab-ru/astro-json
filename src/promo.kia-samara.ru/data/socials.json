@@ -1,11 +1,4 @@
 {
     "header": {},
-    "footer": {
-        "vkontakte-full": {
-            "url": "https://vk.com/"
-        },
-        "telegram-full": {
-            "url": "tg://resolve?domain=123"
-        }
-    }
+    "footer": {}
 }
