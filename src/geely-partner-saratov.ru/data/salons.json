@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Geely Партнер Саратов",
+        "address": "Усть-Курдюмское шоссе, 23",
+        "phone":  "+7 (8452) 229-888",
+        "work_hours": "ПН-ПТ 9:00-19:00,<br>СБ сервис: 9:00-18:00,<br>СБ запчасти: 09:00-16:00,<br>ВС 9:00-16:00 (сервис/запчасти не работает)",
+        "map": {
+            "zoom": 17,
+            "balloon": "/img/geely-locator.svg",
+            "coords": [51.606740, 46.156122],
+            "ya_link": "https://yandex.ru/maps/11146/saratov-oblast/?ll=46.157000%2C51.606654&mode=routes&rtext=~51.606740%2C46.156122&rtt=auto&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DIgoN3p84QhVNbU5C&z=17"
+        }
+    }
+]
