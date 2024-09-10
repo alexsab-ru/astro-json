@@ -13,14 +13,14 @@
         "workers": [
             {
                 "name": "Давид Керимов",
-                "position": "Менеджер",
+                "position": "Старший менеджер отдела продаж",
                 "photo": "/img/people/david-kerimov.webp",
                 "email": "Kerimov.d@jetour-alpha.ru",
                 "phone": "+7 846 9 77777 9"
             },
             {
                 "name": "Алексей Баклыков",
-                "position": "Менеджер",
+                "position": "Менеджер отдела продаж",
                 "photo": "/img/people/aleksej-baklykov.webp",
                 "email": "Baklykov.A@jetour-alpha.ru",
                 "phone": "+7 846 9 77777 9"
