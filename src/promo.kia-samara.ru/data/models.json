@@ -244,5 +244,140 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "Kia",
+        "id": "sorento",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Играя главную роль",
+        "name": "Sorento",
+        "price": 5850000,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Kia Sorento",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Kia Sorento",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/sorento/thumb.webp",
+        "colors": [
+            {
+                "id": "clear-white",
+                "name": "Clear White (UD)",
+                "carImage": "/img/models/sorento/colors/clear-white.webp",
+                "style": "background-color: #e8e9e7;"
+            },
+            {
+                "id": "snow-white",
+                "name": "Snow White Pearl (SWP)",
+                "carImage": "/img/models/sorento/colors/snow-white.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "essence-brown",
+                "name": "Essence Brown (BE2)",
+                "carImage": "/img/models/sorento/colors/essence-brown.webp",
+                "style": "background-color: #4f4443;"
+            },
+            {
+                "id": "steel-gray",
+                "name": "Steel Gray (KLG)",
+                "carImage": "/img/models/sorento/colors/steel-gray.webp",
+                "style": "background-color: #636363;"
+            },
+            {
+                "id": "aurora-black-pearl",
+                "name": "Aurora Black Pearl (ABP)",
+                "carImage": "/img/models/sorento/colors/aurora-black-pearl.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "gravity-blue",
+                "name": "Gravity Blue (B4U)",
+                "carImage": "/img/models/sorento/colors/gravity-blue.webp",
+                "style": "background-color: #313642;"
+            },
+            {
+                "id": "runway-red",
+                "name": "Runway Red (CR5)",
+                "carImage": "/img/models/sorento/colors/runway-red.webp",
+                "style": "background-color: #942a25;"
+            },
+            {
+                "id": "mineral-blue",
+                "name": "Mineral Blue (M4B)",
+                "carImage": "/img/models/sorento/colors/mineral-blue.webp",
+                "style": "background-color: #5b819d;"
+            },
+            {
+                "id": "platinum-graphite",
+                "name": "Platinum Graphite (ABT)",
+                "carImage": "/img/models/sorento/colors/platinum-graphite.webp",
+                "style": "background-color: #6c6c6e;"
+            },
+            {
+                "id": "silky-silver",
+                "name": "Silky Silver (4SS)",
+                "carImage": "/img/models/sorento/colors/silky-silver.webp",
+                "style": "background-color: #c1c2c6;"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "6AT/8AT/8DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2815",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4810",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1900",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.2-3.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "225-440",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
     }
 ]
