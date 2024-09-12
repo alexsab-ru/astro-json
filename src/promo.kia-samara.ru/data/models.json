@@ -121,5 +121,128 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "Kia",
+        "id": "k5",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Сверхчеловеческие возможности",
+        "name": "K5",
+        "price": 4049900,
+        "benefit": 250000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Kia K5",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Kia K5",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/k5/thumb.webp",
+        "colors": [
+            {
+                "id": "clear-white",
+                "name": "Clear White (UD)",
+                "carImage": "/img/models/k5/colors/clear-white.webp",
+                "style": "background-color: #e8e9e7;"
+            },
+            {
+                "id": "snow-white",
+                "name": "Snow White Pearl (SWP)",
+                "carImage": "/img/models/k5/colors/snow-white.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "interstellar-gray",
+                "name": "Interstellar Gray (AGT)",
+                "carImage": "/img/models/k5/colors/interstellar-gray.webp",
+                "style": "background-color: #393939;"
+            },
+            {
+                "id": "steel-gray",
+                "name": "Steel Gray (KLG)",
+                "carImage": "/img/models/k5/colors/steel-gray.webp",
+                "style": "background-color: #636363;"
+            },
+            {
+                "id": "aurora-black-pearl",
+                "name": "Aurora Black Pearl (ABP)",
+                "carImage": "/img/models/k5/colors/aurora-black-pearl.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "gravity-blue",
+                "name": "Gravity Blue (B4U)",
+                "carImage": "/img/models/k5/colors/gravity-blue.webp",
+                "style": "background-color: #313642;"
+            },
+            {
+                "id": "runway-red",
+                "name": "Runway Red (CR5)",
+                "carImage": "/img/models/k5/colors/runway-red.webp",
+                "style": "background-color: #942a25;"
+            },
+            {
+                "id": "yacht-blue",
+                "name": "Yacht Blue (DU3)",
+                "carImage": "/img/models/k5/colors/yacht-blue.webp",
+                "style": "background-color: #2b489e;"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT/8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2850",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4905",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1860",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "192",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
     }
 ]
