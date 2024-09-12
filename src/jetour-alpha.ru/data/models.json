@@ -1,6 +1,111 @@
 [
     {
         "mark_id": "Jetour",
+        "id": "x90plus",
+        "show": true,
+        "homeImg": "/img/models/x90plus/bg.jpg",
+        "slogan": "Вместительный кроссовер на все случаи жизни",
+        "name": "X90 Plus",
+        "price": "{{price-jetour-x90plus}}",
+        "benefit": 720000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X90 Plus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X90 Plus",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x90plus/colors/c4b.png",
+        "colors": [
+            {
+                "id": "c5b",
+                "name": "Арктический белый",
+                "carImage": "/img/models/x90plus/colors/c5b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c5bkm.png);"
+            },
+            {
+                "id": "c1b",
+                "name": "Галактический черный",
+                "carImage": "/img/models/x90plus/colors/c1b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c1bkm.png);"
+            },
+            {
+                "id": "c2b",
+                "name": "Океанический синий",
+                "carImage": "/img/models/x90plus/colors/c2b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c2bkm.png);"
+            },
+            {
+                "id": "c4b",
+                "name": "Фиолетовый дракон",
+                "carImage": "/img/models/x90plus/colors/c4b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c4bkm.png);"
+            },
+            {
+                "id": "c3b",
+                "name": "Призрачный серый",
+                "carImage": "/img/models/x90plus/colors/c3b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c3bkm.png);"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2850",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4858",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1925",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6-2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "275/375",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Jetour",
         "id": "t2",
         "show": true,
         "homeImg": "/img/models/t2/bg.jpg",
