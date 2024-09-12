@@ -466,5 +466,152 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "Kia",
+        "id": "seltos",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Смелей!",
+        "name": "Seltos",
+        "price": 3299900,
+        "benefit": 250000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Kia Seltos",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Kia Seltos",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/seltos/thumb.webp",
+        "colors": [
+            {
+                "id": "clear-white",
+                "name": "Clear White (UD)",
+                "carImage": "/img/models/seltos/colors/clear-white.webp",
+                "style": "background-color: #e8e9e7;"
+            },
+            {
+                "id": "snow-white",
+                "name": "Snow White Pearl (SWP)",
+                "carImage": "/img/models/seltos/colors/snow-white.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "silky-silver",
+                "name": "Silky Silver (4SS)",
+                "carImage": "/img/models/seltos/colors/silky-silver.webp",
+                "style": "background-color: #898a91;"
+            },
+            {
+                "id": "neptune-blue",
+                "name": "Neptune Blue (B3A)",
+                "carImage": "/img/models/seltos/colors/neptune-blue.webp",
+                "style": "background-color: #3345ac;"
+            },
+            {
+                "id": "runway-red",
+                "name": "Runway Red (CR5)",
+                "carImage": "/img/models/seltos/colors/runway-red.webp",
+                "style": "background-color: #a72f2c;"
+            },
+            {
+                "id": "gravity-blue",
+                "name": "Gravity Blue (B4U)",
+                "carImage": "/img/models/seltos/colors/gravity-blue.webp",
+                "style": "background-color: #252b39;"
+            },
+            {
+                "id": "glittering-metal",
+                "name": "Glittering Metal (K3G)",
+                "carImage": "/img/models/seltos/colors/glittering-metal.webp",
+                "style": "background-color: #383a3e;"
+            },
+            {
+                "id": "aurora-black-pearl",
+                "name": "Aurora Black Pearl (ABP)",
+                "carImage": "/img/models/seltos/colors/aurora-black-pearl.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "clear-white-aurora-black-pearl",
+                "name": "Clear White / Aurora Black Pearl (GB1)",
+                "carImage": "/img/models/seltos/colors/clear-white-aurora-black-pearl.webp",
+                "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #000000 51%);"
+            },
+            {
+                "id": "neptune-blue-clear-white",
+                "name": "Neptune Blue / Clear White (GB6)",
+                "carImage": "/img/models/seltos/colors/neptune-blue-clear-white.webp",
+                "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #3345ac 51%);"
+            },
+            {
+                "id": "gravity-blue-clear-white",
+                "name": "Gravity Blue / Сlear White (GB4)",
+                "carImage": "/img/models/seltos/colors/gravity-blue-clear-white.webp",
+                "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #182453 51%);"
+            },
+            {
+                "id": "gravity-blue-aurora-black-pearl",
+                "name": "Gravity Blue / Aurora Black Pearl (GB5)",
+                "carImage": "/img/models/seltos/colors/gravity-blue-aurora-black-pearl.webp",
+                "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #000000 51%);"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/6AT/IVT/7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2630",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4370",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1800",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6-2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "148-265",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
     }
 ]
