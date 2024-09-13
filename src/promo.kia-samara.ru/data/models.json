@@ -410,6 +410,12 @@
         "thumb": "/img/models/sorento2024/thumb.webp",
         "colors": [
             {
+                "id": "gray",
+                "name": "Gray",
+                "carImage": "/img/models/sorento2024/colors/gray.webp",
+                "style": ""
+            },
+            {
                 "id": "clear-white",
                 "name": "Clear White (UD)",
                 "carImage": "/img/models/sorento2024/colors/clear-white.webp",
