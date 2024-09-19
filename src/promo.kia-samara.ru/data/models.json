@@ -248,7 +248,7 @@
     {
         "mark_id": "Kia",
         "id": "sorento",
-        "show": true,
+        "show": false,
         "homeImg": "/img/model-bg.webp",
         "slogan": "Играя главную роль",
         "name": "Sorento",
@@ -416,15 +416,15 @@
                 "style": ""
             },
             {
-                "id": "clear-white",
+                "id": "white",
                 "name": "Clear White (UD)",
-                "carImage": "/img/models/sorento2024/colors/clear-white.webp",
+                "carImage": "/img/models/sorento2024/colors/white.webp",
                 "style": "background-color: #e8e9e7;"
             },
             {
-                "id": "aurora-black-pearl",
+                "id": "black",
                 "name": "Aurora Black Pearl (ABP)",
-                "carImage": "/img/models/sorento2024/colors/aurora-black-pearl.webp",
+                "carImage": "/img/models/sorento2024/colors/black.webp",
                 "style": "background-color: #000000;"
             }
         ],
