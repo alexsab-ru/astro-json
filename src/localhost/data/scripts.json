@@ -1,7 +1,11 @@
 {
     "metrika": [
         {
-            "id": "48905003"
+            "id": 48905003,
+            "clickmap": true,
+            "trackLinks": true,
+            "accurateTrackBounce": true,
+            "webvisor": true
         }
     ],
     "ga4": [
