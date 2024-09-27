@@ -9,7 +9,7 @@ export ID_XPATH="concat('geely-', substring(substring-after(./a/@href, '/model/'
 export MODEL_XPATH="./a/span[@class='title']/text()"
 export PRICE_XPATH="translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a/@href"
-export OUTPUT_PATHS="./src/geelyorenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json"
+export OUTPUT_PATHS="./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json,./tmp/auto-team.pro/data/geely.json"
 node .github/scripts/scrape.js
 ```
 
@@ -83,7 +83,7 @@ python3 .github/scripts/scrape.py
 ```
 
 ```sh
-export INPUT_PATHS="./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
+export INPUT_PATHS="./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/geely.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
 export OUTPUT_PATHS="./src/auto-team.pro/data/cars.json"
 node .github/scripts/mergeJson.js
 ```

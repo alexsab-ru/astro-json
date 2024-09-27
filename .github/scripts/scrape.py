@@ -4,7 +4,7 @@
 # export MODEL_XPATH="./a/span[@class='title']/text()"
 # export PRICE_XPATH="./a/span[@class='subtitle']/text()"
 # export LINK_XPATH="./a/@href"
-# export OUTPUT_PATH="./src/geelyorenburg.ru/data/cars.json"
+# export OUTPUT_PATH="./src/geely-partner-orenburg.ru/data/cars.json"
 # python3 .github/scripts/scrape.py
 import requests
 from lxml import html

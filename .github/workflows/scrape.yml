@@ -40,7 +40,7 @@ jobs:
         MODEL_XPATH: "./a/span[@class='title']/text()"
         PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
         LINK_XPATH: "./a/@href"
-        OUTPUT_PATHS: "./src/geelyorenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json"
+        OUTPUT_PATHS: "./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json,./tmp/auto-team.pro/data/geely.json"
 
     - name: Scrape belgee.ru
       run: node .github/scripts/scrape.js
@@ -111,7 +111,7 @@ jobs:
     - name: Merge JSON for auto-team.pro
       run: node .github/scripts/mergeJson.js
       env:
-        INPUT_PATHS: "./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
+        INPUT_PATHS: "./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/geely.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
         OUTPUT_PATHS: "./src/auto-team.pro/data/cars.json"
 
     - name: Scrape kaiyi-auto.ru

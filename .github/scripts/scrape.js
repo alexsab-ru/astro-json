@@ -5,7 +5,7 @@ export ID_XPATH="substring-after(./a/@href, '/model/')"
 export MODEL_XPATH="./a/span[@class='title']/text()"
 export PRICE_XPATH="translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a/@href"
-export OUTPUT_PATHS="./src/geelyorenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json"
+export OUTPUT_PATHS="./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json"
 node .github/scripts/scrape.js
 /**/
 const puppeteer = require('puppeteer');
