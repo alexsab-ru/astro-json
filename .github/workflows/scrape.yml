@@ -35,12 +35,12 @@ jobs:
       run: node .github/scripts/scrape.js
       env:
         URL: "https://www.geely-motors.com"
-        ITEM_XPATH: "//header/div[@data-id='carmodels']/div"
-        ID_XPATH: "concat('geely-', substring(substring-after(./a/@href, '/model/'), 1 + 6 * starts-with(substring-after(./a/@href, '/model/'), 'geely-')))"
-        MODEL_XPATH: "./a/span[@class='title']/text()"
-        PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
-        LINK_XPATH: "./a/@href"
-        OUTPUT_PATHS: "./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json,./tmp/auto-team.pro/data/geely.json"
+        ITEM_XPATH: "//a[contains(@class,'v2-menu-curtain-automobiles__item')]"
+        ID_XPATH: "concat('geely-', substring(substring-after(./@href, '/model/'), 1 + 6 * starts-with(substring-after(./@href, '/model/'), 'geely-')))"
+        MODEL_XPATH: "./div/h4[@class='v2-automobile-menu-card__heading']/text()"
+        PRICE_XPATH: "translate(string(./div/p[@class='v2-automobile-menu-card__paragraph']/text()), translate(string(./div/p[@class='v2-automobile-menu-card__paragraph']/text()), '0123456789', ''), '')"
+        LINK_XPATH: "./@href"
+        OUTPUT_PATHS: "./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-samara.ru/data/cars.json,./src/geely-partner-saratov.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json,./tmp/auto-team.pro/data/geely.json"
 
     - name: Scrape belgee.ru
       run: node .github/scripts/scrape.js
