@@ -725,7 +725,7 @@
     {
         "mark_id": "Geely",
         "id": "newtugella",
-        "show": true,
+        "show": false,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Tugella",
