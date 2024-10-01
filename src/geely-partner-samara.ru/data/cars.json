@@ -2,13 +2,13 @@
   {
     "id": "geely-emgrand",
     "model": "EMGRAND",
-    "price": "1709990",
+    "price": "1762990",
     "link": "https://www.geely-motors.com/model/emgrand"
   },
   {
     "id": "geely-preface",
-    "model": "PREFACE",
-    "price": "2699990",
+    "model": "НОВЫЙ Preface",
+    "price": "2755990",
     "link": "https://www.geely-motors.com/model/geely-preface"
   },
   {
@@ -18,33 +18,33 @@
     "link": "https://www.geely-motors.com/model/geely-coolray-2023"
   },
   {
+    "id": "geely-cityray",
+    "model": "Новый Cityray",
+    "price": "2399990",
+    "link": "https://www.geely-motors.com/model/cityray"
+  },
+  {
     "id": "geely-atlaspro",
     "model": "ATLAS PRO",
-    "price": "2268990",
+    "price": "2306990",
     "link": "https://www.geely-motors.com/model/atlaspro"
   },
   {
     "id": "geely-atlas-2024",
-    "model": "Новый ATLAS",
-    "price": "2879990",
+    "model": "НОВЫЙ Atlas",
+    "price": "2943990",
     "link": "https://www.geely-motors.com/model/geely-atlas-2024"
   },
   {
-    "id": "geely-newtugella",
-    "model": "TUGELLA",
-    "price": "3279990",
-    "link": "https://www.geely-motors.com/model/newtugella"
-  },
-  {
     "id": "geely-okavango",
-    "model": "Новый OKAVANGO",
-    "price": "3029990",
+    "model": "OKAVANGO",
+    "price": "3078990",
     "link": "https://www.geely-motors.com/model/geely-okavango"
   },
   {
     "id": "geely-monjaro",
     "model": "MONJARO",
-    "price": "3824990",
+    "price": "3876990",
     "link": "https://www.geely-motors.com/model/monjaro"
   }
 ]
