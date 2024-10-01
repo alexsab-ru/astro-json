@@ -1034,7 +1034,7 @@
     {
         "mark_id": "Geely",
         "id": "belgee-x50",
-        "show": true,
+        "show": false,
         "homeImg": "/img/models/bg.webp",
         "slogan": "",
         "name": "Belgee X50",
