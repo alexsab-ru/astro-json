@@ -77,6 +77,8 @@
                 "style": "background-color: #a0a392;"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -199,6 +201,8 @@
                 "carImage": "/img/models/k5/colors/yacht-blue.webp",
                 "style": "background-color: #2b489e;"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -335,6 +339,8 @@
                 "style": "background-color: #c1c2c6;"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5/7 мест",
@@ -427,6 +433,8 @@
                 "carImage": "/img/models/sorento2024/colors/black.webp",
                 "style": "background-color: #000000;"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -574,6 +582,8 @@
                 "carImage": "/img/models/seltos/colors/gravity-blue-aurora-black-pearl.webp",
                 "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #000000 51%);"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {

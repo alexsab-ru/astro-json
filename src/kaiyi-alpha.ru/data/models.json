@@ -53,6 +53,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -163,6 +165,8 @@
                 "carImage": "/img/models/x3/colors/blue.png",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -275,6 +279,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -385,6 +391,8 @@
                 "carImage": "/img/models/x7-kunlun/colors/purple.png",
                 "style": "background-color: rgba(15, 12, 71, 1);"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {

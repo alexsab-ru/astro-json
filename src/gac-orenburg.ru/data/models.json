@@ -40,6 +40,8 @@
                 "style": "background-color: #94A0AE"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -119,6 +121,8 @@
                 "carImage": "/img/models/m8/colors/gold.webp",
                 "style": "background-color: #B7A38A;"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -205,6 +209,8 @@
                 "carImage": "/img/models/gs8ii/colors/black.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -299,6 +305,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "7 мест",
@@ -392,6 +400,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -472,6 +482,8 @@
                 "carImage": "/img/models/gn8/colors/white.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {

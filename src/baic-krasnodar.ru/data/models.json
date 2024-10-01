@@ -96,6 +96,8 @@
                 "style": "background-image: linear-gradient(90deg, rgba(60, 65, 132, 1) 49%, rgba(0, 0, 0, 1) 51%);"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -194,6 +196,8 @@
                 "carImage": "/img/models/u5-plus/colors/black.png",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -299,6 +303,8 @@
                 "carImage": "/img/models/x35/colors/silver.png",
                 "style": "background-color: rgba(170, 170, 170, 1);"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -435,6 +441,8 @@
                 "style": "background-color: rgba(161, 153, 7, 1);"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -533,6 +541,8 @@
                 "carImage": "/img/models/x7/colors/white.png",
                 "style": "background-color: rgba(233, 233, 233, 1);"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -674,6 +684,8 @@
                 "carImage": "/img/models/bj40/colors/matte-grey.png",
                 "style": "background-color: #aaaaaa"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {

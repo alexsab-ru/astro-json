@@ -59,6 +59,8 @@
                 "style": "background-color: #e6e7e8;"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -157,6 +159,8 @@
                 "carImage": "https://tank.ru/uploads/car_variant_color_sequence/cdbe33850dd69e5018e62566f414ce1a.png",
                 "style": "background-color: #e6e7e8;"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {

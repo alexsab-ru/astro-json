@@ -66,6 +66,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -183,6 +185,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -263,6 +267,8 @@
                 "carImage": "/img/models/iev7s/colors/white.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -363,6 +369,8 @@
                 "carImage": "/img/models/js3/colors/black.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -579,6 +587,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -684,6 +694,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -788,6 +800,8 @@
                 "carImage": "/img/models/t8/colors/blue.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -899,6 +913,8 @@
                 "carImage": "/img/models/t8-pro/colors/blue.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {

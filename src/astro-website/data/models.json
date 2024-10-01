@@ -53,6 +53,8 @@
                 "style": "background-color: #000000;"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -151,6 +153,8 @@
                 "carImage": "https://geely-partner.ru/img/models/Atlas-2024/colors/white.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -257,6 +261,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -361,6 +367,8 @@
                 "carImage": "https://geely-partner.ru/img/models/Emgrand/colors/black-metallic.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -467,6 +475,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -547,6 +557,8 @@
                 "carImage": "https://geely-partner.ru/img/models/New%20Coolray/colors/unicorn-grey.webp",
                 "style": "background-color: #666B7F;"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -646,6 +658,8 @@
                 "carImage": "https://geely-partner.ru/img/models/Tugella/colors/gray-metallic.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -752,6 +766,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -832,6 +848,8 @@
                 "carImage": "https://geely-partner.ru/img/models/Belgee X50/colors/black.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {

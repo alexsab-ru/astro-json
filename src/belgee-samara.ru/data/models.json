@@ -60,6 +60,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -171,6 +173,8 @@
                 "carImage": "/img/models/x70/colors/red.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {

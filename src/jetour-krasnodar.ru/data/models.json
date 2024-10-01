@@ -59,6 +59,8 @@
                 "style": "background-color: #4682B4; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -176,6 +178,8 @@
                 "style": "background-image: url(/img/models/dashing/colors/c7bkm.png);"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -280,6 +284,8 @@
                 "carImage": "/img/models/x90plus/colors/c3b.png",
                 "style": "background-image: url(/img/models/x90plus/colors/c3bkm.png);"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -403,6 +409,8 @@
                 "carImage": "/img/models/x70plus/colors/green.png",
                 "style": "background-color: #013030;"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {

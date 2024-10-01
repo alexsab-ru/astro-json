@@ -290,6 +290,8 @@
                 "style": "background: linear-gradient(40deg, #ffffff 45%, white)"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -401,6 +403,8 @@
                 "carImage": "/img/models/changan/eadoplus/colors/eadoplus_red.webp",
                 "style": "background-image: url('/img/models/changan/eadoplus/colors/red.webp')"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -514,6 +518,8 @@
                 "style": "background-image: url('/img/models/changan/lamore/colors/exquisite_green.webp')"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -625,6 +631,8 @@
                 "carImage": "/img/models/changan/cs75plus/colors/cs75plus_crystal_blue.webp",
                 "style": "background-image: url('/img/models/changan/cs75plus/colors/crystal_blue.webp')"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -744,6 +752,8 @@
                 "style": "background-image: url('/img/models/changan/cs85coupe/colors/grey.webp')"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -843,6 +853,8 @@
                 "carImage": "/img/models/changan/cs95/colors/cs95_black.webp",
                 "style": "background: linear-gradient(40deg, #121212 45%, white)"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -1186,6 +1198,8 @@
                 "style": "background-image: url('/img/models/changan/uni-v/colors/sparkling_grey.webp')"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -1303,6 +1317,8 @@
                 "carImage": "/img/models/changan/uni-k/colors/uni-k_sky-blue.webp",
                 "style": "background-image: url('/img/models/changan/uni-k/colors/sky-blue.webp')"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -1531,6 +1547,8 @@
                 "style": "background-image: url('/img/models/changan/uni-k idd/colors/pearl-white.webp')"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -1648,6 +1666,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -1728,6 +1748,8 @@
                 "carImage": "/img/models/geely/Geometry G6/colors/gray.webp",
                 "style": "background-color: #a3a6a0;"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -1834,6 +1856,8 @@
                 "style": "background-color: #487f76;"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -1938,6 +1962,8 @@
                 "carImage": "/img/models/geely/Atlas%20Pro/colors/black-metallic.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -2050,6 +2076,8 @@
                 "style": "background-color: #bdc9d5;"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -2154,6 +2182,8 @@
                 "carImage": "/img/models/geely/Coolray/colors/white.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -2260,6 +2290,8 @@
                 "style": "background-color: #ff0000;"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -2359,6 +2391,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -2457,6 +2491,8 @@
                 "carImage": "/img/models/geely/Okavango/colors/crystal-white.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -2569,6 +2605,8 @@
                 "style": "background-color: #5e6775;"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -2680,6 +2718,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -2785,6 +2825,8 @@
                 "carImage": "/img/models/belgee/x50/colors/black.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -2898,6 +2940,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -2984,6 +3028,8 @@
                 "style": "background-color: #94A0AE"
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -3051,6 +3097,8 @@
                 "carImage": "/img/models/gac/m8/colors/gold.webp",
                 "style": "background-color: #B7A38A;"
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -3137,6 +3185,8 @@
                 "carImage": "/img/models/gac/gs8ii/colors/black.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
@@ -3231,6 +3281,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "7 мест",
@@ -3324,6 +3376,8 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -3404,6 +3458,8 @@
                 "carImage": "/img/models/gac/gn8/colors/white.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
         ],
         "photos": "",
         "chars": {
