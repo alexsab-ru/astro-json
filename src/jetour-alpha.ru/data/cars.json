@@ -2,7 +2,7 @@
   {
     "id": "jetour-t2",
     "model": "T2",
-    "price": "3759000",
+    "price": "3859000",
     "link": "https://jetour-ru.com/models/t2"
   },
   {
@@ -20,13 +20,13 @@
   {
     "id": "jetour-x70plus",
     "model": "X70 Plus",
-    "price": "2329900",
+    "price": "2429900",
     "link": "https://jetour-ru.com/models/x70plus"
   },
   {
     "id": "jetour-x90plus",
     "model": "X90 Plus",
-    "price": "2599900",
+    "price": "2679900",
     "link": "https://jetour-ru.com/models/x90plus"
   }
 ]
