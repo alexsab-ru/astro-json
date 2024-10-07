@@ -62,11 +62,19 @@ async function extractData() {
         if (!id.startsWith(`${brandPrefix}-`)) {
             id = `${brandPrefix}-${id}`;
         }
-
+        let price = card.price.value.replace(/\D/g, ''); // Убираем все нецифровые символы из цены
+        if(price > 9999999) {
+            price = card.price.value.toLowerCase();
+            // price = price.replace(/от/g, '<span class="text-sm text-gray-400">от</span>');
+            // price = price.replace(/text-decoration: line-through/g, 'text-decoration: line-through; display: block;');
+            price = price.replace(/decoration: line-through">от/g, 'text-decoration: line-through; display: block;"><span class=\"text-sm text-gray-400 inline-block line-through\">от</span>');
+            price = price.replace(/span> от/g, 'span> <span class="text-sm text-gray-400 inline-block ">от</span>');
+            price = JSON.stringify(price).slice(1, -1);;
+        }
         return {
             id: id,
             model: card.title.text.value,
-            price: card.price.value.replace(/\D/g, ''), // Убираем все нецифровые символы из цены
+            price: price,
             link: card.link.url
         };
     });
