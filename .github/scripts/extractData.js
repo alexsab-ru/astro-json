@@ -64,9 +64,10 @@ async function extractData() {
         }
         let price = card.price.value.replace(/\D/g, ''); // Убираем все нецифровые символы из цены
         if(price > 9999999) {
+            price = processNumber(price);
+        }
+        if(price > 9999999) {
             price = card.price.value.toLowerCase();
-            // price = price.replace(/от/g, '<span class="text-sm text-gray-400">от</span>');
-            // price = price.replace(/text-decoration: line-through/g, 'text-decoration: line-through; display: block;');
             price = price.replace(/text-decoration: line-through">от/g, 'text-decoration: line-through; display: block;"><span class=\"text-sm text-gray-400 inline-block line-through\">от</span>');
             price = price.replace(/span> от/g, 'span> <span class="text-sm text-gray-400 inline-block ">от</span>');
             price = JSON.stringify(price).slice(1, -1);;
@@ -93,6 +94,30 @@ async function saveJson(data, filePaths) {
             console.error(`Ошибка сохранения файла ${filePath}: ${error}`);
         }
     }
+}
+
+function processNumber(num) {
+    if (num > 10000000) {
+        // Преобразуем число в строку
+        let numStr = num.toString();
+        
+        // Вычисляем середину строки
+        let midIndex = Math.floor(numStr.length / 2);
+        
+        // Разделяем строку на две половины
+        let firstHalf = numStr.substring(0, midIndex);
+        let secondHalf = numStr.substring(midIndex);
+        
+        // Преобразуем обе половины обратно в числа
+        let firstNum = parseInt(firstHalf, 10);
+        let secondNum = parseInt(secondHalf, 10);
+        
+        // Возвращаем наименьшее число из двух половин
+        return Math.min(firstNum, secondNum).toString();
+    }
+    
+    // Если число меньше или равно 10 000 000, возвращаем само число
+    return num;
 }
 
 (async () => {
