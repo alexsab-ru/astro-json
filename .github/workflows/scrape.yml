@@ -150,16 +150,6 @@ jobs:
         KEY_COLUMN: "Модель"
         OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/dealer_price.json"
 
-
-    - name: Scrape dealer price alpha-baic.ru
-      run: node .github/scripts/getDealerData.js
-      env:
-        CSV_URL: ${{ secrets.CSV_ALPHA_BAIC }}
-        QUERY_STRING: "SELECT C, F, H WHERE A='Альфа' and B='Baic'"
-        KEY_COLUMN: "Модель"
-        OUTPUT_PATHS: "./src/baic-alpha.ru/data/dealer_price.json"
-
-
     - name: Scrape kaiyi-auto.ru
       run: node .github/scripts/extractData.js
       env:
@@ -169,6 +159,14 @@ jobs:
         DEALERPRICE: 'dealer_price.json'
         DEALERPRICEFIELD: 'Конечная цена'
         OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data/cars.json,./src/kaiyi-samara.ru/data/cars.json"
+
+    - name: Scrape dealer price alpha-baic.ru
+      run: node .github/scripts/getDealerData.js
+      env:
+        CSV_URL: ${{ secrets.CSV_ALPHA_BAIC }}
+        QUERY_STRING: "SELECT C, F, H WHERE A='Альфа' and B='Baic'"
+        KEY_COLUMN: "Модель"
+        OUTPUT_PATHS: "./src/baic-alpha.ru/data/dealer_price.json"
 
     - name: Scrape baic-auto.ru
       run: node .github/scripts/extractData.js
