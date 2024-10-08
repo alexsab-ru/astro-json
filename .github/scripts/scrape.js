@@ -103,7 +103,8 @@ async function saveJson(data, filePaths) {
             if(jsonData) {
                 dealerdata.map(car => {
                     model = cleanString(car["model"], brandPrefix);
-                    if(jsonData[model]) {
+                    if(jsonData[model] && jsonData[model][dealerPriceField] != "") {
+
                         car["price"] = Math.min(parseInt(car["price"]), jsonData[model][dealerPriceField]).toString();
                     }
                     return car;
