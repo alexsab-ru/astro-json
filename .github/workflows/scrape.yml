@@ -34,6 +34,7 @@ jobs:
     - name: Scrape geely-motors.com
       run: node .github/scripts/scrape.js
       env:
+        BRAND: "geely"
         URL: "https://www.geely-motors.com"
         ITEM_XPATH: "//a[contains(@class,'v2-menu-curtain-automobiles__item')]"
         ID_XPATH: "concat('geely-', substring(substring-after(./@href, '/model/'), 1 + 6 * starts-with(substring-after(./@href, '/model/'), 'geely-')))"
@@ -45,6 +46,7 @@ jobs:
     - name: Scrape belgee.ru
       run: node .github/scripts/scrape.js
       env:
+        BRAND: "belgee"
         URL: "https://belgee.ru"
         ITEM_XPATH: "//header/div[@data-id='models']/div"
         ID_XPATH: "concat('belgee-', substring-after(substring-after(./a/@href, '/model/'), 'belgee-'))"
@@ -56,6 +58,7 @@ jobs:
     - name: Scrape jaccar.ru
       run: node .github/scripts/scrape.js
       env:
+        BRAND: "jac"
         URL: "https://jaccar.ru"
         ITEM_XPATH: "//li[contains(@class, 'menu-models__item')]"
         ID_XPATH: "concat('jac-', substring-before(substring-after(.//a[contains(@class, 'js-menu-models-link')]/@href, '/models/'), '/'))"
@@ -67,6 +70,7 @@ jobs:
     - name: Scrape jetour-ru.com
       run: node .github/scripts/scrape.js
       env:
+        BRAND: "jetour"
         URL: "https://jetour-ru.com"
         ITEM_XPATH: "//li[contains(@class, 'menu-model-card')]"
         ID_XPATH: "concat('jetour-', substring-before(substring-after(.//div[contains(@class, 'td-submenu__body')]//a[starts-with(@href, '/models/')]/@href, '/models/'), '?'))"
@@ -78,6 +82,7 @@ jobs:
     - name: Scrape livan-motors.ru
       run: node .github/scripts/scrape.js
       env:
+        BRAND: "livan"
         URL: "https://livan-motors.ru/model/"
         ITEM_XPATH: "//img[starts-with(@src, 'https://livan-motors.ru/storage/model')]/parent::*"
         ID_XPATH: "concat('livan-', substring-before(substring-after(./a[contains(text(),'Подробнее')][starts-with(@href, 'https://livan-motors.ru/model/')]/@href, '/model/'), '/'))"
@@ -89,6 +94,7 @@ jobs:
     - name: Scrape gacmotor.com.ru
       run: node .github/scripts/scrape.js
       env:
+        BRAND: "gac"
         URL: "https://gacmotor.com.ru/models"
         ITEM_XPATH: "//div[@class='td-models-grid__item']"
         ID_XPATH: "concat('gac-', substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/'))"
@@ -100,6 +106,7 @@ jobs:
     - name: Scrape changanauto.ru
       run: node .github/scripts/scrape.js
       env:
+        BRAND: "changan"
         URL: "https://changanauto.ru/models/"
         ITEM_XPATH: "//a[contains(@class,'card_bg-hover')]"
         ID_XPATH: "concat('changan-', substring-before(substring-after(@href, '/models/'),'/'))"

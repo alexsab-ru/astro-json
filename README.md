@@ -1,8 +1,11 @@
 # JSON for websites
 
-Чтобы получить данные цен с сайтов можно запустить
+## Цены с федеральных сайтов
+
+Чтобы получить данные цен с федеральных сайтов можно запустить
 
 ```sh
+export BRAND='geely'
 export URL="https://www.geely-motors.com"
 export ITEM_XPATH="//a[contains(@class,'v2-menu-curtain-automobiles__item')]"
 export ID_XPATH="concat('geely-', substring(substring-after(./@href, '/model/'), 1 + 6 * starts-with(substring-after(./@href, '/model/'), 'geely-')))"
@@ -14,6 +17,7 @@ node .github/scripts/scrape.js
 ```
 
 ```sh
+export BRAND='belgee'
 export URL="https://belgee.ru"
 export ITEM_XPATH="//header/div[@data-id='models']/div"
 export ID_XPATH="concat('belgee-', substring-after(substring-after(./a/@href, '/model/'), 'belgee-'))"
@@ -25,6 +29,7 @@ node .github/scripts/scrape.js
 ```
 
 ```sh
+export BRAND='jac'
 export URL="https://jaccar.ru"
 export ITEM_XPATH="//li[contains(@class, 'menu-models__item')]"
 export ID_XPATH="concat('jac-', substring-before(substring-after(.//a[contains(@class, 'js-menu-models-link')]/@href, '/models/'), '/'))"
@@ -36,6 +41,7 @@ node .github/scripts/scrape.js
 ```
 
 ```sh
+export BRAND='jetour'
 export URL="https://jetour-ru.com"
 export ITEM_XPATH="//li[contains(@class, 'menu-model-card')]"
 export ID_XPATH="concat('jetour-', substring-before(substring-after(.//div[contains(@class, 'td-submenu__body')]//a[starts-with(@href, '/models/')]/@href, '/models/'), '?'))"
@@ -47,6 +53,7 @@ node .github/scripts/scrape.js
 ```
 
 ```sh
+export BRAND='livan'
 export URL="https://livan-motors.ru/model/"
 export ITEM_XPATH="//img[starts-with(@src, 'https://livan-motors.ru/storage/model')]/parent::*"
 export ID_XPATH="concat('livan-', substring-before(substring-after(./a[contains(text(),'Подробнее')][starts-with(@href, 'https://livan-motors.ru/model/')]/@href, '/model/'), '/'))"
@@ -58,6 +65,7 @@ node .github/scripts/scrape.js
 ```
 
 ```sh
+export BRAND='gac'
 export URL="https://gacmotor.com.ru/models"
 export ITEM_XPATH="//div[@class='td-models-grid__item']"
 export ID_XPATH="concat('gac-', substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/'))"
@@ -69,6 +77,7 @@ node .github/scripts/scrape.js
 ```
 
 ```sh
+export BRAND='changan'
 export URL="https://changanauto.ru/models/"
 export ITEM_XPATH="//a[contains(@class,'card_bg-hover')]"
 export ID_XPATH="concat('changan-', substring-before(substring-after(@href, '/models/'),'/'))"

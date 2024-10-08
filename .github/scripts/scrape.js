@@ -11,6 +11,7 @@ node .github/scripts/scrape.js
 const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
 const path = require('path');
+const brandPrefix = process.env.BRAND;
 
 async function scrapePage(url, xpaths) {
     const browser = await puppeteer.launch();
