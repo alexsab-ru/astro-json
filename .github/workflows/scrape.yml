@@ -114,12 +114,32 @@ jobs:
         INPUT_PATHS: "./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/geely.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
         OUTPUT_PATHS: "./src/auto-team.pro/data/cars.json"
 
+    - name: Scrape dealer price alpha-kaiyi.ru
+      run: node .github/scripts/getDealerData.js
+      env:
+        CSV_URL: ${{ secrets.CSV_ALPHA_KAIYI }}
+        QUERY_STRING: "SELECT C, F, H, M WHERE A='Альфа' and B='Kaiyi'"
+        KEY_COLUMN: "key"
+        OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/dealer_price.json"
+
+
+    - name: Scrape dealer price alpha-baic.ru
+      run: node .github/scripts/getDealerData.js
+      env:
+        CSV_URL: ${{ secrets.CSV_ALPHA_BAIC }}
+        QUERY_STRING: "SELECT C, F, H, M WHERE A='Альфа' and B='Baic'"
+        KEY_COLUMN: "key"
+        OUTPUT_PATHS: "./src/baic-alpha.ru/data/dealer_price.json"
+
+
     - name: Scrape kaiyi-auto.ru
       run: node .github/scripts/extractData.js
       env:
         BRAND: 'kaiyi'
         URL: 'https://kaiyi-auto.ru/models/'
         REGEXP: '\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
+        DEALERPRICE: 'dealer_price.json'
+        DEALERPRICEFIELD: 'Конечная цена'
         OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data/cars.json,./src/kaiyi-samara.ru/data/cars.json"
 
     - name: Scrape baic-auto.ru
@@ -128,6 +148,8 @@ jobs:
         BRAND: 'baic'
         URL: 'https://baic-auto.ru/models/'
         REGEXP: '\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
+        DEALERPRICE: 'dealer_price.json'
+        DEALERPRICEFIELD: 'Конечная цена'
         OUTPUT_PATHS: "./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/data/cars.json,./src/baic-samara.ru/data/cars.json"
 
     - name: Check for changes

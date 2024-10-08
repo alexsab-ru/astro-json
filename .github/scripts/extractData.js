@@ -9,6 +9,8 @@ const { JSDOM } = jsdom;
 const url = process.env.URL;
 const regexPattern = process.env.REGEXP;
 const brandPrefix = process.env.BRAND;
+const dealerPrice = process.env.DEALERPRICE;
+const dealerPriceField = process.env.DEALERPRICEFIELD;
 
 // Функция для загрузки HTML-страницы
 async function fetchHTML(url) {
@@ -83,10 +85,35 @@ async function extractData() {
     return result;
 }
 
+async function readJsonFile(filePath) {
+    try {
+        // Чтение файла
+        const data = await fs.readFile(filePath, 'utf8');
+        
+        // Парсинг JSON
+        const jsonData = JSON.parse(data);
+        
+        // Возвращаем объект для дальнейших действий
+        return jsonData;
+    } catch (err) {
+        console.error(`Ошибка при чтении или парсинге JSON файла: ${err.message}`);
+        throw err; // Пробрасываем ошибку для обработки в вызывающем коде
+    }
+}
+
 async function saveJson(data, filePaths) {
     for (const filePath of filePaths) {
         try {
             const directory = path.dirname(filePath);
+            const jsonData = await readJsonFile(path.join(directory, '/', dealerPrice));
+            if(jsonData) {
+                data.map(car => {
+                    if(jsonData[car["model"]]) {
+                        car["price"] = Math.min(parseInt(car["price"]), jsonData[car["model"]][dealerPriceField]).toString();
+                    }
+                    return car;
+                });
+            }
             await fs.mkdir(directory, { recursive: true });
             await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);
@@ -123,7 +150,7 @@ function processNumber(num) {
 (async () => {
     // Запускаем основную функцию
     const data = await extractData();
-
+    
     // Разделение путей сохранения по запятой и обработка их как списка
     const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
     await saveJson(data, outputFilePaths);
