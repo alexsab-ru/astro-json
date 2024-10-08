@@ -103,3 +103,35 @@ export REGEXP='\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
 export OUTPUT_PATHS="./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/data/cars.json,./src/baic-samara.ru/data/cars.json"
 node .github/scripts/extractData.js
 ```
+
+```sh
+export CSV_URL="in env"
+export QUERY_STRING="SELECT C, F, H, M WHERE A='Альфа' and B='Baic'"
+export KEY_COLUMN="key"
+export OUTPUT_PATHS="./src/baic-alpha.ru/data/dealer_price.json"
+node .github/scripts/getDealerData.js
+```
+
+```sh
+export CSV_URL="in env"
+export QUERY_STRING="SELECT C, F, H, M WHERE A='Альфа' and B='Kaiyi'"
+export KEY_COLUMN="key"
+export OUTPUT_PATHS="./src/kaiyi-alpha.ru/data/dealer_price.json"
+node .github/scripts/getDealerData.js
+```
+
+```sh
+export CSV_URL="in env"
+export QUERY_STRING="SELECT C, F, H, M WHERE A='Альфа' and B='Livan'"
+export KEY_COLUMN="key"
+export OUTPUT_PATHS="./src/livan-alpha.ru/data/dealer_price.json"
+node .github/scripts/getDealerData.js
+```
+
+```sh
+export CSV_URL="in env"
+export QUERY_STRING="SELECT C, F, H, M WHERE A='Эксперт' and B='Jetour'"
+export KEY_COLUMN="key"
+export OUTPUT_PATHS="./src/jetour-alpha.ru/data/dealer_price.json"
+node .github/scripts/getDealerData.js
+```
