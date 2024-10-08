@@ -70,7 +70,7 @@ node .github/scripts/scrape.js
 
 ```sh
 export BRAND='gac'
-export URL="https://gacmotor.com.ru/models"
+export URL="https://gac.ru/models"
 export ITEM_XPATH="//div[@class='td-models-grid__item']"
 export ID_XPATH="concat('gac-', substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/'))"
 export MODEL_XPATH="substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/')"

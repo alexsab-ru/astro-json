@@ -112,11 +112,11 @@ jobs:
         DEALERPRICEFIELD: 'Конечная цена'
 
 
-    - name: Scrape gacmotor.com.ru
+    - name: Scrape gac.ru
       run: node .github/scripts/scrape.js
       env:
         BRAND: "gac"
-        URL: "https://gacmotor.com.ru/models"
+        URL: "https://gac.ru/models"
         ITEM_XPATH: "//div[@class='td-models-grid__item']"
         ID_XPATH: "concat('gac-', substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/'))"
         MODEL_XPATH: "substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/')"
