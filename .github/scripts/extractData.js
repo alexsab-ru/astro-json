@@ -97,25 +97,38 @@ async function readJsonFile(filePath) {
         return jsonData;
     } catch (err) {
         console.error(`Ошибка при чтении или парсинге JSON файла: ${err.message}`);
-        throw err; // Пробрасываем ошибку для обработки в вызывающем коде
+        return false;
+        // throw err; // Пробрасываем ошибку для обработки в вызывающем коде
     }
+}
+
+function cleanString(str, wordToRemove) {
+    // Шаг 1: Удаляем все вхождения определённого слова (регистрозависимое удаление)
+    let cleanedStr = str.replace(new RegExp(wordToRemove, 'gi'), '');
+
+    // Шаг 2: Удаляем все символы, кроме букв и цифр (буквы и цифры из любой языковой группы)
+    cleanedStr = cleanedStr.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+
+    return cleanedStr;
 }
 
 async function saveJson(data, filePaths) {
     for (const filePath of filePaths) {
         try {
             const directory = path.dirname(filePath);
+            const dealerdata = JSON.parse(JSON.stringify(data));
             const jsonData = await readJsonFile(path.join(directory, '/', dealerPrice));
             if(jsonData) {
-                data.map(car => {
-                    if(jsonData[car["model"]]) {
-                        car["price"] = Math.min(parseInt(car["price"]), jsonData[car["model"]][dealerPriceField]).toString();
+                dealerdata.map(car => {
+                    model = cleanString(car["model"], brandPrefix);
+                    if(jsonData[model]) {
+                        car["price"] = Math.min(parseInt(car["price"]), jsonData[model][dealerPriceField]).toString();
                     }
                     return car;
                 });
             }
             await fs.mkdir(directory, { recursive: true });
-            await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
+            await fs.writeFile(filePath, JSON.stringify(dealerdata, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);
         } catch (error) {
             console.error(`Ошибка сохранения файла ${filePath}: ${error}`);

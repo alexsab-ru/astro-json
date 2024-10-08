@@ -40,7 +40,7 @@ function convertCsvToJson(csvData, keyColumn) {
             const result = {};
             records.forEach(record => {
                 if (Object.values(record).some(value => value.trim() !== '')) {
-                    const key = record[keyColumn];
+                    const key = cleanString(record[keyColumn]).toLowerCase();
                     const transformedRecord = {};
 
                     // Проходим по всем полям записи и приводим значения к числу, если возможно
@@ -62,6 +62,16 @@ function convertCsvToJson(csvData, keyColumn) {
             resolve(result);
         });
     });
+}
+
+function cleanString(str, wordToRemove) {
+    // Шаг 1: Удаляем все вхождения определённого слова (регистрозависимое удаление)
+    let cleanedStr = str.replace(new RegExp(wordToRemove, 'g'), '');
+
+    // Шаг 2: Удаляем все символы, кроме букв и цифр (буквы и цифры из любой языковой группы)
+    cleanedStr = cleanedStr.replace(/[^a-zA-Z0-9]/g, '');
+
+    return cleanedStr;
 }
 
 async function saveJson(data, filePaths) {

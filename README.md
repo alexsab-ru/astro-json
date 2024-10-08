@@ -108,34 +108,36 @@ export OUTPUT_PATHS="./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/
 node .github/scripts/extractData.js
 ```
 
+## Цены из таблиц дилеров
+
 ```sh
 export CSV_URL="in env"
-export QUERY_STRING="SELECT C, F, H, M WHERE A='Альфа' and B='Baic'"
-export KEY_COLUMN="key"
+export QUERY_STRING="SELECT C, F, H WHERE A='Альфа' and B='Baic'"
+export KEY_COLUMN="Модель"
 export OUTPUT_PATHS="./src/baic-alpha.ru/data/dealer_price.json"
 node .github/scripts/getDealerData.js
 ```
 
 ```sh
 export CSV_URL="in env"
-export QUERY_STRING="SELECT C, F, H, M WHERE A='Альфа' and B='Kaiyi'"
-export KEY_COLUMN="key"
+export QUERY_STRING="SELECT C, F, H WHERE A='Альфа' and B='Kaiyi'"
+export KEY_COLUMN="Модель"
 export OUTPUT_PATHS="./src/kaiyi-alpha.ru/data/dealer_price.json"
 node .github/scripts/getDealerData.js
 ```
 
 ```sh
 export CSV_URL="in env"
-export QUERY_STRING="SELECT C, F, H, M WHERE A='Альфа' and B='Livan'"
-export KEY_COLUMN="key"
-export OUTPUT_PATHS="./src/livan-alpha.ru/data/dealer_price.json"
+export QUERY_STRING="SELECT C, F, H WHERE A='Альфа' and B='Livan'"
+export KEY_COLUMN="Модель"
+export OUTPUT_PATHS="./src/livan-samara.ru/data/dealer_price.json"
 node .github/scripts/getDealerData.js
 ```
 
 ```sh
 export CSV_URL="in env"
-export QUERY_STRING="SELECT C, F, H, M WHERE A='Эксперт' and B='Jetour'"
-export KEY_COLUMN="key"
+export QUERY_STRING="SELECT C, F, H WHERE A='Эксперт' and B='Jetour'"
+export KEY_COLUMN="Модель"
 export OUTPUT_PATHS="./src/jetour-alpha.ru/data/dealer_price.json"
 node .github/scripts/getDealerData.js
 ```

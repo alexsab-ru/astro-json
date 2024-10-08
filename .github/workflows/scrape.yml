@@ -118,8 +118,8 @@ jobs:
       run: node .github/scripts/getDealerData.js
       env:
         CSV_URL: ${{ secrets.CSV_ALPHA_KAIYI }}
-        QUERY_STRING: "SELECT C, F, H, M WHERE A='Альфа' and B='Kaiyi'"
-        KEY_COLUMN: "key"
+        QUERY_STRING: "SELECT C, F, H WHERE A='Альфа' and B='Kaiyi'"
+        KEY_COLUMN: "Модель"
         OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/dealer_price.json"
 
 
@@ -127,8 +127,8 @@ jobs:
       run: node .github/scripts/getDealerData.js
       env:
         CSV_URL: ${{ secrets.CSV_ALPHA_BAIC }}
-        QUERY_STRING: "SELECT C, F, H, M WHERE A='Альфа' and B='Baic'"
-        KEY_COLUMN: "key"
+        QUERY_STRING: "SELECT C, F, H WHERE A='Альфа' and B='Baic'"
+        KEY_COLUMN: "Модель"
         OUTPUT_PATHS: "./src/baic-alpha.ru/data/dealer_price.json"
 
 
