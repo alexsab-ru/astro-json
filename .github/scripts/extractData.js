@@ -9,8 +9,8 @@ const { JSDOM } = jsdom;
 const url = process.env.URL;
 const regexPattern = process.env.REGEXP;
 const brandPrefix = process.env.BRAND;
-const dealerPrice = process.env.DEALERPRICE;
-const dealerPriceField = process.env.DEALERPRICEFIELD;
+const dealerPrice = process.env.DEALERPRICE ?? "";
+const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
 
 // Функция для загрузки HTML-страницы
 async function fetchHTML(url) {

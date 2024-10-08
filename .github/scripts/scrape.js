@@ -12,8 +12,8 @@ const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
 const path = require('path');
 const brandPrefix = process.env.BRAND;
-const dealerPrice = process.env.DEALERPRICE;
-const dealerPriceField = process.env.DEALERPRICEFIELD;
+const dealerPrice = process.env.DEALERPRICE ?? "";
+const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
 
 async function scrapePage(url, xpaths) {
     const browser = await puppeteer.launch();
