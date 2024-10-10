@@ -6,7 +6,7 @@
         "homeImg": "/img/models/bg.webp",
         "slogan": "Энергия города",
         "name": "Новый Cityray",
-        "price": "2399990",
+        "price": "{{price-geely-cityray}}",
         "benefit": "",
         "benefits": [
             {
@@ -103,7 +103,7 @@
         "slogan": "",
         "name": "Preface",
         "price": "{{price-geely-preface}}",
-        "benefit": 350000,
+        "benefit": "",
         "benefits": [
             {
                 "url": "#common-modal",
