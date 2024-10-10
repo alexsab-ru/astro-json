@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Тойота Центр Самара Аврора",
+        "address": "Самара, ул. Авроры, 150",
+        "phone":  "8 (846) 372-02-02",
+        "work_hours": "пн — вс: 9:00 — 19:00",
+        "map": {
+            "zoom": 16,
+            "balloon": "/img/toyota-locator.png",
+            "coords": [53.211009, 50.188549],
+            "ya_link": "https://yandex.com/maps/org/toyota_tsentr_samara_avrora/1131539377/?ll=50.221508%2C53.211009&z=16"
+        },
+        "socials": {
+            "vkontakte-full": {
+                "url": "https://vk.com/toyota_aurora"
+            },
+            "telegram-full": {
+                "url": "tg://resolve?domain=ToyotaAurora"
+            },
+            "youtube-full": {
+                "url": "https://www.youtube.com/channel/UCx0kxOBQFeiQ4-pZGyRHy-g"
+            }
+        }
+    },
+    {
+        "name": "Тойота Центр Самара Север",
+        "address": "Самара, 24 км Московского шоссе, 3, стр. 1",
+        "phone":  "8 (846) 213-07-07",
+        "work_hours": "пн — вс: 9:00 — 20:00",
+        "map": {
+            "zoom": 16,
+            "balloon": "/img/toyota-locator.png",
+            "coords": [53.321088, 50.301612],
+            "ya_link": "https://yandex.com/maps/org/toyota_samara_sever/1257198925/?ll=50.301839%2C53.321128&z=16"
+        },
+        "socials": {
+            "vkontakte-full": {
+                "url": "https://vk.com/toyotaseversmr"
+            },
+            "telegram-full": {
+                "url": "tg://resolve?domain=toyotasever"
+            },
+            "youtube-full": {
+                "url": "https://www.youtube.com/channel/UCLr0t6caTc2Ov4PErBEiL-Q"
+            }
+        }
+    },
+    {
+        "name": "Тойота Центр Самара Юг",
+        "address": "Самара, Южное шоссе, 12-А, стр. 4",
+        "phone":  "8 (846) 207-90-00",
+        "work_hours": "пн — вс: 9:00 — 19:00",
+        "map": {
+            "zoom": 16,
+            "balloon": "/img/toyota-locator.png",
+            "coords": [53.137047, 50.180965],
+            "ya_link": "https://yandex.com/maps/org/toyota_center_ug/83509754602/?ll=50.179426%2C53.136894&z=16"
+        },
+        "socials": {
+            "vkontakte-full": {
+                "url": "https://vk.com/club87644962"
+            },
+            "youtube-full": {
+                "url": "https://www.youtube.com/channel/UC7nYlaB-D21r2ABtK5TafcQ"
+            }
+        }
+    },
+    {
+        "name": "Тойота Центр Самара",
+        "address": "Самара, ул. Мирная, 3",
+        "phone":  "8 (846) 269-44-44",
+        "work_hours": "пн — пт: 9:00 — 18:00",
+        "map": {
+            "zoom": 16,
+            "balloon": "/img/toyota-locator.png",
+            "coords": [53.239902, 50.246488],
+            "ya_link": "https://yandex.com/maps/org/toyota_tsentr_samara/178415743774/?ll=50.246488%2C53.239902&z=16"
+        },
+        "socials": {
+            "vkontakte-full": {
+                "url": "https://vk.com/toyotasamaramir"
+            }
+        }
+    }
+]

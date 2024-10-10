@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/toyotasever.webp",
+        "title": "Официальный сервис TOYOTA",
+        "descr": "Запишитесь на обслуживание к официальному дилеру",
+        "btn": "Онлайн запись",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Онлайн запись",
+        "dataFormName": "Онлайн запись. Баннер",
+        "badge": "",
+        "autoplay": 5000
+    }
+]
