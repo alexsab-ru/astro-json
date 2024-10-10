@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Тойота",
+        "address": "Ставрополь, пр.Кулакова, 32",
+        "phone":  "+7 (8652) 52-02-02",
+        "work_hours": "пн — вс: 9:00 — 19:00",
+        "map": {
+            "zoom": 16,
+            "balloon": "/img/toyota-locator.png",
+            "coords": [45.079148, 41.937114],
+            "ya_link": "https://yandex.com/maps/org/toyota_tsentr/1074147833/?ll=41.937638%2C45.079353&z=16"
+        },
+        "socials": {
+            "vkontakte-full": {
+                "url": "https://vk.com/toyotastavropol"
+            },
+            "whatsapp-full": {
+                "url": "https://wa.me/79197566959"
+            },
+            "youtube-full": {
+                "url": "https://www.youtube.com/channel/UCcEHWUbSx4qKC8eQinlDDEA"
+            }
+        }
+    },
+    {
+        "name": "Лексус",
+        "address": "Ставрополь, пр.Кулакова, 32А",
+        "phone":  "+7 (8652) 50-33-03",
+        "work_hours": "пн — вс: 9:00 — 19:00",
+        "map": {
+            "zoom": 16,
+            "balloon": "/img/lexus-locator.png",
+            "coords": [45.079594,41.937721],
+            "ya_link": "https://yandex.com/maps/org/lexus/122990386463/?ll=41.937795%2C45.079772&z=16"
+        },
+        "socials": {
+            "vkontakte-full": {
+                "url": "https://vk.com/lexusstav"
+            },
+            "whatsapp-full": {
+                "url": "https://wa.me/7919756695"
+            },
+            "youtube-full": {
+                "url": "https://www.youtube.com/channel/UCukwjZNb8gMYhdb1_UHHjYA"
+            }
+        }
+    }
+]
