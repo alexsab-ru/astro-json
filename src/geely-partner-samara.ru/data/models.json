@@ -1,6 +1,6 @@
 [
     {
-        "mark_id": "Geely",
+        "mark_id": "Knewstar",
         "id": "001",
         "show": true,
         "homeImg": "/img/models/bg.webp",
@@ -47,9 +47,7 @@
                 "style": ""
             }
         ],
-        "feed_names": [
-            "001"
-        ],
+        "feed_names": [],
         "photos": "",
         "chars": {
             "seats": "5 мест",
