@@ -1,6 +1,6 @@
 [
     {
-        "mark_id": "",
+        "mark_id": "Kia",
         "id": "sportage",
         "show": true,
         "homeImg": "/img/model-bg.webp",
@@ -78,6 +78,7 @@
             }
         ],
         "feed_names": [
+            "Sportage, V"
         ],
         "photos": "",
         "chars": {
@@ -203,6 +204,7 @@
             }
         ],
         "feed_names": [
+            "K5, III"
         ],
         "photos": "",
         "chars": {
@@ -435,6 +437,7 @@
             }
         ],
         "feed_names": [
+            "Sorento, IV Рестайлинг"
         ],
         "photos": "",
         "chars": {
@@ -584,6 +587,8 @@
             }
         ],
         "feed_names": [
+            "Seltos, I",
+            "Seltos, I Рестайлинг"
         ],
         "photos": "",
         "chars": {
