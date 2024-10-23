@@ -1,0 +1,224 @@
+[
+    {
+        "mark_id": "Belgee",
+        "id": "x50",
+        "show": true,
+        "homeImg": "/img/models/x50/model-bg.webp",
+        "slogan": "",
+        "name": "X50",
+        "price": "{{price-belgee-x50}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Belgee X50",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Belgee X50",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x50/black_500px.webp",
+        "image": "/img/banners/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/x50/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/x50/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/x50/colors/silver.webp",
+                "style": "background-color: #c0c0c0;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/x50/colors/gray.webp",
+                "style": "background-color: #696969;"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/x50/colors/black.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2600",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4330",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1800",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "255",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Belgee",
+        "id": "x70",
+        "show": true,
+        "homeImg": "/img/models/x70/model-bg.webp",
+        "slogan": "",
+        "name": "X70",
+        "price": "{{price-belgee-x70}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Belgee X70",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Belgee X70",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x70/red_500px.webp",
+        "image": "/img/banners/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/x70/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/x70/colors/silver.webp",
+                "style": "background-color: #d9d9d9;"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/x70/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/x70/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/x70/colors/blue.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/x70/colors/red.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT/7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2670",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4544",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1831",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "255",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний/Полный",
+                "measure": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
+        "title": "Выгодное предложение на BELGEE X50",
+        "descr": "Успей забронировать свой Белджи",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Выгодное предложение на BELGEE X50",
+        "dataFormName": "Подробнее. Выгодное предложение на BELGEE X50. Баннер",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp",
+        "title": "Новый BELGEE X70",
+        "descr": "Уже в продаже!",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Новый BELGEE X70",
+        "dataFormName": "Подробнее. Новый BELGEE X70. Баннер",
+        "badge": "",
+        "autoplay": 6000
+    }
+]
