@@ -1,7 +1,8 @@
 {
+    "site": "geely-partner-vostok.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "95826307",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-G9EPHJH8SR"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
@@ -21,12 +22,12 @@
     ],
     "top.mail.ru": [
         {
-            "id": ""
+            "id": "3559810"
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "i7yra7v4",
+        "site_id": "64154"
     },
     "konget": "",
     "streamwood": {

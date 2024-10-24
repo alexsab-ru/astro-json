@@ -1,7 +1,8 @@
 {
+    "site": "auto-team.pro",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "98254544",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "ypis15xo",
+        "site_id": "69929"
     },
     "konget": "",
     "streamwood": {

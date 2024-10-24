@@ -1,7 +1,8 @@
 {
+    "site": "kaiyi-krd.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "93989053",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-W839YJJJNJ"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",

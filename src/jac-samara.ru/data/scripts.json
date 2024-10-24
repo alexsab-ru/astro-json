@@ -1,7 +1,8 @@
 {
+    "site": "jac-samara.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "94497535",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-VCMV8ZKDVF"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
@@ -21,12 +22,12 @@
     ],
     "top.mail.ru": [
         {
-            "id": ""
+            "id": "3559034"
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "hok0bbb2",
+        "site_id": "61120"
     },
     "konget": "",
     "streamwood": {

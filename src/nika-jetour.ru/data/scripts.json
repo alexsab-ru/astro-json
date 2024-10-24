@@ -1,7 +1,8 @@
 {
+    "site": "nika-jetour.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "95315523",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "min975fz",
+        "site_id": "63433"
     },
     "konget": "",
     "streamwood": {

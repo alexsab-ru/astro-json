@@ -1,7 +1,8 @@
 {
+    "site": "jetour-alpha.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "94235674",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-DEWZ5WV4BF"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
@@ -21,12 +22,12 @@
     ],
     "top.mail.ru": [
         {
-            "id": ""
+            "id": "3413797"
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "hn3joaz3",
+        "site_id": "60733"
     },
     "konget": "",
     "streamwood": {

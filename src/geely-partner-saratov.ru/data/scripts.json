@@ -1,7 +1,8 @@
 {
+    "site": "geely-partner-saratov.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "98254547",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "sduk3urd",
+        "site_id": "69938"
     },
     "konget": "",
     "streamwood": {

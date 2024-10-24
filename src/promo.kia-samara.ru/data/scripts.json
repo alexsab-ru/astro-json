@@ -1,32 +1,39 @@
 {
+    "site": "promo.kia-samara.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "56034940",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
             "webvisor": true
+        },
+        {
+            "id": "156741",
+            "clickmap": true,
+            "trackLinks": true,
+            "accurateTrackBounce": true
         }
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-EYT8R7VNZP"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
     "vk-rtrg": [
         {
-            "id": ""
+            "id": "VK-RTRG-456219-a8jpe"
         }
     ],
     "top.mail.ru": [
         {
-            "id": ""
+            "id": "3413778"
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "aoehjvqc",
+        "site_id": "47086"
     },
     "konget": "",
     "streamwood": {

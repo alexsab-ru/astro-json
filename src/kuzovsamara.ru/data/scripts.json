@@ -1,7 +1,8 @@
 {
+    "site": "kuzovsamara.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "95691942",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-8SG9RSYXTV"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",

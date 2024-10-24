@@ -1,7 +1,8 @@
 {
+    "site": "gac-orenburg.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "96658388",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "8bmw916x",
+        "site_id": "68249"
     },
     "konget": "",
     "streamwood": {

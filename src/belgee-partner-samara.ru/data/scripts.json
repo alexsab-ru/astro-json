@@ -1,7 +1,8 @@
 {
+    "site": "belgee-partner-samara.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "97962640",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "r2c2wsev",
+        "site_id": "69198"
     },
     "konget": "",
     "streamwood": {

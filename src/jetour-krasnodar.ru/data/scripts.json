@@ -1,7 +1,8 @@
 {
+    "site": "jetour-krasnodar.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "93806197",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-DH9GG8HK4H"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",

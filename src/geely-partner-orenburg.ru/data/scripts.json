@@ -1,7 +1,8 @@
 {
+    "site": "geely-partner-orenburg.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "98061532",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-K5X7JRB7WW"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "t8inbawq",
+        "site_id": "64192"
     },
     "konget": "",
     "streamwood": {

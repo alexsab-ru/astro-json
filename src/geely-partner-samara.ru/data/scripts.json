@@ -1,7 +1,8 @@
 {
+    "site": "geely-partner-samara.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "98254549",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "pk4xmgnr",
+        "site_id": "70094"
     },
     "konget": "",
     "streamwood": {

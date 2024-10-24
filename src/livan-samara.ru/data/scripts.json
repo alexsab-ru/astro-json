@@ -1,7 +1,8 @@
 {
+    "site": "livan-samara.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "93431320",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-0JK19KKD59"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "27el6h7r",
+        "site_id": "60732"
     },
     "konget": "",
     "streamwood": {

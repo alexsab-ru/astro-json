@@ -1,7 +1,8 @@
 {
+    "site": "baic-alpha.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "93431318",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-JBFFT28S5S"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "sy3w0k4q",
+        "site_id": "60731"
     },
     "konget": "",
     "streamwood": {

@@ -1,7 +1,8 @@
 {
+    "site": "baic-samara.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "94497530",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-70X4ZB0TSP"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "d81dl4in",
+        "site_id": "61090"
     },
     "konget": "",
     "streamwood": {

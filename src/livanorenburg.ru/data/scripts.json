@@ -1,7 +1,8 @@
 {
+    "site": "livanorenburg.ru",
     "metrika": [
         {
-            "id": 48905003,
+            "id": "94735657",
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -10,7 +11,7 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "G-RF1M0X15HK"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
@@ -25,8 +26,8 @@
         }
     ],
     "calltouch": {
-        "client_id": "",
-        "site_id": ""
+        "client_id": "krngachz",
+        "site_id": "61552"
     },
     "konget": "",
     "streamwood": {
