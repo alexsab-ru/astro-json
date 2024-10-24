@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/specials/zolotaya-osen/banner-1920x1080.webp",
+        "title": "Золотая осень",
+        "descr": "Время больших выгод до&nbsp;620&nbsp;000&nbsp;₽!",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/special-offers/zolotaya-osen/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    }
+]

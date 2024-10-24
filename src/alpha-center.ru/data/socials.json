@@ -1,0 +1,11 @@
+{
+    "header": {},
+    "footer": {
+        "vkontakte-full": {
+            "url": "https://vk.com/jetour.alpha"
+        },
+        "telegram-full": {
+            "url": "tg://resolve?domain=alfasmr"
+        }
+    }
+}
