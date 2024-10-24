@@ -29,7 +29,7 @@ def getScriptsJSON(data):
                 "id": data['VK-RTRG ID']
             }
         ],
-        "top-mail.ru": [
+        "top.mail.ru": [
             {
                 "id": data['VK Pixel Top.Mail.Ru ID']
             }
@@ -48,7 +48,7 @@ def getScriptsJSON(data):
         ]
     }
 
-    if(len(data['Yandex Metrika ID common'])>0):
+    if(len(data['Yandex Metrika ID common'])>0 and data['Yandex Metrika ID common'] != "94754424"):
         scripts_data["metrika"].append(
             {
                 "id": data['Yandex Metrika ID common'],
