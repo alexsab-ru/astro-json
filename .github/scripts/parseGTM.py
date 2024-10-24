@@ -9,6 +9,7 @@ with open('./src/GTM-NMDLDB3F_workspace79.json', 'r') as f:
 def getScriptsJSON(data):
     scripts_data = {
         "site": data['site'],
+        "gtm": "GTM-NMDLDB3F",
         "metrika": [
             {
                 "id": data['Yandex Metrica ID'],
