@@ -5,7 +5,7 @@
       items:
         - icon: mdi:engine-outline
           text: Мощность 150 л.с.
-        - icon: mdi:car-shift-pattern
+        - icon: mdi:speedometer
           text: Разгон 0-100 км/ч - 8,4 с
         - icon: mdi:gas-station-outline
           text: Ср. расход топлива - 6,4 л / 100 км
