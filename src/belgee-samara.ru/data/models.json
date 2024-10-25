@@ -206,6 +206,48 @@
                 "style": ""
             }
         ],
+        "complectations": [
+            {
+                "name": "Active",
+                "price": 2222990 ,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "177",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style",
+                "price": 2412990,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "177",
+                "gear_rus": "6AT/7DCT",
+                "drive": "Передний/Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige",
+                "price": 2787990,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "177",
+                "gear_rus": "7DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige+",
+                "price": 2892990,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "177",
+                "gear_rus": "7DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
         ],
         "photos": "",
