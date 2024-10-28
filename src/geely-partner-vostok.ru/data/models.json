@@ -47,6 +47,38 @@
                 "style": ""
             }
         ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": 3395990,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 3715990,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship Sport",
+                "price": 3815990,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "238",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [],
         "photos": "",
         "chars": {
