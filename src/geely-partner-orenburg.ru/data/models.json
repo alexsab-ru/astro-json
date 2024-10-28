@@ -329,6 +329,28 @@
                 "style": ""
             }
         ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": 2755990,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 2988990,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
             "Preface, I Рестайлинг 2"
         ],
