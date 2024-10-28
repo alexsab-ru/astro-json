@@ -1,20 +1,20 @@
 [
-    {
-      "id": "gac-gs3",
-      "model": "gs3",
-      "price": "1999000",
-      "link": "https://gac.ru/models/gs3"
-    },
-    {
-      "id": "gac-gs8-ii",
-      "model": "gs8-ii",
-      "price": "3499000",
-      "link": "https://gac.ru/models/gs8-ii"
-    },
-    {
-      "id": "gac-m8",
-      "model": "m8",
-      "price": "4999999",
-      "link": "https://gac.ru/models/m8"
-    }
-  ]
+  {
+    "id": "gac-gs3",
+    "model": "gs3",
+    "price": "1999000",
+    "link": "https://gac.ru/models/gs3"
+  },
+  {
+    "id": "gac-gs8-ii",
+    "model": "gs8-ii",
+    "price": "3499000",
+    "link": "https://gac.ru/models/gs8-ii"
+  },
+  {
+    "id": "gac-m8",
+    "model": "m8",
+    "price": "4999999",
+    "link": "https://gac.ru/models/m8"
+  }
+]
