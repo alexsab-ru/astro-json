@@ -1,0 +1,18 @@
+{
+    "header": {
+        "telegram-full": {
+            "url": "https://t.me/GAC_MOTOR_Saratov"
+        },
+        "vkontakte-full": {
+            "url": "https://vk.com/gac_saratov"
+        }
+    },
+    "footer": {
+        "telegram-full": {
+            "url": "https://t.me/GAC_MOTOR_Saratov"
+        },
+        "vkontakte-full": {
+            "url": "https://vk.com/gac_saratov"
+        }
+    }
+}
