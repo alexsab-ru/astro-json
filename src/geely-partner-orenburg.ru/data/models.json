@@ -173,6 +173,48 @@
                 "style": "background-color: #646971;"
             }
         ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 2399990,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2610990,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 2730990,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship Sport",
+                "price": 2770990,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
             "Cityray"
         ],
