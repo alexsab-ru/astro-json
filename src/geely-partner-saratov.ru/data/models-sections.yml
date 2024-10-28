@@ -311,3 +311,19 @@
         - url: /img/models/Preface/sections/functionality/6.webp
           title: "Просторное багажное отделение"
           description: "Вместительное багажное отделение отлично подходит для любых путешествий. Его объем при стандартном положении спинок задних сидений составляет внушительные 500 литров."
+    - id: gallery
+      title: "Галерея"
+      images:
+        - url: /img/models/Preface/sections/gallery/1.webp
+        - url: /img/models/Preface/sections/gallery/2.webp
+        - url: /img/models/Preface/sections/gallery/3.webp
+        - url: /img/models/Preface/sections/gallery/4.webp
+        - url: /img/models/Preface/sections/gallery/5.webp
+        - url: /img/models/Preface/sections/gallery/6.webp
+        - url: /img/models/Preface/sections/gallery/7.webp
+        - url: /img/models/Preface/sections/gallery/8.webp
+        - url: /img/models/Preface/sections/gallery/9.webp
+        - url: /img/models/Preface/sections/gallery/10.webp
+        - url: /img/models/Preface/sections/gallery/11.webp
+        - url: /img/models/Preface/sections/gallery/12.webp
+        - url: /img/models/Preface/sections/gallery/13.webp
