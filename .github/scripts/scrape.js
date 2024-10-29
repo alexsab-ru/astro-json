@@ -101,16 +101,18 @@ async function saveJson(data, filePaths) {
         try {
             const directory = path.dirname(filePath);
             const dealerdata = JSON.parse(JSON.stringify(data));
-            const jsonData = await readJsonFile(path.join(directory, '/', dealerPrice));
-            if(jsonData) {
-                dealerdata.map(car => {
-                    model = cleanString(car["model"], brandPrefix);
-                    if(jsonData[model] && jsonData[model][dealerPriceField] != "") {
+            if(dealerPrice) {
+                const jsonData = await readJsonFile(path.join(directory, '/', dealerPrice));
+                if(jsonData) {
+                    dealerdata.map(car => {
+                        model = cleanString(car["model"], brandPrefix);
+                        if(jsonData[model] && jsonData[model][dealerPriceField] != "") {
 
-                        car["price"] = Math.min(parseInt(car["price"]), jsonData[model][dealerPriceField]).toString();
-                    }
-                    return car;
-                });
+                            car["price"] = Math.min(parseInt(car["price"]), jsonData[model][dealerPriceField]).toString();
+                        }
+                        return car;
+                    });
+                }
             }
             await fs.mkdir(directory, { recursive: true });
             await fs.writeFile(filePath, JSON.stringify(dealerdata, null, 2), 'utf8');
