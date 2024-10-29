@@ -536,6 +536,28 @@
                 "style": "background-color: #013030;"
             }
         ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 2379900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2779900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
         ],
         "photos": "",
