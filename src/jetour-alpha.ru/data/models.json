@@ -59,11 +59,63 @@
                 "style": "background-image: url(/img/models/x90plus/colors/c3bkm.png);"
             }
         ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 2599900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2899900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 3099900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 2.0",
+                "price": 3219900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 2.0 (7 мест)",
+                "price": 3269900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
         ],
         "photos": "",
         "chars": {
-            "seats": "5 мест",
+            "seats": "5/7 мест",
             "fuel": "Бензин",
             "gearbox": "7DCT"
         },

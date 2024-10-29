@@ -53,8 +53,112 @@
       text: "<p>Парковочный ассистент с функцией кругового обзора 360°, включая пространство под автомобилем (180°), создает панорамное изображение в высоком разрешении с высоты птичьего полёта.</p>"
       images:
         - url: /img/models/x50/sections/technology/1.webp
-    - id: technology
+    - id: documentation
       sectionClass: ""
       title: Документация для x50
       suptitle: Может пригодиться
       text: "<p><span><a href='https://jetour-ru.com/media-link/x50-specification' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/x50-pricelist' class='underline' target='_blank'>Комплектации и цены</a></span></p>"
+- id: "x90plus"
+  sections:
+    - id: items
+      sectionClass: "bg-gray-100"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 190/245 л.с.
+        - icon: mdi:speedometer
+          text: Разгон 0-100 км/ч - 8.5 сек
+        - icon: mdi:gas-station-outline
+          text: Ср. расход топлива - 9.9 л / 100 км
+    - id: description
+      sectionClass: ""
+      suptitle: "О модели"
+      title: JETOUR X90 PLUS
+      text: "<div class='space-y-4'><p>Jetour X90 Plus — это впечатляющая модель автомобиля, которая поразит вас своим дизайном и мощью. Кузов этой модели отличается стильным и современным дизайном, который призван подчеркнуть ее спортивный характер. Аэродинамические линии и гармоничные формы делают эту модель по-настоящему эффектной.</p><p>Jetour X90 Plus оснащен мощным двигателем, который обеспечивает отличную производительность и динамичность. Благодаря передовым технологиям и инженерным решениям, автомобиль обладает высокой управляемостью и комфортабельностью.</p><p>Интерьер автомобиля также достоин восхищения. Просторный салон, качественные материалы и современные технологии создают атмосферу комфорта и уюта.</p><p>Jetour X90 Plus обещает увлекательные поездки и незабываемые впечатления на дороге.</p><div>"
+      images:
+        - url: /img/models/x90plus/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: /img/models/x90plus/sections/exterior/1.webp
+          title: "Стильный и лаконичный дизайн"
+          description: ""
+        - url: /img/models/x90plus/sections/exterior/2.webp
+          title: "Светодиодная оптика"
+          description: "Неповторимый дизайн задних фар."
+        - url: /img/models/x90plus/sections/exterior/3.webp
+          title: "Элегантный дизайн"
+          description: "Восьмиугольная хромированная решетка радиатора формирует солидный и уверенный облик."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: Продумана каждая деталь
+      images:
+        - url: /img/models/x90plus/sections/interior/1.webp
+          title: "Территория комфорта"
+          description: ""
+        - url: /img/models/x90plus/sections/interior/2.webp
+          title: "Качественная отделка"
+          description: "Приятные на ощупь материалы."
+        - url: /img/models/x90plus/sections/interior/3.webp
+          title: "Интеллектуальные технологии"
+          description: "Два интегрированных экрана 12.3” плюс цветной сенсорный экран климат-контроля 9.7”."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      images:
+        - url: /img/models/x90plus/sections/technology/1.webp
+          title: "Многомерное пространство"
+          description: "Просторный и комфортный салон для долгих семейных поездок"
+        - url: /img/models/x90plus/sections/technology/2.webp
+          title: "Функциональность и комфорт"
+          description: "Увеличенная колесная база 2850 мм."
+        - url: /img/models/x90plus/sections/technology/3.webp
+          title: "Вместительный багажник"
+          description: "Объём багажника составляет 723 литров, а при сложенных сиденьях 2 ряда – 1634 литров."
+    - id: comfort
+      sectionClass: ""
+      title: Комфорт
+      images:
+        - url: /img/models/x90plus/sections/comfort/1.webp
+          title: "Идеальная зона комфорта"
+          description: "Двухзонный климат-контроль, вентиляция и подогрев сидений, а также удобная поясничная поддержка и функция памяти водительского сиденья обеспечат максимальный комфорт."
+        - url: /img/models/x90plus/sections/comfort/2.webp
+          title: "Система очистки воздуха"
+          description: "Оснащена воздушным фильтром стандарта CN95, обеспечивающим фильтрацию воздуха на 95%, что позволяет наслаждаться чистым воздухом в салоне."
+    - id: security
+      sectionClass: "bg-gray-100"
+      title: Безопасность
+      images:
+        - url: /img/models/x90plus/sections/security/1.webp
+          title: "Безопасный"
+          description: "Высокопрочная конструкция кузова + 6 подушек безопасности."
+        - url: /img/models/x90plus/sections/security/2.webp
+          title: "Экологичный"
+          description: "Использование безопасных материалов отделки."
+        - url: /img/models/x90plus/sections/security/3.webp
+          title: "Интеллектуальный"
+          description: "Система контроля слепых зон."
+    - id: gallery
+      sectionClass: ""
+      images:
+        - url: /img/models/x90plus/sections/gallery/1.webp
+          title: "Преимущества современных технологий"
+          description: "Беспроводная быстрая зарядка для смартфонов мощностью 40 Вт"
+        - url: /img/models/x90plus/sections/gallery/2.webp
+          title: "Панорамная крыша"
+          description: "Панорамная крыша диагональю 62” и площадью 1,1 кв. м наполнит салон светом и свежим воздухом при открытом люке"
+        - url: /img/models/x90plus/sections/gallery/3.webp
+          title: "Исключительный комфорт"
+          description: "Атмосферу уюта создают эргономичные сиденья и высококачественные материалы отделки"
+        - url: /img/models/x90plus/sections/gallery/4.webp
+          title: "Атмосфера спокойствия"
+          description: "Атмосферная подсветка с мягким голубым светом, классические и приглушенные цвета обшивки салона "
+        - url: /img/models/x90plus/sections/gallery/5.webp
+          title: "Современные технологии"
+          description: "Ассистент парковки и система кругового обзора на 360 градусов"
+    - id: documentation
+      sectionClass: "bg-gray-200"
+      title: Документация для X90 PLUS
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://jetour-ru.com/media-link/x90-plus-specification' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/x90-plus-pricelist' class='underline' target='_blank'>Комплектации и цены</a><br><a href='https://jetour-ru.com/media-link/x90-plus-manual' class='underline' target='_blank'>Руководство</a></span></p>"
