@@ -59,6 +59,28 @@
                 "style": "background-color: #4682B4; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
+        "complectations": [
+            {
+                "name": "Voyage",
+                "price": 3759000,
+                "bodytype": "Внедорожник",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Expedition",
+                "price": 4249000,
+                "bodytype": "Внедорожник",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
         ],
         "photos": "",
@@ -178,6 +200,58 @@
                 "style": "background-image: url(/img/models/dashing/colors/c7bkm.png);"
             }
         ],
+        "complectations": [
+            {
+                "name": "Comfort Plus",
+                "price": 1919900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort",
+                "price": 1989900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 2269900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2409900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 1.6T",
+                "price":  2619900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
         ],
         "photos": "",
@@ -283,6 +357,58 @@
                 "name": "Призрачный серый",
                 "carImage": "/img/models/x90plus/colors/c3b.png",
                 "style": "background-image: url(/img/models/x90plus/colors/c3bkm.png);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 2599900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2899900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 3099900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 2.0",
+                "price": 3219900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 2.0 (7 мест)",
+                "price": 3269900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -408,6 +534,28 @@
                 "name": "Зеленый",
                 "carImage": "/img/models/x70plus/colors/green.png",
                 "style": "background-color: #013030;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 2379900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2779900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
