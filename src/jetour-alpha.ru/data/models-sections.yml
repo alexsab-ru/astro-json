@@ -5,10 +5,10 @@
       items:
         - icon: mdi:engine-outline
           text: Мощность 113/147 л.с.
-        - icon: mdi:car-shift-pattern
-          text: КПП - МКПП-5/6 DCT
-        - icon: mdi:car-brake-parking
-          text: Парковочный ассистент с функцией кругового обзора 360°
+        - icon: mdi:speedometer
+          text: Разгон 0-100 км/ч - 11.1 сек
+        - icon: mdi:gas-station-outline
+          text: Ср. расход топлива - 9.4 л / 100 км
     - id: description
       sectionClass: ""
       suptitle: "Стильный и запоминающийся дизайн"
