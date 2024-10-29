@@ -359,6 +359,58 @@
                 "style": "background-image: url(/img/models/dashing/colors/c7bkm.png);"
             }
         ],
+        "complectations": [
+            {
+                "name": "Comfort Plus",
+                "price": 1919900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort",
+                "price": 1989900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 2269900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2409900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 1.6T",
+                "price":  2619900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
         ],
         "photos": "",
