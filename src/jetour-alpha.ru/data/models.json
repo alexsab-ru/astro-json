@@ -218,6 +218,28 @@
                 "style": "background-color: #4682B4; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
+        "complectations": [
+            {
+                "name": "Voyage",
+                "price": 3759000,
+                "bodytype": "Внедорожник",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Expedition",
+                "price": 4249000,
+                "bodytype": "Внедорожник",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
         ],
         "photos": "",
