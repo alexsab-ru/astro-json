@@ -14,6 +14,7 @@ const path = require('path');
 const brandPrefix = process.env.BRAND;
 const dealerPrice = process.env.DEALERPRICE ?? "";
 const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
+const dealerBenefitField = process.env.DEALERBENEFITFIELD ?? "";
 
 async function scrapePage(url, xpaths) {
     const browser = await puppeteer.launch({
@@ -58,6 +59,7 @@ async function scrapePage(url, xpaths) {
                 id: id,
                 model: model,
                 price: price,
+                benefit: "",
                 link: link
             });
         });
@@ -109,6 +111,10 @@ async function saveJson(data, filePaths) {
                         if(jsonData[model] && jsonData[model][dealerPriceField] != "") {
 
                             car["price"] = Math.min(parseInt(car["price"]), jsonData[model][dealerPriceField]).toString();
+                        }
+                        if(jsonData[model] && jsonData[model][dealerBenefitField] != "") {
+
+                            car["benefit"] = car["benefit"] != "" ? Math.min(parseInt(car["benefit"]), jsonData[model][dealerBenefitField]).toString() : jsonData[model][dealerBenefitField].toString();
                         }
                         return car;
                     });

@@ -88,6 +88,7 @@ jobs:
         OUTPUT_PATHS: "./src/jetour-alpha.ru/data/cars.json,./src/jetour-krasnodar.ru/data/cars.json,./src/nika-jetour.ru/data/cars.json"
         DEALERPRICE: 'dealer_price.json'
         DEALERPRICEFIELD: 'Конечная цена'
+        DEALERBENEFITFIELD: 'Скидка'
 
     - name: Scrape dealer price livan-alpha.ru
       run: node .github/scripts/getDealerData.js
@@ -110,6 +111,7 @@ jobs:
         OUTPUT_PATHS: "./src/livan-samara.ru/data/cars.json,./src/livanorenburg.ru/data/cars.json"
         DEALERPRICE: 'dealer_price.json'
         DEALERPRICEFIELD: 'Конечная цена'
+        DEALERBENEFITFIELD: 'Скидка'
 
 
     - name: Scrape gac.ru
@@ -158,6 +160,7 @@ jobs:
         REGEXP: '\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
         DEALERPRICE: 'dealer_price.json'
         DEALERPRICEFIELD: 'Конечная цена'
+        DEALERBENEFITFIELD: 'Скидка'
         OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data/cars.json,./src/kaiyi-samara.ru/data/cars.json"
 
     - name: Scrape dealer price alpha-baic.ru
@@ -176,6 +179,7 @@ jobs:
         REGEXP: '\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
         DEALERPRICE: 'dealer_price.json'
         DEALERPRICEFIELD: 'Конечная цена'
+        DEALERBENEFITFIELD: 'Скидка'
         OUTPUT_PATHS: "./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/data/cars.json,./src/baic-samara.ru/data/cars.json"
 
     - name: Check for changes

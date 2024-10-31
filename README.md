@@ -51,6 +51,7 @@ export LINK_XPATH="substring-before(.//div[contains(@class, 'td-submenu__body')]
 export OUTPUT_PATHS="./src/jetour-alpha.ru/data/cars.json,./src/jetour-krasnodar.ru/data/cars.json,./src/nika-jetour.ru/data/cars.json"
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
+export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js
 ```
 
@@ -65,6 +66,7 @@ export LINK_XPATH="./a[contains(text(),'Подробнее')][starts-with(@href,
 export OUTPUT_PATHS="./src/livan-samara.ru/data/cars.json,./src/livanorenburg.ru/data/cars.json"
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
+export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js
 ```
 
@@ -107,6 +109,7 @@ export URL='https://kaiyi-auto.ru/models/'
 export REGEXP='\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
+export DEALERBENEFITFIELD='Скидка'
 export OUTPUT_PATHS="./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data/cars.json,./src/kaiyi-samara.ru/data/cars.json"
 node .github/scripts/extractData.js
 ```
@@ -117,6 +120,7 @@ export URL='http://baic-auto.ru/models/'
 export REGEXP='\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
+export DEALERBENEFITFIELD='Скидка'
 export OUTPUT_PATHS="./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/data/cars.json,./src/baic-samara.ru/data/cars.json"
 node .github/scripts/extractData.js
 ```
