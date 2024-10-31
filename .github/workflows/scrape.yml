@@ -70,8 +70,8 @@ jobs:
     - name: Scrape dealer price jetour-alpha.ru
       run: node .github/scripts/getDealerData.js
       env:
-        CSV_URL: ${{ secrets.CSV_ALPHA_KAIYI }}
-        QUERY_STRING: "SELECT C, F, H WHERE A='Эксперт' and B='Jetour'"
+        CSV_URL: ${{ secrets.CSV_ALPHA }}
+        QUERY_STRING: "SELECT C, D, E, F WHERE A='Эксперт' and B='Jetour'"
         KEY_COLUMN: "Модель"
         OUTPUT_PATHS: "./src/jetour-alpha.ru/data/dealer_price.json"
 
@@ -93,8 +93,8 @@ jobs:
     - name: Scrape dealer price livan-alpha.ru
       run: node .github/scripts/getDealerData.js
       env:
-        CSV_URL: ${{ secrets.CSV_ALPHA_BAIC }}
-        QUERY_STRING: "SELECT C, F, H WHERE A='Альфа' and B='Livan'"
+        CSV_URL: ${{ secrets.CSV_ALPHA }}
+        QUERY_STRING: "SELECT C, D, E, F WHERE A='Альфа' and B='Livan'"
         KEY_COLUMN: "Модель"
         OUTPUT_PATHS: "./src/livan-samara.ru/data/dealer_price.json"
 
@@ -147,8 +147,8 @@ jobs:
     - name: Scrape dealer price alpha-kaiyi.ru
       run: node .github/scripts/getDealerData.js
       env:
-        CSV_URL: ${{ secrets.CSV_ALPHA_KAIYI }}
-        QUERY_STRING: "SELECT C, F, H WHERE A='Альфа' and B='Kaiyi'"
+        CSV_URL: ${{ secrets.CSV_ALPHA }}
+        QUERY_STRING: "SELECT C, D, E, F WHERE A='Альфа' and B='Kaiyi'"
         KEY_COLUMN: "Модель"
         OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/dealer_price.json"
 
@@ -166,8 +166,8 @@ jobs:
     - name: Scrape dealer price alpha-baic.ru
       run: node .github/scripts/getDealerData.js
       env:
-        CSV_URL: ${{ secrets.CSV_ALPHA_BAIC }}
-        QUERY_STRING: "SELECT C, F, H WHERE A='Альфа' and B='Baic'"
+        CSV_URL: ${{ secrets.CSV_ALPHA }}
+        QUERY_STRING: "SELECT C, D, E, F WHERE A='Альфа' and B='Baic'"
         KEY_COLUMN: "Модель"
         OUTPUT_PATHS: "./src/baic-alpha.ru/data/dealer_price.json"
 
