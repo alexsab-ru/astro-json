@@ -9,8 +9,8 @@
   {
     "id": "jetour-dashing",
     "model": "Dashing",
-    "price": "NaN",
-    "benefit": "570 000 ₽",
+    "price": "1919900",
+    "benefit": "720000",
     "link": "https://jetour-ru.com/models/dashing"
   },
   {
@@ -23,15 +23,15 @@
   {
     "id": "jetour-x70plus",
     "model": "X70 Plus",
-    "price": "NaN",
-    "benefit": "520 000 ₽",
+    "price": "2429900",
+    "benefit": "520000",
     "link": "https://jetour-ru.com/models/x70plus"
   },
   {
     "id": "jetour-x90plus",
     "model": "X90 Plus",
-    "price": "NaN",
-    "benefit": "800 000 ₽",
+    "price": "2599900",
+    "benefit": "800000",
     "link": "https://jetour-ru.com/models/x90plus"
   }
 ]

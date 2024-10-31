@@ -2,25 +2,25 @@
   {
     "id": "kaiyi-e5",
     "model": "KAIYI E5",
-    "price": "NaN",
+    "price": "1595000",
     "link": "/models/kaiyi-e5/"
   },
   {
     "id": "kaiyi-x3",
     "model": "KAIYI X3",
-    "price": "NaN",
+    "price": "2238000",
     "link": "/models/kaiyi-x3/"
   },
   {
     "id": "kaiyi-x3pro",
     "model": "KAIYI X3 PRO",
-    "price": "NaN",
+    "price": "1529900",
     "link": "/models/kaiyi-x3pro/"
   },
   {
     "id": "kaiyi-x7-kunlun",
     "model": "KAIYI X7 Kunlun",
-    "price": "NaN",
+    "price": "2997900",
     "link": "/models/kaiyi-x7-kunlun/"
   }
 ]
