@@ -7,7 +7,7 @@
         "slogan": "Быть свободным",
         "name": "X3PRO",
         "price": "{{price-livan-x3pro}}",
-        "benefit": 250000,
+        "benefit": "{{benefit-livan-x3pro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -114,7 +114,7 @@
         "slogan": "Дайте старт новому",
         "name": "X6PRO",
         "price": "{{price-livan-x6pro}}",
-        "benefit": 615000,
+        "benefit": "{{benefit-livan-x6pro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -209,7 +209,7 @@
         "slogan": "Драйв в Вашем стиле",
         "name": "S6PRO",
         "price": "{{price-livan-s6pro}}",
-        "benefit": 680900,
+        "benefit": "{{benefit-livan-s6pro}}",
         "benefits": [
             {
                 "url": "#common-modal",

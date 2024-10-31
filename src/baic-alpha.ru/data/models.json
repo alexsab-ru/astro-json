@@ -8,7 +8,7 @@
         "slogan": "Современный дизайн и яркая харизма",
         "name": "X75",
         "price": "{{price-baic-x75}}",
-        "benefit": 210000,
+        "benefit": "{{benefit-baic-x75}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -151,7 +151,7 @@
         "slogan": "Практичность и комфорт",
         "name": "U5 Plus",
         "price": "{{price-baic-u5_plus}}",
-        "benefit": 300000,
+        "benefit": "{{benefit-baic-u5_plus}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -252,7 +252,7 @@
         "slogan": "Динамика и управляемость",
         "name": "X35",
         "price": "{{price-baic-x35}}",
-        "benefit": 160000,
+        "benefit": "{{benefit-baic-x35}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -359,7 +359,7 @@
         "slogan": "Динамичный кроссовер",
         "name": "X55",
         "price": "{{price-baic-x55}}",
-        "benefit": 210000,
+        "benefit": "{{benefit-baic-x55}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -496,7 +496,7 @@
         "slogan": "Привлекательный и просторный кроссовер",
         "name": "X7",
         "price": "{{price-baic-x7}}",
-        "benefit": 210000,
+        "benefit": "{{benefit-baic-x7}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -597,7 +597,7 @@
         "slogan": "Баланс между городом и&nbsp;дикой природой",
         "name": "BJ40",
         "price": "{{price-baic-bj40}}",
-        "benefit": 250000,
+        "benefit": "{{benefit-baic-bj40}}",
         "benefits": [
             {
                 "url": "#common-modal",

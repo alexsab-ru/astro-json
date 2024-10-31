@@ -7,7 +7,7 @@
         "slogan": "Вместительный кроссовер на все случаи жизни",
         "name": "X90 Plus",
         "price": "{{price-jetour-x90plus}}",
-        "benefit": 800000,
+        "benefit": "{{benefit-jetour-x90plus}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -166,7 +166,7 @@
         "slogan": "Внедорожник для путешествий",
         "name": "T2",
         "price": "{{price-jetour-t2}}",
-        "benefit": "",
+        "benefit": "{{benefit-jetour-t2}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -295,7 +295,7 @@
         "slogan": "Городской кроссовер",
         "name": "Dashing",
         "price": "{{price-jetour-dashing}}",
-        "benefit": 790000,
+        "benefit": "{{benefit-jetour-dashing}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -466,7 +466,7 @@
         "slogan": "Семейный кроссовер для совместных путешествий",
         "name": "X70 Plus",
         "price": "{{price-jetour-x70plus}}",
-        "benefit": 570000,
+        "benefit": "{{benefit-jetour-x70plus}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -613,7 +613,7 @@
         "slogan": "Компактный кроссовер",
         "name": "X50",
         "price": "{{price-jetour-x50}}",
-        "benefit": "",
+        "benefit": "{{benefit-jetour-x50}}",
         "benefits": [
             {
                 "url": "#common-modal",

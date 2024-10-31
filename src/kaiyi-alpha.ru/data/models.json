@@ -7,7 +7,7 @@
         "slogan": "Совершенство в каждой детали",
         "name": "E5",
         "price": "{{price-kaiyi-e5}}",
-        "benefit": 480000,
+        "benefit": "{{benefit-kaiyi-e5}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -108,7 +108,7 @@
         "slogan": "Настоящий я",
         "name": "X3",
         "price": "{{price-kaiyi-x3}}",
-        "benefit": 130000,
+        "benefit": "{{benefit-kaiyi-x3}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -221,7 +221,7 @@
         "slogan": "",
         "name": "X3 Pro",
         "price": "{{price-kaiyi-x3pro}}",
-        "benefit": 350000,
+        "benefit": "{{benefit-kaiyi-x3pro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -334,7 +334,7 @@
         "slogan": "Создан для молодого поколения",
         "name": "X7 Kunlun",
         "price": "{{price-kaiyi-x7-kunlun}}",
-        "benefit": 180000,
+        "benefit": "{{benefit-kaiyi-x7-kunlun}}",
         "benefits": [
             {
                 "url": "#common-modal",
