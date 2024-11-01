@@ -7,7 +7,7 @@
         "slogan": "",
         "name": "X50",
         "price": "{{price-belgee-x50}}",
-        "benefit": 370000,
+        "benefit": "{{benefit-belgee-x50}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -147,7 +147,7 @@
         "slogan": "",
         "name": "X70",
         "price": "{{price-belgee-x70}}",
-        "benefit": 540000,
+        "benefit": "{{benefit-belgee-x70}}",
         "benefits": [
             {
                 "url": "#common-modal",
