@@ -47,6 +47,14 @@ jobs:
         LINK_XPATH: "./@href"
         OUTPUT_PATHS: "./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-samara.ru/data/cars.json,./src/geely-partner-saratov.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json,./tmp/auto-team.pro/data/geely.json"
 
+    - name: Scrape dealer price belgee-samara.ru
+      run: node .github/scripts/getDealerData.js
+      env:
+        CSV_URL: ${{ secrets.CSV_ALPHA }}
+        QUERY_STRING: "SELECT C, D, E, F WHERE A='ЦнМ' and B='Belgee'"
+        KEY_COLUMN: "Модель"
+        OUTPUT_PATHS: "./src/belgee-samara.ru/data/dealer_price.json"
+
     - name: Scrape belgee.ru
       run: node .github/scripts/scrape.js
       env:
@@ -58,6 +66,14 @@ jobs:
         PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
         LINK_XPATH: "./a/@href"
         OUTPUT_PATHS: "./src/belgee-partner-orenburg.ru/data/cars.json,./src/belgee-partner-samara.ru/data/cars.json,./src/belgee-partner-saratov.ru/data/cars.json,./src/belgee-samara.ru/data/cars.json,./tmp/auto-team.pro/data/belgee.json"
+
+    - name: Scrape dealer price jac-samara.ru
+      run: node .github/scripts/getDealerData.js
+      env:
+        CSV_URL: ${{ secrets.CSV_ALPHA }}
+        QUERY_STRING: "SELECT C, D, E, F WHERE A='КЦС' and B='JAC'"
+        KEY_COLUMN: "Модель"
+        OUTPUT_PATHS: "./src/jac-samara.ru/data/dealer_price.json"
 
     - name: Scrape jaccar.ru
       run: node .github/scripts/scrape.js
@@ -148,13 +164,21 @@ jobs:
         INPUT_PATHS: "./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/geely.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
         OUTPUT_PATHS: "./src/auto-team.pro/data/cars.json"
 
-    - name: Scrape dealer price alpha-kaiyi.ru
+    - name: Scrape dealer price for kaiyi-alpha.ru
       run: node .github/scripts/getDealerData.js
       env:
         CSV_URL: ${{ secrets.CSV_ALPHA }}
         QUERY_STRING: "SELECT C, D, E, F WHERE A='Альфа' and B='Kaiyi'"
         KEY_COLUMN: "Модель"
         OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/dealer_price.json"
+
+    - name: Scrape dealer price for kaiyi-samara.ru
+      run: node .github/scripts/getDealerData.js
+      env:
+        CSV_URL: ${{ secrets.CSV_ALPHA }}
+        QUERY_STRING: "SELECT C, D, E, F WHERE A='Мега' and B='Kaiyi'"
+        KEY_COLUMN: "Модель"
+        OUTPUT_PATHS: "./src/kaiyi-samara.ru/data/dealer_price.json"
 
     - name: Scrape kaiyi-auto.ru
       run: node .github/scripts/extractData.js
@@ -167,13 +191,21 @@ jobs:
         DEALERBENEFITFIELD: 'Скидка'
         OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data/cars.json,./src/kaiyi-samara.ru/data/cars.json"
 
-    - name: Scrape dealer price alpha-baic.ru
+    - name: Scrape dealer price ащк baic-alpha.ru
       run: node .github/scripts/getDealerData.js
       env:
         CSV_URL: ${{ secrets.CSV_ALPHA }}
         QUERY_STRING: "SELECT C, D, E, F WHERE A='Альфа' and B='Baic'"
         KEY_COLUMN: "Модель"
         OUTPUT_PATHS: "./src/baic-alpha.ru/data/dealer_price.json"
+
+    - name: Scrape dealer price ащк baic-samara.ru
+      run: node .github/scripts/getDealerData.js
+      env:
+        CSV_URL: ${{ secrets.CSV_ALPHA }}
+        QUERY_STRING: "SELECT C, D, E, F WHERE A='Мега' and B='Baic'"
+        KEY_COLUMN: "Модель"
+        OUTPUT_PATHS: "./src/baic-samara.ru/data/dealer_price.json"
 
     - name: Scrape baic-auto.ru
       run: node .github/scripts/extractData.js
