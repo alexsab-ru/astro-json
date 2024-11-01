@@ -3,7 +3,8 @@
     "id": "baic-u5_plus",
     "model": "BAIC U5 PLUS",
     "price": "1630000",
-    "link": "/models/u5_plus/"
+    "link": "/models/u5_plus/",
+    "benefit": "NaN"
   },
   {
     "id": "baic-u5_plus-cng",
@@ -15,30 +16,35 @@
     "id": "baic-x35",
     "model": "BAIC X35",
     "price": "1850000",
-    "link": "/models/x35/"
+    "link": "/models/x35/",
+    "benefit": "NaN"
   },
   {
     "id": "baic-x55",
     "model": "BAIC X55",
     "price": "2750000",
-    "link": "/models/x55/"
+    "link": "/models/x55/",
+    "benefit": "NaN"
   },
   {
     "id": "baic-x7",
     "model": "BAIC X7",
     "price": "2600000",
-    "link": "/models/x7/"
+    "link": "/models/x7/",
+    "benefit": "NaN"
   },
   {
     "id": "baic-x75",
     "model": "BAIC X75",
     "price": "2590000",
-    "link": "/models/x75/"
+    "link": "/models/x75/",
+    "benefit": "NaN"
   },
   {
     "id": "baic-bj40",
     "model": "BAIC BJ40",
     "price": "3875000",
-    "link": "/models/bj40/"
+    "link": "/models/bj40/",
+    "benefit": "NaN"
   }
 ]
