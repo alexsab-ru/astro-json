@@ -79,6 +79,7 @@ async function extractData() {
             id: id,
             model: card.title.text.value,
             price: price,
+            benefit: "",
             link: card.link.url
         };
     });
