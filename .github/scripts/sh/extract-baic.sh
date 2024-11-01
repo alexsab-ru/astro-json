@@ -5,4 +5,7 @@ export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
 export DEALERBENEFITFIELD='Скидка'
 export OUTPUT_PATHS="./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/data/cars.json,./src/baic-samara.ru/data/cars.json"
+export DEALERPRICE='dealer_price.json'
+export DEALERPRICEFIELD='Конечная цена'
+export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/extractData.js

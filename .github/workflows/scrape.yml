@@ -66,6 +66,9 @@ jobs:
         PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
         LINK_XPATH: "./a/@href"
         OUTPUT_PATHS: "./src/belgee-orenburg.ru/data/cars.json,./src/belgee-smr.ru/data/cars.json,./src/belgee-partner-saratov.ru/data/cars.json,./src/belgee-samara.ru/data/cars.json,./tmp/auto-team.pro/data/belgee.json"
+        DEALERPRICE: 'dealer_price.json'
+        DEALERPRICEFIELD: 'Конечная цена'
+        DEALERBENEFITFIELD: 'Скидка'
 
     - name: Scrape dealer price jac-samara.ru
       run: node .github/scripts/getDealerData.js
@@ -86,6 +89,9 @@ jobs:
         PRICE_XPATH: "translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), '0123456789', ''), '')"
         LINK_XPATH: "./a[contains(@class, 'js-menu-models-link')]/@href"
         OUTPUT_PATHS: "./src/jac-samara.ru/data/cars.json"
+        DEALERPRICE: 'dealer_price.json'
+        DEALERPRICEFIELD: 'Конечная цена'
+        DEALERBENEFITFIELD: 'Скидка'
 
     - name: Scrape dealer price jetour-alpha.ru
       run: node .github/scripts/getDealerData.js

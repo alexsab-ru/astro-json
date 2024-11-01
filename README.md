@@ -25,6 +25,9 @@ export MODEL_XPATH="./a/span[@class='title']/text()"
 export PRICE_XPATH="translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a/@href"
 export OUTPUT_PATHS="./src/belgee-orenburg.ru/data/cars.json,./src/belgee-smr.ru/data/cars.json,./src/belgee-partner-saratov.ru/data/cars.json,./src/belgee-samara.ru/data/cars.json,./tmp/auto-team.pro/data/belgee.json"
+export DEALERPRICE='dealer_price.json'
+export DEALERPRICEFIELD='Конечная цена'
+export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js
 ```
 
@@ -37,6 +40,9 @@ export MODEL_XPATH="substring-after(.//div[contains(@class, 'menu-models__item-t
 export PRICE_XPATH="translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a[contains(@class, 'js-menu-models-link')]/@href"
 export OUTPUT_PATHS="./src/jac-samara.ru/data/cars.json"
+export DEALERPRICE='dealer_price.json'
+export DEALERPRICEFIELD='Конечная цена'
+export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js
 ```
 
@@ -111,6 +117,9 @@ export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
 export DEALERBENEFITFIELD='Скидка'
 export OUTPUT_PATHS="./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data/cars.json,./src/kaiyi-samara.ru/data/cars.json"
+export DEALERPRICE='dealer_price.json'
+export DEALERPRICEFIELD='Конечная цена'
+export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/extractData.js
 ```
 
@@ -122,6 +131,9 @@ export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
 export DEALERBENEFITFIELD='Скидка'
 export OUTPUT_PATHS="./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/data/cars.json,./src/baic-samara.ru/data/cars.json"
+export DEALERPRICE='dealer_price.json'
+export DEALERPRICEFIELD='Конечная цена'
+export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/extractData.js
 ```
 
