@@ -8,7 +8,7 @@
         "slogan": "Рождённый для приключений",
         "name": "T9",
         "price": "{{price-jac-t9}}",
-        "benefit": 250000,
+        "benefit": "{{benefit-jac-t9}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -324,7 +324,7 @@
         "slogan": "Семейный кроссовер для всех",
         "name": "JS3",
         "price": "{{price-jac-js3}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-jac-js3}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -426,7 +426,7 @@
         "slogan": "Дизайн от Кутюр",
         "name": "J7",
         "price": "{{price-jac-j7}}",
-        "benefit": 640000,
+        "benefit": "{{benefit-jac-j7}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -535,7 +535,7 @@
         "slogan": "Автомобиль с уважением!",
         "name": "JS6",
         "price": "{{price-jac-js6}}",
-        "benefit": 600000,
+        "benefit": "{{benefit-jac-js6}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -749,7 +749,7 @@
         "slogan": "Тысячи возможностей!",
         "name": "T8",
         "price": "{{price-jac-t8}}",
-        "benefit": "",
+        "benefit": "{{benefit-jac-t8}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -856,7 +856,7 @@
         "slogan": "Мужественный характер в ярком облике!",
         "name": "T8 Pro",
         "price": "{{price-jac-t8-pro}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-jac-t8-pro}}",
         "benefits": [
             {
                 "url": "#common-modal",
