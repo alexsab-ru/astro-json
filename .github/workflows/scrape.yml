@@ -5,8 +5,12 @@ on:
     - cron: '0 1 * * *'  # Запускается в 1 по Гринвичу
   push:
     paths:
-      - '.github/workflows/scrape.yml'
+      - '.github/scripts/extractData.js'
+      - '.github/scripts/getDealerData.js'
+      - '.github/scripts/mergeJson.js'
       - '.github/scripts/scrape.js'
+      - '.github/scripts/scrape.py'
+      - '.github/workflows/scrape.yml'
   workflow_dispatch:  # Позволяет вручную запускать этот workflow
 
 jobs:

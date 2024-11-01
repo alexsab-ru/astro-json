@@ -15,8 +15,12 @@ on:
   push:
     branches: ["main"]
     paths-ignore:
-      - '.github/workflows/scrape.yml'
+      - '.github/scripts/extractData.js'
+      - '.github/scripts/getDealerData.js'
+      - '.github/scripts/mergeJson.js'
       - '.github/scripts/scrape.js'
+      - '.github/scripts/scrape.py'
+      - '.github/workflows/scrape.yml'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
