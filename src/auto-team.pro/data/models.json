@@ -7,7 +7,7 @@
         "slogan": "Симфония технологий",
         "name": "CS55PLUS",
         "price": "{{price-changan-cs55plus}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-cs55plus}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -122,7 +122,7 @@
         "slogan": "Пульс города",
         "name": "CS35PLUS NEW",
         "price": "{{price-changan-cs35plusnew}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-cs35plusnew}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -231,7 +231,7 @@
         "slogan": "Воплощение уверенности",
         "name": "ALSVIN",
         "price": "{{price-changan-alsvin}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-alsvin}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -351,7 +351,7 @@
         "slogan": "Единство формы и содержания",
         "name": "EADOplus",
         "price": "{{price-changan-eadoplus}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-eadoplus}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -465,7 +465,7 @@
         "slogan": "Символ элегантности",
         "name": "Lamore",
         "price": "{{price-changan-lamore}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-lamore}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -579,7 +579,7 @@
         "slogan": "Вдохновлен путешествиями",
         "name": "CS75plus",
         "price": "{{price-changan-cs75plus}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-cs75plus}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -693,7 +693,7 @@
         "slogan": "Стиль жизни",
         "name": "CS85COUPE",
         "price": "{{price-changan-cs85coupe}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-cs85coupe}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -813,7 +813,7 @@
         "slogan": "Новые горизонты",
         "name": "CS95",
         "price": "{{price-changan-cs95}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-cs95}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -915,7 +915,7 @@
         "slogan": "Новые горизонты",
         "name": "CS95NEW",
         "price": "{{price-changan-cs95new}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-cs95new}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1018,7 +1018,7 @@
         "slogan": "Искусство самовыражения",
         "name": "UNI-T",
         "price": "{{price-changan-uni-t}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-uni-t}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1139,7 +1139,7 @@
         "slogan": "Эстетика в динамике",
         "name": "UNI-V",
         "price": "{{price-changan-uni-v}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-uni-v}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1259,7 +1259,7 @@
         "slogan": "",
         "name": "UNI-K",
         "price": "{{price-changan-uni-k}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-uni-k}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1379,7 +1379,7 @@
         "slogan": "Свобода приключений",
         "name": "HUNTERplus",
         "price": "{{price-changan-hunter}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-hunter}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1494,7 +1494,7 @@
         "slogan": "Притяжение индивидуальности",
         "name": "UNI-K iDD",
         "price": "{{price-changan-uni-k_idd}}",
-        "benefit": "",
+        "benefit": "{{benefit-changan-uni-k_idd}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1608,7 +1608,7 @@
         "slogan": "",
         "name": "Preface",
         "price": "{{price-geely-preface}}",
-        "benefit": 350000,
+        "benefit": "{{benefit-geely-preface}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1805,7 +1805,7 @@
         "slogan": "",
         "name": "Новый Atlas",
         "price": "{{price-geely-atlas-2024}}",
-        "benefit": 350000,
+        "benefit": "{{benefit-geely-atlas-2024}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1913,7 +1913,7 @@
         "slogan": "",
         "name": "Atlas Pro",
         "price": "{{price-geely-atlaspro}}",
-        "benefit": 600000,
+        "benefit": "{{benefit-geely-atlaspro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -2020,7 +2020,7 @@
         "slogan": "",
         "name": "Emgrand",
         "price": "{{price-geely-emgrand}}",
-        "benefit": 350000,
+        "benefit": "{{benefit-geely-emgrand}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -2241,7 +2241,7 @@
         "slogan": "",
         "name": "Новый Coolray",
         "price": "{{price-geely-coolray-2023}}",
-        "benefit": 300000,
+        "benefit": "{{benefit-geely-coolray-2023}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -2350,7 +2350,7 @@
         "slogan": "",
         "name": "Tugella",
         "price": "{{price-geely-newtugella}}",
-        "benefit": 680000,
+        "benefit": "{{benefit-geely-newtugella}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -2451,7 +2451,7 @@
         "slogan": "",
         "name": "Новый OKAVANGO",
         "price": "{{price-geely-okavango}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-geely-okavango}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -2553,7 +2553,7 @@
         "slogan": "",
         "name": "Monjaro",
         "price": "{{price-geely-monjaro}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-geely-monjaro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -2666,7 +2666,7 @@
         "slogan": "",
         "name": "Belgee X50",
         "price": "{{price-geely-belgee-x50}}",
-        "benefit": 320000,
+        "benefit": "{{benefit-geely-belgee-x50}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -2779,7 +2779,7 @@
         "slogan": "",
         "name": "X50",
         "price": "{{price-belgee-x50}}",
-        "benefit": "",
+        "benefit": "{{benefit-belgee-x50}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -2887,7 +2887,7 @@
         "slogan": "",
         "name": "X70",
         "price": "{{price-belgee-x70}}",
-        "benefit": "",
+        "benefit": "{{benefit-belgee-x70}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -3001,7 +3001,7 @@
         "slogan": "Дорогу молодым",
         "name": "GS3",
         "price": "{{price-gac-gs3}}",
-        "thumb": "/img/models/gac/gs3/colors/blue.webp",
+        "thumb": "{{thumb-gac-gs3}}",
         "colors": [
             {
                 "id": "white",
@@ -3083,7 +3083,7 @@
         "slogan": "Открывайте новые горизонты",
         "name": "M8",
         "price": "{{price-gac-m8}}",
-        "thumb": "/img/models/gac/m8/colors/gold.webp",
+        "thumb": "{{thumb-gac-m8}}",
         "colors": [
             {
                 "id": "white",
@@ -3159,7 +3159,7 @@
         "slogan": "Новое поколение превосходства",
         "name": "GS8 II",
         "price": "{{price-gac-gs8-ii}}",
-        "thumb": "/img/models/gac/gs8ii/colors/green.webp",
+        "thumb": "{{thumb-gac-gs8-ii}}",
         "colors": [
             {
                 "id": "green",
