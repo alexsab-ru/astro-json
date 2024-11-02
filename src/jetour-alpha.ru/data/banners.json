@@ -17,23 +17,6 @@
         "autoplay": 7000
     },
     {
-        "id": 0,
-        "show": true,
-        "type": "",
-        "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/news/rejim-raboti-4nov/rejim-raboti-4nov-1920x1080.webp",
-        "title": "",
-        "descr": "",
-        "alt": "График работы 4 ноября",
-        "btn": "Узнать подробнее",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Узнать подробнее",
-        "dataFormName": "Узнать подробнее. График работы 4 ноября. Баннер",
-        "badge": {},
-        "autoplay": 7000
-    },
-    {
         "id": 1,
         "show": true,
         "type": "",
@@ -41,7 +24,7 @@
         "videoUrl": "",
         "imageUrl": "/img/banners/jetour-akciya-1920x1080.webp",
         "title": "Розыгрыш призов на<br><span class=\"text-5xl sm:text-7xl lg:text-[100px] w-fit\">10 000 000</span> ₽",
-        "descr": "в Октябре",
+        "descr": "в Ноябре",
         "btn": "Узнать подробнее",
         "btnUrl": "/news/jetour-razygryvaet-prizy/",
         "dataTitle": "",
