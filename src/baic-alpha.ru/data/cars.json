@@ -3,7 +3,7 @@
     "id": "baic-u5_plus",
     "model": "BAIC U5 PLUS",
     "price": "1670000",
-    "benefit": "450000",
+    "benefit": "375000",
     "link": "/models/u5_plus/"
   },
   {
@@ -38,14 +38,14 @@
     "id": "baic-x75",
     "model": "BAIC X75",
     "price": "2590000",
-    "benefit": "210000",
+    "benefit": "400000",
     "link": "/models/x75/"
   },
   {
     "id": "baic-bj40",
     "model": "BAIC BJ40",
     "price": "3875000",
-    "benefit": "250000",
+    "benefit": "475000",
     "link": "/models/bj40/"
   }
 ]
