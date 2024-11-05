@@ -1,22 +1,5 @@
 [
     {
-        "id": 0,
-        "show": true,
-        "type": "",
-        "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/news/rejim-raboti-4nov/rejim-raboti-4nov-1920x1080.webp",
-        "title": "График работы автосалона",
-        "descr": "4 ноября<br>8:00-18:00",
-        "alt": "График работы 4 ноября",
-        "btn": "Узнать подробнее",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Узнать подробнее",
-        "dataFormName": "Узнать подробнее. График работы 4 ноября. Баннер",
-        "badge": {},
-        "autoplay": 7000
-    },
-    {
         "id": 2,
         "show": true,
         "type": "",
