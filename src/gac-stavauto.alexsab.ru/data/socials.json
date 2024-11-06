@@ -1,6 +1,6 @@
 {
     "header": {
-        "whatsapp-full": {
+        "whatsapp": {
             "url": "https://wa.me/%2B79197566959"
         },
         "vkontakte-full": {
@@ -8,7 +8,7 @@
         }
     },
     "footer": {
-        "whatsapp-full": {
+        "whatsapp": {
             "url": "https://wa.me/%2B79197566959"
         },
         "vkontakte-full": {
