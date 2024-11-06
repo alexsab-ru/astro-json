@@ -1,21 +1,21 @@
 [
     {
-        "name": "Гак",
-        "address": "Саратов, ул. Усть-Курдюмская, д. 6",
-        "phone":  "+7 (8452) 45-88-88",
+        "name": "GAC Центр Кулакова",
+        "address": "Ставрополь, пр. Кулакова, 32А",
+        "phone":  "+7 (8652) 51-03-03",
         "work_hours": "9:00 – 19:00 (пн - пт)<br>9:00 – 19:00 (сб)<br>9:00 – 18:00 (вс)",
         "map": {
             "zoom": 16,
             "balloon": "/img/gac-locator.png",
-            "coords": [51.56678187039625,46.06628235191117],
-            "ya_link": "https://yandex.com/maps/194/saratov/?ll=46.066510%2C51.566841&mode=routes&rtext=~51.566782%2C46.066282&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D137103801015&z=17"
+            "coords": [45.079772,41.937795],
+            "ya_link": "https://yandex.ru/maps/36/stavropol/?ll=41.938044%2C45.079690&mode=routes&rtext=~45.079772%2C41.937795&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D237795169025&source=serp_navig&z=17"
         },
         "socials": {
-            "telegram-full": {
-                "url": "https://t.me/GAC_MOTOR_Saratov"
+            "whatsapp-full": {
+                "url": "https://wa.me/%2B79197566959"
             },
             "vkontakte-full": {
-                "url": "https://vk.com/gac_saratov"
+                "url": "https://vk.com/gacstavropol"
             }
         }
     }

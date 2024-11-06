@@ -1,18 +1,18 @@
 {
     "header": {
-        "telegram-full": {
-            "url": "https://t.me/GAC_MOTOR_Saratov"
+        "whatsapp-full": {
+            "url": "https://wa.me/%2B79197566959"
         },
         "vkontakte-full": {
-            "url": "https://vk.com/gac_saratov"
+            "url": "https://vk.com/gacstavropol"
         }
     },
     "footer": {
-        "telegram-full": {
-            "url": "https://t.me/GAC_MOTOR_Saratov"
+        "whatsapp-full": {
+            "url": "https://wa.me/%2B79197566959"
         },
         "vkontakte-full": {
-            "url": "https://vk.com/gac_saratov"
+            "url": "https://vk.com/gacstavropol"
         }
     }
 }
