@@ -150,7 +150,7 @@ jobs:
         MODEL_XPATH: "substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/')"
         PRICE_XPATH: "translate(string(.//span[@class='price']/text()), translate(string(.//span[@class='price']/text()), '0123456789', ''), '')"
         LINK_XPATH: ".//a[starts-with(@href, '/models/')]/@href"
-        OUTPUT_PATHS: "./src/gac-smr.alexsab.ru/data/cars.json,./src/gac-orenburg.alexsab.ru/data/cars.json,./src/gac-stavauto.ru/data/cars.json,./src/gac-partner-samara.alexsab.ru/data/cars.json,./tmp/auto-team.pro/data/gac.json"
+        OUTPUT_PATHS: "./src/gac-smr.alexsab.ru/data/cars.json,./src/gac-orenburg.alexsab.ru/data/cars.json,./src/gac-stavauto.alexsab.ru/data/cars.json,./src/gac-partner-samara.alexsab.ru/data/cars.json,./tmp/auto-team.pro/data/gac.json"
 
     - name: Scrape changanauto.ru
       run: node .github/scripts/scrape.js
