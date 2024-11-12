@@ -134,7 +134,7 @@
         "view": "link",
         "videoUrl": "",
         "imageUrl": "/img/banners/atlas-pro.webp",
-        "title": "<img src='/img/models/Atlas%20Pro/logo.svg' class='w-full max-w-[650px] my-2 md:my-3.5' alt='Geely Atlas Pro'><span class='uppercase block font-normal text-3xl sm:text-5xl md:text-6xl'>Кроссовер <b>PRO</b> тебя</span>",
+        "title": "<img src='/img/models/Atlas%20Pro/logo.svg' class='w-full max-w-[650px] my-2 md:my-3.5' alt='Geely Atlas Pro'><span class='uppercase block font-normal text-2xl sm:text-5xl md:text-6xl'>Кроссовер <b>PRO</b> тебя</span>",
         "descr": "",
         "btn": "Подробнее",
         "btnUrl": "/models/atlaspro/",
