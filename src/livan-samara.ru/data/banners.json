@@ -40,7 +40,7 @@
         "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/models/x3pro/x3pro-hero.webp",
-        "title": "Цена от {{price-livan-x3pro}}&nbsp;₽<sup>*</sup> на&nbsp;Livan.",
+        "title": "Цена от {{priceb-livan-x3pro}}<sup>*</sup> на&nbsp;Livan.",
         "descr": "Акция до&nbsp;{{lastDay}}.{{month}}.{{year}}. Оставьте заявку. Автомобили в&nbsp;наличии",
         "btn": "Узнать подробнее",
         "btnUrl": "#common-modal",
