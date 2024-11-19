@@ -6,12 +6,12 @@
         "view": "popup-link",
         "videoUrl": "https://alexsab.ru/video/kaiyi-e5-compress.mp4",
         "imageUrl": "/img/banners/banner.webp",
-        "title": "Выгода до 630 000 ₽<sup>*</sup> на&nbsp;KAIYI.",
+        "title": "Выгода до {{benefitb-kaiyi-e5}}<sup>*</sup> на&nbsp;KAIYI.",
         "descr": "Акция до&nbsp;{{lastDay}}.{{month}}.{{year}}. Оставьте заявку. Автомобили в&nbsp;наличии",
         "btn": "Узнать подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Узнать подробнее",
-        "dataFormName": "Узнать подробнее. Выгода до 630 000 ₽. Баннер",
+        "dataFormName": "Узнать подробнее. Выгода до {{benefitb-kaiyi-e5}}. Баннер",
         "badge": "",
         "autoplay": 7000
     }
