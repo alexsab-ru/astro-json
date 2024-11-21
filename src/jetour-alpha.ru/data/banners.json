@@ -136,6 +136,7 @@
         "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/banners/jetour-dashing-green-1920w.webp",
+        "imagePosition": "bottom",
         "title": "Распродажа остатков 2023 года!",
         "descr": "Осталось 4 автомобиля Dashing,<br>и 5 автомобилей X90 Plus",
         "btn": "Успеть купить",
