@@ -12,7 +12,13 @@
         "btnUrl": "/cars/",
         "dataTitle": "Выбрать автомобиль",
         "dataFormName": "Выбрать автомобиль. Выгода {{benefitb-jetour-x90plus}} на X90 Plus. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "right"
+        },
         "autoplay": 6000
     },
     {
@@ -60,7 +66,13 @@
         "btnUrl": "/news/jetour-x90-plus-nazvan-luchshim-bolshim-krossoverom-v-rossii/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "left"
+        },
         "autoplay": 7000
     },
     {
@@ -92,7 +104,13 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Подробнее про JETOUR X90 от {{priceb-jetour-x90plus}} с выгодой до&nbsp;{{benefitb-jetour-x90plus}}",
         "dataFormName": "Подробнее про JETOUR X90 от {{priceb-jetour-x90plus}} с выгодой до&nbsp;{{benefitb-jetour-x90plus}}. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "left"
+        },
         "autoplay": 7000
     },
     {
@@ -156,7 +174,13 @@
         "btnUrl": "#common-modal",
         "dataTitle": "JETOUR T2. Узнать подробнее",
         "dataFormName": "Узнать подробнее. JETOUR T2. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "left"
+        },
         "autoplay": 6000
     },
     {
@@ -176,7 +200,8 @@
             "autoname": "Jetour Dashing",
             "title": "Ежегодная национальная премия",
             "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "/img/badge.png"
+            "image": "/img/badge.png",
+            "position": "right"
         },
         "autoplay": 6000
     },
@@ -197,7 +222,8 @@
             "autoname": "Jetour Dashing",
             "title": "Ежегодная национальная премия",
             "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "/img/badge.png"
+            "image": "/img/badge.png",
+            "position": "left"
         },
         "autoplay": ""
     }
