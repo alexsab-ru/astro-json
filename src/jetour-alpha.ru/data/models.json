@@ -8,6 +8,10 @@
         "name": "X90 Plus",
         "price": "{{price-jetour-x90plus}}",
         "benefit": "{{benefit-jetour-x90plus}}",
+        "badge": {
+            "img": "/img/badge-4x4-2024.png",
+            "alt": "Внедорожник года"
+        },
         "benefits": [
             {
                 "url": "#common-modal",
@@ -167,6 +171,10 @@
         "name": "T2",
         "price": "{{price-jetour-t2}}",
         "benefit": "{{benefit-jetour-t2}}",
+        "badge": {
+            "img": "/img/badge-4x4-2024.png",
+            "alt": "Внедорожник года"
+        },
         "benefits": [
             {
                 "url": "#common-modal",
@@ -296,6 +304,11 @@
         "name": "Dashing",
         "price": "{{price-jetour-dashing}}",
         "benefit": "{{benefit-jetour-dashing}}",
+        "badge": {
+            "img": "/img/badge-2023-with-text.png",
+            "imgModelPage": "/img/badge-2023-with-text-white.png",
+            "alt": "Автомобиль года"
+        },
         "benefits": [
             {
                 "url": "#common-modal",
