@@ -1,6 +1,22 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/specials/puteshestvie-v-pekin-s-geely/banner-1920x1080.webp",
+        "title": "Акция GEELY: Выиграйте путешествие в Пекин!",
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/puteshestvie-v-pekin-s-geely/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "link",
