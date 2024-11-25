@@ -30,7 +30,15 @@
         "btnColor": "white",
         "dataTitle": "Узнать подробнее",
         "dataFormName": "Узнать подробнее. LIVAN S6PRO. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "Ежегодная национальная премия",
+            "descr": "Победитель номинации <br/>«цена - качество»",
+            "image": "/img/badge-2024-black.svg",
+            "position": "right",
+            "colorText": "black",
+            "bg": true
+        },
         "autoplay": ""
     },
     {

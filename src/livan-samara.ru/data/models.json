@@ -210,6 +210,11 @@
         "name": "S6PRO",
         "price": "{{price-livan-s6pro}}",
         "benefit": "{{benefit-livan-s6pro}}",
+        "badge": {
+            "img": "/img/badge-2024-with-text.png",
+            "imgModelPage": "/img/badge-2024-with-text-white.png",
+            "alt": "Автомобиль года"
+        },
         "benefits": [
             {
                 "url": "#common-modal",
