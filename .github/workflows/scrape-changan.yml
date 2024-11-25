@@ -1,0 +1,96 @@
+name: Scrape Geely Data
+
+on:
+  push:
+    paths:
+      - '.github/scripts/scrape.js'
+  workflow_call:
+    outputs:
+      changes:
+        description: "Whether there were changes in the data"
+        value: ${{ jobs.scrape.outputs.changes }}
+      script_output:
+        description: "Output message for notifications"
+        value: ${{ jobs.scrape.outputs.script_output }}
+  workflow_dispatch:  # Добавляем возможность ручного запуска
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.ref == 'refs/heads/main' && 'production' || 'development' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          npm install -g pnpm
+          pnpm install --no-frozen-lockfile
+
+      - name: Scrape changanauto.ru
+        run: node .github/scripts/scrape.js
+        env:
+          BRAND: "changan"
+          URL: "https://changanauto.ru/models/"
+          ITEM_XPATH: "//a[contains(@class,'card_bg-hover')]"
+          ID_XPATH: "concat('changan-', substring-before(substring-after(@href, '/models/'),'/'))"
+          MODEL_XPATH: ".//span[contains(@class,'card__info-title')]/text()"
+          PRICE_XPATH: "translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), '0123456789', ''), '')"
+          LINK_XPATH: "./@href"
+          OUTPUT_PATHS: "./tmp/auto-team.pro/data/changan.json"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --exit-code; then
+            echo "changes=true" >> $GITHUB_ENV
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "script_output=$(echo -n 'Update Geely cars data' | base64)" >> $GITHUB_OUTPUT
+          elif git status -s; then
+            echo "changes=true" >> $GITHUB_ENV
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "script_output=$(echo -n 'Update Geely cars data' | base64)" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_ENV
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "script_output=$(echo -n '' | base64)" >> $GITHUB_OUTPUT
+          fi
+        continue-on-error: true
+
+      - name: Commit files
+        if: |
+          env.changes == 'true' && 
+          github.event_name != 'workflow_call'  # Не делаем коммит если вызван из основного workflow
+        run: |
+          git config --local user.email "support+actions@github.com"
+          git config --local user.name "github-actions-bot"
+          if [[ $(find ./src -type f -name "*.json") ]]; then git add $(find ./src -type f -name "*.json"); fi
+          git commit -m "Update Geely cars data" -a || echo "No changes to commit"
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git push origin $GITHUB_REF_NAME
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    outputs:
+      changes: ${{ steps.check_changes.outputs.changes }}
+      script_output: ${{ steps.check_changes.outputs.script_output }}
+
+  notify_telegram:
+    needs: scrape
+    if: |
+      needs.scrape.outputs.script_output != '' && 
+      github.event_name != 'workflow_call'  # Не отправляем уведомление если вызван из основного workflow
+    uses: ./.github/workflows/github-telegram.yml
+    with:
+      additional-text: |
+        ${{ needs.scrape.outputs.script_output }}
+    secrets:
+      TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
