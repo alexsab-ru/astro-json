@@ -44,19 +44,7 @@ jobs:
           OUTPUT_PATHS: "./src/jac-samara.ru/data/dealer_price.json"
 
       - name: Scrape jaccar.ru
-        run: node .github/scripts/scrape.js
-        env:
-          BRAND: "jac"
-          URL: "https://jaccar.ru"
-          ITEM_XPATH: "//li[contains(@class, 'menu-models__item')]"
-          ID_XPATH: "concat('jac-', substring-before(substring-after(.//a[contains(@class, 'js-menu-models-link')]/@href, '/models/'), '/'))"
-          MODEL_XPATH: ".//div[contains(@class, 'menu-models__item-title')]/text()"
-          PRICE_XPATH: "translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), '0123456789', ''), '')"
-          LINK_XPATH: "./a[contains(@class, 'js-menu-models-link')]/@href"
-          OUTPUT_PATHS: "./src/jac-samara.ru/data/cars.json"
-          DEALERPRICE: 'dealer_price.json'
-          DEALERPRICEFIELD: 'Конечная цена'
-          DEALERBENEFITFIELD: 'Скидка'
+        run: pnpm run scrape-jac
 
       - name: Check for changes
         id: check_changes

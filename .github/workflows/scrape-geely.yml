@@ -36,16 +36,7 @@ jobs:
           pnpm install --no-frozen-lockfile
 
       - name: Scrape geely-motors.com
-        run: node .github/scripts/scrape.js
-        env:
-            BRAND: "geely"
-            URL: "https://www.geely-motors.com"
-            ITEM_XPATH: "//a[contains(@class,'v2-menu-curtain-automobiles__item')]"
-            ID_XPATH: "concat('geely-', substring(substring-after(./@href, '/model/'), 1 + 6 * starts-with(substring-after(./@href, '/model/'), 'geely-')))"
-            MODEL_XPATH: "./div/h4[@class='v2-automobile-menu-card__heading']/text()"
-            PRICE_XPATH: "translate(string(./div/p[@class='v2-automobile-menu-card__paragraph']/text()), translate(string(./div/p[@class='v2-automobile-menu-card__paragraph']/text()), '0123456789', ''), '')"
-            LINK_XPATH: "./@href"
-            OUTPUT_PATHS: "./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-samara.ru/data/cars.json,./src/geely-partner-saratov.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json,./tmp/auto-team.pro/data/geely.json"
+        run: pnpm run scrape-geely
 
       - name: Check for changes
         id: check_changes

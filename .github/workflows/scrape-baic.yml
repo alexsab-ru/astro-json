@@ -54,15 +54,7 @@ jobs:
           OUTPUT_PATHS: "./src/baic-samara.ru/data/dealer_price.json"
 
       - name: Scrape baic-auto.ru
-        run: node .github/scripts/extractData.js
-        env:
-          BRAND: 'baic'
-          URL: 'https://baic-auto.ru/models/'
-          REGEXP: '\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
-          DEALERPRICE: 'dealer_price.json'
-          DEALERPRICEFIELD: 'Конечная цена'
-          DEALERBENEFITFIELD: 'Скидка'
-          OUTPUT_PATHS: "./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/data/cars.json,./src/baic-samara.ru/data/cars.json"
+        run: pnpm run extract-baic
 
       - name: Check for changes
         id: check_changes

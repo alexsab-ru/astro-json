@@ -44,19 +44,7 @@ jobs:
           OUTPUT_PATHS: "./src/belgee-samara.ru/data/dealer_price.json"
 
       - name: Scrape belgee.ru
-        run: node .github/scripts/scrape.js
-        env:
-          BRAND: "belgee"
-          URL: "https://belgee.ru"
-          ITEM_XPATH: "//header/div[@data-id='models']/div"
-          ID_XPATH: "concat('belgee-', substring-after(substring-after(./a/@href, '/model/'), 'belgee-'))"
-          MODEL_XPATH: "./a/span[@class='title']/text()"
-          PRICE_XPATH: "translate(string(./a/span[@class='subtitle']/text()), translate(string(./a/span[@class='subtitle']/text()), '0123456789', ''), '')"
-          LINK_XPATH: "./a/@href"
-          OUTPUT_PATHS: "./src/belgee-orenburg.ru/data/cars.json,./src/belgee-smr.ru/data/cars.json,./src/belgee-partner-saratov.ru/data/cars.json,./src/belgee-samara.ru/data/cars.json,./tmp/auto-team.pro/data/belgee.json"
-          DEALERPRICE: 'dealer_price.json'
-          DEALERPRICEFIELD: 'Конечная цена'
-          DEALERBENEFITFIELD: 'Скидка'
+        run: pnpm run scrape-belgee
 
       - name: Check for changes
         id: check_changes

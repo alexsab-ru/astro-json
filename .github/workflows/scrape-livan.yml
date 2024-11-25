@@ -44,19 +44,7 @@ jobs:
           OUTPUT_PATHS: "./src/livan-samara.ru/data/dealer_price.json"
 
       - name: Scrape livan-motors.ru
-        run: node .github/scripts/scrape.js
-        env:
-          BRAND: "livan"
-          URL: "https://livan-motors.ru/model/"
-          ITEM_XPATH: "//img[starts-with(@src, 'https://livan-motors.ru/storage/model')]/parent::*"
-          ID_XPATH: "concat('livan-', substring-before(substring-after(./a[contains(text(),'Подробнее')][starts-with(@href, 'https://livan-motors.ru/model/')]/@href, '/model/'), '/'))"
-          MODEL_XPATH: "substring-after(./div[@class='text-xl leading-none mb-6']/text(),'LIVAN ')"
-          PRICE_XPATH: "translate(string(./div[@class='text-sm mb-6']/text()), translate(string(./div[@class='text-sm mb-6']/text()), '0123456789', ''), '')"
-          LINK_XPATH: "./a[contains(text(),'Подробнее')][starts-with(@href, 'https://livan-motors.ru/model/')]/@href"
-          OUTPUT_PATHS: "./src/livan-samara.ru/data/cars.json,./src/livanorenburg.ru/data/cars.json"
-          DEALERPRICE: 'dealer_price.json'
-          DEALERPRICEFIELD: 'Конечная цена'
-          DEALERBENEFITFIELD: 'Скидка'
+        run: pnpm run scrape-livan
 
       - name: Check for changes
         id: check_changes

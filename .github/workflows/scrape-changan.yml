@@ -36,16 +36,7 @@ jobs:
           pnpm install --no-frozen-lockfile
 
       - name: Scrape changanauto.ru
-        run: node .github/scripts/scrape.js
-        env:
-          BRAND: "changan"
-          URL: "https://changanauto.ru/models/"
-          ITEM_XPATH: "//a[contains(@class,'card_bg-hover')]"
-          ID_XPATH: "concat('changan-', substring-before(substring-after(@href, '/models/'),'/'))"
-          MODEL_XPATH: ".//span[contains(@class,'card__info-title')]/text()"
-          PRICE_XPATH: "translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), translate(string(.//span[contains(@class,'card__info-title')]/following-sibling::span[1]/text()), '0123456789', ''), '')"
-          LINK_XPATH: "./@href"
-          OUTPUT_PATHS: "./tmp/auto-team.pro/data/changan.json"
+        run: pnpm run scrape-changan
 
       - name: Check for changes
         id: check_changes

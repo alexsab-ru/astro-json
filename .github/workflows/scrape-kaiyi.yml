@@ -54,15 +54,7 @@ jobs:
           OUTPUT_PATHS: "./src/kaiyi-samara.ru/data/dealer_price.json"
 
       - name: Scrape kaiyi-auto.ru
-        run: node .github/scripts/extractData.js
-        env:
-          BRAND: 'kaiyi'
-          URL: 'https://kaiyi-auto.ru/models/'
-          REGEXP: '\$\{JSON\.stringify\((\{"menuType":.*)\).replace\('
-          DEALERPRICE: 'dealer_price.json'
-          DEALERPRICEFIELD: 'Конечная цена'
-          DEALERBENEFITFIELD: 'Скидка'
-          OUTPUT_PATHS: "./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data/cars.json,./src/kaiyi-samara.ru/data/cars.json"
+        run: pnpm run extract-kaiyi
 
       - name: Check for changes
         id: check_changes
