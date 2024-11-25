@@ -201,7 +201,7 @@
             "autoname": "Jetour Dashing",
             "title": "Ежегодная национальная премия",
             "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "/img/badge.png",
+            "image": "/img/badge-2024.svg",
             "position": "right"
         },
         "autoplay": 6000
@@ -223,7 +223,7 @@
             "autoname": "Jetour Dashing",
             "title": "Ежегодная национальная премия",
             "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "/img/badge.png",
+            "image": "/img/badge-2024.svg",
             "position": "left"
         },
         "autoplay": ""

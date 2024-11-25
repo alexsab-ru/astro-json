@@ -305,8 +305,8 @@
         "price": "{{price-jetour-dashing}}",
         "benefit": "{{benefit-jetour-dashing}}",
         "badge": {
-            "img": "/img/badge-2023-with-text.png",
-            "imgModelPage": "/img/badge-2023-with-text-white.png",
+            "img": "/img/badge-2024-with-text.png",
+            "imgModelPage": "/img/badge-2024-with-text-white.png",
             "alt": "Автомобиль года"
         },
         "benefits": [
