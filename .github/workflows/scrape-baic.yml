@@ -6,6 +6,7 @@ on:
       - '.github/scripts/scrape.js'
       - '.github/scripts/sh/extract-baic.sh'
       - '.github/scripts/sh/get-baic-alpha.sh'
+      - '.github/scripts/sh/get-baic-samara.sh'
   workflow_call:
     outputs:
       changes:

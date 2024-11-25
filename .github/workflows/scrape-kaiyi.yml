@@ -6,6 +6,7 @@ on:
       - '.github/scripts/scrape.js'
       - '.github/scripts/sh/extract-kaiyi.sh'
       - '.github/scripts/sh/get-kaiyi-alpha.sh'
+      - '.github/scripts/sh/get-kaiyi-samara.sh'
   workflow_call:
     outputs:
       changes:
