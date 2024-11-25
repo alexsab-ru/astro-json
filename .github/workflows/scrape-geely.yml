@@ -22,20 +22,20 @@ jobs:
       name: ${{ github.ref == 'refs/heads/main' && 'production' || 'development' }}
 
     steps:
-        - name: Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-        - name: Set up Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-            node-version: '18'
+          node-version: '18'
 
-        - name: Install dependencies
+      - name: Install dependencies
         run: |
-            npm install -g pnpm
-            pnpm install --no-frozen-lockfile
+          npm install -g pnpm
+          pnpm install --no-frozen-lockfile
 
-        - name: Scrape geely-motors.com
+      - name: Scrape geely-motors.com
         run: node .github/scripts/scrape.js
         env:
             BRAND: "geely"
@@ -47,37 +47,37 @@ jobs:
             LINK_XPATH: "./@href"
             OUTPUT_PATHS: "./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-samara.ru/data/cars.json,./src/geely-partner-saratov.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json,./tmp/auto-team.pro/data/geely.json"
 
-        - name: Check for changes
+      - name: Check for changes
         id: check_changes
         run: |
-            if git diff --exit-code; then
+          if git diff --exit-code; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
             echo "script_output=$(echo -n 'Update Geely cars data' | base64)" >> $GITHUB_OUTPUT
-            elif git status -s; then
+          elif git status -s; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
             echo "script_output=$(echo -n 'Update Geely cars data' | base64)" >> $GITHUB_OUTPUT
-            else
+          else
             echo "changes=false" >> $GITHUB_ENV
             echo "changes=false" >> $GITHUB_OUTPUT
             echo "script_output=$(echo -n '' | base64)" >> $GITHUB_OUTPUT
-            fi
+          fi
         continue-on-error: true
 
-        - name: Commit files
+      - name: Commit files
         if: |
-            env.changes == 'true' && 
-            github.event_name != 'workflow_call'  # Не делаем коммит если вызван из основного workflow
+          env.changes == 'true' && 
+          github.event_name != 'workflow_call'  # Не делаем коммит если вызван из основного workflow
         run: |
-            git config --local user.email "support+actions@github.com"
-            git config --local user.name "github-actions-bot"
-            if [[ $(find ./src -type f -name "*.json") ]]; then git add $(find ./src -type f -name "*.json"); fi
-            git commit -m "Update Geely cars data" -a || echo "No changes to commit"
-            git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-            git push origin $GITHUB_REF_NAME
+          git config --local user.email "support+actions@github.com"
+          git config --local user.name "github-actions-bot"
+          if [[ $(find ./src -type f -name "*.json") ]]; then git add $(find ./src -type f -name "*.json"); fi
+          git commit -m "Update Geely cars data" -a || echo "No changes to commit"
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          git push origin $GITHUB_REF_NAME
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     outputs:
       changes: ${{ steps.check_changes.outputs.changes }}
