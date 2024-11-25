@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '.github/scripts/scrape.js'
+      - '.github/scripts/sh/extract-baic.sh'
+      - '.github/scripts/sh/get-baic-alpha.sh'
   workflow_call:
     outputs:
       changes:

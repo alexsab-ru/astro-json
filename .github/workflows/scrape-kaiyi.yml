@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '.github/scripts/scrape.js'
+      - '.github/scripts/sh/extract-kaiyi.sh'
+      - '.github/scripts/sh/get-kaiyi-alpha.sh'
   workflow_call:
     outputs:
       changes:

@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/scripts/scrape.js'
+      - '.github/scripts/sh/scrape-changan.sh'
   workflow_call:
     outputs:
       changes:
