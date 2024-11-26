@@ -62,7 +62,7 @@
         "complectations": [
             {
                 "name": "Voyage",
-                "price": 3759000,
+                "price": 3859000,
                 "bodytype": "Внедорожник",
                 "engine": "2.0 м3",
                 "engine_power": "245",
@@ -72,7 +72,7 @@
             },
             {
                 "name": "Expedition",
-                "price": 4249000,
+                "price": 3929000,
                 "bodytype": "Внедорожник",
                 "engine": "2.0 м3",
                 "engine_power": "245",
