@@ -63,7 +63,7 @@
         "complectations": [
             {
                 "name": "Active",
-                "price": 2023990,
+                "price": 2126190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -73,7 +73,7 @@
             },
             {
                 "name": "Style",
-                "price": 2190990,
+                "price": 2236190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -83,7 +83,7 @@
             },
             {
                 "name": "Prestige",
-                "price": 2290990,
+                "price": 2336190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -209,7 +209,7 @@
         "complectations": [
             {
                 "name": "Active",
-                "price": 2222990 ,
+                "price": 2335190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -219,7 +219,7 @@
             },
             {
                 "name": "Style",
-                "price": 2412990,
+                "price": 2455190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "177",
@@ -229,7 +229,7 @@
             },
             {
                 "name": "Prestige",
-                "price": 2787990,
+                "price": 2830190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "177",
@@ -239,7 +239,7 @@
             },
             {
                 "name": "Prestige+",
-                "price": 2892990,
+                "price": 2935190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "177",
