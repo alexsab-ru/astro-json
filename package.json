@@ -8,6 +8,7 @@
     "get-baic-alpha": "sh ./.github/scripts/sh/get-baic-alpha.sh",
     "get-baic-samara": "sh ./.github/scripts/sh/get-baic-samara.sh",
     "get-belgee-samara": "sh ./.github/scripts/sh/get-belgee-samara.sh",
+    "get-jac-samara": "sh ./.github/scripts/sh/get-jac-samara.sh",
     "get-jetour-alpha": "sh ./.github/scripts/sh/get-jetour-alpha.sh",
     "get-kaiyi-alpha": "sh ./.github/scripts/sh/get-kaiyi-alpha.sh",
     "get-kaiyi-samara": "sh ./.github/scripts/sh/get-kaiyi-samara.sh",
