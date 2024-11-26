@@ -77,7 +77,7 @@ jobs:
       - name: Commit files
         if: |
           env.changes == 'true' && 
-          github.event_name != 'workflow_call'  # Не делаем коммит если вызван из основного workflow
+          github.event_name != 'workflow_call'
         run: |
           git config --local user.email "support+actions@github.com"
           git config --local user.name "github-actions-bot"
@@ -96,7 +96,7 @@ jobs:
     needs: scrape
     if: |
       needs.scrape.outputs.script_output != '' && 
-      github.event_name != 'workflow_call'  # Не отправляем уведомление если вызван из основного workflow
+      github.event_name != 'workflow_call'
     uses: ./.github/workflows/github-telegram.yml
     with:
       additional-text: |
