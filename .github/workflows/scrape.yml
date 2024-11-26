@@ -163,6 +163,7 @@ jobs:
         run: pnpm run extract-kaiyi
 
       - name: Scrape dealer price для baic-alpha.ru
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
         run: pnpm run get-baic-alpha
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
