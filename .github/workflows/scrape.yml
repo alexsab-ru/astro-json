@@ -11,7 +11,33 @@ on:
       - '.github/scripts/scrape.js'
       - '.github/scripts/scrape.py'
       - '.github/workflows/scrape.yml'
-  workflow_dispatch:  # Позволяет вручную запускать этот workflow
+  workflow_dispatch:
+    inputs:
+      brand:
+        description: 'Select brand to scrape'
+        type: choice
+        required: true
+        options:
+          - all
+          - geely
+          - belgee
+          - jac
+          - jetour
+          - livan
+          - gac
+          - changan
+          - kaiyi
+          - baic
+      commit_changes:
+        description: 'Commit changes to repository'
+        type: boolean
+        required: true
+        default: true
+      send_notification:
+        description: 'Send Telegram notification'
+        type: boolean
+        required: true
+        default: true
 
 jobs:
   scrape_all:
@@ -36,57 +62,71 @@ jobs:
             pnpm install --no-frozen-lockfile
 
       - name: Run Geely scraper
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'geely' }}
         run: pnpm run scrape-geely
 
       - name: Scrape dealer price belgee-samara.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'belgee' }}
         run: pnpm run get-belgee-samara
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape belgee.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'belgee' }}
         run: pnpm run scrape-belgee
 
       - name: Scrape dealer price jac-samara.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'jac' }}
         run: pnpm run get-jac-samara
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape jaccar.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'jac' }}
         run: pnpm run scrape-jac
 
       - name: Scrape dealer price jetour-alpha.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'jetour' }}
         run: pnpm run get-jetour-alpha
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape jetour-ru.com
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'jetour' }}
         run: pnpm run scrape-jetour
 
       - name: Scrape dealer price livan-alpha.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'livan' }}
         run: pnpm run get-livan-alpha
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape livan-motors.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'livan' }}
         run: pnpm run scrape-livan
 
       - name: Scrape gac.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'gac' }}
         run: pnpm run scrape-gac
 
       - name: Scrape changanauto.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'changan' }}
         run: pnpm run scrape-changan
 
       - name: Scrape dealer price for kaiyi-alpha.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'kaiyi' }}
         run: pnpm run get-kaiyi-alpha
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price for kaiyi-samara.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'kaiyi' }}
         run: pnpm run get-kaiyi-samara
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape kaiyi-auto.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'kaiyi' }}
         run: pnpm run extract-kaiyi
 
       - name: Scrape dealer price для baic-alpha.ru
@@ -95,31 +135,41 @@ jobs:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price для baic-samara.ru
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'baic' }}
         run: pnpm run get-baic-samara
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Extract BAIC data
+        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'baic' }}
         run: pnpm run extract-baic
 
       - name: Merge JSON for auto-team.pro
+        if: ${{ github.event.inputs.brand == 'all' || github.event_name == 'schedule' }}
         run: pnpm run mergeJson
 
       - name: Check for changes
         id: check_changes
         run: |
           if git diff --exit-code; then
-            echo 'check_changes true — git diff'
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "script_output=$(echo -n 'Update cars from website' | base64)" >> $GITHUB_OUTPUT
+            BRAND_NAME="${{ github.event.inputs.brand }}"
+            if [[ "$BRAND_NAME" == "all" ]]; then
+              echo "script_output=$(echo -n 'Updated all brands data' | base64)" >> $GITHUB_OUTPUT
+            else
+              echo "script_output=$(echo -n "Updated $BRAND_NAME data" | base64)" >> $GITHUB_OUTPUT
+            fi
           elif git status -s; then
-            echo 'check_changes true — git status'
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "script_output=$(echo -n 'Update cars from website' | base64)" >> $GITHUB_OUTPUT
+            BRAND_NAME="${{ github.event.inputs.brand }}"
+            if [[ "$BRAND_NAME" == "all" ]]; then
+              echo "script_output=$(echo -n 'Updated all brands data' | base64)" >> $GITHUB_OUTPUT
+            else
+              echo "script_output=$(echo -n "Updated $BRAND_NAME data" | base64)" >> $GITHUB_OUTPUT
+            fi
           else
-            echo 'check_changes else'
             echo "changes=false" >> $GITHUB_ENV
             echo "changes=false" >> $GITHUB_OUTPUT
             echo "script_output=$(echo -n '' | base64)" >> $GITHUB_OUTPUT
@@ -127,7 +177,9 @@ jobs:
         continue-on-error: true
 
       - name: Commit files
-        if: env.changes == 'true'
+        if: |
+          env.changes == 'true' && 
+          (github.event_name == 'schedule' || github.event.inputs.commit_changes == 'true')
         run: |
             git config --local user.email "support+actions@github.com"
             git config --local user.name "github-actions-bot"
@@ -144,7 +196,9 @@ jobs:
   
   notify_telegram:
     needs: scrape_all
-    if: ${{ needs.scrape_all.outputs.script_output != '' }}
+    if: |
+      needs.scrape.outputs.script_output != '' && 
+      (github.event_name == 'schedule' || github.event.inputs.send_notification == 'true')
     uses: ./.github/workflows/github-telegram.yml
     with:
       additional-text: |
