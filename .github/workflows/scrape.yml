@@ -61,72 +61,106 @@ jobs:
             npm install -g pnpm
             pnpm install --no-frozen-lockfile
 
+      # Определяем, какой бренд запускать
+      - name: Set brand to scrape
+        id: set_brand
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "brand=${{ github.event.inputs.brand }}" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.event_name }}" == "schedule" ]]; then
+            echo "brand=all" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
+            # Проверяем измененные файлы и определяем бренд
+            CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
+            if echo "$CHANGED_FILES" | grep -q "scrape-geely"; then
+              echo "brand=geely" >> $GITHUB_OUTPUT
+            elif echo "$CHANGED_FILES" | grep -q "scrape-belgee"; then
+              echo "brand=belgee" >> $GITHUB_OUTPUT
+            elif echo "$CHANGED_FILES" | grep -q "scrape-jac"; then
+              echo "brand=jac" >> $GITHUB_OUTPUT
+            elif echo "$CHANGED_FILES" | grep -q "scrape-jetour"; then
+              echo "brand=jetour" >> $GITHUB_OUTPUT
+            elif echo "$CHANGED_FILES" | grep -q "scrape-livan"; then
+              echo "brand=livan" >> $GITHUB_OUTPUT
+            elif echo "$CHANGED_FILES" | grep -q "scrape-gac"; then
+              echo "brand=gac" >> $GITHUB_OUTPUT
+            elif echo "$CHANGED_FILES" | grep -q "scrape-changan"; then
+              echo "brand=changan" >> $GITHUB_OUTPUT
+            elif echo "$CHANGED_FILES" | grep -q "extract-kaiyi"; then
+              echo "brand=kaiyi" >> $GITHUB_OUTPUT
+            elif echo "$CHANGED_FILES" | grep -q "extract-baic"; then
+              echo "brand=baic" >> $GITHUB_OUTPUT
+            else
+              echo "brand=all" >> $GITHUB_OUTPUT
+            fi
+          fi
+
       - name: Run Geely scraper
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'geely' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'geely' }}
         run: pnpm run scrape-geely
 
       - name: Scrape dealer price belgee-samara.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'belgee' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'belgee' }}
         run: pnpm run get-belgee-samara
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape belgee.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'belgee' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'belgee' }}
         run: pnpm run scrape-belgee
 
       - name: Scrape dealer price jac-samara.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'jac' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jac' }}
         run: pnpm run get-jac-samara
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape jaccar.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'jac' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jac' }}
         run: pnpm run scrape-jac
 
       - name: Scrape dealer price jetour-alpha.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'jetour' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jetour' }}
         run: pnpm run get-jetour-alpha
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape jetour-ru.com
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'jetour' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jetour' }}
         run: pnpm run scrape-jetour
 
       - name: Scrape dealer price livan-alpha.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'livan' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'livan' }}
         run: pnpm run get-livan-alpha
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape livan-motors.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'livan' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'livan' }}
         run: pnpm run scrape-livan
 
       - name: Scrape gac.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'gac' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'gac' }}
         run: pnpm run scrape-gac
 
       - name: Scrape changanauto.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'changan' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'changan' }}
         run: pnpm run scrape-changan
 
       - name: Scrape dealer price for kaiyi-alpha.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'kaiyi' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
         run: pnpm run get-kaiyi-alpha
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price for kaiyi-samara.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'kaiyi' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
         run: pnpm run get-kaiyi-samara
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape kaiyi-auto.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'kaiyi' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
         run: pnpm run extract-kaiyi
 
       - name: Scrape dealer price для baic-alpha.ru
@@ -135,17 +169,17 @@ jobs:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price для baic-samara.ru
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'baic' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
         run: pnpm run get-baic-samara
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Extract BAIC data
-        if: ${{ github.event.inputs.brand == 'all' || github.event.inputs.brand == 'baic' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
         run: pnpm run extract-baic
 
       - name: Merge JSON for auto-team.pro
-        if: ${{ github.event.inputs.brand == 'all' || github.event_name == 'schedule' }}
+        if: ${{ steps.set_brand.outputs.brand == 'all' }}
         run: pnpm run mergeJson
 
       - name: Check for changes
@@ -154,7 +188,7 @@ jobs:
           if git diff --exit-code; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
-            BRAND_NAME="${{ github.event.inputs.brand }}"
+            BRAND_NAME="${{ steps.set_brand.outputs.brand }}"
             if [[ "$BRAND_NAME" == "all" ]]; then
               echo "script_output=$(echo -n 'Updated all brands data' | base64)" >> $GITHUB_OUTPUT
             else
@@ -163,7 +197,7 @@ jobs:
           elif git status -s; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
-            BRAND_NAME="${{ github.event.inputs.brand }}"
+            BRAND_NAME="${{ steps.set_brand.outputs.brand }}"
             if [[ "$BRAND_NAME" == "all" ]]; then
               echo "script_output=$(echo -n 'Updated all brands data' | base64)" >> $GITHUB_OUTPUT
             else
