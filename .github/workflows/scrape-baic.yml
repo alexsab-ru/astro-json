@@ -1,9 +1,10 @@
-name: Scrape Geely Data
+name: Scrape Baic Data
 
 on:
   push:
     paths:
-      - '.github/scripts/scrape.js'
+      - '.github/scripts/extractData.js'
+      - '.github/scripts/getDealerData.js'
       - '.github/scripts/sh/extract-baic.sh'
       - '.github/scripts/sh/get-baic-alpha.sh'
       - '.github/scripts/sh/get-baic-samara.sh'
@@ -27,33 +28,39 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Восстанавливаем кэш, если workflow вызван через workflow_call
+      - name: Restore dependencies
+        if: github.event_name == 'workflow_call'
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}
+          
+      # Устанавливаем зависимости только если workflow запущен напрямую
       - name: Set up Node.js
+        if: github.event_name != 'workflow_call'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
       - name: Install dependencies
+        if: github.event_name != 'workflow_call'
         run: |
           npm install -g pnpm
           pnpm install --no-frozen-lockfile
 
       - name: Scrape dealer price для baic-alpha.ru
-        run: node .github/scripts/getDealerData.js
+        run: pnpm run get-baic-alpha
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
-          QUERY_STRING: "SELECT C, D, E, F WHERE A='Альфа' and B='Baic'"
-          KEY_COLUMN: "Модель"
-          OUTPUT_PATHS: "./src/baic-alpha.ru/data/dealer_price.json"
 
       - name: Scrape dealer price для baic-samara.ru
-        run: node .github/scripts/getDealerData.js
+        run: pnpm run get-baic-samara
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
-          QUERY_STRING: "SELECT C, D, E, F WHERE A='Мега' and B='Baic'"
-          KEY_COLUMN: "Модель"
-          OUTPUT_PATHS: "./src/baic-samara.ru/data/dealer_price.json"
 
-      - name: Scrape baic-auto.ru
+      - name: Extract BAIC data
         run: pnpm run extract-baic
 
       - name: Check for changes
@@ -62,11 +69,11 @@ jobs:
           if git diff --exit-code; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "script_output=$(echo -n 'Update Geely cars data' | base64)" >> $GITHUB_OUTPUT
+            echo "script_output=$(echo -n 'Update Baic cars data' | base64)" >> $GITHUB_OUTPUT
           elif git status -s; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "script_output=$(echo -n 'Update Geely cars data' | base64)" >> $GITHUB_OUTPUT
+            echo "script_output=$(echo -n 'Update Baic cars data' | base64)" >> $GITHUB_OUTPUT
           else
             echo "changes=false" >> $GITHUB_ENV
             echo "changes=false" >> $GITHUB_OUTPUT
@@ -74,6 +81,7 @@ jobs:
           fi
         continue-on-error: true
 
+      # Коммитим изменения только если workflow запущен напрямую
       - name: Commit files
         if: |
           env.changes == 'true' && 
@@ -82,7 +90,7 @@ jobs:
           git config --local user.email "support+actions@github.com"
           git config --local user.name "github-actions-bot"
           if [[ $(find ./src -type f -name "*.json") ]]; then git add $(find ./src -type f -name "*.json"); fi
-          git commit -m "Update Geely cars data" -a || echo "No changes to commit"
+          git commit -m "Update Baic cars data" -a || echo "No changes to commit"
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           git push origin $GITHUB_REF_NAME
         env:

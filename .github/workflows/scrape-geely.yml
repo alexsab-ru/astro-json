@@ -3,7 +3,6 @@ name: Scrape Geely Data
 on:
   push:
     paths:
-      - '.github/scripts/scrape.js'
       - '.github/scripts/sh/scrape-geely.sh'
   workflow_call:
     outputs:
@@ -25,17 +24,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Восстанавливаем кэш, если workflow вызван через workflow_call
+      - name: Restore dependencies
+        if: github.event_name == 'workflow_call'
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}
+        
+      # Устанавливаем зависимости только если workflow запущен напрямую
       - name: Set up Node.js
+        if: github.event_name != 'workflow_call'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
       - name: Install dependencies
+        if: github.event_name != 'workflow_call'
         run: |
           npm install -g pnpm
           pnpm install --no-frozen-lockfile
 
-      - name: Scrape geely-motors.com
+      - name: Run Geely scraper
         run: pnpm run scrape-geely
 
       - name: Check for changes
@@ -56,6 +67,7 @@ jobs:
           fi
         continue-on-error: true
 
+      # Коммитим изменения только если workflow запущен напрямую
       - name: Commit files
         if: |
           env.changes == 'true' && 

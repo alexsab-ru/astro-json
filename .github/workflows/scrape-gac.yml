@@ -1,9 +1,8 @@
-name: Scrape Geely Data
+name: Scrape Gac Data
 
 on:
   push:
     paths:
-      - '.github/scripts/scrape.js'
       - '.github/scripts/sh/scrape-gac.sh'
   workflow_call:
     outputs:
@@ -25,12 +24,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Восстанавливаем кэш, если workflow вызван через workflow_call
+      - name: Restore dependencies
+        if: github.event_name == 'workflow_call'
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}
+        
+      # Устанавливаем зависимости только если workflow запущен напрямую
       - name: Set up Node.js
+        if: github.event_name != 'workflow_call'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
       - name: Install dependencies
+        if: github.event_name != 'workflow_call'
         run: |
           npm install -g pnpm
           pnpm install --no-frozen-lockfile
@@ -44,11 +55,11 @@ jobs:
           if git diff --exit-code; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "script_output=$(echo -n 'Update Geely cars data' | base64)" >> $GITHUB_OUTPUT
+            echo "script_output=$(echo -n 'Update Gac cars data' | base64)" >> $GITHUB_OUTPUT
           elif git status -s; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "script_output=$(echo -n 'Update Geely cars data' | base64)" >> $GITHUB_OUTPUT
+            echo "script_output=$(echo -n 'Update Gac cars data' | base64)" >> $GITHUB_OUTPUT
           else
             echo "changes=false" >> $GITHUB_ENV
             echo "changes=false" >> $GITHUB_OUTPUT
@@ -56,6 +67,7 @@ jobs:
           fi
         continue-on-error: true
 
+      # Коммитим изменения только если workflow запущен напрямую
       - name: Commit files
         if: |
           env.changes == 'true' && 
@@ -64,7 +76,7 @@ jobs:
           git config --local user.email "support+actions@github.com"
           git config --local user.name "github-actions-bot"
           if [[ $(find ./src -type f -name "*.json") ]]; then git add $(find ./src -type f -name "*.json"); fi
-          git commit -m "Update Geely cars data" -a || echo "No changes to commit"
+          git commit -m "Update Gac cars data" -a || echo "No changes to commit"
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           git push origin $GITHUB_REF_NAME
         env:
