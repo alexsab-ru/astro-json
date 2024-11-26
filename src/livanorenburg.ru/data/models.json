@@ -152,6 +152,12 @@
                 "name": "Синий",
                 "carImage": "/img/models/x6pro/colors/blue.webp",
                 "style": ""
+            },
+            {
+                "id": "green",
+                "name": "Зеленый",
+                "carImage": "/img/models/x6pro/colors/green.webp",
+                "style": ""
             }
         ],
         "feed_names": [
