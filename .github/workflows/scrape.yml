@@ -35,65 +35,89 @@ jobs:
             npm install -g pnpm
             pnpm install --no-frozen-lockfile
 
-      - name: Run Geely Workflow
-        uses: ./.github/workflows/scrape-geely.yml
-        id: geely
+      - name: Run Geely scraper
+        run: pnpm run scrape-geely
 
-      - name: Run Belgee Workflow
-        uses: ./.github/workflows/scrape-belgee.yml
-        id: belgee
+      - name: Scrape dealer price belgee-samara.ru
+        run: pnpm run get-belgee-samara
+        env:
+          CSV_URL: ${{ secrets.CSV_ALPHA }}
 
-      - name: Run Jac Workflow
-        uses: ./.github/workflows/scrape-jac.yml
-        id: jac
+      - name: Scrape belgee.ru
+        run: pnpm run scrape-belgee
 
-      - name: Run Jetour Workflow
-        uses: ./.github/workflows/scrape-jetour.yml
-        id: jetour
+      - name: Scrape dealer price jac-samara.ru
+        run: pnpm run get-jac-samara
+        env:
+          CSV_URL: ${{ secrets.CSV_ALPHA }}
 
-      - name: Run Livan Workflow
-        uses: ./.github/workflows/scrape-livan.yml
-        id: livan
+      - name: Scrape jaccar.ru
+        run: pnpm run scrape-jac
 
-      - name: Run Gac Workflow
-        uses: ./.github/workflows/scrape-gac.yml
-        id: gac
+      - name: Scrape dealer price jetour-alpha.ru
+        run: pnpm run get-jetour-alpha
+        env:
+          CSV_URL: ${{ secrets.CSV_ALPHA }}
 
-      - name: Run Changan Workflow
-        uses: ./.github/workflows/scrape-changan.yml
-        id: changan
+      - name: Scrape jetour-ru.com
+        run: pnpm run scrape-jetour
 
-      - name: Run Kaiyi Workflow
-        uses: ./.github/workflows/scrape-kaiyi.yml
-        id: kaiyi
+      - name: Scrape dealer price livan-alpha.ru
+        run: pnpm run get-livan-alpha
+        env:
+          CSV_URL: ${{ secrets.CSV_ALPHA }}
 
-      - name: Run Baic Workflow
-        uses: ./.github/workflows/scrape-baic.yml
-        id: baic
+      - name: Scrape livan-motors.ru
+        run: pnpm run scrape-livan
+
+      - name: Scrape gac.ru
+        run: pnpm run scrape-gac
+
+      - name: Scrape changanauto.ru
+        run: pnpm run scrape-changan
+
+      - name: Scrape dealer price for kaiyi-alpha.ru
+        run: pnpm run get-kaiyi-alpha
+        env:
+          CSV_URL: ${{ secrets.CSV_ALPHA }}
+
+      - name: Scrape dealer price for kaiyi-samara.ru
+        run: pnpm run get-kaiyi-samara
+        env:
+          CSV_URL: ${{ secrets.CSV_ALPHA }}
+
+      - name: Scrape kaiyi-auto.ru
+        run: pnpm run extract-kaiyi
+
+      - name: Scrape dealer price для baic-alpha.ru
+        run: pnpm run get-baic-alpha
+        env:
+          CSV_URL: ${{ secrets.CSV_ALPHA }}
+
+      - name: Scrape dealer price для baic-samara.ru
+        run: pnpm run get-baic-samara
+        env:
+          CSV_URL: ${{ secrets.CSV_ALPHA }}
+
+      - name: Extract BAIC data
+        run: pnpm run extract-baic
 
       - name: Merge JSON for auto-team.pro
-        run: node .github/scripts/mergeJson.js
-        env:
-          INPUT_PATHS: "./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/geely.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
-          OUTPUT_PATHS: "./src/auto-team.pro/data/cars.json"
+        run: pnpm run mergeJson
 
       - name: Check for changes
         id: check_changes
         run: |
-          if [[ "${{ steps.geely.outputs.changes }}" == "true" ]] || \
-             [[ "${{ steps.belgee.outputs.changes }}" == "true" ]] || \
-             [[ "${{ steps.jac.outputs.changes }}" == "true" ]] || \
-             [[ "${{ steps.jetour.outputs.changes }}" == "true" ]] || \
-             [[ "${{ steps.livan.outputs.changes }}" == "true" ]] || \
-             [[ "${{ steps.gac.outputs.changes }}" == "true" ]] || \
-             [[ "${{ steps.changan.outputs.changes }}" == "true" ]] || \
-             [[ "${{ steps.kaiyi.outputs.changes }}" == "true" ]] || \
-             [[ "${{ steps.baic.outputs.changes }}" == "true" ]] || \
-             git diff --exit-code || git status -s; then
-            echo 'check_changes true'
+          if git diff --exit-code; then
+            echo 'check_changes true — git diff'
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "script_output=$(echo -n 'Update all cars data' | base64)" >> $GITHUB_OUTPUT
+            echo "script_output=$(echo -n 'Update cars from website' | base64)" >> $GITHUB_OUTPUT
+          elif git status -s; then
+            echo 'check_changes true — git status'
+            echo "changes=true" >> $GITHUB_ENV
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "script_output=$(echo -n 'Update cars from website' | base64)" >> $GITHUB_OUTPUT
           else
             echo 'check_changes else'
             echo "changes=false" >> $GITHUB_ENV
