@@ -50,7 +50,7 @@
         "complectations": [
             {
                 "name": "Luxury",
-                "price": 3395990,
+                "price": 3573190,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -60,7 +60,7 @@
             },
             {
                 "name": "Flagship",
-                "price": 3715990,
+                "price": 3803190,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -70,7 +70,7 @@
             },
             {
                 "name": "Flagship Sport",
-                "price": 3815990,
+                "price": 3903190,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "238",
@@ -176,7 +176,7 @@
         "complectations": [
             {
                 "name": "Comfort",
-                "price": 2399990,
+                "price": 2518190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -186,7 +186,7 @@
             },
             {
                 "name": "Luxury",
-                "price": 2610990,
+                "price": 2668190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -196,7 +196,7 @@
             },
             {
                 "name": "Flagship",
-                "price": 2730990,
+                "price": 2788190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -206,7 +206,7 @@
             },
             {
                 "name": "Flagship Sport",
-                "price": 2770990,
+                "price": 2828190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -332,7 +332,7 @@
         "complectations": [
             {
                 "name": "Luxury",
-                "price": 2755990,
+                "price": 2938190,
                 "bodytype": "Седан",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -342,7 +342,7 @@
             },
             {
                 "name": "Flagship",
-                "price": 2988990,
+                "price": 3096190,
                 "bodytype": "Седан",
                 "engine": "2.0 м3",
                 "engine_power": "200",
