@@ -67,32 +67,31 @@ jobs:
         run: |
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "brand=${{ github.event.inputs.brand }}" >> $GITHUB_OUTPUT
-          elif [[ "${{ github.event_name }}" == "schedule" ]]; then
-            echo "brand=all" >> $GITHUB_OUTPUT
           elif [[ "${{ github.event_name }}" == "push" ]]; then
-            # Проверяем измененные файлы и определяем бренд
-            CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
-            if echo "$CHANGED_FILES" | grep -q "scrape-geely"; then
+            # Определяем бренд по измененным файлам из github.event.path
+            if [[ "${{ github.event.path }}" == *"geely"* ]]; then
               echo "brand=geely" >> $GITHUB_OUTPUT
-            elif echo "$CHANGED_FILES" | grep -q "scrape-belgee"; then
+            elif [[ "${{ github.event.path }}" == *"belgee"* ]]; then
               echo "brand=belgee" >> $GITHUB_OUTPUT
-            elif echo "$CHANGED_FILES" | grep -q "scrape-jac"; then
+            elif [[ "${{ github.event.path }}" == *"jac"* ]]; then
               echo "brand=jac" >> $GITHUB_OUTPUT
-            elif echo "$CHANGED_FILES" | grep -q "scrape-jetour"; then
+            elif [[ "${{ github.event.path }}" == *"jetour"* ]]; then
               echo "brand=jetour" >> $GITHUB_OUTPUT
-            elif echo "$CHANGED_FILES" | grep -q "scrape-livan"; then
+            elif [[ "${{ github.event.path }}" == *"livan"* ]]; then
               echo "brand=livan" >> $GITHUB_OUTPUT
-            elif echo "$CHANGED_FILES" | grep -q "scrape-gac"; then
+            elif [[ "${{ github.event.path }}" == *"gac"* ]]; then
               echo "brand=gac" >> $GITHUB_OUTPUT
-            elif echo "$CHANGED_FILES" | grep -q "scrape-changan"; then
+            elif [[ "${{ github.event.path }}" == *"changan"* ]]; then
               echo "brand=changan" >> $GITHUB_OUTPUT
-            elif echo "$CHANGED_FILES" | grep -q "extract-kaiyi"; then
+            elif [[ "${{ github.event.path }}" == *"kaiyi"* ]]; then
               echo "brand=kaiyi" >> $GITHUB_OUTPUT
-            elif echo "$CHANGED_FILES" | grep -q "extract-baic"; then
+            elif [[ "${{ github.event.path }}" == *"baic"* ]]; then
               echo "brand=baic" >> $GITHUB_OUTPUT
             else
               echo "brand=all" >> $GITHUB_OUTPUT
             fi
+          else
+            echo "brand=all" >> $GITHUB_OUTPUT
           fi
 
       - name: Run Geely scraper
