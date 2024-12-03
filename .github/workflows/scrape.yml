@@ -231,7 +231,7 @@ jobs:
       - name: Commit files
         if: |
           env.changes == 'true' && 
-          (github.event_name == 'schedule' || github.event.inputs.commit_changes == 'true')
+          (github.event_name == 'push' || github.event_name == 'schedule' || github.event.inputs.commit_changes == 'true')
         run: |
             git config --local user.email "support+actions@github.com"
             git config --local user.name "github-actions-bot"
@@ -250,7 +250,7 @@ jobs:
     needs: scrape_all
     if: |
       needs.scrape.outputs.script_output != '' && 
-      (github.event_name == 'schedule' || github.event.inputs.send_notification == 'true')
+      (github.event_name == 'push' || github.event_name == 'schedule' || github.event.inputs.send_notification == 'true')
     uses: ./.github/workflows/github-telegram.yml
     with:
       additional-text: |
