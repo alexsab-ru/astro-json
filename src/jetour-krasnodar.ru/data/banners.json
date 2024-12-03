@@ -44,7 +44,13 @@
         "btnUrl": "#common-modal",
         "dataTitle": "JETOUR T2. Узнать подробнее",
         "dataFormName": "Узнать подробнее. JETOUR T2. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "left"
+        },
         "autoplay": 7000
     },
     {
@@ -65,7 +71,8 @@
             "autoname": "Jetour Dashing",
             "title": "Ежегодная национальная премия",
             "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "/img/badge.png"
+            "image": "/img/badge-2024.svg",
+            "position": "center"
         },
         "autoplay": 7000
     },
@@ -86,7 +93,8 @@
             "autoname": "Jetour Dashing",
             "title": "Ежегодная национальная премия",
             "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "/img/badge.png"
+            "image": "/img/badge-2024.svg",
+            "position": "center"
         },
         "autoplay": 7000
     },
@@ -121,7 +129,13 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Узнать условия кредита без страховок",
         "dataFormName": "Узнать подробнее. Только честные условия без навязанных страховок. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "right"
+        },
         "autoplay": 7000
     }
 ]

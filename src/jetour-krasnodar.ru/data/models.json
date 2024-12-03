@@ -1,13 +1,180 @@
 [
     {
         "mark_id": "Jetour",
+        "id": "x90plus",
+        "show": true,
+        "homeImg": "/img/models/x90plus/bg.jpg",
+        "slogan": "Вместительный кроссовер на все случаи жизни",
+        "name": "X90 Plus",
+        "price": "{{price-jetour-x90plus}}",
+        "benefit": "{{benefit-jetour-x90plus}}",
+        "badge": {
+            "img": "/img/badge-4x4-2024.png",
+            "alt": "Внедорожник года"
+        },
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X90 Plus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X90 Plus",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x90plus/colors/c4b.png",
+        "colors": [
+            {
+                "id": "c5b",
+                "name": "Арктический белый",
+                "carImage": "/img/models/x90plus/colors/c5b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c5bkm.png);"
+            },
+            {
+                "id": "c1b",
+                "name": "Галактический черный",
+                "carImage": "/img/models/x90plus/colors/c1b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c1bkm.png);"
+            },
+            {
+                "id": "c2b",
+                "name": "Океанический синий",
+                "carImage": "/img/models/x90plus/colors/c2b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c2bkm.png);"
+            },
+            {
+                "id": "c4b",
+                "name": "Фиолетовый дракон",
+                "carImage": "/img/models/x90plus/colors/c4b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c4bkm.png);"
+            },
+            {
+                "id": "c3b",
+                "name": "Призрачный серый",
+                "carImage": "/img/models/x90plus/colors/c3b.png",
+                "style": "background-image: url(/img/models/x90plus/colors/c3bkm.png);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 2599900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2899900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 3099900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 2.0",
+                "price": 3219900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 2.0 (7 мест)",
+                "price": 3269900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2850",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4858",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1925",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6-2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "275/375",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Jetour",
         "id": "t2",
         "show": true,
         "homeImg": "/img/models/t2/bg.jpg",
         "slogan": "Внедорожник для путешествий",
         "name": "T2",
         "price": "{{price-jetour-t2}}",
-        "benefit": "",
+        "benefit": "{{benefit-jetour-t2}}",
+        "badge": {
+            "img": "/img/badge-4x4-2024.png",
+            "alt": "Внедорожник года"
+        },
         "benefits": [
             {
                 "url": "#common-modal",
@@ -136,7 +303,12 @@
         "slogan": "Городской кроссовер",
         "name": "Dashing",
         "price": "{{price-jetour-dashing}}",
-        "benefit": "",
+        "benefit": "{{benefit-jetour-dashing}}",
+        "badge": {
+            "img": "/img/badge-2024-with-text.png",
+            "imgModelPage": "/img/badge-2024-with-text-white.png",
+            "alt": "Автомобиль года"
+        },
         "benefits": [
             {
                 "url": "#common-modal",
@@ -301,172 +473,13 @@
     },
     {
         "mark_id": "Jetour",
-        "id": "x90plus",
-        "show": true,
-        "homeImg": "/img/models/x90plus/bg.jpg",
-        "slogan": "Вместительный кроссовер на все случаи жизни",
-        "name": "X90 Plus",
-        "price": "{{price-jetour-x90plus}}",
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. X90 Plus",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. X90 Plus",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "/img/models/x90plus/colors/c4b.png",
-        "colors": [
-            {
-                "id": "c5b",
-                "name": "Арктический белый",
-                "carImage": "/img/models/x90plus/colors/c5b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c5bkm.png);"
-            },
-            {
-                "id": "c1b",
-                "name": "Галактический черный",
-                "carImage": "/img/models/x90plus/colors/c1b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c1bkm.png);"
-            },
-            {
-                "id": "c2b",
-                "name": "Океанический синий",
-                "carImage": "/img/models/x90plus/colors/c2b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c2bkm.png);"
-            },
-            {
-                "id": "c4b",
-                "name": "Фиолетовый дракон",
-                "carImage": "/img/models/x90plus/colors/c4b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c4bkm.png);"
-            },
-            {
-                "id": "c3b",
-                "name": "Призрачный серый",
-                "carImage": "/img/models/x90plus/colors/c3b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c3bkm.png);"
-            }
-        ],
-        "complectations": [
-            {
-                "name": "Comfort",
-                "price": 2599900,
-                "bodytype": "Кроссовер",
-                "engine": "1.6 м3",
-                "engine_power": "190",
-                "gear_rus": "7 DCT",
-                "drive": "Передний",
-                "fuel": "Бензин"
-            },
-            {
-                "name": "Luxury",
-                "price": 2899900,
-                "bodytype": "Кроссовер",
-                "engine": "1.6 м3",
-                "engine_power": "190",
-                "gear_rus": "7 DCT",
-                "drive": "Передний",
-                "fuel": "Бензин"
-            },
-            {
-                "name": "Elite",
-                "price": 3099900,
-                "bodytype": "Кроссовер",
-                "engine": "2.0 м3",
-                "engine_power": "245",
-                "gear_rus": "7 DCT",
-                "drive": "Передний",
-                "fuel": "Бензин"
-            },
-            {
-                "name": "Luxury 2.0",
-                "price": 3219900,
-                "bodytype": "Кроссовер",
-                "engine": "2.0 м3",
-                "engine_power": "245",
-                "gear_rus": "7 DCT",
-                "drive": "Передний",
-                "fuel": "Бензин"
-            },
-            {
-                "name": "Luxury 2.0 (7 мест)",
-                "price": 3269900,
-                "bodytype": "Кроссовер",
-                "engine": "2.0 м3",
-                "engine_power": "245",
-                "gear_rus": "7 DCT",
-                "drive": "Передний",
-                "fuel": "Бензин"
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2850",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4858",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1925",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.6-2.0",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "275/375",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Передний",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Jetour",
         "id": "x70plus",
         "show": true,
         "homeImg": "/img/models/x70plus/bg.jpg",
         "slogan": "Семейный кроссовер для совместных путешествий",
         "name": "X70 Plus",
         "price": "{{price-jetour-x70plus}}",
-        "benefit": "",
+        "benefit": "{{benefit-jetour-x70plus}}",
         "benefits": [
             {
                 "url": "#common-modal",
