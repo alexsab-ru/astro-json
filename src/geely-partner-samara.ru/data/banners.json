@@ -70,7 +70,7 @@
         "view": "link",
         "videoUrl": "",
         "imageUrl": "/img/banners/new_okavango.webp",
-        "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='/img/models/Okavango/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Okavango'><span class='uppercase block font-medium'>Больше для семьи</span>",
+        "title": "<img src='/img/models/Okavango/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Okavango'>",
         "descr": "",
         "btn": "Подробнее",
         "btnUrl": "/models/geely-okavango/",
