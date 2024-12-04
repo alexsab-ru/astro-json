@@ -2,7 +2,7 @@
     {
         "mark_id": "Knewstar",
         "id": "001",
-        "show": true,
+        "show": false,
         "homeImg": "/img/models/bg.webp",
         "slogan": "Современные технологии",
         "name": "Новый 001",
