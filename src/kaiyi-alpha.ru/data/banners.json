@@ -6,12 +6,12 @@
         "view": "popup-link",
         "videoUrl": "https://alexsab.ru/video/kaiyi-e5-compress.mp4",
         "imageUrl": "/img/banners/banner.webp",
-        "title": "Выгода до {{benefitb-kaiyi-e5}}<sup>*</sup> на&nbsp;KAIYI.",
-        "descr": "Акция до&nbsp;{{lastDay}}.{{month}}.{{year}}. Оставьте заявку. Автомобили в&nbsp;наличии",
+        "title": "Цена {{priceb-kaiyi-e5}}<sup>*</sup> на автомобиль Kaiyi E5.",
+        "descr": "Без дополнительных условий. Кредит/Наличные",
         "btn": "Узнать подробнее",
         "btnUrl": "#common-modal",
-        "dataTitle": "Узнать подробнее",
-        "dataFormName": "Узнать подробнее. Выгода до {{benefitb-kaiyi-e5}}. Баннер",
+        "dataTitle": "Kaiyi E5 за {{priceb-kaiyi-e5}}",
+        "dataFormName": "Узнать подробнее. Цена {{priceb-kaiyi-e5}} на автомобиль Kaiyi E5. Баннер",
         "badge": "",
         "autoplay": 7000
     }
