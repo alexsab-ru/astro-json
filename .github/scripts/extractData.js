@@ -57,7 +57,7 @@ async function extractData() {
     }
 
     // Преобразуем объекты в нужный формат
-    const result = cards.map(card => {
+    const result = await Promise.all(cards.map(async card => {
         const linkParts = card.link.url.split('/').filter(part => part !== ''); // Убираем пустые значения
         let id = linkParts[linkParts.length - 1]; // Берем последнее непустое значение
 
@@ -65,16 +65,11 @@ async function extractData() {
         if (!id.startsWith(`${brandPrefix}-`)) {
             id = `${brandPrefix}-${id}`;
         }
-        let price = card.price.value.replace(/\D/g, ''); // Убираем все нецифровые символы из цены
-        if(price > 9999999) {
-            price = processNumber(price);
-        }
-        if(price > 9999999) {
-            price = card.price.value.toLowerCase();
-            price = price.replace(/text-decoration: line-through">от/g, 'text-decoration: line-through; display: block;"><span class=\"text-sm text-gray-400 inline-block line-through\">от</span>');
-            price = price.replace(/span> от/g, 'span> <span class="text-sm text-gray-400 inline-block ">от</span>');
-            price = JSON.stringify(price).slice(1, -1);;
-        }
+
+        console.log("value: ", card.price.value.toLowerCase());
+        let price = await extractMinPrice(card.price.value.toLowerCase());
+        console.log("price: ", price);
+        
         return {
             id: id,
             model: card.title.text.value,
@@ -82,10 +77,25 @@ async function extractData() {
             benefit: "",
             link: card.link.url
         };
-    });
+    }));
 
     return result;
 }
+
+async function extractMinPrice(str) {
+    // Находим все цены в строке с помощью регулярного выражения
+    await Promise.resolve();
+  
+    const prices = str.match(/(?:от|ОТ\s+)?([\d\s]+)\s*₽/g)
+        ?.map(price => {
+            console.log("price 1: ", price);
+            const number = price.replace(/[^\d]/g, '');
+            console.log("number 1: ", number);
+        return parseInt(number, 10);
+        }) || [];
+        
+    return Math.min(...prices);
+};
 
 async function readJsonFile(filePath) {
     try {
