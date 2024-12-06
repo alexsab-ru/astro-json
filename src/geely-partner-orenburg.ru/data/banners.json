@@ -3,6 +3,28 @@
         "id": 0,
         "show": true,
         "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/specials/zimnie-shiny-v-podarok/geely-winter-tires-1920x1080-notxt.webp",
+        "title": "Зимние шины в подарок",
+        "descr": "На весь модельный ряд в Geely Партнер-Авто",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/zimnie-shiny-v-podarok",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/specials/zimnie-shiny-v-podarok/plashka-winter-tires-geely-oren-H.webp",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
         "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/banners/geely_monjaro.webp",
