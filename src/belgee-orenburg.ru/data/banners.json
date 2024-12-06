@@ -3,6 +3,28 @@
         "id": 0,
         "show": true,
         "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/specials/zimnie-shiny-v-podarok/belgee-winter-tires-1920x1080-notext.webp",
+        "title": "Зимние шины в подарок",
+        "descr": "На весь модельный ряд в Belgee Партнер-Авто",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/zimnie-shiny-v-podarok",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/specials/zimnie-shiny-v-podarok/belgee-winter-tires-icon.webp",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
         "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/banners/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
