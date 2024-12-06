@@ -9,7 +9,7 @@
   {
     "id": "baic-u5_plus-cng",
     "model": "BAIC U5 PLUS CNG",
-    "price": "2090522",
+    "price": 2090522,
     "benefit": "",
     "link": "/models/u5_plus-cng/"
   },
@@ -44,7 +44,7 @@
   {
     "id": "baic-bj40",
     "model": "BAIC BJ40",
-    "price": "3875000",
+    "price": 3875000,
     "benefit": "",
     "link": "/models/bj40/"
   }

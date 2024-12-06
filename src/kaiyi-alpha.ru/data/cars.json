@@ -2,28 +2,28 @@
   {
     "id": "kaiyi-e5",
     "model": "KAIYI E5",
-    "price": "NaN",
+    "price": "1400000",
     "benefit": "665000",
     "link": "/models/kaiyi-e5/"
   },
   {
     "id": "kaiyi-x3",
     "model": "KAIYI X3",
-    "price": "NaN",
+    "price": "1500000",
     "benefit": "450000",
     "link": "/models/kaiyi-x3/"
   },
   {
     "id": "kaiyi-x3pro",
     "model": "KAIYI X3 PRO",
-    "price": "<s>от 2 514 900 ₽</s><br><b  style=\\\"font-size: 24px;\\\">от 1 730 900 ₽</b>",
+    "price": 1730900,
     "benefit": "350000",
     "link": "/models/kaiyi-x3pro/"
   },
   {
     "id": "kaiyi-x7-kunlun",
     "model": "KAIYI X7 Kunlun",
-    "price": "NaN",
+    "price": "2475000",
     "benefit": "180000",
     "link": "/models/kaiyi-x7-kunlun/"
   }

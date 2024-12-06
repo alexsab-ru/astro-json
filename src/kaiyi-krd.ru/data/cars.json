@@ -2,28 +2,28 @@
   {
     "id": "kaiyi-e5",
     "model": "KAIYI E5",
-    "price": "<s>от 2 115 000 ₽</s><br><b  style=\\\"font-size: 24px;\\\">от 1 400 000 ₽</b>",
+    "price": 1400000,
     "benefit": "",
     "link": "/models/kaiyi-e5/"
   },
   {
     "id": "kaiyi-x3",
     "model": "KAIYI X3",
-    "price": "<s>от 2 238 000 ₽</s><br><b  style=\\\"font-size: 24px;\\\">от 1 500 000 ₽</b>",
+    "price": 1500000,
     "benefit": "",
     "link": "/models/kaiyi-x3/"
   },
   {
     "id": "kaiyi-x3pro",
     "model": "KAIYI X3 PRO",
-    "price": "<s>от 2 514 900 ₽</s><br><b  style=\\\"font-size: 24px;\\\">от 1 730 900 ₽</b>",
+    "price": 1730900,
     "benefit": "",
     "link": "/models/kaiyi-x3pro/"
   },
   {
     "id": "kaiyi-x7-kunlun",
     "model": "KAIYI X7 Kunlun",
-    "price": "<s>от 2 997 900 ₽</s><br><b  style=\\\"font-size: 24px;\\\">от 2 475 000 ₽</b>",
+    "price": 2475000,
     "benefit": "",
     "link": "/models/kaiyi-x7-kunlun/"
   }
