@@ -3002,7 +3002,8 @@
         "slogan": "Дорогу молодым",
         "name": "GS3",
         "price": "{{price-gac-gs3}}",
-        "thumb": "{{thumb-gac-gs3}}",
+        "benefit": "{{benefit-gac-gs3}}",
+        "thumb": "/img/models/gac/gs3/colors/blue.webp",
         "colors": [
             {
                 "id": "white",
@@ -3084,7 +3085,8 @@
         "slogan": "Открывайте новые горизонты",
         "name": "M8",
         "price": "{{price-gac-m8}}",
-        "thumb": "{{thumb-gac-m8}}",
+        "benefit": "{{benefit-gac-m8}}",
+        "thumb": "/img/models/gac/m8/colors/gold.webp",
         "colors": [
             {
                 "id": "white",
@@ -3097,6 +3099,18 @@
                 "name": "Элегантный черный",
                 "carImage": "/img/models/gac/m8/colors/black.webp",
                 "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/gac/m8/colors/blue.webp",
+                "style": ""
+            },
+            {
+                "id": "green",
+                "name": "Зеленый металлик",
+                "carImage": "/img/models/gac/m8/colors/green.webp",
+                "style": "background-color: #00747c;"
             },
             {
                 "id": "gold",
@@ -3159,8 +3173,9 @@
         "homeImg": "/img/models/gac/gs8ii/bg.webp",
         "slogan": "Новое поколение превосходства",
         "name": "GS8 II",
-        "price": "{{price-gac-gs8-ii}}",
-        "thumb": "{{thumb-gac-gs8-ii}}",
+        "price": "{{price-gac-gs8}}",
+        "benefit": "{{benefit-gac-gs8}}",
+        "thumb": "/img/models/gac/gs8ii/colors/green.webp",
         "colors": [
             {
                 "id": "green",
@@ -3247,7 +3262,8 @@
         "homeImg": "/img/models/gac/gs8/bg.webp",
         "slogan": "Стремись к большему",
         "name": "GS8",
-        "price": "",
+        "price": "{{price-gac-gs8}}",
+        "benefit": "{{benefit-gac-gs8}}",
         "profit": 300000,
         "thumb": "/img/models/gac/gs8/colors/gray.webp",
         "colors": [
@@ -3342,7 +3358,8 @@
         "homeImg": "/img/models/gac/gs5/bg.webp",
         "slogan": "Удовольствие везти, наслаждение кататься",
         "name": "GS5",
-        "price": "",
+        "price": "{{price-gac-gs5}}",
+        "benefit": "{{benefit-gac-gs5}}",
         "profit": 200000,
         "thumb": "/img/models/gac/gs5/colors/gray.webp",
         "colors": [
@@ -3437,7 +3454,8 @@
         "homeImg": "/img/models/gac/gn8/bg.webp",
         "slogan": "Лучшее для тех, кто дорог",
         "name": "GN8",
-        "price": "",
+        "price": "{{price-gac-gn8}}",
+        "benefit": "{{benefit-gac-gn8}}",
         "profit": "",
         "thumb": "/img/models/gac/gn8/colors/blue.webp",
         "colors": [
