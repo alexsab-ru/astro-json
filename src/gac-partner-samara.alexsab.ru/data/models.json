@@ -178,8 +178,8 @@
         "homeImg": "/img/models/gs8ii/bg.webp",
         "slogan": "Новое поколение превосходства",
         "name": "GS8 II",
-        "price": "{{price-gac-gs8}}",
-        "benefit": "{{benefit-gac-gs8}}",
+        "price": "{{price-gac-gs8-ii}}",
+        "benefit": "{{benefit-gac-gs8-ii}}",
         "thumb": "/img/models/gs8ii/colors/green.webp",
         "colors": [
             {
@@ -267,8 +267,8 @@
         "homeImg": "/img/models/gs8/bg.webp",
         "slogan": "Стремись к большему",
         "name": "GS8",
-        "price": "{{price-gac-gs8}}",
-        "benefit": "{{benefit-gac-gs8}}",
+        "price": "{{price-gac-gs8-ii}}",
+        "benefit": "{{benefit-gac-gs8-ii}}",
         "profit": 300000,
         "thumb": "/img/models/gs8/colors/gray.webp",
         "colors": [
