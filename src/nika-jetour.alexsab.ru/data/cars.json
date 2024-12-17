@@ -28,6 +28,13 @@
     "link": "https://jetour-ru.com/models/x70plus"
   },
   {
+    "id": "jetour-",
+    "model": "X70",
+    "price": "2649000",
+    "benefit": "",
+    "link": "https://jetour-ru.com/"
+  },
+  {
     "id": "jetour-x90plus",
     "model": "X90 Plus",
     "price": "2759900",
