@@ -6,7 +6,7 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Инновации, расширяющие твои возможности",
         "name": "Sportage",
-        "price": "",
+        "price": 2849900,
         "benefit": "",
         "benefits": [
             {
@@ -80,6 +80,148 @@
         "feed_names": [
             "Sportage, V"
         ],
+        "complectations": [
+            {
+                "name": "Classic 6MT",
+                "price": 2849900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Classic 6AT",
+                "price": 2949900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 6AT",
+                "price": 3029900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 6MT",
+                "price": 3069900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6MT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe",
+                "price": 3124900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 6AT 4x4",
+                "price": 3129900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 6AT 4x4",
+                "price": 3224900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige",
+                "price": 3414900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.5",
+                "price": 3464900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style",
+                "price": 3609900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.5 8AT",
+                "price": 3654900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 2.5 8AT",
+                "price": 3849900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "X-Line",
+                "price": 3939900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "X-Line+",
+                "price": 4039900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -132,8 +274,8 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Сверхчеловеческие возможности",
         "name": "K5",
-        "price": 4049900,
-        "benefit": 250000,
+        "price": 2734900,
+        "benefit": "",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -206,6 +348,128 @@
         "feed_names": [
             "K5, III"
         ],
+        "complectations": [
+            {
+                "name": "Classic",
+                "price": 2734900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort",
+                "price": 2839900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe",
+                "price": 2924900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style",
+                "price": 3054900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige",
+                "price": 3094900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.5",
+                "price": 3194900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 2.5",
+                "price": 3324900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.5",
+                "price": 3364900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "GT Line",
+                "price": 3469900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "GT Line Red",
+                "price": 3469900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "GT Line+",
+                "price": 3569900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "GT Line+ Red",
+                "price": 3569900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -258,7 +522,7 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Играя главную роль",
         "name": "Sorento",
-        "price": 5850000,
+        "price": 3789900,
         "benefit": "",
         "benefits": [
             {
@@ -343,6 +607,168 @@
         ],
         "feed_names": [
         ],
+        "complectations": [
+            {
+                "name": "Classic",
+                "price": 3789900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort",
+                "price": 3949900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe",
+                "price": 4079900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 8DCT",
+                "price": 4269900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "179",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Prestige",
+                "price": 4329900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 3.5 8AT",
+                "price": 4329900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.2 8DCT",
+                "price": 4519900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium 2.5 6AT",
+                "price": 4549900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Black Edition",
+                "price": 4629900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 3.5 8AT",
+                "price": 4659900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "179",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium 2.2 8DCT",
+                "price": 4739900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium+ 2.2 8DCT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium+ (Brown) 2.2 8DCT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium 3.5 8AT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium+ (Brown) 3.5 8AT",
+                "price": 5009900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium+ 3.5 8AT",
+                "price": 5009900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
         "photos": "",
         "chars": {
             "seats": "5/7 мест",
@@ -383,7 +809,7 @@
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Полный",
+                "value": "Передний/Полный",
                 "measure": ""
             }
         ]
@@ -395,7 +821,7 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Играя главную роль",
         "name": "Новый Sorento",
-        "price": 5799900,
+        "price": 3789900,
         "benefit": 250000,
         "benefits": [
             {
@@ -438,6 +864,168 @@
         ],
         "feed_names": [
             "Sorento, IV Рестайлинг"
+        ],
+        "complectations": [
+            {
+                "name": "Classic",
+                "price": 3789900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort",
+                "price": 3949900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe",
+                "price": 4079900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 8DCT",
+                "price": 4269900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "179",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Prestige",
+                "price": 4329900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 3.5 8AT",
+                "price": 4329900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.2 8DCT",
+                "price": 4519900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium 2.5 6AT",
+                "price": 4549900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Black Edition",
+                "price": 4629900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 3.5 8AT",
+                "price": 4659900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "179",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium 2.2 8DCT",
+                "price": 4739900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium+ 2.2 8DCT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium+ (Brown) 2.2 8DCT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium 3.5 8AT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium+ (Brown) 3.5 8AT",
+                "price": 5009900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium+ 3.5 8AT",
+                "price": 5009900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
         ],
         "photos": "",
         "chars": {
