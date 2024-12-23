@@ -27,6 +27,28 @@
         "type": "",
         "view": "link",
         "videoUrl": "",
+        "imageUrl": "/img/specials/3to-v-podarok/3to-v-podarok-1920x1080-notxt.webp",
+        "title": "Улучшим предложение<br>на новый Geely",
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/3to-v-podarok",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/specials/3to-v-podarok/3to-v-podarok-badge.webp",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
         "imageUrl": "/img/specials/puteshestvie-v-pekin-s-geely/banner-1920x1080.webp",
         "title": "Акция GEELY: Выиграйте путешествие в Пекин!",
         "descr": "",
