@@ -2,7 +2,7 @@ name: Scrape Data
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # Запускается в 1 по Гринвичу
+    - cron: '0 1,13 * * *'  # Запускается в 1 по Гринвичу
   push:
     paths:
       - '.github/scripts/extractData.js'
