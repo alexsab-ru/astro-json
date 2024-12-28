@@ -1,6 +1,22 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/new_year_2025.webp",
+        "title": "🎉 С НОВЫМ ГОДОМ И РОЖДЕСТВОМ! 🎉",
+        "descr": "Узнайте режим работы нашего дилерского центра",
+        "btn": "Подробнее",
+        "btnUrl": "/news/rezhim-raboty",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "link",
