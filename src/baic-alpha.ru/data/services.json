@@ -1,4 +1,5 @@
 [
+    {"icon": "mdi:reload", "title": "Мойка днища. Антикор", "url": "/service-request/" },
     {"icon": "mdi:car-key", "title": "Новые автомобили", "url": "" },
     {"icon": "mdi:car", "title": "Тест-драйв", "url": "/test-drive/" },
     {"icon": "mdi:car-settings", "title": "Сервис", "url": "/service-request/" },
