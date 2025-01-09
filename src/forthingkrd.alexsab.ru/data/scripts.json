@@ -1,0 +1,41 @@
+{
+    "site": "jetour-krasnodar.ru",
+    "gtm": "GTM-NMDLDB3F",
+    "metrika": [
+        {
+            "id": "93806197",
+            "clickmap": true,
+            "trackLinks": true,
+            "accurateTrackBounce": true,
+            "webvisor": true
+        }
+    ],
+    "ga4": [
+        {
+            "id": "G-DH9GG8HK4H"
+        }
+    ],
+    "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "vk-rtrg": [
+        {
+            "id": ""
+        }
+    ],
+    "top.mail.ru": [
+        {
+            "id": ""
+        }
+    ],
+    "calltouch": {
+        "client_id": "",
+        "site_id": ""
+    },
+    "konget": "",
+    "streamwood": {
+        "code": "",
+        "quiz": ""
+    },
+    "widgets": [
+        ""
+    ]
+}
