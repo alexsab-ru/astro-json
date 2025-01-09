@@ -1,0 +1,1460 @@
+[
+    {
+        "mark_id": "Knewstar",
+        "id": "001",
+        "show": false,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "Современные технологии",
+        "name": "Новый 001",
+        "price": "3573190",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. 001",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. 001",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/001/thumb.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/001/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/001/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/001/colors/gray.webp",
+                "style": ""
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": 3573190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 3803190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship Sport",
+                "price": 3903190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "238",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2700",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4590",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1878",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "325",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "cityray",
+        "show": true,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "Энергия города",
+        "name": "Новый Cityray",
+        "price": "{{price-geely-cityray}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Cityray",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Cityray",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Cityray/thumb.webp",
+        "colors": [
+            {
+                "id": "light-blue",
+                "name": "Голубой металлик",
+                "carImage": "/img/models/Cityray/colors/light-blue.webp",
+                "style": "background-color: #87a6d4;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/Cityray/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Cityray/colors/gray.webp",
+                "style": "background-color: #646971;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 2518190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2668190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 2788190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship Sport",
+                "price": 2828190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+            "Cityray"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2701",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4510",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1865",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "270",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний (2WD)",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "preface",
+        "show": true,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Preface",
+        "price": "{{price-geely-preface}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Preface",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Preface",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Preface/gray-blue_500w.webp",
+        "colors": [
+            {
+                "id": "gray-purple",
+                "name": "Серо-фиолетовый металлик",
+                "carImage": "/img/models/Preface/colors/gray-purple.webp",
+                "style": "background-color: #898baa;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/Preface/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Preface/colors/gray.webp",
+                "style": "background-color: #5c5d61;"
+            },
+            {
+                "id": "gray-blue",
+                "name": "Серо-голубой металлик",
+                "carImage": "/img/models/Preface/colors/gray-blue.webp",
+                "style": "background-color: #92a7b2;"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый металлик",
+                "carImage": "/img/models/Preface/colors/green.webp",
+                "style": "background-color: #718377;"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/Preface/colors/black.webp",
+                "style": ""
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": 2938190,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 3096190,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+            "Preface, I Рестайлинг 2"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCV"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4544",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1831",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "325",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "geometry-g6",
+        "show": false,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Geometry G6",
+        "price": 2139990,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Geometry G6",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Geometry G6",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Geometry G6/gray-500w.webp",
+        "colors": [
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Geometry G6/colors/gray.webp",
+                "style": "background-color: #a3a6a0;"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Электро",
+            "gearbox": "AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2700",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4752",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1804",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "150",
+                "measure": "кВт"
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "310",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "geely-atlas-2024",
+        "show": true,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Новый Atlas",
+        "price": "{{price-geely-atlas-2024}}",
+        "benefit": 350000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Новый Atlas",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Новый Atlas",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Atlas-2024/starry-blue-metallic_500px.webp",
+        "colors": [
+            {
+                "id": "gray",
+                "name": "Серо-голубой металлик",
+                "carImage": "/img/models/Atlas-2024/colors/starry-blue-metallic.webp",
+                "style": "background-color: #4c5698;"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/Atlas-2024/colors/black-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/Atlas-2024/colors/silver-metallic.webp",
+                "style": "background-color: #828793;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/Atlas-2024/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "racing-green",
+                "name": "Зеленый металлик",
+                "carImage": "/img/models/Atlas-2024/colors/racing-green.webp",
+                "style": "background-color: #487f76;"
+            }
+        ],
+        "feed_names": [
+            "Atlas, II"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2777",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4670",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1900",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "325",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "2WD",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "atlaspro",
+        "show": true,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Atlas Pro",
+        "price": "{{price-geely-atlaspro}}",
+        "benefit": 600000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Atlas Pro",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Atlas Pro",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Atlas%20Pro/black-metallic_500px.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/Atlas%20Pro/colors/red-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Atlas%20Pro/colors/gray-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/Atlas%20Pro/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/Atlas%20Pro/colors/silver-metallic.webp",
+                "style": "background-color: #B9B4B4;"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/Atlas%20Pro/colors/black-metallic.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT/7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2670",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4544",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1831",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "255",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "2WD/4WD",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "emgrand",
+        "show": true,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Emgrand",
+        "price": "{{price-geely-emgrand}}",
+        "benefit": 350000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Emgrand",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Emgrand",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Emgrand/emgrand_500px.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/Emgrand/colors/white-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Голубой металлик",
+                "carImage": "/img/models/Emgrand/colors/blue-metallic.webp",
+                "style": "background-color: #50AECE;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Emgrand/colors/gray-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "gold",
+                "name": "Золотой металлик",
+                "carImage": "/img/models/Emgrand/colors/gold-metallic.webp",
+                "style": "background-color: #AC9579;"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/Emgrand/colors/black-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "gray-blue",
+                "name": "Серо-голубой металлик",
+                "carImage": "/img/models/Emgrand/colors/gray-blue-metallic.webp",
+                "style": "background-color: #bdc9d5;"
+            }
+        ],
+        "feed_names": [
+            "Emgrand, II"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "5MT/6AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2650",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4638",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1822",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "122",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "coolray",
+        "show": false,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Coolray",
+        "price": 2024990,
+        "benefit": 410000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Coolray",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Coolray",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Coolray/blue-metallic_500px.webp",
+        "colors": [
+            {
+                "id": "blue",
+                "name": "Голубой металлик",
+                "carImage": "/img/models/Coolray/colors/blue-metallic.webp",
+                "style": "background-color: #50AECE;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Coolray/colors/grey.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/Coolray/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/Coolray/colors/silver-metallic.webp",
+                "style": "background-color: #B9B4B4;"
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/Coolray/colors/white.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2600",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4330",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1800",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "150",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "geely-coolray-2023",
+        "show": true,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Новый Coolray",
+        "price": "{{price-geely-coolray-2023}}",
+        "benefit": 300000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Новый Coolray",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Новый Coolray",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/New Coolray/unicorn-grey_500px.webp",
+        "colors": [
+            {
+                "id": "unicorn-grey",
+                "name": "Unicorn Grey / Лиловый перламутр",
+                "carImage": "/img/models/New Coolray/colors/unicorn-grey.webp",
+                "style": "background-color: #bdadc2;"
+            },
+            {
+                "id": "magnetic-grey",
+                "name": "Magnetic Grey / Серый",
+                "carImage": "/img/models/New Coolray/colors/magnetic-grey.webp",
+                "style": "background-color: #696969;"
+            },
+            {
+                "id": "crystal-white",
+                "name": "Crystal White / Белый",
+                "carImage": "/img/models/New Coolray/colors/crystal-white.webp",
+                "style": "background-color: #f3f4f6;"
+            },
+            {
+                "id": "cyber-blue",
+                "name": "Cyber Blue / Голубой металлик",
+                "carImage": "/img/models/New Coolray/colors/cyber-blue.webp",
+                "style": "background-color: #49B6D0;"
+            },
+            {
+                "id": "bright-vermilion",
+                "name": "Bright Vermilion / Красный",
+                "carImage": "/img/models/New Coolray/colors/bright-vermilion.webp",
+                "style": "background-color: #ff0000;"
+            }
+        ],
+        "feed_names": [
+            "Coolray, I",
+            "Coolray, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2600",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4380",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1810",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "147",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "newtugella",
+        "show": false,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Tugella",
+        "price": "{{price-geely-newtugella}}",
+        "benefit": 680000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Tugella",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Tugella",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Tugella/black-metallic_500px.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/Tugella/colors/black-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/Tugella/colors/white-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "gray-blue",
+                "name": "Серо-голубой металлик",
+                "carImage": "/img/models/Tugella/colors/gray-blue-metallic.webp",
+                "style": "background-color: #ABB5C1;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Tugella/colors/gray-metallic.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2700",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4605",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1878",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "350",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "geely-okavango",
+        "show": true,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Новый OKAVANGO",
+        "price": "{{price-geely-okavango}}",
+        "benefit": 450000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. OKAVANGO",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. OKAVANGO",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Okavango/indigo-blue_500px.webp",
+        "colors": [
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/Okavango/colors/indigo-blue.webp",
+                "style": "background-color: #0000ff;"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/Okavango/colors/ink-black.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Okavango/colors/basalt-gray.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/Okavango/colors/crystal-white.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Okavango",
+            "Okavango, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2825",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4860",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1910",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "325",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "monjaro",
+        "show": true,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Monjaro",
+        "price": "{{price-geely-monjaro}}",
+        "benefit": 450000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Monjaro",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Monjaro",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Monjaro/emerald-metallic_500px.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/Monjaro/colors/black-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "emerald",
+                "name": "Изумрудный металлик",
+                "carImage": "/img/models/Monjaro/colors/emerald-metallic.webp",
+                "style": "background-color: #518D9B;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Monjaro/colors/gray-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/Monjaro/colors/silver-metallic.webp",
+                "style": "background-color: #B8B3B3;"
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/Monjaro/colors/white-metallic.webp",
+                "style": ""
+            },
+            {
+                "id": "lomo-gray",
+                "name": "Серый матовый",
+                "carImage": "/img/models/Monjaro/colors/lomo-gray.webp",
+                "style": "background-color: #5e6775;"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2845",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4770",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1895",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "350",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
+        "id": "belgee-x50",
+        "show": false,
+        "homeImg": "/img/models/bg.webp",
+        "slogan": "",
+        "name": "Belgee X50",
+        "price": "{{price-geely-belgee-x50}}",
+        "benefit": 320000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Belgee X50",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Belgee X50",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/Belgee X50/black_500px.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/Belgee X50/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/Belgee X50/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/Belgee X50/colors/gray.webp",
+                "style": "background-color: #4e5253;"
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/Belgee X50/colors/silver.webp",
+                "style": "background-color: #afaeb3;"
+            },
+            {
+                "id": "red",
+                "name": "Красный",
+                "carImage": "/img/models/Belgee X50/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Голубой металлик",
+                "carImage": "/img/models/Belgee X50/colors/blue.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2600",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4330",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1800",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "150",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    }
+]
