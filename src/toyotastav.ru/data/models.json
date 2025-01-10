@@ -4,6 +4,16 @@
         "id": "Camry",
         "name": "Camry",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "4844500"
     },
     {
@@ -11,6 +21,16 @@
         "id": "Corolla",
         "name": "Corolla",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "1955000"
     },
     {
@@ -18,6 +38,16 @@
         "id": "Hiace",
         "name": "Hiace",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "2586000"
     },
     {
@@ -25,6 +55,16 @@
         "id": "Toyota C-HR",
         "name": "Toyota C-HR",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "2614000"
     },
     {
@@ -32,6 +72,16 @@
         "id": "Land Cruiser Prado",
         "name": "Land Cruiser Prado",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "7400000"
     },
     {
@@ -39,6 +89,16 @@
         "id": "Highlander",
         "name": "Highlander",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "3955000"
     },
     {
@@ -46,6 +106,16 @@
         "id": "Hilux",
         "name": "Hilux",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "5105000"
     },
     {
@@ -53,6 +123,16 @@
         "id": "RAV4",
         "name": "RAV4",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "4649000"
     },
     {
@@ -60,6 +140,16 @@
         "id": "Fortuner",
         "name": "Fortuner",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "3764000"
     },
     {
@@ -67,6 +157,16 @@
         "id": "Land Cruiser 300",
         "name": "Land Cruiser 300",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "12999000"
     },
     {
@@ -74,6 +174,16 @@
         "id": "Alphard",
         "name": "Alphard",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "7759000"
     },
     {
@@ -81,6 +191,16 @@
         "id": "Coaster",
         "name": "Coaster",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "5500000"
     },
     {
@@ -88,6 +208,16 @@
         "id": "Crown",
         "name": "Crown",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "3000000"
     },
     {
@@ -95,6 +225,16 @@
         "id": "Land Cruiser Prado",
         "name": "Совершенно новый Land Cruiser Prado",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "10599000"
     },
     {
@@ -102,6 +242,16 @@
         "id": "Camry",
         "name": "Camry",
         "show": true,
+        "chars": {},
+		"thumb": "/img/models/model-name/colors/color.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/model-name/colors/color.png",
+                "style": ""
+            }
+		],
         "price": "4549000"
     }
 ]
