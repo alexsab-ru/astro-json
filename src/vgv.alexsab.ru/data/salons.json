@@ -1,13 +1,13 @@
 [
     {
         "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (999) 123-45-67",
+        "address": "г. Краснодар, аул Новая Адыгея, ул. Тургеневское шоссе 25",
+        "phone":  "+7 (861) 279-59-79",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
-            "balloon": "/img/empty-locator.png",
-            "coords": [55.715873, 47.617700],
+            "zoom": 19,
+            "balloon": "/img/vgv-locator.svg",
+            "coords": [45.017729, 38.935428],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     }

@@ -1,20 +1,20 @@
 [
     {
-        "mark_id": "Tank",
-        "id": "300",
+        "mark_id": "VGV",
+        "id": "u70-pro",
         "show": true,
-        "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",
-        "slogan": "Следуй за открытиями",
-        "name": "300",
-        "price": 3649000,
-        "benefit": 450000,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Командный игрок",
+        "name": "U70PRO",
+        "price": 1199900,
+        "benefit": 200000,
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. TANK 300",
+                "data_form_name": "Выгодный трейд-ин. VGV U70PRO",
                 "view": "popup-link"
             },
             {
@@ -22,48 +22,251 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. TANK 300",
+                "data_form_name": "Выгодный кредит. VGV U70PRO",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/defc347ca8d1a334116ca45277d5a6dd.png",
+        "thumb": "/img/models/u70-pro/red-jam.webp",
         "colors": [
             {
-                "id": "red",
-                "name": "Красный Эльтон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
-                "style": "background-color: #ef2929;"
+                "id": "white-rose",
+                "name": "Белая роза",
+                "carImage": "/img/models/u70-pro/white-rose.webp",
+                "style": "background-color: #f1f1f1;"
             },
             {
-                "id": "orange",
-                "name": "Чарский Оранжевый, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/61aab46d6fccaf0d2a047925cf8f0684.png",
-                "style": "background-color: #df4c30;"
+                "id": "gray-lounge",
+                "name": "Серый лаунж",
+                "carImage": "/img/models/u70-pro/gray-lounge.webp",
+                "style": "background-color: #D9D9D9;"
             },
             {
-                "id": "gray",
-                "name": "Серый Шантар",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/db5a358aa9c6471a4f23ffd84270da78.png",
-                "style": "background-color: #c6c9ce;"
+                "id": "silver-rain",
+                "name": "Серебряный дождь",
+                "carImage": "/img/models/u70-pro/silver-rain.webp",
+                "style": "background:linear-gradient(90deg, #979797 0%, #ffffff 50%, #979797 100%);"
             },
             {
-                "id": "black",
-                "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/2c18b43a8d5223f07af8e4dcace56b77.png",
-                "style": "background-color: #212329;"
+                "id": "royal-blue",
+                "name": "Синий королевский",
+                "carImage": "/img/models/u70-pro/royal-blue.webp",
+                "style": "background:#004BBD;"
             },
             {
-                "id": "white",
-                "name": "Белый Ольхон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/0d372feb159f387bec68136ee77e6058.png",
-                "style": "background-color: #e6e7e8;"
+                "id": "red-jam",
+                "name": "Красный джем",
+                "carImage": "/img/models/u70-pro/red-jam.webp",
+                "style": "background:#951212;"
+            },
+            {
+                "id": "black-knight",
+                "name": "Черный рыцарь",
+                "carImage": "/img/models/u70-pro/black-knight.webp",
+                "style": "background:#000000;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort (5 мест)",
+                "price": 2199900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort (7 мест)",
+                "price": 2259900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Lifestyle (5 мест)",
+                "price": 2499900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Lifestyle (7 мест)",
+                "price": 2449900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Executive (7 мест)",
+                "price": 2549900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
         ],
         "photos": "",
         "chars": {
-            "seats": "5 мест",
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT/6MT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4825",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1870",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "207",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "VGV",
+        "id": "u75-plus",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Большое будущее",
+        "name": "U75PLUS",
+        "price": 2799900,
+        "benefit": 150000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. VGV U75PLUS",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. VGV U75PLUS",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/u75-plus/silver-rain.webp",
+        "colors": [
+            {
+                "id": "white-rose",
+                "name": "Белая роза",
+                "carImage": "/img/models/u75-plus/white-rose.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "gray-lounge",
+                "name": "Серый лаунж",
+                "carImage": "/img/models/u75-plus/gray-lounge.webp",
+                "style": "background-color: #D9D9D9;"
+            },
+            {
+                "id": "silver-rain",
+                "name": "Серебряный дождь",
+                "carImage": "/img/models/u75-plus/silver-rain.webp",
+                "style": "background:linear-gradient(90deg, #979797 0%, #ffffff 50%, #979797 100%);"
+            },
+            {
+                "id": "royal-blue",
+                "name": "Синий королевский",
+                "carImage": "/img/models/u75-plus/royal-blue.webp",
+                "style": "background:#004BBD;"
+            },
+            {
+                "id": "red-jam",
+                "name": "Красный джем",
+                "carImage": "/img/models/u75-plus/red-jam.webp",
+                "style": "background:#951212;"
+            },
+            {
+                "id": "black-knight",
+                "name": "Черный рыцарь",
+                "carImage": "/img/models/u75-plus/black-knight.webp",
+                "style": "background:#000000;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Executive (5 мест)",
+                "price": 2799900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Executive (7 мест)",
+                "price": 2849900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium (7 мест)",
+                "price": 2999900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
             "fuel": "Бензин",
             "gearbox": "8AT"
         },
@@ -71,19 +274,19 @@
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2750",
+                "value": "2800",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4760",
+                "value": "4825",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1930",
+                "value": "1870",
                 "measure": "мм"
             },
             {
@@ -101,108 +304,7 @@
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Полный",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Tank",
-        "id": "500",
-        "show": true,
-        "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",
-        "slogan": "Веди за собой",
-        "name": "500",
-        "price": 5599000,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. TANK 500",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. TANK 500",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/53b09ed72dd39e7ec7434d778c6ccfcf.png",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/7d13ba248ae0c07934c965490d5fedae.png",
-                "style": "background-color: #212329;"
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый Сихоте, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/d708dd4e6738a31a1d98056489ed524b.png",
-                "style": "background-color: #a2a4ab;"
-            },
-            {
-                "id": "gold",
-                "name": "Золото Рускеала, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/b8c097c6cdbdb52f8321f9f435b95ae3.png",
-                "style": "background-color: #b0a798;"
-            },
-            {
-                "id": "white",
-                "name": "Снежная Иремель, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/cdbe33850dd69e5018e62566f414ce1a.png",
-                "style": "background-color: #e6e7e8;"
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "9AT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2850",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4886",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1934",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "3.0",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "616",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Полный",
+                "value": "Передний",
                 "measure": ""
             }
         ]
