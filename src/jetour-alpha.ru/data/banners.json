@@ -1,6 +1,45 @@
 [
     {
         "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/jetour-dashing-green-1920w.webp",
+        "imagePosition": "bottom",
+        "title": "Распродажа остатков 2023 года!",
+        "descr": "Осталось 4 автомобиля Dashing,<br/>Честная выгода - {{benefitb-jetour-dashing}} <br/>Без лишних условий. <br/>Кредит\/Наличный расчет",
+        "btn": "Успеть купить",
+        "btnUrl": "/cars/?model=dashing&year=2023",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 3,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/x90_plus.webp",
+        "title": "Распродажа остатков 2023 года!",
+        "descr": "Осталось 5 автомобилей  X90PLUS <br/>Честная выгода - {{benefitb-jetour-x90plus}} <br/>3 ТО за наш счет Каско в подарок <br/>Без лишних условий. <br/>Кредит\/Наличный расчет",
+        "btn": "Выбрать автомобиль",
+        "btnUrl": "/cars/?model=x90+plus&year=2023",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "right"
+        },
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
         "show": false,
         "type": "",
         "view": "popup-link",
@@ -35,28 +74,6 @@
             "descr": "",
             "image": "/img/badge-4x4-2024.png",
             "position": "left"
-        },
-        "autoplay": 6000
-    },
-    {
-        "id": 3,
-        "show": true,
-        "type": "",
-        "view": "link",
-        "videoUrl": "",
-        "imageUrl": "/img/banners/x90_plus.webp",
-        "title": "Выгода {{benefitb-jetour-x90plus}} на X90 PLUS",
-        "descr": "Без лишних условий. Только в {{monthPrepositional}} {{year}}<br>3 ТО за наш счёт<br>Каско в подарок",
-        "btn": "Выбрать автомобиль",
-        "btnUrl": "/cars/",
-        "dataTitle": "Выбрать автомобиль",
-        "dataFormName": "Выбрать автомобиль. Выгода {{benefitb-jetour-x90plus}} на X90 Plus. Баннер",
-        "badge": {
-            "autoname": "",
-            "title": "",
-            "descr": "",
-            "image": "/img/badge-4x4-2024.png",
-            "position": "right"
         },
         "autoplay": 6000
     },
@@ -167,23 +184,6 @@
         "dataFormName": "Подробнее JETOUR X50",
         "badge": "",
         "autoplay": 14000
-    },
-    {
-        "id": 1,
-        "show": true,
-        "type": "",
-        "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/banners/jetour-dashing-green-1920w.webp",
-        "imagePosition": "bottom",
-        "title": "Распродажа остатков 2023 года!",
-        "descr": "Осталось 4 автомобиля Dashing,<br>и 5 автомобилей X90 Plus<br>Каско в подарок",
-        "btn": "Успеть купить",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Успей купить JETOUR DASHING 2023 года по&nbsp;специальной цене!",
-        "dataFormName": "Распродажа остатков 2023 года. Баннер",
-        "badge": "",
-        "autoplay": 7000
     },
     {
         "id": 1,
