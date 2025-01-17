@@ -155,7 +155,7 @@
         "videoUrl": "",
         "imageUrl": "/img/banners/photo_2024-09-04 10.53.16.webp",
         "title": "Специальное предложение.<br>Брутальный Х90 с выгодой до&nbsp;{{benefitb-jetour-x90plus}}.",
-        "descr": "Осталось несколько штук. Цена от {{priceb-jetour-x90plus}}.<br>До {{lastDay}} {{monthGenitive}} {{year}} г.<br>Каско в подарок",
+        "descr": "Осталось несколько штук. Цена от {{priceb-jetour-x90plus}}.<br>До {{lastDay}} {{monthGenitive}} {{year}} г.",
         "btn": "Успеть купить",
         "btnUrl": "#common-modal",
         "dataTitle": "Подробнее про JETOUR X90 от {{priceb-jetour-x90plus}} с выгодой до&nbsp;{{benefitb-jetour-x90plus}}",
