@@ -67,20 +67,46 @@ async function extractData() {
         }
 
         console.log("value: ", card.price.value.toLowerCase());
-        let price = await extractMinPrice(card.price.value.toLowerCase());
-        console.log("price: ", price);
+        const { benefit, cleanString } = await extractBenefit(card.price.value.toLowerCase());
+        const price = await extractMinPrice(cleanString);
+        console.log("price: ", price, benefit);
         
         return {
             id: id,
             model: card.title.text.value,
             price: price,
-            benefit: "",
+            benefit: benefit,
             link: card.link.url
         };
     }));
 
     return result;
 }
+
+async function extractBenefit(str) {
+    // Находим все цены в строке с помощью регулярного выражения
+    await Promise.resolve();
+  
+    const benefitMatch = str.match(/выгода\s+до\s+([\d\s]+)\s*₽/);
+        
+    if (!benefitMatch) {
+        return {
+            benefit: 0,
+            cleanString: str
+        };
+    }
+
+    // Извлекаем сумму выгоды
+    const benefitAmount = parseInt(benefitMatch[1].replace(/\s/g, ''), 10);
+    
+    // Удаляем информацию о выгоде из исходной строки
+    const cleanString = str.replace(/\s*выгода\s+до\s+[\d\s]+\s*₽/, '');
+
+    return {
+        benefit: benefitAmount,
+        cleanString: cleanString
+    };
+};
 
 async function extractMinPrice(str) {
     // Находим все цены в строке с помощью регулярного выражения
@@ -93,6 +119,11 @@ async function extractMinPrice(str) {
             console.log("number 1: ", number);
         return parseInt(number, 10);
         }) || [];
+
+    if (prices.length === 0) {
+        console.warn('Не найдено цен в строке:', str);
+        return 0;
+    }
         
     return Math.min(...prices);
 };
