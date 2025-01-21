@@ -114,7 +114,7 @@ async function saveJson(data, filePaths) {
                         }
                         if(jsonData[model] && jsonData[model][dealerBenefitField] != "") {
 
-                            car["benefit"] = car["benefit"] != "" ? Math.min(parseInt(car["benefit"]), jsonData[model][dealerBenefitField]).toString() : jsonData[model][dealerBenefitField].toString();
+                            car["benefit"] = car["benefit"] != "" ? Math.max(parseInt(car["benefit"]), jsonData[model][dealerBenefitField]).toString() : jsonData[model][dealerBenefitField].toString();
                         }
                         return car;
                     });
