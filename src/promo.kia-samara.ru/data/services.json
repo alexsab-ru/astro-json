@@ -1,6 +1,5 @@
 [
-    {"icon": "mdi:car-key", "title": "Новые автомобили", "url": "/cars/" },
-    {"icon": "mdi:car", "title": "Тест-драйв", "url": "/test-drive/" },
+    {"icon": "mdi:car-key", "title": "Заказ авто из KZ", "url": "/request-kz/" },
     {"icon": "mdi:car-settings", "title": "Сервис", "url": "/service-request/" },
     {"icon": "mdi:car-wash", "title": "Мойка", "url": "" },
     {"icon": "mdi:coffee", "title": "Кафе", "url": "" },
@@ -9,7 +8,6 @@
     {"icon": "mdi:car-3-plus", "title": "Автомобили с пробегом", "url": "/used_cars/" },
     {"icon": "mdi:autorenew","title": "Trade-in", "url": "" },
     {"icon": "mdi:car-battery", "title": "Продажа запасных частей", "url": "" },
-    {"icon": "mdi:cash-100", "title": "Выкуп автомобилей", "url": "" },
     {"icon": "mdi:credit-card-check","title": "Кредитование", "url": "" },
     {"icon": "mdi:shield-car","title": "Страхование", "url": ""}
 ]
