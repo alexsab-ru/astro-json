@@ -280,5 +280,148 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "Новый HAVAL",
+        "id": "h5",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "ЛЮБАЯ ЗАДАЧА ПО РАЗМЕРУ",
+        "name": "H5",
+        "price": 3699000,
+        "benefit": 200000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. HAVAL H5",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. HAVAL H5",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/h5/thumb.webp",
+        "colors": [
+            {
+                "id": "black-jade",
+                "name": "Черный нефрит",
+                "carImage": "/img/models/h5/black-jade.webp",
+                "style": "background-color: rgba(0, 0, 0, 1);"
+            },
+            {
+                "id": "snow-opal",
+                "name": "Снежный опал",
+                "carImage": "/img/models/h5/snow-opal.webp",
+                "style": "background-color:rgba(217, 218, 221, 1);"
+            },
+            {
+                "id": "foggy-basalt",
+                "name": "Туманный базальт",
+                "carImage": "/img/models/h5/foggy-basalt.webp",
+                "style": "background-color:rgba(151, 146, 145, 1);"
+            },
+            {
+                "id": "twilight-amethyst",
+                "name": "Сумеречный аметист",
+                "carImage": "/img/models/h5/twilight-amethyst.webp",
+                "style": "background-color:rgba(130, 130, 148, 1);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "ELITE 2.0T",
+                "price": 3699000,
+                "bodytype": "5-дверный универсал",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный 4WD (Part-time)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "PREMIUM 2.0T",
+                "price": 3999000,
+                "bodytype": "5-дверный универсал",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный 4WD (Part-time)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "ELITE 2.0D",
+                "price": 3949000,
+                "bodytype": "5-дверный универсал",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "8AT",
+                "drive": "Полный 4WD (Part-time)",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "PREMIUM 2.0D",
+                "price": 4249000,
+                "bodytype": "5-дверный универсал",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "8AT",
+                "drive": "Полный 4WD (Part-time)",
+                "fuel": "Дизель"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3140",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5190",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1905",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "380/400",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
     }
 ]
