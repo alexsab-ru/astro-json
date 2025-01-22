@@ -1,20 +1,20 @@
 [
     {
-        "mark_id": "Tank",
-        "id": "300",
+        "mark_id": "Новый HAVAL",
+        "id": "h9",
         "show": true,
-        "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",
-        "slogan": "Следуй за открытиями",
-        "name": "300",
-        "price": 3649000,
-        "benefit": 450000,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "ИНСТИНКТ ПОБЕДИТЕЛЯ",
+        "name": "H9",
+        "price": 4299000,
+        "benefit": 300000,
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. TANK 300",
+                "data_form_name": "Выгодный трейд-ин. HAVAL H9",
                 "view": "popup-link"
             },
             {
@@ -22,41 +22,77 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. TANK 300",
+                "data_form_name": "Выгодный кредит. HAVAL H9",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/defc347ca8d1a334116ca45277d5a6dd.png",
+        "thumb": "/img/models/h9/thumb.webp",
         "colors": [
             {
-                "id": "red",
-                "name": "Красный Эльтон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
-                "style": "background-color: #ef2929;"
+                "id": "dusky-emerald",
+                "name": "Сумрачный изумруд",
+                "carImage": "/img/models/h9/dusky-emerald.webp",
+                "style": "background-color: rgba(6, 66, 64, 1);"
             },
             {
-                "id": "orange",
-                "name": "Чарский Оранжевый, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/61aab46d6fccaf0d2a047925cf8f0684.png",
-                "style": "background-color: #df4c30;"
+                "id": "lunar-basalt",
+                "name": "Лунный базальт",
+                "carImage": "/img/models/h9/lunar-basalt.webp",
+                "style": "background-color: rgba(109, 113, 122, 1);"
             },
             {
-                "id": "gray",
-                "name": "Серый Шантар",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/db5a358aa9c6471a4f23ffd84270da78.png",
-                "style": "background-color: #c6c9ce;"
+                "id": "snow-onyx",
+                "name": "Снежный оникс",
+                "carImage": "/img/models/h9/snow-onyx.webp",
+                "style": "background-color: rgba(231, 231, 233, 1);"
             },
             {
-                "id": "black",
-                "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/2c18b43a8d5223f07af8e4dcace56b77.png",
-                "style": "background-color: #212329;"
+                "id": "black-jade",
+                "name": "Черный нефрит",
+                "carImage": "/img/models/h9/black-jade.webp",
+                "style": "background-color: rgba(0, 0, 0, 1);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Elite 2.0T",
+                "price": 4299000,
+                "bodytype": "5-дверный универсал",
+                "engine": "2.0 м3",
+                "engine_power": "218",
+                "gear_rus": "8AT",
+                "drive": "Полный 4WD (ToD)",
+                "fuel": "Бензин"
             },
             {
-                "id": "white",
-                "name": "Белый Ольхон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/0d372feb159f387bec68136ee77e6058.png",
-                "style": "background-color: #e6e7e8;"
+                "name": "Elite 2.4D",
+                "price": 4499000,
+                "bodytype": "5-дверный универсал",
+                "engine": "2.4 м3",
+                "engine_power": "184",
+                "gear_rus": "9AT",
+                "drive": "Полный 4WD (ToD)",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium 2.0T",
+                "price": 4799000,
+                "bodytype": "5-дверный универсал",
+                "engine": "2.0 м3",
+                "engine_power": "218",
+                "gear_rus": "8AT",
+                "drive": "Полный 4WD (ToD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium 2.4D",
+                "price": 4999000,
+                "bodytype": "5-дверный универсал",
+                "engine": "2.4 м3",
+                "engine_power": "184",
+                "gear_rus": "9AT",
+                "drive": "Полный 4WD (ToD)",
+                "fuel": "Дизель"
             }
         ],
         "feed_names": [
@@ -64,109 +100,8 @@
         "photos": "",
         "chars": {
             "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2750",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4760",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1930",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "2.0",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "380",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Полный",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Tank",
-        "id": "500",
-        "show": true,
-        "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",
-        "slogan": "Веди за собой",
-        "name": "500",
-        "price": 5599000,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. TANK 500",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. TANK 500",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/53b09ed72dd39e7ec7434d778c6ccfcf.png",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/7d13ba248ae0c07934c965490d5fedae.png",
-                "style": "background-color: #212329;"
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый Сихоте, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/d708dd4e6738a31a1d98056489ed524b.png",
-                "style": "background-color: #a2a4ab;"
-            },
-            {
-                "id": "gold",
-                "name": "Золото Рускеала, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/b8c097c6cdbdb52f8321f9f435b95ae3.png",
-                "style": "background-color: #b0a798;"
-            },
-            {
-                "id": "white",
-                "name": "Снежная Иремель, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/cdbe33850dd69e5018e62566f414ce1a.png",
-                "style": "background-color: #e6e7e8;"
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "9AT"
+            "fuel": "Бензин/Дизель",
+            "gearbox": "8AT/9AT"
         },
         "globalChars": [
             {
@@ -178,25 +113,25 @@
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4886",
+                "value": "4950",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1934",
+                "value": "1976",
                 "measure": "мм"
             },
             {
                 "id": "engine",
                 "title": "Объем двигателя",
-                "value": "3.0",
+                "value": "2.0/2.4",
                 "measure": "л."
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "616",
+                "value": "380/480",
                 "measure": "н.м."
             },
             {
