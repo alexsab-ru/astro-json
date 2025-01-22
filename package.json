@@ -23,7 +23,8 @@
     "scrape-geely": "sh ./.github/scripts/sh/scrape-geely.sh",
     "scrape-jac": "sh ./.github/scripts/sh/scrape-jac.sh",
     "scrape-jetour": "sh ./.github/scripts/sh/scrape-jetour.sh",
-    "scrape-livan": "sh ./.github/scripts/sh/scrape-livan.sh"
+    "scrape-livan": "sh ./.github/scripts/sh/scrape-livan.sh",
+    "pull_without_merge": "COUNT=$(git rev-list --count origin/main..main) && git checkout -b new-branch-for-pull-without-merge && git checkout main && git reset --hard HEAD~$COUNT && git pull origin main && git checkout new-branch-for-pull-without-merge && git rebase main && git checkout main && git merge new-branch-for-pull-without-merge && git branch -D new-branch-for-pull-without-merge"
   },
   "author": "alexsab.ru",
   "license": "ISC",
