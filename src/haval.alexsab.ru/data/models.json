@@ -141,5 +141,124 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "Новый HAVAL",
+        "id": "h3",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Для независимых и уверенных",
+        "name": "H3",
+        "price": 2299000,
+        "benefit": 400000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. HAVAL H3",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. HAVAL H3",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/h3/thumb.webp",
+        "colors": [
+            {
+                "id": "neon-tourmaline",
+                "name": "Неоновый турмалин",
+                "carImage": "/img/models/h3/neon-tourmaline.webp",
+                "style": "background-color: rgba(109, 135, 159, 1);"
+            },
+            {
+                "id": "galactic-black",
+                "name": "Галактический черный",
+                "carImage": "/img/models/h3/galactic-black.webp",
+                "style": "background-color: rgba(0, 0, 0, 1);"
+            },
+            {
+                "id": "ashy-anthracite",
+                "name": "Пепельный антрацит",
+                "carImage": "/img/models/h3/ashy-anthracite.webp",
+                "style": "background-color: rgba(83, 88, 108, 1);"
+            },
+            {
+                "id": "noble-agate",
+                "name": "Благородный агат",
+                "carImage": "/img/models/h3/noble-agate.webp",
+                "style": "background-color: #f5f5f5;"
+            },
+            {
+                "id": "terracotta-sapphire",
+                "name": "Терракотовый сапфир",
+                "carImage": "/img/models/h3/terracotta-sapphire.webp",
+                "style": "background-color: rgba(241, 110, 14, 1);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Elite 2.0T",
+                "price": 4299000,
+                "bodytype": "5-дверный универсал",
+                "engine": "2.0 м3",
+                "engine_power": "218",
+                "gear_rus": "8AT",
+                "drive": "Полный 4WD (ToD)",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7AMT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2710",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4520",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1875",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "210/270",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний/Полный",
+                "measure": ""
+            }
+        ]
     }
 ]
