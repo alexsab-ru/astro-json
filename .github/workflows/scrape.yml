@@ -208,18 +208,18 @@ jobs:
             echo "changes=true" >> $GITHUB_OUTPUT
             BRAND_NAME="${{ steps.set_brand.outputs.brand }}"
             if [[ "$BRAND_NAME" == "all" ]]; then
-              echo "script_output=$(echo -n 'Updated all brands data' | base64)" >> $GITHUB_OUTPUT
+              echo "script_output=$(echo -n '<pre>Updated all brands data</pre>' | base64)" >> $GITHUB_OUTPUT
             else
-              echo "script_output=$(echo -n "Updated $BRAND_NAME data" | base64)" >> $GITHUB_OUTPUT
+              echo "script_output=$(echo -n "<pre>Updated $BRAND_NAME data</pre>" | base64)" >> $GITHUB_OUTPUT
             fi
           elif git status -s; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
             BRAND_NAME="${{ steps.set_brand.outputs.brand }}"
             if [[ "$BRAND_NAME" == "all" ]]; then
-              echo "script_output=$(echo -n 'Updated all brands data' | base64)" >> $GITHUB_OUTPUT
+              echo "script_output=$(echo -n '<pre>Updated all brands data</pre>' | base64)" >> $GITHUB_OUTPUT
             else
-              echo "script_output=$(echo -n "Updated $BRAND_NAME data" | base64)" >> $GITHUB_OUTPUT
+              echo "script_output=$(echo -n "<pre>Updated $BRAND_NAME data</pre>" | base64)" >> $GITHUB_OUTPUT
             fi
           else
             echo "changes=false" >> $GITHUB_ENV
