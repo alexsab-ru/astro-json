@@ -751,5 +751,122 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "HAVAL",
+        "id": "m6",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "",
+        "name": "M6",
+        "price": 1929000,
+        "benefit": 250000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. HAVAL M6",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. HAVAL M6",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/m6/thumb.webp",
+        "colors": [
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/m6/gray.webp",
+                "style": "background-color: #808080;"
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/m6/black.webp",
+                "style": "background-color:#000000;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/m6/white.webp",
+                "style": "background-color: #e5e5e5;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "1,5 MT",
+                "price": 1929000,
+                "bodytype": "5-дверный универсал",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6MT",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "1,5 DCT",
+                "price": 2049000,
+                "bodytype": "5-дверный универсал",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "7DCT",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2680",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4664",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1830",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "202",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
     }
 ]
