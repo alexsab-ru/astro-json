@@ -576,5 +576,180 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "HAVAL",
+        "id": "jolion",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Добавь динамики!",
+        "name": "JOLION",
+        "price": 1949000,
+        "benefit": 200000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. HAVAL JOLION",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. HAVAL JOLION",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/jolion/thumb.webp",
+        "colors": [
+            {
+                "id": "noble-agate",
+                "name": "Благородный агат",
+                "carImage": "/img/models/jolion/noble-agate.webp",
+                "style": "background-color:rgba(196, 202, 210, 1);"
+            },
+            {
+                "id": "heavenly-topaz",
+                "name": "Океанический лазурит",
+                "carImage": "/img/models/jolion/heavenly-topaz.webp",
+                "style": "background-color:#33a9cb;"
+            },
+            {
+                "id": "magmatic-red",
+                "name": "Магматический красный",
+                "carImage": "/img/models/jolion/magmatic-red.webp",
+                "style": "background-color:#fd0404;"
+            },
+            {
+                "id": "platinum-neon",
+                "name": "Платиновый неон",
+                "carImage": "/img/models/jolion/platinum-neon.webp",
+                "style": "background-color:#a3a3a3;"
+            },
+            {
+                "id": "galactic-black",
+                "name": "Галактический черный",
+                "carImage": "/img/models/jolion/galactic-black.webp",
+                "style": "background-color:rgba(0, 0, 0, 1);"
+            },
+            {
+                "id": "smoky-pearls",
+                "name": "Дымчатый жемчуг",
+                "carImage": "/img/models/jolion/smoky-pearls.webp",
+                "style": "background-color:rgba(102, 100, 100, 1);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "COMFORT 1,5T MT",
+                "price": 1949000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "MT",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "ELITE 1,5T",
+                "price": 2249000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "7DCT",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "PREMIUM 1,5T",
+                "price": 2449000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "7DCT",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "ELITE 1,5T 4WD",
+                "price": 2299000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "150",
+                "gear_rus": "7DCT",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "PREMIUM 1,5T 4WD",
+                "price": 2449000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "150",
+                "gear_rus": "7DCT",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "TECH+ 1,5T 4WD",
+                "price": 2649000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "150",
+                "gear_rus": "7DCT",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "MT/7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2700",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4472",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1874",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "210/230",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний/Полный",
+                "measure": ""
+            }
+        ]
     }
 ]
