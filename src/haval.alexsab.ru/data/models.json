@@ -991,5 +991,148 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "HAVAL",
+        "id": "dargo",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "ПОВОД ПРОЯВИТЬ ХАРАКТЕР",
+        "name": "DARGO",
+        "price": 2849000,
+        "benefit": 200000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. HAVAL DARGO",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. HAVAL DARGO",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/dargo-x/terracotta-sapphire.webp",
+        "colors": [
+            {
+                "id": "graphite-quartz",
+                "name": "Графитовый кварц",
+                "carImage": "/img/models/dargo-x/graphite-quartz.webp",
+                "style": "background-color:rgba(81, 72, 79, 1);"
+            },
+            {
+                "id": "terracotta-sapphire",
+                "name": "Терракотовый сапфир",
+                "carImage": "/img/models/dargo-x/terracotta-sapphire.webp",
+                "style": "background-color:rgba(201, 100, 59, 1);"
+            },
+            {
+                "id": "noble-agate",
+                "name": "Благородный агат",
+                "carImage": "/img/models/dargo-x/noble-agate.webp",
+                "style": "background-color:rgba(176, 176, 169, 1);"
+            },
+            {
+                "id": "galactic-black",
+                "name": "Галактический черный / Черный нефрит",
+                "carImage": "/img/models/dargo-x/galactic-black.webp",
+                "style": "background-color: #000000;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "COMFORT 2.0T",
+                "price": 2849000,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "192",
+                "gear_rus": "6MT",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "ELITE 2.0T 4WD",
+                "price": 3049000,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "192",
+                "gear_rus": "7DCT",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "PREMIUM 2.0T 4WD",
+                "price": 3249000,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "192",
+                "gear_rus": "7DCT",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "TECH+ 2.0T 4WD",
+                "price": 3399000,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "192",
+                "gear_rus": "7DCT",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2738",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4620",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1890",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "320",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
     }
 ]
