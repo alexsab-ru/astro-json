@@ -204,13 +204,33 @@
         ],
         "complectations": [
             {
-                "name": "Elite 2.0T",
-                "price": 4299000,
+                "name": "Premium, 2WD",
+                "price": 2299000,
                 "bodytype": "5-дверный универсал",
-                "engine": "2.0 м3",
-                "engine_power": "218",
-                "gear_rus": "8AT",
-                "drive": "Полный 4WD (ToD)",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "7DCT",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Tech+, 2WD",
+                "price": 2549000,
+                "bodytype": "5-дверный универсал",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "7DCT",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Tech+, 4WD",
+                "price": 2799000,
+                "bodytype": "5-дверный универсал",
+                "engine": "1.5 м3",
+                "engine_power": "177",
+                "gear_rus": "7DCT",
+                "drive": "Полный 4WD",
                 "fuel": "Бензин"
             }
         ],
@@ -220,7 +240,7 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7AMT"
+            "gearbox": "7DCT"
         },
         "globalChars": [
             {
