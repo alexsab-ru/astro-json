@@ -1,0 +1,34 @@
+[
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/model-bg.webp",
+        "title": "Заголовок баннера 2 до 31.08.2024",
+        "descr": "Подзаголовок баннера",
+        "btn": "Онлайн запись",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Онлайн запись",
+        "dataFormName": "Онлайн запись. Баннер",
+        "badge": "",
+        "autoplay": 5000
+    },
+    {
+        "id": 3,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/model-bg.webp",
+        "title": "Заголовок баннера 2 до 31.08.2024",
+        "descr": "Подзаголовок баннера",
+        "btn": "Онлайн запись",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Онлайн запись",
+        "dataFormName": "Онлайн запись. Баннер",
+        "badge": "",
+        "autoplay": 5000
+    },
+]
