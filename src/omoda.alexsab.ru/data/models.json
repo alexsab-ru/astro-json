@@ -193,8 +193,8 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "",
         "name": "C5",
-        "price": 3649000,
-        "benefit": 450000,
+        "price": 1889900,
+        "benefit": "",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -213,82 +213,152 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/defc347ca8d1a334116ca45277d5a6dd.png",
+        "thumb": "/img/models/c5/thumb.webp",
         "colors": [
             {
-                "id": "red",
-                "name": "Красный Эльтон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
-                "style": "background-color: #ef2929;"
+                "id": "silver",
+                "name": "Серебристый (Silver Premium Double Color)",
+                "carImage": "/img/models/c5/silver.webp",
+                "style": "background-color: #6d767b;"
             },
             {
-                "id": "orange",
-                "name": "Чарский Оранжевый, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/61aab46d6fccaf0d2a047925cf8f0684.png",
-                "style": "background-color: #df4c30;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый Шантар",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/db5a358aa9c6471a4f23ffd84270da78.png",
-                "style": "background-color: #c6c9ce;"
+                "id": "green",
+                "name": "Зеленый (Green Premium Double Color)",
+                "carImage": "/img/models/c5/green.webp",
+                "style": "background-color: #8baa95;"
             },
             {
                 "id": "black",
-                "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/2c18b43a8d5223f07af8e4dcace56b77.png",
-                "style": "background-color: #212329;"
+                "name": "Черный (Black)",
+                "carImage": "/img/models/c5/black.webp",
+                "style": ""
+            },
+            {
+                "id": "dark-blue",
+                "name": "Темно-синий (Dark Blue)",
+                "carImage": "/img/models/c5/dark-blue.webp",
+                "style": "background-color: #1c2c3b;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый (Grey Premium)",
+                "carImage": "/img/models/c5/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "vanila-blue",
+                "name": "Vanila Blue",
+                "carImage": "/img/models/c5/vanila-blue.webp",
+                "style": "background-color: #929fb5;"
             },
             {
                 "id": "white",
-                "name": "Белый Ольхон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/0d372feb159f387bec68136ee77e6058.png",
-                "style": "background-color: #e6e7e8;"
+                "name": "Белый (White Premium Double Color)",
+                "carImage": "/img/models/c5/white.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный (Red)",
+                "carImage": "/img/models/c5/red.webp",
+                "style": ""
             }
         ],
         "feed_names": [
+        ],
+        "complectations": [
+            {
+                "name": "Fun",
+                "price": 1889900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT9",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Lifestyle",
+                "price": 2021900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT9",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultimate",
+                "price": 2133900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT9",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Active",
+                "price": 2379900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Supreme",
+                "price": 2479900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "8AT"
+            "gearbox": "CVT9/DCT7"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2750",
+                "value": "2630",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4760",
+                "value": "4400",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1930",
+                "value": "1830",
                 "measure": "мм"
             },
             {
                 "id": "engine",
                 "title": "Объем двигателя",
-                "value": "2.0",
+                "value": "1.5/1.6",
                 "measure": "л."
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "380",
+                "value": "210/275",
                 "measure": "н.м."
             },
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Полный",
+                "value": "Передний/Полный",
                 "measure": ""
             }
         ]
