@@ -370,8 +370,8 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "",
         "name": "S5",
-        "price": 3649000,
-        "benefit": 450000,
+        "price": 1809900,
+        "benefit": "",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -390,64 +390,82 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/defc347ca8d1a334116ca45277d5a6dd.png",
+        "thumb": "/img/models/s5/thumb.webp",
         "colors": [
             {
-                "id": "red",
-                "name": "Красный Эльтон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
-                "style": "background-color: #ef2929;"
-            },
-            {
-                "id": "orange",
-                "name": "Чарский Оранжевый, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/61aab46d6fccaf0d2a047925cf8f0684.png",
-                "style": "background-color: #df4c30;"
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/s5/black.webp",
+                "style": ""
             },
             {
                 "id": "gray",
-                "name": "Серый Шантар",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/db5a358aa9c6471a4f23ffd84270da78.png",
-                "style": "background-color: #c6c9ce;"
+                "name": "Серый",
+                "carImage": "/img/models/s5/gray.webp",
+                "style": ""
             },
             {
-                "id": "black",
-                "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/2c18b43a8d5223f07af8e4dcace56b77.png",
-                "style": "background-color: #212329;"
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "/img/models/s5/blue.webp",
+                "style": "background-color: #455a85;"
+            },
+            {
+                "id": "red",
+                "name": "Красный",
+                "carImage": "/img/models/s5/red.webp",
+                "style": "background-color: #d7241f;"
+            },
+            {
+                "id": "steel",
+                "name": "Стальной",
+                "carImage": "/img/models/s5/steel.webp",
+                "style": "background-color: #616872;"
             },
             {
                 "id": "white",
-                "name": "Белый Ольхон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/0d372feb159f387bec68136ee77e6058.png",
-                "style": "background-color: #e6e7e8;"
+                "name": "Белый",
+                "carImage": "/img/models/s5/white.webp",
+                "style": ""
             }
         ],
         "feed_names": [
+        ],
+        "complectations": [
+            {
+                "name": "Classic",
+                "price": 1809900,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "113",
+                "gear_rus": "Вариатор CVT18",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "8AT"
+            "gearbox": "CVT18"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2750",
+                "value": "2650",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4760",
+                "value": "4644",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1930",
+                "value": "1814",
                 "measure": "мм"
             },
             {
@@ -459,13 +477,13 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "380",
+                "value": "138",
                 "measure": "н.м."
             },
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Полный",
+                "value": "Передний",
                 "measure": ""
             }
         ]
