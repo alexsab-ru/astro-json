@@ -17,7 +17,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "image",
         "view": "popup-link",
         "videoUrl": "",
@@ -55,7 +55,7 @@
         "videoUrl": "",
         "imageUrl": "/img/banners/3cars_1920x610.webp",
         "title": "2 года гарантии на автомобили Киа",
-        "descr": "от завода производителя",
+        "descr": "от партнеров (страховых компаний) для наших клиентов",
         "btn": "Узнать подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Узнать подробнее",
