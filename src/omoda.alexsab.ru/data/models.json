@@ -26,37 +26,55 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/defc347ca8d1a334116ca45277d5a6dd.png",
+        "thumb": "/img/models/c5fl/thumb.webp",
         "colors": [
             {
-                "id": "red",
-                "name": "Красный Эльтон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
-                "style": "background-color: #ef2929;"
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/c5fl/white.webp",
+                "style": ""
             },
             {
-                "id": "orange",
-                "name": "Чарский Оранжевый, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/61aab46d6fccaf0d2a047925cf8f0684.png",
-                "style": "background-color: #df4c30;"
+                "id": "red",
+                "name": "Красный",
+                "carImage": "/img/models/c5fl/red.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "carImage": "/img/models/c5fl/silver.webp",
+                "style": "background-color: #6d767b;"
             },
             {
                 "id": "gray",
-                "name": "Серый Шантар",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/db5a358aa9c6471a4f23ffd84270da78.png",
-                "style": "background-color: #c6c9ce;"
+                "name": "Серый",
+                "carImage": "/img/models/c5fl/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "white-black",
+                "name": "Белый с черной крышей",
+                "carImage": "/img/models/c5fl/white-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #000 50%, #f3f4f6 50%);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "/img/models/c5fl/blue.webp",
+                "style": "background-color: #1c277a;"
+            },
+            {
+                "id": "silver-black",
+                "name": "Серебристый с черной крышей",
+                "carImage": "/img/models/c5fl/silver-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #000 50%, #6d767b 50%);"
             },
             {
                 "id": "black",
-                "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/2c18b43a8d5223f07af8e4dcace56b77.png",
-                "style": "background-color: #212329;"
-            },
-            {
-                "id": "white",
-                "name": "Белый Ольхон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/0d372feb159f387bec68136ee77e6058.png",
-                "style": "background-color: #e6e7e8;"
+                "name": "Черный",
+                "carImage": "/img/models/c5fl/black.webp",
+                "style": ""
             }
         ],
         "feed_names": [
