@@ -1,13 +1,13 @@
 [
     {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (999) 123-45-67",
-        "work_hours": "пн — вс: 8:00 — 20:00",
+        "name": "JAECOO ТОН-АВТО Ульяновск",
+        "address": "г. Ульяновск, ул.&nbsp;Нариманова,&nbsp;128",
+        "phone":  "+7 (8422) 28-36-73",
+        "work_hours": "пн-сб: 08:00-20:00 <br/>вс: 09:00-18:00",
         "map": {
-            "zoom": 5,
-            "balloon": "/img/empty-locator.png",
-            "coords": [55.715873, 47.617700],
+            "zoom": 19,
+            "balloon": "/img/jaecoo-locator.svg",
+            "coords": [54.357192, 48.357688],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     }
