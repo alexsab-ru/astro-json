@@ -246,6 +246,16 @@
                 "gear_rus": "7 DCT",
                 "drive": "Полный",
                 "fuel": "Бензин"
+            },
+            {
+                "name": "Discovery",
+                "price": 4449000,
+                "bodytype": "Внедорожник",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -422,6 +432,26 @@
                 "gear_rus": "7DCT",
                 "drive": "Передний",
                 "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 1.6T 8AT 4WD",
+                "price":  3229000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "185",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Sport 1.6T 8AT 4WD",
+                "price":  3379000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "185",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -466,7 +496,7 @@
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Передний",
+                "value": "Передний/Полный",
                 "measure": ""
             }
         ]
