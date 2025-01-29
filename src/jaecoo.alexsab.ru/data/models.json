@@ -4,10 +4,10 @@
         "id": "j7",
         "show": true,
         "homeImg": "/img/model-bg.webp",
-        "slogan": "Следуй за открытиями",
+        "slogan": "Элегантный и запоминающийся кроссовер",
         "name": "J7",
-        "price": 3649000,
-        "benefit": 450000,
+        "price": 2339900,
+        "benefit": "",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -26,82 +26,160 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/defc347ca8d1a334116ca45277d5a6dd.png",
+        "thumb": "/img/models/j7/thumb.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный Эльтон, металлик",
                 "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
                 "style": "background-color: #ef2929;"
-            },
-            {
-                "id": "orange",
-                "name": "Чарский Оранжевый, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/61aab46d6fccaf0d2a047925cf8f0684.png",
-                "style": "background-color: #df4c30;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый Шантар",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/db5a358aa9c6471a4f23ffd84270da78.png",
-                "style": "background-color: #c6c9ce;"
-            },
-            {
-                "id": "black",
-                "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/2c18b43a8d5223f07af8e4dcace56b77.png",
-                "style": "background-color: #212329;"
-            },
-            {
-                "id": "white",
-                "name": "Белый Ольхон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/0d372feb159f387bec68136ee77e6058.png",
-                "style": "background-color: #e6e7e8;"
             }
         ],
         "feed_names": [
+        ],
+        "complectations": [
+            {
+                "name": "Urban",
+                "price": 2339900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Lifestyle 150",
+                "price": 2489900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Lifestyle 186",
+                "price": 2689900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "186",
+                "gear_rus": "Робот DCT7",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultimate 150",
+                "price": 2839900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultimate 186",
+                "price": 2889900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "186",
+                "gear_rus": "Робот DCT7",
+                "drive": "Передний 2WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Active 150 4WD",
+                "price": 2639900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Active 186 4WD",
+                "price": 2839900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "186",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Supreme 150 4WD",
+                "price": 2989900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Supreme 186 4WD",
+                "price": 3039900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "186",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Supreme-V 4WD",
+                "price": 3269900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "186",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "8AT"
+            "gearbox": "DCT7"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2750",
+                "value": "2672",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4760",
+                "value": "4500",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1930",
+                "value": "1865",
                 "measure": "мм"
             },
             {
                 "id": "engine",
                 "title": "Объем двигателя",
-                "value": "2.0",
+                "value": "1.6",
                 "measure": "л."
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "380",
+                "value": "275",
                 "measure": "н.м."
             },
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Полный",
+                "value": "Передний/Полный",
                 "measure": ""
             }
         ]
@@ -111,10 +189,10 @@
         "id": "j8",
         "show": true,
         "homeImg": "/img/model-bg.webp",
-        "slogan": "Следуй за открытиями",
+        "slogan": "Новый флагманский кроссовер",
         "name": "J8",
-        "price": 3649000,
-        "benefit": 450000,
+        "price": 3799000,
+        "benefit": "",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -133,58 +211,114 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/defc347ca8d1a334116ca45277d5a6dd.png",
+        "thumb": "/img/models/j8/thumb.webp",
         "colors": [
             {
-                "id": "red",
-                "name": "Красный Эльтон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
-                "style": "background-color: #ef2929;"
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/j8/black.webp",
+                "style": "background-color: #03080c;"
             },
             {
-                "id": "orange",
-                "name": "Чарский Оранжевый, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/61aab46d6fccaf0d2a047925cf8f0684.png",
-                "style": "background-color: #df4c30;"
+                "id": "gray-blue",
+                "name": "Серо-голубой",
+                "carImage": "/img/models/j8/gray-blue.webp",
+                "style": "background-color: #648ea6;"
+            },
+            {
+                "id": "gray-blue-black",
+                "name": "Серо-голубой с черной крышей",
+                "carImage": "/img/models/j8/gray-blue-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #03080c 50%, #648ea6 50%);"
+            },
+            {
+                "id": "dark-gray",
+                "name": "Темно-серый",
+                "carImage": "/img/models/j8/dark-gray.webp",
+                "style": "background-color: #4b4b4b;"
+            },
+            {
+                "id": "dark-gray-black",
+                "name": "Темно-серый с черной крышей",
+                "carImage": "/img/models/j8/dark-gray-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #03080c 50%, #4b4b4b 50%);"
             },
             {
                 "id": "gray",
-                "name": "Серый Шантар",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/db5a358aa9c6471a4f23ffd84270da78.png",
-                "style": "background-color: #c6c9ce;"
+                "name": "Серый",
+                "carImage": "/img/models/j8/gray.webp",
+                "style": "background-color: #91949a;"
             },
             {
-                "id": "black",
-                "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/2c18b43a8d5223f07af8e4dcace56b77.png",
-                "style": "background-color: #212329;"
+                "id": "gray-black",
+                "name": "Серый с черной крышей",
+                "carImage": "/img/models/j8/gray-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #03080c 50%, #91949a 50%);"
             },
             {
                 "id": "white",
-                "name": "Белый Ольхон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/0d372feb159f387bec68136ee77e6058.png",
-                "style": "background-color: #e6e7e8;"
+                "name": "Белый",
+                "carImage": "/img/models/j8/white.webp",
+                "style": "background-color: #e6ebed;"
+            },
+            {
+                "id": "white-black",
+                "name": "Белый с черной крышей",
+                "carImage": "/img/models/j8/white-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #03080c 50%, #e6ebed 50%);"
             }
         ],
         "feed_names": [
+        ],
+        "complectations": [
+            {
+                "name": "Active",
+                "price": 3799000,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "249",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Supreme",
+                "price": 4349000,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "249",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Supreme-V",
+                "price": 4649000,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "249",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный 4WD",
+                "fuel": "Бензин"
+            }
         ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "8AT"
+            "gearbox": "DCT7"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2750",
+                "value": "2820",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4760",
+                "value": "4820",
                 "measure": "мм"
             },
             {
@@ -202,7 +336,7 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "380",
+                "value": "385",
                 "measure": "н.м."
             },
             {
@@ -216,7 +350,7 @@
     {
         "mark_id": "JAECOO",
         "id": "j5",
-        "show": true,
+        "show": false,
         "homeImg": "/img/model-bg.webp",
         "slogan": "Следуй за открытиями",
         "name": "J5",
