@@ -29,10 +29,52 @@
         "thumb": "/img/models/j7/thumb.webp",
         "colors": [
             {
-                "id": "red",
-                "name": "Красный Эльтон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
-                "style": "background-color: #ef2929;"
+                "id": "silver",
+                "name": "Серебристый",
+                "carImage": "/img/models/j7/silver.webp",
+                "style": "background-color: #afafb0;"
+            },
+            {
+                "id": "silver-black",
+                "name": "Серебристый с черной крышей",
+                "carImage": "/img/models/j7/silver-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #03080c 50%, #afafb0 50%);"
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/j7/black.webp",
+                "style": "background-color: #03080c;"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый",
+                "carImage": "/img/models/j7/green.webp",
+                "style": "background-color: #869567;"
+            },
+            {
+                "id": "green-black",
+                "name": "Зеленый с черной крышей",
+                "carImage": "/img/models/j7/green-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #03080c 50%, #869567 50%);"
+            },
+            {
+                "id": "gray-blue",
+                "name": "Серо-голубой",
+                "carImage": "/img/models/j7/gray-blue.webp",
+                "style": "background-color: #546b6e;"
+            },
+            {
+                "id": "gray-blue-black",
+                "name": "Серо-голубой с черной крышей",
+                "carImage": "/img/models/j7/gray-blue-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #03080c 50%, #546b6e 50%);"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/j7/white.webp",
+                "style": "background-color: #dfe3e5;"
             }
         ],
         "feed_names": [
