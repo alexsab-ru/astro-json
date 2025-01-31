@@ -1,73 +1,13 @@
 [
     {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
+        "name": "Ставрополь-Авто",
+        "address": "г. Ставрополь, пр-кт Кулакова, д.&nbsp;32",
+        "phone":  "+7 (8652) 50-20-20",
+        "work_hours": "9.00 — 19.00 (Пн - Пт) <br/>9.00 — 18.00 (Сб - Вс)",
         "map": {
-            "zoom": 5,
-            "balloon": "/img/empty-locator.png",
-            "coords": [55.715873, 47.617700],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
-        }
-    },
-    {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
-        "map": {
-            "zoom": 5,
-            "balloon": "/img/empty-locator.png",
-            "coords": [55.725863, 30.627600],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
-        }
-    },
-    {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
-        "map": {
-            "zoom": 5,
-            "balloon": "/img/empty-locator.png",
-            "coords": [55.735853, 32.637500],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
-        }
-    },
-    {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
-        "map": {
-            "zoom": 5,
-            "balloon": "/img/empty-locator.png",
-            "coords": [56.745843, 37.647400],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
-        }
-    },
-    {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
-        "map": {
-            "zoom": 5,
-            "balloon": "/img/empty-locator.png",
-            "coords": [51.755833, 37.657300],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
-        }
-    },
-    {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
-        "map": {
-            "zoom": 5,
-            "balloon": "/img/empty-locator.png",
-            "coords": [50.755823, 39.667200],
+            "zoom": 20,
+            "balloon": "/img/evalute-locator.svg",
+            "coords": [45.079479, 41.937005],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     }
