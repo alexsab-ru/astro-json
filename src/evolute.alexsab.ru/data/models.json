@@ -67,6 +67,24 @@
         ],
         "feed_names": [
         ],
+        "complectations": [
+            {
+                "name": "Комфорт",
+                "price": 2499000,
+                "bodytype": "Кроссовер",
+                "engine_power": "177",
+                "gear_rus": "HDT300",
+                "drive": "Передний"
+            },
+            {
+                "name": "Премиум",
+                "price": 2940000,
+                "bodytype": "Кроссовер",
+                "engine_power": "177",
+                "gear_rus": "HDT300",
+                "drive": "Передний"
+            }
+        ],
         "photos": "",
         "chars": {
             "seats": "7 мест",
