@@ -1,20 +1,20 @@
 [
     {
-        "mark_id": "",
-        "id": "u5-plus",
+        "mark_id": "EVOLUTE",
+        "id": "i-space",
         "show": true,
-        "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",
-        "slogan": "Практичность и комфорт",
-        "name": "U5 Plus",
-        "price": "1234567",
-        "benefit": 750000,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Вот это космос!",
+        "name": "i-SPACE",
+        "price": 2499000,
+        "benefit": "",
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Baic U5 Plus",
+                "data_form_name": "Выгодный трейд-ин. EVOLUTE i-SPACE",
                 "view": "popup-link"
             },
             {
@@ -22,74 +22,86 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Baic U5 Plus",
+                "data_form_name": "Выгодный кредит. EVOLUTE i-SPACE",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://baic-krasnodar.ru/img/models/u5-plus/colors/black.png",
+        "thumb": "/img/models/i-space/thumb.webp",
         "colors": [
             {
-                "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://baic-krasnodar.ru/img/models/u5-plus/colors/red.png",
-                "style": "background-color: #E51036;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://baic-alpha.ru/img/models/u5-plus/colors/gray.png",
-                "style": "background-color: #9CA3AF;"
+                "id": "black",
+                "name": "Звездная ночь",
+                "carImage": "/img/models/i-space/colors/black.webp",
+                "style": "background-color: #000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://baic-krasnodar.ru/img/models/u5-plus/colors/white.png",
-                "style": "background-color: #E5E7EB;"
+                "name": "Белый",
+                "carImage": "/img/models/i-space/colors/white.webp",
+                "style": "background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://baic-krasnodar.ru/img/models/u5-plus/colors/black.png",
-                "style": "background-color: #000000;"
+                "id": "green",
+                "name": "Галактический зеленый",
+                "carImage": "/img/models/i-space/colors/green.webp",
+                "style": "background-color: #234232; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
+            },
+            {
+                "id": "gray",
+                "name": "Лунный серый",
+                "carImage": "/img/models/i-space/colors/gray.webp",
+                "style": "background-color: #ececec; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
+            },
+            {
+                "id": "sand",
+                "name": "Латте космос",
+                "carImage": "/img/models/i-space/colors/sand.webp",
+                "style": "background-color: #ebe2dc; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
+            },
+            {
+                "id": "silver",
+                "name": "Астероидный графит",
+                "carImage": "/img/models/i-space/colors/silver.webp",
+                "style": "background-color: #36424d; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             }
         ],
         "feed_names": [
         ],
         "photos": "",
         "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "CVT"
+            "seats": "7 мест",
+            "fuel": "Электро",
+            "gearbox": "HDT300"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2570",
+                "value": "2785",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4500",
+                "value": "4760",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "2200",
+                "value": "1865",
                 "measure": "мм"
             },
             {
                 "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
+                "title": "Мощность э.д. (кВт/л.с.)",
+                "value": "130/177",
+                "measure": ""
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "134",
+                "value": "300",
                 "measure": "н.м."
             },
             {
