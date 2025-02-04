@@ -1,1 +1,21 @@
-- id: empty
+- id: "i-space"
+  sections:
+  - id: info
+    sectionClass: "bg-gray-50"
+    title: "Узнайте подробнее о EVOLUTE i-SPACE"
+    items:
+      - title: "Прайс-листы"
+        url: "https://www.evolute.ru/media-link/i-space-pricelist"
+        icon: "mdi:open-in-new"
+        iconClasses: "size-[50px] text-orange"
+        target: "_blank"
+      - title: "Брошуры"
+        url: "https://www.evolute.ru/media-link/i-space-brochure"
+        icon: "mdi:open-in-new"
+        iconClasses: "size-[50px] text-orange"
+        target: "_blank"
+      - title: "Руководства пользователя"
+        url: "https://www.evolute.ru/media-link/i-space-manual"
+        icon: "mdi:open-in-new"
+        iconClasses: "size-[50px] text-orange"
+        target: "_blank"
