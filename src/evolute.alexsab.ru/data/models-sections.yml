@@ -1,7 +1,21 @@
 - id: "i-space"
   sections:
+  - id: description
+    sectionClass: ""
+    suptitle: "EVOLUTE"
+    title: "i-SPACE"
+    text: "<p>Семиместный кроссовер i-SPACE знаменует новую эру в истории бренда и становится первым последовательным гибридом в модельном ряду EVOLUTE. <br/>Название модели <b class=\"font-extrabold\">Evolute i-SPACE</b> — это отсылка к безграничному пространству космоса. Подчеркивает простор салона, легкость его трансформации, а также впечатляющий запас хода, который располагает к поездкам всей семьей или большой компанией на длинные расстояния</p>"
+    items:
+      - icon: mdi:engine-outline
+        text: Мощность электродвигателя 177 л.с.
+      - icon: mdi:speedometer
+        text: Разгон 0-100 км/ч - 7,4 сек
+      - icon: mdi:gas-station-outline
+        text: Расход топлива (в цикле WLTC) - 5,5 л/100 км
+    images:
+      - url: /img/models/i-space/sections/1.webp
   - id: info
-    sectionClass: "bg-gray-50"
+    sectionClass: "odd:bg-gray-100"
     title: "Узнайте подробнее о EVOLUTE i-SPACE"
     items:
       - title: "Прайс-листы"
