@@ -1,24 +1,21 @@
 [
     {
-        "mark_id": "Jetour",
-        "id": "x90plus",
+        "mark_id": "SOUEAST",
+        "id": "s09",
         "show": true,
-        "homeImg": "/img/models/x90plus/bg.jpg",
-        "slogan": "Вместительный кроссовер на все случаи жизни",
-        "name": "X90 Plus",
-        "price": "2679900",
-        "benefit": "720000",
-        "badge": {
-            "img": "/img/badge-4x4-2024.png",
-            "alt": "Внедорожник года"
-        },
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Технологичный кроссовер премиум класса",
+        "name": "S09",
+        "price": "3009000",
+        "benefit": "550000",
+        "badge": {},
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. X90 Plus",
+                "data_form_name": "Выгодный трейд-ин. S09",
                 "view": "popup-link"
             },
             {
@@ -26,47 +23,23 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. X90 Plus",
+                "data_form_name": "Выгодный кредит. S09",
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x90plus/colors/c4b.png",
+        "thumb": "/img/models/s09/thumb.webp",
         "colors": [
             {
-                "id": "c5b",
-                "name": "Арктический белый",
-                "carImage": "/img/models/x90plus/colors/c5b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c5bkm.png);"
-            },
-            {
-                "id": "c1b",
-                "name": "Галактический черный",
-                "carImage": "/img/models/x90plus/colors/c1b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c1bkm.png);"
-            },
-            {
-                "id": "c2b",
-                "name": "Океанический синий",
-                "carImage": "/img/models/x90plus/colors/c2b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c2bkm.png);"
-            },
-            {
-                "id": "c4b",
-                "name": "Фиолетовый дракон",
-                "carImage": "/img/models/x90plus/colors/c4b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c4bkm.png);"
-            },
-            {
-                "id": "c3b",
-                "name": "Призрачный серый",
-                "carImage": "/img/models/x90plus/colors/c3b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c3bkm.png);"
+                "id": "green",
+                "name": "Зеленый",
+                "carImage": "/img/models/s09/thumb.webp",
+                "style": "background-color: #427276;"
             }
         ],
         "complectations": [
             {
                 "name": "Comfort",
-                "price": 2599900,
+                "price": 3009000,
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "190",
@@ -75,43 +48,23 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Luxury",
-                "price": 2899900,
+                "name": "Comfort Plus",
+                "price": 3349000,
                 "bodytype": "Кроссовер",
-                "engine": "1.6 м3",
-                "engine_power": "190",
+                "engine": "2.0 м3",
+                "engine_power": "197",
                 "gear_rus": "7 DCT",
                 "drive": "Передний",
                 "fuel": "Бензин"
             },
             {
-                "name": "Elite",
-                "price": 3099900,
+                "name": "Premium",
+                "price": 3649000,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
-                "engine_power": "245",
-                "gear_rus": "7 DCT",
-                "drive": "Передний",
-                "fuel": "Бензин"
-            },
-            {
-                "name": "Luxury 2.0",
-                "price": 3219900,
-                "bodytype": "Кроссовер",
-                "engine": "2.0 м3",
-                "engine_power": "245",
-                "gear_rus": "7 DCT",
-                "drive": "Передний",
-                "fuel": "Бензин"
-            },
-            {
-                "name": "Luxury 2.0 (7 мест)",
-                "price": 3269900,
-                "bodytype": "Кроссовер",
-                "engine": "2.0 м3",
-                "engine_power": "245",
-                "gear_rus": "7 DCT",
-                "drive": "Передний",
+                "engine_power": "197",
+                "gear_rus": "8 AT",
+                "drive": "Полный",
                 "fuel": "Бензин"
             }
         ],
@@ -119,9 +72,9 @@
         ],
         "photos": "",
         "chars": {
-            "seats": "5/7 мест",
+            "seats": "7 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "7DCT/8AT"
         },
         "globalChars": [
             {
@@ -157,7 +110,7 @@
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Передний",
+                "value": "Передний/Полный",
                 "measure": ""
             }
         ]
