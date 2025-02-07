@@ -31,49 +31,49 @@
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/j7/silver.webp",
+                "carImage": "/img/models/j7/colors/silver.webp",
                 "style": "background-color: #afafb0;"
             },
             {
                 "id": "silver-black",
                 "name": "Серебристый с черной крышей",
-                "carImage": "/img/models/j7/silver-black.webp",
+                "carImage": "/img/models/j7/colors/silver-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #afafb0 50%);"
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/j7/black.webp",
+                "carImage": "/img/models/j7/colors/black.webp",
                 "style": "background-color: #03080c;"
             },
             {
                 "id": "green",
                 "name": "Зеленый",
-                "carImage": "/img/models/j7/green.webp",
+                "carImage": "/img/models/j7/colors/green.webp",
                 "style": "background-color: #869567;"
             },
             {
                 "id": "green-black",
                 "name": "Зеленый с черной крышей",
-                "carImage": "/img/models/j7/green-black.webp",
+                "carImage": "/img/models/j7/colors/green-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #869567 50%);"
             },
             {
                 "id": "gray-blue",
                 "name": "Серо-голубой",
-                "carImage": "/img/models/j7/gray-blue.webp",
+                "carImage": "/img/models/j7/colors/gray-blue.webp",
                 "style": "background-color: #546b6e;"
             },
             {
                 "id": "gray-blue-black",
                 "name": "Серо-голубой с черной крышей",
-                "carImage": "/img/models/j7/gray-blue-black.webp",
+                "carImage": "/img/models/j7/colors/gray-blue-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #546b6e 50%);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/j7/white.webp",
+                "carImage": "/img/models/j7/colors/white.webp",
                 "style": "background-color: #dfe3e5;"
             }
         ],
@@ -258,55 +258,55 @@
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/j8/black.webp",
+                "carImage": "/img/models/j8/colors/black.webp",
                 "style": "background-color: #03080c;"
             },
             {
                 "id": "gray-blue",
                 "name": "Серо-голубой",
-                "carImage": "/img/models/j8/gray-blue.webp",
+                "carImage": "/img/models/j8/colors/gray-blue.webp",
                 "style": "background-color: #648ea6;"
             },
             {
                 "id": "gray-blue-black",
                 "name": "Серо-голубой с черной крышей",
-                "carImage": "/img/models/j8/gray-blue-black.webp",
+                "carImage": "/img/models/j8/colors/gray-blue-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #648ea6 50%);"
             },
             {
                 "id": "dark-gray",
                 "name": "Темно-серый",
-                "carImage": "/img/models/j8/dark-gray.webp",
+                "carImage": "/img/models/j8/colors/dark-gray.webp",
                 "style": "background-color: #4b4b4b;"
             },
             {
                 "id": "dark-gray-black",
                 "name": "Темно-серый с черной крышей",
-                "carImage": "/img/models/j8/dark-gray-black.webp",
+                "carImage": "/img/models/j8/colors/dark-gray-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #4b4b4b 50%);"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/j8/gray.webp",
+                "carImage": "/img/models/j8/colors/gray.webp",
                 "style": "background-color: #91949a;"
             },
             {
                 "id": "gray-black",
                 "name": "Серый с черной крышей",
-                "carImage": "/img/models/j8/gray-black.webp",
+                "carImage": "/img/models/j8/colors/gray-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #91949a 50%);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/j8/white.webp",
+                "carImage": "/img/models/j8/colors/white.webp",
                 "style": "background-color: #e6ebed;"
             },
             {
                 "id": "white-black",
                 "name": "Белый с черной крышей",
-                "carImage": "/img/models/j8/white-black.webp",
+                "carImage": "/img/models/j8/colors/white-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #e6ebed 50%);"
             }
         ],

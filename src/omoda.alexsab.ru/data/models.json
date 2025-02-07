@@ -31,49 +31,49 @@
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/c5fl/white.webp",
+                "carImage": "/img/models/c5fl/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/c5fl/red.webp",
+                "carImage": "/img/models/c5fl/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/c5fl/silver.webp",
+                "carImage": "/img/models/c5fl/colors/silver.webp",
                 "style": "background-color: #6d767b;"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/c5fl/gray.webp",
+                "carImage": "/img/models/c5fl/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "white-black",
                 "name": "Белый с черной крышей",
-                "carImage": "/img/models/c5fl/white-black.webp",
+                "carImage": "/img/models/c5fl/colors/white-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #000 50%, #f3f4f6 50%);"
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/c5fl/blue.webp",
+                "carImage": "/img/models/c5fl/colors/blue.webp",
                 "style": "background-color: #1c277a;"
             },
             {
                 "id": "silver-black",
                 "name": "Серебристый с черной крышей",
-                "carImage": "/img/models/c5fl/silver-black.webp",
+                "carImage": "/img/models/c5fl/colors/silver-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #000 50%, #6d767b 50%);"
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/c5fl/black.webp",
+                "carImage": "/img/models/c5fl/colors/black.webp",
                 "style": ""
             }
         ],
@@ -218,49 +218,49 @@
             {
                 "id": "silver",
                 "name": "Серебристый (Silver Premium Double Color)",
-                "carImage": "/img/models/c5/silver.webp",
+                "carImage": "/img/models/c5/colors/silver.webp",
                 "style": "background-color: #6d767b;"
             },
             {
                 "id": "green",
                 "name": "Зеленый (Green Premium Double Color)",
-                "carImage": "/img/models/c5/green.webp",
+                "carImage": "/img/models/c5/colors/green.webp",
                 "style": "background-color: #8baa95;"
             },
             {
                 "id": "black",
                 "name": "Черный (Black)",
-                "carImage": "/img/models/c5/black.webp",
+                "carImage": "/img/models/c5/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "dark-blue",
                 "name": "Темно-синий (Dark Blue)",
-                "carImage": "/img/models/c5/dark-blue.webp",
+                "carImage": "/img/models/c5/colors/dark-blue.webp",
                 "style": "background-color: #1c2c3b;"
             },
             {
                 "id": "gray",
                 "name": "Серый (Grey Premium)",
-                "carImage": "/img/models/c5/gray.webp",
+                "carImage": "/img/models/c5/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "vanila-blue",
                 "name": "Vanila Blue",
-                "carImage": "/img/models/c5/vanila-blue.webp",
+                "carImage": "/img/models/c5/colors/vanila-blue.webp",
                 "style": "background-color: #929fb5;"
             },
             {
                 "id": "white",
                 "name": "Белый (White Premium Double Color)",
-                "carImage": "/img/models/c5/white.webp",
+                "carImage": "/img/models/c5/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный (Red)",
-                "carImage": "/img/models/c5/red.webp",
+                "carImage": "/img/models/c5/colors/red.webp",
                 "style": ""
             }
         ],
@@ -395,37 +395,37 @@
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/s5/black.webp",
+                "carImage": "/img/models/s5/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/s5/gray.webp",
+                "carImage": "/img/models/s5/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/s5/blue.webp",
+                "carImage": "/img/models/s5/colors/blue.webp",
                 "style": "background-color: #455a85;"
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/s5/red.webp",
+                "carImage": "/img/models/s5/colors/red.webp",
                 "style": "background-color: #d7241f;"
             },
             {
                 "id": "steel",
                 "name": "Стальной",
-                "carImage": "/img/models/s5/steel.webp",
+                "carImage": "/img/models/s5/colors/steel.webp",
                 "style": "background-color: #616872;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/s5/white.webp",
+                "carImage": "/img/models/s5/colors/white.webp",
                 "style": ""
             }
         ],
@@ -520,43 +520,43 @@
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/s5gt/black.webp",
+                "carImage": "/img/models/s5gt/colors/black.webp",
                 "style": "background-color: #222222;"
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/s5gt/blue.webp",
+                "carImage": "/img/models/s5gt/colors/blue.webp",
                 "style": "background-color: #455a85;"
             },
             {
                 "id": "green",
                 "name": "Зеленый",
-                "carImage": "/img/models/s5gt/green.webp",
+                "carImage": "/img/models/s5gt/colors/green.webp",
                 "style": "background-color: #557f86;"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/s5gt/gray.webp",
+                "carImage": "/img/models/s5gt/colors/gray.webp",
                 "style": "background-color: #8a919b;"
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/s5gt/red.webp",
+                "carImage": "/img/models/s5gt/colors/red.webp",
                 "style": "background-color: #d7241f;"
             },
             {
                 "id": "steel",
                 "name": "Стальной",
-                "carImage": "/img/models/s5gt/steel.webp",
+                "carImage": "/img/models/s5gt/colors/steel.webp",
                 "style": "background-color: #616872;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/s5gt/white.webp",
+                "carImage": "/img/models/s5gt/colors/white.webp",
                 "style": ""
             }
         ],

@@ -31,37 +31,37 @@
             {
                 "id": "white-rose",
                 "name": "Белая роза",
-                "carImage": "/img/models/u70-pro/white-rose.webp",
+                "carImage": "/img/models/u70-pro/colors/white-rose.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "gray-lounge",
                 "name": "Серый лаунж",
-                "carImage": "/img/models/u70-pro/gray-lounge.webp",
+                "carImage": "/img/models/u70-pro/colors/gray-lounge.webp",
                 "style": "background-color: #D9D9D9;"
             },
             {
                 "id": "silver-rain",
                 "name": "Серебряный дождь",
-                "carImage": "/img/models/u70-pro/silver-rain.webp",
+                "carImage": "/img/models/u70-pro/colors/silver-rain.webp",
                 "style": "background:linear-gradient(90deg, #979797 0%, #ffffff 50%, #979797 100%);"
             },
             {
                 "id": "royal-blue",
                 "name": "Синий королевский",
-                "carImage": "/img/models/u70-pro/royal-blue.webp",
+                "carImage": "/img/models/u70-pro/colors/royal-blue.webp",
                 "style": "background:#004BBD;"
             },
             {
                 "id": "red-jam",
                 "name": "Красный джем",
-                "carImage": "/img/models/u70-pro/red-jam.webp",
+                "carImage": "/img/models/u70-pro/colors/red-jam.webp",
                 "style": "background:#951212;"
             },
             {
                 "id": "black-knight",
                 "name": "Черный рыцарь",
-                "carImage": "/img/models/u70-pro/black-knight.webp",
+                "carImage": "/img/models/u70-pro/colors/black-knight.webp",
                 "style": "background:#000000;"
             }
         ],
@@ -196,37 +196,37 @@
             {
                 "id": "white-rose",
                 "name": "Белая роза",
-                "carImage": "/img/models/u75-plus/white-rose.webp",
+                "carImage": "/img/models/u75-plus/colors/white-rose.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "gray-lounge",
                 "name": "Серый лаунж",
-                "carImage": "/img/models/u75-plus/gray-lounge.webp",
+                "carImage": "/img/models/u75-plus/colors/gray-lounge.webp",
                 "style": "background-color: #D9D9D9;"
             },
             {
                 "id": "silver-rain",
                 "name": "Серебряный дождь",
-                "carImage": "/img/models/u75-plus/silver-rain.webp",
+                "carImage": "/img/models/u75-plus/colors/silver-rain.webp",
                 "style": "background:linear-gradient(90deg, #979797 0%, #ffffff 50%, #979797 100%);"
             },
             {
                 "id": "royal-blue",
                 "name": "Синий королевский",
-                "carImage": "/img/models/u75-plus/royal-blue.webp",
+                "carImage": "/img/models/u75-plus/colors/royal-blue.webp",
                 "style": "background:#004BBD;"
             },
             {
                 "id": "red-jam",
                 "name": "Красный джем",
-                "carImage": "/img/models/u75-plus/red-jam.webp",
+                "carImage": "/img/models/u75-plus/colors/red-jam.webp",
                 "style": "background:#951212;"
             },
             {
                 "id": "black-knight",
                 "name": "Черный рыцарь",
-                "carImage": "/img/models/u75-plus/black-knight.webp",
+                "carImage": "/img/models/u75-plus/colors/black-knight.webp",
                 "style": "background:#000000;"
             }
         ],
