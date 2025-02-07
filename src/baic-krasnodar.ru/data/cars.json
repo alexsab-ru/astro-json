@@ -2,50 +2,50 @@
   {
     "id": "baic-u5_plus",
     "model": "BAIC U5 PLUS",
-    "price": 1485000,
-    "benefit": 220000,
+    "price": 1555000,
+    "benefit": 0,
     "link": "/models/u5_plus/"
   },
   {
     "id": "baic-u5_plus-cng",
     "model": "BAIC U5 PLUS CNG",
     "price": 1485000,
-    "benefit": 605522,
+    "benefit": 0,
     "link": "/models/u5_plus-cng/"
   },
   {
     "id": "baic-x35",
     "model": "BAIC X35",
-    "price": 1670000,
-    "benefit": 243000,
+    "price": 1764000,
+    "benefit": 0,
     "link": "/models/x35/"
   },
   {
     "id": "baic-x55",
     "model": "BAIC X55",
-    "price": 2099000,
-    "benefit": 451000,
+    "price": 2204000,
+    "benefit": 0,
     "link": "/models/x55/"
   },
   {
     "id": "baic-x7",
     "model": "BAIC X7",
     "price": 1990000,
-    "benefit": 710000,
+    "benefit": 0,
     "link": "/models/x7/"
   },
   {
     "id": "baic-x75",
     "model": "BAIC X75",
-    "price": 2490000,
-    "benefit": 411000,
+    "price": 2595000,
+    "benefit": 0,
     "link": "/models/x75/"
   },
   {
     "id": "baic-bj40",
     "model": "BAIC BJ40",
-    "price": 3555000,
-    "benefit": 338000,
+    "price": 3650000,
+    "benefit": 0,
     "link": "/models/bj40/"
   }
 ]

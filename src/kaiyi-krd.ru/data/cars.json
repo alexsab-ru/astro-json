@@ -3,28 +3,28 @@
     "id": "kaiyi-e5",
     "model": "KAIYI E5",
     "price": 2115000,
-    "benefit": 675000,
+    "benefit": 625000,
     "link": "/models/kaiyi-e5/"
   },
   {
     "id": "kaiyi-x3",
     "model": "KAIYI X3",
     "price": 2238000,
-    "benefit": 703000,
+    "benefit": 653000,
     "link": "/models/kaiyi-x3/"
   },
   {
     "id": "kaiyi-x3pro",
     "model": "KAIYI X3 PRO",
     "price": 2514900,
-    "benefit": 744900,
+    "benefit": 684900,
     "link": "/models/kaiyi-x3pro/"
   },
   {
     "id": "kaiyi-x7-kunlun",
     "model": "KAIYI X7 Kunlun",
     "price": 2997900,
-    "benefit": 825000,
+    "benefit": 755000,
     "link": "/models/kaiyi-x7-kunlun/"
   }
 ]
