@@ -6,6 +6,7 @@
         "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/banners/rassrochka/rassrochka-1920x1080-notxt.webp",
+        "mobileImageUrl": "/img/banners/rassrochka/rassrochka-640x800-notxt.webp",
         "title": "До конца месяца",
         "descr": "СТАВКА от <b>0,01%</b><br>ПЕРВОНАЧАЛЬНЫЙ ВЗНОС от <b>40%</b><br>СРОК от <b>12</b> до <b>96</b> месяцев",
         "btn": "Подробнее",
@@ -19,7 +20,7 @@
             "image": "",
             "position": "left"
         },
-        "autoplay": 60000
+        "autoplay": 6000
     },
     {
         "id": 0,
