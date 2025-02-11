@@ -1,6 +1,28 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/rassrochka/rassrochka-1920x1080-notxt.webp",
+        "title": "До конца месяца",
+        "descr": "СТАВКА от <b>0,01%</b><br>ПЕРВОНАЧАЛЬНЫЙ ВЗНОС от <b>40%</b><br>СРОК от <b>12</b> до <b>96</b> месяцев",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Ставка 0.01%, Первоначальный взнос 40%, Срок 12-96 месяцев",
+        "dataFormName": "Подробнее. Ставка 0.01%, Первоначальный взнос 40%, Срок 12-96 месяцев. Баннер",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "ПАО \"Альфабанк\". Не является публичной офертой.",
+            "image": "",
+            "position": "left"
+        },
+        "autoplay": 60000
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "link",
