@@ -143,6 +143,7 @@ async function saveJson(data, filePaths) {
     };
 
     const data = await scrapePage(url, xpaths);
+    console.log(data);
 
     // Разделение путей сохранения по запятой и обработка их как списка
     const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
