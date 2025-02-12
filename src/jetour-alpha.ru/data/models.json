@@ -30,7 +30,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x90plus/colors/c4b.png",
+        "thumb": "/img/models/x90plus/thumb.png",
         "colors": [
             {
                 "id": "c5b",
@@ -193,7 +193,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t2/colors/c3b.png",
+        "thumb": "/img/models/t2/thumb.png",
         "colors": [
             {
                 "id": "c1b",
@@ -337,7 +337,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/dashing/colors/c4b.png",
+        "thumb": "/img/models/dashing/thumb.png",
         "colors": [
             {
                 "id": "c1b",
@@ -634,7 +634,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x70plus/colors/c4b.png",
+        "thumb": "/img/models/x70plus/thumb.png",
         "colors": [
             {
                 "id": "c1b",
@@ -781,30 +781,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x50/colors/black.png",
+        "thumb": "/img/models/x50/thumb.png",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/x50/colors/black.png",
+                "carImage": "/img/models/x50/colors/black.webp",
                 "style": "background-color: #000000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/x50/colors/gray.png",
+                "carImage": "/img/models/x50/colors/gray.webp",
                 "style": "background-color: #696969; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "light-gray",
                 "name": "Светло-серый",
-                "carImage": "/img/models/x50/colors/light-gray.png",
+                "carImage": "/img/models/x50/colors/light-gray.webp",
                 "style": "background-color: #A9A9A9; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/x50/colors/white.png",
+                "carImage": "/img/models/x50/colors/white.webp",
                 "style": "background-color: #E0E0E0; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
