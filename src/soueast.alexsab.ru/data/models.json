@@ -176,10 +176,46 @@
         "thumb": "/img/models/s07/thumb.webp",
         "colors": [
             {
+                "id": "pearl-white",
+                "name": "Жемчужно-белый",
+                "carImage": "/img/models/s07/colors/pearl-white.webp",
+                "style": "background-color: #f0f0f0;"
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "carImage": "/img/models/s07/colors/brown.webp",
+                "style": "background-color: #877776;"
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/s07/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/s07/colors/gray.webp",
+                "style": "background-color: #b5b5b5;"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "/img/models/s07/colors/blue.webp",
+                "style": "background-color: #3e5d9c;"
+            },
+            {
+                "id": "blue-light",
+                "name": "Светло-синий",
+                "carImage": "/img/models/s07/colors/blue-light.webp",
+                "style": "background-color: #90a9c2;"
+            },
+            {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/s07/thumb.webp",
-                "style": ""
+                "carImage": "/img/models/s07/colors/white.webp",
+                "style": "background-color: #e5e5e5;"
             }
         ],
         "complectations": [
