@@ -121,7 +121,7 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'belgee' }}
         run: pnpm run get-belgee-samara
         env:
-          CSV_ALPHA: ${{ secrets.CSV_ALPHA }}
+          CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape belgee.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'belgee' }}
