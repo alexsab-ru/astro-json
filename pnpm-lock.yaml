@@ -20,6 +20,9 @@ importers:
       puppeteer:
         specifier: ^23.1.0
         version: 23.1.0
+      puppeteer-core:
+        specifier: ^23.1.0
+        version: 23.1.0
 
 packages:
 
