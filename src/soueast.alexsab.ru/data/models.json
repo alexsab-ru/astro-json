@@ -32,8 +32,38 @@
             {
                 "id": "green",
                 "name": "Зеленый",
-                "carImage": "/img/models/s09/thumb.webp",
+                "carImage": "/img/models/s09/colors/green.webp",
                 "style": "background-color: #427276;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/s09/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/s09/colors/gray.webp",
+                "style": "background-color: #b5b5b5;"
+            },
+            {
+                "id": "gray-light",
+                "name": "Светло-серый",
+                "carImage": "/img/models/s09/colors/gray-light.webp",
+                "style": "background-color: #d7d7d7;"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "/img/models/s09/colors/blue.webp",
+                "style": "background-color: #3e5d9c;"
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/s09/colors/black.webp",
+                "style": ""
             }
         ],
         "complectations": [
