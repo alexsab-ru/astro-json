@@ -24,9 +24,9 @@
     "scrape-jac": "sh ./.github/scripts/sh/scrape-jac.sh",
     "scrape-jetour": "sh ./.github/scripts/sh/scrape-jetour.sh",
     "scrape-livan": "sh ./.github/scripts/sh/scrape-livan.sh",
-    "get-all-krasnodar": "pnpm run get-jetour-krasnodar && pnpm run get-kaiyi-krd && pnpm run get-baic-krasnodar",
-    "get-all-ankor": "pnpm run get-belgee-samara && pnpm run get-jac-samara && pnpm run get-jetour-alpha && pnpm run get-livan-alpha && pnpm run get-kaiyi-alpha && pnpm run get-kaiyi-samara && pnpm run get-baic-alpha && pnpm run get-baic-samara",
-    "scrape-all": "pnpm run scrape-geely && pnpm run scrape-belgee && pnpm run scrape-jac && pnpm run scrape-jetour && pnpm run scrape-livan && pnpm run scrape-gac && pnpm run scrape-changan && pnpm run extract-kaiyi && pnpm run extract-baic && pnpm run mergeJson",
+    "get-all-krasnodar": "sh ./.github/scripts/sh/run-get-all-krasnodar.sh",
+    "get-all-ankor": "sh ./.github/scripts/sh/run-get-all-ankor.sh",
+    "scrape-all": "sh ./.github/scripts/sh/run-scrape-all.sh",
     "pull_without_merge": "COUNT=$(git rev-list --count origin/main..main) && git checkout -b new-branch-for-pull-without-merge && git checkout main && git reset --hard HEAD~$COUNT && git pull origin main && git checkout new-branch-for-pull-without-merge && git rebase main && git checkout main && git merge new-branch-for-pull-without-merge && git branch -D new-branch-for-pull-without-merge"
   },
   "author": "alexsab.ru",
