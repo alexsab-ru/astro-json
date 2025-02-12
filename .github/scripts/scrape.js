@@ -23,7 +23,7 @@ async function scrapePage(url, xpaths) {
         headless: "new"
     });
     const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'domcontentloaded' });
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
 
     const data = await page.evaluate((xpaths, baseUrl) => {
         const results = [];
