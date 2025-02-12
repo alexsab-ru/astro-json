@@ -2,7 +2,7 @@
 
 # Если CSV_URL не установлен, пытаемся получить его из .env
 if [ -z "$CSV_URL" ] && [ -f .env ]; then
-    export CSV_URL=$(grep '^CSV_URL=' .env | awk -F'=' '{print substr($0, index($0,$2))}' | sed 's/^"//; s/"$//')
+    export CSV_URL=$(grep '^CSV_AUTOHOLDING=' .env | cut -d'=' -f2- | sed 's/^"//; s/"$//')
 fi
 
 # Проверяем, что CSV_URL установлен
