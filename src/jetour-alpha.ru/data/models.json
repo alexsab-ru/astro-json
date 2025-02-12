@@ -505,7 +505,7 @@
         "mark_id": "Jetour",
         "id": "x70",
         "show": true,
-        "homeImg": "/img/models/x70/bg.jpg",
+        "homeImg": "/img/models/x70/bg.webp",
         "slogan": "Семейный кроссовер",
         "name": "X70",
         "price": "{{price-jetour-x70}}",
