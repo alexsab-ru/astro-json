@@ -121,7 +121,7 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'belgee' }}
         run: pnpm run get-belgee-samara
         env:
-          CSV_URL: ${{ secrets.CSV_ALPHA }}
+          CSV_ALPHA: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape belgee.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'belgee' }}
@@ -131,7 +131,7 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jac' }}
         run: pnpm run get-jac-samara
         env:
-          CSV_URL: ${{ secrets.CSV_ALPHA }}
+          CSV_ALPHA: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape jaccar.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jac' }}
@@ -141,13 +141,13 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jetour' }}
         run: pnpm run get-jetour-alpha
         env:
-          CSV_URL: ${{ secrets.CSV_ALPHA }}
+          CSV_ALPHA: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price jetour-krasnodar.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jetour' }}
         run: pnpm run get-jetour-krasnodar
         env:
-          CSV_URL: ${{ secrets.CSV_AUTOHOLDING }}
+          CSV_AUTOHOLDING: ${{ secrets.CSV_AUTOHOLDING }}
 
       - name: Scrape jetour-ru.com
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jetour' }}
@@ -157,7 +157,7 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'livan' }}
         run: pnpm run get-livan-alpha
         env:
-          CSV_URL: ${{ secrets.CSV_ALPHA }}
+          CSV_ALPHA: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape livan-motors.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'livan' }}
@@ -175,19 +175,19 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
         run: pnpm run get-kaiyi-alpha
         env:
-          CSV_URL: ${{ secrets.CSV_ALPHA }}
+          CSV_ALPHA: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price for kaiyi-samara.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
         run: pnpm run get-kaiyi-samara
         env:
-          CSV_URL: ${{ secrets.CSV_ALPHA }}
+          CSV_ALPHA: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price for kaiyi-krd.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
         run: pnpm run get-kaiyi-krd
         env:
-          CSV_URL: ${{ secrets.CSV_AUTOHOLDING }}
+          CSV_AUTOHOLDING: ${{ secrets.CSV_AUTOHOLDING }}
 
       - name: Scrape kaiyi-auto.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
@@ -197,19 +197,19 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
         run: pnpm run get-baic-alpha
         env:
-          CSV_URL: ${{ secrets.CSV_ALPHA }}
+          CSV_ALPHA: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price для baic-samara.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
         run: pnpm run get-baic-samara
         env:
-          CSV_URL: ${{ secrets.CSV_ALPHA }}
+          CSV_ALPHA: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price для baic-krasnodar.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
         run: pnpm run get-baic-krasnodar
         env:
-          CSV_URL: ${{ secrets.CSV_AUTOHOLDING }}
+          CSV_AUTOHOLDING: ${{ secrets.CSV_AUTOHOLDING }}
 
       - name: Extract BAIC data
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
