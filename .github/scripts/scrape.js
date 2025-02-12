@@ -8,7 +8,7 @@ export LINK_XPATH="./a/@href"
 export OUTPUT_PATHS="./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json"
 node .github/scripts/scrape.js
 /**/
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 const fs = require('fs').promises;
 const path = require('path');
 const brandPrefix = process.env.BRAND;
@@ -19,6 +19,8 @@ const dealerBenefitField = process.env.DEALERBENEFITFIELD ?? "";
 async function scrapePage(url, xpaths) {
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        executablePath: process.env.CHROME_BIN || '/usr/bin/google-chrome',
+        headless: "new"
     });
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'domcontentloaded' });
