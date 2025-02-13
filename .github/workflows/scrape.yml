@@ -230,26 +230,26 @@ jobs:
             echo "changes=true" >> $GITHUB_OUTPUT
             BRAND_NAME="${{ steps.set_brand.outputs.brand }}"
             if [[ "$BRAND_NAME" == "all" ]]; then
-              echo -n "<blockquote>Updated all brands data</blockquote>" > output_wrapped.txt
+              echo "<blockquote>Updated all brands data</blockquote>" >> output_wrapped.txt
             else
-              echo -n "<blockquote>Updated $BRAND_NAME data</blockquote>" > output_wrapped.txt
+              echo "<blockquote>Updated $BRAND_NAME data</blockquote>" >> output_wrapped.txt
             fi
           elif git status -s; then
             echo "changes=true" >> $GITHUB_ENV
             echo "changes=true" >> $GITHUB_OUTPUT
             BRAND_NAME="${{ steps.set_brand.outputs.brand }}"
             if [[ "$BRAND_NAME" == "all" ]]; then
-              echo -n "<blockquote>Updated all brands data</blockquote>" > output_wrapped.txt
+              echo "<blockquote>Updated all brands data</blockquote>" >> output_wrapped.txt
             else
-              echo -n "<blockquote>Updated $BRAND_NAME data</blockquote>" > output_wrapped.txt
+              echo "<blockquote>Updated $BRAND_NAME data</blockquote>" >> output_wrapped.txt
             fi
           else
             echo "changes=false" >> $GITHUB_ENV
             echo "changes=false" >> $GITHUB_OUTPUT
-            echo -n "<blockquote>Nothing changes</blockquote>" > output_wrapped.txt
+            echo "<blockquote>Nothing changes</blockquote>" >> output_wrapped.txt
           fi
           if [ -s output.txt ]; then
-            echo "<pre>$(cat output.txt)</pre>" > output_wrapped.txt
+            echo "<pre>$(cat output.txt)</pre>" >> output_wrapped.txt
           fi
           # Кодируем содержимое файла в base64
           encoded_output=$(base64 -w 0 output_wrapped.txt)
