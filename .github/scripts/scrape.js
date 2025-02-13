@@ -20,10 +20,16 @@ async function scrapePage(url, xpaths) {
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
         executablePath: process.env.CHROME_BIN || '/usr/bin/google-chrome',
-        headless: "new"
+        headless: false
     });
     const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+    try {
+        await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 }); // Можно поменять timeout
+    } catch (error) {
+        console.error(`Ошибка загрузки страницы: ${error.message}`);
+        await browser.close();
+        return []; // Возвращаем пустой массив, чтобы скрипт не ломался
+    }
 
     const data = await page.evaluate((xpaths, baseUrl) => {
         const results = [];
@@ -145,7 +151,11 @@ async function saveJson(data, filePaths) {
     const data = await scrapePage(url, xpaths);
     console.log(data);
 
-    // Разделение путей сохранения по запятой и обработка их как списка
-    const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
-    await saveJson(data, outputFilePaths);
+    if (data.length > 0) {
+        // Разделение путей сохранения по запятой и обработка их как списка
+        const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
+        await saveJson(data, outputFilePaths);
+    } else {
+        console.log("Данные не были получены, файл не записывается.");
+    }
 })();
