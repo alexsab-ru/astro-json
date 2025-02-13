@@ -245,19 +245,15 @@ jobs:
             echo "changes=false" >> $GITHUB_OUTPUT
             echo -n "<blockquote>Nothing changes</blockquote>" > output_wrapped.txt
           fi
-        continue-on-error: true
-      
-      - name: Set output
-        id: set_output
-        run: |
           if [ -s output.txt ]; then
             echo "<br><pre>$(cat output.txt)</pre>" > output_wrapped.txt
-            # Кодируем содержимое файла в base64
-            encoded_output=$(base64 -w 0 output_wrapped.txt)
-            # Передаем закодированное значение
-            echo "script_output=$encoded_output" >> $GITHUB_OUTPUT
           fi
-
+          # Кодируем содержимое файла в base64
+          encoded_output=$(base64 -w 0 output_wrapped.txt)
+          # Передаем закодированное значение
+          echo "script_output=$encoded_output" >> $GITHUB_OUTPUT
+        continue-on-error: true
+      
       - name: Commit files
         if: |
           env.changes == 'true' && 
@@ -274,7 +270,7 @@ jobs:
   
     outputs:
       changes: ${{ steps.check_changes.outputs.changes }}
-      script_output: ${{ steps.set_output.outputs.script_output }}
+      script_output: ${{ steps.check_changes.outputs.script_output }}
   
   notify_telegram:
     needs: scrape_all
