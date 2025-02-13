@@ -100,7 +100,7 @@ async function readJsonFile(filePath) {
         // Возвращаем объект для дальнейших действий
         return jsonData;
     } catch (err) {
-        await logError(`Ошибка при чтении или парсинге JSON файла: ${filePath}, ${err.message}`);
+        await logError(`Ошибка при чтении или парсинге JSON файла: ${err.message}`);
         return false;
         // throw err; // Пробрасываем ошибку для обработки в вызывающем коде
     }

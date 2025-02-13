@@ -249,7 +249,7 @@ jobs:
             echo -n "<blockquote>Nothing changes</blockquote>" > output_wrapped.txt
           fi
           if [ -s output.txt ]; then
-            echo "<br><pre>$(cat output.txt)</pre>" > output_wrapped.txt
+            echo "<pre>$(cat output.txt)</pre>" > output_wrapped.txt
           fi
           # Кодируем содержимое файла в base64
           encoded_output=$(base64 -w 0 output_wrapped.txt)
