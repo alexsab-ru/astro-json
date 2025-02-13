@@ -13,13 +13,23 @@ const dealerPrice = process.env.DEALERPRICE ?? "";
 const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
 const dealerBenefitField = process.env.DEALERBENEFITFIELD ?? "";
 
+// Добавляем функцию логирования
+async function logError(error) {
+    console.error(error);
+    try {
+        await fs.appendFile('output.txt', `${new Date().toISOString()}: ${error}\n`);
+    } catch (appendError) {
+        console.error('Ошибка при записи в лог:', appendError);
+    }
+}
+
 // Функция для загрузки HTML-страницы
 async function fetchHTML(url) {
     try {
         const { data } = await axios.get(url);
         return data;
     } catch (error) {
-        console.error(`Ошибка при загрузке URL: ${error}`);
+        await logError(`Ошибка при загрузке URL: ${url}, ${error}`);
         process.exit(1);
     }
 }
@@ -34,7 +44,7 @@ async function extractData() {
     const match = html.match(regex);
 
     if (!match || match.length < 2) {
-        console.error("Не удалось найти соответствие регулярному выражению.");
+        await logError("Не удалось найти соответствие регулярному выражению.");
         process.exit(1);
     }
 
@@ -44,7 +54,7 @@ async function extractData() {
     try {
         jsonData = JSON.parse(jsonString);
     } catch (error) {
-        console.error("Ошибка при парсинге JSON: ", error);
+        await logError(`Ошибка при парсинге JSON: ${error}`);
         process.exit(1);
     }
 
@@ -52,7 +62,7 @@ async function extractData() {
     const cards = jsonData.desktopMenu.sections[0].data.tabs.items[0].content.cards;
 
     if (!cards || !Array.isArray(cards)) {
-        console.error("Не удалось найти объекты cards по заданному пути.");
+        await logError("Не удалось найти объекты cards по заданному пути.");
         process.exit(1);
     }
 
@@ -139,7 +149,7 @@ async function readJsonFile(filePath) {
         // Возвращаем объект для дальнейших действий
         return jsonData;
     } catch (err) {
-        console.error(`Ошибка при чтении или парсинге JSON файла: ${err.message}`);
+        await logError(`Ошибка при чтении или парсинге JSON файла: ${filePath}, ${err.message}`);
         return false;
         // throw err; // Пробрасываем ошибку для обработки в вызывающем коде
     }
@@ -181,7 +191,7 @@ async function saveJson(data, filePaths) {
             await fs.writeFile(filePath, JSON.stringify(dealerdata, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);
         } catch (error) {
-            console.error(`Ошибка сохранения файла ${filePath}: ${error}`);
+            await logError(`Ошибка сохранения файла ${filePath}: ${error}`);
         }
     }
 }

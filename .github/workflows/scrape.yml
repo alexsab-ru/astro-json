@@ -113,6 +113,9 @@ jobs:
             echo "brand=all" >> $GITHUB_OUTPUT
           fi
 
+      - name: Create empty output.txt
+        run: touch output.txt
+
       - name: Run Geely scraper
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'geely' }}
         run: pnpm run scrape-geely

@@ -12,6 +12,16 @@ async function combinedJson(inputFilePaths) {
     return jsonObjects.reduce((acc, obj) => acc.concat(obj), []);
 }
 
+// Добавляем функцию логирования
+async function logError(error) {
+    console.error(error);
+    try {
+        await fs.appendFile('output.txt', `${new Date().toISOString()}: ${error}\n`);
+    } catch (appendError) {
+        console.error('Ошибка при записи в лог:', appendError);
+    }
+}
+
 async function saveJson(data, filePaths) {
     for (const filePath of filePaths) {
         try {
@@ -20,7 +30,7 @@ async function saveJson(data, filePaths) {
             await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);
         } catch (error) {
-            console.error(`Ошибка сохранения файла ${filePath}: ${error}`);
+            await logError(`Ошибка сохранения файла ${filePath}: ${error}`);
         }
     }
 }
@@ -35,7 +45,7 @@ async function saveJson(data, filePaths) {
             const data = await combinedJson(inputFilePaths);
             await saveJson(data, outputFilePaths);
         } catch (error) {
-            console.error(`Ошибка слияния файлов: ${error.message}`);
+            await logError(`Ошибка слияния файлов: ${error.message}`);
         }
     }
 })();

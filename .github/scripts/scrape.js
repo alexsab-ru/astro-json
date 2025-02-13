@@ -16,6 +16,16 @@ const dealerPrice = process.env.DEALERPRICE ?? "";
 const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
 const dealerBenefitField = process.env.DEALERBENEFITFIELD ?? "";
 
+// Добавляем функцию логирования
+async function logError(error) {
+    console.error(error);
+    try {
+        await fs.appendFile('output.txt', `${new Date().toISOString()}: ${error}\n`);
+    } catch (appendError) {
+        console.error('Ошибка при записи в лог:', appendError);
+    }
+}
+
 async function scrapePage(url, xpaths) {
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
@@ -26,7 +36,7 @@ async function scrapePage(url, xpaths) {
     try {
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 120000 }); // Можно поменять timeout
     } catch (error) {
-        console.error(`Ошибка загрузки страницы: ${error.message}`);
+        await logError(`Ошибка загрузки страницы: ${url}, ${error.message}`);
         await browser.close();
         return []; // Возвращаем пустой массив, чтобы скрипт не ломался
     }
@@ -90,7 +100,7 @@ async function readJsonFile(filePath) {
         // Возвращаем объект для дальнейших действий
         return jsonData;
     } catch (err) {
-        console.error(`Ошибка при чтении или парсинге JSON файла: ${err.message}`);
+        await logError(`Ошибка при чтении или парсинге JSON файла: ${filePath}, ${err.message}`);
         return false;
         // throw err; // Пробрасываем ошибку для обработки в вызывающем коде
     }
@@ -132,7 +142,7 @@ async function saveJson(data, filePaths) {
             await fs.writeFile(filePath, JSON.stringify(dealerdata, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);
         } catch (error) {
-            console.error(`Ошибка сохранения файла ${filePath}: ${error}`);
+            await logError(`Ошибка сохранения файла ${filePath}: ${error}`);
         }
     }
 }
