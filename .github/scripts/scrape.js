@@ -24,7 +24,7 @@ async function scrapePage(url, xpaths) {
     });
     const page = await browser.newPage();
     try {
-        await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 }); // Можно поменять timeout
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 120000 }); // Можно поменять timeout
     } catch (error) {
         console.error(`Ошибка загрузки страницы: ${error.message}`);
         await browser.close();
