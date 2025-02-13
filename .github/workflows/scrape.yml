@@ -268,7 +268,7 @@ jobs:
   notify_telegram:
     needs: scrape_all
     if: |
-      needs.scrape.outputs.script_output != '' && 
+      needs.scrape_all.outputs.script_output != '' && 
       (github.event_name == 'push' || github.event_name == 'schedule' || github.event.inputs.send_notification == 'true')
     uses: ./.github/workflows/github-telegram.yml
     with:
