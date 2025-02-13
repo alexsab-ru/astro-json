@@ -31,7 +31,11 @@ async function saveJson(data, filePaths) {
     const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
 
     if (inputFilePaths.length > 0 && inputFilePaths[0] !== '') {
-        const data = await combinedJson(inputFilePaths);
-        await saveJson(data, outputFilePaths);
+        try {
+            const data = await combinedJson(inputFilePaths);
+            await saveJson(data, outputFilePaths);
+        } catch (error) {
+            console.error(`Ошибка слияния файлов: ${error.message}`);
+        }
     }
 })();
