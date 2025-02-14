@@ -7,13 +7,6 @@
     "link": "/models/u5_plus/"
   },
   {
-    "id": "baic-u5_plus-cng",
-    "model": "BAIC U5 PLUS CNG",
-    "price": 1485000,
-    "benefit": 0,
-    "link": "/models/u5_plus-cng/"
-  },
-  {
     "id": "baic-x35",
     "model": "BAIC X35",
     "price": "1355000",
