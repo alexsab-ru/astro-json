@@ -150,7 +150,7 @@
   sections:
   - id: M2YBZIY0E4FAMZ35YA5
     images: []
-    text: '<p>Надежный помощник в обычной жизни.<br>Новые формы HAVAL H3<sup>10</sup> для совмещения всего в&nbsp;жизни&nbsp;— семьи, хобби, путешествий и&nbsp;работы.</p><br/><p>Внешний вид этого кроссовера передает его характер — сильный, брутальный, энергичный. Помимо классических цветов кузова (черного, белого и серого) автомобиль представлен в уникальном голубом цвете, который будет выделяться и притягивать взгляды в городской среде. Какой из цветов лучше отражает ваш стиль и темперамент — решать вам.</p><video autoplay loop muted playsinline class="block w-full aspect-video object-cover mt-10" preload="metadata"><source src="
+    text: '<p>Надежный помощник в обычной жизни.<br>Новые формы HAVAL H3<sup>10</sup> для совмещения всего в&nbsp;жизни&nbsp;— семьи, хобби, путешествий и&nbsp;работы.</p><br/><p>Внешний вид этого кроссовера передает его характер — сильный, брутальный, энергичный. Помимо классических цветов кузова (черного, белого и серого) автомобиль представлен в уникальном голубом цвете, который будет выделяться и притягивать взгляды в городской среде. Какой из цветов лучше отражает ваш стиль и темперамент — решать вам.</p><video autoplay loop muted playsinline class="block w-full aspect-video object-cover mt-10" preload="metadata" poster=\"/img/models/h3/sections/poster.webp\"><source src="
       https://cdn.kodixauto.ru/media/66681a46323396670f21b7f0" type="video/mp4"/></video>'
     title: 'HAVAL H3 — ДЛЯ НЕЗАВИСИМЫХ И УВЕРЕННЫХ'
   - id: M2YBZIXLCBE5NZQRRWW
@@ -351,7 +351,7 @@
   sections:
   - id: M70IDK6XB9M5AMH4IC6
     images: []
-    text: "<p>Возможность реализовывать задуманное без ограничений — это главное, что вы ощутите с HAVAL H5.</p><video class=\"block w-full object-cover mt-10\" autoplay loop muted playsinline preload=\"metadata\">\n<source src=\"\
+    text: "<p>Возможность реализовывать задуманное без ограничений — это главное, что вы ощутите с HAVAL H5.</p><video class=\"block w-full object-cover mt-10\" autoplay loop muted playsinline preload=\"metadata\" poster=\"/img/models/h5/sections/poster.webp\">\n<source src=\"\
       https://cdn.kodixauto.ru/media/67640ad30b79ba9053af8082\" type=\"video/mp4\"\
       />\n</video>"
     title: ПРОСТРАНСТВО БЕЗГРАНИЧНЫХ ВОЗМОЖНОСТЕЙ
@@ -1667,7 +1667,7 @@
       \ выражают серьезный, мужской характер пикапа. GWM POER KINGKONG сразу бросается\
       \ в глаза благодаря своим габаритам. Длина корпуса — 5641 мм, больше, чем у любого\
       \ другого автомобиля в этом сегменте. Производит впечатление!\n </p>\n</div>\n<video autoplay=\"\" class=\"block w-full object-cover mt-10\" loop=\"\"\
-      \ muted=\"\" playsinline=\"\" preload=\"metadata\">\n <source src=\"https://cdn.kodixauto.ru/media/653b991d8583d225dde89a37\"\
+      \ muted=\"\" playsinline=\"\" preload=\"metadata\" poster=\"/img/models/poer-king-kong/sections/poster.webp\">\n <source src=\"https://cdn.kodixauto.ru/media/653b991d8583d225dde89a37\"\
       \ type=\"video/mp4\"/>\n</video>"
     title: GWM POER KINGKONG
   - id: M2YBZH4WQ079XVA8SBF
