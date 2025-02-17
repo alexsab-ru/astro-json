@@ -30,6 +30,7 @@ async function scrapePage(url, xpaths) {
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
         executablePath: process.env.CHROME_BIN || '/usr/bin/google-chrome',
+        timeout: 120000,
         headless: 'new'
     });
     const page = await browser.newPage();
