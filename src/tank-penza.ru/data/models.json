@@ -26,36 +26,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/defc347ca8d1a334116ca45277d5a6dd.png",
+        "thumb": "/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный Эльтон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
+                "carImage": "/img/models/300/colors/red.webp",
                 "style": "background-color: #ef2929;"
             },
             {
                 "id": "orange",
                 "name": "Чарский Оранжевый, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/61aab46d6fccaf0d2a047925cf8f0684.png",
+                "carImage": "/img/models/300/colors/orange.webp",
                 "style": "background-color: #df4c30;"
             },
             {
                 "id": "gray",
                 "name": "Серый Шантар",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/db5a358aa9c6471a4f23ffd84270da78.png",
+                "carImage": "/img/models/300/colors/gray.webp",
                 "style": "background-color: #c6c9ce;"
             },
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/2c18b43a8d5223f07af8e4dcace56b77.png",
+                "carImage": "/img/models/300/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "white",
                 "name": "Белый Ольхон, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/0d372feb159f387bec68136ee77e6058.png",
+                "carImage": "/img/models/300/colors/white.webp",
                 "style": "background-color: #e6e7e8;"
             }
         ],
@@ -113,7 +113,7 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Веди за собой",
         "name": "500",
-        "price": 5599000,
+        "price": 6449000,
         "benefit": "",
         "benefits": [
             {
@@ -133,30 +133,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.ru/uploads/car_variant_color_sequence/53b09ed72dd39e7ec7434d778c6ccfcf.png",
+        "thumb": "/img/models/500/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/7d13ba248ae0c07934c965490d5fedae.png",
+                "carImage": "/img/models/500/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый Сихоте, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/d708dd4e6738a31a1d98056489ed524b.png",
+                "carImage": "/img/models/500/colors/silver.webp",
                 "style": "background-color: #a2a4ab;"
             },
             {
                 "id": "gold",
                 "name": "Золото Рускеала, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/b8c097c6cdbdb52f8321f9f435b95ae3.png",
+                "carImage": "/img/models/500/colors/gold.webp",
                 "style": "background-color: #b0a798;"
             },
             {
                 "id": "white",
                 "name": "Снежная Иремель, металлик",
-                "carImage": "https://tank.ru/uploads/car_variant_color_sequence/cdbe33850dd69e5018e62566f414ce1a.png",
+                "carImage": "/img/models/500/colors/white.webp",
                 "style": "background-color: #e6e7e8;"
             }
         ],
