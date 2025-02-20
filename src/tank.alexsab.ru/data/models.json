@@ -1,0 +1,210 @@
+[
+    {
+        "mark_id": "Tank",
+        "id": "300",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Следуй за открытиями",
+        "name": "300",
+        "price": 3649000,
+        "benefit": 450000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. TANK 300",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. TANK 300",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/300/thumb.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный Эльтон, металлик",
+                "carImage": "/img/models/300/colors/red.webp",
+                "style": "background-color: #ef2929;"
+            },
+            {
+                "id": "orange",
+                "name": "Чарский Оранжевый, металлик",
+                "carImage": "/img/models/300/colors/orange.webp",
+                "style": "background-color: #df4c30;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый Шантар",
+                "carImage": "/img/models/300/colors/gray.webp",
+                "style": "background-color: #c6c9ce;"
+            },
+            {
+                "id": "black",
+                "name": "Черный Богдо, металлик",
+                "carImage": "/img/models/300/colors/black.webp",
+                "style": "background-color: #212329;"
+            },
+            {
+                "id": "white",
+                "name": "Белый Ольхон, металлик",
+                "carImage": "/img/models/300/colors/white.webp",
+                "style": "background-color: #e6e7e8;"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2750",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4760",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1930",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "380",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Tank",
+        "id": "500",
+        "show": true,
+        "homeImg": "/img/model-bg.webp",
+        "slogan": "Веди за собой",
+        "name": "500",
+        "price": 6449000,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. TANK 500",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. TANK 500",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/500/thumb.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный Богдо, металлик",
+                "carImage": "/img/models/500/colors/black.webp",
+                "style": "background-color: #212329;"
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый Сихоте, металлик",
+                "carImage": "/img/models/500/colors/silver.webp",
+                "style": "background-color: #a2a4ab;"
+            },
+            {
+                "id": "gold",
+                "name": "Золото Рускеала, металлик",
+                "carImage": "/img/models/500/colors/gold.webp",
+                "style": "background-color: #b0a798;"
+            },
+            {
+                "id": "white",
+                "name": "Снежная Иремель, металлик",
+                "carImage": "/img/models/500/colors/white.webp",
+                "style": "background-color: #e6e7e8;"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "9AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2850",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4886",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1934",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "3.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "616",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    }
+]
