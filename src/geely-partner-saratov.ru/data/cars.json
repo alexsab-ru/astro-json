@@ -1,5 +1,12 @@
 [
   {
+    "id": "geely-ex5",
+    "model": "EX5",
+    "price": "3749990",
+    "benefit": "",
+    "link": "https://www.geely-motors.com/model/geely-ex5"
+  },
+  {
     "id": "geely-emgrand",
     "model": "EMGRAND",
     "price": "1903990",
