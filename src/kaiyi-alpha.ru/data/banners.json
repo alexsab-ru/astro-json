@@ -1,6 +1,23 @@
 [
     {
         "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/rejim-raboti-23feb-notxt.webp",
+        "imagePosition": "top",
+        "title": "График работы автосалона",
+        "descr": "23 февраля<br>8:00-18-00",
+        "btn": "",
+        "btnUrl": "",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
         "show": false,
         "type": "",
         "view": "popup-link",
