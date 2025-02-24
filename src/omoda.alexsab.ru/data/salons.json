@@ -1,13 +1,13 @@
 [
     {
         "name": "Вип Авто",
-        "address": "г. Самара, ул.&nbsp;Урицкого,&nbsp;128",
+        "address": "г. Самара, Ново-Урицкая, 22",
         "phone":  "+7 (846) 00-00-12",
         "work_hours": "пн-сб: 08:00-20:00 <br/>вс: 09:00-18:00",
         "map": {
             "zoom": 19,
             "balloon": "/img/omoda-locator.svg",
-            "coords": [54.356669, 48.356908],
+            "coords": [53.184192, 50.152080],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
     }
