@@ -1,13 +1,13 @@
 [
     {
-        "name": "Дилерский центр Jetour Альфа",
+        "name": "Сервисный центр Автоцентр АЛЬФА",
         "address": "г. Самара, ул. Ново-Урицкая, д.&nbsp;22",
-        "phone":  "8 (846) 9 777-779",
+        "phone":  "8 (846) 97-97-440",
         "work_hours": "Ежедневно с&nbsp;08:00 до&nbsp;20:00 без перерывов и&nbsp;выходных",
         "map": {
             "zoom": 15,
             "balloon": "/img/jetour-locator.svg",
-            "coords": [53.184186, 50.152134],
+            "coords": [53.184192, 50.152080],
             "ya_link": "https://yandex.ru/maps/48/orenburg/?ll=50.152134%2C53.184186&mode=routes&rtext=~53.184186%2C50.152134&z=17"
         },
         "workers": [
