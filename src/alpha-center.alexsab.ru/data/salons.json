@@ -6,7 +6,7 @@
         "work_hours": "Ежедневно с&nbsp;08:00 до&nbsp;20:00 без перерывов и&nbsp;выходных",
         "map": {
             "zoom": 15,
-            "balloon": "/img/jetour-locator.svg",
+            "balloon": "/img/alpha-locator.svg",
             "coords": [53.184192, 50.152080],
             "ya_link": "https://yandex.ru/maps/48/orenburg/?ll=50.152134%2C53.184186&mode=routes&rtext=~53.184186%2C50.152134&z=17"
         },
