@@ -6,7 +6,7 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Следуй за открытиями",
         "name": "300",
-        "price": 3649000,
+        "price": 4049000,
         "benefit": 450000,
         "benefits": [
             {
@@ -60,6 +60,48 @@
             }
         ],
         "feed_names": [
+        ],
+        "complectations": [
+            {
+                "name": "Adventure",
+                "price": 4049000,
+                "bodytype": "Универсал",
+                "engine": "2.0 м3",
+                "engine_power": "220",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "City Adventure",
+                "price": 4199000,
+                "bodytype": "Универсал",
+                "engine": "2.0 м3",
+                "engine_power": "220",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium",
+                "price": 4449000,
+                "bodytype": "Универсал",
+                "engine": "2.0 м3",
+                "engine_power": "220",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "City Premium",
+                "price": 4649000,
+                "bodytype": "Универсал",
+                "engine": "2.0 м3",
+                "engine_power": "220",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }            
         ],
         "photos": "",
         "chars": {
@@ -285,9 +327,51 @@
         ],
         "feed_names": [
         ],
+        "complectations": [
+            {
+                "name": "Adventure",
+                "price": 6449000,
+                "bodytype": "Универсал",
+                "engine": "3.0 м3",
+                "engine_power": "299",
+                "gear_rus": "9AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Urban",
+                "price": 6499000,
+                "bodytype": "Универсал",
+                "engine": "2.0 м3",
+                "engine_power": "299",
+                "gear_rus": "9AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium",
+                "price": 7049000,
+                "bodytype": "Универсал",
+                "engine": "3.0 м3",
+                "engine_power": "299",
+                "gear_rus": "9AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Blacktrail",
+                "price": 7649000,
+                "bodytype": "Универсал",
+                "engine": "3.0 м3",
+                "engine_power": "354",
+                "gear_rus": "9AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }      
+        ],
         "photos": "",
         "chars": {
-            "seats": "7 мест",
+            "seats": "5-7 мест",
             "fuel": "Бензин",
             "gearbox": "9AT"
         },
@@ -313,13 +397,13 @@
             {
                 "id": "engine",
                 "title": "Объем двигателя",
-                "value": "3.0",
+                "value": "2.0-3.0",
                 "measure": "л."
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "616",
+                "value": "500-616",
                 "measure": "н.м."
             },
             {
