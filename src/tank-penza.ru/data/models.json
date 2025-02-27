@@ -279,7 +279,7 @@
         "slogan": "Веди за собой",
         "name": "500",
         "price": 6449000,
-        "benefit": "",
+        "benefit": 300000,
         "benefits": [
             {
                 "url": "#common-modal",
