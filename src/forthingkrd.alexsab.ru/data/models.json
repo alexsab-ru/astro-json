@@ -4,7 +4,7 @@
         "id": "t5evo",
         "show": true,
         "homeImg": "/img/models/t5evo/bg.jpg",
-        "slogan": "",
+        "slogan": "Смотри в будущее",
         "name": "T5 EVO",
         "price": "2600000",
         "benefit": "",
@@ -127,6 +127,323 @@
                 "id": "transmission",
                 "title": "Привод",
                 "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Forthing",
+        "id": "yacht",
+        "show": true,
+        "homeImg": "/img/models/yacht/bg.jpg",
+        "slogan": "Победитель премии \"Автомобиль года в России\"",
+        "name": "YACHT",
+        "price": "3400000",
+        "benefit": "",
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
+        "benefits": [],
+        "thumb": "/img/models/yacht/colors/white.webp",
+        "colors": [
+            {
+                "id": "yacht_white",
+                "name": "Альпийский белый",
+                "carImage": "",
+                "style": "background-color: #fff;"
+            },
+            {
+                "id": "yacht_black",
+                "name": "Чёрный бриллиант",
+                "carImage": "",
+                "style": "background-color: #131313;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "YACHT PREMIUM",
+                "price": 3400000,
+                "bodytype": "",
+                "engine": "1.5 м3",
+                "engine_power": "197",
+                "gear_rus": "7 DCT Magna",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "YACHT IXEN",
+                "price": 3400000,
+                "bodytype": "",
+                "engine": "1.5 м3",
+                "engine_power": "176",
+                "gear_rus": "7 DCT Magna",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": ""
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2900",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4850",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1900",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "285",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Forthing",
+        "id": "v-online",
+        "show": true,
+        "homeImg": "/img/models/v-online/bg.jpg",
+        "slogan": "Стиль и брутальность",
+        "name": "V-Online",
+        "price": "2780000",
+        "benefit": "",
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
+        "benefits": [],
+        "thumb": "/img/models/v-online/colors/gray.webp",
+        "colors": [
+            {
+                "id": "v-online_gray",
+                "name": "Серый Бернина",
+                "carImage": "",
+                "style": "background-color: #808080;"
+            },
+            {
+                "id": "v-online_white",
+                "name": "Искрящийся Белый",
+                "carImage": "",
+                "style": "background-color: #fff;"
+            },
+            {
+                "id": "v-online_black",
+                "name": "Черный Бриллиант",
+                "carImage": "",
+                "style": "background-color: #131313;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Standart",
+                "price": 2780000,
+                "bodytype": "Фастбэк",
+                "engine": "1.5 м3",
+                "engine_power": "93.3",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 2990000,
+                "bodytype": "Фастбэк",
+                "engine": "1.5 м3",
+                "engine_power": "93.3",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2700",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4562",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1917",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "260/1500-4500",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Forthing",
+        "id": "d60-plus",
+        "show": true,
+        "homeImg": "/img/models/d60-plus/bg.jpg",
+        "slogan": "Спокойная решительность",
+        "name": "D60 Plus",
+        "price": "2140000",
+        "benefit": "",
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
+        "benefits": [],
+        "thumb": "/img/models/d60-plus/colors/black.webp",
+        "colors": [
+            {
+                "id": "d60-plus_black",
+                "name": "Чёрный бриллиант",
+                "carImage": "",
+                "style": "background-color: #131313;"
+            },
+            {
+                "id": "d60-plus_white",
+                "name": "Альпийский белый",
+                "carImage": "",
+                "style": "background-color: #fff;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Standard 1.6 XE CVT",
+                "price": 2140000,
+                "bodytype": "Седан",
+                "engine": "1.6",
+                "engine_power": "90/6000",
+                "gear_rus": "XTRONIC CVT вариатор",
+                "drive": "",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Сomfort 1.6 СVT",
+                "price": 2320000,
+                "bodytype": "Седан",
+                "engine": "1.6",
+                "engine_power": "90/6000",
+                "gear_rus": "XTRONIC CVT вариатор",
+                "drive": "",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite 1.6 СVT",
+                "price": 2450000,
+                "bodytype": "Седан",
+                "engine": "1.6",
+                "engine_power": "90/6000",
+                "gear_rus": "XTRONIC CVT вариатор",
+                "drive": "",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 1.6 СVT",
+                "price": 2550000,
+                "bodytype": "Седан",
+                "engine": "1.6",
+                "engine_power": "90/6000",
+                "gear_rus": "XTRONIC CVT вариатор",
+                "drive": "",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": ""
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2701",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4761",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1803",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "155/4000",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "",
                 "measure": ""
             }
         ]
