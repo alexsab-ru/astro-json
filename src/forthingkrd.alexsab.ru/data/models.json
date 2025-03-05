@@ -3,7 +3,7 @@
         "mark_id": "Forthing",
         "id": "t5evo",
         "show": true,
-        "homeImg": "/img/models/t5evo/bg.jpg",
+        "homeImg": "/img/models/t5evo/bg.webp",
         "slogan": "Смотри в будущее",
         "name": "T5 EVO",
         "price": "2600000",
@@ -13,42 +13,42 @@
             "alt": ""
         },
         "benefits": [],
-        "thumb": "/img/models/t5evo/colors/gray.webp",
+        "thumb": "/img/models/t5evo/colors/gray.png",
         "colors": [
             {
                 "id": "t5evo_gray",
                 "name": "Искрящийся серый",
-                "carImage": "",
+                "carImage": "/img/models/t5evo/colors/gray.png",
                 "style": "background-color: #848474;"
             },
             {
                 "id": "t5evo_green",
                 "name": "Магический изумруд",
-                "carImage": "",
+                "carImage": "/img/models/t5evo/colors/green.png",
                 "style": "background-color: #0c5a5a;"
             },
             {
                 "id": "t5evo_red",
                 "name": "Красный агат",
-                "carImage": "",
+                "carImage": "/img/models/t5evo/colors/red.png",
                 "style": "background-color: #ae1a11;"
             },
             {
                 "id": "t5evo_black",
                 "name": "Чёрный бриллиант",
-                "carImage": "",
+                "carImage": "/img/models/t5evo/colors/black.png",
                 "style": "background-color: #131313;"
             },
             {
                 "id": "t5evo_white",
                 "name": "Альпийский белый",
-                "carImage": "",
+                "carImage": "/img/models/t5evo/colors/white.png",
                 "style": "background-color: #fff;"
             },
             {
                 "id": "t5evo_anthracite",
                 "name": "Космический антрацит",
-                "carImage": "",
+                "carImage": "/img/models/t5evo/colors/gray-dark.png",
                 "style": "background-color: #525252;"
             }
         ],
@@ -69,7 +69,7 @@
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "176",
-                "gear_rus": "",
+                "gear_rus": "DHT 300",
                 "drive": "Передний",
                 "fuel": "Бензин"
             },
@@ -79,7 +79,7 @@
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "176",
-                "gear_rus": "",
+                "gear_rus": "DHT 300",
                 "drive": "Передний",
                 "fuel": "Бензин"
             }
@@ -96,7 +96,7 @@
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "",
+                "value": "2715",
                 "measure": "мм"
             },
             {
@@ -135,7 +135,7 @@
         "mark_id": "Forthing",
         "id": "yacht",
         "show": true,
-        "homeImg": "/img/models/yacht/bg.jpg",
+        "homeImg": "/img/models/yacht/bg.webp",
         "slogan": "Победитель премии \"Автомобиль года в России\"",
         "name": "YACHT",
         "price": "3400000",
@@ -145,18 +145,18 @@
             "alt": ""
         },
         "benefits": [],
-        "thumb": "/img/models/yacht/colors/white.webp",
+        "thumb": "/img/models/yacht/colors/white.png",
         "colors": [
             {
                 "id": "yacht_white",
                 "name": "Альпийский белый",
-                "carImage": "",
+                "carImage": "/img/models/yacht/colors/white.png",
                 "style": "background-color: #fff;"
             },
             {
                 "id": "yacht_black",
                 "name": "Чёрный бриллиант",
-                "carImage": "",
+                "carImage": "/img/models/yacht/colors/black.png",
                 "style": "background-color: #131313;"
             }
         ],
@@ -164,7 +164,7 @@
             {
                 "name": "YACHT PREMIUM",
                 "price": 3400000,
-                "bodytype": "",
+                "bodytype": "Минивэн",
                 "engine": "1.5 м3",
                 "engine_power": "197",
                 "gear_rus": "7 DCT Magna",
@@ -174,7 +174,7 @@
             {
                 "name": "YACHT IXEN",
                 "price": 3400000,
-                "bodytype": "",
+                "bodytype": "Минивэн",
                 "engine": "1.5 м3",
                 "engine_power": "176",
                 "gear_rus": "7 DCT Magna",
@@ -232,7 +232,7 @@
         "mark_id": "Forthing",
         "id": "v-online",
         "show": true,
-        "homeImg": "/img/models/v-online/bg.jpg",
+        "homeImg": "/img/models/v-online/bg.webp",
         "slogan": "Стиль и брутальность",
         "name": "V-Online",
         "price": "2780000",
@@ -242,25 +242,13 @@
             "alt": ""
         },
         "benefits": [],
-        "thumb": "/img/models/v-online/colors/gray.webp",
+        "thumb": "/img/models/v-online/colors/gray.png",
         "colors": [
             {
                 "id": "v-online_gray",
                 "name": "Серый Бернина",
-                "carImage": "",
-                "style": "background-color: #808080;"
-            },
-            {
-                "id": "v-online_white",
-                "name": "Искрящийся Белый",
-                "carImage": "",
-                "style": "background-color: #fff;"
-            },
-            {
-                "id": "v-online_black",
-                "name": "Черный Бриллиант",
-                "carImage": "",
-                "style": "background-color: #131313;"
+                "carImage": "/img/models/v-online/colors/gray.png",
+                "style": "background-color: #51586d;"
             }
         ],
         "complectations": [
@@ -335,7 +323,7 @@
         "mark_id": "Forthing",
         "id": "d60-plus",
         "show": true,
-        "homeImg": "/img/models/d60-plus/bg.jpg",
+        "homeImg": "/img/models/d60-plus/bg.webp",
         "slogan": "Спокойная решительность",
         "name": "D60 Plus",
         "price": "2140000",
@@ -345,18 +333,18 @@
             "alt": ""
         },
         "benefits": [],
-        "thumb": "/img/models/d60-plus/colors/black.webp",
+        "thumb": "/img/models/d60-plus/colors/black.png",
         "colors": [
             {
                 "id": "d60-plus_black",
                 "name": "Чёрный бриллиант",
-                "carImage": "",
+                "carImage": "/img/models/d60-plus/colors/black.png",
                 "style": "background-color: #131313;"
             },
             {
                 "id": "d60-plus_white",
                 "name": "Альпийский белый",
-                "carImage": "",
+                "carImage": "/img/models/d60-plus/colors/white.png",
                 "style": "background-color: #fff;"
             }
         ],
@@ -378,7 +366,7 @@
                 "engine": "1.6",
                 "engine_power": "90/6000",
                 "gear_rus": "XTRONIC CVT вариатор",
-                "drive": "",
+                "drive": "Передний",
                 "fuel": "Бензин"
             },
             {
@@ -388,7 +376,7 @@
                 "engine": "1.6",
                 "engine_power": "90/6000",
                 "gear_rus": "XTRONIC CVT вариатор",
-                "drive": "",
+                "drive": "Передний",
                 "fuel": "Бензин"
             },
             {
@@ -398,7 +386,7 @@
                 "engine": "1.6",
                 "engine_power": "90/6000",
                 "gear_rus": "XTRONIC CVT вариатор",
-                "drive": "",
+                "drive": "Передний",
                 "fuel": "Бензин"
             }
         ],
@@ -443,7 +431,7 @@
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "",
+                "value": "Передний",
                 "measure": ""
             }
         ]
