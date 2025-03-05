@@ -90,7 +90,7 @@
         "chars": {
             "seats": "5/7 мест",
             "fuel": "Бензин",
-            "gearbox": "7"
+            "gearbox": "7 DCT Magna"
         },
         "globalChars": [
             {
@@ -187,7 +187,7 @@
         "chars": {
             "seats": "7 мест",
             "fuel": "Бензин",
-            "gearbox": ""
+            "gearbox": "7 DCT Magna"
         },
         "globalChars": [
             {
@@ -258,7 +258,7 @@
                 "bodytype": "Фастбэк",
                 "engine": "1.5 м3",
                 "engine_power": "93.3",
-                "gear_rus": "7 DCT",
+                "gear_rus": "7 DCT КПП",
                 "drive": "Передний",
                 "fuel": "Бензин"
             },
@@ -268,7 +268,7 @@
                 "bodytype": "Фастбэк",
                 "engine": "1.5 м3",
                 "engine_power": "93.3",
-                "gear_rus": "7 DCT",
+                "gear_rus": "7 DCT КПП",
                 "drive": "Передний",
                 "fuel": "Бензин"
             }
@@ -278,7 +278,7 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7"
+            "gearbox": "7 DCT КПП"
         },
         "globalChars": [
             {
@@ -395,7 +395,7 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": ""
+            "gearbox": "XTRONIC CVT вариатор"
         },
         "globalChars": [
             {
