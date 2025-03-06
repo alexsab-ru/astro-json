@@ -3384,6 +3384,12 @@
         "thumb": "/img/models/gac/gs3/colors/blue.webp",
         "colors": [
             {
+                "id": "lavender",
+                "name": "Лавандовый",
+                "carImage": "/img/models/gac/gs3/colors/lavender.webp",
+                "style": "background-color: #ab9ab8"
+            },
+            {
                 "id": "white",
                 "name": "Белый",
                 "carImage": "/img/models/gac/gs3/colors/white.webp",
