@@ -29,7 +29,7 @@
         "videoUrl": "",
         "imageUrl": "/img/specials/skidka-30-na-uslugi-servisa-dlya-novyh-klientov/belgee-service30-1920x1080-notxt.webp",
         "title": "Получите скидку&nbsp;30% <br/>на&nbsp;услуги сервиса",
-        "descr": "Только до 30 января 2025 года!",
+        "descr": "Только до {{lastDay}} {{monthGenitive}} {{year}} года!",
         "btn": "Подробнее",
         "btnUrl": "/special-offers/skidka-30-na-uslugi-servisa-dlya-novyh-klientov/",
         "dataTitle": "",
