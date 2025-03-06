@@ -1,14 +1,14 @@
 [
     {
-        "name": "Джили Партнер",
-        "address": "Загородное шоссе, 13/1, Оренбург",
-        "phone":  "+7 (3532) 40-53-53",
-        "work_hours": "Отдел продаж<br>Ежедневно с 09:00 до 20:00<br>Сервис с 09:00 до 19:00",
+        "name": "Knewstar",
+        "address": "Ульяновская ул., 85, Пенза",
+        "phone":  "+7 (8412) 99-06-00",
+        "work_hours": "Будни с 09:00 до 19:00<br>Выходные с 09:00 до 16:00",
         "map": {
             "zoom": 17,
             "balloon": "/img/knewstar-locator.svg",
-            "coords": [51.844881, 55.154843],
-            "ya_link": "https://yandex.ru/maps/48/orenburg/?ll=55.154674%2C51.844799&mode=routes&rtext=~51.844881%2C55.154843&rtt=pd&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg2Njk2NjYwOBJF0KDQvtGB0YHQuNGPLCDQntGA0LXQvdCx0YPRgNCzLCDQl9Cw0LPQvtGA0L7QtNC90L7QtSDRiNC-0YHRgdC1LCAxMy8xIgoNkJ5cQhUpYU9C&z=17"
+            "coords": [53.234157, 44.904616],
+            "ya_link": "https://yandex.com/maps/-/CHBnARmw"
         }
     }
 ]
