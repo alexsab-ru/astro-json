@@ -1,12 +1,12 @@
 [
     {
-        "name": "Автохолдинг Jetour",
+        "name": "Автохолдинг Forting",
         "address": "г. Краснодар, Тургеневское шоссе, 20 Д",
         "phone":  "8 (861) 992-02-02",
         "work_hours": "Ежедневно с&nbsp;09:00 до&nbsp;19:00 без перерывов и&nbsp;выходных",
         "map": {
             "zoom": 15,
-            "balloon": "/img/jetour-locator.svg",
+            "balloon": "/img/forting-locator.svg",
             "coords": [45.017711, 38.937869],
             "ya_link": "https://yandex.ru/maps/48/orenburg/?ll=38.937869%2C45.017711&mode=routes&rtext=~45.017711%2C38.937869&z=17"
         }
