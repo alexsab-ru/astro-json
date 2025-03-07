@@ -1,6 +1,25 @@
 [
     {
         "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/rejim-raboti-8march-2592x1080-notxt.jpg",
+        "mobileImageUrl": "/img/banners/rejim-raboti-8march-640x1350.webp",
+        "imagePosition": "center",
+        "title": "<span style=\"color:#6d01cc;\">График работы автосалона</span>",
+        "descr": "<span style=\"color:#6d01cc;\" class=\"text-2xl sm:text-5xl\">8 марта<br>8:00-18-00</span>",
+        "btn": "",
+        "btnUrl": "",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "gradient": false,
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
         "show": false,
         "type": "",
         "view": "popup-link",
