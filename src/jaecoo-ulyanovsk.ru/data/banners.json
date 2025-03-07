@@ -9,7 +9,7 @@
         "title": "<div>Новогодний драйв<br>стильных кроссоверов</div>",
         "descr": "Пройдите тест-драйв и участвуйте в розыгрыше ценных призов",
         "btn": "Участвовать",
-        "btnUrl": "/test-drive",
+        "btnUrl": "/test-drive/",
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",

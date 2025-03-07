@@ -123,7 +123,7 @@
         "descr": "<span class='text-black text-2xl sm:text-4xl uppercase font-medium'>1.5 Сверхмощный двигатель <br />с&nbsp;турбонадувом</span>",
         "bannerUrl": "",
         "btn": "Подробнее",
-        "btnUrl": "/brand-history",
+        "btnUrl": "/brand-history/",
         "btnColor": "black",
         "dataTitle": "",
         "dataFormName": "",
