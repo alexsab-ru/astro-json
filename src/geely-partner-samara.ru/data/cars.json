@@ -23,22 +23,22 @@
   {
     "id": "geely-coolray-2023",
     "model": "COOLRAY",
-    "price": "2414990",
-    "benefit": "",
+    "price": "2164990",
+    "benefit": "630000",
     "link": "https://www.geely-motors.com/model/geely-coolray-2023"
   },
   {
     "id": "geely-cityray",
     "model": "НОВЫЙ CITYRAY",
-    "price": "2499990",
-    "benefit": "",
+    "price": "2239990",
+    "benefit": "610000",
     "link": "https://www.geely-motors.com/model/cityray"
   },
   {
     "id": "geely-atlas-2024",
     "model": "ATLAS",
-    "price": "3099990",
-    "benefit": "",
+    "price": "2849990",
+    "benefit": "663000",
     "link": "https://www.geely-motors.com/model/geely-atlas-2024"
   },
   {
@@ -52,7 +52,7 @@
     "id": "geely-monjaro",
     "model": "MONJARO",
     "price": "3839990",
-    "benefit": "",
+    "benefit": "1010000",
     "link": "https://www.geely-motors.com/model/monjaro"
   }
 ]

@@ -2,15 +2,15 @@
   {
     "id": "belgee-x50",
     "model": "X50",
-    "price": "2049990",
-    "benefit": "",
+    "price": "1799990",
+    "benefit": "680000",
     "link": "https://belgee.ru/model/belgee-x50"
   },
   {
     "id": "belgee-x70",
     "model": "X70",
-    "price": "2375990",
-    "benefit": "",
+    "price": "2105990",
+    "benefit": "720000",
     "link": "https://belgee.ru/model/belgee-x70"
   }
 ]
