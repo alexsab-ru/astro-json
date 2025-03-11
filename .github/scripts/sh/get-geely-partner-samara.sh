@@ -15,6 +15,7 @@ fi
 export QUERY_STRING="SELECT E, J, K, L, M, N WHERE B='Geely' and C='Самара'"
 export KEY_COLUMN="Модель"
 export OUTPUT_PATHS="./src/geely-partner-samara.ru/data/dealer_price.json"
+export KEY_MAPPING='{"Цена без выгоды": "РРЦ","Выгода до (от дистрибьютора)": "Выгода дистрибьютора","Выгода до максимальная": "Скидка","Цена от (с учётом выгоды от дистрибьютора)": "Цена дистрибьютора","Цена от (с учётом максимальной выгоды)": "Конечная цена"}'
 
 
 # Запускаем скрипт

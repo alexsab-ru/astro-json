@@ -38,10 +38,16 @@ function convertCsvToJson(csvData, keyColumn) {
             }
 
             const result = {};
+            const keyMapping = JSON.parse(process.env.KEY_MAPPING || '{}'); // Получаем карту переименования
+
             records.forEach(record => {
                 if (Object.values(record).some(value => value.trim() !== '')) {
                     const key = cleanString(record[keyColumn]).toLowerCase();
                     const transformedRecord = {};
+
+                    if(key == "") {
+                        return;
+                    }
 
                     // Проходим по всем полям записи и приводим значения к числу, если возможно
                     Object.keys(record).forEach(field => {
@@ -52,7 +58,12 @@ function convertCsvToJson(csvData, keyColumn) {
                                 // Убираем пробелы внутри числа и преобразуем в число
                                 value = Number(value.replace(/\s+/g, ''));
                             }
-                            transformedRecord[field] = value;
+                            // Переименовываем ключи согласно карте
+                            const newKey = keyMapping[field] || field; // Если ключ не найден в карте, оставляем оригинальный
+                            if(newKey == "") {
+                                return;
+                            }
+                            transformedRecord[newKey] = value;
                         }
                     });
                     result[key] = transformedRecord;
