@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Если CSV_URL не установлен, пытаемся получить его из .env
+if [ -z "$CSV_URL" ] && [ -f .env ]; then
+    export CSV_URL=$(grep '^CSV_PARTNER=' .env | cut -d'=' -f2- | sed 's/^"//; s/"$//')
+fi
+
+# Проверяем, что CSV_URL установлен
+if [ -z "$CSV_URL" ]; then
+    echo "Error: CSV_URL is not set"
+    exit 1
+fi
+
+# Устанавливаем остальные переменные
+export QUERY_STRING="SELECT E, J, K, L, M, N WHERE B='Geely' and C='Самара'"
+export KEY_COLUMN="Модель"
+export OUTPUT_PATHS="./src/geely-partner-samara.ru/data/dealer_price.json"
+
+
+# Запускаем скрипт
+node .github/scripts/getDealerData.js

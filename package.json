@@ -10,6 +10,7 @@
     "get-baic-samara": "sh ./.github/scripts/sh/get-baic-samara.sh",
     "get-belgee-samara": "sh ./.github/scripts/sh/get-belgee-samara.sh",
     "get-belgee-smr": "sh ./.github/scripts/sh/get-belgee-smr.sh",
+    "get-geely-partner-samara": "sh ./.github/scripts/sh/get-geely-partner-samara.sh",
     "get-jac-samara": "sh ./.github/scripts/sh/get-jac-samara.sh",
     "get-jetour-alpha": "sh ./.github/scripts/sh/get-jetour-alpha.sh",
     "get-jetour-krasnodar": "sh ./.github/scripts/sh/get-jetour-krasnodar.sh",
