@@ -6,12 +6,12 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Командный игрок",
         "name": "U70PRO",
-        "price": 1199900,
-        "benefit": 200000,
+        "price": 1999900,
+        "benefit": 500000,
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
+                "label": "Выгода за трейд-ин до 200&nbsp;000&nbsp;₽",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
                 "data_form_name": "Выгодный трейд-ин. VGV U70PRO",
@@ -19,7 +19,7 @@
             },
             {
                 "url": "#common-modal",
-                "label": "Выгодный кредит",
+                "label": "Выгода за кредит до 300&nbsp;000&nbsp;₽",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
                 "data_form_name": "Выгодный кредит. VGV U70PRO",
@@ -68,7 +68,7 @@
         "complectations": [
             {
                 "name": "Comfort (5 мест)",
-                "price": 2199900,
+                "price": 1999900,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "143",
@@ -78,7 +78,7 @@
             },
             {
                 "name": "Comfort (7 мест)",
-                "price": 2259900,
+                "price": 2059900,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "143",
@@ -88,7 +88,7 @@
             },
             {
                 "name": "Lifestyle (5 мест)",
-                "price": 2499900,
+                "price": 2249900,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "143",
@@ -98,7 +98,7 @@
             },
             {
                 "name": "Lifestyle (7 мест)",
-                "price": 2449900,
+                "price": 2249900,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "143",
@@ -108,7 +108,7 @@
             },
             {
                 "name": "Executive (7 мест)",
-                "price": 2549900,
+                "price": 2249900,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "143",
@@ -171,12 +171,12 @@
         "homeImg": "/img/model-bg.webp",
         "slogan": "Большое будущее",
         "name": "U75PLUS",
-        "price": 2799900,
-        "benefit": 150000,
+        "price": 2499900,
+        "benefit": 450000,
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
+                "label": "Выгода за трейд-ин до&nbsp;150&nbsp;000&nbsp;₽",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
                 "data_form_name": "Выгодный трейд-ин. VGV U75PLUS",
@@ -184,7 +184,7 @@
             },
             {
                 "url": "#common-modal",
-                "label": "Выгодный кредит",
+                "label": "Выгода за кредит до&nbsp;300&nbsp;000&nbsp;₽",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
                 "data_form_name": "Выгодный кредит. VGV U75PLUS",
@@ -233,7 +233,7 @@
         "complectations": [
             {
                 "name": "Executive (5 мест)",
-                "price": 2799900,
+                "price": 2499900,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "199",
@@ -243,7 +243,7 @@
             },
             {
                 "name": "Executive (7 мест)",
-                "price": 2849900,
+                "price": 2599900,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "199",
@@ -253,7 +253,7 @@
             },
             {
                 "name": "Premium (7 мест)",
-                "price": 2999900,
+                "price": 2749900,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "199",
