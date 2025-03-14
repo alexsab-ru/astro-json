@@ -50,6 +50,26 @@
         "type": "",
         "view": "link",
         "videoUrl": "",
+        "imageUrl": "/img/banners/photo_2024-09-04 10.53.16.webp",
+        "title": "Специальное предложение.<br/>X90&nbsp;Plus&nbsp;Comfort&nbsp;1.6&nbsp;(190л.с.)&nbsp;2023&nbsp;г.в.<br/>с выгодой до&nbsp;{{benefitb-jetour-x90plus}}.",
+        "descr": "Остался один автомобиль! <br/>Честная цена, без скрытых условий! <br/>До {{lastDay}} {{monthGenitive}} {{year}} г.",
+        "btn": "Успеть купить",
+        "btnUrl": "/cars/?model=x90+plus",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "left"
+        },
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
         "imageUrl": "/img/specials/jetour-vigoda/jetour-t2-full.webp",
         "mobileImageUrl": "/img/specials/jetour-vigoda/2aYEZm__frame-1321315324.webp",
         "imagePosition": "center",
@@ -262,28 +282,6 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 7000
-    },
-    {
-        "id": 1,
-        "show": true,
-        "type": "",
-        "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/banners/photo_2024-09-04 10.53.16.webp",
-        "title": "Специальное предложение.<br>Брутальный Х90 с выгодой до&nbsp;{{benefitb-jetour-x90plus}}.",
-        "descr": "Осталось несколько штук. Цена от {{priceb-jetour-x90plus}}.<br>До {{lastDay}} {{monthGenitive}} {{year}} г.",
-        "btn": "Успеть купить",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Подробнее про JETOUR X90 от {{priceb-jetour-x90plus}} с выгодой до&nbsp;{{benefitb-jetour-x90plus}}",
-        "dataFormName": "Подробнее про JETOUR X90 от {{priceb-jetour-x90plus}} с выгодой до&nbsp;{{benefitb-jetour-x90plus}}. Баннер",
-        "badge": {
-            "autoname": "",
-            "title": "",
-            "descr": "",
-            "image": "/img/badge-4x4-2024.png",
-            "position": "left"
-        },
         "autoplay": 7000
     },
     {
