@@ -19,6 +19,32 @@
         "autoplay": 7000
     },
     {
+        "id": 5,
+        "show": true,
+        "type": "video",
+        "view": "link",
+        "videoUrl": "https://alexsab.ru/video/all-jetour.mp4",
+        "imageUrl": "/img/banners/postres/all-jetour.webp",
+        "title": "Jetour",
+        "descr": "Создан для путешествий",
+        "btn": "Узнать больше",
+        "btnUrl": "/models/",
+        "autoplay": 10000
+    },
+    {
+        "id": 5,
+        "show": true,
+        "type": "video",
+        "view": "link",
+        "videoUrl": "https://alexsab.ru/video/jetour-t2-cool.mp4",
+        "imageUrl": "/img/banners/postres/jetour-t2-cool.webp",
+        "title": "JETOUT T2",
+        "descr": "Внедорожник для путешествий",
+        "btn": "Подробнее о модели",
+        "btnUrl": "/models/t2",
+        "autoplay": 10000
+    },
+    {
         "id": 1,
         "show": true,
         "type": "",
