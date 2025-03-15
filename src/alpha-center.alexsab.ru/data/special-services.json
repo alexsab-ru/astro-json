@@ -2,76 +2,76 @@
 	{
 		"title": "Плановое техническое обслуживание",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Плановое\\nтехническое\\nобслуживание"
+		"img": "/img/services/special/planovoe-tehnicheskoe-obsluzhivanie-150px.webp"
 	},
 	{
 		"title": "Реализация запасных частей и расходных материалов",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Реализация\\nзапасных\\nчастей\\nи+расходных\\nматериалов"
+		"img": "/img/services/special/realizaciya-zapasnyh-chastey-i-rashodnyh-materialov-150px.webp"
 	},
 	{
 		"title": "Ремонт ходовой части",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Ремонт\\nходовой\\nчасти"
+		"img": "/img/services/special/service_banner_spare_select-150px.webp"
 	},
 	{
 		"title": "Замена масла в двигателе",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Замена\\nмасла\\nв+двигателе"
+		"img": "/img/services/special/zamena-masla-v-dvigatele-150px.webp"
 	},
 	{
 		"title": "Замена масла в трансмиссии",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Замена\\nмасла\\nв+трансмиссии"
+		"img": "/img/services/special/zamena-masla-v-transmissii-150px.webp"
 	},
 	{
 		"title": "Капитальный ремонт двигателя",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Капитальный\\nремонт+двигателя"
+		"img": "/img/services/special/kapitalnyy-remont-dvigatelya-150px.webp"
 	},
 	{
 		"title": "Капитальный ремонт КПП",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Капитальный\\nремонт+КПП"
+		"img": "/img/services/special/kapitalnyy-remont-kpp-150px.webp"
 	},
 	{
 		"title": "Регулировка развал-схождения",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Регулировка\\nразвал-схождения"
+		"img": "/img/services/special/regulirovka-razval-shozhdeniya-150px.webp"
 	},
 	{
 		"title": "Компьютерная диагностика",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Компьютерная\\nдиагностика"
+		"img": "/img/services/special/kompyuternaya-diagnostika-auto-150px.webp"
 	},
 	{
 		"title": "Диагностика и ремонт электрооборудования",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Диагностика\\nи+ремонт\\nэлектрооборудования"
+		"img": "/img/services/special/diagnostika-i-remont-elektrooborudovaniya-avto-150px.webp"
 	},
 	{
 		"title": "Шиномонтаж, балансировка",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Шиномонтаж\\nбалансировка"
+		"img": "/img/services/special/shinomontazh-balansirovka-150px.webp"
 	},
 	{
 		"title": "Сезонное хранение шин и колес",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Сезонное\\nхранение+шин\\nи+колес"
+		"img": "/img/services/special/sezonnoe-hranenie-shin-i-koles-150px.webp"
 	},
 	{
 		"title": "Установка дополнительного оборудования",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Установка\\nдополнительного\\nоборудования"
+		"img": "/img/services/special/ustanovka-dopolnitelnogo-oborudovaniya-150px.webp"
 	},
 	{
 		"title": "Мойка, химчистка, полировка",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Мойка\\nхимчистка\\nполировка"
+		"img": "/img/services/special/moyka-himchistka-polirovka-150px.webp"
 	},
 	{
 		"title": "Антикоррозийная обработка с мойкой на подъемнике",
 		"subtitle": "",
-		"img": "https://placehold.co/300x300?text=Антикоррозийная\\nобработка\\nс+мойкой\\nна+подъемнике"
+		"img": "/img/services/special/antikorroziynaya-obrabotka-s-moykoy-na-podemnike-150px.webp"
 	}
 ]
