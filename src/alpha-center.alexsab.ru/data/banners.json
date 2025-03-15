@@ -6,6 +6,7 @@
         "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/banners/avto-s-probegom.webp",
+        "mobileImageUrl": "/img/banners/avto-s-probegom-640x800.webp",
         "title": "Автоцентр Альфа",
         "descr": "Автомобили с пробегом<br>Большой выбор проверенных автомобилей. Возможность приобретения в кредит",
         "btn": "Узнать подробнее",
