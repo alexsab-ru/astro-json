@@ -23,6 +23,7 @@
         "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/banners/shinka.webp",
+        "mobileImageUrl": "/img/banners/shinka-640x800.webp",
         "title": "Доступный шиномонтаж",
         "descr": "На любой автомобиль<br>Быстро и без очереди",
         "btn": "Узнать подробнее",
