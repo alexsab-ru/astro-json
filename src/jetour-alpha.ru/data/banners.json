@@ -1,5 +1,85 @@
 [
     {
+        "id": 2,
+        "show": true,
+        "type": "video",
+        "view": "link",
+        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
+        "imageUrl": "/img/banners/banner.jpg",
+        "title": "Скидка на DASHING до {{benefitb-jetour-dashing}}",
+        "descr": "По программе Трейд-Ин<br>Каско в подарок",
+        "btn": "Выбрать автомобиль",
+        "btnUrl": "/cars/",
+        "dataTitle": "Выбрать автомобиль",
+        "dataFormName": "Выбрать автомобиль. DASHING до {{benefitb-jetour-dashing}}. Баннер",
+        "badge": {
+            "autoname": "Jetour Dashing",
+            "title": "Ежегодная национальная премия",
+            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
+            "image": "/img/badge-2024.svg",
+            "position": "left"
+        },
+        "autoplay": ""
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/photo_2024-09-04 10.53.16.webp",
+        "title": "Специальное предложение!<br/>X90&nbsp;Plus&nbsp;Comfort&nbsp;1.6&nbsp;(190л.с.)&nbsp;2023&nbsp;г.в.<br/>с выгодой до&nbsp;{{benefitb-jetour-x90plus}}!",
+        "descr": "Остался один автомобиль! <br/>Цена от {{priceb-jetour-x90plus}}.<br/>Честная цена, без скрытых условий! <br/>До {{lastDay}} {{monthGenitive}} {{year}} г.",
+        "btn": "Успеть купить",
+        "btnUrl": "/cars/?model=x90+plus",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "left"
+        },
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/specials/snegopad-vygod-jetour-t2-so-skidkoy/banner-1920x1080.webp",
+        "title": "Обновленный прайс-лист <br/>на Jetour T2",
+        "descr": "До {{lastDay}}&nbsp;{{monthGenitive}} выгода до&nbsp;{{benefitb-jetour-t2}}<br>Каско в подарок",
+        "btn": "Подробнее",
+        "btnUrl": "/cars/?model=t2",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "/img/badge-4x4-2024.png",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "/img/banners/photo_2024-09-04 10.53.39.webp",
+        "title": "Таких цен не будет.<br>Dashing от {{priceb-jetour-dashing}}.",
+        "descr": "Выгодные условия по программам трейд-ин и кредит.<br>До {{lastDay}} {{monthGenitive}} {{year}} г.<br>Каско в подарок",
+        "btn": "Успеть купить",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Подробнее про Dashing от {{priceb-jetour-dashing}}",
+        "dataFormName": "Подробнее про Dashing от {{priceb-jetour-dashing}}. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
         "id": 1,
         "show": true,
         "type": "",
@@ -43,26 +123,6 @@
         "btn": "Подробнее о модели",
         "btnUrl": "/models/t2",
         "autoplay": 10000
-    },
-    {
-        "id": 1,
-        "show": true,
-        "type": "",
-        "view": "link",
-        "videoUrl": "",
-        "imageUrl": "/img/banners/photo_2024-09-04 10.53.16.webp",
-        "title": "Специальное предложение!<br/>X90&nbsp;Plus&nbsp;Comfort&nbsp;1.6&nbsp;(190л.с.)&nbsp;2023&nbsp;г.в.<br/>с выгодой до&nbsp;{{benefitb-jetour-x90plus}}!",
-        "descr": "Остался один автомобиль! <br/>Цена от {{priceb-jetour-x90plus}}.<br/>Честная цена, без скрытых условий! <br/>До {{lastDay}} {{monthGenitive}} {{year}} г.",
-        "btn": "Успеть купить",
-        "btnUrl": "/cars/?model=x90+plus",
-        "badge": {
-            "autoname": "",
-            "title": "",
-            "descr": "",
-            "image": "/img/badge-4x4-2024.png",
-            "position": "left"
-        },
-        "autoplay": 7000
     },
     {
         "id": 1,
@@ -129,7 +189,7 @@
         "imageUrl": "/img/banners/jetour-dashing-green-1920w.webp",
         "imagePosition": "bottom",
         "title": "Распродажа остатков 2023 года!",
-        "descr": "Осталось 3 автомобиля Dashing,<br/>Честная выгода - 700&nbsp;000&nbsp;₽ <br/>Без лишних условий. <br/>Кредит\/Наличный расчет",
+        "descr": "Осталось 3 автомобиля Dashing,<br/>Честная выгода - 800 000 ₽ <br/>Без лишних условий. <br/>Кредит\/Наличный расчет",
         "btn": "Успеть купить",
         "btnUrl": "/cars/?model=dashing+i&year=2023",
         "dataTitle": "",
@@ -145,7 +205,7 @@
         "videoUrl": "",
         "imageUrl": "/img/banners/x90_plus.webp",
         "title": "Распродажа остатков 2023 года!",
-        "descr": "Осталось 5 автомобилей  X90PLUS <br/>Честная выгода - 800&nbsp;000&nbsp;₽ <br/>3 ТО за наш счет <br/>Каско в подарок <br/>Без лишних условий. <br/>Кредит\/Наличный расчет",
+        "descr": "Осталось 5 автомобилей  X90PLUS <br/>Честная выгода - {{benefitb-jetour-x90plus}} <br/>Без лишних условий. <br/>Кредит\/Наличный расчет",
         "btn": "Выбрать автомобиль",
         "btnUrl": "/cars/?model=x90+plus&year=2023",
         "dataTitle": "",
@@ -175,44 +235,6 @@
         "dataFormName": "",
         "badge": "",
         "autoplay": 10000
-    },
-    {
-        "id": 1,
-        "show": true,
-        "type": "",
-        "view": "link",
-        "videoUrl": "",
-        "imageUrl": "/img/specials/snegopad-vygod-jetour-t2-so-skidkoy/banner-1920x1080.webp",
-        "title": "Обновленный прайс-лист <br/>на Jetour T2",
-        "descr": "До {{lastDay}}&nbsp;{{monthGenitive}} выгода до&nbsp;{{benefitb-jetour-t2}}<br>Каско в подарок",
-        "btn": "Подробнее",
-        "btnUrl": "/cars/?model=t2",
-        "dataTitle": "",
-        "dataFormName": "",
-        "badge": {
-            "autoname": "",
-            "title": "",
-            "descr": "",
-            "image": "/img/badge-4x4-2024.png",
-            "position": "left"
-        },
-        "autoplay": 6000
-    },
-    {
-        "id": 1,
-        "show": true,
-        "type": "",
-        "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/banners/photo_2024-09-04 10.53.39.webp",
-        "title": "Таких цен не будет.<br>Dashing от {{priceb-jetour-dashing}}.",
-        "descr": "Выгодные условия по программам трейд-ин и кредит.<br>До {{lastDay}} {{monthGenitive}} {{year}} г.<br>Каско в подарок",
-        "btn": "Успеть купить",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Подробнее про Dashing от {{priceb-jetour-dashing}}",
-        "dataFormName": "Подробнее про Dashing от {{priceb-jetour-dashing}}. Баннер",
-        "badge": "",
-        "autoplay": 7000
     },
     {
         "id": 5,
@@ -275,7 +297,7 @@
         "view": "link",
         "videoUrl": "",
         "imageUrl": "/img/banners/dashing-kv.webp",
-        "title": "Выгода до&nbsp;1&nbsp;000&nbsp;000&nbsp;₽",
+        "title": "Выгода до&nbsp;{{benefitb-jetour-dashing}}",
         "descr": "Специальные предложения на автомобили Jetour<br>Каско в подарок",
         "btn": "Узнать подробнее",
         "btnUrl": "/special-offers/jetour-vigoda/",
@@ -359,27 +381,5 @@
             "position": "right"
         },
         "autoplay": 6000
-    },
-    {
-        "id": 2,
-        "show": true,
-        "type": "video",
-        "view": "link",
-        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
-        "imageUrl": "/img/banners/banner.jpg",
-        "title": "Скидка на DASHING до {{benefitb-jetour-dashing}}",
-        "descr": "По программе Трейд-Ин<br>Каско в подарок",
-        "btn": "Выбрать автомобиль",
-        "btnUrl": "/cars/",
-        "dataTitle": "Выбрать автомобиль",
-        "dataFormName": "Выбрать автомобиль. DASHING до {{benefitb-jetour-dashing}}. Баннер",
-        "badge": {
-            "autoname": "Jetour Dashing",
-            "title": "Ежегодная национальная премия",
-            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "/img/badge-2024.svg",
-            "position": "left"
-        },
-        "autoplay": ""
     }
 ]
