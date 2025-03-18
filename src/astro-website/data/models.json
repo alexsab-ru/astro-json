@@ -1,12 +1,12 @@
 [
     {
-        "mark_id": "",
+        "mark_id": "Baic",
         "id": "u5-plus",
         "show": true,
-        "homeImg": "https://baic-krasnodar.ru/img/models/u5-plus/bg.jpg",
+        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "Практичность и комфорт",
         "name": "U5 Plus",
-        "price": "",
+        "price": "{{price-u5-plus}}",
         "benefit": 750000,
         "benefits": [
             {
@@ -26,30 +26,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://baic-krasnodar.ru/img/models/u5-plus/colors/black.png",
+        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "https://baic-krasnodar.ru/img/models/u5-plus/colors/red.png",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #E51036;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://baic-alpha.ru/img/models/u5-plus/colors/gray.png",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #9CA3AF;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://baic-krasnodar.ru/img/models/u5-plus/colors/white.png",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #E5E7EB;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://baic-krasnodar.ru/img/models/u5-plus/colors/black.png",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #000000;"
             }
         ],
@@ -101,10 +101,10 @@
         ]
     },
     {
-        "mark_id": "",
+        "mark_id": "Geely",
         "id": "atlas-2024",
         "show": true,
-        "homeImg": "https://geely-partner.ru/img/models/bg.webp",
+        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "",
         "name": "Новый Atlas",
         "price": 2844990,
@@ -127,30 +127,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://geely-partner.ru/img/models/Atlas-2024/starry-blue-metallic_500px.webp",
+        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "gray",
                 "name": "Серо-голубой металлик",
-                "carImage": "https://geely-partner.ru/img/models/Atlas-2024/colors/starry-blue-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #4c5698;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://geely-partner.ru/img/models/Atlas-2024/colors/black-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Atlas-2024/colors/silver-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #828793;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "https://geely-partner.ru/img/models/Atlas-2024/colors/white.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             }
         ],
@@ -202,10 +202,10 @@
         ]
     },
     {
-        "mark_id": "",
+        "mark_id": "Geely",
         "id": "atlas-pro",
         "show": true,
-        "homeImg": "https://geely-partner.ru/img/models/bg.webp",
+        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "",
         "name": "Atlas Pro",
         "price": 2188990,
@@ -228,36 +228,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://geely-partner.ru/img/models/Atlas%20Pro/black-metallic_500px.webp",
+        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "https://geely-partner.ru/img/models/Atlas%20Pro/colors/red-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Atlas%20Pro/colors/gray-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Atlas%20Pro/colors/white.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Atlas%20Pro/colors/silver-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #B9B4B4;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://geely-partner.ru/img/models/Atlas%20Pro/colors/black-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             }
         ],
@@ -309,10 +309,10 @@
         ]
     },
     {
-        "mark_id": "",
+        "mark_id": "Geely",
         "id": "emgrand",
         "show": true,
-        "homeImg": "https://geely-partner.ru/img/models/bg.webp",
+        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "",
         "name": "Emgrand",
         "price": 1799990,
@@ -335,36 +335,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://geely-partner.ru/img/models/Emgrand/emgrand_500px.webp",
+        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Emgrand/colors/white-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Голубой металлик",
-                "carImage": "https://geely-partner.ru/img/models/Emgrand/colors/blue-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #50AECE;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Emgrand/colors/gray-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "gold",
                 "name": "Золотой металлик",
-                "carImage": "https://geely-partner.ru/img/models/Emgrand/colors/gold-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #AC9579;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://geely-partner.ru/img/models/Emgrand/colors/black-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             }
         ],
@@ -416,10 +416,10 @@
         ]
     },
     {
-        "mark_id": "",
+        "mark_id": "Geely",
         "id": "coolray",
         "show": true,
-        "homeImg": "https://geely-partner.ru/img/models/bg.webp",
+        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "",
         "name": "Coolray",
         "price": 2009990,
@@ -442,36 +442,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://geely-partner.ru/img/models/Coolray/blue-metallic_500px.webp",
+        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "blue",
                 "name": "Голубой металлик",
-                "carImage": "https://geely-partner.ru/img/models/Coolray/colors/blue-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #50AECE;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Coolray/colors/grey.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "https://geely-partner.ru/img/models/Coolray/colors/red.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Coolray/colors/silver-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #B9B4B4;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Coolray/colors/white.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             }
         ],
@@ -523,10 +523,10 @@
         ]
     },
     {
-        "mark_id": "",
+        "mark_id": "Geely",
         "id": "new_coolray",
         "show": true,
-        "homeImg": "https://geely-partner.ru/img/models/bg.webp",
+        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "",
         "name": "Новый Coolray",
         "price": 2404990,
@@ -549,12 +549,12 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://geely-partner.ru/img/models/New%20Coolray/unicorn-grey_500px.webp",
+        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "lilac",
                 "name": "Лиловый перламутр",
-                "carImage": "https://geely-partner.ru/img/models/New%20Coolray/colors/unicorn-grey.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #666B7F;"
             }
         ],
@@ -606,10 +606,10 @@
         ]
     },
     {
-        "mark_id": "",
+        "mark_id": "Geely",
         "id": "tugella",
         "show": true,
-        "homeImg": "https://geely-partner.ru/img/models/bg.webp",
+        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "",
         "name": "Tugella",
         "price": 3454990,
@@ -632,30 +632,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://geely-partner.ru/img/models/Tugella/gray-metallic_500px.webp",
+        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://geely-partner.ru/img/models/Tugella/colors/black-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Tugella/colors/white-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "gray-blue",
                 "name": "Серо-голубой металлик",
-                "carImage": "https://geely-partner.ru/img/models/Tugella/colors/gray-blue-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #ABB5C1;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Tugella/colors/gray-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             }
         ],
@@ -707,10 +707,10 @@
         ]
     },
     {
-        "mark_id": "",
+        "mark_id": "Geely",
         "id": "monjaro",
         "show": true,
-        "homeImg": "https://geely-partner.ru/img/models/bg.webp",
+        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "",
         "name": "Monjaro",
         "price": 4167990,
@@ -733,36 +733,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://geely-partner.ru/img/models/Monjaro/emerald-metallic_500px.webp",
+        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://geely-partner.ru/img/models/Monjaro/colors/black-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "emerald",
                 "name": "Изумрудный металлик",
-                "carImage": "https://geely-partner.ru/img/models/Monjaro/colors/emerald-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #518D9B;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Monjaro/colors/gray-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Monjaro/colors/silver-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": "background-color: #B8B3B3;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://geely-partner.ru/img/models/Monjaro/colors/white-metallic.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             }
         ],
@@ -814,10 +814,10 @@
         ]
     },
     {
-        "mark_id": "",
+        "mark_id": "Belgee",
         "id": "belgee-x50",
         "show": true,
-        "homeImg": "https://geely-partner.ru/img/models/bg.webp",
+        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "",
         "name": "Belgee X50",
         "price": 1935990,
@@ -840,12 +840,12 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://geely-partner.ru/img/models/Belgee X50/black_500px.webp",
+        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://geely-partner.ru/img/models/Belgee X50/colors/black.webp",
+                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
                 "style": ""
             }
         ],
