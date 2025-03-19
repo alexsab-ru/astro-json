@@ -1,6 +1,7 @@
 {
     "site": "localhost",
-    "gtm": "GTM-NMDLDB3F",
+    "gtm": "",
+    "gtm_bak": "GTM-NMDLDB3F",
     "metrika": [
         {
             "id": 48905003,
@@ -12,10 +13,12 @@
     ],
     "ga4": [
         {
-            "id": "G-PWEBSZCJEY"
+            "id": "",
+            "id_bak": "G-PWEBSZCJEY"
         }
     ],
-    "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "re": "",
+    "re_bak": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
     "vk-rtrg": [
         {
             "id": ""
@@ -31,6 +34,7 @@
         "site_id": ""
     },
     "konget": "",
+    "smartpoint": "",
     "streamwood": {
         "code": "",
         "quiz": ""
