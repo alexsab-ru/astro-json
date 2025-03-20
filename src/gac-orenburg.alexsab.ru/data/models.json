@@ -95,39 +95,69 @@
         "homeImg": "/img/models/m8/bg.webp",
         "slogan": "Открывайте новые горизонты",
         "name": "M8",
-        "price": "{{price-gac-m8}}",
-        "benefit": "{{benefit-gac-m8}}",
+        "price": "5199999",
+        "benefit": "",
         "thumb": "/img/models/m8/colors/gold.webp",
         "colors": [
             {
                 "id": "white",
-                "name": "Кристально-белый",
+                "name": "Белый",
                 "carImage": "/img/models/m8/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "black",
-                "name": "Элегантный черный",
+                "name": "Чёрный",
                 "carImage": "/img/models/m8/colors/black.webp",
                 "style": ""
-            },
-            {
-                "id": "blue",
-                "name": "Синий металлик",
-                "carImage": "/img/models/m8/colors/blue.webp",
-                "style": ""
-            },
-            {
-                "id": "green",
-                "name": "Зеленый металлик",
-                "carImage": "/img/models/m8/colors/green.webp",
-                "style": "background-color: #00747c;"
             },
             {
                 "id": "gold",
                 "name": "Золотой",
                 "carImage": "/img/models/m8/colors/gold.webp",
                 "style": "background-color: #B7A38A;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "GL",
+                "price": "5199999",
+                "bodytype": "Минивэн",
+                "engine": "2.0T GDI",
+                "engine_power": "231",
+                "gear_rus": "Aisin 8AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин АИ-95 и выше"
+            },
+            {
+                "name": "GT",
+                "price": "5699999",
+                "bodytype": "Минивэн",
+                "engine": "2.0T GDI",
+                "engine_power": "231",
+                "gear_rus": "Aisin 8AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин АИ-95 и выше"
+            },
+            {
+                "name": "GX",
+                "price": "5999999",
+                "bodytype": "Минивэн",
+                "engine": "2.0T GDI",
+                "engine_power": "231",
+                "gear_rus": "Aisin 8AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин АИ-95 и выше"
+            },
+            {
+                "name": "GX Premium",
+                "price": "6199999",
+                "bodytype": "Минивэн",
+                "engine": "2.0T GDI",
+                "engine_power": "231",
+                "gear_rus": "Aisin 8AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин АИ-95 и выше"
             }
         ],
         "feed_names": [
@@ -160,19 +190,19 @@
             {
                 "id": "engine",
                 "title": "Объем двигателя",
-                "value": "2.0",
+                "value": "2.0T GDI",
                 "measure": "л."
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "380",
-                "measure": "н.м."
+                "value": "380/1750-4000",
+                "measure": "н.м./об/мин"
             },
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Передний",
+                "value": "Передний (2WD)",
                 "measure": ""
             }
         ]
