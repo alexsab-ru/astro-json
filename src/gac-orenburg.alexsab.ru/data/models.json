@@ -184,20 +184,32 @@
         "homeImg": "/img/models/gs8ii/bg.webp",
         "slogan": "Новое поколение превосходства",
         "name": "GS8 II",
-        "price": "{{price-gac-gs8-ii}}",
-        "benefit": "{{benefit-gac-gs8-ii}}",
+        "price": "3799000",
+        "benefit": "",
         "thumb": "/img/models/gs8ii/colors/green.webp",
         "colors": [
             {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/gs8ii/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный",
+                "carImage": "/img/models/gs8ii/colors/black.webp",
+                "style": ""
+            },
+            {
                 "id": "green",
-                "name": "Зеленый металлик",
+                "name": "Зеленый",
                 "carImage": "/img/models/gs8ii/colors/green.webp",
                 "style": "background-color: #00747c;"
             },
             {
-                "id": "white",
-                "name": "Кристально-белый",
-                "carImage": "/img/models/gs8ii/colors/white.webp",
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/gs8ii/colors/gray.webp",
                 "style": ""
             },
             {
@@ -205,18 +217,58 @@
                 "name": "Серебристый",
                 "carImage": "/img/models/gs8ii/colors/silver.webp",
                 "style": "background-color: #e0e0e0;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "GL",
+                "price": "3799000",
+                "bodytype": "Кроссовер",
+                "engine": "2.0T GDI",
+                "engine_power": "252",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин АИ-95 и выше"
             },
             {
-                "id": "gray",
-                "name": "Лунный серый",
-                "carImage": "/img/models/gs8ii/colors/gray.webp",
-                "style": ""
+                "name": "GT",
+                "price": "4199000",
+                "bodytype": "Кроссовер",
+                "engine": "2.0T GDI",
+                "engine_power": "252",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин АИ-95 и выше"
             },
             {
-                "id": "black",
-                "name": "Элегантный черный",
-                "carImage": "/img/models/gs8ii/colors/black.webp",
-                "style": ""
+                "name": "GX",
+                "price": "4499000",
+                "bodytype": "Кроссовер",
+                "engine": "2.0T GDI",
+                "engine_power": "252",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин АИ-95 и выше"
+            },
+            {
+                "name": "GX Premium",
+                "price": "4549000",
+                "bodytype": "Кроссовер",
+                "engine": "2.0T GDI",
+                "engine_power": "252",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин АИ-95 и выше"
+            },
+            {
+                "name": "GX Traveller",
+                "price": "4649000",
+                "bodytype": "Кроссовер",
+                "engine": "2.0T GDI",
+                "engine_power": "252",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин АИ-95 и выше"
             }
         ],
         "feed_names": [
@@ -225,7 +277,7 @@
         "chars": {
             "seats": "7 мест",
             "fuel": "Бензин",
-            "gearbox": "AT"
+            "gearbox": "8AT"
         },
         "globalChars": [
             {

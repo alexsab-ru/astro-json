@@ -146,3 +146,111 @@
         - url: /img/models/empow/sections/technology/3.webp
           title: "Антикоррозийная защита"
           description: "Цинковое покрытие кузовных панелей обеспечивает защиту от коррозии на 10 лет эксплуатации."
+- id: "gs8-ii"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ТЫ РЕШАЕШЬ"
+      title: GAC GS8
+      text: "<p>GAC GS8 — это премиальный семиместный кроссовер, сочетающий в себе элегантный дизайн, передовые технологии и высокий уровень комфорта. Автомобиль создан для тех, кто ценит роскошь, пространство и инновации.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 252 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 400 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 8.5 л / 100 км
+      images:
+        - url: /img/models/gs8ii/sections/1.webp
+    - id: gallery
+      sectionClass: "bg-gray-100"
+      title: Дизайн
+      images:
+        - url: /img/models/gs8ii/sections/gallery/1.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/2.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/3.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/4.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/5.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/6.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/7.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/8.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/9.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/10.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/11.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/12.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/13.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs8ii/sections/gallery/14.webp
+          title: ""
+          description: ""
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: /img/models/gs8ii/sections/exterior/1.webp
+          title: "Впечатляющая решетка радиатора"
+          description: "Широкая передняя панель с хромированной решеткой радиатора в симметричном v-образном дизайне."
+        - url: /img/models/gs8ii/sections/exterior/2.webp
+          title: "Фары «Взгляд победителя»"
+          description: "Матричные светодиодные фары, с подвижными заслонками, создающими завораживающее зрелище при включении."
+        - url: /img/models/gs8ii/sections/exterior/3.webp
+          title: "Задние фары «Рубиновый бриллиант»"
+          description: "Вертикальное расположение, кристальная текстура, красота и практичность."
+    - id: interior
+      sectionClass: "bg-gray-100"
+      title: Интерьер
+      suptitle: "Премиальный комфорт"
+      images:
+        - url: /img/models/gs8ii/sections/interior/1.webp
+          title: "Вентиляция сидений"
+          description: "Передние сиденья оснащены системой вентиляции, обеспечивающей комфортную температуру даже в жаркие дни."
+        - url: /img/models/gs8ii/sections/interior/2.webp
+          title: "Просторный салон"
+          description: "Семиместный салон с премиальной отделкой и возможностью трансформации для максимального комфорта."
+        - url: /img/models/gs8ii/sections/interior/3.webp
+          title: "Панорамная крыша"
+          description: "Большая панорамная крыша создает ощущение простора и наполняет салон естественным светом."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: /img/models/gs8ii/sections/technology/1.webp
+          title: "Раскройте воображение и загляните в будущее"
+          description: "Передовые технологии и новый интерфейс открывают безграничные возможности."
+        - url: /img/models/gs8ii/sections/technology/2.webp
+          title: "Передовые решения"
+          description: "Интерактивные технологии помощи водителю: система управления с дополненной реальностью, система помощи при парковке и другие."
+        - url: /img/models/gs8ii/sections/technology/3.webp
+          title: "Всесторонняя защита"
+          description: "Высокий уровень защиты от столкновений."
+    - id: documentation
+      sectionClass: "bg-gray-100"
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://gac.ru/media-link/gs8-pricelist' class='underline' target='_blank'>Прайс-лист</a><br><a href='https://gac.ru/media/download/docs/queT3u__gs8-catalogue.pdf' class='underline' target='_blank'>Каталог</a></span></p>"
