@@ -1,1 +1,148 @@
-- id: empty
+- id: "gs4"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ДЛЯ САМОГО ЦЕННОГО"
+      title: GAC GS4
+      text: "<p>GAC GS4 - семейный кроссовер, воплощающий в себе комфорт, надежность и современные технологии. Автомобиль предлагает оптимальное сочетание стиля, функциональности и безопасности для всей семьи.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 170 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 250 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 7.2 л / 100 км
+      images:
+        - url: /img/models/gs4/sections/1.webp
+    - id: gallery
+      sectionClass: ""
+      title: "Дизайн"
+      suptitle: "Уверенность в основе стиля"
+      images:
+        - url: /img/models/gs4/sections/gallery/1.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs4/sections/gallery/2.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs4/sections/gallery/3.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs4/sections/gallery/4.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs4/sections/gallery/5.webp
+          title: ""
+          description: ""
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: /img/models/gs4/sections/exterior/1.webp
+          title: "Эффектная оптика"
+          description: "Четкие линии светодиодных задних фонарей по всей ширине кузова эффектно выделяют GS4 на дороге, притягивая взгляды."
+        - url: /img/models/gs4/sections/exterior/2.webp
+          title: "Единое целое"
+          description: "Ручки интегрированы в панель двери, что делает образ автомобиля более органичным и аккуратным."
+        - url: /img/models/gs4/sections/exterior/3.webp
+          title: "Увидеть больше"
+          description: "Увеличенные боковые зеркала обеспечивают отличный обзор, уменьшая слепые зоны, позволяя лучше контролировать обстановку на дороге."
+        - url: /img/models/gs4/sections/exterior/4.webp
+          title: "Выразительный взгляд"
+          description: "Светодиодные фары с регулировкой высоты, сигнализацией о включенных фарах и функцией «Проводи меня домой» создают неповторимый образ."
+        - url: /img/models/gs4/sections/exterior/5.webp
+          title: "Классика сдержанности"
+          description: "Интегрированные дверные ручки и плавные линии кузова создают элегантный и современный образ автомобиля."
+        - url: /img/models/gs4/sections/exterior/6.webp
+          title: "Надежность и динамика"
+          description: "Высокопрочная конструкция кузова и аэродинамический дизайн обеспечивают отличную управляемость и безопасность."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: "Функциональный салон"
+      images:
+        - url: /img/models/gs4/sections/interior/1.webp
+          title: "Комфортный салон"
+          description: "Удобные регулируемые кресла анатомической формы, обшитые качественной перфорированной кожей обеспечивают комфорт водителя и пассажиров."
+        - url: /img/models/gs4/sections/interior/2.webp
+          title: "Безопасность"
+          description: "8 подушек безопасности защищают водителя и пассажиров со всех сторон, значительно смягчая столкновение."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: /img/models/gs4/sections/technology/1.webp
+          title: "Удалённый доступ"
+          description: "Управляйте автомобилем в любой точке мира с мобильным приложением GAC. Отслеживайте запасы топлива, проверяйте состояние окон, регулируйте микроклимат в салоне и производите запуск двигателя в один клик!"
+        - url: /img/models/gs4/sections/technology/2.webp
+          title: "Защита на 360°"
+          description: "Высокий уровень защиты на случай столкновения за счет усиленного корпуса GS4."
+        - url: /img/models/gs4/sections/technology/3.webp
+          title: "Передовые решения"
+          description: "Интеллектуальные системы помощи водителю: система управления с дополненной реальностью, система помощи на парковке и другие."
+        - url: /img/models/gs4/sections/technology/4.webp
+          title: "Эффективность и производительность"
+          description: "Надежность и долговечность силовой установки доказана 21 000 часов испытаний и тестов."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://gac.ru/media-link/gs4-pricelist' class='underline' target='_blank'>Технические характеристики, комплектации и цены</a></span></p>"
+- id: "empow"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ДИНАМИКА ТВОЕЙ ЖИЗНИ"
+      title: GAC Empow
+      text: "<p>GAC Empow - спортивный седан, созданный для тех, кто ценит динамику и стиль. Автомобиль сочетает в себе мощный двигатель, современные технологии и агрессивный дизайн.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 170 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 250 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 5.9 л / 100 км
+      images:
+        - url: /img/models/empow/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: /img/models/empow/sections/exterior/1.webp
+          title: "Эксклюзивные диски"
+          description: "18-дюймовые колесные диски с низкопрофильной резиной подчеркивают дерзкий характер Empow."
+        - url: /img/models/empow/sections/exterior/2.webp
+          title: "Спортивный дизайн"
+          description: "Спойлер на крышке багажника увеличивает прижимную силу и управляемость на высоких скоростях."
+        - url: /img/models/empow/sections/exterior/3.webp
+          title: "Светодиодные фары"
+          description: "Светодиодные фары обеспечивают яркий и эффективный свет, улучшая видимость и безопасность."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: "Комфортное управление"
+      images:
+        - url: /img/models/empow/sections/interior/1.webp
+          title: "Комфортное управление"
+          description: "Проработанное рулевое колесо и эргономичная приборная панель обеспечивают полный контроль над движением и дарят водителю ощущение уверенности и комфорта."
+        - url: /img/models/empow/sections/interior/2.webp
+          title: "Регулировка сидений"
+          description: "Водительское сиденье регулируется в 6 направлениях, а пассажирское — в 4, что обеспечивает фиксацию кресел в максимально удобном положении."
+        - url: /img/models/empow/sections/interior/3.webp
+          title: "Аудиосистема Yamaha"
+          description: "Аудиосистема с четырехканальным усилителем мощностью 80 Ватт обеспечивает премиальное звучание."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: /img/models/empow/sections/technology/1.webp
+          title: "Мощный двигатель"
+          description: "1,5-литровый турбированный двигатель с непосредственным впрыском обеспечивает отличную динамику."
+        - url: /img/models/empow/sections/technology/2.webp
+          title: "Трансмиссия 7WDCT"
+          description: "Семиступенчатая преселективная коробка передач с двумя сцеплениями обеспечивает быстрое переключение."
+        - url: /img/models/empow/sections/technology/3.webp
+          title: "Антикоррозийная защита"
+          description: "Цинковое покрытие кузовных панелей обеспечивает защиту от коррозии на 10 лет эксплуатации."
