@@ -361,3 +361,98 @@
       title: Документация
       suptitle: "Может пригодиться"
       text: "<p><span><a href='https://gac.ru/media-link/m8-pricelist' class='underline' target='_blank'>Прайс-лист</a><br><a href='https://gac.ru/media/download/docs/1BXn2N__m8-catalogue-57x21-290224-prewiew.pdf' class='underline' target='_blank'>Каталог</a></span></p>"
+- id: "gs3"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ДОРОГУ МОЛОДЫМ"
+      title: GAC GS3
+      text: "<p>GAC GS3 — субкомпактный кроссовер, созданный для городской среды и активного отдыха. Эта модель сочетает современный дизайн, эргономичный интерьер и эффективные технические решения. Новый GAC GS3 подходит для ежедневных поездок и путешествий, предлагая удобство и экономичность.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 137 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 202 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 6.5 л / 100 км
+      images:
+        - url: /img/models/gs3/sections/1.webp
+    - id: gallery
+      sectionClass: ""
+      title: Дизайн
+      images:
+        - url: /img/models/gs3/sections/gallery/1.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs3/sections/gallery/2.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs3/sections/gallery/3.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs3/sections/gallery/4.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs3/sections/gallery/5.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs3/sections/gallery/6.webp
+          title: ""
+          description: ""
+        - url: /img/models/gs3/sections/gallery/7.webp
+          title: ""
+          description: ""
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: /img/models/gs3/sections/exterior/1.webp
+          title: "Провоцирует на движение"
+          description: ""
+        - url: /img/models/gs3/sections/exterior/2.webp
+          title: "На движение со скоростью света"
+          description: "Полностью светодиодные фары с широким лучом гарантируют яркость и заметность автомобиля в ночное время."
+        - url: /img/models/gs3/sections/exterior/3.webp
+          title: "На движение со скоростью реактивного самолёта"
+          description: "Уникальная аэродинамика помогает развить впечатляющую скорость."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: "Комфортный салон"
+      images:
+        - url: /img/models/gs3/sections/interior/1.webp
+          title: "Совершенство дизайна"
+          description: "Салон автомобиля отличается современным дизайном и высоким качеством материалов. Просторное внутреннее пространство обеспечивает комфорт как для водителя, так и для пассажиров, а эргономичная приборная панель и современные технологии, делают поездку удобной и приятной."
+        - url: /img/models/gs3/sections/interior/2.webp
+          title: "Стильный салон GS3 объединяет в себе эстетику интерьера, современные технологии и эргономику — чтобы каждая поездка была комфортной."
+          description: "Сиденья адаптированы для людей ростом выше 1,8 метров, а кресло водителя дополнительно оборудовано системой вентиляции.<br>Для удобства размещения личных вещей салон оснащен 21 отсеком для хранения, а также встроенной беспроводной зарядкой для телефона. Сенсорный мультимедийный экран поддерживает систему Carplay и обеспечивает удобное управление опциями GS3."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: /img/models/gs3/sections/technology/1.webp
+          title: "Мощный и надежный двигатель 1.5TG"
+          description: "Мощность 170 л.с., и крутящий момент 250 Н/м."
+        - url: /img/models/gs3/sections/technology/2.webp
+          title: "Расход 5,9 л / 100 км"
+          description: "В сочетании с автоматической коробкой передач с двойным сцеплением WDCT — это настоящий прорыв технологий. Тепловой КПД двигателя достигает 40,48%."
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: "Интеллектуальная система безопасности высочайшего уровня"
+      images:
+        - url: /img/models/gs3/sections/security/1.webp
+          title: "Система автоматического управления L2"
+          description: "Не думайте о дороге, думайте о делах. Главный интеллектуальный центр автомобиля возьмет на себя все аспекты безопасного вождения: Система адаптивного круиз-контроля Интегрированная система круиз-контроля Система предупреждения об угрозе фронтального столкновения"
+        - url: /img/models/gs3/sections/security/2.webp
+          title: "Новый уровень защиты 360°"
+          description: "Первая в мире продуманная схема расположения из 7 подушек для всесторонней защиты пассажиров: задние подушки безопасности для защиты третьего ряда, самые длинные боковые шторки безопасности и стандартные подушки безопасности."
+        - url: /img/models/gs3/sections/security/3.webp
+          title: "Система предупреждения при открывании двери"
+          description: "Заботится о вас, даже вне салона. Система оперативного реагирования на объекты, приближающиеся сзади, чтобы максимально обезопасить пространство для пассажиров, выходящих из автомобиля."
+    - id: documentation
+      sectionClass: "bg-gray-100"
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://gac.ru/media-link/gs3-pricelist' class='underline' target='_blank'>Прайс-лист</a><br><a href='https://gac.ru/media-link/gs3-brochure' class='underline' target='_blank'>Каталог</a></span></p>"

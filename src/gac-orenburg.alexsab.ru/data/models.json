@@ -6,8 +6,8 @@
         "homeImg": "/img/models/gs3/bg.webp",
         "slogan": "Дорогу молодым",
         "name": "GS3",
-        "price": "{{price-gac-gs3}}",
-        "benefit": "{{benefit-gac-gs3}}",
+        "price": "2249000",
+        "benefit": "",
         "thumb": "/img/models/gs3/colors/blue.webp",
         "colors": [
             {
@@ -45,6 +45,58 @@
                 "name": "Серый графит",
                 "carImage": "/img/models/gs3/colors/grey-graphite.webp",
                 "style": "background-color: #94A0AE"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "GS",
+                "price": "2249000",
+                "bodytype": "Кроссовер",
+                "engine": "1.5T GDI",
+                "engine_power": "170",
+                "gear_rus": "7WDCT",
+                "drive": "Передний",
+                "fuel": "Бензин АИ-92 и выше"
+            },
+            {
+                "name": "GB",
+                "price": "2249000",
+                "bodytype": "Кроссовер",
+                "engine": "1.5T GDI",
+                "engine_power": "170",
+                "gear_rus": "7WDCT",
+                "drive": "Передний",
+                "fuel": "Бензин АИ-92 и выше"
+            },
+            {
+                "name": "GB-R",
+                "price": "2449000",
+                "bodytype": "Кроссовер",
+                "engine": "1.5T GDI",
+                "engine_power": "170",
+                "gear_rus": "7WDCT",
+                "drive": "Передний",
+                "fuel": "Бензин АИ-92 и выше"
+            },
+            {
+                "name": "GL",
+                "price": "2449000",
+                "bodytype": "Кроссовер",
+                "engine": "1.5T GDI",
+                "engine_power": "170",
+                "gear_rus": "7WDCT",
+                "drive": "Передний",
+                "fuel": "Бензин АИ-92 и выше"
+            },
+            {
+                "name": "GL-R",
+                "price": "2649000",
+                "bodytype": "Кроссовер",
+                "engine": "1.5T GDI",
+                "engine_power": "170",
+                "gear_rus": "7WDCT",
+                "drive": "Передний",
+                "fuel": "Бензин АИ-92 и выше"
             }
         ],
         "feed_names": [
