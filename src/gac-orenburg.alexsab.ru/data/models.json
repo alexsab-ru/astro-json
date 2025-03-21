@@ -3,47 +3,47 @@
         "mark_id": "GAC",
         "id": "gs3",
         "show": true,
-        "homeImg": "/img/models/gs3/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs3/bg.webp",
         "slogan": "Дорогу молодым",
         "name": "GS3",
         "price": "2249000",
         "benefit": "",
-        "thumb": "/img/models/gs3/colors/blue.webp",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/blue.webp",
         "colors": [
             {
                 "id": "lavender",
                 "name": "Лавандовый",
-                "carImage": "/img/models/gs3/colors/lavender.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/lavender.webp",
                 "style": "background-color: #ab9ab8"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/gs3/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/gs3/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/gray.webp",
                 "style": "background-color: #474747"
             },
             {
                 "id": "blue",
                 "name": "Голубой",
-                "carImage": "/img/models/gs3/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/blue.webp",
                 "style": "background-color: #3098B7;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/gs3/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/silver.webp",
                 "style": "background-color: #DCE3E5;"
             },
             {
                 "id": "grey-graphite",
                 "name": "Серый графит",
-                "carImage": "/img/models/gs3/colors/grey-graphite.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/grey-graphite.webp",
                 "style": "background-color: #94A0AE"
             }
         ],
@@ -144,29 +144,29 @@
         "mark_id": "GAC",
         "id": "m8",
         "show": true,
-        "homeImg": "/img/models/m8/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/m8/bg.webp",
         "slogan": "Место первых",
         "name": "M8",
         "price": "5199999",
         "benefit": "",
-        "thumb": "/img/models/m8/colors/gold.webp",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/m8/colors/gold.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/m8/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/m8/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный",
-                "carImage": "/img/models/m8/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/m8/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "gold",
                 "name": "Золотой",
-                "carImage": "/img/models/m8/colors/gold.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/m8/colors/gold.webp",
                 "style": "background-color: #B7A38A;"
             }
         ],
@@ -263,41 +263,41 @@
         "mark_id": "GAC",
         "id": "gs8-ii",
         "show": true,
-        "homeImg": "/img/models/gs8ii/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/bg.webp",
         "slogan": "Ты решаешь",
         "name": "GS8 II",
         "price": "3799000",
         "benefit": "",
-        "thumb": "/img/models/gs8ii/colors/green.webp",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/colors/green.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/gs8ii/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный",
-                "carImage": "/img/models/gs8ii/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "green",
                 "name": "Зеленый",
-                "carImage": "/img/models/gs8ii/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/colors/green.webp",
                 "style": "background-color: #00747c;"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/gs8ii/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/gs8ii/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/colors/silver.webp",
                 "style": "background-color: #e0e0e0;"
             }
         ],
@@ -404,48 +404,48 @@
         "mark_id": "GAC",
         "id": "gs8",
         "show": false,
-        "homeImg": "/img/models/gs8/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs8/bg.webp",
         "slogan": "Стремись к большему",
         "name": "GS8",
         "price": "3799000",
         "benefit": "",
         "profit": 300000,
-        "thumb": "/img/models/gs8/colors/gray.webp",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/gray.webp",
         "colors": [
             {
                 "id": "gray",
                 "name": "Лунный серый",
-                "carImage": "/img/models/gs8/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Элегантный черный",
-                "carImage": "/img/models/gs8/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "ice-blue",
                 "name": "Ледяной синий",
-                "carImage": "/img/models/gs8/colors/ice-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/ice-blue.webp",
                 "style": "background-color: #77a0e3;"
             },
             {
                 "id": "blue",
                 "name": "Синий металлик",
-                "carImage": "/img/models/gs8/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/blue.webp",
                 "style": ""
             },
             {
                 "id": "brown",
                 "name": "Коричневый металлик",
-                "carImage": "/img/models/gs8/colors/brown.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/brown.webp",
                 "style": "background-color: #433026;"
             },
             {
                 "id": "white",
                 "name": "Кристально-белый",
-                "carImage": "/img/models/gs8/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/white.webp",
                 "style": ""
             }
         ],
@@ -500,48 +500,48 @@
         "mark_id": "GAC",
         "id": "gs5",
         "show": false,
-        "homeImg": "/img/models/gs5/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs5/bg.webp",
         "slogan": "Удовольствие везти, наслаждение кататься",
         "name": "GS5",
         "price": "{{price-gac-gs5}}",
         "benefit": "{{benefit-gac-gs5}}",
         "profit": 200000,
-        "thumb": "/img/models/gs5/colors/gray.webp",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs5/colors/gray.webp",
         "colors": [
             {
                 "id": "gray",
                 "name": "Лунный серый",
-                "carImage": "/img/models/gs5/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs5/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "ice-blue",
                 "name": "Ледяной синий",
-                "carImage": "/img/models/gs5/colors/ice-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs5/colors/ice-blue.webp",
                 "style": "background-color: #77a0e3;"
             },
             {
                 "id": "brown",
                 "name": "Коричневый металлик",
-                "carImage": "/img/models/gs5/colors/brown.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs5/colors/brown.webp",
                 "style": "background-color: #433026;"
             },
             {
                 "id": "black",
                 "name": "Элегантный черный",
-                "carImage": "/img/models/gs5/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs5/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/gs5/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs5/colors/silver.webp",
                 "style": "background-color: #e0e0e0;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/gs5/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs5/colors/white.webp",
                 "style": ""
             }
         ],
@@ -596,36 +596,36 @@
         "mark_id": "GAC",
         "id": "gn8",
         "show": false,
-        "homeImg": "/img/models/gn8/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gn8/bg.webp",
         "slogan": "Лучшее для тех, кто дорог",
         "name": "GN8",
         "price": "{{price-gac-gn8}}",
         "benefit": "{{benefit-gac-gn8}}",
         "profit": "",
-        "thumb": "/img/models/gn8/colors/blue.webp",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gn8/colors/blue.webp",
         "colors": [
             {
                 "id": "blue",
                 "name": "Синий металлик",
-                "carImage": "/img/models/gn8/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gn8/colors/blue.webp",
                 "style": ""
             },
             {
                 "id": "brown",
                 "name": "Коричневый металлик",
-                "carImage": "/img/models/gn8/colors/brown.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gn8/colors/brown.webp",
                 "style": "background-color: #433026;"
             },
             {
                 "id": "black",
                 "name": "Элегантный черный",
-                "carImage": "/img/models/gn8/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gn8/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/gn8/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gn8/colors/white.webp",
                 "style": ""
             }
         ],
@@ -680,35 +680,35 @@
         "mark_id": "GAC",
         "id": "gs4",
         "show": true,
-        "homeImg": "/img/models/gs4/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs4/bg.webp",
         "slogan": "ДЛЯ САМОГО ЦЕННОГО",
         "name": "GS4",
         "price": "2899000",
         "benefit": "",
-        "thumb": "/img/models/gs4/colors/white.webp",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/white.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/gs4/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный",
-                "carImage": "/img/models/gs4/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/gs4/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/gray.webp",
                 "style": "background-color: #4e4e4e"
             },
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/gs4/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/silver.webp",
                 "style": "background-color: #959595"
             }
         ],
@@ -780,17 +780,17 @@
         "mark_id": "GAC",
         "id": "empow",
         "show": true,
-        "homeImg": "/img/models/empow/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/empow/bg.webp",
         "slogan": "Динамика твоей жизни",
         "name": "Empow",
         "price": "",
         "benefit": "",
-        "thumb": "/img/models/empow/colors/black.webp",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/black.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Чёрный",
-                "carImage": "/img/models/empow/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/black.webp",
                 "style": ""
             }
         ],
