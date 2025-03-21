@@ -52,50 +52,50 @@
                 "name": "GS",
                 "price": "2249000",
                 "bodytype": "Кроссовер",
-                "engine": "1.5T GDI",
+                "engine": "1.5TG",
                 "engine_power": "170",
                 "gear_rus": "7WDCT",
-                "drive": "Передний",
+                "drive": "Передний (2WD)",
                 "fuel": "Бензин АИ-92 и выше"
             },
             {
                 "name": "GB",
-                "price": "2249000",
+                "price": "2399000",
                 "bodytype": "Кроссовер",
-                "engine": "1.5T GDI",
+                "engine": "1.5TG",
                 "engine_power": "170",
                 "gear_rus": "7WDCT",
-                "drive": "Передний",
+                "drive": "Передний (2WD)",
                 "fuel": "Бензин АИ-92 и выше"
             },
             {
                 "name": "GB-R",
                 "price": "2449000",
                 "bodytype": "Кроссовер",
-                "engine": "1.5T GDI",
+                "engine": "1.5TG",
                 "engine_power": "170",
                 "gear_rus": "7WDCT",
-                "drive": "Передний",
+                "drive": "Передний (2WD)",
                 "fuel": "Бензин АИ-92 и выше"
             },
             {
                 "name": "GL",
-                "price": "2449000",
+                "price": "2599000",
                 "bodytype": "Кроссовер",
-                "engine": "1.5T GDI",
+                "engine": "1.5TG",
                 "engine_power": "170",
                 "gear_rus": "7WDCT",
-                "drive": "Передний",
+                "drive": "Передний (2WD)",
                 "fuel": "Бензин АИ-92 и выше"
             },
             {
                 "name": "GL-R",
                 "price": "2649000",
                 "bodytype": "Кроссовер",
-                "engine": "1.5T GDI",
+                "engine": "1.5TG",
                 "engine_power": "170",
                 "gear_rus": "7WDCT",
-                "drive": "Передний",
+                "drive": "Передний (2WD)",
                 "fuel": "Бензин АИ-92 и выше"
             }
         ],
@@ -145,7 +145,7 @@
         "id": "m8",
         "show": true,
         "homeImg": "/img/models/m8/bg.webp",
-        "slogan": "Открывайте новые горизонты",
+        "slogan": "Место первых",
         "name": "M8",
         "price": "5199999",
         "benefit": "",
@@ -264,7 +264,7 @@
         "id": "gs8-ii",
         "show": true,
         "homeImg": "/img/models/gs8ii/bg.webp",
-        "slogan": "Новое поколение превосходства",
+        "slogan": "Ты решаешь",
         "name": "GS8 II",
         "price": "3799000",
         "benefit": "",
@@ -306,8 +306,8 @@
                 "name": "GL",
                 "price": "3799000",
                 "bodytype": "Кроссовер",
-                "engine": "2.0T GDI",
-                "engine_power": "252",
+                "engine": "2.0",
+                "engine_power": "231",
                 "gear_rus": "8AT",
                 "drive": "Полный",
                 "fuel": "Бензин АИ-95 и выше"
@@ -316,8 +316,8 @@
                 "name": "GT",
                 "price": "4199000",
                 "bodytype": "Кроссовер",
-                "engine": "2.0T GDI",
-                "engine_power": "252",
+                "engine": "2.0",
+                "engine_power": "231",
                 "gear_rus": "8AT",
                 "drive": "Полный",
                 "fuel": "Бензин АИ-95 и выше"
@@ -326,8 +326,8 @@
                 "name": "GX",
                 "price": "4499000",
                 "bodytype": "Кроссовер",
-                "engine": "2.0T GDI",
-                "engine_power": "252",
+                "engine": "2.0",
+                "engine_power": "231",
                 "gear_rus": "8AT",
                 "drive": "Полный",
                 "fuel": "Бензин АИ-95 и выше"
@@ -336,8 +336,8 @@
                 "name": "GX Premium",
                 "price": "4549000",
                 "bodytype": "Кроссовер",
-                "engine": "2.0T GDI",
-                "engine_power": "252",
+                "engine": "2.0",
+                "engine_power": "231",
                 "gear_rus": "8AT",
                 "drive": "Полный",
                 "fuel": "Бензин АИ-95 и выше"
@@ -346,8 +346,8 @@
                 "name": "GX Traveller",
                 "price": "4649000",
                 "bodytype": "Кроссовер",
-                "engine": "2.0T GDI",
-                "engine_power": "252",
+                "engine": "2.0",
+                "engine_power": "231",
                 "gear_rus": "8AT",
                 "drive": "Полный",
                 "fuel": "Бензин АИ-95 и выше"
@@ -389,13 +389,13 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "400",
+                "value": "380",
                 "measure": "н.м."
             },
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Полный",
+                "value": "Полный (4WD)",
                 "measure": ""
             }
         ]
@@ -407,8 +407,8 @@
         "homeImg": "/img/models/gs8/bg.webp",
         "slogan": "Стремись к большему",
         "name": "GS8",
-        "price": "{{price-gac-gs8-ii}}",
-        "benefit": "{{benefit-gac-gs8-ii}}",
+        "price": "3799000",
+        "benefit": "",
         "profit": 300000,
         "thumb": "/img/models/gs8/colors/gray.webp",
         "colors": [
