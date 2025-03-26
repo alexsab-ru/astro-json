@@ -1,5 +1,22 @@
 [
     {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/lavander-gs3-main-notext-1800x800.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/lavander-gs3-main-notext-1080x1920.webp",
+        "title": "Лавандовый GS3:",
+        "descr": "Станьте частью редкой истории",
+        "btn": "Подробнее",
+        "btnUrl": "/models/gs3/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
         "id": 1,
         "show": true,
         "type": "video",
