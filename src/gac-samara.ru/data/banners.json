@@ -2,6 +2,23 @@
     {
         "id": 1,
         "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/for-models-desktop.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/for-models-mobile.webp",
+        "title": "Специальные предложения",
+        "descr": "Для моделей GS8, GS3 и M8",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/special-offers/for-models/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
         "type": "video",
         "view": "link",
         "videoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs8-traveller-desktop.mp4",
@@ -35,7 +52,7 @@
             "autoname": "Новинка",
             "position": "left"
         },
-        "autoplay": 6000
+        "autoplay": 7000
     },
     {
         "id": 1,
@@ -91,7 +108,7 @@
             "image": "https://cdn.alexsab.ru/badges/car-year-2024.webp",
             "position": "left"
         },
-        "autoplay": 6000
+        "autoplay": 28000
     },
     {
         "id": 1,
@@ -107,7 +124,7 @@
         "dataTitle": "Узнать подробнее",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 6000
+        "autoplay": 18000
     },
     {
         "id": 1,
@@ -122,23 +139,6 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Узнать подробнее",
         "dataFormName": "Узнать подробнее. Новые автомобили по цене заводов изготовителей. Баннер",
-        "badge": "",
-        "autoplay": 6000
-    },
-    {
-        "id": 1,
-        "show": true,
-        "type": "",
-        "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/for-models-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/for-models-mobile.webp",
-        "title": "Специальные предложения",
-        "descr": "Для моделей GS8, GS3 и M8",
-        "btn": "Узнать подробнее",
-        "btnUrl": "/special-offers/for-models/",
-        "dataTitle": "Узнать подробнее",
-        "dataFormName": "",
         "badge": "",
         "autoplay": 6000
     }
