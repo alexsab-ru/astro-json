@@ -1,5 +1,63 @@
 [
     {
+        "id": 1,
+        "show": true,
+        "type": "video",
+        "view": "link",
+        "videoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs8-traveller-desktop.mp4",
+        "imageUrl": "",
+        "title": "GS8 TRAVELLER",
+        "descr": "Ты решаешь",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/models/gs8-ii/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "Новинка",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "video",
+        "view": "link",
+        "videoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs4-desktop.mp4",
+        "imageUrl": "",
+        "title": "Новый GS4",
+        "descr": "Для самого ценного",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/models/gs4/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "Новинка",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/empow-desktop.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/empow-mobile.webp",
+        "title": "Новый EMPOW",
+        "descr": "Динамика твоей жизни",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/models/empow/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "Новинка",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
         "id": 0,
         "show": true,
         "type": "",
@@ -20,6 +78,41 @@
         "id": 1,
         "show": true,
         "type": "video",
+        "view": "link",
+        "videoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/m8-desktop.mp4",
+        "imageUrl": "",
+        "title": "M8",
+        "descr": "Место первых",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/models/empow/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2024.webp",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "video",
+        "view": "link",
+        "videoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs3-desktop.mp4",
+        "imageUrl": "",
+        "title": "Новый GS3",
+        "descr": "Дорогу молодым",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/models/gs3/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "video",
         "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein-desktop@2x.webp",
@@ -29,6 +122,23 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Узнать подробнее",
         "dataFormName": "Узнать подробнее. Новые автомобили по цене заводов изготовителей. Баннер",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/for-models-desktop.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/for-models-mobile.webp",
+        "title": "Специальные предложения",
+        "descr": "Для моделей GS8, GS3 и M8",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/special-offers/for-models/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "",
         "badge": "",
         "autoplay": 6000
     }
