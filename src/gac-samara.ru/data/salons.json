@@ -6,7 +6,7 @@
         "work_hours": "ПН-СБ: 09:00 - 20:00, ВС: 09:00 - 18:00",
         "map": {
             "zoom": 17,
-            "balloon": "/img/gac-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/b/gac/img/gac-locator.svg",
             "coords": [53.32136200653352,50.302232688815096],
             "ya_link": "https://yandex.com/maps/51/samara/?ll=50.302007%2C53.320863&mode=routes&rtext=~53.321362%2C50.302233&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D61326168129&z=17"
         }
