@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "id": 1,
+        "question": "How to use the app?",
+        "answer": "To use the app, simply download it from the app store, create an account, and start exploring the features.",
+        "open": true
+    },
+    {
+        "id": 2,
+        "question": "How to reset my password?",
+        "answer": "To reset your password, go to the login screen, click on 'Forgot Password?', and follow the instructions sent to your email.",
+        "open": false
+    },
+    {
+        "id": 3,
+        "question": "How to contact support?",
+        "answer": "You can contact support by going to the settings menu and selecting 'Contact Support'.",
+        "open": false
+    },
+    {
+        "id": 4,
+        "question": "How to update my profile?",
+        "answer": "To update your profile, go to the settings menu and select 'Edit Profile'.",
+        "open": false
+    },
+    {
+        "id": 5,
+        "question": "How to delete my account?",
+        "answer": "To delete your account, go to the settings menu, select 'Account', and then 'Delete Account'.",
+        "open": false
+    }
+]
