@@ -1,505 +1,163 @@
 [
     {
         "mark_id": "WEY",
-        "id": "u5-plus",
+        "id": "wey-05",
         "show": true,
-        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "slogan": "Практичность и комфорт",
-        "name": "U5 Plus",
-        "price": "{{price-u5-plus}}",
-        "benefit": 750000,
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Baic U5 Plus",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Baic U5 Plus",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E51036;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #9CA3AF;"
-            },
-            {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E5E7EB;"
-            },
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #000000;"
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "CVT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2570",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4500",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "2200",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "134",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Передний",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "WEY",
-        "id": "atlas-2024",
-        "show": true,
-        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "slogan": "",
-        "name": "Новый Atlas",
-        "price": 2844990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Новый Atlas",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Новый Atlas",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "gray",
-                "name": "Серо-голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #4c5698;"
-            },
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #828793;"
-            },
-            {
-                "id": "white",
-                "name": "Белый",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2777",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4670",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1900",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "2.0",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "325",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "2WD",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "WEY",
-        "id": "atlas-pro",
-        "show": true,
-        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "slogan": "",
-        "name": "Atlas Pro",
-        "price": 2188990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Atlas Pro",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Atlas Pro",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #B9B4B4;"
-            },
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6AT/7DCT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2670",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4544",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1831",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "255",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "2WD/4WD",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "WEY",
-        "id": "emgrand",
-        "show": true,
-        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "slogan": "",
-        "name": "Emgrand",
-        "price": 1799990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Emgrand",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Emgrand",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/05/bg.webp",
+        "slogan": "Эстетика нового времени",
+        "name": "05",
+        "price": "5699000",
+        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/05/colors/blue.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/05/colors/white.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(150, 153, 155) 9.68%, rgb(188, 189, 190) 54.56%, rgb(203, 204, 205) 65%, rgb(221, 222, 223) 74.68%, rgb(151, 154, 156) 100%);"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/05/colors/black.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(5, 6, 6) 9.68%, rgb(32, 32, 31) 54.56%, rgb(34, 34, 34) 65%, rgb(77, 79, 78) 74.68%, rgb(5, 6, 6) 100%);"
             },
             {
                 "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/05/colors/blue.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(8, 39, 66) 9.68%, rgb(7, 57, 94) 54.56%, rgb(33, 73, 114) 65%, rgb(62, 95, 134) 74.68%, rgb(8, 39, 66) 100%);"
+            },
+            {
+                "id": "light-blue",
                 "name": "Голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #50AECE;"
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/05/colors/light-blue.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #354355 9.68%, #45566F 54.56%, #536986 65%, #667993 74.68%, #354960 100%);"
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/05/colors/brown.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #40403C 9.68%, #605D54 54.56%, #6F6B60 65%, #89857B 74.68%, #40403C 100%);"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "gold",
-                "name": "Золотой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #AC9579;"
-            },
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/05/colors/gray.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #494C52 9.68%, #6D6E71 54.56%, #838486 65%, #A1A2A5 74.68%, #595B5E 100%);"
             }
         ],
-        "feed_names": [
-        ],
+        "feed_names": [],
         "photos": "",
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "5MT/6AT"
+            "gearbox": "DCT9"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2650",
+                "value": "2910",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4638",
+                "value": "4870",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1822",
+                "value": "1960",
                 "measure": "мм"
             },
             {
                 "id": "engine",
                 "title": "Объем двигателя",
-                "value": "1.5",
+                "value": "2",
                 "measure": "л."
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "122",
+                "value": "320",
                 "measure": "н.м."
             },
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Передний",
+                "value": "Полный, AWD",
                 "measure": ""
             }
         ]
     },
     {
         "mark_id": "WEY",
-        "id": "coolray",
+        "id": "wey-07",
         "show": true,
-        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "slogan": "",
-        "name": "Coolray",
-        "price": 2009990,
-        "benefit": "",
-        "benefits": [
+        "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/07/bg.webp",
+        "slogan": "Расширяя границы комфорта",
+        "name": "07",
+        "price": " 6649000",
+        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/07/colors/green.webp",
+        "colors": [
             {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Coolray",
-                "view": "popup-link"
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/07/colors/white.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(150, 153, 155) 9.68%, rgb(188, 189, 190) 54.56%, rgb(203, 204, 205) 65%, rgb(221, 222, 223) 74.68%, rgb(151, 154, 156) 100%);"
             },
             {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Coolray",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/07/colors/black.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(5, 6, 6) 9.68%, rgb(32, 32, 31) 54.56%, rgb(34, 34, 34) 65%, rgb(77, 79, 78) 74.68%, rgb(5, 6, 6) 100%);"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/07/colors/green.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(2, 48, 44) 9.68%, rgb(1, 112, 103) 54.56%, rgb(0, 126, 115) 65%, rgb(41, 179, 168) 74.68%, rgb(2, 48, 44) 100%);"
+            },
+            {
+                "id": "beige",
+                "name": "Бежевый",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/07/colors/beige.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(112, 95, 79) 9.68%, rgb(171, 160, 150) 54.56%, rgb(194, 181, 169) 65%, rgb(212, 204, 197) 74.68%, rgb(141, 126, 112) 100%);"
+            },
             {
                 "id": "blue",
-                "name": "Голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #50AECE;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #B9B4B4;"
-            },
-            {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "name": "Синий",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/07/colors/blue.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(8, 39, 66) 9.68%, rgb(7, 57, 94) 54.56%, rgb(33, 73, 114) 65%, rgb(62, 95, 134) 74.68%, rgb(8, 39, 66) 100%);"
             }
         ],
         "feed_names": [
         ],
         "photos": "",
         "chars": {
-            "seats": "5 мест",
+            "seats": "6 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "Автоматическая"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2600",
+                "value": "3050",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4330",
+                "value": "5156",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1800",
+                "value": "1980",
                 "measure": "мм"
             },
             {
@@ -511,78 +169,82 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "150",
+                "value": "220",
                 "measure": "н.м."
             },
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Передний",
+                "value": "4WD",
                 "measure": ""
             }
         ]
     },
     {
         "mark_id": "WEY",
-        "id": "new_coolray",
+        "id": "wey-80",
         "show": true,
-        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "slogan": "",
-        "name": "Новый Coolray",
-        "price": 2404990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Новый Coolray",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Новый Coolray",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/80/bg.webp",
+        "slogan": "Масштаб возможностей",
+        "name": "80",
+        "price": "6599000",
+        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/gray.webp",
         "colors": [
             {
-                "id": "lilac",
-                "name": "Лиловый перламутр",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #666B7F;"
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/white.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(150, 153, 155) 9.68%, rgb(188, 189, 190) 54.56%, rgb(203, 204, 205) 65%, rgb(221, 222, 223) 74.68%, rgb(151, 154, 156) 100%);"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/black.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(5, 6, 6) 9.68%, rgb(32, 32, 31) 54.56%, rgb(34, 34, 34) 65%, rgb(77, 79, 78) 74.68%, rgb(5, 6, 6) 100%);"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/green.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(1, 43, 43) 9.68%, rgb(1, 73, 65) 54.56%, rgb(1, 94, 89) 65%, rgb(7, 107, 101) 74.68%, rgb(2, 48, 45) 100%);"
+            },
+            {
+                "id": "beige",
+                "name": "Бежевый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/beige.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(112, 95, 79) 9.68%, rgb(171, 160, 150) 54.56%, rgb(194, 181, 169) 65%, rgb(212, 204, 197) 74.68%, rgb(141, 126, 112) 100%);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/gray.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #494C52 9.68%, #6D6E71 54.56%, #838486 65%, #A1A2A5 74.68%, #595B5E 100%);"
             }
         ],
-        "feed_names": [
-        ],
+        "feed_names": [],
         "photos": "",
         "chars": {
-            "seats": "5 мест",
+            "seats": "7 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "Автоматическая"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2600",
+                "value": "3085",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4380",
+                "value": "5045",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1810",
+                "value": "1960",
                 "measure": "мм"
             },
             {
@@ -594,304 +256,13 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "147",
+                "value": "232",
                 "measure": "н.м."
             },
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Передний",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "WEY",
-        "id": "tugella",
-        "show": true,
-        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "slogan": "",
-        "name": "Tugella",
-        "price": 3454990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Tugella",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Tugella",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "gray-blue",
-                "name": "Серо-голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #ABB5C1;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2700",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4605",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1878",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "2.0",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "350",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Полный",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "WEY",
-        "id": "monjaro",
-        "show": true,
-        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "slogan": "",
-        "name": "Monjaro",
-        "price": 4167990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Monjaro",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Monjaro",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "emerald",
-                "name": "Изумрудный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #518D9B;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #B8B3B3;"
-            },
-            {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2845",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4770",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1895",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "2.0",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "350",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Полный",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "WEY",
-        "id": "belgee-x50",
-        "show": true,
-        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "slogan": "",
-        "name": "Belgee X50",
-        "price": 1935990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Belgee X50",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Belgee X50",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2600",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4330",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1800",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "150",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Передний",
+                "value": "4WD",
                 "measure": ""
             }
         ]
