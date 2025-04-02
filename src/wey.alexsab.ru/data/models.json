@@ -46,6 +46,18 @@
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #494C52 9.68%, #6D6E71 54.56%, #838486 65%, #A1A2A5 74.68%, #595B5E 100%);"
             }
         ],
+        "complectations": [
+            {
+                "name": "Premium",
+                "price": 5699000,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "DCT9",
+                "drive": "Полный (AWD)",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [],
         "photos": "",
         "chars": {
