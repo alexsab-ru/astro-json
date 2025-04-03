@@ -1,4 +1,12 @@
 {
-    "header": {},
-    "footer": {}
+    "header": {
+        "vkontakte-full": {
+            "url": "https://vk.com/jetour_krd"
+        }
+    },
+    "footer": {
+        "vkontakte-full": {
+            "url": "https://vk.com/jetour_krd"
+        }
+    }
 }
