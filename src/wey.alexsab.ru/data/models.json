@@ -208,41 +208,63 @@
         "mark_id": "WEY",
         "id": "wey-80",
         "show": true,
-        "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/80/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/bg.webp",
         "slogan": "Масштаб возможностей",
-        "name": "80",
+        "name": "80 Premium",
         "price": "6599000",
-        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/gray.webp",
+        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/beige.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/white.webp",
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(150, 153, 155) 9.68%, rgb(188, 189, 190) 54.56%, rgb(203, 204, 205) 65%, rgb(221, 222, 223) 74.68%, rgb(151, 154, 156) 100%);"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/black.webp",
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(5, 6, 6) 9.68%, rgb(32, 32, 31) 54.56%, rgb(34, 34, 34) 65%, rgb(77, 79, 78) 74.68%, rgb(5, 6, 6) 100%);"
             },
             {
                 "id": "green",
                 "name": "Зеленый металлик",
-                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/green.webp",
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(1, 43, 43) 9.68%, rgb(1, 73, 65) 54.56%, rgb(1, 94, 89) 65%, rgb(7, 107, 101) 74.68%, rgb(2, 48, 45) 100%);"
             },
             {
                 "id": "beige",
                 "name": "Бежевый металлик",
-                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/beige.webp",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/beige.webp",
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(112, 95, 79) 9.68%, rgb(171, 160, 150) 54.56%, rgb(194, 181, 169) 65%, rgb(212, 204, 197) 74.68%, rgb(141, 126, 112) 100%);"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/80/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/gray.webp",
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #494C52 9.68%, #6D6E71 54.56%, #838486 65%, #A1A2A5 74.68%, #595B5E 100%);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Premium",
+                "price": 6599000,
+                "bodytype": "5-дверный минивэн",
+                "engine": "1.5 м3",
+                "engine_power": "152",
+                "gear_rus": "Автоматическая",
+                "drive": "4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Business Lounge",
+                "price": 8099000,
+                "bodytype": "5-дверный минивэн",
+                "engine": "1.5 м3",
+                "engine_power": "152",
+                "gear_rus": "Автоматическая",
+                "drive": "4WD",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [],
@@ -263,6 +285,109 @@
                 "id": "length",
                 "title": "Длина",
                 "value": "5045",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1960",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "232",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "4WD",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "WEY",
+        "id": "wey-80-business-lounge",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/bg.webp",
+        "slogan": "Масштаб возможностей",
+        "name": "80 Business Lounge",
+        "price": "8099000",
+        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/black.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/white.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(150, 153, 155) 9.68%, rgb(188, 189, 190) 54.56%, rgb(203, 204, 205) 65%, rgb(221, 222, 223) 74.68%, rgb(151, 154, 156) 100%);"
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/black.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(5, 6, 6) 9.68%, rgb(32, 32, 31) 54.56%, rgb(34, 34, 34) 65%, rgb(77, 79, 78) 74.68%, rgb(5, 6, 6) 100%);"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/green.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(1, 43, 43) 9.68%, rgb(1, 73, 65) 54.56%, rgb(1, 94, 89) 65%, rgb(7, 107, 101) 74.68%, rgb(2, 48, 45) 100%);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/wey/img/models/wey-80/colors/gray.webp",
+                "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #494C52 9.68%, #6D6E71 54.56%, #838486 65%, #A1A2A5 74.68%, #595B5E 100%);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Premium",
+                "price": 6599000,
+                "bodytype": "5-дверный минивэн",
+                "engine": "1.5 м3",
+                "engine_power": "152",
+                "gear_rus": "Автоматическая",
+                "drive": "4WD",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Business Lounge",
+                "price": 8099000,
+                "bodytype": "5-дверный минивэн",
+                "engine": "1.5 м3",
+                "engine_power": "152",
+                "gear_rus": "Автоматическая",
+                "drive": "4WD",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "6 мест",
+            "fuel": "Бензин",
+            "gearbox": "Автоматическая"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3275",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5405",
                 "measure": "мм"
             },
             {
