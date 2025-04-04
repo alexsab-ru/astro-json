@@ -201,7 +201,7 @@
       title: Документация
       suptitle: "Может пригодиться"
       text: "<p><span><a href='https://gwm-wey.ru/uploads/docs/price_list_WEY_07.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://gwm-wey.ru/uploads/files/915bc9845763dad3a373c105bd87c051.pdf' class='underline' target='_blank'>Каталог</a></span></p>"
-- id: "wey-80"
+- id: "wey-80-premium"
   sections:
     - id: description
       sectionClass: ""
@@ -216,31 +216,31 @@
         - icon: mdi:gas-station-outline
           text: Расход топлива 6.5 л / 100 км
       images:
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/1.webp
     - id: exterior
       sectionClass: ""
       title: Экстерьер
       text: Солидный со всех сторон. Внушительный в каждой детали. WEY 80 cочетает в себе мощь и элегантность. Сдвижные двери с электроприводом открываются одним касанием или дистанционно через мобильное приложение, а задняя дверь — бесконтактно, облегчая повседневное использование.
       images:
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/exterior/1.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/exterior/1.webp
           title: "Тонировка стекол 2-го и 3-го ряда"
           description: ""
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/exterior/2.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/exterior/2.webp
           title: "Зарядный порт GB/T с разъемами для быстрой и медленной зарядки"
           description: ""
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/exterior/3.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/exterior/3.webp
           title: "Электрические сдвижные двери с функцией антизащемления"
           description: ""
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/exterior/4.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/exterior/4.webp
           title: "Шумоизоляционные стекла"
           description: ""
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/exterior/5.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/exterior/5.webp
           title: "Дорожный просвет 155 мм"
           description: ""
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/exterior/6.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/exterior/6.webp
           title: "Легкосплавные колесные диски 18″"
           description: ""
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/exterior/7.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/exterior/7.webp
           title: "Светодиодные фары с функцией автоматического переключения ближнего и дальнего света"
           description: ""
     - id: interior
@@ -248,16 +248,16 @@
       title: Интерьер
       text: "WEY 80 открывает простор как для семейных, так и деловых поездок. Салон рассчитан на 7 человек, с удобными индивидуальными креслами «Zero Gravity» во втором ряду, которые обеспечивают максимальное расслабление благодаря специальной конструкции, снижающей нагрузку на позвоночник."
       images:
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/interior/1.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/interior/1.webp
           title: "Современные технологии"
           description: "Цифровая приборная панель 12,3”. Мультимедийный дисплей 14,6”. Беспроводная зарядка 50Вт. Акустическая система с 8 динамиками."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/interior/2.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/interior/2.webp
           title: "Комфорт"
           description: "Сиденья с функцией «Zero Gravity», с подогревом и вентиляцией. Регулировка наклона спинки сиденья. Независимые дефлекторы 3-его ряда. Салон оснащен 12 USB-разъемами."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/interior/3.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/interior/3.webp
           title: "Трехзонный климат-контроль"
           description: "Трехзонный климат-контроль позволяет пассажирам настроить комфортную температуру."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/interior/4.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/interior/4.webp
           title: "Вместительность"
           description: "Моделируйте пространство салона и багажного отделения WEY 80 на ваше усмотрение. Благодаря единым направляющим второго и третьего рядов сидений, а также удобным способам их складывания, можно легко увеличить пространство багажного отделения до 1725 литров. Чтобы в вашем путешествии всё сложилось успешно."
     - id: technology
@@ -266,28 +266,28 @@
       suptitle: ""
       text: WEY 80 объединяет передовые технологии для вашего удобства и комфорта. Через мобильное приложение легко создать комфортные условия перед поездкой. С центральным мультимедийным экраном 14.6" все функции автомобиля буквально на кончиках ваших пальцев. 
       images:
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/1.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/technology/1.webp
           title: "Дистанционное управление"
           description: "Управление настройками автомобиля через мобильное приложение — дополнительный новый опыт. Отрегулируйте температуру в салоне и включите подогрев или вентиляцию кресел ещё до поездки."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/2.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/technology/2.webp
           title: "Камера кругового обзора"
           description: "С помощью камеры кругового обзора и функцией визуализации «прозрачного шасси» вместе с анимированной 3D моделью, позволяет увереннее двигаться и полностью контролировать ситуацию на дороге."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/3.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/technology/3.webp
           title: "Мобильный источник энергии"
           description: "Используйте WEY 80 для подключения бытовых приборов и электроники в путешествиях — технология V2L позволяет использовать заряд батареи для этих целей."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/4.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/technology/4.webp
           title: "Движение в полосе"
           description: "Система помощи движения в полосе постоянно отслеживает дорожную разметку и помогает предотвратить случайный выезд за пределы полосы. Система всегда готова предупредить Вас о возможном выезде и скорректировать положение рулевого колеса в случае необходимости."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/5.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/technology/5.webp
           title: "Выезд задним ходом"
           description: "Доверьтесь всевидящим камерам Вашего Wey 80. Автомобиль запомнит траекторию Вашего движения при парковке и повторит ее при выезде задним ходом в соответствии с записанным маршрутом. При движении задним ходом система определит любые потенциальные угрозы столкновения и применит активное торможение в случае необходимости."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/6.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/technology/6.webp
           title: "Автоматическая парковка"
           description: "Технологичный «валет-сервис» всегда готов припарковать Ваш автомобиль в автоматическом режиме. Активируйте систему и продолжайте движение — как только подходящее место будет найдено, Вы получите уведомление с предложением начать парковочный манёвр. Следуйте подсказкам системы и наслаждайтесь мастерством интеллектуального помощника."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/7.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/technology/7.webp
           title: "Автоматическая система торможения"
           description: "Система автоматического экстренного торможения — Ваш незаменимый помощник в дороге. Система не только определит риск столкновения при движении вперед и предупредит Вас визуальными и звуковыми сигналами, но и применит активное торможение в случае необходимости."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/8.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/technology/8.webp
           title: "Адаптивный круиз-контроль"
           description: "С системой адаптивного круиз-контроля легко превратить управление автомобилем в приятную поездку. При заданной скорости в пределах от 30 до 150 км/ч, система сама будет поддерживать дистанцию до впереди идущего автомобиля, даже в случае его замедления или ускорения."
     - id: security
@@ -296,7 +296,7 @@
       suptitle: ""
       text: За точное и своевременное реагирование на дороге отвечает система из 12 датчиков и 5 камер. Заботясь о здоровье пассажиров, WEY 80 оснащен системой UV очистки салона, которая активируется дистанционно через мобильное приложение.
       images:
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/security/1.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/security/1.webp
           title: ""
           description: ""
     - id: options
@@ -310,7 +310,7 @@
       title: 8 лет поддержки
       text: "<p>Полная уверенность в наших автомобилях, а также высокое качество производства и компонентов позволяет нам гарантировать до 8 лет поддержки для вашего WEY. Официальные дилеры WEY всегда готовы помочь вам, предоставляя квалифицированное обслуживание. </p>"
       images:
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/warranty/1.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/sections/warranty/1.webp
     - id: documentation
       sectionClass: ""
       title: Документация
@@ -331,7 +331,7 @@
         - icon: mdi:gas-station-outline
           text: Расход топлива 6.7 л / 100 км
       images:
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/sections/1.webp
     - id: exterior
       sectionClass: ""
       title: Экстерьер
@@ -360,7 +360,7 @@
       title: Интерьер
       text: "WEY 80 — воплощение современного комфорта для шести пассажиров. Просторные сиденья второго ряда с отделкой кожей Nappa, функциями массажа, вентиляции, обогрева и регулируемой подножкой. Для пассажиров доступен бокс с функцией охлаждения или подогрева, беспроводные зарядки и столики."
       images:
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/interior/1.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/sections/interior/1.webp
           title: "Современные технологии"
           description: "Цифровая приборная панель 12,3”. Мультимедийный дисплей 14,6”. Беспроводная зарядка 50Вт. Акустическая система с 20 динамиками. Атмосферная подсветка салона."
         - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/sections/interior/2.webp
@@ -381,19 +381,19 @@
         - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/sections/technology/1.webp
           title: "Дистанционное управление"
           description: "Управление настройками автомобиля через мобильное приложение — дополнительный новый опыт. Отрегулируйте температуру в салоне и включите подогрев или вентиляцию кресел ещё до поездки."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/4.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/sections/technology/4.webp
           title: "Движение в полосе"
           description: "Система помощи движения в полосе постоянно отслеживает дорожную разметку и помогает предотвратить случайный выезд за пределы полосы. Система всегда готова предупредить Вас о возможном выезде и скорректировать положение рулевого колеса в случае необходимости."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/5.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/sections/technology/5.webp
           title: "Выезд задним ходом"
           description: "Доверьтесь всевидящим камерам Вашего Wey 80. Автомобиль запомнит траекторию Вашего движения при парковке и повторит ее при выезде задним ходом в соответствии с записанным маршрутом. При движении задним ходом система определит любые потенциальные угрозы столкновения и применит активное торможение в случае необходимости."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/6.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/sections/technology/6.webp
           title: "Автоматическая парковка"
           description: "Технологичный «валет-сервис» всегда готов припарковать Ваш автомобиль в автоматическом режиме. Активируйте систему и продолжайте движение — как только подходящее место будет найдено, Вы получите уведомление с предложением начать парковочный манёвр. Следуйте подсказкам системы и наслаждайтесь мастерством интеллектуального помощника."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/7.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/sections/technology/7.webp
           title: "Автоматическая система торможения"
           description: "Система автоматического экстренного торможения — Ваш незаменимый помощник в дороге. Система не только определит риск столкновения при движении вперед и предупредит Вас визуальными и звуковыми сигналами, но и применит активное торможение в случае необходимости."
-        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80/sections/technology/8.webp
+        - url: https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/sections/technology/8.webp
           title: "Адаптивный круиз-контроль"
           description: "С системой адаптивного круиз-контроля легко превратить управление автомобилем в приятную поездку. При заданной скорости в пределах от 30 до 150 км/ч, система сама будет поддерживать дистанцию до впереди идущего автомобиля, даже в случае его замедления или ускорения."
     - id: security
