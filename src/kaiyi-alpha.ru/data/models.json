@@ -330,7 +330,7 @@
         "mark_id": "Kaiyi",
         "id": "x7-kunlun",
         "show": true,
-        "homeImg": "/img/model-bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Создан для молодого поколения",
         "name": "X7 Kunlun",
         "price": "{{price-kaiyi-x7-kunlun}}",

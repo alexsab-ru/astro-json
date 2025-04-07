@@ -3,7 +3,7 @@
         "mark_id": "EVOLUTE",
         "id": "i-space",
         "show": true,
-        "homeImg": "/img/model-bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вот это космос!",
         "name": "i-SPACE",
         "price": 2499000,
