@@ -8,7 +8,7 @@
         "imageUrl": "https://cdn.alexsab.ru/b/alpha-center/img/banners/sezon-1920x720-notxt.webp",
         "mobileImageUrl": "https://cdn.alexsab.ru/b/alpha-center/img/banners/sezon-640x800-notxt.webp",
         "title": "Всесезонная<br>подготовка<br>автомобиля",
-        "descr": "<strong>2.000 руб.</strong>",
+        "descr": "<div class='inline-block rounded px-3 py-2 mb-4 md:px-8 md:py-6 bg-white text-black font-bold md:text-4xl md:mb-12'>2.000 руб.</div><h3 class='md:text-2xl font-bold'>Проверка</h3><ul class='list-disc ml-6 mb-4 md:mb-8'><li>Фильтр салонный</li><li>Фильтр воздушный</li><li>Антифриз</li><li>Аккумуляторная батарея</li></ul><h3 class='md:text-2xl font-bold'>Осмотр состояния на наличие неисправностей</h3><ul class='list-disc ml-6 mb-4 md:mb-8'><li>Подвеска</li></ul><h3 class='md:text-2xl font-bold'>Мойка техническая</h3><ul class='list-disc ml-6 mb-4 md:mb-8'><li>Кузов</li></ul>",
         "btn": "Записаться",
         "btnUrl": "#common-modal",
         "dataTitle": "Всесезонная подготовка автомобиля 2.000 руб.",
