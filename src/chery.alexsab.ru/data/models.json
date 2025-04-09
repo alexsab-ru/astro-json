@@ -1,157 +1,94 @@
 [
     {
         "mark_id": "Chery",
-        "id": "u5-plus",
+        "id": "tiggo4",
         "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "Практичность и комфорт",
-        "name": "U5 Plus",
-        "price": "{{price-u5-plus}}",
-        "benefit": 750000,
+        "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/bg.webp",
+        "slogan": "Начните… с TIGGO 4 !",
+        "name": "TIGGO 4",
+        "price": "1990000",
+        "benefit": 300000,
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
+                "label": "Получить выгодное предложение",
                 "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Baic U5 Plus",
+                "data_title": "Получить выгодное предложение",
+                "data_form_name": "Получить выгодное предложение. Tiggo 4",
                 "view": "popup-link"
             },
             {
                 "url": "#common-modal",
-                "label": "Выгодный кредит",
+                "label": "Специальное кредитное предложение",
                 "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Baic U5 Plus",
+                "data_title": "Специальное кредитное предложение",
+                "data_form_name": "Специальное кредитное предложение. Tiggo 4",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/colors/red.webp",
         "colors": [
             {
                 "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E51036;"
+                "name": "Огненный красный",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/colors/red.webp",
+                "style": "background-color: #a70202;"
             },
             {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #9CA3AF;"
+                "id": "steel-gray",
+                "name": "Стальной серый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/colors/steel-gray.webp",
+                "style": "background-color: #787878;"
+            },
+            {
+                "id": "silver-gray",
+                "name": "Серебристый серый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/colors/silver-gray.webp",
+                "style": "background-color: #bcbfc1;"
             },
             {
                 "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E5E7EB;"
+                "name": "Искрящийся белый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/colors/white.webp",
+                "style": "background-color: #dcdfe2;"
             },
             {
                 "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+                "name": "Глубокий черный",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/colors/black.webp",
                 "style": "background-color: #000000;"
             }
         ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "CVT"
-        },
-        "globalChars": [
+        "complectations": [
             {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2570",
-                "measure": "мм"
+                "name": "Active",
+                "price": 2240000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5",
+                "engine_power": "147",
+                "gear_rus": "DCT6",
+                "drive": "Передний",
+                "fuel": "Бензин"
             },
             {
-                "id": "length",
-                "title": "Длина",
-                "value": "4500",
-                "measure": "мм"
+                "name": "Prime",
+                "price": 2420000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5",
+                "engine_power": "147",
+                "gear_rus": "DCT6",
+                "drive": "Передний",
+                "fuel": "Бензин"
             },
             {
-                "id": "width",
-                "title": "Ширина",
-                "value": "2200",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "134",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Передний",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Chery",
-        "id": "atlas-2024",
-        "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Новый Atlas",
-        "price": 2844990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Новый Atlas",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Новый Atlas",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "gray",
-                "name": "Серо-голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #4c5698;"
-            },
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #828793;"
-            },
-            {
-                "id": "white",
-                "name": "Белый",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "name": "Ultra",
+                "price": 2620000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5",
+                "engine_power": "147",
+                "gear_rus": "DCT6",
+                "drive": "Передний",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -160,126 +97,19 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "DCT6"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2777",
+                "value": "2610",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4670",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1900",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "2.0",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "325",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "2WD",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Chery",
-        "id": "atlas-pro",
-        "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Atlas Pro",
-        "price": 2188990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Atlas Pro",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Atlas Pro",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #B9B4B4;"
-            },
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6AT/7DCT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2670",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4544",
+                "value": "4320",
                 "measure": "мм"
             },
             {
@@ -297,114 +127,7 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "255",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "2WD/4WD",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Chery",
-        "id": "emgrand",
-        "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Emgrand",
-        "price": 1799990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Emgrand",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Emgrand",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "blue",
-                "name": "Голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #50AECE;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "gold",
-                "name": "Золотой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #AC9579;"
-            },
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "5MT/6AT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2650",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4638",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1822",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "122",
+                "value": "210",
                 "measure": "н.м."
             },
             {
@@ -417,62 +140,102 @@
     },
     {
         "mark_id": "Chery",
-        "id": "coolray",
+        "id": "tiggo4pro",
         "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Coolray",
-        "price": 2009990,
-        "benefit": "",
+        "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/bg.webp",
+        "slogan": "18 years edition*",
+        "name": "TIGGO 4 PRO",
+        "price": "1700000",
+        "benefit": 250000,
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Coolray",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
+                "label": "Специальное кредитное предложение",
                 "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Coolray",
+                "data_title": "Специальное кредитное предложение",
+                "data_form_name": "Специальное кредитное предложение. Tiggo 4 Pro",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/colors/black.webp",
         "colors": [
             {
-                "id": "blue",
-                "name": "Голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #50AECE;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "id": "black",
+                "name": "Глубокий черный",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/colors/black.webp",
+                "style": "background-color: #000000;"
             },
             {
                 "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "name": "Огненно-красный",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/colors/red.webp",
+                "style": "background-color: #a70202;"
             },
             {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #B9B4B4;"
+                "id": "steel-gray",
+                "name": "Стальной серый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/colors/steel-gray.webp",
+                "style": "background-color: #787878;"
+            },
+            {
+                "id": "silver-gray",
+                "name": "Серебристый серый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/colors/silver-gray.webp",
+                "style": "background-color: #bcbfc1;"
             },
             {
                 "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "name": "Искрящийся белый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/colors/white.webp",
+                "style": "background-color: #dcdfe2;"
+            },
+            {
+                "id": "blue",
+                "name": "Небесно-голубой",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/colors/blue.webp",
+                "style": "background-color: #2E5CAA;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Action MT",
+                "price": 1700000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5",
+                "engine_power": "113",
+                "gear_rus": "Механическая MT5",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Action",
+                "price": 1850000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5",
+                "engine_power": "113",
+                "gear_rus": "Вариатор CVT18",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Action МT, 2025 г.в.",
+                "price": 1750000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5",
+                "engine_power": "113",
+                "gear_rus": "Механическая MT5",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Action, 2025 г.в.",
+                "price": 1900000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5",
+                "engine_power": "113",
+                "gear_rus": "Вариатор CVT18",
+                "drive": "Передний",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -481,25 +244,25 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "CVT9"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2600",
+                "value": "2610",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4330",
+                "value": "4318",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1800",
+                "value": "1831",
                 "measure": "мм"
             },
             {
@@ -511,7 +274,7 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "150",
+                "value": "138",
                 "measure": "н.м."
             },
             {
@@ -524,38 +287,188 @@
     },
     {
         "mark_id": "Chery",
-        "id": "new_coolray",
+        "id": "tiggo7promax",
         "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Новый Coolray",
-        "price": 2404990,
-        "benefit": "",
+        "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7promax/bg.webp",
+        "slogan": "ЛЮБИМЫЙ СЕМЕЙНЫЙ КРОССОВЕР №1",
+        "name": "TIGGO 7 PRO MAX",
+        "price": "2430000",
+        "benefit": 300000,
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Новый Coolray",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
+                "label": "Получить выгодное предложение",
                 "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Новый Coolray",
+                "data_title": "Получить выгодное предложение",
+                "data_form_name": "Получить выгодное предложение. Tiggo 7 Pro Max",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7promax/colors/steel-gray.webp",
         "colors": [
             {
-                "id": "lilac",
-                "name": "Лиловый перламутр",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #666B7F;"
+                "id": "black",
+                "name": "Глубокий черный",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7promax/colors/black.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "red-black",
+                "name": "Огненно-красный (черная крыша)",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7promax/colors/red-black.webp",
+                "style": "background-color: #a70202;"
+            },
+            {
+                "id": "steel-gray",
+                "name": "Стальной серый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7promax/colors/steel-gray.webp",
+                "style": "background-color: #787878;"
+            },
+            {
+                "id": "silver-gray",
+                "name": "Серебристый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7promax/colors/silver-gray.webp",
+                "style": "background-color: #bcbfc1;"
+            },
+            {
+                "id": "white",
+                "name": "Искрящийся белый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7promax/colors/white.webp",
+                "style": "background-color: #dcdfe2;"
+            },
+            {
+                "id": "white-black",
+                "name": "Искрящийся белый (черная крыша)",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7promax/colors/white-black.webp",
+                "style": "background-color: #dcdfe2;"
+            },
+            {
+                "id": "blue",
+                "name": "Небесно-голубой",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7promax/colors/blue.webp",
+                "style": "background-color: #2E5CAA;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Active FWD",
+                "price": 2430000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prime, FWD",
+                "price": 2580000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultra, FWD",
+                "price": 2745000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Active, AWD",
+                "price": 2530000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prime, AWD",
+                "price": 2780000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultra, AWD",
+                "price": 3155000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Active FWD, 2025 г.в.",
+                "price": 2480000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prime FWD, 2025 г.в.",
+                "price": 2630000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultra FWD, 2025 г.в.",
+                "price": 2845000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Active AWD, 2025 г.в.",
+                "price": 2630000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prime AWD, 2025 г.в.",
+                "price": 2830000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultra AWD, 2025 г.в.",
+                "price": 3155000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -564,37 +477,37 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "DCT7"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2600",
+                "value": "2670",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4380",
+                "value": "4513",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1810",
+                "value": "1862",
                 "measure": "мм"
             },
             {
                 "id": "engine",
                 "title": "Объем двигателя",
-                "value": "1.5",
+                "value": "1.6",
                 "measure": "л."
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "147",
+                "value": "275",
                 "measure": "н.м."
             },
             {
@@ -607,163 +520,114 @@
     },
     {
         "mark_id": "Chery",
-        "id": "tugella",
+        "id": "tiggo8promax",
         "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Tugella",
-        "price": 3454990,
-        "benefit": "",
+        "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/bg.webp",
+        "slogan": "Лидер продаж среди 7-местных кроссоверов",
+        "name": "TIGGO  8 PRO MAX",
+        "price": "3020000",
+        "benefit": 600000,
         "benefits": [
             {
                 "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Tugella",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
+                "label": "Получить выгодное предложение",
                 "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Tugella",
+                "data_title": "Получить выгодное предложение",
+                "data_form_name": "Получить выгодное предложение. Tiggo 8 Pro Max",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/colors/steel-gray.webp",
         "colors": [
             {
                 "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "name": "Глубокий черный",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/colors/black.webp",
+                "style": "background-color: #000000;"
             },
             {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "id": "steel-gray",
+                "name": "Стальной серый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/colors/steel-gray.webp",
+                "style": "background-color: #787878;"
             },
             {
-                "id": "gray-blue",
-                "name": "Серо-голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #ABB5C1;"
+                "id": "silver-gray",
+                "name": "Серебристый серый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/colors/silver-gray.webp",
+                "style": "background-color: #bcbfc1;"
             },
             {
                 "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2700",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4605",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1878",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "2.0",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "350",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Полный",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Chery",
-        "id": "monjaro",
-        "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Monjaro",
-        "price": 4167990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Monjaro",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Monjaro",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "emerald",
-                "name": "Изумрудный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #518D9B;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #B8B3B3;"
+                "name": "Технологичный серый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/colors/gray.webp",
+                "style": "background-color: #696969;"
             },
             {
                 "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "name": "Искрящийся белый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/colors/white.webp",
+                "style": "background-color: #dcdfe2;"
+            },
+            {
+                "id": "blue",
+                "name": "Небесный синий",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/colors/blue.webp",
+                "style": "background-color: #2E5CAA;"
+            },
+            {
+                "id": "green",
+                "name": "Изумрудный зеленый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/colors/green.webp",
+                "style": "background-color: #0a3639;"
+            },
+            {
+                "id": "purple",
+                "name": "Королевский пурпур",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8promax/colors/purple.webp",
+                "style": "background-color: #582a5a;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Elite FWD",
+                "price": 3020000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "186",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Dreamline FWD",
+                "price": 3020000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "186",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Dreamline AWD",
+                "price": 3320000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "197",
+                "gear_rus": "DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultimate AWD",
+                "price": 3520000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "197",
+                "gear_rus": "DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -772,120 +636,37 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "8AT"
+            "gearbox": "DCT7"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2845",
+                "value": "2710",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4770",
+                "value": "4720",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1895",
+                "value": "1860",
                 "measure": "мм"
             },
             {
                 "id": "engine",
                 "title": "Объем двигателя",
-                "value": "2.0",
+                "value": "1.6",
                 "measure": "л."
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "350",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Полный",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Chery",
-        "id": "belgee-x50",
-        "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Belgee X50",
-        "price": 1935990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Belgee X50",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Belgee X50",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2600",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4330",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1800",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "150",
+                "value": "275",
                 "measure": "н.м."
             },
             {
