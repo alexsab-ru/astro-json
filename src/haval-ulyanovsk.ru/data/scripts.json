@@ -3,11 +3,17 @@
     "gtm": "GTM-NMDLDB3F",
     "metrika": [
         {
-            "id": 48905003,
+            "id": 96404322,
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
             "webvisor": true
+        },
+        {
+            "id": 100151440,
+            "clickmap": true,
+            "trackLinks": true,
+            "accurateTrackBounce": true,
         }
     ],
     "ga4": [
