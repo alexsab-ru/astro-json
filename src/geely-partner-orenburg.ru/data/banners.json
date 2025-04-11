@@ -1,6 +1,22 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "http://cdn.alexsab.ru/b/geely/img/specials/geely-partner-orenburg/special-offer/special-offer-1920x1080.webp",
+        "mobileImageUrl": "http://cdn.alexsab.ru/b/geely/img/specials/geely-partner-orenburg/special-offer/special-offer-640x900.webp",
+        "title": "В Geely Партнер-Авто Оренбург до конца апреля действуют следующие предложения",
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/special-offer/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "link",
