@@ -3461,6 +3461,106 @@
             }
         ]
     },
+    { 
+        "mark_id": "GAC",
+        "id": "gs4",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs4/bg.webp",
+        "slogan": "ДЛЯ САМОГО ЦЕННОГО",
+        "name": "GS4",
+        "price": "2899000",
+        "benefit": "",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/white.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/gray.webp",
+                "style": "background-color: #4e4e4e"
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/silver.webp",
+                "style": "background-color: #959595"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "GB",
+                "price": 2899000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5T GDI",
+                "engine_power": "170",
+                "gear_rus": "7WDCT",
+                "drive": "Передний",
+                "fuel": "Бензин АИ-95 и выше"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7WDCT"
+        },
+        "globalChars": [
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4685",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1901",
+                "measure": "мм"
+            },
+            {
+                "id": "height",
+                "title": "Высота",
+                "value": "1690",
+                "measure": "мм"
+            },
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2750",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Максимальная мощность",
+                "value": "170",
+                "measure": "л.с."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "250/1400-4500",
+                "measure": "Н*м/об/мин"
+            },
+            {
+                "id": "consumption",
+                "title": "Расход топлива",
+                "value": "7.2",
+                "measure": "л/100 км"
+            }
+        ]
+    },
     {
         "mark_id": "GAC",
         "id": "m8",
