@@ -58,6 +58,12 @@
                 "name": "Черный металлик",
                 "carImage": "/img/models/x50/colors/black.webp",
                 "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "/img/models/x50/colors/blue.webp",
+                "style": "background-color: #1d449b;"
             }
         ],
         "complectations": [
