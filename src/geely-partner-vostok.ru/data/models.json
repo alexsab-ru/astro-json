@@ -171,6 +171,12 @@
                 "name": "Серый металлик",
                 "carImage": "/img/models/Cityray/colors/gray.webp",
                 "style": "background-color: #646971;"
+            },
+            {
+                "id": "silver-metallic",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/Cityray/colors/silver-metallic.webp",
+                "style": "background-color: #b6c2cc;"
             }
         ],
         "complectations": [
