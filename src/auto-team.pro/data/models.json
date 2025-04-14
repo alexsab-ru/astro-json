@@ -4014,5 +4014,97 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "GAC",
+        "id": "empow",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/empow/bg.webp",
+        "slogan": "Динамика твоей жизни",
+        "name": "Empow",
+        "price": "",
+        "benefit": "",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/black.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Чёрный",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/black.webp",
+                "style": ""
+            }
+        ],
+        "complectations": [
+            {
+                "name": "GS",
+                "price": "",
+                "bodytype": "Седан",
+                "engine": "1.5TG",
+                "engine_power": "170",
+                "gear_rus": "7WDCT",
+                "drive": "Передний",
+                "fuel": "Бензин АИ-92 и выше"
+            },
+            {
+                "name": "GL (S-style)",
+                "price": "",
+                "bodytype": "Седан",
+                "engine": "1.5TG",
+                "engine_power": "170",
+                "gear_rus": "7WDCT",
+                "drive": "Передний",
+                "fuel": "Бензин АИ-92 и выше"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7WDCT"
+        },
+        "globalChars": [
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4700",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1850",
+                "measure": "мм"
+            },
+            {
+                "id": "height",
+                "title": "Высота",
+                "value": "1432",
+                "measure": "мм"
+            },
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2736",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Максимальная мощность",
+                "value": "170",
+                "measure": "л.с."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "250/1400-4500",
+                "measure": "Н*м/об/мин"
+            },
+            {
+                "id": "consumption",
+                "title": "Расход топлива",
+                "value": "5.9",
+                "measure": "л/100 км"
+            }
+        ]
     }
 ]

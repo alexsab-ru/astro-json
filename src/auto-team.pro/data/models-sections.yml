@@ -2408,3 +2408,60 @@
       title: Документация
       suptitle: "Может пригодиться"
       text: "<p><span><a href='https://gac.ru/media-link/gs4-pricelist' class='underline' target='_blank'>Технические характеристики, комплектации и цены</a></span></p>"
+- id: "empow"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ДИНАМИКА ТВОЕЙ ЖИЗНИ"
+      title: GAC Empow
+      text: "<p>GAC Empow - спортивный седан, созданный для тех, кто ценит динамику и стиль. Автомобиль сочетает в себе мощный двигатель, современные технологии и агрессивный дизайн.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 170 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 250 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 5.9 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/exterior/1.webp
+          title: "Эксклюзивные диски"
+          description: "18-дюймовые колесные диски с низкопрофильной резиной подчеркивают дерзкий характер Empow."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/exterior/2.webp
+          title: "Спортивный дизайн"
+          description: "Спойлер на крышке багажника увеличивает прижимную силу и управляемость на высоких скоростях."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/exterior/3.webp
+          title: "Светодиодные фары"
+          description: "Светодиодные фары обеспечивают яркий и эффективный свет, улучшая видимость и безопасность."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: "Комфортное управление"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/interior/1.webp
+          title: "Комфортное управление"
+          description: "Проработанное рулевое колесо и эргономичная приборная панель обеспечивают полный контроль над движением и дарят водителю ощущение уверенности и комфорта."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/interior/2.webp
+          title: "Регулировка сидений"
+          description: "Водительское сиденье регулируется в 6 направлениях, а пассажирское — в 4, что обеспечивает фиксацию кресел в максимально удобном положении."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/interior/3.webp
+          title: "Аудиосистема Yamaha"
+          description: "Аудиосистема с четырехканальным усилителем мощностью 80 Ватт обеспечивает премиальное звучание."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/technology/1.webp
+          title: "Мощный двигатель"
+          description: "1,5-литровый турбированный двигатель с непосредственным впрыском обеспечивает отличную динамику."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/technology/2.webp
+          title: "Трансмиссия 7WDCT"
+          description: "Семиступенчатая преселективная коробка передач с двумя сцеплениями обеспечивает быстрое переключение."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/technology/3.webp
+          title: "Антикоррозийная защита"
+          description: "Цинковое покрытие кузовных панелей обеспечивает защиту от коррозии на 10 лет эксплуатации."
