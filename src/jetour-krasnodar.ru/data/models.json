@@ -224,6 +224,12 @@
                 "name": "Синий",
                 "carImage": "/img/models/t2/colors/blue.png",
                 "style": "background-color: #4682B4; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/white.webp",
+                "style": "background-color: #f5f5f5; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
         "complectations": [
