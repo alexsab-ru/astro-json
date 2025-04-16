@@ -3,7 +3,7 @@
         "mark_id": "Belgee",
         "id": "x50",
         "show": true,
-        "homeImg": "/img/models/x50/model-bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/belgee/x50/model-bg.webp",
         "slogan": "",
         "name": "X50",
         "price": "{{price-belgee-x50}}",
@@ -26,50 +26,50 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x50/black_500px.webp",
-        "image": "/img/banners/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
+        "thumb": "https://cdn.alexsab.ru/models/belgee/x50/black_500px.webp",
+        "image": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x50/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x50/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/x50/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/silver.webp",
                 "style": "background-color: #c0c0c0;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/x50/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/gray.webp",
                 "style": "background-color: #696969;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/x50/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/x50/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/blue.webp",
                 "style": "background-color: #1d449b;"
             }
         ],
         "complectations": [
             {
                 "name": "Active",
-                "price": 2126190,
+                "price": "{{price-belgee-x50}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -79,7 +79,7 @@
             },
             {
                 "name": "Style",
-                "price": 2236190,
+                "price": 2160190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -89,7 +89,7 @@
             },
             {
                 "name": "Prestige",
-                "price": 2336190,
+                "price": 2260190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -149,7 +149,7 @@
         "mark_id": "Belgee",
         "id": "x70",
         "show": true,
-        "homeImg": "/img/models/x70/model-bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/belgee/x70/model-bg.webp",
         "slogan": "",
         "name": "X70",
         "price": "{{price-belgee-x70}}",
@@ -172,50 +172,50 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x70/red_500px.webp",
-        "image": "/img/banners/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp",
+        "thumb": "https://cdn.alexsab.ru/models/belgee/x70/red_500px.webp",
+        "image": "https://cdn.alexsab.ru/main-sliders/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x70/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x70/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/x70/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x70/colors/silver.webp",
                 "style": "background-color: #d9d9d9;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/x70/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x70/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/x70/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x70/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий металлик",
-                "carImage": "/img/models/x70/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x70/colors/blue.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x70/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/models/belgee/x70/colors/red.webp",
                 "style": ""
             }
         ],
         "complectations": [
             {
                 "name": "Active",
-                "price": 2335190 ,
+                "price": "{{price-belgee-x70}}" ,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -224,18 +224,28 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Style",
-                "price": 2455190,
+                "name": "Style 2WD",
+                "price": 2496190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 4WD",
+                "price": 2671190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "177",
-                "gear_rus": "6AT/7DCT",
-                "drive": "Передний/Полный",
+                "gear_rus": "7DCT",
+                "drive": "Полный",
                 "fuel": "Бензин"
             },
             {
                 "name": "Prestige",
-                "price": 2830190,
+                "price": 2871190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "177",
@@ -245,7 +255,7 @@
             },
             {
                 "name": "Prestige+",
-                "price": 2935190,
+                "price": 2976190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "177",
