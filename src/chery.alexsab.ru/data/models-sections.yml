@@ -1,1 +1,88 @@
-- id: empty
+- id: "tiggo4"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: Новая версия семейного компактного кроссовера!
+      text: "<p>Встречайте кроссовер, который изменит ваши представления о комфорте и стиле. Tiggo 4 — это не просто автомобиль, это ваше новое пространство для приключений!</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 147 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 210 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 6.8 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/exterior/1.webp
+          title: "Новый внешний дизайн"
+          description: "Обновленный  кроссовер Chery Tiggo 4 стал еще прогрессивнее и технологичнее! Новый дизайн экстерьера заставляет  оборачиваться вслед, а современное оборудование делает каждую поездку максимально комфортной."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/exterior/2.webp
+          title: "Двухцветные литые диски 18″"
+          description: "Эффектные 18-дюймовые легкосплавные колесные диски  в двухцветном исполнении отражают динамичный и подвижный характер Chery Tiggo 4."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/exterior/3.webp
+          title: "Светодиодная LED-оптика"
+          description: "Полностью светодиодные фары с автоматическим переключением ближнего и дальнего света выглядят технологично и выразительно. А задержка выключения фар (функция «Проводи меня домой») обеспечит комфорт в вечернее время суток."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/exterior/4.webp
+          title: "Стильный задний вид"
+          description: "Корма автомобиля оформлена  в «Стиле тигра». Черные задние  фонари в виде сплошной полосы  с тигриным принтом имеют  стильный, простой и изысканный  вид. Широкие обводы задней  части кузова, как мощные лапы  тигра, обеспечивают баланс,  маневренность и устойчивость."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/interior/1.webp
+          title: "Стильный двухцветный салон"
+          description: "Интерьер Chery Tiggo 4 может служить  эталоном скрупулезной проработки  деталей и продуманной до мелочей эргономики. А главное — только  вам выбирать, каким он будет:  классическим черным или стильным  двухцветным."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/interior/2.webp
+          title: "Зимний пакет для всей семьи"
+          description: "Температурные катаклизмы — не проблема, когда автомобиль оснащен полным зимним пакетом. Обогрев ветрового и заднего стекол, форсунок омывателя, наружных зеркал заднего вида, рулевого колеса, а также передних и задних сидений  позволяет комфортно путешествовать, даже когда за окном автомобиля глубокий минус."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/interior/3.webp
+          title: "Комфорт в вашей поездке"
+          description: "Что главное в путешествии? Удобство! Chery Tiggo 4 оснащен эргономичными сиденьями из экокожи с боковой поддержкой. Для кресла водителя предусмотрена электрическая регулировка в 6 направлениях, а также регулировка поясничного подпора. Рулевая колонка легко адаптируется как по углу наклона, так и по вылету. Атмосферная подсветка добавит уюта."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/interior/4.webp
+          title: "Вместительный багажник для всех ваших увлечений"
+          description: "Просторный багажник на 1100 литров обеспечит пространство для всех ваших ежедневных нужд! Вы сможете без проблем разместить различные покупки, спортивный инвентарь или дорожные сумки."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/1.webp
+          title: "Цифровая зона управления 2*10,25”"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/2.webp
+          title: "Беспроводной Android Auto / Apple CarPlay"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/3.webp
+          title: "Беспроводная зарядка под рукой"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/4.webp
+          title: "Круговой обзор 540° в режиме HD"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/5.webp
+          title: "Современный двигатель 1.5Т + 6DCT"
+          description: ""
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/security/1.webp
+          title: "7 подушек безопасности"
+          description: "Chery Tiggo 4 разделяет вашу заботу о безопасности близких. Будьте уверены в вашей безопасности благодаря 7 подушкам безопасности. Особое внимание уделено безопасности маленьких пассажиров — автомобиль оснащен продуманными решениями для их защиты."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/security/2.webp
+          title: "Задние и передние датчики парковки"
+          description: "Система мониторинга «слепых» зон и система кругового обзора нового TIGGO 4 отвечают за вашу безопасность в поездке. Видеокамеры класса HD и современные радарные датчики предоставят водителю исчерпывающую информацию о том, что происходит рядом с автомобилем, даже если за бортом ночь, туман или дождь."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/security/3.webp
+          title: "Гарантия 5 лет или 150 000 км пробега*"
+          description: "Chery Tiggo 4 оптимально встроится в ваш бюджет, ведь затраты на его обслуживание  минимальны. На автомобиль предоставляется заводская гарантия на пять лет или 150 тысяч  километров пробега."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/T4_april_2025_16372739711419044133.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/CHERY_BR_28-10-2024_web_11334324963499778397.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
