@@ -969,43 +969,43 @@
             {
                 "id": "black",
                 "name": "Глубокий черный",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/black.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "red-black",
                 "name": "Огненно-красный (черная крыша)",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/red.webp",
                 "style": "background-color: #a70202;"
             },
             {
                 "id": "steel-gray",
                 "name": "Стальной серый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/steel-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/steel-gray.webp",
                 "style": "background-color: #787878;"
             },
             {
                 "id": "silver-gray",
                 "name": "Серебристый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/gray.webp",
                 "style": "background-color: #bcbfc1;"
             },
             {
                 "id": "white",
                 "name": "Искрящийся белый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/white.webp",
                 "style": "background-color: #dcdfe2;"
             },
             {
                 "id": "blue",
                 "name": "Небесно-голубой",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/blue.webp",
                 "style": "background-color: #2E5CAA;"
             },
             {
-                "id": "blue",
+                "id": "sea-blue",
                 "name": "Морской синий",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/sea-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/sea-blue.webp",
                 "style": "background-color: #224968;"
             }
         ],
