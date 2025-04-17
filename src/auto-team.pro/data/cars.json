@@ -114,21 +114,21 @@
   {
     "id": "changan-alsvin",
     "model": "ALSVIN",
-    "price": "1420000",
+    "price": "1400000",
     "benefit": "",
     "link": "https://changanauto.ru/models/alsvin/"
   },
   {
     "id": "changan-eadoplus",
     "model": "EADOplus",
-    "price": "1949900",
+    "price": "1929900",
     "benefit": "",
     "link": "https://changanauto.ru/models/eadoplus/"
   },
   {
     "id": "changan-lamore",
     "model": "Lamore",
-    "price": "2369900",
+    "price": "2349900",
     "benefit": "",
     "link": "https://changanauto.ru/models/lamore/"
   },
@@ -156,7 +156,7 @@
   {
     "id": "changan-cs95new",
     "model": "CS95NEW",
-    "price": "3859900",
+    "price": "3759900",
     "benefit": "",
     "link": "https://changanauto.ru/models/cs95new/"
   },
