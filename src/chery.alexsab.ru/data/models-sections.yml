@@ -341,3 +341,95 @@
       title: Документация
       suptitle: "Может пригодиться"
       text: "<p><span><a href='https://www.chery.ru/T8PM_april_god_vypuska_2025_16320689286466147556.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/Tiggo%208%20Pro%20Max%20FL%20catalog%20preview_11599361390388115835.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "tiggo9"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: "Новый Tiggo 9"
+      text: "Полноприводный кроссовер сегмента SUV (D) 4810X1925X1741."
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 245 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 375 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 8.3 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Эффектный экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/exterior/1.webp
+          title: "Решетка радиатора"
+          description: "Решетка радиатора украшена трехмерным узором, напоминающим россыпь множества бриллиантов."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/exterior/2.webp
+          title: "Оптика"
+          description: "Элементы дизайна ходовых огней вызывают ассоциацию с тигриными полосками, создавая изысканный эстетичный образ. Они усиливают визуальное ощущение трехмерности и глубину перспективы."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/exterior/3.webp
+          title: "20-дюймовые колесные диски"
+          description: "Автомобиль украшают стильные 20-дюймовые колесные диски. У него обтекаемый силуэт, а также панорамная крыша с люком и шторкой."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/exterior/4.webp
+          title: "Выдвижные ручки"
+          description: "Выдвижные ручки имеют усиленный электропривод от обледенения, улучшают аэродинамику, а также снижают уровень шума."
+    - id: interior
+      sectionClass: ""
+      title: Роскошный удобный интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/interior/1.webp
+          title: "Современные технологии"
+          description: "В распоряжении водителя «парящий» экран приборной панели (10.3 дюйма), а также 15.6-дюймовый основной экран с разрешением Ultra-HD."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/interior/2.webp
+          title: "Роскошный кожаный салон на семь мест"
+          description: "Роскошный кожаный салон на семь мест в черных или коричневых тонах выглядит модно и изысканно. Атмосферная подсветка, объемное звучание аудио-системы Sony с 14 динамиками и улучшенная шумоизоляция создают ощущение уюта и премиального комфорта."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/interior/3.webp
+          title: "Двузонный климат-контроль"
+          description: "Двузонный климат-контроль, боковые и задние дефлекторы позволяют создать комфортную атмосферу для водителя и всех пассажиров в салоне."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/1.webp
+          title: "Автоматическая КПП АТ8"
+          description: "Автоматическая коробка передач АТ8 идеально сочетается с мощным 2-литровым турбодвигателем, обеспечивая превосходную динамику и плавность движения."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/2.webp
+          title: "Интеллектуальный полный привод"
+          description: "Интеллектуальный полный привод обеспечивает отклик муфты примерно за 0,1 секунды и непрерывную передачу крутящего момента на заднюю ось. В вашем распоряжении 7 режимов выбора движения — Нормальный, Экономичный, Спортивный, Песок, Грязь, Снег, Бездорожье."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/3.webp
+          title: "Интеллектуальная система автоматической парковки и ассистенты водителя"
+          description: "Новый кроссовер CHERY TIGGO 9 будет оборудован системой автоматической парковки новейшего поколения – APA. Парковочный автопилот демонстрирует передовые разработки CHERY в области интеллектуальных технологий вождения."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/4.webp
+          title: "Современные ассистенты водителя"
+          description: "В вашем распоряжении современные ассистенты водителя (адаптивный круиз-контроль, система мониторинга слепых зон, удержание в полосе и другие)."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/5.webp
+          title: "Уверенность на дороге"
+          description: "Фронтальные и задние и боковые датчики контролируют обстановку на дороге и делают вашу поездку максимально безопасной."
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/security/1.webp
+          title: "Полный зимний пакет"
+          description: "Автомобиль максимально адаптирован к климату и дорожным условиям благодаря полному зимнему пакету, оцинкованному кузову и системам, позволяющим снизить расход топлива"
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/security/2.webp
+          title: "10 подушек безопасности"
+          description: "Автомобиль имеет 10 подушек безопасности: фронтальные и боковые для 1-го и 2-го рядов. Также вас защищают шторки безопасности, центральная подушка между водителем и пассажиром и коленная подушка водителя."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/security/3.webp
+          title: "5 лет гарантии"
+          description: "Компоненты для обеспечения безопасности приобретаются у лучших мировых поставщиков, что гарантирует надежность и качество. На модель Chery Tiggo 9 предоставляется гарантия пять лет или 150 000 км."
+    - id: connect
+      sectionClass: ""
+      title: Chery Connect
+      suptitle: ""
+      text: Система телематики позволяет дистанционно прогреть салон, контролировать состояние автомобиля и найти его на парковке.
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/connect/1.webp
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/T9_april_2025_7754589389088834511.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/T9_BR_04-02-2025_PRV_4354513153866378714.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
