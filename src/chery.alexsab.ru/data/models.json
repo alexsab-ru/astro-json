@@ -969,44 +969,44 @@
             {
                 "id": "black",
                 "name": "Глубокий черный",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/deep-black_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/black.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "red-black",
                 "name": "Огненно-красный (черная крыша)",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/fiery-red-(black-roof)_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/red.webp",
                 "style": "background-color: #a70202;"
             },
             {
                 "id": "steel-gray",
                 "name": "Стальной серый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/steel-gray_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/steel-gray.webp",
                 "style": "background-color: #787878;"
             },
             {
                 "id": "silver-gray",
                 "name": "Серебристый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/silver_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/gray.webp",
                 "style": "background-color: #bcbfc1;"
             },
             {
                 "id": "white",
                 "name": "Искрящийся белый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/sparking-white_500px.webp",
-                "style": "background-color: #dcdfe2;"
-            },
-            {
-                "id": "white-black",
-                "name": "Искрящийся белый (черная крыша)",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/sparking-white-(black-roof)_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/white.webp",
                 "style": "background-color: #dcdfe2;"
             },
             {
                 "id": "blue",
                 "name": "Небесно-голубой",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/heavenly-blue_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/blue.webp",
                 "style": "background-color: #2E5CAA;"
+            },
+            {
+                "id": "blue",
+                "name": "Морской синий",
+                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7pro-plug-in-hybrid/colors/sea-blue.webp",
+                "style": "background-color: #224968;"
             }
         ],
         "complectations": [
