@@ -114,14 +114,14 @@
   {
     "id": "changan-alsvin",
     "model": "ALSVIN",
-    "price": "1620000",
+    "price": "1420000",
     "benefit": "",
     "link": "https://changanauto.ru/models/alsvin/"
   },
   {
     "id": "changan-eadoplus",
     "model": "EADOplus",
-    "price": "2179900",
+    "price": "1949900",
     "benefit": "",
     "link": "https://changanauto.ru/models/eadoplus/"
   },
@@ -163,14 +163,14 @@
   {
     "id": "changan-uni-t",
     "model": "UNI-T",
-    "price": "2719900",
+    "price": "2469900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-t/"
   },
   {
     "id": "changan-uni-v",
     "model": "UNI-V",
-    "price": "2719900",
+    "price": "2459900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-v/"
   },
@@ -191,7 +191,7 @@
   {
     "id": "changan-uni-k_idd",
     "model": "UNI-K iDD",
-    "price": "4629900",
+    "price": "4429900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-k_idd/"
   }
