@@ -557,3 +557,65 @@
       title: Документация
       suptitle: "Может пригодиться"
       text: "<p><span><a href='https://www.chery.ru/прайс_phev_7_pro_mar_7351197756814969083.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/каталог%20гибриды_8914018805080901917.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "tiggo8pro-plug-in-hybrid"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: ""
+      text: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 108 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 160 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива при минимальной степени зарядки батареи от 6.8 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/exterior/1.webp
+          title: "Современный, эффектный и стильный"
+          description: "Идеальный выбор для тех, кто ценит современные технологии, стиль и комфорт. CHERY TIGGO 8 PRO Plug-in Hybrid привлекает внимание своей стильной внешностью, а внушительная решетка радиатора Rhomb Diamond Matrix с трехмерным эффектом и светящимся логотипом создают неповторимый образ."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/exterior/2.webp
+          title: "Интеллектуальная LED-оптика "
+          description: "Обеспечивает яркое и ровное освещение дороги, что повышает безопасность и комфорт водителя и пассажиров. Динамические поворотники добавляют стиля и уникальности внешности автомобиля, делая его более заметным на дороге."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/exterior/3.webp
+          title: "19” диски "
+          description: "19” диски Chery Tiggo 8 Pro Plug-in Hybrid придают автомобилю яркий вид и привлекают внимание на дороге."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/interior/1.webp
+          title: "Премиальный комфорт"
+          description: "CHERY Tiggo 8 PRO Plug-In HYBRID сочетает в себе такие качества как комфорт и удобство для водителя и пассажира, так и передовые современные технологии. Качественные премиальные материалы интерьера 7-местного салона, специальные подголовники «авиационного» типа, кресло переднего пассажира с пневматическим массажем поясницы и подставкой для ног с бесступенчатой регулировкой, электропривод регулировок кресел и USB-зарядки – все для удовольствия за рулем."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/interior/2.webp
+          title: "Погружение в мир технологий"
+          description: "С помощью 4 круговых камер и 3D-обзора вы полностью охватываете всю окружающую обстановку. Функция камеры 540 HD Panoramic View позволяет видеть даже «прозрачное дно», не упуская ни одной детали. Каждая поездка с Chery Tiggo 8 Pro Plug-in Hybrid становится незабываемым приключением! Великолепная звуковая система от известного бренда Sony с 10 мощными динамиками обеспечивает эмоциональное и высококачественное звучание во время вашего путешествия."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/interior/3.webp
+          title: "Согревая в пути"
+          description: "CHERY TIGGO 8 Plug-in Hybrid оснащен различными системами обогрева, обеспечивающими комфортные поездки в холодную погоду: подогрев передних и задних сидений, рулевого колеса, лобового стекла и форсунок стеклоомывателя. Эти функции гарантируют теплоту и удобство для водителя и пассажиров, а также обеспечивают хорошую видимость на дороге в любых погодных условиях."
+    - id: security
+      sectionClass: ""
+      title: Технологии и безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/security/1.webp
+          title: "Надежный партнер на дорогах"
+          description: "Каркас безопасности обеспечивает дополнительную защиту при авариях, а более 60% кузова изготовлено из высокопрочной термоформованной стали Benteler, создающую высокую прочность и жесткость."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/security/2.webp
+          title: "Интеллектуальные системы"
+          description: "Chery Tiggo 8 Pro Plug-in Hybrid предлагает множество удобных функций для повседневного использования. Например, проекционный экран, система удержания полосы движения и контроль слепых зон облегчают движение в городских условиях. Предупреждение о препятствиях при открытии дверей или движении задним ходом в ограниченной видимости помогает избегать возможных неприятностей. Камеры кругового обзора делают парковку на узких местах безопасной и удобной."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/security/3.webp
+          title: "Помощь на дорогах"
+          description: "Мы понимаем насколько важна мобильность и оперативная помощь при возникновении внештатной ситуации на дороге и с заботой об автовладельцах предлагаем программу помощи на дорогах CHERY HYBRID Assistance на 5 лет. Она включает в себя круглосуточную техническую помощь в радиусе 250 км от административных границ города присутствия дилерского центра CHERY (прошедшего сертификацию на продажу и обслуживание автомобилей с гибридной силовой установкой)."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/прайс%20TIiggo_8_PHEV_2024_mar_18241767179244804511.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/каталог%20гибриды_8914018805080901917.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
