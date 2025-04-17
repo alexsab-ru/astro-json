@@ -17,6 +17,25 @@
         "autoplay": 7000
     },
     {
+        "id": 1,
+        "show": true,
+        "type": "special",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/dishi-legko-T2-1920x720.webp",
+        "tabletImageUrl": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/dishi-legko-T2-all-logos-1080x1080.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/dishi-legko-T2-all-logos-1080x1920.webp",
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "btnUrl": "#common-modal",
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Антибактериальная обработка системы вентиляции",
+        "dataFormName": "Антибактериальная обработка системы вентиляции. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
         "id": 2,
         "show": true,
         "type": "video",
