@@ -7,7 +7,7 @@
         "slogan": "Эстетика нового времени",
         "name": "05",
         "price": "5699000",
-        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-05/colors/blue.webp",
+        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-05/thumb.webp",
         "colors": [
             {
                 "id": "white",
@@ -112,7 +112,7 @@
         "slogan": "Расширяя границы комфорта",
         "name": "07",
         "price": " 6649000",
-        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-07/colors/green.webp",
+        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-07/thumb.webp",
         "colors": [
             {
                 "id": "white",
@@ -212,7 +212,7 @@
         "slogan": "Масштаб возможностей",
         "name": "80 Premium",
         "price": "6599000",
-        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/colors/beige.webp",
+        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/thumb.webp",
         "colors": [
             {
                 "id": "white",
@@ -311,7 +311,7 @@
         "slogan": "Масштаб возможностей",
         "name": "80 Business Lounge",
         "price": "8099000",
-        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/colors/black.webp",
+        "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/thumb.webp",
         "colors": [
             {
                 "id": "white",
