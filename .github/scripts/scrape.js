@@ -11,6 +11,7 @@ node .github/scripts/scrape.js
 const puppeteer = require('puppeteer-core');
 const fs = require('fs').promises;
 const path = require('path');
+require('dotenv').config(); // Добавляем загрузку переменных окружения
 const brandPrefix = process.env.BRAND;
 const dealerPrice = process.env.DEALERPRICE ?? "";
 const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";

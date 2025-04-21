@@ -26,6 +26,7 @@
     "scrape-jac": "sh ./.github/scripts/sh/scrape-jac.sh",
     "scrape-jetour": "sh ./.github/scripts/sh/scrape-jetour.sh",
     "scrape-livan": "sh ./.github/scripts/sh/scrape-livan.sh",
+    "scrape-wey": "sh ./.github/scripts/sh/scrape-wey.sh",
     "get-all-krasnodar": "sh ./.github/scripts/sh/run-get-all-krasnodar.sh",
     "get-all-ankor": "sh ./.github/scripts/sh/run-get-all-ankor.sh",
     "scrape-all": "sh ./.github/scripts/sh/run-scrape-all.sh",
@@ -36,6 +37,7 @@
   "dependencies": {
     "axios": "^1.7.7",
     "csv-parse": "^5.5.6",
+    "dotenv": "^16.5.0",
     "jsdom": "^25.0.0",
     "puppeteer": "^23.1.0",
     "puppeteer-core": "^23.1.0"
