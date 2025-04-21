@@ -3,14 +3,14 @@
     "id": "jetour-t2",
     "model": "T2",
     "price": "3359000",
-    "benefit": "320000",
+    "benefit": "",
     "link": "https://jetour-ru.com/models/t2"
   },
   {
     "id": "jetour-dashing",
     "model": "Dashing",
     "price": "1739900",
-    "benefit": "720000",
+    "benefit": "",
     "link": "https://jetour-ru.com/models/dashing"
   },
   {
@@ -24,7 +24,7 @@
     "id": "jetour-x70plus",
     "model": "X70 Plus",
     "price": "2049900",
-    "benefit": "670000",
+    "benefit": "",
     "link": "https://jetour-ru.com/models/x70plus"
   },
   {
@@ -38,7 +38,7 @@
     "id": "jetour-x90plus",
     "model": "X90 Plus",
     "price": "2579900",
-    "benefit": "720000",
+    "benefit": "",
     "link": "https://jetour-ru.com/models/x90plus"
   }
 ]

@@ -114,21 +114,21 @@
   {
     "id": "changan-alsvin",
     "model": "ALSVIN",
-    "price": "1400000",
+    "price": "1300000",
     "benefit": "",
     "link": "https://changanauto.ru/models/alsvin/"
   },
   {
     "id": "changan-eadoplus",
     "model": "EADOplus",
-    "price": "1929900",
+    "price": "1819900",
     "benefit": "",
     "link": "https://changanauto.ru/models/eadoplus/"
   },
   {
     "id": "changan-lamore",
     "model": "Lamore",
-    "price": "2349900",
+    "price": "2269900",
     "benefit": "",
     "link": "https://changanauto.ru/models/lamore/"
   },
@@ -142,7 +142,7 @@
   {
     "id": "changan-uni-s",
     "model": "UNI-S / CS55PLUS",
-    "price": "1949900",
+    "price": "1739900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-s/"
   },
@@ -156,35 +156,35 @@
   {
     "id": "changan-cs95new",
     "model": "CS95NEW",
-    "price": "3759900",
+    "price": "3409900",
     "benefit": "",
     "link": "https://changanauto.ru/models/cs95new/"
   },
   {
     "id": "changan-uni-t",
     "model": "UNI-T",
-    "price": "2469900",
+    "price": "2269900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-t/"
   },
   {
     "id": "changan-uni-v",
     "model": "UNI-V",
-    "price": "2459900",
+    "price": "2249900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-v/"
   },
   {
     "id": "changan-uni-k",
     "model": "UNI-K",
-    "price": "3279900",
+    "price": "3149900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-k/"
   },
   {
     "id": "changan-hunter",
     "model": "HUNTERplus",
-    "price": "3279900",
+    "price": "3019900",
     "benefit": "",
     "link": "https://changanauto.ru/models/hunter/"
   },
