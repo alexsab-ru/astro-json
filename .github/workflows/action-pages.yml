@@ -15,7 +15,7 @@ on:
   push:
     branches: ["main"]
     paths-ignore:
-      - '.github/scripts/extractData.js'
+      - '.github/scripts/extractDataUPDAuto.js'
       - '.github/scripts/getDealerData.js'
       - '.github/scripts/mergeJson.js'
       - '.github/scripts/scrape.js'
