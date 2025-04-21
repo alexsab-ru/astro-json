@@ -29,7 +29,9 @@ async function logError(error) {
 async function scrapePage(url, xpaths) {
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
-        executablePath: process.env.CHROME_BIN || '/usr/bin/google-chrome',
+        executablePath: process.env.CHROME_BIN || (process.platform === 'win32' 
+            ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+            : '/usr/bin/google-chrome'),
         timeout: 120000,
         headless: 'new'
     });
@@ -73,7 +75,7 @@ async function scrapePage(url, xpaths) {
             if (!link.startsWith('http')) {
                 link = new URL(link, baseUrl).href;  // Добавляем домен к относительной ссылке
             }
-
+ 
             results.push({
                 id: id,
                 model: model,
