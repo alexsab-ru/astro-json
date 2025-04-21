@@ -5,6 +5,27 @@
         "type": "",
         "view": "link",
         "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/gac-smr-5years-1920x768-notxt.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/gac/gac-smr-5years-768х900-notxt.webp",
+        "imagePosition": "center",
+        "title": "5 лет без сервисных забот!",
+        "descr": "",
+        "btn": "Узнать подробнее",
+        "btnUrl": "/special-offers/5-let-bez-servisnyh-zabot/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "descr": "<span class=\"bg-accent-500 flex flex-col w-fit p-2 text-left\"><span class=\"flex items-center flex-nowrap gap-1\"><strong class=\"text-[2em]\">• 6</strong> комплектов услуг при ТО</span><br/><span class=\"flex items-center flex-nowrap gap-1\"><strong class=\"text-[2em]\">• 10</strong> услуг «Шинный отель»</span><br/><span class=\"flex items-center flex-nowrap gap-1\"><strong class=\"text-[2em]\">•</strong> Услуга «Автоотель»</span></span>",
+            "position": "left"
+        },
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
         "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models.webp",
         "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models-mobile.webp",
         "imagePosition": "bottom",
