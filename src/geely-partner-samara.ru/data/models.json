@@ -259,7 +259,7 @@
         "slogan": "Энергия города",
         "name": "Новый Cityray",
         "price": "{{price-geely-cityray}}",
-        "benefit": "",
+        "benefit": "{{benefit-geely-cityray}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -297,12 +297,18 @@
                 "name": "Серый металлик",
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Cityray/colors/gray.webp",
                 "style": "background-color: #646971;"
+            },
+            {
+                "id": "silver-metallic",
+                "name": "Серебристый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Cityray/colors/silver-metallic.webp",
+                "style": "background-color: #b6c2cc;"
             }
         ],
         "complectations": [
             {
                 "name": "Comfort",
-                "price": 2518190,
+                "price": "{{price-geely-cityray}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -312,7 +318,7 @@
             },
             {
                 "name": "Luxury",
-                "price": 2668190,
+                "price": 2654190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -322,7 +328,7 @@
             },
             {
                 "name": "Flagship",
-                "price": 2788190,
+                "price": 2774190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -332,7 +338,7 @@
             },
             {
                 "name": "Flagship Sport",
-                "price": 2828190,
+                "price": 2814190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -397,7 +403,7 @@
         "slogan": "",
         "name": "Preface",
         "price": "{{price-geely-preface}}",
-        "benefit": "",
+        "benefit": "{{benefit-geely-preface}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -458,7 +464,7 @@
         "complectations": [
             {
                 "name": "Luxury",
-                "price": 2938190,
+                "price": "{{price-geely-preface}}",
                 "bodytype": "Седан",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -468,7 +474,7 @@
             },
             {
                 "name": "Flagship",
-                "price": 3096190,
+                "price": 3259190,
                 "bodytype": "Седан",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -616,7 +622,7 @@
         "slogan": "",
         "name": "Новый Atlas",
         "price": "{{price-geely-atlas-2024}}",
-        "benefit": 350000,
+        "benefit": "{{benefit-geely-atlas-2024}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -668,6 +674,68 @@
                 "style": "background-color: #487f76;"
             }
         ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": "{{price-geely-atlas-2024}}",
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 3304190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship Sport",
+                "price": 3404190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 4WD",
+                "price": 3304190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship 4WD",
+                "price": 3504190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship Sport 4WD",
+                "price": 3604190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            }
+        ],
         "feed_names": [
             "Atlas, II"
         ],
@@ -675,7 +743,7 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "7DCT/8AT"
         },
         "globalChars": [
             {
@@ -711,7 +779,7 @@
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "2WD",
+                "value": "2WD/4WD",
                 "measure": ""
             }
         ]
@@ -724,7 +792,7 @@
         "slogan": "",
         "name": "Atlas Pro",
         "price": "{{price-geely-atlaspro}}",
-        "benefit": 600000,
+        "benefit": "{{benefit-geely-atlaspro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -831,7 +899,7 @@
         "slogan": "",
         "name": "Emgrand",
         "price": "{{price-geely-emgrand}}",
-        "benefit": 350000,
+        "benefit": "{{benefit-geely-emgrand}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -887,6 +955,58 @@
                 "name": "Серо-голубой металлик",
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Emgrand/colors/gray-blue-metallic.webp",
                 "style": "background-color: #bdc9d5;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Standard",
+                "price": "{{price-geely-emgrand}}",
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "5MT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort",
+                "price": 1953990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "5MT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 6AT",
+                "price": 2103990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "6AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2193990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "6AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 2373990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "6AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -1052,7 +1172,7 @@
         "slogan": "",
         "name": "Новый Coolray",
         "price": "{{price-geely-coolray-2023}}",
-        "benefit": 300000,
+        "benefit": "{{benefit-geely-coolray-2023}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1102,6 +1222,48 @@
                 "name": "Bright Vermilion / Красный",
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/New Coolray/colors/bright-vermilion.webp",
                 "style": "background-color: #ff0000;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": "{{price-geely-coolray-2023}}",
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2529190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 2729190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Exclusive",
+                "price": 2759190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -1262,7 +1424,7 @@
         "slogan": "",
         "name": "Новый OKAVANGO",
         "price": "{{price-geely-okavango}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-geely-okavango}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1306,6 +1468,28 @@
                 "name": "Белый",
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Okavango/colors/crystal-white.webp",
                 "style": ""
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": "{{price-geely-okavango}}",
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 3474190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -1365,7 +1549,7 @@
         "slogan": "",
         "name": "Monjaro",
         "price": "{{price-geely-monjaro}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-geely-monjaro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1421,6 +1605,38 @@
                 "name": "Серый матовый",
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Monjaro/colors/lomo-gray.webp",
                 "style": "background-color: #5e6775;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": "{{price-geely-monjaro}}",
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "238",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 4142190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "238",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Exclusive",
+                "price": 4342190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "238",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
