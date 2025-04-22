@@ -26,6 +26,7 @@ on:
           - livan
           - gac
           - changan
+          - wey
           - kaiyi
           - baic
       commit_changes:
@@ -190,6 +191,10 @@ jobs:
       - name: Scrape changanauto.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'changan' }}
         run: pnpm run scrape-changan
+
+      - name: Scrape gwm-wey.ru
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'wey' }}
+        run: pnpm run scrape-wey
 
       - name: Scrape dealer price for kaiyi-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
