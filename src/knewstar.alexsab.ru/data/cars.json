@@ -1,58 +1,9 @@
 [
   {
-    "id": "geely-emgrand",
-    "model": "EMGRAND",
-    "price": "1803990",
+    "id": "",
+    "model": "",
+    "price": "3509990",
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/emgrand"
-  },
-  {
-    "id": "geely-preface",
-    "model": "НОВЫЙ PREFACE",
-    "price": "3009190",
-    "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-preface"
-  },
-  {
-    "id": "geely-coolray-2023",
-    "model": "COOLRAY",
-    "price": "2499190",
-    "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-coolray-2023"
-  },
-  {
-    "id": "geely-cityray",
-    "model": "НОВЫЙ CITYRAY",
-    "price": "2554190",
-    "benefit": "",
-    "link": "https://www.geely-motors.com/model/cityray"
-  },
-  {
-    "id": "geely-atlaspro",
-    "model": "ATLAS PRO",
-    "price": "2306990",
-    "benefit": "",
-    "link": "https://www.geely-motors.com/model/atlaspro"
-  },
-  {
-    "id": "geely-atlas-2024",
-    "model": "НОВЫЙ ATLAS",
-    "price": "3167190",
-    "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-atlas-2024"
-  },
-  {
-    "id": "geely-okavango",
-    "model": "OKAVANGO",
-    "price": "3247190",
-    "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-okavango"
-  },
-  {
-    "id": "geely-monjaro",
-    "model": "MONJARO",
-    "price": "4102190",
-    "benefit": "",
-    "link": "https://www.geely-motors.com/model/monjaro"
+    "link": "https://knewstar.ru/"
   }
 ]
