@@ -165,7 +165,7 @@
         "chars": {
             "seats": "6 мест",
             "fuel": "Бензин",
-            "gearbox": "Автоматическая"
+            "gearbox": "Автомат"
         },
         "globalChars": [
             {
@@ -265,7 +265,7 @@
         "chars": {
             "seats": "7 мест",
             "fuel": "Бензин",
-            "gearbox": "Автоматическая"
+            "gearbox": "Автомат"
         },
         "globalChars": [
             {
@@ -359,7 +359,7 @@
         "chars": {
             "seats": "6 мест",
             "fuel": "Бензин",
-            "gearbox": "Автоматическая"
+            "gearbox": "Автомат"
         },
         "globalChars": [
             {
