@@ -1,8 +1,44 @@
 [
   {
-    "id": "u5-plus",
-    "model": "UP PLUS",
-    "price": "1234567",
-    "link": "https://localhost/model/u5-plus/"
+    "id": "evolute-i-pro",
+    "model": "i-pro",
+    "price": "1499000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-pro"
+  },
+  {
+    "id": "evolute-i-joy",
+    "model": "i-joy",
+    "price": "1750000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-joy"
+  },
+  {
+    "id": "evolute-i-sky",
+    "model": "i-sky",
+    "price": "2995000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-sky"
+  },
+  {
+    "id": "evolute-i-space",
+    "model": "i-space",
+    "price": "2499000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-space"
+  },
+  {
+    "id": "evolute-i-jet",
+    "model": "i-jet",
+    "price": "4350000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-jet"
+  },
+  {
+    "id": "evolute-i-van",
+    "model": "i-van",
+    "price": "2695000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-van"
   }
 ]

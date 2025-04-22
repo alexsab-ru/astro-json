@@ -22,6 +22,7 @@
     "scrape-belgee": "sh ./.github/scripts/sh/scrape-belgee.sh",
     "scrape-changan": "sh ./.github/scripts/sh/scrape-changan.sh",
     "scrape-chery": "sh ./.github/scripts/sh/scrape-chery.sh",
+    "scrape-evolute": "sh ./.github/scripts/sh/scrape-evolute.sh",
     "scrape-gac": "sh ./.github/scripts/sh/scrape-gac.sh",
     "scrape-geely": "sh ./.github/scripts/sh/scrape-geely.sh",
     "scrape-haval": "sh ./.github/scripts/sh/scrape-haval.sh",
