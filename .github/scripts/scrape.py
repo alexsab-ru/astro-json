@@ -3,11 +3,20 @@ import json
 import os
 import re
 from lxml import html
+import elementpath
+from elementpath.xpath3 import XPath3Parser
 from urllib.parse import urljoin
 from dotenv import load_dotenv
 
 # Загрузка переменных окружения из .env файла
 load_dotenv()
+
+def process_xpath_result(result):
+    if not result:
+        return None
+    if type(result) is list:
+        return [item.strip() for item in result if item.strip()][0]
+    return result.strip() if result else None
 
 def clean_string(text, word_to_remove):
     # Удаляем все вхождения определённого слова (регистрозависимое удаление)
@@ -67,28 +76,35 @@ def scrape_page(url, xpaths):
     # Парсим HTML с помощью lxml
     tree = html.fromstring(response.content)
     
-    # Выбираем элементы по XPath
-    items = tree.xpath(xpaths['item_xpath'])
-
     data = []
+    
+    # Используем elementpath для выполнения XPath 3.0 запроса
+    items = elementpath.select(tree, xpaths['item_xpath'], parser=XPath3Parser)
+    
     for item in items:
-        print(item.xpath(xpaths['model_xpath']))
-        # Получаем значения через XPath
-        id = item.xpath(xpaths['id_xpath'])
-        model = item.xpath(xpaths['model_xpath'])
-        link = item.xpath(xpaths['link_xpath'])
-        price = item.xpath(xpaths['price_xpath'])
+        # print(item.text_content())
+        # Извлекаем данные из результата elementpath
+        id = elementpath.select(item, xpaths['id_xpath'], parser=XPath3Parser)
+        print(f"- {id}")
+        model = elementpath.select(item, xpaths['model_xpath'], parser=XPath3Parser)
+        print(f"- {model[0]}")
+        price = elementpath.select(item, xpaths['price_xpath'], parser=XPath3Parser)
+        print(f"- {price}")
+        link = elementpath.select(item, xpaths['link_xpath'], parser=XPath3Parser)
+        print(f"- {link}")
+
+        print(f"")
 
         if model:  # Добавляем только если есть модель
             # Обрабатываем ссылку
-            link_value = link[0].strip() if link else None
+            link_value = process_xpath_result(link)
             if link_value and not link_value.startswith('http'):
                 link_value = urljoin(url, link_value)
 
             data.append({
-                'id': id.strip() if id else None,
-                'model': model.strip() if model else None,
-                'price': price.strip() if price else None,
+                'id': process_xpath_result(id),
+                'model': process_xpath_result(model),
+                'price': process_xpath_result(price),
                 'benefit': "",  # Добавляем поле benefit как в JS версии
                 'link': link_value
             })
