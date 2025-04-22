@@ -666,7 +666,7 @@
         "slogan": "",
         "name": "Atlas Pro",
         "price": "{{price-geely-atlaspro}}",
-        "benefit": "",
+        "benefit": "{{benefit-geely-atlaspro}}",
         "benefits": [
             {
                 "url": "#common-modal",
