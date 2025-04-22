@@ -213,7 +213,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/bg.webp",
         "slogan": "Масштаб возможностей",
         "name": "80 Premium",
-        "price": "{{price-wey-80}}",
+        "price": "{{price-wey-80-premium}}",
         "benefit": "{{benefit-wey-80-premium}}",
         "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/thumb.webp",
         "colors": [
