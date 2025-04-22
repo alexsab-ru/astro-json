@@ -1,10 +1,10 @@
 export BRAND='omoda'
 export URL="https://omoda.ru/models/"
-export ITEM_XPATH="//div[contains(concat(' ', normalize-space(@class), ' '), ' web_block_media-text ')]"
-export ID_XPATH="concat('omoda-', substring-before(substring-after(.//div[contains(@class, 'web_block_media-text__btns')]/a/@href, '/models/'), '/'))"
-export MODEL_XPATH="substring-before(substring-after(.//div[contains(@class, 'web_block_media-text__btns')]/a/@href, '/models/'), '/')"
-export PRICE_XPATH="translate(string(.//div[contains(@class, 'web_block_media-text__text')]/h3/text()), translate(string(.//div[contains(@class, 'web_block_media-text__text')]/h3/text()), '0123456789', ''), '')"
-export LINK_XPATH=".//div[contains(@class, 'web_block_media-text__btns')]/a/@href"
+export ITEM_XPATH="//li[contains(concat(' ', normalize-space(@class), ' '), ' menu-models__item ')]"
+export ID_XPATH="concat('omoda-', substring-before(substring-after(.//a[contains(@class, 'menu-models__item-link')]/@href, '/models/model'), '/'))"
+export MODEL_XPATH="substring-before(substring-after(.//a[contains(@class, 'menu-models__item-link')]/@href, '/models/model'), '/')"
+export PRICE_XPATH="translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), translate(string(.//div[contains(@class, 'menu-models__item-price')]/text()), '0123456789', ''), '')"
+export LINK_XPATH=".//a[contains(@class, 'menu-models__item-link')]/@href"
 export OUTPUT_PATHS="./src/omoda-ulyanovsk.ru/data/cars.json,./src/omoda.alexsab.ru/data/cars.json"
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
