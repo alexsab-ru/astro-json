@@ -1,0 +1,23 @@
+[
+  {
+    "id": "jaecoo-j8",
+    "model": "j8",
+    "price": "3899000",
+    "benefit": "",
+    "link": "https://jaecoo.ru/models/modelj8/"
+  },
+  {
+    "id": "jaecoo-j7",
+    "model": "j7",
+    "price": "2399900",
+    "benefit": "",
+    "link": "https://jaecoo.ru/models/modelj7/"
+  },
+  {
+    "id": "jaecoo-j5",
+    "model": "j5",
+    "price": "",
+    "benefit": "",
+    "link": "https://jaecoo.ru/models/modelj5/"
+  }
+]
