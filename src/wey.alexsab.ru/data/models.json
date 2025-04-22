@@ -6,8 +6,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-05/bg.webp",
         "slogan": "Эстетика нового времени",
         "name": "05",
-        "price": "{{price-wey-wey-05}}",
-        "benefit": "{{benefit-wey-wey-05}}",
+        "price": "{{price-wey-05}}",
+        "benefit": "{{benefit-wey-05}}",
         "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-05/thumb.webp",
         "colors": [
             {
@@ -112,8 +112,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-07/bg.webp",
         "slogan": "Расширяя границы комфорта",
         "name": "07",
-        "price": "{{price-wey-wey-07}}",
-        "benefit": "{{benefit-wey-wey-07}}",
+        "price": "{{price-wey-07}}",
+        "benefit": "{{benefit-wey-07}}",
         "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-07/thumb.webp",
         "colors": [
             {
@@ -213,8 +213,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/bg.webp",
         "slogan": "Масштаб возможностей",
         "name": "80 Premium",
-        "price": "{{price-wey-wey-80}}",
-        "benefit": "{{benefit-wey-wey-80-premium}}",
+        "price": "{{price-wey-80}}",
+        "benefit": "{{benefit-wey-80-premium}}",
         "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/thumb.webp",
         "colors": [
             {
@@ -313,8 +313,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/bg.webp",
         "slogan": "Масштаб возможностей",
         "name": "80 Business Lounge",
-        "price": "{{price-wey-wey-80-business-lounge}}",
-        "benefit": "{{benefit-wey-wey-80-business-lounge}}",
+        "price": "{{price-wey-80-business-lounge}}",
+        "benefit": "{{benefit-wey-80-business-lounge}}",
         "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/thumb.webp",
         "colors": [
             {
