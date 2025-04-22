@@ -85,15 +85,15 @@ def scrape_page(url, xpaths):
         # print(item.text_content())
         # Извлекаем данные из результата elementpath
         id = elementpath.select(item, xpaths['id_xpath'], parser=XPath3Parser)
-        print(f"- {id}")
+        # print(f"- {id}")
         model = elementpath.select(item, xpaths['model_xpath'], parser=XPath3Parser)
-        print(f"- {model[0]}")
+        # print(f"- {model[0]}")
         price = elementpath.select(item, xpaths['price_xpath'], parser=XPath3Parser)
-        print(f"- {price}")
+        # print(f"- {price}")
         link = elementpath.select(item, xpaths['link_xpath'], parser=XPath3Parser)
-        print(f"- {link}")
+        # print(f"- {link}")
 
-        print(f"")
+        # print(f"")
 
         if model:  # Добавляем только если есть модель
             # Обрабатываем ссылку
@@ -122,6 +122,7 @@ if __name__ == "__main__":
     }
 
     data = scrape_page(url, xpaths)
+    print(json.dumps(data, indent=2))
     
     if data:
         # Разделяем пути по запятой
