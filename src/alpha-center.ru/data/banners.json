@@ -1,6 +1,23 @@
 [
     {
         "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/b/alpha-center/img/banners/wash-bottom-1920x720-notxt.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/alpha-center/img/banners/wash-bottom-640x800-notxt.webp",
+        "title": "Мойка днища <br/> На подъемнике",
+        "descr": "<p data-swiper-parallax='-40%' class='mt-2 md:text-2xl font-bold'>Акция</p><strong class='inline-block rounded px-3 py-2 my-4 md:px-8 md:py-6 bg-white text-black font-bold md:text-4xl'>5.000 руб.</strong>",
+        "btn": "Записаться",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Мойка днища на подъемнике 5.000 руб.",
+        "dataFormName": "Мойка днища на подъемнике 5.000 руб. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
         "show": false,
         "type": "",
         "view": "popup-link",
