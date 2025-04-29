@@ -29,10 +29,58 @@
         "thumb": "https://cdn.alexsab.ru/b/solaris/img/models/krs/thumb.webp",
         "colors": [
             {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krs/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krs/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "orange",
+                "name": "Оранжевый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krs/colors/orange.webp",
+                "style": "background-color: rgb(181, 73, 16);"
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krs/colors/brown.webp",
+                "style": "background-color: rgb(85, 49, 26);"
+            },
+            {
                 "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E51036;"
+                "name": "Красный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krs/colors/red.webp",
+                "style": "background-color: rgb(169, 53, 37);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krs/colors/blue.webp",
+                "style": "background-color: rgb(19, 41, 85);"
+            },
+            {
+                "id": "silver",
+                "name": "Серебряный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krs/colors/silver.webp",
+                "style": "background-color: rgb(212, 206, 201);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krs/colors/gray.webp",
+                "style": "background-color: rgb(165, 156, 154);"
+            },
+            {
+                "id": "beige",
+                "name": "Бежевый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krs/colors/beige.webp",
+                "style": "background-color: rgb(82, 72, 72);"
             }
         ],
         "complectations": [
@@ -184,10 +232,58 @@
         "thumb": "https://cdn.alexsab.ru/b/solaris/img/models/krx/thumb.webp",
         "colors": [
             {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krx/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krx/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "orange",
+                "name": "Оранжевый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krx/colors/orange.webp",
+                "style": "background-color: rgb(181, 73, 16);"
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krx/colors/brown.webp",
+                "style": "background-color: rgb(85, 49, 26);"
+            },
+            {
                 "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E51036;"
+                "name": "Красный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krx/colors/red.webp",
+                "style": "background-color: rgb(169, 53, 37);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krx/colors/blue.webp",
+                "style": "background-color: rgb(19, 41, 85);"
+            },
+            {
+                "id": "silver",
+                "name": "Серебряный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krx/colors/silver.webp",
+                "style": "background-color: rgb(212, 206, 201);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krx/colors/gray.webp",
+                "style": "background-color: rgb(165, 156, 154);"
+            },
+            {
+                "id": "beige",
+                "name": "Бежевый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/krx/colors/beige.webp",
+                "style": "background-color: rgb(82, 72, 72);"
             }
         ],
         "complectations": [
@@ -339,10 +435,58 @@
         "thumb": "https://cdn.alexsab.ru/b/solaris/img/models/hc/thumb.webp",
         "colors": [
             {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hc/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hc/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "orange",
+                "name": "Оранжевый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hc/colors/orange.webp",
+                "style": "background-color: rgb(181, 73, 16);"
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hc/colors/brown.webp",
+                "style": "background-color: rgb(85, 49, 26);"
+            },
+            {
                 "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E51036;"
+                "name": "Красный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hc/colors/red.webp",
+                "style": "background-color: rgb(169, 53, 37);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hc/colors/blue.webp",
+                "style": "background-color: rgb(19, 41, 85);"
+            },
+            {
+                "id": "silver",
+                "name": "Серебряный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hc/colors/silver.webp",
+                "style": "background-color: rgb(212, 206, 201);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hc/colors/gray.webp",
+                "style": "background-color: rgb(165, 156, 154);"
+            },
+            {
+                "id": "beige",
+                "name": "Бежевый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hc/colors/beige.webp",
+                "style": "background-color: rgb(82, 72, 72);"
             }
         ],
         "feed_names": [
@@ -422,10 +566,58 @@
         "thumb": "https://cdn.alexsab.ru/b/solaris/img/models/hs/thumb.webp",
         "colors": [
             {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hs/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hs/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "orange",
+                "name": "Оранжевый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hs/colors/orange.webp",
+                "style": "background-color: rgb(181, 73, 16);"
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hs/colors/brown.webp",
+                "style": "background-color: rgb(85, 49, 26);"
+            },
+            {
                 "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E51036;"
+                "name": "Красный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hs/colors/red.webp",
+                "style": "background-color: rgb(169, 53, 37);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hs/colors/blue.webp",
+                "style": "background-color: rgb(19, 41, 85);"
+            },
+            {
+                "id": "silver",
+                "name": "Серебряный",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hs/colors/silver.webp",
+                "style": "background-color: rgb(212, 206, 201);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hs/colors/gray.webp",
+                "style": "background-color: rgb(165, 156, 154);"
+            },
+            {
+                "id": "beige",
+                "name": "Бежевый",
+                "carImage": "https://cdn.alexsab.ru/b/solaris/img/models/hs/colors/beige.webp",
+                "style": "background-color: rgb(82, 72, 72);"
             }
         ],
         "feed_names": [
