@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-05/bg.webp",
         "slogan": "Эстетика нового времени",
         "name": "05",
-        "price": "5699000",
+        "price": "{{price-wey-wey-05}}",
         "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-05/colors/blue.webp",
         "colors": [
             {
@@ -49,7 +49,7 @@
         "complectations": [
             {
                 "name": "Premium",
-                "price": 5699000,
+                "price": "{{price-wey-wey-05}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "150",
@@ -111,7 +111,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-07/bg.webp",
         "slogan": "Расширяя границы комфорта",
         "name": "07",
-        "price": " 6649000",
+        "price": "{{price-wey-wey-07}}",
         "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-07/colors/green.webp",
         "colors": [
             {
@@ -148,7 +148,7 @@
         "complectations": [
             {
                 "name": "Premium",
-                "price": 6649000,
+                "price": "{{price-wey-wey-07}}",
                 "bodytype": "5-дверный универсал",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -211,7 +211,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/bg.webp",
         "slogan": "Масштаб возможностей",
         "name": "80 Premium",
-        "price": "6599000",
+        "price": "{{price-wey-wey-80-premium}}",
         "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-premium/colors/beige.webp",
         "colors": [
             {
@@ -248,7 +248,7 @@
         "complectations": [
             {
                 "name": "Premium",
-                "price": 6599000,
+                "price": "{{price-wey-wey-80-premium}}",
                 "bodytype": "5-дверный минивэн",
                 "engine": "1.5 м3",
                 "engine_power": "152",
@@ -310,7 +310,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/bg.webp",
         "slogan": "Масштаб возможностей",
         "name": "80 Business Lounge",
-        "price": "8099000",
+        "price": "{{price-wey-wey-80-business-lounge}}",
         "thumb": "https://cdn.alexsab.ru/b/wey/img/models/wey-80-business-lounge/colors/black.webp",
         "colors": [
             {
@@ -341,7 +341,7 @@
         "complectations": [
             {
                 "name": "Business Lounge",
-                "price": 8099000,
+                "price": "{{price-wey-wey-80-business-lounge}}",
                 "bodytype": "5-дверный минивэн",
                 "engine": "1.5 м3",
                 "engine_power": "152",
