@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Элегантный и запоминающийся кроссовер",
         "name": "J7",
-        "price": 2339900,
+        "price": "{{price-jaecoo-modelj7}}",
         "benefit": "",
         "benefits": [
             {
@@ -233,7 +233,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Новый флагманский кроссовер",
         "name": "J8",
-        "price": 3799000,
+        "price": "{{price-jaecoo-modelj8}}",
         "benefit": "",
         "benefits": [
             {
@@ -396,7 +396,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Следуй за открытиями",
         "name": "J5",
-        "price": 3649000,
+        "price": "{{price-jaecoo-modelj5}}",
         "benefit": 450000,
         "benefits": [
             {
