@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/bg.webp",
         "slogan": "Начните… с TIGGO 4 !",
         "name": "TIGGO 4",
-        "price": "1990000",
+        "price": "{{price-chery-tiggo4}}",
         "benefit": 300000,
         "benefits": [
             {
@@ -145,7 +145,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/bg.webp",
         "slogan": "18 years edition*",
         "name": "TIGGO 4 PRO",
-        "price": "1700000",
+        "price": "{{price-chery-tiggo4pro}}",
         "benefit": 250000,
         "benefits": [
             {
@@ -292,7 +292,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/bg.webp",
         "slogan": "ЛЮБИМЫЙ СЕМЕЙНЫЙ КРОССОВЕР №1",
         "name": "TIGGO 7 PRO MAX",
-        "price": "2430000",
+        "price": "{{price-chery-newtiggo7promax}}",
         "benefit": 300000,
         "benefits": [
             {
@@ -525,7 +525,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/bg.webp",
         "slogan": "Лидер продаж среди 7-местных кроссоверов",
         "name": "TIGGO  8 PRO MAX",
-        "price": "3020000",
+        "price": "{{price-chery-newtiggo8promax}}",
         "benefit": 600000,
         "benefits": [
             {
@@ -684,7 +684,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo9/bg.webp",
         "slogan": "Комфорт первого класса",
         "name": "TIGGO 9",
-        "price": "4150000",
+        "price": "{{price-chery-tiggo9}}",
         "benefit": null,
         "benefits": [
             {
@@ -811,7 +811,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/arrizo8/bg.webp",
         "slogan": "",
         "name": "ARRIZO  8",
-        "price": "2680000",
+        "price": "{{price-chery-arrizo8}}",
         "benefit": 220000,
         "benefits": [
             {
@@ -952,7 +952,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/bg.webp",
         "slogan": "Участник программы «Семейный автомобиль»",
         "name": "TIGGO 7 PRO PLUG-IN HYBRID",
-        "price": "3699000",
+        "price": "{{price-chery-tiggo7pro-plug-in-hybrid}}",
         "benefit": 1151000,
         "benefits": [
             {
@@ -1075,7 +1075,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/bg.webp",
         "slogan": "Участник программы «Семейный автомобиль»",
         "name": "TIGGO 8 PRO PLUG-IN HYBRID",
-        "price": "3699000",
+        "price": "{{price-chery-tiggo8pro-plug-in-hybrid}}",
         "benefit": 1151000,
         "benefits": [
             {
