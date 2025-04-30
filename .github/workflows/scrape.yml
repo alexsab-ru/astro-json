@@ -112,6 +112,8 @@ jobs:
               echo "brand=haval" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"omoda"* ]]; then
               echo "brand=omoda" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"jaecoo"* ]]; then
+              echo "brand=jaecoo" >> $GITHUB_OUTPUT
             else
               echo "brand=all" >> $GITHUB_OUTPUT
             fi
@@ -208,6 +210,10 @@ jobs:
       - name: Scrape Omoda
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'omoda' }}
         run: pnpm run scrape-omoda
+
+      - name: Scrape Jaecoo
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jaecoo' }}
+        run: pnpm run scrape-jaecoo
 
       - name: Scrape dealer price for kaiyi-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
