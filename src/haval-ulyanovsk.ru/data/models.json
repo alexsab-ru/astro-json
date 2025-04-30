@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ИНСТИНКТ ПОБЕДИТЕЛЯ",
         "name": "H9",
-        "price": 4299000,
+        "price": "{{price-haval-haval-h9-new}}",
         "benefit": 300000,
         "benefits": [
             {
@@ -150,7 +150,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Для независимых и уверенных",
         "name": "H3",
-        "price": 2299000,
+        "price": "{{price-haval-haval-h3}}",
         "benefit": 400000,
         "benefits": [
             {
@@ -290,7 +290,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ЛЮБАЯ ЗАДАЧА ПО РАЗМЕРУ",
         "name": "H5",
-        "price": 3699000,
+        "price": "{{price-haval-haval-h5}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -434,7 +434,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "НА УРОВЕНЬ ВЫШЕ",
         "name": "F7",
-        "price": 2649000,
+        "price": "{{price-haval-haval-f7-new2024}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -588,7 +588,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Добавь динамики!",
         "name": "JOLION",
-        "price": 1949000,
+        "price": "{{price-haval-haval-jolion-new2024}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -764,7 +764,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "M6",
-        "price": 1929000,
+        "price": "{{price-haval-new-haval-m6}}",
         "benefit": 250000,
         "benefits": [
             {
@@ -882,7 +882,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ПОВОД ПРОЯВИТЬ ХАРАКТЕР",
         "name": "DARGO X",
-        "price": 3149000,
+        "price": "{{price-haval-new-haval-dargo-x}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -1005,7 +1005,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ПОВОД ПРОЯВИТЬ ХАРАКТЕР",
         "name": "DARGO",
-        "price": 2849000,
+        "price": "{{price-haval-new-haval-dargo}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -1148,7 +1148,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Современный, практичный, готовый ко всему",
         "name": "POER KINGKONG",
-        "price": 3099000,
+        "price": "{{price-haval-poer-king-kong}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -1304,7 +1304,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "КОМФОРТ ВНЕ ЗОНЫ КОМФОРТА",
         "name": "POER",
-        "price": 3349000,
+        "price": "{{price-haval-poer}}",
         "benefit": 100000,
         "benefits": [
             {
