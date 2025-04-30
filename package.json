@@ -33,6 +33,7 @@
     "scrape-knewstar": "sh ./.github/scripts/sh/scrape-knewstar.sh",
     "scrape-livan": "sh ./.github/scripts/sh/scrape-livan.sh",
     "scrape-omoda": "sh ./.github/scripts/sh/scrape-omoda.sh",
+    "scrape-solaris": "sh ./.github/scripts/sh/scrape-solaris.sh",
     "scrape-soueast": "sh ./.github/scripts/sh/scrape-soueast.sh",
     "scrape-tank": "sh ./.github/scripts/sh/scrape-tank.sh",
     "scrape-vgv": "sh ./.github/scripts/sh/scrape-vgv.sh",

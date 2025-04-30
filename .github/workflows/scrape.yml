@@ -37,6 +37,7 @@ on:
           - soueast
           - knewstar
           - wey
+          - solaris
       commit_changes:
         description: 'Commit changes to repository'
         type: boolean
@@ -133,6 +134,8 @@ jobs:
               echo "brand=knewstar" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"wey"* ]]; then
               echo "brand=wey" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"solaris"* ]]; then
+              echo "brand=solaris" >> $GITHUB_OUTPUT
             else
               echo "brand=all" >> $GITHUB_OUTPUT
             fi
@@ -253,6 +256,10 @@ jobs:
       - name: Scrape Wey
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'wey' }}
         run: pnpm run scrape-wey
+
+      - name: Scrape Solaris
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'solaris' }}
+        run: pnpm run scrape-solaris
       
       - name: Scrape dealer price for kaiyi-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
