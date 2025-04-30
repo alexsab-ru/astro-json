@@ -36,6 +36,7 @@
     "scrape-soueast": "sh ./.github/scripts/sh/scrape-soueast.sh",
     "scrape-tank": "sh ./.github/scripts/sh/scrape-tank.sh",
     "scrape-vgv": "sh ./.github/scripts/sh/scrape-vgv.sh",
+    "scrape-wey": "sh ./.github/scripts/sh/scrape-wey.sh",
     "get-all-krasnodar": "sh ./.github/scripts/sh/run-get-all-krasnodar.sh",
     "get-all-ankor": "sh ./.github/scripts/sh/run-get-all-ankor.sh",
     "scrape-all": "sh ./.github/scripts/sh/run-scrape-all.sh",
