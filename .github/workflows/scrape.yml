@@ -26,6 +26,7 @@ on:
           - livan
           - gac
           - changan
+          - chery
           - kaiyi
           - baic
       commit_changes:
@@ -114,6 +115,8 @@ jobs:
               echo "brand=omoda" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"jaecoo"* ]]; then
               echo "brand=jaecoo" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"chery"* ]]; then
+              echo "brand=chery" >> $GITHUB_OUTPUT
             else
               echo "brand=all" >> $GITHUB_OUTPUT
             fi
@@ -215,6 +218,10 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jaecoo' }}
         run: pnpm run scrape-jaecoo
 
+      - name: Scrape Chery
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'chery' }}
+        run: pnpm run scrape-chery
+      
       - name: Scrape dealer price for kaiyi-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
         run: pnpm run get-kaiyi-alpha
