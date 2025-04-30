@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs3/bg.webp",
         "slogan": "Дорогу молодым",
         "name": "GS3",
-        "price": "2249000",
+        "price": "{{price-gac-gs3}}",
         "benefit": "",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/blue.webp",
         "colors": [
@@ -147,7 +147,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/m8/bg.webp",
         "slogan": "Место первых",
         "name": "M8",
-        "price": "5199999",
+        "price": "{{price-gac-m8}}",
         "benefit": "",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/m8/colors/gold.webp",
         "colors": [
@@ -266,7 +266,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/bg.webp",
         "slogan": "Ты решаешь",
         "name": "GS8 II",
-        "price": "3799000",
+        "price": "{{price-gac-gs8-ii}}",
         "benefit": "",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/colors/green.webp",
         "colors": [
@@ -407,7 +407,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs8/bg.webp",
         "slogan": "Стремись к большему",
         "name": "GS8",
-        "price": "3799000",
+        "price": "{{price-gac-gs8}}",
         "benefit": "",
         "profit": 300000,
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/gray.webp",
@@ -683,7 +683,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs4/bg.webp",
         "slogan": "ДЛЯ САМОГО ЦЕННОГО",
         "name": "GS4",
-        "price": "2899000",
+        "price": "{{price-gac-gs4}}",
         "benefit": "",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/white.webp",
         "colors": [
@@ -783,7 +783,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/empow/bg.webp",
         "slogan": "Динамика твоей жизни",
         "name": "Empow",
-        "price": "",
+        "price": "{{price-gac-empow}}",
         "benefit": "",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/black.webp",
         "colors": [
@@ -797,7 +797,7 @@
         "complectations": [
             {
                 "name": "GS",
-                "price": "",
+                "price": "{{price-gac-empow}}",
                 "bodytype": "Седан",
                 "engine": "1.5TG",
                 "engine_power": "170",
