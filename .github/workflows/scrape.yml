@@ -106,6 +106,8 @@ jobs:
               echo "brand=kaiyi" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"baic"* ]]; then
               echo "brand=baic" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"vgv"* ]]; then
+              echo "brand=vgv" >> $GITHUB_OUTPUT
             else
               echo "brand=all" >> $GITHUB_OUTPUT
             fi
@@ -190,6 +192,10 @@ jobs:
       - name: Scrape changanauto.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'changan' }}
         run: pnpm run scrape-changan
+
+      - name: Scrape VGV
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'vgv' }}
+        run: pnpm run scrape-vgv
 
       - name: Scrape dealer price for kaiyi-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
