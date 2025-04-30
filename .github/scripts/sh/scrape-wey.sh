@@ -1,4 +1,4 @@
-export BRAND='vgv'
+export BRAND='wey'
 export URL="https://gwm-wey.ru/configurator"
 export ITEM_XPATH="//div[contains(concat(' ', normalize-space(@class), ' '), ' car-card ')]"
 export ID_XPATH="concat('wey-', substring-after(./a[starts-with(@href, '/configurator/')]/@href, '/configurator/'))"
