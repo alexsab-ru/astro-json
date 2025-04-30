@@ -1715,7 +1715,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Современные технологии",
         "name": "Новый 001",
-        "price": "3589990",
+        "price": "{{price-knewstar-001}}",
         "benefit": "",
         "benefits": [
             {
@@ -3468,8 +3468,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs4/bg.webp",
         "slogan": "ДЛЯ САМОГО ЦЕННОГО",
         "name": "GS4",
-        "price": "2899000",
-        "benefit": "",
+        "price": "{{price-gac-gs4}}",
+        "benefit": "{{benefit-gac-gs4}}",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs4/colors/white.webp",
         "colors": [
             {
@@ -4022,8 +4022,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/empow/bg.webp",
         "slogan": "Динамика твоей жизни",
         "name": "Empow",
-        "price": "",
-        "benefit": "",
+        "price": "{{price-gac-empow}}",
+        "benefit": "{{benefit-gac-empow}}",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/black.webp",
         "colors": [
             {
