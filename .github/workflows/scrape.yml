@@ -34,6 +34,7 @@ on:
           - evolute
           - kaiyi
           - baic
+          - soueast
       commit_changes:
         description: 'Commit changes to repository'
         type: boolean
@@ -124,6 +125,8 @@ jobs:
               echo "brand=chery" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"evolute"* ]]; then
               echo "brand=evolute" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"soueast"* ]]; then
+              echo "brand=soueast" >> $GITHUB_OUTPUT
             else
               echo "brand=all" >> $GITHUB_OUTPUT
             fi
@@ -232,6 +235,10 @@ jobs:
       - name: Scrape Evolute
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'evolute' }}
         run: pnpm run scrape-evolute
+
+      - name: Scrape Soueast
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'soueast' }}
+        run: pnpm run scrape-soueast
       
       - name: Scrape dealer price for kaiyi-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
