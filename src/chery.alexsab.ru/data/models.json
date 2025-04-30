@@ -309,44 +309,50 @@
             {
                 "id": "black",
                 "name": "Глубокий черный",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/deep-black_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/deep-black.webp",
                 "style": "background-color: #000000;"
+            },
+            {
+                "id": "red",
+                "name": "Огненно-красный",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/fiery-red.webp",
+                "style": "background-color: #d10808;"
             },
             {
                 "id": "red-black",
                 "name": "Огненно-красный (черная крыша)",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/fiery-red-(black-roof)_500px.webp",
-                "style": "background-color: #a70202;"
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/fiery-red-black.webp",
+                "style": "background: linear-gradient(180deg,rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 1) 50%, rgba(209, 8, 8, 1) 50%, rgba(209, 8, 8, 1) 100%);"
             },
             {
                 "id": "steel-gray",
                 "name": "Стальной серый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/steel-gray_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/steel-gray.webp",
                 "style": "background-color: #787878;"
             },
             {
-                "id": "silver-gray",
+                "id": "silvery",
                 "name": "Серебристый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/silver_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/silvery.webp",
                 "style": "background-color: #bcbfc1;"
             },
             {
                 "id": "white",
                 "name": "Искрящийся белый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/sparking-white_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/sparkling-white.webp",
                 "style": "background-color: #dcdfe2;"
             },
             {
                 "id": "white-black",
                 "name": "Искрящийся белый (черная крыша)",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/sparking-white-(black-roof)_500px.webp",
-                "style": "background-color: #dcdfe2;"
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/sparkling-white-black.webp",
+                "style": "background: linear-gradient(180deg,rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 1) 50%, rgba(221, 224, 226, 1) 50%, rgba(221, 224, 226, 1) 100%);"
             },
             {
                 "id": "blue",
                 "name": "Небесно-голубой",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/heavenly-blue_500px.webp",
-                "style": "background-color: #2E5CAA;"
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/sky-blue.webp",
+                "style": "background-color: #6c91b9;"
             }
         ],
         "complectations": [
@@ -490,6 +496,166 @@
                 "id": "length",
                 "title": "Длина",
                 "value": "4513",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1862",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "275",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Chery",
+        "id": "tiggo7l",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/bg.webp",
+        "slogan": "Время новых приключений",
+        "name": "TIGGO 7L",
+        "price": "2580000",
+        "benefit": null,
+        "benefits": "",
+        "thumb": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/thumb.webp",
+        "colors": [
+            {
+                "id": "blue",
+                "name": "Морской синий",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/colors/sea-blue.webp",
+                "style": "background-color: #2b7faf;"
+            },
+            {
+                "id": "black",
+                "name": "Глубокий черный",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/colors/deep-black.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "phantom",
+                "name": "Фантом",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/colors/phantom.webp",
+                "style": "background-color: #393e40;"
+            },
+            {
+                "id": "red",
+                "name": "Красный с черной крышей",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/colors/red-black.webp",
+                "style": "background: linear-gradient(180deg,rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 1) 50%, rgba(209, 8, 8, 1) 50%, rgba(209, 8, 8, 1) 100%);"
+            },
+            {
+                "id": "silvery",
+                "name": "Серебристый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/colors/silvery.webp",
+                "style": "background-color: #7a7a7a;"
+            },
+            {
+                "id": "white",
+                "name": "Искрящийся белый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/colors/sparkling-white.webp",
+                "style": "background-color: #dde0e2;"
+            },
+            {
+                "id": "technological-gray",
+                "name": "Технологичный серый",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/colors/technological-gray.webp",
+                "style": "background-color: #747f80;"
+            },
+            {
+                "id": "white-black",
+                "name": "Белый (черная крыша)",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/colors/white-black.webp",
+                "style": "background: linear-gradient(180deg,rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 1) 50%, rgba(221, 224, 226, 1) 50%, rgba(221, 224, 226, 1) 100%);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Active",
+                "price": 2580000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prime",
+                "price": 2780000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultra",
+                "price": 2900000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prime, 2024 г.в.",
+                "price": 2680000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultra, 2024 г.в.",
+                "price": 2800000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6",
+                "engine_power": "150",
+                "gear_rus": "DCT7",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT7"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2670",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4553",
                 "measure": "мм"
             },
             {

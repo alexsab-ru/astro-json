@@ -6,6 +6,7 @@ pnpm run scrape-jetour
 pnpm run scrape-livan
 pnpm run scrape-gac
 pnpm run scrape-changan
+pnpm run scrape-wey
 pnpm run extract-kaiyi
 pnpm run extract-baic
 pnpm run mergeJson

@@ -5,7 +5,7 @@ on:
     - cron: '0 */4 * * *'  # Запускается в 1 по Гринвичу
   push:
     paths:
-      - '.github/scripts/extractData.js'
+      - '.github/scripts/extractDataUPDAuto.js'
       - '.github/scripts/getDealerData.js'
       - '.github/scripts/mergeJson.js'
       - '.github/scripts/scrape.js'
@@ -80,7 +80,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests lxml pyyaml Pillow
+          pip install requests lxml pyyaml Pillow elementpath python-dotenv
+
 
       - name: Install Chrome
         run: |

@@ -1,56 +1,116 @@
-# export URL="https://www.geely-motors.com"
-# export ITEM_XPATH="//header/div[@data-id='carmodels']/div"
-# export ID_XPATH="replace('./a/@href', '/model/', '')"
-# export MODEL_XPATH="./a/span[@class='title']/text()"
-# export PRICE_XPATH="./a/span[@class='subtitle']/text()"
-# export LINK_XPATH="./a/@href"
-# export OUTPUT_PATH="./src/geely-partner-orenburg.ru/data/cars.json"
-# python3 .github/scripts/scrape.py
 import requests
-from lxml import html
 import json
 import os
+import re
+from lxml import html
+import elementpath
+from elementpath.xpath3 import XPath3Parser
+from urllib.parse import urljoin
 from dotenv import load_dotenv
 
 # Загрузка переменных окружения из .env файла
 load_dotenv()
 
+def process_xpath_result(result):
+    if not result:
+        return None
+    if type(result) is list:
+        return [item.strip() for item in result if item.strip()][0]
+    return result.strip() if result else None
+
+def clean_string(text, word_to_remove):
+    # Удаляем все вхождения определённого слова (регистрозависимое удаление)
+    cleaned = re.sub(word_to_remove, '', text, flags=re.IGNORECASE)
+    # Удаляем все символы, кроме букв и цифр
+    cleaned = re.sub(r'[^a-zA-Z0-9]', '', cleaned).lower()
+    return cleaned
+
+def read_json_file(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Ошибка при чтении файла {file_path}: {e}")
+        return None
+
+def save_json(data, file_paths, dealer_price=None, dealer_price_field=None, dealer_benefit_field=None, brand_prefix=None):
+    for file_path in file_paths:
+        try:
+            directory = os.path.dirname(file_path)
+            dealer_data = data.copy()
+
+            # Обработка дилерских цен
+            if dealer_price:
+                dealer_price_path = os.path.join(directory, dealer_price)
+                json_data = read_json_file(dealer_price_path)
+                
+                if json_data:
+                    for car in dealer_data:
+                        model = clean_string(car["model"], brand_prefix)
+                        if model in json_data:
+                            if dealer_price_field and json_data[model].get(dealer_price_field):
+                                car_price = int(car["price"]) if car["price"] else float('inf')
+                                dealer_price = int(json_data[model][dealer_price_field])
+                                car["price"] = str(min(car_price, dealer_price))
+                            
+                            if dealer_benefit_field and json_data[model].get(dealer_benefit_field):
+                                car_benefit = int(car.get("benefit", 0))
+                                dealer_benefit = int(json_data[model][dealer_benefit_field])
+                                car["benefit"] = str(max(car_benefit, dealer_benefit))
+
+            # Создаем директорию, если её нет
+            os.makedirs(directory, exist_ok=True)
+            
+            # Сохраняем данные
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(dealer_data, f, ensure_ascii=False, indent=2)
+            
+            print(f"Данные успешно сохранены в файл: {file_path}")
+        except Exception as e:
+            print(f"Ошибка при сохранении файла {file_path}: {e}")
+
 def scrape_page(url, xpaths):
     response = requests.get(url)
     response.raise_for_status()  # Проверяем успешность запроса
 
+    # Парсим HTML с помощью lxml
     tree = html.fromstring(response.content)
-
-    items = tree.xpath(xpaths['item_xpath'])
-
+    
     data = []
+    
+    # Используем elementpath для выполнения XPath 3.0 запроса
+    items = elementpath.select(tree, xpaths['item_xpath'], parser=XPath3Parser)
+    
     for item in items:
-        print(item.xpath(xpaths['model_xpath']))
-        id = item.xpath(xpaths['id_xpath']).strip() if item.xpath(xpaths['id_xpath']) else None
-        model = item.xpath(xpaths['model_xpath'])[0].strip() if item.xpath(xpaths['model_xpath']) else None
-        price = item.xpath(xpaths['price_xpath']).strip() if item.xpath(xpaths['price_xpath']) else None
-        link = item.xpath(xpaths['link_xpath'])[0].strip() if item.xpath(xpaths['link_xpath']) else None
+        # print(item.text_content())
+        # Извлекаем данные из результата elementpath
+        id = elementpath.select(item, xpaths['id_xpath'], parser=XPath3Parser)
+        # print(f"- {id}")
+        model = elementpath.select(item, xpaths['model_xpath'], parser=XPath3Parser)
+        # print(f"- {model[0]}")
+        price = elementpath.select(item, xpaths['price_xpath'], parser=XPath3Parser)
+        # print(f"- {price}")
+        link = elementpath.select(item, xpaths['link_xpath'], parser=XPath3Parser)
+        # print(f"- {link}")
 
-        data.append({
-            'ID': id,
-            'Модель': model,
-            'Цена': price,
-            'Ссылка': link
-        })
+        # print(f"")
+
+        if model:  # Добавляем только если есть модель
+            # Обрабатываем ссылку
+            link_value = process_xpath_result(link)
+            if link_value and not link_value.startswith('http'):
+                link_value = urljoin(url, link_value)
+
+            data.append({
+                'id': process_xpath_result(id),
+                'model': process_xpath_result(model),
+                'price': process_xpath_result(price),
+                'benefit': "",  # Добавляем поле benefit как в JS версии
+                'link': link_value
+            })
 
     return data
 
-def save_json(data, file_path):
-    directory = os.path.dirname(file_path)
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-    
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    
-    print(f"Данные успешно сохранены в файл: {file_path}")
-
-# Пример вызова функции
 if __name__ == "__main__":
     url = os.getenv('URL')  # URL передается через переменные окружения
     xpaths = {
@@ -62,6 +122,25 @@ if __name__ == "__main__":
     }
 
     data = scrape_page(url, xpaths)
+    print(json.dumps(data, indent=2))
     
-    output_file_path = os.getenv('OUTPUT_PATH', './output/data.json')
-    save_json(data, output_file_path)
+    if data:
+        # Разделяем пути по запятой
+        output_file_paths = os.getenv('OUTPUT_PATHS', './output/data.json').split(',')
+        
+        # Получаем параметры для дилерских цен
+        dealer_price = os.getenv('DEALERPRICE')
+        dealer_price_field = os.getenv('DEALERPRICEFIELD')
+        dealer_benefit_field = os.getenv('DEALERBENEFITFIELD')
+        brand_prefix = os.getenv('BRAND')
+        
+        save_json(
+            data, 
+            output_file_paths,
+            dealer_price,
+            dealer_price_field,
+            dealer_benefit_field,
+            brand_prefix
+        )
+    else:
+        print("Данные не были получены, файл не записывается.")

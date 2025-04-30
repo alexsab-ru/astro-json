@@ -63,7 +63,18 @@ function convertCsvToJson(csvData, keyColumn) {
                             if(newKey == "") {
                                 return;
                             }
-                            transformedRecord[newKey] = value;
+                            if (result[key] !== undefined) {
+                                console.log(key, newKey, value, result[key][newKey]);
+                                if (newKey === 'Конечная цена') {
+                                    transformedRecord[newKey] = Math.min(result[key][newKey], value);
+                                } else if (newKey === 'Скидка') {
+                                    transformedRecord[newKey] = Math.max(result[key][newKey], value);
+                                } else {
+                                    transformedRecord[newKey] = value;
+                                }
+                            } else {
+                                transformedRecord[newKey] = value;
+                            }
                         }
                     });
                     result[key] = transformedRecord;
