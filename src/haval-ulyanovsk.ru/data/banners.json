@@ -19,7 +19,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "special",
         "view": "link",
         "videoUrl": "",
@@ -37,7 +37,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "special",
         "view": "link",
         "videoUrl": "",
@@ -170,7 +170,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "special",
         "view": "link",
         "videoUrl": "",
