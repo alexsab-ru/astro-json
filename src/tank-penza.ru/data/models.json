@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Следуй за открытиями",
         "name": "300",
-        "price": 4049000,
+        "price": "{{price-tank-300}}",
         "benefit": 450000,
         "benefits": [
             {
@@ -64,7 +64,7 @@
         "complectations": [
             {
                 "name": "Adventure",
-                "price": 4049000,
+                "price": "{{price-tank-300}}",
                 "bodytype": "Универсал",
                 "engine": "2.0 м3",
                 "engine_power": "220",
@@ -155,7 +155,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "За пределы возможного",
         "name": "400",
-        "price": 5549000,
+        "price": "{{price-tank-400}}",
         "benefit": 250000,
         "benefits": [
             {
@@ -207,7 +207,7 @@
         "complectations": [
             {
                 "name": "ADVENTURE",
-                "price": 5549000,
+                "price": "{{price-tank-400}}",
                 "bodytype": "Универсал",
                 "engine": "2.0 м3",
                 "engine_power": "245",
@@ -278,7 +278,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Веди за собой",
         "name": "500",
-        "price": 6449000,
+        "price": "{{price-tank-500}}",
         "benefit": 300000,
         "benefits": [
             {
@@ -330,7 +330,7 @@
         "complectations": [
             {
                 "name": "Adventure",
-                "price": 6449000,
+                "price": "{{price-tank-500}}",
                 "bodytype": "Универсал",
                 "engine": "3.0 м3",
                 "engine_power": "299",
@@ -421,7 +421,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Сила признания",
         "name": "700",
-        "price": 9199000,
+        "price": "{{price-tank-700}}",
         "benefit": 300000,
         "benefits": [
             {
@@ -461,7 +461,7 @@
         "complectations": [
             {
                 "name": "Premium",
-                "price": 9499000,
+                "price": "{{price-tank-700}}",
                 "bodytype": "Универсал",
                 "engine": "3.0 м3",
                 "engine_power": "354",
