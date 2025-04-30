@@ -31,6 +31,7 @@ on:
           - omoda
           - jaecoo
           - chery
+          - evolute
           - kaiyi
           - baic
       commit_changes:
@@ -121,6 +122,8 @@ jobs:
               echo "brand=jaecoo" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"chery"* ]]; then
               echo "brand=chery" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"evolute"* ]]; then
+              echo "brand=evolute" >> $GITHUB_OUTPUT
             else
               echo "brand=all" >> $GITHUB_OUTPUT
             fi
@@ -225,6 +228,10 @@ jobs:
       - name: Scrape Chery
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'chery' }}
         run: pnpm run scrape-chery
+
+      - name: Scrape Evolute
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'evolute' }}
+        run: pnpm run scrape-evolute
       
       - name: Scrape dealer price for kaiyi-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
