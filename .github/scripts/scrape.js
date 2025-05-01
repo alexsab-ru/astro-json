@@ -39,7 +39,7 @@ async function scrapePage(url, xpaths) {
             '--disable-setuid-sandbox',
             '--window-size=1920,1080',
             '--disable-features=IsolateOrigins',
-            '--disable-site-isolation-trials'
+            '--disable-site-isolation-trials',
             '--disable-dev-shm-usage',
             '--disable-accelerated-2d-canvas',
             '--no-first-run',
