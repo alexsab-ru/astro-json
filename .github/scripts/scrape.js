@@ -18,8 +18,12 @@ const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
 const dealerBenefitField = process.env.DEALERBENEFITFIELD ?? "";
 
 // Добавляем функцию логирования
-async function logError(error) {
-    console.error(error);
+async function logError(error, error = false) {
+    if(error) {
+        console.error(error);
+    } else {
+        console.warn(error);
+    }
     try {
         await fs.appendFile('output.txt', `${new Date().toISOString()}: ${error}\n`);
     } catch (appendError) {
@@ -31,11 +35,17 @@ async function scrapePage(url, xpaths) {
     // Настраиваем дополнительные опции для puppeteer
     const browserOptions = {
         args: [
-            '--no-sandbox', 
+            '--no-sandbox',
             '--disable-setuid-sandbox',
             '--window-size=1920,1080',
             '--disable-features=IsolateOrigins',
             '--disable-site-isolation-trials'
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--no-first-run',
+            '--no-zygote',
+            '--single-process',
+            '--disable-gpu'
         ],
         executablePath: process.env.CHROME_BIN || (process.platform === 'win32' 
             ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
@@ -72,7 +82,7 @@ async function scrapePage(url, xpaths) {
                 });
                 console.log('Селектор найден');
             } catch (waitError) {
-                console.warn(`Предупреждение: Селектор ожидания не найден: ${waitError.message}`);
+                await logError(`Предупреждение: Селектор ожидания не найден: ${waitError.message}`);
                 // Продолжаем выполнение, если селектор не найден
             }
         }
@@ -113,7 +123,7 @@ async function scrapePage(url, xpaths) {
                         }, process.env.CLICK_SELECTOR);
                         console.log("Клик через JavaScript выполнен");
                     } catch (jsClickError) {
-                        console.warn(`Предупреждение: Клик через JavaScript не выполнен: ${jsClickError.message}`);
+                        await logError(`Предупреждение: Клик через JavaScript не выполнен: ${jsClickError.message}`);
                     }
                 }
                 
@@ -122,7 +132,7 @@ async function scrapePage(url, xpaths) {
                 console.log(`Ожидание после клика: ${waitAfterClick}ms`);
                 await new Promise(resolve => setTimeout(resolve, waitAfterClick));
             } catch (clickError) {
-                console.warn(`Предупреждение: Ошибка при клике: ${clickError.message}`);
+                await logError(`Предупреждение: Ошибка при клике: ${clickError.message}`);
                 // Продолжаем выполнение, даже если клик не удался
             }
         }
@@ -148,7 +158,7 @@ async function scrapePage(url, xpaths) {
                 console.log(`Ожидание после второго клика: ${waitAfterClick}ms`);
                 await new Promise(resolve => setTimeout(resolve, waitAfterClick));
             } catch (clickError) {
-                console.warn(`Предупреждение: Ошибка при втором клике: ${clickError.message}`);
+                await logError(`Предупреждение: Ошибка при втором клике: ${clickError.message}`);
             }
         }
         
@@ -188,6 +198,7 @@ async function scrapePage(url, xpaths) {
                 return result;
             } catch (error) {
                 console.error(`Ошибка при выполнении XPath: ${xpath}`, error);
+                logError(`Ошибка при выполнении XPath: ${xpath}`, true);
                 return [];
             }
         };
@@ -199,6 +210,7 @@ async function scrapePage(url, xpaths) {
                 return result.stringValue.trim();
             } catch (error) {
                 console.error(`Ошибка при получении строкового значения: ${xpath}`, error);
+                logError(`Ошибка при получении строкового значения: ${xpath}`, true);
                 return "";
             }
         };
@@ -224,6 +236,7 @@ async function scrapePage(url, xpaths) {
                         link = new URL(link, baseUrl).href;  // Добавляем домен к относительной ссылке
                     } catch (urlError) {
                         console.error(`Ошибка при обработке URL: ${link}`, urlError);
+                        logError(`Ошибка при обработке URL: ${link}`, true);
                     }
                 }
                 
@@ -242,6 +255,7 @@ async function scrapePage(url, xpaths) {
                 }
             } catch (itemError) {
                 console.error(`Ошибка при обработке элемента #${index}:`, itemError);
+                logError(`Ошибка при обработке элемента #${index}:`, true);
             }
         });
 
@@ -267,7 +281,7 @@ async function readJsonFile(filePath) {
         return jsonData;
     } catch (err) {
         // Ошибку парсинга Дилерского JSON файла не отображаем, потому что не все ДЦ используют свои цены
-        console.error(`Ошибка при чтении или парсинге JSON файла: ${err.message}`);
+        logError(`Ошибка при чтении или парсинге JSON файла: ${err.message}`, true);
         return false;
         // throw err; // Пробрасываем ошибку для обработки в вызывающем коде
     }

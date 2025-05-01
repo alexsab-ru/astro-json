@@ -19,6 +19,11 @@ from webdriver_manager.chrome import ChromeDriverManager
 # Загрузка переменных окружения из .env файла
 load_dotenv()
 
+def logError(errorText):
+    print(errorText)
+    with open('output.txt', 'a') as file:
+        file.write(f"{errorText}\n")
+
 def process_xpath_result(result):
     if not result:
         return None
@@ -38,7 +43,7 @@ def read_json_file(file_path):
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except Exception as e:
-        print(f"Ошибка при чтении файла {file_path}: {e}")
+        logError(f"Ошибка при чтении файла {file_path}: {e}")
         return None
 
 def save_json(data, file_paths, dealer_price=None, dealer_price_field=None, dealer_benefit_field=None, brand_prefix=None):
@@ -75,7 +80,7 @@ def save_json(data, file_paths, dealer_price=None, dealer_price_field=None, deal
             
             print(f"Данные успешно сохранены в файл: {file_path}")
         except Exception as e:
-            print(f"Ошибка при сохранении файла {file_path}: {e}")
+            logError(f"Ошибка при сохранении файла {file_path}: {e}")
 
 def load_page(url, click_selector=None, wait_selector=None, wait_time=1):
     """
@@ -130,14 +135,14 @@ def load_page(url, click_selector=None, wait_selector=None, wait_time=1):
                 # Дополнительное ожидание после клика
                 time.sleep(2)
             except Exception as e:
-                print(f"Ошибка при клике: {e}")
+                logError(f"Ошибка при клике: {e}")
                 # Можно также попробовать альтернативный метод клика через JavaScript
                 try:
                     driver.execute_script(f"document.querySelector('{click_selector}').click();")
                     print("Клик выполнен через JavaScript")
                     time.sleep(2)
                 except Exception as js_e:
-                    print(f"Ошибка при клике через JavaScript: {js_e}")
+                    logError(f"Ошибка при клике через JavaScript: {js_e}")
             
             # Получаем HTML после всех действий
             html_content = driver.page_source
@@ -145,7 +150,7 @@ def load_page(url, click_selector=None, wait_selector=None, wait_time=1):
             return html_content
             
         except Exception as e:
-            print(f"Ошибка при использовании WebDriver: {e}")
+            logError(f"Ошибка при использовании WebDriver: {e}")
             if 'driver' in locals():
                 driver.quit()
             # Если не получилось через WebDriver, пробуем через requests
