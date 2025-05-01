@@ -1,8 +1,30 @@
 [
   {
-    "id": "u5-plus",
-    "model": "UP PLUS",
-    "price": "1234567",
-    "link": "https://localhost/model/u5-plus/"
+    "id": "solaris-hs",
+    "model": "Solaris HS",
+    "price": "2020000",
+    "benefit": "",
+    "link": "https://solaris.auto/models/solaris-hs"
+  },
+  {
+    "id": "solaris-krs",
+    "model": "Solaris KRS",
+    "price": "1870000",
+    "benefit": "",
+    "link": "https://solaris.auto/models/solaris-krs"
+  },
+  {
+    "id": "solaris-krx",
+    "model": "Solaris KRX",
+    "price": "1971000",
+    "benefit": "",
+    "link": "https://solaris.auto/models/solaris-krx"
+  },
+  {
+    "id": "solaris-hc",
+    "model": "Solaris HC",
+    "price": "2440000",
+    "benefit": "",
+    "link": "https://solaris.auto/models/solaris-hc"
   }
 ]
