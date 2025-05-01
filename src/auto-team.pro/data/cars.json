@@ -51,7 +51,7 @@
   {
     "id": "geely-atlas-2024",
     "model": "ATLAS",
-    "price": "3099990",
+    "price": "2999990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-atlas-2024"
   },
@@ -194,5 +194,12 @@
     "price": "4429900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-k_idd/"
+  },
+  {
+    "id": "knewstar-001",
+    "model": "KNEWSTAR 001",
+    "price": "3509990",
+    "benefit": "",
+    "link": "https://knewstar.ru/model/knewstar-001"
   }
 ]
