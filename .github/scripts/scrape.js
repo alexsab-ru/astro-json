@@ -18,14 +18,14 @@ const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
 const dealerBenefitField = process.env.DEALERBENEFITFIELD ?? "";
 
 // Добавляем функцию логирования
-async function logError(error, error = false) {
+async function logError(errorText, error = false) {
     if(error) {
-        console.error(error);
+        console.error(errorText);
     } else {
-        console.warn(error);
+        console.warn(errorText);
     }
     try {
-        await fs.appendFile('output.txt', `${new Date().toISOString()}: ${error}\n`);
+        await fs.appendFile('output.txt', `${new Date().toISOString()}: ${errorText}\n`);
     } catch (appendError) {
         console.error('Ошибка при записи в лог:', appendError);
     }
