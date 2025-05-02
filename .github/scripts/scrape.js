@@ -269,6 +269,11 @@ async function scrapePage(url, xpaths) {
     console.log(`Извлечено ${data.length} элементов`);
     await browser.close();
     console.log("Браузер закрыт");
+    
+    // Сортируем данные по ID
+    data.sort((a, b) => a.id.localeCompare(b.id));
+    console.log("Данные отсортированы по ID");
+    
     return data;
 }
 

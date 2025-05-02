@@ -201,6 +201,10 @@ def scrape_page(url, xpaths):
                 'link': link_value
             })
 
+    # Сортируем данные по ID
+    data.sort(key=lambda x: x['id'])
+    print("Данные отсортированы по ID")
+
     return data
 
 if __name__ == "__main__":
