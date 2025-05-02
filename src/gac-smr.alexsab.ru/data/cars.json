@@ -1,19 +1,5 @@
 [
   {
-    "id": "gac-gs4",
-    "model": "gs4",
-    "price": "2799000",
-    "benefit": "",
-    "link": "https://gac.ru/models/gs4"
-  },
-  {
-    "id": "gac-gs8-ii",
-    "model": "gs8-ii",
-    "price": "4649000",
-    "benefit": "",
-    "link": "https://gac.ru/models/gs8-ii"
-  },
-  {
     "id": "gac-empow",
     "model": "empow",
     "price": "2799000",
@@ -26,6 +12,20 @@
     "price": "2249000",
     "benefit": "",
     "link": "https://gac.ru/models/gs3"
+  },
+  {
+    "id": "gac-gs4",
+    "model": "gs4",
+    "price": "2799000",
+    "benefit": "",
+    "link": "https://gac.ru/models/gs4"
+  },
+  {
+    "id": "gac-gs8-ii",
+    "model": "gs8-ii",
+    "price": "4649000",
+    "benefit": "",
+    "link": "https://gac.ru/models/gs8-ii"
   },
   {
     "id": "gac-gs8-ii",

@@ -1,5 +1,12 @@
 [
   {
+    "id": "jac-j7",
+    "model": "J7",
+    "price": "1449000",
+    "benefit": "700000",
+    "link": "https://jaccar.ru/models/j7/"
+  },
+  {
     "id": "jac-js3",
     "model": "JS3",
     "price": "1299000",
@@ -12,13 +19,6 @@
     "price": "1999000",
     "benefit": "650000",
     "link": "https://jaccar.ru/models/js6/"
-  },
-  {
-    "id": "jac-j7",
-    "model": "J7",
-    "price": "1449000",
-    "benefit": "700000",
-    "link": "https://jaccar.ru/models/j7/"
   },
   {
     "id": "jac-t8",

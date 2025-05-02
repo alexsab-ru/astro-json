@@ -1,10 +1,10 @@
 [
   {
-    "id": "jaecoo-modelj8",
-    "model": "J8",
-    "price": "3899000",
+    "id": "jaecoo-modelj5",
+    "model": "J5",
+    "price": "",
     "benefit": "",
-    "link": "https://jaecoo.ru/models/modelj8/"
+    "link": "https://jaecoo.ru/models/modelj5/"
   },
   {
     "id": "jaecoo-modelj7",
@@ -14,10 +14,10 @@
     "link": "https://jaecoo.ru/models/modelj7/"
   },
   {
-    "id": "jaecoo-modelj5",
-    "model": "J5",
-    "price": "",
+    "id": "jaecoo-modelj8",
+    "model": "J8",
+    "price": "3899000",
     "benefit": "",
-    "link": "https://jaecoo.ru/models/modelj5/"
+    "link": "https://jaecoo.ru/models/modelj8/"
   }
 ]
