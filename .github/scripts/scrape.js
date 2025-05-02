@@ -18,18 +18,25 @@ const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
 const dealerBenefitField = process.env.DEALERBENEFITFIELD ?? "";
 
 // Добавляем функцию логирования
-async function logError(errorText, error = false) {
-    if(error) {
-        console.error(errorText);
-    } else {
-        console.warn(errorText);
-    }
+async function logError(message, errorText, error) {
+    console.error(`${message}: ${errorText}`, error);
+    await logInFile(message, errorText);
+}
+
+async function logWarning(message, errorText) {
+    console.warn(`${message}: ${errorText}`);
+    await logInFile(message, errorText);
+}
+
+async function logInFile(message, errorText) {
     try {
-        await fs.appendFile('output.txt', `${new Date().toISOString()}: ${errorText}\n`);
+        await fs.appendFile('output.txt', `"${message}": "${errorText}",\n`);
     } catch (appendError) {
         console.error('Ошибка при записи в лог:', appendError);
     }
 }
+
+
 
 async function scrapePage(url, xpaths) {
     // Настраиваем дополнительные опции для puppeteer
@@ -82,7 +89,7 @@ async function scrapePage(url, xpaths) {
                 });
                 console.log('Селектор найден');
             } catch (waitError) {
-                await logError(`Предупреждение: Селектор ожидания не найден: ${waitError.message}`);
+                await logWarning(`Предупреждение: Селектор ожидания не найден`, `${waitError.message}`);
                 // Продолжаем выполнение, если селектор не найден
             }
         }
@@ -123,7 +130,7 @@ async function scrapePage(url, xpaths) {
                         }, process.env.CLICK_SELECTOR);
                         console.log("Клик через JavaScript выполнен");
                     } catch (jsClickError) {
-                        await logError(`Предупреждение: Клик через JavaScript не выполнен: ${jsClickError.message}`);
+                        await logWarning(`Предупреждение: Клик через JavaScript не выполнен`, `${jsClickError.message}`);
                     }
                 }
                 
@@ -132,7 +139,7 @@ async function scrapePage(url, xpaths) {
                 console.log(`Ожидание после клика: ${waitAfterClick}ms`);
                 await new Promise(resolve => setTimeout(resolve, waitAfterClick));
             } catch (clickError) {
-                await logError(`Предупреждение: Ошибка при клике: ${clickError.message}`);
+                await logWarning(`Предупреждение: Ошибка при клике`, `${clickError.message}`);
                 // Продолжаем выполнение, даже если клик не удался
             }
         }
@@ -158,7 +165,7 @@ async function scrapePage(url, xpaths) {
                 console.log(`Ожидание после второго клика: ${waitAfterClick}ms`);
                 await new Promise(resolve => setTimeout(resolve, waitAfterClick));
             } catch (clickError) {
-                await logError(`Предупреждение: Ошибка при втором клике: ${clickError.message}`);
+                await logWarning(`Предупреждение: Ошибка при втором клике`, `${clickError.message}`);
             }
         }
         
@@ -169,7 +176,7 @@ async function scrapePage(url, xpaths) {
         }
 
     } catch (error) {
-        await logError(`Ошибка загрузки страницы: ${url}, ${error.message}`);
+        await logError(`Ошибка загрузки страницы`, `${url}`, error);
         
         // Создаем скриншот ошибки
         try {
@@ -197,8 +204,7 @@ async function scrapePage(url, xpaths) {
                 }
                 return result;
             } catch (error) {
-                console.error(`Ошибка при выполнении XPath: ${xpath}`, error);
-                logError(`Ошибка при выполнении XPath: ${xpath}`, true);
+                logError(`Ошибка при выполнении XPath`, `${xpath}`, error);
                 return [];
             }
         };
@@ -209,8 +215,7 @@ async function scrapePage(url, xpaths) {
                 const result = document.evaluate(xpath, contextNode, null, XPathResult.STRING_TYPE, null);
                 return result.stringValue.trim();
             } catch (error) {
-                console.error(`Ошибка при получении строкового значения: ${xpath}`, error);
-                logError(`Ошибка при получении строкового значения: ${xpath}`, true);
+                logError(`Ошибка при получении строкового значения`, `${xpath}`, error);
                 return "";
             }
         };
@@ -235,8 +240,7 @@ async function scrapePage(url, xpaths) {
                     try {
                         link = new URL(link, baseUrl).href;  // Добавляем домен к относительной ссылке
                     } catch (urlError) {
-                        console.error(`Ошибка при обработке URL: ${link}`, urlError);
-                        logError(`Ошибка при обработке URL: ${link}`, true);
+                        logError(`Ошибка при обработке URL`, `${link}`, error);
                     }
                 }
                 
@@ -254,8 +258,7 @@ async function scrapePage(url, xpaths) {
                     console.warn(`Элемент #${index} пропущен: нет модели`);
                 }
             } catch (itemError) {
-                console.error(`Ошибка при обработке элемента #${index}:`, itemError);
-                logError(`Ошибка при обработке элемента #${index}:`, true);
+                logError(`Ошибка при обработке элемента`, `#${index}`, error);
             }
         });
 
@@ -279,11 +282,11 @@ async function readJsonFile(filePath) {
         
         // Возвращаем объект для дальнейших действий
         return jsonData;
-    } catch (err) {
+    } catch (error) {
         // Ошибку парсинга Дилерского JSON файла не отображаем, потому что не все ДЦ используют свои цены
-        logError(`Ошибка при чтении или парсинге JSON файла: ${err.message}`, true);
+        logError(`Ошибка при чтении файла`, `${error.message}`, error);
         return false;
-        // throw err; // Пробрасываем ошибку для обработки в вызывающем коде
+        // throw error; // Пробрасываем ошибку для обработки в вызывающем коде
     }
 }
 
@@ -360,7 +363,7 @@ async function saveJson(data, filePaths) {
             await fs.writeFile(filePath, JSON.stringify(dealerdata, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);
         } catch (error) {
-            await logError(`Ошибка сохранения файла ${filePath}: ${error}`);
+            await logError(`Ошибка при сохранении файла`, `${filePath}`, error);
         }
     }
 }
