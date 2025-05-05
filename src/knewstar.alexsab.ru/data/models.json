@@ -26,24 +26,24 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/001/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/knewstar/img/models/001/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/001/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/knewstar/img/models/001/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/001/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/knewstar/img/models/001/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/001/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/knewstar/img/models/001/colors/gray.webp",
                 "style": ""
             }
         ],
