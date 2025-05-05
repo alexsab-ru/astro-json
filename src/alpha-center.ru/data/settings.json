@@ -1,14 +1,14 @@
 {
     "brand": "",
-    "site_name": "",
-    "legal_entity": "",
-    "legal_inn": "",
-    "legal_city": "",
-    "legal_city_where": "",
+    "site_name": "Автоцентр АЛЬФА",
     "site_description": "",
-    "phone_common": "",
+    "legal_entity": "",
+    "legal_inn": "6311077173",
+    "legal_city": "г. Самара",
+    "legal_city_where": "Самаре",
+    "phone_common": "+7 (846) 979-74-40",
     "yandex_widget_orgnization": "",
     "header_top_line": "",
-    "connectforms_link": "",
-    "grecaptcha_open": "",
+    "connectforms_link": "https://alexsab.ru/lead/alpha-center/",
+    "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6"
 }
