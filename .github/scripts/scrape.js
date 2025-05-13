@@ -367,6 +367,13 @@ async function saveJson(data, filePaths) {
             // Записываем данные в файл
             await fs.writeFile(filePath, JSON.stringify(dealerdata, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);
+
+            // Создаем копию файла с именем models-price.json
+            if (filePath.endsWith('cars.json')) {
+                const modelsPricePath = path.join(directory, 'models-price.json');
+                await fs.writeFile(modelsPricePath, JSON.stringify(dealerdata, null, 2), 'utf8');
+                console.log(`Копия данных успешно сохранена в файл: ${modelsPricePath}`);
+            }
         } catch (error) {
             await logError(`Ошибка при сохранении файла`, `${filePath}`, error);
         }
