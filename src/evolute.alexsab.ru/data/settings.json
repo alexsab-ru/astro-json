@@ -1,14 +1,14 @@
 {
-    "brand": "BRAND",
-    "site_name": "Название сайта",
+    "brand": "Evolute",
+    "site_name": "Ставрополь-Авто",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «Юридическое название»",
     "legal_inn": "1234567890",
-    "legal_city": "Городок",
-    "legal_city_where": "Городке",
+    "legal_city": "г. Ставрополь",
+    "legal_city_where": "Ставрополе",
     "phone_common": "+7 (999) 000-00-00",
-    "yandex_widget_orgnization": "",
+    "yandex_widget_orgnization": "CHeNZKIF",
     "header_top_line": "",
-    "connectforms_link": "https://alexsab.ru/lead/test/",
+    "connectforms_link": "https://alexsab.ru/lead/dev/",
     "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6"
 }
