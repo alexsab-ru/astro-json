@@ -6,7 +6,7 @@
         "work_hours": "Будни с 09:00 до 19:00<br>Выходные с 09:00 до 16:00",
         "map": {
             "zoom": 17,
-            "balloon": "/img/knewstar-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/locator/knewstar-locator.svg",
             "coords": [53.234157, 44.904616],
             "ya_link": "https://yandex.com/maps/-/CHBnARmw"
         }

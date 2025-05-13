@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Технологичный кроссовер премиум класса",
         "name": "S09",
-        "price": "3009000",
+        "price": "{{price-soueast-s09}}",
         "benefit": "550000",
         "badge": {},
         "benefits": [
@@ -69,7 +69,7 @@
         "complectations": [
             {
                 "name": "Comfort",
-                "price": 3009000,
+                "price": "{{price-soueast-s09}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "190",
@@ -152,7 +152,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Интеллектуальный городской кроссовер",
         "name": "S07",
-        "price": "2599000",
+        "price": "{{price-soueast-s07}}",
         "benefit": "400000",
         "badge": {},
         "benefits": [
@@ -221,7 +221,7 @@
         "complectations": [
             {
                 "name": "Comfort 2WD",
-                "price": 2599000,
+                "price": "{{price-soueast-s07}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "190",

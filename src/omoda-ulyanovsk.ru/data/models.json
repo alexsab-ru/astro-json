@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вдохновленный авангардным искусством",
         "name": "C5 New",
-        "price": 2019900,
+        "price": "{{price-omoda-modelc5}}",
         "benefit": "",
         "benefits": [
             {
@@ -194,7 +194,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "C5",
-        "price": 1889900,
+        "price": "{{price-omoda-modelc5}}",
         "benefit": "",
         "benefits": [
             {
@@ -372,7 +372,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "БУДУЩЕЕ СТАНОВИТСЯ НАСТОЯЩИМ!",
         "name": "S5",
-        "price": 1809900,
+        "price": "{{price-omoda-models5}}",
         "benefit": "",
         "benefits": [
             {
@@ -497,7 +497,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "БУДУЩЕЕ УСТАНОВЛЕНО",
         "name": "S5 GT",
-        "price": 2129900,
+        "price": "{{price-omoda-s5gt}}",
         "benefit": "",
         "benefits": [
             {

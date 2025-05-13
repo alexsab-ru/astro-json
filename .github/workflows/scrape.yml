@@ -5,7 +5,7 @@ on:
     - cron: '0 */4 * * *'  # Запускается в 1 по Гринвичу
   push:
     paths:
-      - '.github/scripts/extractData.js'
+      - '.github/scripts/extractDataUPDAuto.js'
       - '.github/scripts/getDealerData.js'
       - '.github/scripts/mergeJson.js'
       - '.github/scripts/scrape.js'
@@ -26,8 +26,18 @@ on:
           - livan
           - gac
           - changan
+          - vgv
+          - haval
+          - omoda
+          - jaecoo
+          - chery
+          - evolute
           - kaiyi
           - baic
+          - soueast
+          - knewstar
+          - wey
+          - solaris
       commit_changes:
         description: 'Commit changes to repository'
         type: boolean
@@ -67,10 +77,14 @@ jobs:
           python-version: '3.10'
           architecture: "x64"
 
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests lxml pyyaml Pillow
+          pip install -r requirements.txt
+
 
       - name: Install Chrome
         run: |
@@ -106,6 +120,26 @@ jobs:
               echo "brand=kaiyi" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"baic"* ]]; then
               echo "brand=baic" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"vgv"* ]]; then
+              echo "brand=vgv" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"haval"* ]]; then
+              echo "brand=haval" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"omoda"* ]]; then
+              echo "brand=omoda" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"jaecoo"* ]]; then
+              echo "brand=jaecoo" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"chery"* ]]; then
+              echo "brand=chery" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"evolute"* ]]; then
+              echo "brand=evolute" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"soueast"* ]]; then
+              echo "brand=soueast" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"knewstar"* ]]; then
+              echo "brand=knewstar" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"wey"* ]]; then
+              echo "brand=wey" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"solaris"* ]]; then
+              echo "brand=solaris" >> $GITHUB_OUTPUT
             else
               echo "brand=all" >> $GITHUB_OUTPUT
             fi
@@ -191,6 +225,46 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'changan' }}
         run: pnpm run scrape-changan
 
+      - name: Scrape VGV
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'vgv' }}
+        run: pnpm run scrape-vgv
+
+      - name: Scrape Haval
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'haval' }}
+        run: pnpm run scrape-haval
+
+      - name: Scrape Omoda
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'omoda' }}
+        run: pnpm run scrape-omoda
+
+      - name: Scrape Jaecoo
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jaecoo' }}
+        run: pnpm run scrape-jaecoo
+
+      - name: Scrape Chery
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'chery' }}
+        run: pnpm run scrape-chery
+
+      - name: Scrape Evolute
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'evolute' }}
+        run: pnpm run scrape-evolute
+
+      - name: Scrape Soueast
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'soueast' }}
+        run: pnpm run scrape-soueast
+
+      - name: Scrape Knewstar
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'knewstar' }}
+        run: pnpm run scrape-knewstar
+
+      - name: Scrape Wey
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'wey' }}
+        run: pnpm run scrape-wey
+
+      - name: Scrape Solaris
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'solaris' }}
+        run: pnpm run scrape-solaris
+      
       - name: Scrape dealer price for kaiyi-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
         run: pnpm run get-kaiyi-alpha
@@ -266,7 +340,7 @@ jobs:
             echo "<blockquote>Nothing changes</blockquote>" >> output_wrapped.txt
           fi
           if [ -s output.txt ]; then
-            echo "<pre>$(cat output.txt)</pre>" >> output_wrapped.txt
+            echo "<pre language=\"json\">$(cat output.txt)</pre>" >> output_wrapped.txt
           fi
           # Кодируем содержимое файла в base64
           encoded_output=$(base64 -w 0 output_wrapped.txt)

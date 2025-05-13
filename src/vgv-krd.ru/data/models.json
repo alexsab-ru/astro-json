@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Командный игрок",
         "name": "U70PRO",
-        "price": 1999900,
+        "price": "{{price-vgv-u70-pro}}",
         "benefit": 500000,
         "benefits": [
             {
@@ -68,7 +68,7 @@
         "complectations": [
             {
                 "name": "Comfort (5 мест)",
-                "price": 1999900,
+                "price": "{{price-vgv-u70-pro}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "143",
@@ -171,7 +171,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Большое будущее",
         "name": "U75PLUS",
-        "price": 2499900,
+        "price": "{{price-vgv-u75-plus}}",
         "benefit": 450000,
         "benefits": [
             {
@@ -233,7 +233,7 @@
         "complectations": [
             {
                 "name": "Executive (5 мест)",
-                "price": 2499900,
+                "price": "{{price-vgv-u75-plus}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "199",

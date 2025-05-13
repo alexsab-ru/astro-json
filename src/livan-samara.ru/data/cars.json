@@ -7,17 +7,17 @@
     "link": "https://livan-motors.ru/model/s6pro/"
   },
   {
-    "id": "livan-x6pro",
-    "model": "X6PRO",
-    "price": "1790000",
-    "benefit": "949900",
-    "link": "https://livan-motors.ru/model/x6pro/"
-  },
-  {
     "id": "livan-x3pro",
     "model": "X3PRO",
     "price": "1340000",
     "benefit": "549900",
     "link": "https://livan-motors.ru/model/x3pro/"
+  },
+  {
+    "id": "livan-x6pro",
+    "model": "X6PRO",
+    "price": "1790000",
+    "benefit": "949900",
+    "link": "https://livan-motors.ru/model/x6pro/"
   }
 ]

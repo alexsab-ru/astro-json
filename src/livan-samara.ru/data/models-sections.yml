@@ -5,42 +5,42 @@
       title: Отвергая стереотипы
       text: Дизайн привлекает внимание множеством элементов. В нем сочетается стиль, современность, яркая внешность, которая притягивает взгляды. В нем есть всё для комфортной поездки.
       images:
-        - url: /img/models/x3pro/design.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/design.webp
     - id: exterior
       sectionClass: "bg-[#26282A] text-white"
       name: Экстерьер
       title: Вдохновляясь многогранными возможностями мира
       images:
-        - url: /img/models/x3pro/x3pro-front.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/x3pro-front.webp
           title: Хромированная решетка радиатора
           description: Хромированные полосы отделки по периметру решетки проходят через фары, расширяясь в обе стороны, как крылья, летящие и мощные.
-        - url: /img/models/x3pro/x3pro-side.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/x3pro-side.webp
           title: Стремительная боковая линия
           description: Продуманный дизайн боковой линии делает силуэт жестким и плавным, демонстрируя яркий внешний вид, а также позволяет эффективно контролировать шум.
     - id: interior
       name: Интерьер
       title: Преодолевая ограничения и ломая стереотипы
       images:
-        - url: /img/models/x3pro/interior/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/interior/1.webp
           description: Мультифункциональное рулевое колесо с управлением развлекательным центром и телефоном
-        - url: /img/models/x3pro/interior/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/interior/2.webp
           description: Кожаная обивка сидений с перфорацией. Отделка салона в темных тонах.
-        - url: /img/models/x3pro/interior/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/interior/3.webp
           description: Задняя спинка, складывающаяся 60/40
     - id: tehnology
       name: Технологии
       title: Практичность и привлекательность
       images:
-        - url: /img/models/x3pro/tehnology/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/tehnology/1.webp
           title: Галогеновые фары с линзованной оптикой
           description: Благодаря особенностям конструкции линзы и регулировке по высоте, световой пучок лучше сфокусирован на большую поверхность дороги. Свет направляется туда, где это необходимо, и меньше рассеивается по сторонам.
-        - url: /img/models/x3pro/tehnology/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/tehnology/2.webp
           title: Камера заднего вида
           description: Динамическая разметка для повышенной уверенности водителя при движении задним ходом.
-        - url: /img/models/x3pro/tehnology/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/tehnology/3.webp
           title: Конструкция кузова и интерьера
           description: Оптимизированная конструкция кузова и интерьера позволили уменьшить вес автомобиля и сократить расход топлива.
-        - url: /img/models/x3pro/tehnology/4.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/tehnology/4.webp
           title: Конструкция подвески шасси
           description: Конструкция подвески шасси отличается малым весом, что помогает сократить тормозной путь и повысить безопасность.
     - id: waranty
@@ -49,7 +49,7 @@
       title: Гарантия и сервис
       text: Гарантия качества на автомобиль и оригинальные запасные части марки LIVAN предоставляемая производителем в течение гарантийного срока, 5 лет после покупки или в течение 150 000 км пробега, в зависимости от того, что наступит раньше.
       images:
-        - url: /img/models/x3pro/x3pro-service.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/x3pro-service.webp
       items:
         - icon: mdi:calendar-badge-outline
           text: '<span class="text-gray-120 text-4xl font-bold leading-none">5 лет</span><br><span class="text-sm font-light">после покупки</span>'
@@ -62,61 +62,61 @@
       title: Почувствуйте уверенность
       text: Современный дизайн, оснащение, технологии, функциональность, все это есть в LIVAN X6PRO. Вы будете удивлены, насколько комфортно и безопасно Вы будете чувствовать себя на любой дороге. <br>Почувствуйте уверенность в каждом мгновении, в каждом повороте. Насладитесь движением по своей дороге.
       images:
-        - url: /img/models/x6pro/design.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/design.webp
     - id: exterior
       name: Экстерьер
       title: Вдохновляясь многогранными возможностями мира
       images:
-        - url: /img/models/x6pro/exterior/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/exterior/1.webp
           title: Спортивная решетка и фары
           description: В новом дизайне решетки радиатора в форме «крыла бабочки» для горизонтальных линий используется технология параметрических процессов горячего тиснения, что создаёт объёмный визуальный эффект. В решетку интегрирован логотип LIVAN и дизайн передних LED фар
-        - url: /img/models/x6pro/exterior/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/exterior/2.webp
           title: Единая линия задней оптики
           description: Вдохновением для создания формы послужили метеоры, проносящиеся с невероятной скоростью и сияющие в ночном небе, создающие динамичную атмосферу
-        - url: /img/models/x6pro/exterior/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/exterior/3.webp
           title: Уникальный дизайн колесных дисков 18 радиуса
           description: Шины с низким сопротивлением качению снижают шум и расход топлива, повышают комфорт
     - id: interior
       name: Интерьер
       title: Комфортный и изысканный интерьер
       images:
-        - url: /img/models/x6pro/interior/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/1.webp
           description: Роскошь цвета и спортивные сиденья
-        - url: /img/models/x6pro/interior/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/2.webp
           description: Лазерная гравировка
-        - url: /img/models/x6pro/interior/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/3.webp
           description: D-образное рулевое колесо
-        - url: /img/models/x6pro/interior/4.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/4.webp
           description: Простор второго ряда сидений
-        - url: /img/models/x6pro/interior/5.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/5.webp
           description: Складывающийся второй ряд, багажник 359 – 1200 л
     - id: tehnology
       name: Технологии
       title: Технологии
       images:
-        - url: /img/models/x6pro/tehnology/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/tehnology/1.webp
           title: Сверхмощный 1.5TD двигатель с турбонаддувом
           description: • Максимальная мощность 174 л.с. <br>• Максимальный крутящий момент 290 Нм <br>• Расход топлива на 100 км 6.5 л
-        - url: /img/models/x6pro/tehnology/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/tehnology/2.webp
           title: 7-ми ступенчатая трансмиссия с муфтой сцепления мокрого типа
           description: Топливная трансмиссия нового поколения специально разработанная для езды по городу с двумя «мокрыми» сцеплениями, что обеспечивает эффективность, плавность переключения передач и высокую точность.
-        - url: /img/models/x6pro/tehnology/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/tehnology/3.webp
           title: Передняя независимая подвеска МакФерсон + Задняя многорычажная независимая подвеска
           description: Профессиональные подвески, подходящие под любое путешествие <br>Задняя подвеска многорычажная независимая подвеска позволяет эффективно фильтровать вибрацию, вызванную дорожным покрытием, и обеспечивать пассажирам комфорт.
     - id: safety
       name: Безопасность
       title: Безопасность
       images:
-        - url: /img/models/x6pro/safety/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/safety/1.webp
           title: Высокопрочный безопасный каркас кузова
           description: • 55% высокопрочной стали кузова <br>• жёсткость кузова на кручение 15000 Нм/град <br>• Более 5000 сварных соединений кузова
-        - url: /img/models/x6pro/safety/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/safety/2.webp
           title: Всесторонняя защита
           description: "Шесть подушек безопасности: фронтальные и боковые для переднего ряда, а также шторки безопасности по всей длине салона."
-        - url: /img/models/x6pro/safety/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/safety/3.webp
           title: Уверенность в каждом движении
           description: В базовое оснащение LIVAN X6PRO входит девять систем активной безопасности включая передовые системы курсовой устойчивости, удержания автомобиля при подъеме, предотвращения опрокидывания, контроля давления в шинах и другие.
-        - url: /img/models/x6pro/safety/4.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/safety/4.webp
           title: Задние датчики парковки и камера заднего вида с экраном высокой четкости и динамическими направляющими
           description:
     - id: waranty
@@ -124,7 +124,7 @@
       title: Гарантия и сервис
       text: Гарантия качества на автомобиль и оригинальные запасные части марки LIVAN предоставляемая производителем в течение гарантийного срока, 5 лет после покупки или в течение 150 000 км пробега, в зависимости от того, что наступит раньше.
       images:
-        - url: /img/models/x3pro/x3pro-service.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/x3pro-service.webp
       items:
         - icon: mdi:calendar-badge-outline
           text: '<span class="text-gray-120 text-4xl font-bold leading-none">5 лет</span><br><span class="text-sm font-light">после покупки</span>'
@@ -137,67 +137,67 @@
       title: Яркий седан в спортивном стиле
       text: Стремительный и комфортный. Динамичный и отзывчивый. Все это новый седан LIVAN S6PRO. <br>Просторный салон со спортивными сиденьями, контрастная отделка интерьера, функциональность мультимедийной системы – комфорт и динамика соединились в одном автомобиле.
       images:
-        - url: /img/models/s6pro/design.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/design.webp
     - id: exterior
       name: Экстерьер
       title: Экстерьер
       images:
-        - url: /img/models/s6pro/exterior/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/exterior/1.webp
           title: Яркий и динамичный
           description: Острый капот с единой линией подсветки, яркие дневные ходовые огни и натянутые струны решетки радиатора соединяются в стремительном облике седана LIVAN S6PRO
-        - url: /img/models/s6pro/exterior/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/exterior/2.webp
           title: Стремительные и ниспадающие линии в дизайне кузова
           description: Весь облик автомобиля наполнен энергией, мгновенным скоростным разгоном и ощущением стремительности
-        - url: /img/models/s6pro/exterior/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/exterior/3.webp
           title: Обтекаемая форма кузова
           description: Широкий задний бампер в спортивном стиле и единая линия задних фар завершают динамичный образ
     - id: interior
       name: Интерьер
       title: Простор и изысканность интерьера
       images:
-        - url: /img/models/s6pro/interior/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/interior/1.webp
           description: Контрастная отделка салона, комфортные сиденья в спортивном стиле, приборная панель с двумя экранами диагональю  12,3 дюйма, гоночный селектор переключения передач  -  технологичный и изысканный интерьер нового седана LIVAN S6PRO позволит насладится динамикой движения в комфорте
-        - url: /img/models/s6pro/interior/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/interior/2.webp
           description: Лазерная гравировка в отделке приборной панели и два интегрированных сверхчувствительных экрана диагональю 12,3 дюйма создают комфортное пространство для водителя
-        - url: /img/models/s6pro/interior/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/interior/3.webp
           description: Образ спортивного седана дополнен D-образным рулевым колесом и гоночным рычагом переключения передач
-        - url: /img/models/s6pro/interior/4.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/interior/4.webp
           description: Пассажирам на втором ряду будем комфортно и удобно при поездке на любые расстояния
     - id: tehnology
       name: Технологии
       title: Технологии
       images:
-        - url: /img/models/s6pro/tehnology/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/tehnology/1.webp
           title: Сверхмощный 1.5TD двигатель с турбонаддувом
           description: • разгон до 100 км/ч за 8,8 секунды <br>• Максимальная мощность 174 л.с. <br>• Максимальный крутящий момент 290 Нм <br>• Расход топлива на 100 км 6.5 л
-        - url: /img/models/s6pro/tehnology/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/tehnology/2.webp
           title: 7-ми ступенчатая трансмиссия с муфтой сцепления мокрого типа
           description: Топливная трансмиссия нового поколения специально разработанная для езды по городу с двумя «мокрыми» сцеплениями, что обеспечивает эффективность, плавность переключения передач и высокую точность.
-        - url: /img/models/s6pro/tehnology/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/tehnology/3.webp
           title: Передняя независимая подвеска МакФерсон + задняя полузависимая торсионная балка
           description: Колесная база 2702 мм и плавность хода автомобиля обеспечат комфорт водителя и пассажиров
-        - url: /img/models/s6pro/tehnology/4.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/tehnology/4.webp
           title: Бесключевой доступ+ запуск двигателя одним нажатием
-        - url: /img/models/s6pro/tehnology/5.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/tehnology/5.webp
           title: Бесконтактное открытие багажника
     - id: safety
       name: Безопасность
       title: Безопасность
       images:
-        - url: /img/models/s6pro/safety/1.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/safety/1.webp
           title: Всесторонняя защита
           description: "Шесть подушек безопасности: фронтальные и боковые для переднего ряда, а также шторки безопасности по всей длине салона."
-        - url: /img/models/s6pro/safety/2.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/safety/2.webp
           title: Камера кругового обзора
           description: Динамические направляющие линии заднего хода автомобиля, высокое разрешение экрана и 3 датчика парковки обеспечивают двойной контроль при движении задним ходом
-        - url: /img/models/s6pro/safety/3.webp
+        - url: https://cdn.alexsab.ru/b/livan/img/models/s6pro/safety/3.webp
           title: Уверенность в каждом движении
           description: В базовое оснащение LIVAN X6PRO входит девять систем активной безопасности включая передовые системы курсовой устойчивости, удержания автомобиля при подъеме, предотвращения опрокидывания, контроля давления в шинах и другие.
     - id: waranty
       name: Обслуживание
       title: Гарантия и сервис
       text: Гарантия качества на автомобиль и оригинальные запасные части марки LIVAN предоставляемая производителем в течение гарантийного срока, 5 лет после покупки или в течение 150 000 км пробега, в зависимости от того, что наступит раньше.
-      img: /img/models/x3pro/x3pro-service.webp
+      img: https://cdn.alexsab.ru/b/livan/img/models/x3pro/x3pro-service.webp
       items:
         - icon: mdi:calendar-badge-outline
           text: '<span class="text-gray-120 text-4xl font-bold leading-none">5 лет</span><br><span class="text-sm font-light">после покупки</span>'

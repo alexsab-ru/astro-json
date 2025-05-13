@@ -6,7 +6,7 @@
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
             "zoom": 5,
-            "balloon": "/img/empty-locator.png",
+            "balloon": "https://cdn.alexsab.ru/locator/solaris-locator.svg",
             "coords": [55.715873, 47.617700],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }

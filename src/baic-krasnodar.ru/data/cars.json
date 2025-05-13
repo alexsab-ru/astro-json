@@ -16,7 +16,7 @@
   {
     "id": "baic-x55",
     "model": "BAIC X55",
-    "price": 1959000,
+    "price": 1975000,
     "benefit": 0,
     "link": "/models/x55/"
   },
@@ -30,14 +30,14 @@
   {
     "id": "baic-x75",
     "model": "BAIC X75",
-    "price": 2369500,
+    "price": 2100000,
     "benefit": 0,
     "link": "/models/x75/"
   },
   {
     "id": "baic-bj40",
     "model": "BAIC BJ40",
-    "price": 3365000,
+    "price": 3025000,
     "benefit": 0,
     "link": "/models/bj40/"
   }

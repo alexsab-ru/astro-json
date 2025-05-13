@@ -5,4 +5,4 @@ export OUTPUT_PATHS="./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
 export DEALERBENEFITFIELD='Скидка'
-node .github/scripts/extractData.js
+node .github/scripts/extractDataUPDAuto.js

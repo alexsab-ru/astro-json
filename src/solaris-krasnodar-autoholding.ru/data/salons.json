@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Дилерский центр Solaris Автохолдинг",
+        "address": "г. Краснодар, Тургеневское шоссе, 20Д",
+        "phone":  "8 (861) 297 44 44",
+        "work_hours": "Ежедневно, 08:00 – 19:00",
+        "map": {
+            "zoom": 17,
+            "balloon": "https://cdn.alexsab.ru/locator/solaris-locator.svg",
+            "coords": [45.017489,38.937479],
+            "ya_link": "https://yandex.ru/maps/?from=mapframe&ll=38.938319%2C45.017477&mode=routes&rtext=~45.017489%2C38.937479&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D45241854577&source=mapframe&utm_source=mapframe&z=17"
+        }
+    }
+]

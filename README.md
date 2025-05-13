@@ -104,7 +104,7 @@ python3 .github/scripts/scrape.py
 ```
 
 ```sh
-export INPUT_PATHS="./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/geely.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json"
+export INPUT_PATHS="./tmp/auto-team.pro/data/belgee.json,./tmp/auto-team.pro/data/geely.json,./tmp/auto-team.pro/data/gac.json,./tmp/auto-team.pro/data/changan.json,./tmp/auto-team.pro/data/knewstar.json"
 export OUTPUT_PATHS="./src/auto-team.pro/data/cars.json"
 node .github/scripts/mergeJson.js
 ```
@@ -120,7 +120,7 @@ export OUTPUT_PATHS="./src/kaiyi-alpha.ru/data/cars.json,./src/kaiyi-krd.ru/data
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
 export DEALERBENEFITFIELD='Скидка'
-node .github/scripts/extractData.js
+node .github/scripts/extractDataUPDAuto.js
 ```
 
 ```sh
@@ -134,7 +134,7 @@ export OUTPUT_PATHS="./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
 export DEALERBENEFITFIELD='Скидка'
-node .github/scripts/extractData.js
+node .github/scripts/extractDataUPDAuto.js
 ```
 
 ## Цены из таблиц дилеров
