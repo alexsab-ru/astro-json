@@ -1,0 +1,30 @@
+[
+  {
+    "id": "omoda-modelc5",
+    "model": "C5",
+    "price": "1999900",
+    "benefit": "",
+    "link": "https://omoda.ru/models/modelc5/"
+  },
+  {
+    "id": "omoda-modelc7",
+    "model": "C7",
+    "price": "",
+    "benefit": "",
+    "link": "https://omoda.ru/models/modelc7/"
+  },
+  {
+    "id": "omoda-models5",
+    "model": "S5",
+    "price": "1809900",
+    "benefit": "",
+    "link": "https://omoda.ru/models/models5/"
+  },
+  {
+    "id": "omoda-s5gt",
+    "model": "S5 GT",
+    "price": "2129900",
+    "benefit": "",
+    "link": "https://omoda.ru/models/s5gt/"
+  }
+]

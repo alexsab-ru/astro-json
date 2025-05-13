@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wey-05",
+    "model": "WEY 05",
+    "price": "4900000",
+    "benefit": "",
+    "link": "https://gwm-wey.ru/models/wey-05"
+  },
+  {
+    "id": "wey-07",
+    "model": "WEY 07",
+    "price": "6549000",
+    "benefit": "",
+    "link": "https://gwm-wey.ru/models/wey-07"
+  },
+  {
+    "id": "wey-80-business-lounge",
+    "model": "WEY 80 Lounge",
+    "price": "7999000",
+    "benefit": "",
+    "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-business-lounge"
+  },
+  {
+    "id": "wey-80-premium",
+    "model": "WEY 80",
+    "price": "6499000",
+    "benefit": "",
+    "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-premium"
+  }
+]
