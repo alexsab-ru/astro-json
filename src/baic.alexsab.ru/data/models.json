@@ -1,0 +1,736 @@
+[
+    {
+        "mark_id": "Baic",
+        "id": "x75",
+        "centered": true,
+        "show": true,
+        "homeImg": "/img/models/x35/bg.jpg",
+        "slogan": "Современный дизайн и яркая харизма",
+        "name": "X75",
+        "price": "{{price-baic-x75}}",
+        "benefit": "{{benefit-baic-x75}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X75",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X75",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x75/thumb.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый перламутр",
+                "carImage": "/img/models/x75/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/x75/colors/silver.webp",
+                "style": "background-color: rgba(221, 221, 221, 1);"
+            },
+            {
+                "id": "dark-gray",
+                "name": "Тёмно-серый металлик",
+                "carImage": "/img/models/x75/colors/dark-gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный металлик",
+                "carImage": "/img/models/x75/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/x75/colors/red.webp",
+                "style": "background-color: rgba(135, 26, 26, 1);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/x75/colors/blue.webp",
+                "style": "background-color: rgba(60, 65, 132, 1);"
+            },
+            {
+                "id": "white-black",
+                "name": "Белый перламутр с чёрной крышей",
+                "carImage": "/img/models/x75/colors/white-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(238, 238, 238, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "silver-black",
+                "name": "Серебристый металлик с чёрной крышей",
+                "carImage": "/img/models/x75/colors/silver-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(221, 221, 221, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "dark-gray-black",
+                "name": "Тёмно-серый металлик с чёрной крышей",
+                "carImage": "/img/models/x75/colors/dark-gray-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(136, 136, 136, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "red-black",
+                "name": "Красный металлик с чёрной крышей",
+                "carImage": "/img/models/x75/colors/red-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(135, 26, 26, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "blue-black",
+                "name": "Синий металлик с чёрной крышей",
+                "carImage": "/img/models/x75/colors/blue-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(60, 65, 132, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7-DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4745",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1892",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "300",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Baic",
+        "id": "u5-plus",
+        "show": true,
+        "homeImg": "/img/models/u5-plus/bg.jpg",
+        "slogan": "Практичность и комфорт",
+        "name": "U5 Plus",
+        "price": "{{price-baic-u5_plus}}",
+        "benefit": "{{benefit-baic-u5_plus}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. U5 PlUS",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. U5 PlUS",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/u5-plus/colors/black.png",
+        "colors": [
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/u5-plus/colors/gray.png",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/u5-plus/colors/white.png",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/u5-plus/colors/red.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "/img/models/u5-plus/colors/black.png",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2670",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4660",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1820",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "134",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Baic",
+        "id": "x35",
+        "show": true,
+        "homeImg": "/img/models/x35/bg.jpg",
+        "slogan": "Динамика и управляемость",
+        "name": "X35",
+        "price": "{{price-baic-x35}}",
+        "benefit": "{{benefit-baic-x35}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X35",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X35",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x35/colors/blue.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/x35/colors/red.png",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый перламутр",
+                "carImage": "/img/models/x35/colors/white.png",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/x35/colors/blue.png",
+                "style": ""
+            },
+            {
+                "id": "bronze",
+                "name": "Бронзовый металлик",
+                "carImage": "/img/models/x35/colors/bronze.png",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/x35/colors/silver.png",
+                "style": "background-color: rgba(170, 170, 170, 1);"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "5MT/CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2570",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4325",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1830",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "142/210",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Baic",
+        "id": "x55",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Динамичный кроссовер",
+        "name": "X55",
+        "price": "{{price-baic-x55}}",
+        "benefit": "{{benefit-baic-x55}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X55",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X55",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x55/colors/yellow-with-black-roof.png",
+        "colors": [
+            {
+                "id": "yellow-with-black-roof",
+                "name": "Жёлтый металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/yellow-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(161, 153, 7, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "red-with-black-roof",
+                "name": "Красный металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/red-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(201, 17, 18, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "white-with-black-roof",
+                "name": "Белый металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/white-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(193, 193, 193, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "gray-with-black-roof",
+                "name": "Серый металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/gray-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(94, 104, 96, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "light-gray-with-black-roof",
+                "name": "Светло-серый металлик с чёрной крышей",
+                "carImage": "/img/models/x55/colors/light-gray-with-black-roof.png",
+                "style": "background-image: linear-gradient(90deg, rgba(157, 166, 171, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/x55/colors/red.png",
+                "style": "background-color: rgba(201, 17, 18, 1);"
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/x55/colors/white.png",
+                "style": "background-color: rgba(193, 193, 193, 1);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/x55/colors/gray.png",
+                "style": "background-color: rgba(94, 104, 96, 1);"
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый металлик",
+                "carImage": "/img/models/x55/colors/light-gray.png",
+                "style": "background-color: rgba(157, 166, 171, 1);"
+            },
+            {
+                "id": "yellow",
+                "name": "Жёлтый металлик",
+                "carImage": "/img/models/x55/colors/yellow.png",
+                "style": "background-color: rgba(161, 153, 7, 1);"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7-DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2735",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4620",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1886",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "300",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Baic",
+        "id": "x7",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Привлекательный и просторный кроссовер",
+        "name": "X7",
+        "price": "{{price-baic-x7}}",
+        "benefit": "{{benefit-baic-x7}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X7",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X7",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/x7/colors/gray.png",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Чёрный металлик",
+                "carImage": "/img/models/x7/colors/black.png",
+                "style": "background-color: rgba(0, 0, 0, 1);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "/img/models/x7/colors/gray.png",
+                "style": "background-color: rgba(133, 133, 133, 1);"
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "/img/models/x7/colors/silver.png",
+                "style": "background-color: rgba(180, 180, 180, 1);"
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "/img/models/x7/colors/white.png",
+                "style": "background-color: rgba(233, 233, 233, 1);"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4710",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1892",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "270",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Baic",
+        "id": "bj40",
+        "show": true,
+        "homeImg": "/img/models/bj40/bg.jpg",
+        "slogan": "Баланс между городом и&nbsp;дикой природой",
+        "name": "BJ40",
+        "price": "{{price-baic-bj40}}",
+        "benefit": "{{benefit-baic-bj40}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. BJ40",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. BJ40",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/bj40/colors/green.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "/img/models/bj40/colors/red.png",
+                "style": "background-color: #ee2a0c"
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "/img/models/bj40/colors/blue.png",
+                "style": "background-color: #113c6a"
+            },
+            {
+                "id": "light-blue",
+                "name": "Голубой металлик",
+                "carImage": "/img/models/bj40/colors/light-blue.png",
+                "style": "background-color: #94abca"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/bj40/colors/white.png",
+                "style": "background-color: #f4f8f8"
+            },
+            {
+                "id": "black",
+                "name": "Чёрный металлик",
+                "carImage": "/img/models/bj40/colors/black.png",
+                "style": "background-color: #000000"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый",
+                "carImage": "/img/models/bj40/colors/green.png",
+                "style": "background-color: #479228"
+            },
+            {
+                "id": "matte-red-metallic",
+                "name": "Матовый красный металлик",
+                "carImage": "/img/models/bj40/colors/matte-red-metallic.png",
+                "style": "background-color: #ad0f0f"
+            },
+            {
+                "id": "matte-black-metallic",
+                "name": "Матовый чёрный металлик",
+                "carImage": "/img/models/bj40/colors/matte-black-metallic.png",
+                "style": "background-color: #222222"
+            },
+            {
+                "id": "matte-green",
+                "name": "Матовый зелёный",
+                "carImage": "/img/models/bj40/colors/matte-green.png",
+                "style": "background-color: #5f6545"
+            },
+            {
+                "id": "matte-white",
+                "name": "Матовый белый",
+                "carImage": "/img/models/bj40/colors/matte-white.png",
+                "style": "background-color: #f8f8f8"
+            },
+            {
+                "id": "matte-grey",
+                "name": "Матовый серый",
+                "carImage": "/img/models/bj40/colors/matte-grey.png",
+                "style": "background-color: #aaaaaa"
+            }
+        ],
+        "feed_names": [
+            "BAIC BJ40, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2745",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4645",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1925",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "380",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    }
+]
