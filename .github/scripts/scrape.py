@@ -53,6 +53,7 @@ def save_json(data, file_paths, dealer_price=None, dealer_price_field=None, deal
             dealer_data = data.copy()
 
             # Обработка дилерских цен
+            # TODO: Отключить обработку дилерских цен
             if dealer_price:
                 dealer_price_path = os.path.join(directory, dealer_price)
                 json_data = read_json_file(dealer_price_path)
@@ -80,9 +81,13 @@ def save_json(data, file_paths, dealer_price=None, dealer_price_field=None, deal
             
             print(f"Данные успешно сохранены в файл: {file_path}")
 
-            # Создаем копию файла с именем models-price.json
+            # Создаем копию файла с именем federal-models_price.json
             if file_path.endswith('cars.json'):
-                models_price_path = os.path.join(directory, 'models-price.json')
+                if os.path.exists(os.path.join(directory, 'models-price.json')):
+                    os.remove(os.path.join(directory, 'models-price.json'))
+                else:
+                    print("The file does not exist")
+                models_price_path = os.path.join(directory, 'federal-models_price.json')
                 with open(models_price_path, 'w', encoding='utf-8') as f:
                     json.dump(dealer_data, f, ensure_ascii=False, indent=2)
                 print(f"Создана копия файла: {models_price_path}")

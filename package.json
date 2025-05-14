@@ -41,6 +41,7 @@
     "scrape-wey": "sh ./.github/scripts/sh/scrape-wey.sh",
     "scrape-wey-js": "sh ./.github/scripts/sh/scrape-wey-js.sh",
     "scrape-wey-js-click": "sh ./.github/scripts/sh/scrape-wey-js-click.sh",
+    "get-all-partner": "sh ./.github/scripts/sh/run-get-all-partner.sh",
     "get-all-krasnodar": "sh ./.github/scripts/sh/run-get-all-krasnodar.sh",
     "get-all-ankor": "sh ./.github/scripts/sh/run-get-all-ankor.sh",
     "scrape-all": "sh ./.github/scripts/sh/run-scrape-all.sh",
