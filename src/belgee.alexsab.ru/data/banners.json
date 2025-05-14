@@ -1,0 +1,19 @@
+[
+    {
+        "id": 0,
+        "show": false,
+        "type": "special",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/specials/belgee/belgee-orenburg/special-offer/special-offer-1920x1080.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/specials/belgee/belgee-orenburg/special-offer/special-offer-640x900.webp",
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/special-offers/special-offer/",
+        "gradient": false,
+        "dataTitle": "",
+        "dataFormName": "",
+        "autoplay": 6000
+    }
+]
