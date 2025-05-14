@@ -319,6 +319,7 @@ async function saveJson(data, filePaths) {
         try {
             const directory = path.dirname(filePath);
             const dealerdata = JSON.parse(JSON.stringify(data));
+            // TODO: Отключить обработку дилерских цен
             if(dealerPrice) {
                 console.log(`Проверка дилерских цен из файла: ${dealerPrice}`);
                 const dealerPricePath = path.join(directory, dealerPrice);
@@ -367,6 +368,25 @@ async function saveJson(data, filePaths) {
             // Записываем данные в файл
             await fs.writeFile(filePath, JSON.stringify(dealerdata, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);
+
+            // Создаем копию файла с именем federal-models_price.json
+            if (filePath.endsWith('cars.json')) {
+                const models_price = path.join(directory, 'models-price.json');
+                try {
+                    await fs.access(models_price);
+                    await fs.unlink(models_price);
+                    console.log(`File ${models_price} deleted successfully.`);
+                } catch (err) {
+                    if (err.code === 'ENOENT') {
+                        console.log(`File ${models_price} does not exist.`);
+                    } else {
+                        console.error(`Error deleting file: ${err}`);
+                    }
+                }
+                const modelsPricePath = path.join(directory, 'federal-models_price.json');
+                await fs.writeFile(modelsPricePath, JSON.stringify(dealerdata, null, 2), 'utf8');
+                console.log(`Копия данных успешно сохранена в файл: ${modelsPricePath}`);
+            }
         } catch (error) {
             await logError(`Ошибка при сохранении файла`, `${filePath}`, error);
         }

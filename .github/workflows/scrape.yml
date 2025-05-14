@@ -27,6 +27,7 @@ on:
           - gac
           - changan
           - vgv
+          - tank
           - haval
           - omoda
           - jaecoo
@@ -122,6 +123,8 @@ jobs:
               echo "brand=baic" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"vgv"* ]]; then
               echo "brand=vgv" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"tank"* ]]; then
+              echo "brand=tank" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"haval"* ]]; then
               echo "brand=haval" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"omoda"* ]]; then
@@ -228,6 +231,10 @@ jobs:
       - name: Scrape VGV
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'vgv' }}
         run: pnpm run scrape-vgv
+
+      - name: Scrape tank.ru
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'tank' }}
+        run: pnpm run scrape-tank
 
       - name: Scrape Haval
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'haval' }}

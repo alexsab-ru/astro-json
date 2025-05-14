@@ -1,0 +1,44 @@
+[
+  {
+    "id": "jetour-dashing",
+    "model": "Dashing",
+    "price": "1589900",
+    "benefit": "1180000",
+    "link": "https://jetour-ru.com/models/dashing"
+  },
+  {
+    "id": "jetour-t2",
+    "model": "T2",
+    "price": "3159000",
+    "benefit": "800000",
+    "link": "https://jetour-ru.com/models/t2"
+  },
+  {
+    "id": "jetour-x50",
+    "model": "X50",
+    "price": "1390000",
+    "benefit": "700000",
+    "link": "https://jetour-ru.com/models/x50"
+  },
+  {
+    "id": "jetour-x70",
+    "model": "X70",
+    "price": "2049000",
+    "benefit": "600000",
+    "link": "https://jetour-ru.com/models/x70"
+  },
+  {
+    "id": "jetour-x70plus",
+    "model": "X70 Plus",
+    "price": "1949900",
+    "benefit": "1050000",
+    "link": "https://jetour-ru.com/models/x70plus"
+  },
+  {
+    "id": "jetour-x90plus",
+    "model": "X90 Plus",
+    "price": "2399900",
+    "benefit": "1000000",
+    "link": "https://jetour-ru.com/models/x90plus"
+  }
+]
