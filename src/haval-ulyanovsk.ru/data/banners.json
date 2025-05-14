@@ -1,6 +1,24 @@
 [
     {
         "id": 1,
+        "show": true,
+        "type": "special",
+        "view": "link",
+        "videoUrl": "",
+        "bannerUrl": "/cars/?model=h9+ii%2Ch7+i%2Ch5+ii%2Ch3&sort_by=price_up",
+        "imageUrl": "https://cdn.alexsab.ru/b/haval/img/main-sliders/ulyanovsk/HAVAL-H3-1920x800.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/haval/img/main-sliders/ulyanovsk/HAVAL-H3-640x800.webp",
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "btnUrl": "",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {},
+        "autoplay": 10000
+    },    
+    {
+        "id": 1,
         "show": false,
         "type": "special",
         "view": "link",
@@ -19,7 +37,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "special",
         "view": "link",
         "videoUrl": "",
