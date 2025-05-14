@@ -7,7 +7,7 @@
         "slogan": "Следуй за открытиями",
         "name": "300",
         "price": "{{price-tank-300}}",
-        "benefit": 450000,
+        "benefit": 700000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -156,7 +156,7 @@
         "slogan": "За пределы возможного",
         "name": "400",
         "price": "{{price-tank-400}}",
-        "benefit": 250000,
+        "benefit": 600000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -279,7 +279,7 @@
         "slogan": "Веди за собой",
         "name": "500",
         "price": "{{price-tank-500}}",
-        "benefit": 300000,
+        "benefit": 700000,
         "benefits": [
             {
                 "url": "#common-modal",
@@ -422,7 +422,7 @@
         "slogan": "Сила признания",
         "name": "700",
         "price": "{{price-tank-700}}",
-        "benefit": 300000,
+        "benefit": 400000,
         "benefits": [
             {
                 "url": "#common-modal",
