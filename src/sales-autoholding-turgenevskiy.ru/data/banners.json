@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "show": true,
+        "type": "video",
+        "view": "popup-link",
+        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
+        "imageUrl": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "title": "Заголовок баннера до 31.08.2024",
+        "descr": "Подзаголовок баннера может быть длиннее или короче за 1 234 567 ₽",
+        "btn": "Онлайн запись",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Онлайн запись",
+        "dataFormName": "Онлайн запись. Баннер",
+        "badge": {
+            "autoname": "Jetour Dashing",
+            "title": "Ежегодная национальная премия",
+            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
+            "image": "https://jetour-alpha.ru/img/badge-4x4-2024.png"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "title": "Заголовок баннера 2 до 31.08.2024",
+        "descr": "Подзаголовок баннера",
+        "btn": "Онлайн запись",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Онлайн запись",
+        "dataFormName": "Онлайн запись. Баннер",
+        "badge": "",
+        "autoplay": 5000
+    },
+    {
+        "id": 3,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "title": "Заголовок баннера 2 до 31.08.2024",
+        "descr": "Подзаголовок баннера",
+        "btn": "Онлайн запись",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Онлайн запись",
+        "dataFormName": "Онлайн запись. Баннер",
+        "badge": "",
+        "autoplay": 5000
+    },
+    {
+        "id": 4,
+        "show": true,
+        "type": "",
+        "view": "",
+        "videoUrl": "",
+        "imageUrl": "https://jetour-alpha.ru/img/banners/t2-kv.webp",
+        "bannerUrl": "/special-offers/test/",
+        "target": "_blank",
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "btnUrl": "",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 5000
+    }
+]

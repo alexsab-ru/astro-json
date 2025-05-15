@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Дилерский центр 1",
+        "legal_entity": "ООО «Юридическое название 1»",
+        "address": "г. Город, ул. Улица, д.&nbsp;123",
+        "phone":  "8 (987) 654-32-10",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "map": {
+            "zoom": 5,
+            "balloon": "/img/empty-locator.png",
+            "coords": [55.715873, 47.617700],
+            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+        },
+        "workers": [
+            {
+                "name": "Имя Фамилия",
+                "position": "Старший менеджер отдела продаж",
+                "photo": "https://cdn.alexsab.ru/people/user.webp",
+                "email": "email@mail.ru",
+                "phone": "+7 999 1 23456 7"
+            }
+        ]
+    },
+    {
+        "name": "Дилерский центр 2",
+        "legal_entity": "ООО «Юридическое название 2»",
+        "address": "г. Город, ул. Улица, д.&nbsp;123",
+        "phone":  "8 (987) 654-32-10",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "map": {
+            "zoom": 5,
+            "balloon": "/img/empty-locator.png",
+            "coords": [55.725863, 30.627600],
+            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+        },
+        "workers": [
+            {
+                "name": "Имя Фамилия",
+                "position": "Менеджер отдела продаж",
+                "photo": "https://cdn.alexsab.ru/people/user.webp",
+                "email": "email@mail.ru",
+                "phone": "+7 999 1 23456 7"
+            }
+        ]
+    },
+    {
+        "name": "Дилерский центр 3",
+        "legal_entity": "ООО «Юридическое название 3»",
+        "address": "г. Город, ул. Улица, д.&nbsp;123",
+        "phone":  "8 (987) 654-32-10",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "map": {
+            "zoom": 5,
+            "balloon": "/img/empty-locator.png",
+            "coords": [55.735853, 32.637500],
+            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+        }
+    },
+    {
+        "name": "Дилерский центр 4",
+        "legal_entity": "ООО «Юридическое название 4»",
+        "address": "г. Город, ул. Улица, д.&nbsp;123",
+        "phone":  "8 (987) 654-32-10",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "map": {
+            "zoom": 5,
+            "balloon": "/img/empty-locator.png",
+            "coords": [56.745843, 37.647400],
+            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+        }
+    },
+    {
+        "name": "Дилерский центр 5",
+        "legal_entity": "ООО «Юридическое название 5»",
+        "address": "г. Город, ул. Улица, д.&nbsp;123",
+        "phone":  "8 (987) 654-32-10",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "map": {
+            "zoom": 5,
+            "balloon": "/img/empty-locator.png",
+            "coords": [51.755833, 37.657300],
+            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+        }
+    },
+    {
+        "name": "Дилерский центр 6",
+        "legal_entity": "ООО «Юридическое название 6»",
+        "address": "г. Город, ул. Улица, д.&nbsp;123",
+        "phone":  "8 (987) 654-32-10",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "map": {
+            "zoom": 5,
+            "balloon": "/img/empty-locator.png",
+            "coords": [50.755823, 39.667200],
+            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+        }
+    }
+]
