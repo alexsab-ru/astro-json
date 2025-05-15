@@ -1,0 +1,439 @@
+[
+    {
+        "mark_id": "Forthing",
+        "id": "t5evo",
+        "show": true,
+        "homeImg": "/img/models/t5evo/bg.webp",
+        "slogan": "Смотри в будущее",
+        "name": "T5 EVO",
+        "price": "2600000",
+        "benefit": "",
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
+        "benefits": [],
+        "thumb": "/img/models/t5evo/colors/gray.png",
+        "colors": [
+            {
+                "id": "t5evo_gray",
+                "name": "Искрящийся серый",
+                "carImage": "/img/models/t5evo/colors/gray.png",
+                "style": "background-color: #848474;"
+            },
+            {
+                "id": "t5evo_green",
+                "name": "Магический изумруд",
+                "carImage": "/img/models/t5evo/colors/green.png",
+                "style": "background-color: #0c5a5a;"
+            },
+            {
+                "id": "t5evo_red",
+                "name": "Красный агат",
+                "carImage": "/img/models/t5evo/colors/red.png",
+                "style": "background-color: #ae1a11;"
+            },
+            {
+                "id": "t5evo_black",
+                "name": "Чёрный бриллиант",
+                "carImage": "/img/models/t5evo/colors/black.png",
+                "style": "background-color: #131313;"
+            },
+            {
+                "id": "t5evo_white",
+                "name": "Альпийский белый",
+                "carImage": "/img/models/t5evo/colors/white.png",
+                "style": "background-color: #fff;"
+            },
+            {
+                "id": "t5evo_anthracite",
+                "name": "Космический антрацит",
+                "carImage": "/img/models/t5evo/colors/gray-dark.png",
+                "style": "background-color: #525252;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "1.5TD/7DTC IXEN",
+                "price": 2600000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7 DCT Magna",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "1.5 HEV Elite",
+                "price": 3800000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "176",
+                "gear_rus": "DHT 300",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "1.5 HEV Premium",
+                "price": 3850000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "176",
+                "gear_rus": "DHT 300",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7 DCT Magna"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2715",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4564",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1860",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "285/300",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Forthing",
+        "id": "yacht",
+        "show": true,
+        "homeImg": "/img/models/yacht/bg.webp",
+        "slogan": "Победитель премии \"Автомобиль года в России\"",
+        "name": "YACHT",
+        "price": "3400000",
+        "benefit": "",
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
+        "benefits": [],
+        "thumb": "/img/models/yacht/colors/white.png",
+        "colors": [
+            {
+                "id": "yacht_white",
+                "name": "Альпийский белый",
+                "carImage": "/img/models/yacht/colors/white.png",
+                "style": "background-color: #fff;"
+            },
+            {
+                "id": "yacht_black",
+                "name": "Чёрный бриллиант",
+                "carImage": "/img/models/yacht/colors/black.png",
+                "style": "background-color: #131313;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "YACHT PREMIUM",
+                "price": 3400000,
+                "bodytype": "Минивэн",
+                "engine": "1.5 м3",
+                "engine_power": "197",
+                "gear_rus": "7 DCT Magna",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "YACHT IXEN",
+                "price": 3400000,
+                "bodytype": "Минивэн",
+                "engine": "1.5 м3",
+                "engine_power": "176",
+                "gear_rus": "7 DCT Magna",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7 DCT Magna"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2900",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4850",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1900",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "285",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Venucia",
+        "id": "v-online",
+        "show": true,
+        "homeImg": "/img/models/v-online/bg.webp",
+        "slogan": "Стиль и брутальность",
+        "name": "V-Online",
+        "price": "2780000",
+        "benefit": "",
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
+        "benefits": [],
+        "thumb": "/img/models/v-online/colors/gray.png",
+        "colors": [
+            {
+                "id": "v-online_gray",
+                "name": "Серый Бернина",
+                "carImage": "/img/models/v-online/colors/gray.png",
+                "style": "background-color: #51586d;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Standart",
+                "price": 2780000,
+                "bodytype": "Фастбэк",
+                "engine": "1.5 м3",
+                "engine_power": "93.3",
+                "gear_rus": "7 DCT КПП",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 2990000,
+                "bodytype": "Фастбэк",
+                "engine": "1.5 м3",
+                "engine_power": "93.3",
+                "gear_rus": "7 DCT КПП",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7 DCT КПП"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2700",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4562",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1917",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "260/1500-4500",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Venucia",
+        "id": "d60-plus",
+        "show": true,
+        "homeImg": "/img/models/d60-plus/bg.webp",
+        "slogan": "Спокойная решительность",
+        "name": "D60 Plus",
+        "price": "2140000",
+        "benefit": "",
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
+        "benefits": [],
+        "thumb": "/img/models/d60-plus/colors/black.png",
+        "colors": [
+            {
+                "id": "d60-plus_black",
+                "name": "Чёрный бриллиант",
+                "carImage": "/img/models/d60-plus/colors/black.png",
+                "style": "background-color: #131313;"
+            },
+            {
+                "id": "d60-plus_white",
+                "name": "Альпийский белый",
+                "carImage": "/img/models/d60-plus/colors/white.png",
+                "style": "background-color: #fff;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Standard 1.6 XE CVT",
+                "price": 2140000,
+                "bodytype": "Седан",
+                "engine": "1.6",
+                "engine_power": "90/6000",
+                "gear_rus": "XTRONIC CVT вариатор",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Сomfort 1.6 СVT",
+                "price": 2320000,
+                "bodytype": "Седан",
+                "engine": "1.6",
+                "engine_power": "90/6000",
+                "gear_rus": "XTRONIC CVT вариатор",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite 1.6 СVT",
+                "price": 2450000,
+                "bodytype": "Седан",
+                "engine": "1.6",
+                "engine_power": "90/6000",
+                "gear_rus": "XTRONIC CVT вариатор",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 1.6 СVT",
+                "price": 2550000,
+                "bodytype": "Седан",
+                "engine": "1.6",
+                "engine_power": "90/6000",
+                "gear_rus": "XTRONIC CVT вариатор",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "XTRONIC CVT вариатор"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2701",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4761",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1803",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "155/4000",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    }
+]
