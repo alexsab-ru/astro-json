@@ -1,5 +1,23 @@
 [
     {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/likvidaciya-sklada-c5-1920x800.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/likvidaciya-sklada-c5-640x900.webp",
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/cars/",
+        "dataTitle": "Ликвидация склада OMODA",
+        "dataFormName": "Подробнее. Ликвидация склада OMODA. Баннер",
+        "badge": "",
+        "autoplay": 10000,
+        "gradient": false
+    },
+    {
         "id": 2,
         "show": true,
         "type": "",

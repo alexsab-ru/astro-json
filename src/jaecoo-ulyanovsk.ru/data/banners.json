@@ -1,5 +1,23 @@
 [
     {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/likvidaciya-sklada-j7-1920x800.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/likvidaciya-sklada-j7-640x900.webp",
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/cars/",
+        "dataTitle": "Ликвидация склада JAECOO",
+        "dataFormName": "Подробнее. Ликвидация склада JAECOO. Баннер",
+        "badge": "",
+        "autoplay": 10000,
+        "gradient": false
+    },
+    {
         "id": 2,
         "show": false,
         "type": "",
