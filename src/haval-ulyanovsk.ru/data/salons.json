@@ -8,7 +8,7 @@
         "work_hours": "пн - сб: с 08:00 до 20:00; вс: с 09:00 до 18:00",
         "map": {
             "zoom": 4,
-            "balloon": "/img/haval-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/b/haval/img/haval-locator.svg",
             "coords": [54.356232, 48.357531],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
@@ -22,7 +22,7 @@
         "work_hours": "пн - сб: с 08:00 до 20:00; вс: с 09:00 до 20:00",
         "map": {
             "zoom": 4,
-            "balloon": "/img/haval-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/b/haval/img/haval-locator.svg",
             "coords": [54.328061, 48.359528],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
