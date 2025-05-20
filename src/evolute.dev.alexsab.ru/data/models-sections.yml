@@ -13,7 +13,7 @@
       - icon: mdi:gas-station-outline
         text: Расход топлива (в цикле WLTC) - 5,5 л/100 км
     images:
-      - url: /img/models/i-space/sections/1.webp
+      - url: https://cdn.alexsab.ru/b/evolute/img/models/i-space/sections/1.webp
   - id: info
     sectionClass: "odd:bg-gray-100"
     title: "Узнайте подробнее о EVOLUTE i-SPACE"
