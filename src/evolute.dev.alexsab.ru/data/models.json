@@ -26,42 +26,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/i-space/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Звездная ночь",
-                "carImage": "/img/models/i-space/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/black.webp",
                 "style": "background-color: #000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/i-space/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/white.webp",
                 "style": "background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "green",
                 "name": "Галактический зеленый",
-                "carImage": "/img/models/i-space/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/green.webp",
                 "style": "background-color: #234232; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "gray",
                 "name": "Лунный серый",
-                "carImage": "/img/models/i-space/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/gray.webp",
                 "style": "background-color: #ececec; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "sand",
                 "name": "Латте космос",
-                "carImage": "/img/models/i-space/colors/sand.webp",
+                "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/sand.webp",
                 "style": "background-color: #ebe2dc; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "silver",
                 "name": "Астероидный графит",
-                "carImage": "/img/models/i-space/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/silver.webp",
                 "style": "background-color: #36424d; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             }
         ],
