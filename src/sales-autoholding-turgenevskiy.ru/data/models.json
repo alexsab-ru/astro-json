@@ -1,20 +1,21 @@
 [
     {
         "mark_id": "Baic",
-        "id": "u5-plus",
+        "id": "x75",
+        "centered": true,
         "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "Практичность и комфорт",
-        "name": "U5 Plus",
-        "price": "{{price-u5-plus}}",
-        "benefit": 750000,
+        "homeImg": "https://cdn.alexsab.ru/models/baic/x35/bg.webp",
+        "slogan": "Современный дизайн и яркая харизма",
+        "name": "X75",
+        "price": "{{price-baic-x75}}",
+        "benefit": "{{benefit-baic-x75}}",
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Baic U5 Plus",
+                "data_form_name": "Выгодный трейд-ин. X75",
                 "view": "popup-link"
             },
             {
@@ -22,35 +23,178 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Baic U5 Plus",
+                "data_form_name": "Выгодный кредит. X75",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/baic/x75/thumb.webp",
         "colors": [
+            {
+                "id": "white",
+                "name": "Белый перламутр",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/silver.webp",
+                "style": "background-color: rgba(221, 221, 221, 1);"
+            },
+            {
+                "id": "dark-gray",
+                "name": "Тёмно-серый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/dark-gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/black.webp",
+                "style": ""
+            },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E51036;"
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/red.webp",
+                "style": "background-color: rgba(135, 26, 26, 1);"
             },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/blue.webp",
+                "style": "background-color: rgba(60, 65, 132, 1);"
+            },
+            {
+                "id": "white-black",
+                "name": "Белый перламутр с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/white-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(238, 238, 238, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "silver-black",
+                "name": "Серебристый металлик с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/silver-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(221, 221, 221, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "dark-gray-black",
+                "name": "Тёмно-серый металлик с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/dark-gray-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(136, 136, 136, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "red-black",
+                "name": "Красный металлик с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/red-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(135, 26, 26, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "blue-black",
+                "name": "Синий металлик с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x75/colors/blue-black.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(60, 65, 132, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7-DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4745",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1892",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "300",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Baic",
+        "id": "u5-plus",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/baic/u5-plus/bg.webp",
+        "slogan": "Практичность и комфорт",
+        "name": "U5 Plus",
+        "price": "{{price-baic-u5_plus}}",
+        "benefit": "{{benefit-baic-u5_plus}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. U5 PlUS",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. U5 PlUS",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/models/baic/u5-plus/colors/black.webp",
+        "colors": [
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #9CA3AF;"
+                "carImage": "https://cdn.alexsab.ru/models/baic/u5-plus/colors/gray.webp",
+                "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #E5E7EB;"
+                "carImage": "https://cdn.alexsab.ru/models/baic/u5-plus/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/u5-plus/colors/red.webp",
+                "style": ""
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #000000;"
+                "carImage": "https://cdn.alexsab.ru/models/baic/u5-plus/colors/black.webp",
+                "style": ""
             }
         ],
         "feed_names": [
@@ -65,19 +209,19 @@
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2570",
+                "value": "2670",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4500",
+                "value": "4660",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "2200",
+                "value": "1820",
                 "measure": "мм"
             },
             {
@@ -101,21 +245,21 @@
         ]
     },
     {
-        "mark_id": "Geely",
-        "id": "atlas-2024",
+        "mark_id": "Baic",
+        "id": "x35",
         "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Новый Atlas",
-        "price": 2844990,
-        "benefit": "",
+        "homeImg": "https://cdn.alexsab.ru/models/baic/x35/bg.webp",
+        "slogan": "Динамика и управляемость",
+        "name": "X35",
+        "price": "{{price-baic-x35}}",
+        "benefit": "{{benefit-baic-x35}}",
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Новый Atlas",
+                "data_form_name": "Выгодный трейд-ин. X35",
                 "view": "popup-link"
             },
             {
@@ -123,35 +267,279 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Новый Atlas",
+                "data_form_name": "Выгодный кредит. X35",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/baic/x35/colors/blue.webp",
         "colors": [
             {
-                "id": "gray",
-                "name": "Серо-голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #4c5698;"
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x35/colors/red.webp",
+                "style": ""
             },
             {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+                "id": "white",
+                "name": "Белый перламутр",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x35/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x35/colors/blue.webp",
+                "style": ""
+            },
+            {
+                "id": "bronze",
+                "name": "Бронзовый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x35/colors/bronze.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #828793;"
+                "carImage": "https://cdn.alexsab.ru/models/baic/x35/colors/silver.webp",
+                "style": "background-color: rgba(170, 170, 170, 1);"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "5MT/CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2570",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4325",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1830",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "142/210",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Baic",
+        "id": "x55",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Динамичный кроссовер",
+        "name": "X55",
+        "price": "{{price-baic-x55}}",
+        "benefit": "{{benefit-baic-x55}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X55",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X55",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/models/baic/x55/colors/yellow-with-black-roof.webp",
+        "colors": [
+            {
+                "id": "yellow-with-black-roof",
+                "name": "Жёлтый металлик с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/yellow-with-black-roof.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(161, 153, 7, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "red-with-black-roof",
+                "name": "Красный металлик с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/red-with-black-roof.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(201, 17, 18, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "white-with-black-roof",
+                "name": "Белый металлик с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/white-with-black-roof.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(193, 193, 193, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "gray-with-black-roof",
+                "name": "Серый металлик с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/gray-with-black-roof.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(94, 104, 96, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "light-gray-with-black-roof",
+                "name": "Светло-серый металлик с чёрной крышей",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/light-gray-with-black-roof.webp",
+                "style": "background-image: linear-gradient(90deg, rgba(157, 166, 171, 1) 49%, rgba(0, 0, 0, 1) 51%);"
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/red.webp",
+                "style": "background-color: rgba(201, 17, 18, 1);"
             },
             {
                 "id": "white",
-                "name": "Белый",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "name": "Белый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/white.webp",
+                "style": "background-color: rgba(193, 193, 193, 1);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/gray.webp",
+                "style": "background-color: rgba(94, 104, 96, 1);"
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/light-gray.webp",
+                "style": "background-color: rgba(157, 166, 171, 1);"
+            },
+            {
+                "id": "yellow",
+                "name": "Жёлтый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x55/colors/yellow.webp",
+                "style": "background-color: rgba(161, 153, 7, 1);"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7-DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2735",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4620",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1886",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "300",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Baic",
+        "id": "x7",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Привлекательный и просторный кроссовер",
+        "name": "X7",
+        "price": "{{price-baic-x7}}",
+        "benefit": "{{benefit-baic-x7}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X7",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X7",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/models/baic/x7/colors/gray.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Чёрный металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x7/colors/black.webp",
+                "style": "background-color: rgba(0, 0, 0, 1);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x7/colors/gray.webp",
+                "style": "background-color: rgba(133, 133, 133, 1);"
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x7/colors/silver.webp",
+                "style": "background-color: rgba(180, 180, 180, 1);"
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/x7/colors/white.webp",
+                "style": "background-color: rgba(233, 233, 233, 1);"
             }
         ],
         "feed_names": [
@@ -166,19 +554,163 @@
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2777",
+                "value": "2800",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4670",
+                "value": "4710",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1900",
+                "value": "1892",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "270",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Baic",
+        "id": "bj40",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/baic/bj40/bg.webp",
+        "slogan": "Баланс между городом и&nbsp;дикой природой",
+        "name": "BJ40",
+        "price": "{{price-baic-bj40}}",
+        "benefit": "{{benefit-baic-bj40}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. BJ40",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. BJ40",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/models/baic/bj40/colors/green.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/red.webp",
+                "style": "background-color: #ee2a0c"
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/blue.webp",
+                "style": "background-color: #113c6a"
+            },
+            {
+                "id": "light-blue",
+                "name": "Голубой металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/light-blue.webp",
+                "style": "background-color: #94abca"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/white.webp",
+                "style": "background-color: #f4f8f8"
+            },
+            {
+                "id": "black",
+                "name": "Чёрный металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/black.webp",
+                "style": "background-color: #000000"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/green.webp",
+                "style": "background-color: #479228"
+            },
+            {
+                "id": "matte-red-metallic",
+                "name": "Матовый красный металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-red-metallic.webp",
+                "style": "background-color: #ad0f0f"
+            },
+            {
+                "id": "matte-black-metallic",
+                "name": "Матовый чёрный металлик",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-black-metallic.webp",
+                "style": "background-color: #222222"
+            },
+            {
+                "id": "matte-green",
+                "name": "Матовый зелёный",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-green.webp",
+                "style": "background-color: #5f6545"
+            },
+            {
+                "id": "matte-white",
+                "name": "Матовый белый",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-white.webp",
+                "style": "background-color: #f8f8f8"
+            },
+            {
+                "id": "matte-grey",
+                "name": "Матовый серый",
+                "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-grey.webp",
+                "style": "background-color: #aaaaaa"
+            }
+        ],
+        "feed_names": [
+            "BAIC BJ40, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2745",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4645",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1925",
                 "measure": "мм"
             },
             {
@@ -190,33 +722,33 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "325",
+                "value": "380",
                 "measure": "н.м."
             },
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "2WD",
+                "value": "Полный",
                 "measure": ""
             }
         ]
     },
     {
-        "mark_id": "Geely",
-        "id": "atlas-pro",
+        "mark_id": "Kaiyi",
+        "id": "e5",
         "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Atlas Pro",
-        "price": 2188990,
-        "benefit": "",
+        "homeImg": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/bg.jpg",
+        "slogan": "Совершенство в каждой детали",
+        "name": "E5",
+        "price": "{{price-kaiyi-e5}}",
+        "benefit": "{{benefit-kaiyi-e5}}",
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Atlas Pro",
+                "data_form_name": "Выгодный трейд-ин. E5",
                 "view": "popup-link"
             },
             {
@@ -224,40 +756,34 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Atlas Pro",
+                "data_form_name": "Выгодный кредит. E5",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/black.png",
         "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/gray.png",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/white.png",
                 "style": ""
             },
             {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #B9B4B4;"
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/red.png",
+                "style": ""
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/black.png",
                 "style": ""
             }
         ],
@@ -267,19 +793,132 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "6AT/7DCT"
+            "gearbox": "CVT"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2670",
+                "value": "2700",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4544",
+                "value": "4670",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1825",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "210",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Kaiyi",
+        "id": "x3",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/bg.jpg",
+        "slogan": "Настоящий я",
+        "name": "X3",
+        "price": "{{price-kaiyi-x3}}",
+        "benefit": "{{benefit-kaiyi-x3}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X3",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X3",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/blue.png",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/red.png",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/white.png",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/black.png",
+                "style": ""
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/light-gray.png",
+                "style": ""
+            },
+            {
+                "id": "dark-gray",
+                "name": "Темно-серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/dark-gray.png",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/blue.png",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "5MT/CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2632",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4400",
                 "measure": "мм"
             },
             {
@@ -297,114 +936,7 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "255",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "2WD/4WD",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Geely",
-        "id": "emgrand",
-        "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Emgrand",
-        "price": 1799990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Emgrand",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Emgrand",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "blue",
-                "name": "Голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #50AECE;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "gold",
-                "name": "Золотой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #AC9579;"
-            },
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "5MT/6AT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2650",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4638",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1822",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "122",
+                "value": "143",
                 "measure": "н.м."
             },
             {
@@ -416,21 +948,21 @@
         ]
     },
     {
-        "mark_id": "Geely",
-        "id": "coolray",
+        "mark_id": "Kaiyi",
+        "id": "x3pro",
         "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/bg.jpg",
         "slogan": "",
-        "name": "Coolray",
-        "price": 2009990,
-        "benefit": "",
+        "name": "X3 Pro",
+        "price": "{{price-kaiyi-x3pro}}",
+        "benefit": "{{benefit-kaiyi-x3pro}}",
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Coolray",
+                "data_form_name": "Выгодный трейд-ин. X3PRO",
                 "view": "popup-link"
             },
             {
@@ -438,40 +970,46 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Coolray",
+                "data_form_name": "Выгодный кредит. X3PRO",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/red.png",
         "colors": [
             {
-                "id": "blue",
-                "name": "Голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #50AECE;"
-            },
-            {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/black.png",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/red.png",
                 "style": ""
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #B9B4B4;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/white.png",
+                "style": ""
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/light-gray.png",
+                "style": ""
+            },
+            {
+                "id": "dark-gray",
+                "name": "Темно-серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/dark-gray.png",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/blue.png",
                 "style": ""
             }
         ],
@@ -481,25 +1019,25 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "CVT"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2600",
+                "value": "2632",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4330",
+                "value": "4400",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1800",
+                "value": "1831",
                 "measure": "мм"
             },
             {
@@ -511,7 +1049,7 @@
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "150",
+                "value": "230",
                 "measure": "н.м."
             },
             {
@@ -523,21 +1061,21 @@
         ]
     },
     {
-        "mark_id": "Geely",
-        "id": "new_coolray",
+        "mark_id": "Kaiyi",
+        "id": "x7-kunlun",
         "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Новый Coolray",
-        "price": 2404990,
-        "benefit": "",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Создан для молодого поколения",
+        "name": "X7 Kunlun",
+        "price": "{{price-kaiyi-x7-kunlun}}",
+        "benefit": "{{benefit-kaiyi-x7-kunlun}}",
         "benefits": [
             {
                 "url": "#common-modal",
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Новый Coolray",
+                "data_form_name": "Выгодный трейд-ин. X7 Kunlun",
                 "view": "popup-link"
             },
             {
@@ -545,225 +1083,47 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Новый Coolray",
+                "data_form_name": "Выгодный кредит. X7 Kunlun",
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/white.png",
         "colors": [
-            {
-                "id": "lilac",
-                "name": "Лиловый перламутр",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #666B7F;"
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2600",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4380",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1810",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "147",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Передний",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Geely",
-        "id": "tugella",
-        "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Tugella",
-        "price": 3454990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Tugella",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Tugella",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/white.png",
+                "style": "background-color: rgba(238, 238, 238, 1);"
             },
             {
-                "id": "gray-blue",
-                "name": "Серо-голубой металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #ABB5C1;"
+                "id": "light-gray",
+                "name": "Светло-серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/light-gray.png",
+                "style": "background-color: rgba(187, 187, 187, 1);"
             },
             {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2700",
-                "measure": "мм"
+                "id": "dark-gray",
+                "name": "Тёмно-серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/dark-gray.png",
+                "style": "background-color: rgba(102, 102, 102, 1);"
             },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4605",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1878",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "2.0",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "350",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Полный",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Geely",
-        "id": "monjaro",
-        "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Monjaro",
-        "price": 4167990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Monjaro",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Monjaro",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
             {
                 "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "name": "Чёрный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/black.png",
+                "style": "background-color: rgba(0, 0, 0, 1);"
             },
             {
-                "id": "emerald",
-                "name": "Изумрудный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #518D9B;"
+                "id": "dark-blue",
+                "name": "Тёмно-синий металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/dark-blue.png",
+                "style": "background-color: rgba(3, 6, 41, 1);"
             },
             {
-                "id": "gray",
-                "name": "Серый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            },
-            {
-                "id": "silver",
-                "name": "Серебристый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": "background-color: #B8B3B3;"
-            },
-            {
-                "id": "white",
-                "name": "Белый металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
+                "id": "purple",
+                "name": "Фиолетовый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/purple.png",
+                "style": "background-color: rgba(15, 12, 71, 1);"
             }
         ],
         "feed_names": [
@@ -772,120 +1132,37 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "8AT"
+            "gearbox": "7-DCT"
         },
         "globalChars": [
             {
                 "id": "wheelbase",
                 "title": "Колёсная база",
-                "value": "2845",
+                "value": "2800",
                 "measure": "мм"
             },
             {
                 "id": "length",
                 "title": "Длина",
-                "value": "4770",
+                "value": "4710",
                 "measure": "мм"
             },
             {
                 "id": "width",
                 "title": "Ширина",
-                "value": "1895",
+                "value": "1964",
                 "measure": "мм"
             },
             {
                 "id": "engine",
                 "title": "Объем двигателя",
-                "value": "2.0",
+                "value": "1.6-2.0",
                 "measure": "л."
             },
             {
                 "id": "torque",
                 "title": "Крутящий момент",
-                "value": "350",
-                "measure": "н.м."
-            },
-            {
-                "id": "transmission",
-                "title": "Привод",
-                "value": "Полный",
-                "measure": ""
-            }
-        ]
-    },
-    {
-        "mark_id": "Belgee",
-        "id": "belgee-x50",
-        "show": true,
-        "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
-        "slogan": "",
-        "name": "Belgee X50",
-        "price": 1935990,
-        "benefit": "",
-        "benefits": [
-            {
-                "url": "#common-modal",
-                "label": "Выгодный трейд-ин",
-                "icon_name": "mdi:credit-card-check-outline",
-                "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Belgee X50",
-                "view": "popup-link"
-            },
-            {
-                "url": "#common-modal",
-                "label": "Выгодный кредит",
-                "icon_name": "mdi:gift-outline",
-                "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Belgee X50",
-                "view": "popup-link"
-            }
-        ],
-        "thumb": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "carImage": "https://tank.alexsab.ru/img/models/300/thumb.webp",
-                "style": ""
-            }
-        ],
-        "feed_names": [
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
-        "globalChars": [
-            {
-                "id": "wheelbase",
-                "title": "Колёсная база",
-                "value": "2600",
-                "measure": "мм"
-            },
-            {
-                "id": "length",
-                "title": "Длина",
-                "value": "4330",
-                "measure": "мм"
-            },
-            {
-                "id": "width",
-                "title": "Ширина",
-                "value": "1800",
-                "measure": "мм"
-            },
-            {
-                "id": "engine",
-                "title": "Объем двигателя",
-                "value": "1.5",
-                "measure": "л."
-            },
-            {
-                "id": "torque",
-                "title": "Крутящий момент",
-                "value": "150",
+                "value": "275/375",
                 "measure": "н.м."
             },
             {
