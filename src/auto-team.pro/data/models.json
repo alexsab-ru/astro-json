@@ -3418,6 +3418,12 @@
                 "name": "Серый графит",
                 "carImage": "/img/models/gac/gs3/colors/grey-graphite.webp",
                 "style": "background-color: #94A0AE"
+            },
+            {
+                "id": "black",
+                "name": "черный",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/black.webp",
+                "style": "background-color: #000000"
             }
         ],
         "feed_names": [
