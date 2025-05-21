@@ -3,13 +3,13 @@
         "mark_id": "Jetour",
         "id": "x90plus",
         "show": true,
-        "homeImg": "/img/models/x90plus/bg.jpg",
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/bg.jpg",
         "slogan": "Вместительный кроссовер на все случаи жизни",
         "name": "X90 Plus",
-        "price": "{{price-jetour-x90plus}}",
-        "benefit": "{{benefit-jetour-x90plus}}",
+        "price": "2399900",
+        "benefit": "1000000",
         "badge": {
-            "img": "/img/badge-4x4-2024.png",
+            "img": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
             "alt": "Внедорожник года"
         },
         "benefits": [
@@ -30,37 +30,37 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x90plus/thumb.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/thumb.png",
         "colors": [
             {
                 "id": "c5b",
                 "name": "Арктический белый",
-                "carImage": "/img/models/x90plus/colors/c5b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c5bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c5b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c5bkm.png);"
             },
             {
                 "id": "c1b",
                 "name": "Галактический черный",
-                "carImage": "/img/models/x90plus/colors/c1b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c1bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c1b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c1bkm.png);"
             },
             {
                 "id": "c2b",
                 "name": "Океанический синий",
-                "carImage": "/img/models/x90plus/colors/c2b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c2bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c2b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c2bkm.png);"
             },
             {
                 "id": "c4b",
                 "name": "Фиолетовый дракон",
-                "carImage": "/img/models/x90plus/colors/c4b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c4bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c4b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c4bkm.png);"
             },
             {
                 "id": "c3b",
                 "name": "Призрачный серый",
-                "carImage": "/img/models/x90plus/colors/c3b.png",
-                "style": "background-image: url(/img/models/x90plus/colors/c3bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c3b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c3bkm.png);"
             }
         ],
         "complectations": [
@@ -166,13 +166,13 @@
         "mark_id": "Jetour",
         "id": "t2",
         "show": true,
-        "homeImg": "/img/models/t2/bg.jpg",
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/t2/bg.jpg",
         "slogan": "Внедорожник для путешествий",
         "name": "T2",
-        "price": "{{price-jetour-t2}}",
-        "benefit": "{{benefit-jetour-t2}}",
+        "price": "3159000",
+        "benefit": "800000",
         "badge": {
-            "img": "/img/badge-4x4-2024.png",
+            "img": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
             "alt": "Внедорожник года"
         },
         "benefits": [
@@ -193,36 +193,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t2/thumb.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/t2/thumb.png",
         "colors": [
             {
                 "id": "c1b",
                 "name": "Черный",
-                "carImage": "/img/models/t2/colors/c1b.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c1b.png",
                 "style": "background-color: #000000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "c2b",
                 "name": "Серебряный",
-                "carImage": "/img/models/t2/colors/c2b.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c2b.png",
                 "style": "background-color: #c8c8c8; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "c3b",
                 "name": "Коричневый",
-                "carImage": "/img/models/t2/colors/c3b.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c3b.png",
                 "style": "background-color: #ccc0a6; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "c4b",
                 "name": "Серый",
-                "carImage": "/img/models/t2/colors/c4b.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c4b.png",
                 "style": "background-color: #6b727f; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/t2/colors/blue.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/blue.png",
                 "style": "background-color: #4682B4; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
@@ -309,14 +309,14 @@
         "mark_id": "Jetour",
         "id": "dashing",
         "show": true,
-        "homeImg": "/img/models/dashing/bg.jpg",
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/bg.jpg",
         "slogan": "Городской кроссовер",
         "name": "Dashing",
-        "price": "{{price-jetour-dashing}}",
-        "benefit": "{{benefit-jetour-dashing}}",
+        "price": "1589900",
+        "benefit": "1180000",
         "badge": {
-            "img": "/img/badge-2024-with-text.png",
-            "imgModelPage": "/img/badge-2024-with-text-white.png",
+            "img": "https://cdn.alexsab.ru/b/jetour/img/badge-2024-with-text.png",
+            "imgModelPage": "https://cdn.alexsab.ru/b/jetour/img/badge-2024-with-text-white.png",
             "alt": "Автомобиль года"
         },
         "benefits": [
@@ -337,49 +337,49 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/dashing/thumb.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/thumb.png",
         "colors": [
             {
                 "id": "c1b",
                 "name": "Лунный белый",
-                "carImage": "/img/models/dashing/colors/c1b.png",
-                "style": "background-image: url(/img/models/dashing/colors/c1bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c1b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c1bkm.png);"
             },
             {
                 "id": "c2b",
                 "name": "Галактический черный",
-                "carImage": "/img/models/dashing/colors/c2b.png",
-                "style": "background-image: url(/img/models/dashing/colors/c2bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c2b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c2bkm.png);"
             },
             {
                 "id": "c3b",
                 "name": "Шелковый красный",
-                "carImage": "/img/models/dashing/colors/c3b.png",
-                "style": "background-image: url(/img/models/dashing/colors/c3bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c3b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c3bkm.png);"
             },
             {
                 "id": "c4b",
                 "name": "Ванильный голубой",
-                "carImage": "/img/models/dashing/colors/c4b.png",
-                "style": "background-image: url(/img/models/dashing/colors/c4bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c4b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c4bkm.png);"
             },
             {
                 "id": "c5b",
                 "name": "Призрачный серый",
-                "carImage": "/img/models/dashing/colors/c5b.png",
-                "style": "background-image: url(/img/models/dashing/colors/c5bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c5b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c5bkm.png);"
             },
             {
                 "id": "c6b",
                 "name": "Изумрудно-зеленый",
-                "carImage": "/img/models/dashing/colors/c6b.png",
-                "style": "background-image: url(/img/models/dashing/colors/c6bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c6b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c6bkm.png);"
             },
             {
                 "id": "c7b",
                 "name": "Cветло-серый",
-                "carImage": "/img/models/dashing/colors/c7b.png",
-                "style": "background-image: url(/img/models/dashing/colors/c7bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c7b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c7bkm.png);"
             }
         ],
         "complectations": [
@@ -506,11 +506,11 @@
         "mark_id": "Jetour",
         "id": "x70",
         "show": true,
-        "homeImg": "/img/models/x70/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x70/bg.webp",
         "slogan": "Семейный кроссовер",
         "name": "X70",
-        "price": "{{price-jetour-x70}}",
-        "benefit": "{{benefit-jetour-x70}}",
+        "price": "2049000",
+        "benefit": "600000",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -529,24 +529,24 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x70/thumb.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x70/thumb.png",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/x70/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70/colors/black.webp",
                 "style": "background-color: #060A0F;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/x70/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70/colors/white.webp",
                 "style": "background-color: #E0E0E0;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/x70/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70/colors/silver.webp",
                 "style": "background-color: #c9c9c9;"
             }
         ],
@@ -612,11 +612,11 @@
         "mark_id": "Jetour",
         "id": "x70plus",
         "show": true,
-        "homeImg": "/img/models/x70plus/bg.jpg",
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/bg.jpg",
         "slogan": "Семейный кроссовер для совместных путешествий",
         "name": "X70 Plus",
-        "price": "{{price-jetour-x70plus}}",
-        "benefit": "{{benefit-jetour-x70plus}}",
+        "price": "1949900",
+        "benefit": "1050000",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -635,54 +635,54 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x70plus/thumb.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/thumb.png",
         "colors": [
             {
                 "id": "c1b",
                 "name": "Арктический белый",
-                "carImage": "/img/models/x70plus/colors/c1b.png",
-                "style": "background-image: url(/img/models/x70plus/colors/c1bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c1b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c1bkm.png);"
             },
             {
                 "id": "c2b",
                 "name": "Светло-серый",
-                "carImage": "/img/models/x70plus/colors/c2b.png",
-                "style": "background-image: url(/img/models/x70plus/colors/c2bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c2b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c2bkm.png);"
             },
             {
                 "id": "c3b",
                 "name": "Шелковый красный",
-                "carImage": "/img/models/x70plus/colors/c3b.png",
-                "style": "background-image: url(/img/models/x70plus/colors/c3bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c3b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c3bkm.png);"
             },
             {
                 "id": "c4b",
                 "name": "Призрачный серый",
-                "carImage": "/img/models/x70plus/colors/c4b.png",
-                "style": "background-image: url(/img/models/x70plus/colors/c4bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c4b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c4bkm.png);"
             },
             {
                 "id": "c5b",
                 "name": "Океанический синий",
-                "carImage": "/img/models/x70plus/colors/c5b.png",
-                "style": "background-image: url(/img/models/x70plus/colors/c5bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c5b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c5bkm.png);"
             },
             {
                 "id": "c6b",
                 "name": "Темно-синий",
-                "carImage": "/img/models/x70plus/colors/c6b.png",
-                "style": "background-image: url(/img/models/x70plus/colors/c6bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c6b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c6bkm.png);"
             },
             {
                 "id": "c7b",
                 "name": "Галактический черный",
-                "carImage": "/img/models/x70plus/colors/c7b.png",
-                "style": "background-image: url(/img/models/x70plus/colors/c7bkm.png);"
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c7b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c7bkm.png);"
             },
             {
                 "id": "green",
                 "name": "Зеленый",
-                "carImage": "/img/models/x70plus/colors/green.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/green.png",
                 "style": "background-color: #013030;"
             }
         ],
@@ -761,11 +761,11 @@
         "mark_id": "Jetour",
         "id": "x50",
         "show": true,
-        "homeImg": "/img/models/x50/bg.jpg",
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x50/bg.jpg",
         "slogan": "Компактный кроссовер",
         "name": "X50",
-        "price": "{{price-jetour-x50}}",
-        "benefit": "{{benefit-jetour-x50}}",
+        "price": "1390000",
+        "benefit": "700000",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -784,30 +784,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x50/thumb.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x50/thumb.png",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/x50/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/black.webp",
                 "style": "background-color: #000000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/x50/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/gray.webp",
                 "style": "background-color: #696969; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "light-gray",
                 "name": "Светло-серый",
-                "carImage": "/img/models/x50/colors/light-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/light-gray.webp",
                 "style": "background-color: #A9A9A9; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/x50/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/white.webp",
                 "style": "background-color: #E0E0E0; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],

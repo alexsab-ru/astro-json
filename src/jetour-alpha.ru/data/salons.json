@@ -6,7 +6,7 @@
         "work_hours": "Ежедневно с&nbsp;08:00 до&nbsp;20:00 без перерывов и&nbsp;выходных",
         "map": {
             "zoom": 15,
-            "balloon": "/img/jetour-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/locator/jetour-locator.svg",
             "coords": [53.184186, 50.152134],
             "ya_link": "https://yandex.ru/maps/48/orenburg/?ll=50.152134%2C53.184186&mode=routes&rtext=~53.184186%2C50.152134&z=17"
         },
@@ -14,14 +14,14 @@
             {
                 "name": "Давид Керимов",
                 "position": "Старший менеджер отдела продаж",
-                "photo": "/img/people/david-kerimov.webp",
+                "photo": "https://cdn.alexsab.ru/people/jetour/alpha/david-kerimov.webp",
                 "email": "Kerimov.d@jetour-alpha.ru",
                 "phone": "+7 846 9 77777 9"
             },
             {
                 "name": "Алексей Баклыков",
                 "position": "Менеджер отдела продаж",
-                "photo": "/img/people/aleksej-baklykov.webp",
+                "photo": "https://cdn.alexsab.ru/people/jetour/alpha/aleksej-baklykov.webp",
                 "email": "Baklykov.A@jetour-alpha.ru",
                 "phone": "+7 846 9 77777 9"
             }
