@@ -64,6 +64,12 @@
                 "name": "Синий",
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/blue.webp",
                 "style": ""
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/light-gray.webp",
+                "style": ""
             }
         ],
         "feed_names": [
