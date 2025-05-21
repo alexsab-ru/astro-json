@@ -30,7 +30,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c4b.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/thumb.png",
         "colors": [
             {
                 "id": "c5b",
@@ -193,7 +193,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c3b.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/t2/thumb.png",
         "colors": [
             {
                 "id": "c1b",
@@ -224,12 +224,6 @@
                 "name": "Синий",
                 "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/blue.png",
                 "style": "background-color: #4682B4; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
-            },
-            {
-                "id": "white",
-                "name": "Белый",
-                "carImage": "https://cdn.alexsab.ru/b/jetourhttps://cdn.alexsab.ru/b/jetour/img/models/t2/colors/white.webp",
-                "style": "background-color: #f5f5f5; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
         "complectations": [
@@ -250,6 +244,16 @@
                 "engine": "2.0 м3",
                 "engine_power": "245",
                 "gear_rus": "7 DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Discovery",
+                "price": 4449000,
+                "bodytype": "Внедорожник",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "8AT",
                 "drive": "Полный",
                 "fuel": "Бензин"
             }
@@ -333,7 +337,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c4b.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/thumb.png",
         "colors": [
             {
                 "id": "c1b",
@@ -428,6 +432,26 @@
                 "gear_rus": "7DCT",
                 "drive": "Передний",
                 "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 1.6T 8AT 4WD",
+                "price":  3229000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "185",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Sport 1.6T 8AT 4WD",
+                "price":  3379000,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "185",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -473,7 +497,7 @@
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "Передний",
+                "value": "Передний/Полный",
                 "measure": ""
             }
         ]
@@ -485,8 +509,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x70/bg.webp",
         "slogan": "Семейный кроссовер",
         "name": "X70",
-        "price": "2549000",
-        "benefit": "100000",
+        "price": "{{price-jetour-x70}}",
+        "benefit": "{{benefit-jetour-x70}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -611,7 +635,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c4b.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/thumb.png",
         "colors": [
             {
                 "id": "c1b",
@@ -675,7 +699,7 @@
             },
             {
                 "name": "Luxury",
-                "price": 2779900,
+                "price": 2679900,
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "190",
@@ -760,30 +784,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/black.png",
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x50/thumb.png",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/black.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/black.webp",
                 "style": "background-color: #000000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/gray.webp",
                 "style": "background-color: #696969; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "light-gray",
                 "name": "Светло-серый",
-                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/light-gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/light-gray.webp",
                 "style": "background-color: #A9A9A9; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/white.png",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/white.webp",
                 "style": "background-color: #E0E0E0; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
