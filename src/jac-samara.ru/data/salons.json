@@ -6,7 +6,7 @@
         "work_hours": "Ежедневно с&nbsp;08:00 до&nbsp;20:00 без перерывов и&nbsp;выходных",
         "map": {
             "zoom": 16,
-            "balloon": "/img/jac-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/b/jac/img/jac-locator.svg",
             "coords": [53.183571,50.153104],
             "ya_link": "https://yandex.ru/maps/51/samara/?from=api-maps&ll=50.153243%2C53.183404&mode=routes&origin=jsapi_2_1_79&rtext=~53.183571%2C50.153104&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D151002154210&z=17"
         }
