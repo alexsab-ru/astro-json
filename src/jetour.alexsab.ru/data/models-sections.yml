@@ -1,0 +1,547 @@
+- id: "x50"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "Стильный и запоминающийся дизайн"
+      title: JETOUR X50
+      text: "<p>JETOUR X50 — это интеллектуальное путешествие в мир современной городской эстетики, где каждый элемент подчеркивает его очарование и привлекательность. Автомобиль открывает новую главу, становясь уникальным и узнаваемым на дорогах.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 113/147 л.с.
+        - icon: mdi:speedometer
+          text: Разгон 0-100 км/ч - 11.1 сек
+        - icon: mdi:gas-station-outline
+          text: Ср. расход топлива - 9.4 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/exterior/1.webp
+          title: "Уникальный стиль"
+          description: "Дизайн автомобиля воплощает яркость и динамику, создавая поистине запоминающийся образ. Плавные линии подчеркивают его современность и стиль, придавая автомобилю особую привлекательность."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/exterior/2.webp
+          title: "Светодиодная оптика"
+          description: "Фары со стильной оптикой впечатляют четкими линиями, подчеркивая красоту и уверенность автомобиля. Их утонченная форма гармонично дополняет общий облик, придавая автомобилю изысканность и выразительность."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/exterior/3.webp
+          title: "Эффектная решетка радиатора"
+          description: "Резкие и динамичные линии решетки автомобиля создают неповторимый визуальный эффект, подчеркивая его стиль и энергию."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: Продумана каждая деталь
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/interior/1.webp
+          title: "Технологичный дизайн"
+          description: "Цифровая панель автомобиля использует интуитивно-понятные технологии для умного и комфортного вождения. Лазерная гравировка с геометрическими узорами на приборной панели и дверях добавляет стиль, делая интерьер уникальным и привлекательным."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/interior/2.webp
+          title: "Цифровая приборная панель"
+          description: "Цифровая панель поддерживает CarPlay, Android Auto и беспроводное подключение, с проекцией интерфейса телефона"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/interior/3.webp
+          title: "Стильный интерьер"
+          description: "Сиденья, обтянутые экокожей с контрастной строчкой. Непревзойденный комфорт, высокое качество и обилие мест для хранения."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/interior/4.webp
+          title: "Беспроводная зарядка"
+          description: "Беспроводная зарядка в автомобиле обеспечивает удобство и позволяет заряжать телефон без лишних кабелей во время поездки"
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Парковочный ассистент 360
+      suptitle: Технологии
+      text: "<p>Парковочный ассистент с функцией кругового обзора 360°, включая пространство под автомобилем (180°), создает панорамное изображение в высоком разрешении с высоты птичьего полёта.</p>"
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/technology/1.webp
+    - id: documentation
+      sectionClass: ""
+      title: Документация для x50
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://jetour-ru.com/media-link/x50-specification' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/x50-pricelist' class='underline' target='_blank'>Комплектации и цены</a></span></p>"
+- id: "x90plus"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "О модели"
+      title: JETOUR X90 PLUS
+      text: "<div class='space-y-4'><p>Jetour X90 Plus — это впечатляющая модель автомобиля, которая поразит вас своим дизайном и мощью. Кузов этой модели отличается стильным и современным дизайном, который призван подчеркнуть ее спортивный характер. Аэродинамические линии и гармоничные формы делают эту модель по-настоящему эффектной.</p><p>Jetour X90 Plus оснащен мощным двигателем, который обеспечивает отличную производительность и динамичность. Благодаря передовым технологиям и инженерным решениям, автомобиль обладает высокой управляемостью и комфортабельностью.</p><p>Интерьер автомобиля также достоин восхищения. Просторный салон, качественные материалы и современные технологии создают атмосферу комфорта и уюта.</p><p>Jetour X90 Plus обещает увлекательные поездки и незабываемые впечатления на дороге.</p></div>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 190/245 л.с.
+        - icon: mdi:speedometer
+          text: Разгон 0-100 км/ч - 8.5 сек
+        - icon: mdi:gas-station-outline
+          text: Ср. расход топлива - 9.9 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/exterior/1.webp
+          title: "Стильный и лаконичный дизайн"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/exterior/2.webp
+          title: "Светодиодная оптика"
+          description: "Неповторимый дизайн задних фар."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/exterior/3.webp
+          title: "Элегантный дизайн"
+          description: "Восьмиугольная хромированная решетка радиатора формирует солидный и уверенный облик."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: Продумана каждая деталь
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/interior/1.webp
+          title: "Территория комфорта"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/interior/2.webp
+          title: "Качественная отделка"
+          description: "Приятные на ощупь материалы."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/interior/3.webp
+          title: "Интеллектуальные технологии"
+          description: "Два интегрированных экрана 12.3” плюс цветной сенсорный экран климат-контроля 9.7”."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/technology/1.webp
+          title: "Многомерное пространство"
+          description: "Просторный и комфортный салон для долгих семейных поездок"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/technology/2.webp
+          title: "Функциональность и комфорт"
+          description: "Увеличенная колесная база 2850 мм."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/technology/3.webp
+          title: "Вместительный багажник"
+          description: "Объём багажника составляет 723 литров, а при сложенных сиденьях 2 ряда – 1634 литров."
+    - id: comfort
+      sectionClass: ""
+      title: Комфорт
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/comfort/1.webp
+          title: "Идеальная зона комфорта"
+          description: "Двухзонный климат-контроль, вентиляция и подогрев сидений, а также удобная поясничная поддержка и функция памяти водительского сиденья обеспечат максимальный комфорт."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/comfort/2.webp
+          title: "Система очистки воздуха"
+          description: "Оснащена воздушным фильтром стандарта CN95, обеспечивающим фильтрацию воздуха на 95%, что позволяет наслаждаться чистым воздухом в салоне."
+    - id: security
+      sectionClass: "bg-gray-100"
+      title: Безопасность
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/security/1.webp
+          title: "Безопасный"
+          description: "Высокопрочная конструкция кузова + 6 подушек безопасности."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/security/2.webp
+          title: "Экологичный"
+          description: "Использование безопасных материалов отделки."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/security/3.webp
+          title: "Интеллектуальный"
+          description: "Система контроля слепых зон."
+    - id: gallery
+      sectionClass: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/gallery/1.webp
+          title: "Преимущества современных технологий"
+          description: "Беспроводная быстрая зарядка для смартфонов мощностью 40 Вт"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/gallery/2.webp
+          title: "Панорамная крыша"
+          description: "Панорамная крыша диагональю 62” и площадью 1,1 кв. м наполнит салон светом и свежим воздухом при открытом люке"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/gallery/3.webp
+          title: "Исключительный комфорт"
+          description: "Атмосферу уюта создают эргономичные сиденья и высококачественные материалы отделки"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/gallery/4.webp
+          title: "Атмосфера спокойствия"
+          description: "Атмосферная подсветка с мягким голубым светом, классические и приглушенные цвета обшивки салона "
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x90plus/sections/gallery/5.webp
+          title: "Современные технологии"
+          description: "Ассистент парковки и система кругового обзора на 360 градусов"
+    - id: documentation
+      sectionClass: "bg-gray-200"
+      title: Документация для X90 PLUS
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://jetour-ru.com/media-link/x90-plus-specification' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/x90-plus-pricelist' class='underline' target='_blank'>Комплектации и цены</a><br><a href='https://jetour-ru.com/media-link/x90-plus-manual' class='underline' target='_blank'>Руководство</a></span></p>"
+- id: "t2"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "О модели"
+      title: JETOUR T2
+      text: "<div class='space-y-4'><p>Jetour T2 — универсальный внедорожник с элегантным кузовом, который сочетает в себе современный стиль и функциональность. Благодаря изысканному дизайну, Jetour T2 привлекает внимание своей эстетичностью и изящными линиями.</p><p>Этот автомобиль оборудован мощным двигателем, который обеспечивает комфортное и безопасное вождение. Вне зависимости от дорожных условий, Jetour T2 демонстрирует высокую проходимость и отличную управляемость.</p><p>Jetour T2 — идеальный выбор для тех, кто ценит комфорт, стиль и надежность в автомобиле.</p></div>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 245 л.с.
+        - icon: mdi:speedometer
+          text: Разгон 0-100 км/ч - 8.7 сек
+        - icon: mdi:gas-station-outline
+          text: Ср. расход топлива - 9.3 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/exterior/1.webp
+          title: "Задние светодиодные фонари"
+          description: "Задние фонари и противотуманные фары подчёркивают сбалансированность и индивидуальность модели."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/exterior/2.webp
+          title: "Светодиодные фары"
+          description: "Гарантируют идеальную видимость в любых погодных условиях и в любое время суток."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/exterior/3.webp
+          title: "Бокс для запасного колеса"
+          description: "Стильный и функциональный элемент для вашего автомобиля."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/exterior/4.webp
+          title: "20-дюймовые колёсные диски"
+          description: "20-дюймовые колесные диски доступны в максимальной комплектации. Придают автомобилю внушительный облик, подчеркивая его исключительность и статус владельца."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: Продумана каждая деталь
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/interior/1.webp
+          title: "Продуманное пространство в салоне и функциональность"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/interior/2.webp
+          title: "Качественная отделка интерьера"
+          description: "Прочные материалы отделки салона с применением замши и искусственной кожи."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/interior/3.webp
+          title: "Инновационные технологии"
+          description: "Два дисплея, центральная консоль с шайбой выбора режимов движения."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/1.webp
+          title: "Безграничные возможности"
+          description: "Новый Jetour T2 обеспечивает большую вместительность и повышенный комфорт для водителя и всех пассажиров"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/2.webp
+          title: "Вместительный салон"
+          description: "Колёсная база: 2800 мм. Комфорт и удобство всех пассажиров."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/3.webp
+          title: "Пространство и комфорт для пассажиров второго ряда"
+          description: "Пассажиры 2-го ряда с удобством располагаются в автомобиле благодаря ровному полу и запасу пространства для ног."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/4.webp
+          title: "Трансформация салона"
+          description: "Складывающиеся сиденья второго ряда образуют ровный пол, увеличивая объем багажного отделения. При сложенных сиденьях заднего ряда его объём достигает 1494 литров."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/5.webp
+          title: "Процессор Qualcomm Snapdragon 8155"
+          description: "8-ядерный автомобильный чип, созданный на 7nm техпроцессе, оптимизированный для баланса между производительностью и потреблением энергии, способен выполнять 8 триллионов операций в секунду. Интерфейс с новыми UI/UE, плавное управление. Интеллектуальное голосовое управление для всех сценариев с мгновенным откликом."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/6.webp
+          title: "XWD - полностью автоматический интеллектуальный полный привод"
+          description: "В основе системы — шестое поколение BorgWarner, интеллектуальное управление крутящим моментом и блокировкой дифференциала. Система автоматически активирует режим полного привода, оптимально распределяя мощность для максимального сцепления. При необходимости задние колеса автоматически получают дополнительный крутящий момент, позволяя водителю легко преодолевать сложные участки без остановки автомобиля."
+    - id: comfort
+      sectionClass: ""
+      title: Комфорт
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/1.webp
+          title: "Идеальная зона комфорта"
+          description: "Двухзонный климат-контроль, эффективный фильтр CN95. Применение экологически безопасных материалов гарантирует отсутствие неприятных запахов в салоне и антибактериальный эффект."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/2.webp
+          title: "Многофункциональное рулевое колесо"
+          description: "Обеспечивает быстрый и удобный доступ ко всем функциям автомобиля."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/3.webp
+          title: "Эргономичные сиденья, авиационные подголовники для передних пассажиров"
+          description: "Повышают удобство водителя и пассажиров даже в самых длительных поездках."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/4.webp
+          title: "Светодиодная подсветка салона"
+          description: "Создаёт уникальную и незабываемую атмосферу."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/5.webp
+          title: "Подогрев передних сидений"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/6.webp
+          title: "Вентиляция передних сидений"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/7.webp
+          title: "Мультимедийный дисплей диагональю 15.6 дюймов"
+          description: "Поддержка Apple CarPlay"
+    - id: security
+      sectionClass: "bg-gray-100"
+      title: Безопасность
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/1.webp
+          title: "Общая жесткость кузова при кручении достигает 31000 Н·м/град"
+          description: "Внедорожные возможности нового Jetour T2 полностью отвечают потребностям автолюбителей в большинстве условий внедорожной езды: минимальный дорожный просвет составляет 220 мм, углы въезда и съезда – 28° и 28° соответственно, автомобиль способен преодолевать брод глубиной до 700 мм"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/2.webp
+          title: "Надёжная структура"
+          description: "Применение лазерной сварки, использование 8 рёбер жесткости на крыше обеспечивают высокий уровень защиты салона."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/3.webp
+          title: "Силовая структура кузова"
+          description: "Доля высокопрочных сталей достигает 80%."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/4.webp
+          title: "Современный надёжный двигатель 2.0TGDI"
+          description: "Мощность 245 л.с., крутящий момент 375 Н·м"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/5.webp
+          title: "Панорамная парковочная система"
+          description: "Благодаря системе 360° + 180° водитель полностью контролируетситуацию во время парковки"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/6.webp
+          title: "Интеллектуальные помощники при вождении"
+          description: "Сделают вашу поездку комфортнее и безопаснее"
+    - id: gallery
+      sectionClass: ""
+      title: Создан для бездорожья
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/1.webp
+          title: "Внедорожник с высокой геометрической проходимостью и надёжной подвеской"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/2.webp
+          title: "Выбор из 7 режимов вождения"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/3.webp
+          title: "Режим вождения на сложных участках дороги"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/4.webp
+          title: "Высокая проходимость на высоких участках дороги"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/5.webp
+          title: "Независимая подвеска на четыре колеса"
+          description: ""
+    - id: documentation
+      sectionClass: "bg-gray-200"
+      title: Документация для T2
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://jetour-ru.com/media-link/t2-specification' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/t2-pricelist' class='underline' target='_blank'>Комплектации и цены</a><br><a href='https://jetour-ru.com/media-link/t2-manual' class='underline' target='_blank'>Руководство</a></span></p>"
+- id: "dashing"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "О модели"
+      title: JETOUR DASHING
+      text: "<div class='space-y-4'><p>Jetour Dashing — современный кроссовер с элегантным и привлекательным кузовом, который подчеркивает смелый и стильный дизайн автомобиля. Комбинация изящных линий и эффектных элементов экстерьера делает Jetour Dashing воплощением эстетики и функциональности.</p><p>Благодаря передовым технологиям, Jetour Dashing обеспечивает динамичное и плавное вождение. Мощный двигатель и инновационная подвеска делают каждую поездку на Jetour Dashing удовольствием. Надежная система безопасности и передовые технологии делают этот кроссовер идеальным выбором для активного образа жизни.</p><p>Jetour Dashing — выбор ценителей стильного дизайна и надежности в автомобиле.</p></div>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 147/190 л.с.
+        - icon: mdi:speedometer
+          text: Разгон 0-100 км/ч - 9.3 сек
+        - icon: mdi:gas-station-outline
+          text: Ср. расход топлива - 9.4 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/exterior/1.webp
+          title: "Инновационный дизайн"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/exterior/2.webp
+          title: "Продвинутая светодиодная оптика"
+          description: "Стильные светодиодные фары с автоматическим дальним светом."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/exterior/3.webp
+          title: "Динамичный дизайн"
+          description: "Новое прочтение современных трендов."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: Продумана каждая деталь
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/interior/1.webp
+          title: "Технологичный и инновационный дизайн интерьера"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/interior/2.webp
+          title: "Акустический комфорт"
+          description: "Высококлассная акустическая система и динамики в подголовнике сиденья водителя позволят наслаждаться качественным звуком."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/interior/3.webp
+          title: "Территория комфорта"
+          description: "Спортивный дизайн водительского сидения с электрорегулировками по 6 направлениям."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technology/1.webp
+          title: ""
+          description: ""
+    - id: technologies-of-the-future
+      sectionClass: ""
+      suptitle: Технологии будущего
+      title: Интеллектуальный салон, интеграция цифровых сервисов
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/1.webp
+          title: "Большой сенсорный дисплей в центре приборной панели - 12.8” или 15.6” в зависимости от комплектации"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/2.webp
+          title: "Вентиляция передних сидений"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/3.webp
+          title: "Чистое звучание"
+          description: "Акустическая система позволит наслаждаться чистым и качественным звучанием, превратив салон автомобиля в настоящий концертный зал"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/4.webp
+          title: "Преимущества современных технологий"
+          description: "Беспроводная быстрая зарядка для смартфонов мощностью 40 Вт"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/5.webp
+          title: "Продвинутая система очистки воздуха"
+          description: "Система очистки воздуха оснащена датчиком твердых частиц класса РМ2.5 (частицы менее 2,5 мкм), воздушным фильтром стандарта CN95, обеспечивающим фильтрацию воздуха на 95%, и генератором отрицательных ионов, что позволяет наслаждаться чистым воздухом в салоне"
+    - id: options
+      sectionClass: "bg-gray-100"
+      title: Опции для путешествий
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/options/1.webp
+          title: "Вместительный багажник с электроприводом задней двери позволяет комфортно погрузить разнообразное туристическое снаряжение"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/options/2.webp
+          title: "Вместительный салон"
+          description: "Увеличенная колесная база 2720 мм обеспечивает простор в салоне."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/options/3.webp
+          title: "Возможности конфигурации"
+          description: "Задние сиденья складываются в пропорции 60/40, регулируемый угол наклона спинки 2-го ряда."
+    - id: documentation
+      sectionClass: ""
+      title: Документация для DASHING
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://jetour-ru.com/media-link/dashing-specification' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/dashing-pricelist' class='underline' target='_blank'>Комплектации и цены</a><br><a href='https://jetour-ru.com/media-link/dashing-manual' class='underline' target='_blank'>Руководство</a></span></p>"
+- id: "x70plus"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "О модели"
+      title: JETOUR X70 PLUS
+      text: "<div class='space-y-4'><p>Jetour X70 Plus — современный кроссовер, объединяющий в себе изысканный дизайн и высокую производительность. Отличительной чертой кузова Jetour X70 Plus является его динамичный и современный облик, который подчеркивает спортивный характер этого автомобиля.</p><p>Снабженный мощным двигателем и передовой системой управления, Jetour X70 Plus обеспечивает комфортное и уверенное вождение как на дорогах, так и вне них. Высокий клиренс и надежная подвеска делают этот кроссовер идеальным для путешествий и приключений.</p><p>Интерьер автомобиля отличается стилем, функциональностью и комфортом. Просторный салон, предназначенный для пяти пассажиров, украшен высококачественными материалами, а современные технологии делают поездку еще более приятной.</p><p>Jetour X70 Plus — выбор тех, кто ценит динамичный дизайн, передовые технологии и высокую проходимость в любых условиях эксплуатации.</p></div>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 190 л.с.
+        - icon: mdi:speedometer
+          text: Разгон 0-100 км/ч - 11.7 сек
+        - icon: mdi:gas-station-outline
+          text: Ср. расход топлива - 10.9 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/exterior/1.webp
+          title: "Спортивный характер, современные светодиодные фары"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/exterior/2.webp
+          title: "Спортивный стиль, динамичный силуэт"
+          description: "19-дюймовые колеса."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/exterior/3.webp
+          title: "Задние светодиодные фонари"
+          description: "Неповторимый рисунок задних фонарей."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: Продумана каждая деталь
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/interior/1.webp
+          title: "Продуманный и эргономичный интерьер"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/interior/2.webp
+          title: "Эргономика"
+          description: "Функциональная центральная консоль."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/interior/3.webp
+          title: "Тщательно подобранные декоративные элементы"
+          description: "Использование мягких материалов с применением современных технологий."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/technology/1.webp
+          title: "Кузов"
+          description: "Надёжный автомобиль, подготовленный к российским условиям эксплуатации с оцинкованными деталями кузова."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/technology/2.webp
+          title: "Мощный двигатель"
+          description: "Двигатель с турбонаддувом 1,6 л, максимальная мощность: 190 л.с., 5500 об/мин; максимальный крутящий момент: 275 НМ/2000-4000 об/мин."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/technology/3.webp
+          title: "Надёжная и независимая подвеска"
+          description: "Обеспечит вам комфорт как в городе, так и в дальних путешествиях"
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/technology/4.webp
+          title: "Обзор на все 360°+180°"
+          description: "Панорамный вид для обеспечения комфорта и безопасности на протяжении всего процесса вождения, функция обзора пространства под днищем автомобиля."
+    - id: space
+      sectionClass: ""
+      title: Индивидуальное пространство
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/space/1.webp
+          title: "Мультимедиа"
+          description: "Автомобиль оснащён 10,25-дюймовым центральным экраном управления, бесключевыми запуском и входом, электронным переключением передач, электрическим приводом багажником и другими функциями для создания нового интеллектуального опыта."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/space/2.webp
+          title: "Система очистки и ионизации воздуха"
+          description: "Применяются эффективные воздушные фильтры (N95), которые обеспечивают уровень фильтрации ультрамелких частиц (PM 2.5) до 95%."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/space/3.webp
+          title: "3-зонный климат-контроль"
+          description: "Водитель и пассажиры на переднем и заднем сиденьях могут устанавливать разную температуру и путешествовать с ещё большим комфортом."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/space/4.webp
+          title: "Память сидений для 3 водителей"
+          description: "Удобство и комфорт для всей семьи."
+    - id: pleasure
+      sectionClass: "bg-gray-100"
+      title: Удовольствие от поездки
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/pleasure/1.webp
+          title: "Тёплые опции"
+          description: "Комфорт для вас и ваших спутников в зимнее время."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/pleasure/2.webp
+          title: "Багажник и места хранения"
+          description: "Вместительный багажник, многообразие мест хранения – неотъемлимая часть любого путешествия."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/pleasure/3.webp
+          title: "Интеллектуальные помощники при вождении"
+          description: ""
+    - id: documentation
+      sectionClass: ""
+      title: Документация для X70 PLUS
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://jetour-ru.com/media-link/x70-plus-specification' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/x70-plus-pricelist' class='underline' target='_blank'>Комплектации и цены</a><br><a href='https://jetour-ru.com/media-link/x70-plus-rukovodstvo' class='underline' target='_blank'>Руководство</a></span></p>"
+- id: "x70"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ЭКСТЕРЬЕР"
+      title: "Выразительный дизайн, проверенные технологии"
+      text: "<div class='space-y-4'><p>JETOUR X70 — это воплощение стиля, технологий и продуманного дизайна. Автомобиль воплощает в себе активный образ жизни, идеально вписываясь в стремительный городской ритм.</p></div>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 147 л.с.
+        - icon: mdi:speedometer
+          text: Разгон 0-100 км/ч - 13 сек
+        - icon: mdi:gas-station-outline
+          text: Максимальная скорость - 180 км/ч
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Детали Экстерьера
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/exterior/1.webp
+          title: "Светодиодные фары"
+          description: "Полностью светодиодная передняя оптика Jetour X70, выполненная в современном стиле, подчеркивает динамичный и уверенный характер автомобиля. Передние фары обеспечивают превосходную видимость в любых условиях, не мешая водителям встречных автомобилей."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/exterior/2.webp
+          title: "Решетка радиатора"
+          description: "Дизайн решетки радиатора отражает сильный характер автомобиля. Широкая форма и крупная структура с трехмерным рисунком создают выразительный вид передней части."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/exterior/3.webp
+          title: "Стиль"
+          description: "Jetour X70 — это гармоничное сочетание элегантности и динамики. Эффектные боковые выштамповки придают кузову выразительную глубину, создавая игру света и тени."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: "Стильный дизайн и комфорт"
+      text: "Jetour X70 сочетает премиальные материалы и продуманный дизайн для максимального комфорта."
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/interior/0.webp
+    - id: interior
+      sectionClass: ""
+      title: ПРОДУМАНА КАЖДАЯ ДЕТАЛЬ
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/interior/1.webp
+          title: "Салон автомобиля"
+          description: "Приборная панель сочетает стиль и функциональность. Аудиосистема с 8 динамиками обеспечивает качественный звук, а отделка сидений из искусственной кожи подчеркивает практичность салона."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/interior/2.webp
+          title: "Комфорт для всех пассажиров"
+          description: "Интерьер сочетает простор и функциональность. Задний ряд оснащен разъемами USB и Type-C для быстрой зарядки устройств, а складная спинка в соотношении 60:40 позволяет гибко адаптировать пространство."
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/interior/3.webp
+          title: "Мультимедиа"
+          description: "Мультимедийная система с 10,25-дюймовым сенсорным экраном поддерживает Android Auto и Apple CarPlay. Система кругового обзора 360° обеспечивает полный контроль ситуации вокруг автомобиля."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: "Инновации для вашего комфорта и безопасности"
+      suptitle: "Технологии"
+      text: "Jetour X70 оснащен современными технологиями, которые делают каждую поездку комфортной и безопасной."
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/technology/1.webp
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: "Пространство для всей семьи"
+      text: "Просторный салон, удобные сиденья и продуманные технологические решения для активной жизни всей семьи."
+      images:
+        - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/technology/2.webp
+    - id: documentation
+      sectionClass: ""
+      title: "Документация для X70"
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://jetour-ru.com/media-link/x70-specification' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/x70-pricelist' class='underline' target='_blank'>Комплектации и цены</a></span></p>"

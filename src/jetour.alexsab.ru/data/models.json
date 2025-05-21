@@ -1,0 +1,869 @@
+[
+    {
+        "mark_id": "Jetour",
+        "id": "x90plus",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/bg.jpg",
+        "slogan": "Вместительный кроссовер на все случаи жизни",
+        "name": "X90 Plus",
+        "price": "{{price-jetour-x90plus}}",
+        "benefit": "{{benefit-jetour-x90plus}}",
+        "badge": {
+            "img": "/img/badge-4x4-2024.png",
+            "alt": "Внедорожник года"
+        },
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X90 Plus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X90 Plus",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c4b.png",
+        "colors": [
+            {
+                "id": "c5b",
+                "name": "Арктический белый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c5b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c5bkm.png);"
+            },
+            {
+                "id": "c1b",
+                "name": "Галактический черный",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c1b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c1bkm.png);"
+            },
+            {
+                "id": "c2b",
+                "name": "Океанический синий",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c2b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c2bkm.png);"
+            },
+            {
+                "id": "c4b",
+                "name": "Фиолетовый дракон",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c4b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c4bkm.png);"
+            },
+            {
+                "id": "c3b",
+                "name": "Призрачный серый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c3b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c3bkm.png);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 2599900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2899900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 3099900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 2.0",
+                "price": 3219900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 2.0 (7 мест)",
+                "price": 3269900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2850",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4858",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1925",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6-2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "275/375",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Jetour",
+        "id": "t2",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/t2/bg.jpg",
+        "slogan": "Внедорожник для путешествий",
+        "name": "T2",
+        "price": "{{price-jetour-t2}}",
+        "benefit": "{{benefit-jetour-t2}}",
+        "badge": {
+            "img": "/img/badge-4x4-2024.png",
+            "alt": "Внедорожник года"
+        },
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. T2",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. T2",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c3b.png",
+        "colors": [
+            {
+                "id": "c1b",
+                "name": "Черный",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c1b.png",
+                "style": "background-color: #000000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "c2b",
+                "name": "Серебряный",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c2b.png",
+                "style": "background-color: #c8c8c8; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "c3b",
+                "name": "Коричневый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c3b.png",
+                "style": "background-color: #ccc0a6; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "c4b",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/c4b.png",
+                "style": "background-color: #6b727f; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/blue.png",
+                "style": "background-color: #4682B4; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/jetourhttps://cdn.alexsab.ru/b/jetour/img/models/t2/colors/white.webp",
+                "style": "background-color: #f5f5f5; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Voyage",
+                "price": 3859000,
+                "bodytype": "Внедорожник",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Expedition",
+                "price": 3929000,
+                "bodytype": "Внедорожник",
+                "engine": "2.0 м3",
+                "engine_power": "245",
+                "gear_rus": "7 DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4785",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "2006",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "375",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Jetour",
+        "id": "dashing",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/bg.jpg",
+        "slogan": "Городской кроссовер",
+        "name": "Dashing",
+        "price": "{{price-jetour-dashing}}",
+        "benefit": "{{benefit-jetour-dashing}}",
+        "badge": {
+            "img": "/img/badge-2024-with-text.png",
+            "imgModelPage": "/img/badge-2024-with-text-white.png",
+            "alt": "Автомобиль года"
+        },
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Dashing",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Dashing",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c4b.png",
+        "colors": [
+            {
+                "id": "c1b",
+                "name": "Лунный белый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c1b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c1bkm.png);"
+            },
+            {
+                "id": "c2b",
+                "name": "Галактический черный",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c2b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c2bkm.png);"
+            },
+            {
+                "id": "c3b",
+                "name": "Шелковый красный",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c3b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c3bkm.png);"
+            },
+            {
+                "id": "c4b",
+                "name": "Ванильный голубой",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c4b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c4bkm.png);"
+            },
+            {
+                "id": "c5b",
+                "name": "Призрачный серый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c5b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c5bkm.png);"
+            },
+            {
+                "id": "c6b",
+                "name": "Изумрудно-зеленый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c6b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c6bkm.png);"
+            },
+            {
+                "id": "c7b",
+                "name": "Cветло-серый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c7b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c7bkm.png);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort Plus",
+                "price": 1919900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort",
+                "price": 1989900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 2269900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2409900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 1.6T",
+                "price":  2489900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+            "Dashing, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/6-7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2720",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4590",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1900",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5-1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "210/275",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Jetour",
+        "id": "x70",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x70/bg.webp",
+        "slogan": "Семейный кроссовер",
+        "name": "X70",
+        "price": "2549000",
+        "benefit": "100000",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X70",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X70",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x70/thumb.png",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70/colors/black.webp",
+                "style": "background-color: #060A0F;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70/colors/white.webp",
+                "style": "background-color: #E0E0E0;"
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70/colors/silver.webp",
+                "style": "background-color: #c9c9c9;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": 2649000,
+                "bodytype": "Внедорожник 5 дв.",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6 DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2720",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4743",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1900",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Максимальная мощность",
+                "value": "147",
+                "measure": "л.с."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Jetour",
+        "id": "x70plus",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/bg.jpg",
+        "slogan": "Семейный кроссовер для совместных путешествий",
+        "name": "X70 Plus",
+        "price": "{{price-jetour-x70plus}}",
+        "benefit": "{{benefit-jetour-x70plus}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X70 Plus",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X70 Plus",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c4b.png",
+        "colors": [
+            {
+                "id": "c1b",
+                "name": "Арктический белый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c1b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c1bkm.png);"
+            },
+            {
+                "id": "c2b",
+                "name": "Светло-серый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c2b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c2bkm.png);"
+            },
+            {
+                "id": "c3b",
+                "name": "Шелковый красный",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c3b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c3bkm.png);"
+            },
+            {
+                "id": "c4b",
+                "name": "Призрачный серый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c4b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c4bkm.png);"
+            },
+            {
+                "id": "c5b",
+                "name": "Океанический синий",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c5b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c5bkm.png);"
+            },
+            {
+                "id": "c6b",
+                "name": "Темно-синий",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c6b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c6bkm.png);"
+            },
+            {
+                "id": "c7b",
+                "name": "Галактический черный",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c7b.png",
+                "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c7bkm.png);"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/green.png",
+                "style": "background-color: #013030;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 2379900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2779900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "190",
+                "gear_rus": "7DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+            "X70 PLUS, I",
+            "X70 PLUS, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2720",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4724",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1900",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "275",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Jetour",
+        "id": "x50",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x50/bg.jpg",
+        "slogan": "Компактный кроссовер",
+        "name": "X50",
+        "price": "{{price-jetour-x50}}",
+        "benefit": "{{benefit-jetour-x50}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X50",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X50",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/black.png",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/black.png",
+                "style": "background-color: #000000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/gray.png",
+                "style": "background-color: #696969; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/light-gray.png",
+                "style": "background-color: #A9A9A9; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x50/colors/white.png",
+                "style": "background-color: #E0E0E0; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": 1990000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "113",
+                "gear_rus": "МКПП-5",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Elite",
+                "price": 2290000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2440000,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "6 DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6 DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2720",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4397",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1841",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Максимальная мощность",
+                "value": "147",
+                "measure": "л.с."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    }
+]
