@@ -1,0 +1,964 @@
+[
+    {
+        "mark_id": "JAC",
+        "id": "t9",
+        "show": true,
+        "testDrive": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Рождённый для приключений",
+        "name": "T9",
+        "price": "{{price-jac-t9}}",
+        "benefit": "{{benefit-jac-t9}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac T9",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac T9",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/red.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебро",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/silver.webp",
+                "style": "background-color: #DDDDDD;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/blue.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Дизель",
+            "gearbox": "A8R50"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3110",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5330",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1965",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "390",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "JAC",
+        "id": "s3",
+        "show": false,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Вдохновленный мегаполисом",
+        "name": "S3",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac S3",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac S3",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/brown.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый фантом",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/silver.webp",
+                "style": "background-color: #dddddd;"
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый каштан",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/brown.webp",
+                "style": "background-color: #613302;"
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/blue.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2560",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4345",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1765",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "150",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "JAC",
+        "id": "iev7s",
+        "show": false,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Управляй будущим",
+        "name": "IEV7S",
+        "price": "",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac IEV7S",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac IEV7S",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/iev7s/colors/white.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/iev7s/colors/white.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Электро",
+            "gearbox": "AT-FGE"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2490",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4135",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1750",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "-",
+                "measure": ""
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "-",
+                "measure": ""
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "JAC",
+        "id": "js3",
+        "show": true,
+        "testDrive": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Семейный кроссовер для всех",
+        "name": "JS3",
+        "price": "{{price-jac-js3}}",
+        "benefit": "{{benefit-jac-js3}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac JS3",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac JS3",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/silver.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый фантом",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/silver.webp",
+                "style": "background-color: #dddddd;"
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/black.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2560",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4345",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1765",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "150",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "JAC",
+        "id": "j7",
+        "show": true,
+        "testDrive": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Дизайн от Кутюр",
+        "name": "J7",
+        "price": "{{price-jac-j7}}",
+        "benefit": "{{benefit-jac-j7}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac J7",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac J7",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/red.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/blue.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "J7, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2760",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4772",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1820",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "210",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "JAC",
+        "id": "js6",
+        "show": true,
+        "testDrive": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Автомобиль с уважением!",
+        "name": "JS6",
+        "price": "{{price-jac-js6}}",
+        "benefit": "{{benefit-jac-js6}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac JS6",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac JS6",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/black.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый каштан",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/brown.webp",
+                "style": "background-color: #613302;"
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/red.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT6"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2720",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4605",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1890",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "280",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "JAC",
+        "id": "t6",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Тысячи возможностей!",
+        "name": "T6",
+        "price": 2750000,
+        "benefit": 500000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac T6",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac T6",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/white.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый фантом",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/silver.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/blue.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бенз/Диз",
+            "gearbox": "LC6T32"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3090",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5325",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1880",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "290/320",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "JAC",
+        "id": "t8",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Тысячи возможностей!",
+        "name": "T8",
+        "price": "{{price-jac-t8}}",
+        "benefit": "{{benefit-jac-t8}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac T8",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac T8",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/white.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/blue.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бенз/Диз",
+            "gearbox": "LC6T32"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3090",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5325",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1880",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Максимальная мощность",
+                "value": "139-190",
+                "measure": "л.с."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "JAC",
+        "id": "t8-pro",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Мужественный характер в ярком облике!",
+        "name": "T8 Pro",
+        "price": "{{price-jac-t8-pro}}",
+        "benefit": "{{benefit-jac-t8-pro}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Jac T8 Pro",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": " Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": " Выгодный кредит",
+                "data_form_name": " Выгодный кредит. Jac T8 Pro",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/thumb.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый глянец",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебро",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/silver.webp",
+                "style": "background-color: #DDDDDD;"
+            },
+            {
+                "id": "gray",
+                "name": "Серая платина",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный жемчуг",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Спелая вишня",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий сапфир",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/blue.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "LC6T32"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "3090",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "5325",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1880",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0-2.4",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "320",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    }
+]

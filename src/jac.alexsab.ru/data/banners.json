@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "show": false,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/samara/jac-t9.webp",
+        "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>T9</span></span>",
+        "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>Ему все по плечу</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-t9}}*</span>",
+        "btn": "Получить предложение",
+        "btnUrl": "/models/t9/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {},
+        "autoplay": 7000
+    }
+]
