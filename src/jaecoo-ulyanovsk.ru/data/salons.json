@@ -6,7 +6,7 @@
         "work_hours": "пн-сб: 08:00-20:00 <br/>вс: 09:00-18:00",
         "map": {
             "zoom": 19,
-            "balloon": "/img/jaecoo-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/locator/jaecoo-locator.svg",
             "coords": [54.357192, 48.357688],
             "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
         }
