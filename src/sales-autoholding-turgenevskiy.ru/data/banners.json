@@ -22,7 +22,7 @@
         "type": "",
         "view": "popup-link",
         "videoUrl": "",
-        "imageUrl": "/img/banners/kaiyi-x3-comfort.webp",
+        "imageUrl": "https://cdn.alexsab.ru/b/kaiyi/img/banners/kaiyi-x3-comfort.webp",
         "title": "Распродажа в Автохолдинг Тургеневский <br/>до {{lastDay}} {{monthGenitive}} {{year}}!",
         "descr": "",
         "alt": "Распродажа в Автохолдинг Тургеневский",
