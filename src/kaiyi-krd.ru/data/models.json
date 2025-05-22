@@ -3,7 +3,7 @@
         "mark_id": "Kaiyi",
         "id": "e5",
         "show": true,
-        "homeImg": "/img/models/e5/bg.jpg",
+        "homeImg": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/bg.jpg",
         "slogan": "Совершенство в каждой детали",
         "name": "E5",
         "price": "{{price-kaiyi-e5}}",
@@ -26,30 +26,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/e5/colors/black.png",
+        "thumb": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/black.png",
         "colors": [
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/e5/colors/gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/gray.png",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/e5/colors/white.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/white.png",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/e5/colors/red.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/red.png",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/e5/colors/black.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/e5/colors/black.png",
                 "style": ""
             }
         ],
@@ -104,7 +104,7 @@
         "mark_id": "Kaiyi",
         "id": "x3",
         "show": true,
-        "homeImg": "/img/models/x3/bg.jpg",
+        "homeImg": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/bg.jpg",
         "slogan": "Настоящий я",
         "name": "X3",
         "price": "{{price-kaiyi-x3}}",
@@ -127,42 +127,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x3/colors/blue.png",
+        "thumb": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/blue.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x3/colors/red.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/red.png",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x3/colors/white.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/white.png",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/x3/colors/black.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/black.png",
                 "style": ""
             },
             {
                 "id": "light-gray",
                 "name": "Светло-серый металлик",
-                "carImage": "/img/models/x3/colors/light-gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/light-gray.png",
                 "style": ""
             },
             {
                 "id": "dark-gray",
                 "name": "Темно-серый металлик",
-                "carImage": "/img/models/x3/colors/dark-gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/dark-gray.png",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий металлик",
-                "carImage": "/img/models/x3/colors/blue.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3/colors/blue.png",
                 "style": ""
             }
         ],
@@ -217,7 +217,7 @@
         "mark_id": "Kaiyi",
         "id": "x3pro",
         "show": true,
-        "homeImg": "/img/models/x3pro/bg.jpg",
+        "homeImg": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/bg.jpg",
         "slogan": "",
         "name": "X3 Pro",
         "price": "{{price-kaiyi-x3pro}}",
@@ -240,42 +240,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x3pro/colors/red.png",
+        "thumb": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/red.png",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/x3pro/colors/black.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/black.png",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x3pro/colors/red.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/red.png",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x3pro/colors/white.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/white.png",
                 "style": ""
             },
             {
                 "id": "light-gray",
                 "name": "Светло-серый металлик",
-                "carImage": "/img/models/x3pro/colors/light-gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/light-gray.png",
                 "style": ""
             },
             {
                 "id": "dark-gray",
                 "name": "Темно-серый металлик",
-                "carImage": "/img/models/x3pro/colors/dark-gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/dark-gray.png",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий металлик",
-                "carImage": "/img/models/x3pro/colors/blue.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x3pro/colors/blue.png",
                 "style": ""
             }
         ],
@@ -353,42 +353,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x7-kunlun/colors/white.png",
+        "thumb": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/white.png",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x7-kunlun/colors/white.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/white.png",
                 "style": "background-color: rgba(238, 238, 238, 1);"
             },
             {
                 "id": "light-gray",
                 "name": "Светло-серый металлик",
-                "carImage": "/img/models/x7-kunlun/colors/light-gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/light-gray.png",
                 "style": "background-color: rgba(187, 187, 187, 1);"
             },
             {
                 "id": "dark-gray",
                 "name": "Тёмно-серый металлик",
-                "carImage": "/img/models/x7-kunlun/colors/dark-gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/dark-gray.png",
                 "style": "background-color: rgba(102, 102, 102, 1);"
             },
             {
                 "id": "black",
                 "name": "Чёрный металлик",
-                "carImage": "/img/models/x7-kunlun/colors/black.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/black.png",
                 "style": "background-color: rgba(0, 0, 0, 1);"
             },
             {
                 "id": "dark-blue",
                 "name": "Тёмно-синий металлик",
-                "carImage": "/img/models/x7-kunlun/colors/dark-blue.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/dark-blue.png",
                 "style": "background-color: rgba(3, 6, 41, 1);"
             },
             {
                 "id": "purple",
                 "name": "Фиолетовый металлик",
-                "carImage": "/img/models/x7-kunlun/colors/purple.png",
+                "carImage": "https://cdn.alexsab.ru/b/kaiyi/img/models/x7-kunlun/colors/purple.png",
                 "style": "background-color: rgba(15, 12, 71, 1);"
             }
         ],
