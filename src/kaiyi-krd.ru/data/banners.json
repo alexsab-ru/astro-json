@@ -44,7 +44,7 @@
         "view": "popup-link",
         "videoUrl": "",
         "imageUrl": "/img/banners/kaiyi-x3-comfort.webp",
-        "title": "Распродажа в Автохолдинг Тургеневский до {{lastDay}} {{monthGenitive}} {{year}}г!",
+        "title": "Распродажа в Автохолдинг Тургеневский <br/>до {{lastDay}} {{monthGenitive}} {{year}}!",
         "descr": "",
         "alt": "Распродажа в Автохолдинг Тургеневский",
         "btn": "Получить скидку",
