@@ -15,29 +15,29 @@
       title: Для бесконечного вдохновения
       text: "<p>У Kia Sportage смелый и стремительный дизайн. Автомобиль создан с учетом современных технологий, которые позволяют чувствовать себя в дороге еще более уверенно, независимо от того, где вы находитесь и куда стремитесь. Для тех, кто продолжает двигаться. Вдохновение всегда рядом.</p>"
       images:
-        - url: /img/models/sportage/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/1.webp
     - id: exterior
       sectionClass: "bg-gray-100"
       suptitle: Экстерьер
       title: Яркая индивидуальность
       text: "<p>Автомобиль выполнен в соответствии с новой философией дизайна “Единство противоположностей” и производит мгновенный wow-эффект. Чистые атлетичные поверхности кузова в сочетании с контрастной и яркой графикой решетки радиатора и блока фар, придают автомобилю динамичный и дерзкий вид на дороге.</p>"
       images:
-        - url: /img/models/sportage/sections/exterior/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/exterior/1.webp
           title: Атлетичный силуэт кузова
           description: Атлетичные характерные линии пересекают чистые и изысканные поверхности кузова, плавно соединяя все объемы вместе, отражая яркую эмоциональность стиля и спортивный дух автомобиля.
-        - url: /img/models/sportage/sections/exterior/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/exterior/2.webp
           title: Футуристичные LED фары
           description: Дневные ходовые огни в форме бумерангов и визуально интегрированные в них ромбовидные фары подчеркивают технологичность и футуристичный дизайн автомобиля.
-        - url: /img/models/sportage/sections/exterior/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/exterior/3.webp
           title: Графичная решетка радиатора
           description: Фирменная решетка радиатора в стилистике «Улыбка тигра» с графичным рисунком ячеек и уникальные дневные ходовые огни в форме бумерангов подчеркивает графику фар и формируют футуристичный облик передней части.
-        - url: /img/models/sportage/sections/exterior/4.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/exterior/4.webp
           title: Уникальные элементы отделки
           description: Декоративный хромированный элемент задней стойки кузова.
-        - url: /img/models/sportage/sections/exterior/5.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/exterior/5.webp
           title: Спортивные зеркала
           description: Двухцветные зеркала заднего вида создают спортивный образ автомобиля.
-        - url: /img/models/sportage/sections/exterior/6.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/exterior/6.webp
           title: Стильные задние фонари
           description: Фонари динамичного дизайна визуально объединены с помощью черной декоративной панели, проходящей через всю ширину двери багажника. Своим дизайном они повторяют рисунок оптики передних фар.
     - id: space
@@ -45,32 +45,32 @@
       title: Иммерсивное пространство
       text: "<p>Интерьер Kia Sportage сочетает премиальное качество и ориентированный на водителя дизайн. Изящный и тонкий изогнутый панорамный дисплей, обрамленный стильными дефлекторами воздуховодов, как будто огибает водителя, открывая ему доступ к новейшим достижениям в области мультимедиа.</p>"
       images:
-        - url: /img/models/sportage/sections/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/2.webp
     - id: interior
       sectionClass: "bg-gray-100"
       suptitle: Интерьер
       title: Удовольствие от каждой поездки
       text: "<p>Разделяя ваше желание открывать, искать, стремиться к новому, даже когда вы находитесь за рулем автомобиля, Sportage предлагает лучшие решения. Все элементы управления интегрированы в простые автономные дисплеи, что позволит вам меньше отвлекаться от управления автомобилем.</p>"
       images:
-        - url: /img/models/sportage/sections/interior/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/interior/1.webp
           title: Изогнутый панорамный дисплей
           description: Панорамный дисплей бесшовно объединяет два 12,3” HD экрана цифровой панели приборов и навигационной системы. Интуитивно понятная графика и сенсорное управление обеспечивают водителю максимальный комфорт.
-        - url: /img/models/sportage/sections/interior/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/interior/2.webp
           title: Переключаемый контроллер информационно-развлекательной системы / климат–контроля
           description: Для функций информационно-развлекательной системы и климат-контроля используется единая клавиатура интегрированной панели.
-        - url: /img/models/sportage/sections/interior/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/interior/3.webp
           title: Электронный селектор трансмиссии (SBW)
           description: SBW обеспечивает превосходное удобство работы и безопасность в сочетании с оптимальным использованием внутреннего пространства консоли и ее компоновки.
-        - url: /img/models/sportage/sections/interior/4.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/interior/4.webp
           title: Аудиосистема Harman Kardon® с 8 динамиками
           description: Наслаждайтесь фантастическим звучанием с помощью аудиосистемы Harman Kardon® с 8 динамиками во время своих поездок.
-        - url: /img/models/sportage/sections/interior/5.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/interior/5.webp
           title: Поддержка Apple CarPlay и Android Auto
           description: Cистемы Android Auto и Apple CarPlay, выводят функционал смартфона на экран мультимедийной системы и позволяют удобно и безопасно пользоваться сервисами и приложениями во время поездки.
-        - url: /img/models/sportage/sections/interior/6.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/interior/6.webp
           title: Отделение для беспроводной зарядки
           description: Позволяет быстро заряжать совместимый с системой смартфон. Зеленый индикатор покажет, когда зарядка будет завершена.
-        - url: /img/models/sportage/sections/interior/7.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/interior/7.webp
           title: Панорамная крыша
           description: Панорамная крыша добавляет интерьеру ощущение света и пространства.
     - id: comfort
@@ -79,22 +79,22 @@
       title: Удобные решения
       text: "<p>Sportage способен адаптироваться под любой ваш запрос. Нужно ли вам комфортно настроить температуру сидений, повесить пальто или разместить больше вещей, которые вы неожиданно решили взять с собой в дорогу. Он удовлетворит любые ваши потребности.</p>"
       images: 
-        - url: /img/models/sportage/sections/comfort/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/comfort/1.webp
           title: Планировка салона
           description: Продуманная планировка салона обеспечивает невероятный комфорт для водителя и пассажиров за счет рекордного пространства в области головы и ног. Сиденья обеспечивают удобную посадку и поддержку. Для пассажиров второго ряда доступны настройки подогрева.
-        - url: /img/models/sportage/sections/comfort/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/comfort/2.webp
           title: Вентиляция и подогрев передних сидений
           description: Вы сможете насладиться комфортной температурой независимо от того, какая за окном погода. Настроить вентиляцию или подогрев передних сидений можно с помощью панели управления на центральной консоли.
-        - url: /img/models/sportage/sections/comfort/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/comfort/3.webp
           title: Вместительный и функциональный багажник
           description: Впечатляющий объем багажного отделения составляет 586 литров, а спинки задних сидений, разделенных в пропорции 60/40, можно быстро сложить, просто потянув рычаг фиксатора на стенке багажного отсека.
-        - url: /img/models/sportage/sections/comfort/4.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/comfort/4.webp
           title: Электропривод багажной двери
           description: Встаньте за автомобилем, имея при себе Smart Key, и через несколько секунд багажник автоматически откроется. Вы можете настроить удобную высоту поднятия задней двери.
-        - url: /img/models/sportage/sections/comfort/5.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/comfort/5.webp
           title: Вешалки для одежды / Зарядки USB-C
           description: В передние подголовники встроены вешалки для одежды. Разъемы USB-C для быстрой зарядки интегрированы в спинках передних сидений для удобства пассажиров второго ряда.
-        - url: /img/models/sportage/sections/comfort/6.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/comfort/6.webp
           title: Многофункциональный отдел с регулируемыми подстаканниками
           description: Подстаканники на центральной консоли можно убрать, когда вы их не используете, и разместить в этом отделении планшет или другие предметы.
     - id: smelyi
@@ -102,26 +102,26 @@
       title: Смелый и выразительный
       text: "<p>Kia Sportage в версии X-Line еще ярче раскрывает самобытный и уверенный характер кроссовера. Его отличают внедорожные элементы и уникальный природный цвет кузова.</p>"
       images: 
-        - url: /img/models/sportage/sections/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/3.webp
     - id: x-line
       sectionClass: ""
       suptitle: X-Line
       title: Основательный и брутальный
       text: "<p>Автомобиль с внедорожным дизайном отличается оригинальными передним и задним бамперами с отделкой «сатиновый хром», перекликающейся с декоративной отделкой боковых частей.</p>"
       images: 
-        - url: /img/models/sportage/sections/x-line/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/x-line/1.webp
           title: Передний бампер
           description: Прямые, горизонтально выровненные линии в отделке бампера указывают на солидность X-Line и его готовность к бездорожью.
-        - url: /img/models/sportage/sections/x-line/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/x-line/2.webp
           title: Боковые молдинги
           description: Уникальные хромированные боковые накладки создают характерный для X-Line брутальный облик.
-        - url: /img/models/sportage/sections/x-line/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/x-line/3.webp
           title: Задний бампер
           description: Вертикальные отражатели и черная защитная накладка бампера.
-        - url: /img/models/sportage/sections/x-line/4.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/x-line/4.webp
           title: 19” легкосплавные диски
           description: На Sportage X-Line устанавливаются колеса размерности 19” на дисках оригинального дизайна.
-        - url: /img/models/sportage/sections/x-line/5.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/x-line/5.webp
           title: Контрастные детали
           description: Sportage X-Line имеет черную глянцевую отделку корпусов наружных зеркал, рейлингов на крыше и рамок оконных стекол.
     - id: tehnology
@@ -130,25 +130,25 @@
       title: Kia Connect
       text: "<p>С помощью сервисов Kia Connect* мы позаботились, чтобы у вас было больше свободного времени. Приложение и бортовые сервисы позволяют вам дистанционно активировать различные функции автомобиля и получать актуальную информацию о его состоянии в любое время.</p>"
       images: 
-        - url: /img/models/sportage/sections/tehnology/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/tehnology/1.webp
           title: Дистанционное управление автомобилем
           description: Вы можете запустить двигатель автомобиля, управлять климат-контролем, подогревом, вентиляцией сидений и подогревом стекол и зеркал.
-        - url: /img/models/sportage/sections/tehnology/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/tehnology/2.webp
           title: Дистанционное управление климат-контролем и подогревами
           description: 
-        - url: /img/models/sportage/sections/tehnology/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/tehnology/3.webp
           title: Дистанционная система кругового обзора
           description: 
-        - url: /img/models/sportage/sections/tehnology/4.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/tehnology/4.webp
           title: Дистанционное открытие/закрытие дверей
           description: Сервисы Kia Connect предупредят вас о незакрытых дверях или сработавшей штатной сигнализации.
-        - url: /img/models/sportage/sections/tehnology/5.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/tehnology/5.webp
           title: Навигационные сервисы
           description: Получайте информацию по маршруту, пробкам и парковкам в режиме реального времени.
-        - url: /img/models/sportage/sections/tehnology/6.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/tehnology/6.webp
           title: Статус и статистика автомобиля
           description: Диагностика автомобиля возможна по запросу через меню мультимедийной системы либо автоматически при каждом запуске двигателя. Данные о работе систем автомобиля за последний месяц вы сможете посмотреть в приложении.
-        - url: /img/models/sportage/sections/tehnology/7.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/tehnology/7.webp
           title: Уведомление о срабатывании штатной сигнализации
           description: При срабатывании штатной сигнализации автомобиль автоматически вышлет вам уведомление.
       button: '<a href="https://cdn.kia.ru/master-data/brochures/Kia_Connect_Sportage_NQ.pdf" class="btn btn black btn-o !px-4 whitespace-nowrap" target="_blank">Обзор функций (PDF)</a>'
@@ -158,25 +158,25 @@
       title: Уверенность в движении
       text: "<p>Вы почувствуете себя еще увереннее во взаимодействии с окружающим миром, чем когда-либо прежде, благодаря технологичному комплексу систем безопасности и помощи водителю Drive Wise.</p>"
       images: 
-        - url: /img/models/sportage/sections/security/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/security/1.webp
           title: Интеллектуальный круиз-контроль с функцией Stop & Go (SCC)
           description: SCC помогает автоматически поддерживать дистанцию до впереди идущего транспортного средства и заданную водителем скорость, включая автоматическую остановку и продолжение движения после кратковременной остановки.
-        - url: /img/models/sportage/sections/security/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/security/2.webp
           title: Система предотвращения фронтальных столкновений (FCA)
           description: FCA предупреждает, если обнаружен риск столкновения с другим транспортным средством, пешеходом или велосипедистом. Система предупредит вас и при необходимости активирует торможение.
-        - url: /img/models/sportage/sections/security/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/security/3.webp
           title: Контроль слепых зон с отображением на панели приборов (BVM)
           description: BVM отображает ситуацию в слепых зонах позади автомобиля при включении указателя поворота для безопасной смены полосы движения.
-        - url: /img/models/sportage/sections/security/4.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/security/4.webp
           title: Система предотвращения бокового столкновения при выезде с парковки задним ходом (RCCA)
           description: RCCA помогает при движении задним ходом избежать столкновения с приближающимся слева/справа транспортным средством.
-        - url: /img/models/sportage/sections/security/5.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/security/5.webp
           title: Система безопасного выхода из автомобиля (SEW)
           description: SEW автоматически предупреждает о риске столкновения с автомобилем в слепой зоне, когда пассажир открывает дверь для выхода из салона после остановки.
-        - url: /img/models/sportage/sections/security/6.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/security/6.webp
           title: Система кругового обзора с 4 камерами (SVM)
           description: SVM отображает обстановку вокруг автомобиля во время движения и парковки. Она объединяет картинку с 4 камер для создания объемного изображения, доступного к просмотру в различных режимах.
-        - url: /img/models/sportage/sections/security/7.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/security/7.webp
           title: Ассистент движения в полосе (LFA)
           description: LFA помогает удерживать автомобиль в центре занимаемой полосы. Эта функция использует фронтальную камеру, чтобы скорректировать рулевое управление в зависимости от разметки полосы движения или на основе движения впереди идущего автомобиля.
     - id: terrain-mode
@@ -185,14 +185,14 @@
       title: Готов к любым условиям
       text: "<p>Благодаря новой системе адаптации к дорожным условиям Terrain Mode Sportage сохраняет максимальный комфорт и безопасность движения в более сложных дорожных условиях (режимы SNOW — снег, MUD — грязь, SAND — песок). Если система Terrain Mode отключена, то по умолчанию используется система выбора режимов движения Drive Mode.</p>"
       images: 
-       - url: /img/models/sportage/sections/4.webp
+       - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/4.webp
     - id: warranty
       sectionClass: ""
       suptitle: Обслуживание
       title: Гарантия и сервис
       text: "<p>Автомобили Kia произведены по самым высоким стандартам автомобильной промышленности. Именно это исключительное качество позволяет Kia предложить уникальные условия гарантии.</p>"
       images: 
-       - url: /img/models/sportage/sections/5.webp
+       - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/5.webp
     - id: more
       sectionClass: "bg-accent-400 text-white/70 border-b"
       title: ""
@@ -224,14 +224,14 @@
       title: Описание модели
       text: "<p>Kia K5 2022 — новый седан бизнес-класса, который сочетает в себе лучшие качества всех легковых автомобилей марки Kia. В этой машине эргономичность, присущая всем автомобилям Киа, сочетается с надежностью, высоким уровнем комфорта и действительно впечатляющим дизайном. Эта машина для тех, кто любит быть заметным на дороге и не боится подчеркнуть свой статус. Дизайнеры Kia K5 стремились заглянуть в будущее и создать автомобиль, который не потеряет актуальности спустя несколько лет. И им это удалось: машина выглядит стильной, статусной и узнаваемой. А функционал ни в чем не уступает дизайну.</p>"
       images:
-        - url: /img/models/k5/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/k5/sections/1.webp
     - id: salon
       sectionClass: "bg-gray-100"
       title: Роскошный салон и динамичный дизайн кузова
       text: "<p>Новая Kia K5 выполнена в силуэте «фастбэк»: покатая линия крыши плавно переходит в багажник через сильно наклоненное заднее стекло. Кузов декорирован хромированным молдингом, что подчеркивает его динамичность. Эксперты уже назвали дизайн этого седана «дерзким» и отметили, что в его разработке участвовали лучшие дизайнеры Kia. В этой модели ощущается самобытность и уникальность дизайнерского решения; его уже нельзя назвать заимствованием у других брендов.</p>"
       images:
-        - url: /img/models/k5/sections/2.webp
-        - url: /img/models/k5/sections/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/k5/sections/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/k5/sections/3.webp
     - id: new
       sectionClass: ""
       title: Новое в экстерьере
@@ -249,9 +249,9 @@
       title: Салон комфорт-класса
       text: "<p>В машине установлены цифровые приборы, и это диктует угол консоли по отношению к водителю: он практически равен 90°. Во всех комплектациях есть два крупных экрана, сенсорный климат-контроль и «шайба» для переключения передач. В более дорогих версиях используются виртуальные приборы на экране 12,3”. У Киа К 5 есть медиасистема с голосовым управлением и встроенным видеорегистратором. Салон кожаный, оснащен подогревом сидений. Внутри улучшенная шумоизоляция, а благодаря увеличенной колесной базе салон стал просторнее.</p>"
       images:
-        - url: /img/models/k5/sections/4.webp
-        - url: /img/models/k5/sections/5.webp
-        - url: /img/models/k5/sections/6.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/k5/sections/4.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/k5/sections/5.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/k5/sections/6.webp
     - id: engine
       sectionClass: ""
       title: До ста — за 9 секунд
@@ -295,7 +295,7 @@
     - id: items
       sectionClass: "bg-gray-100"
       items:
-        - icon: seat
+        - icon: mdi:car-seat
           text: 5-ти и 7-ми местная компоновка салона
         - icon: drive-wise
           text: Системы безопасности Drive Wise
@@ -318,9 +318,9 @@
       </ul>
       <p>Каждая деталь этого кроссовера подчеркивает его динамичный и спортивный характер."
       images: 
-        - url: /img/models/sorento2024/sections/1.webp
-        - url: /img/models/sorento2024/sections/2.webp
-        - url: /img/models/sorento2024/sections/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sorento2024/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sorento2024/sections/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/sorento2024/sections/3.webp
     - id: interior
       sectionClass: ""
       title: Интерьер
@@ -388,11 +388,11 @@
       title: "Экстерьер и интерьер кроссовера: внимание к деталям"
       text: "<p>Автомобильный рынок знает немало примеров, когда дизайну уделяется слишком много внимания, в результате чего значительно страдает комфорт и удобство. Но только не в случае с новым Kia Seltos 2022: общий дизайн кузова и его пропорции формируют динамичный силуэт, который удачно подчеркивается удлиненной линией рельефного капота. Особого внимания заслуживает рифленая решетка радиатора, выполненная в стиле «нос тигра» и обрамленная хромированной накладкой. Массивный передний бампер дополняют стильные энергосберегающие светодиодные противотуманные фары, придающие внешнему облику дополнительную уверенность.</p>"
       images: 
-        - url: /img/models/seltos/sections/1.webp
-        - url: /img/models/seltos/sections/2.webp
-        - url: /img/models/seltos/sections/3.webp
-        - url: /img/models/seltos/sections/4.webp
-        - url: /img/models/seltos/sections/5.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/seltos/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/seltos/sections/2.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/seltos/sections/3.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/seltos/sections/4.webp
+        - url: https://cdn.alexsab.ru/b/kia/img/models/seltos/sections/5.webp
     - id: interior
       sectionClass: ""
       title: "Из дополнительных элементов оснащения салона стоит отметить:"

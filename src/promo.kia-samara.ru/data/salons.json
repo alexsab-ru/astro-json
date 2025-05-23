@@ -8,7 +8,7 @@
         "legal_inn": "6311098600",
         "map": {
             "zoom": 13,
-            "balloon": "/img/kia-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/locator/kia-locator.svg",
             "coords": [53.1836, 50.1530],
             "ya_link": "https://yandex.ru/maps/?z=17&ll=50.1530, 53.1836&l=map&rtext=~53.1836,50.1530&origin=jsapi_2_1_76&from=api-maps9"
         }
@@ -23,7 +23,7 @@
         "legal_inn": "6319214167",
         "map": {
             "zoom": 13,
-            "balloon": "/img/kia-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/locator/kia-locator.svg",
             "coords": [53.2487, 50.2155],
             "ya_link": "https://yandex.ru/maps/?z=17&ll=50.2155, 53.2487&l=map&rtext=~53.2487,50.2155&origin=jsapi_2_1_76&from=api-maps"
         }
