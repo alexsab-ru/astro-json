@@ -26,30 +26,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/new-haval-f7x/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/new-haval-f7x/thumb.webp",
         "colors": [
             {
                 "id": "noble-agate",
                 "name": "Благородный агат",
-                "carImage": "/img/models/new-haval-f7x/colors/noble-agate.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/new-haval-f7x/colors/noble-agate.webp",
                 "style": "background-color: #c4cad2;"
             },
             {
                 "id": "oceanic-lapis-lazuli",
                 "name": "Океанический лазурит",
-                "carImage": "/img/models/new-haval-f7x/colors/oceanic-lapis-lazuli.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/new-haval-f7x/colors/oceanic-lapis-lazuli.webp",
                 "style": "background-color: #122c4e;"
             },
             {
                 "id": "galactic-black",
                 "name": "Галактический черный",
-                "carImage": "/img/models/new-haval-f7x/colors/galactic-black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/new-haval-f7x/colors/galactic-black.webp",
                 "style": "background-color: #111111;"
             },
             {
                 "id": "smoky-pearls",
                 "name": "Дымчатый жемчуг",
-                "carImage": "/img/models/new-haval-f7x/colors/smoky-pearls.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/new-haval-f7x/colors/smoky-pearls.webp",
                 "style": "background-color: #666464;"
             }
         ],
