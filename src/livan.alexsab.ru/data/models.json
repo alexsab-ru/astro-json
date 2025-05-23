@@ -1,0 +1,310 @@
+[
+    {
+        "mark_id": "Livan",
+        "id": "x3pro",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/bg2.webp",
+        "slogan": "Быть свободным",
+        "name": "X3PRO",
+        "price": "{{price-livan-x3pro}}",
+        "benefit": "{{benefit-livan-x3pro}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X3PRO",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X3PRO",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/thumb.webp",
+        "colors": [
+            {
+                "id": "gold",
+                "name": "Золотой",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/gold.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Голубой",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/blue.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/gray.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2480",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4005",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1760",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "142",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Livan",
+        "id": "x6pro",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/bg.webp",
+        "slogan": "Дайте старт новому",
+        "name": "X6PRO",
+        "price": "{{price-livan-x6pro}}",
+        "benefit": "{{benefit-livan-x6pro}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. X6PRO",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. X6PRO",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/thumb.webp",
+        "colors": [
+            {
+                "id": "gray",
+                "name": "Красный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/colors/blue.webp",
+                "style": ""
+            },
+            {
+                "id": "green",
+                "name": "Зеленый",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/colors/green.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2683",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4535",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1845",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "270",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Livan",
+        "id": "s6pro",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/bg.webp",
+        "slogan": "Драйв в Вашем стиле",
+        "name": "S6PRO",
+        "price": "{{price-livan-s6pro}}",
+        "benefit": "{{benefit-livan-s6pro}}",
+        "badge": {
+            "img": "https://cdn.alexsab.ru/b/livan/img/badge-2024-with-text.png",
+            "imgModelPage": "https://cdn.alexsab.ru/b/livan/img/badge-2024-with-text-white.png",
+            "alt": "Автомобиль года"
+        },
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. S6PRO",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. S6PRO",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/thumb.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "light-blue",
+                "name": "Голубой металлик",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/colors/light-blue.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2702",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4730",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1818",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "270",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    }
+]
