@@ -150,30 +150,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/h9/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/h9/thumb.webp",
         "colors": [
             {
                 "id": "dusky-emerald",
                 "name": "Сумрачный изумруд",
-                "carImage": "/img/models/h9/colors/dusky-emerald.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h9/colors/dusky-emerald.webp",
                 "style": "background-color: rgba(6, 66, 64, 1);"
             },
             {
                 "id": "lunar-basalt",
                 "name": "Лунный базальт",
-                "carImage": "/img/models/h9/colors/lunar-basalt.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h9/colors/lunar-basalt.webp",
                 "style": "background-color: rgba(109, 113, 122, 1);"
             },
             {
                 "id": "snow-onyx",
                 "name": "Снежный оникс",
-                "carImage": "/img/models/h9/colors/snow-onyx.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h9/colors/snow-onyx.webp",
                 "style": "background-color: rgba(231, 231, 233, 1);"
             },
             {
                 "id": "black-jade",
                 "name": "Черный нефрит",
-                "carImage": "/img/models/h9/colors/black-jade.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h9/colors/black-jade.webp",
                 "style": "background-color: rgba(0, 0, 0, 1);"
             }
         ],
@@ -294,36 +294,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/h3/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/h3/thumb.webp",
         "colors": [
             {
                 "id": "neon-tourmaline",
                 "name": "Неоновый турмалин",
-                "carImage": "/img/models/h3/colors/neon-tourmaline.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h3/colors/neon-tourmaline.webp",
                 "style": "background-color: rgba(109, 135, 159, 1);"
             },
             {
                 "id": "galactic-black",
                 "name": "Галактический черный",
-                "carImage": "/img/models/h3/colors/galactic-black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h3/colors/galactic-black.webp",
                 "style": "background-color: rgba(0, 0, 0, 1);"
             },
             {
                 "id": "ashy-anthracite",
                 "name": "Пепельный антрацит",
-                "carImage": "/img/models/h3/colors/ashy-anthracite.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h3/colors/ashy-anthracite.webp",
                 "style": "background-color: rgba(83, 88, 108, 1);"
             },
             {
                 "id": "noble-agate",
                 "name": "Благородный агат",
-                "carImage": "/img/models/h3/colors/noble-agate.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h3/colors/noble-agate.webp",
                 "style": "background-color: #f5f5f5;"
             },
             {
                 "id": "terracotta-sapphire",
                 "name": "Терракотовый сапфир",
-                "carImage": "/img/models/h3/colors/terracotta-sapphire.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h3/colors/terracotta-sapphire.webp",
                 "style": "background-color: rgba(241, 110, 14, 1);"
             }
         ],
@@ -434,30 +434,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/h5/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/h5/thumb.webp",
         "colors": [
             {
                 "id": "black-jade",
                 "name": "Черный нефрит",
-                "carImage": "/img/models/h5/colors/black-jade.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h5/colors/black-jade.webp",
                 "style": "background-color: rgba(0, 0, 0, 1);"
             },
             {
                 "id": "snow-opal",
                 "name": "Снежный опал",
-                "carImage": "/img/models/h5/colors/snow-opal.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h5/colors/snow-opal.webp",
                 "style": "background-color:rgba(217, 218, 221, 1);"
             },
             {
                 "id": "foggy-basalt",
                 "name": "Туманный базальт",
-                "carImage": "/img/models/h5/colors/foggy-basalt.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h5/colors/foggy-basalt.webp",
                 "style": "background-color:rgba(151, 146, 145, 1);"
             },
             {
                 "id": "twilight-amethyst",
                 "name": "Сумеречный аметист",
-                "carImage": "/img/models/h5/colors/twilight-amethyst.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/h5/colors/twilight-amethyst.webp",
                 "style": "background-color:rgba(130, 130, 148, 1);"
             }
         ],
@@ -578,30 +578,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/f7/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/f7/thumb.webp",
         "colors": [
             {
                 "id": "oceanic-lapis-lazuli",
                 "name": "Океанический лазурит",
-                "carImage": "/img/models/f7/colors/oceanic-lapis-lazuli.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/f7/colors/oceanic-lapis-lazuli.webp",
                 "style": "background-color:rgba(10, 18, 32, 1);"
             },
             {
                 "id": "galactic-black",
                 "name": "Галактический черный",
-                "carImage": "/img/models/f7/colors/galactic-black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/f7/colors/galactic-black.webp",
                 "style": "background-color:rgba(0, 0, 0, 1);"
             },
             {
                 "id": "noble-agate",
                 "name": "Благородный агат",
-                "carImage": "/img/models/f7/colors/noble-agate.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/f7/colors/noble-agate.webp",
                 "style": "background-color:rgba(196, 202, 210, 1);"
             },
             {
                 "id": "smoky-pearls",
                 "name": "Дымчатый жемчуг",
-                "carImage": "/img/models/f7/colors/smoky-pearls.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/f7/colors/smoky-pearls.webp",
                 "style": "background-color:rgba(102, 100, 100, 1);"
             }
         ],
@@ -732,42 +732,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/jolion/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/jolion/thumb.webp",
         "colors": [
             {
                 "id": "noble-agate",
                 "name": "Благородный агат",
-                "carImage": "/img/models/jolion/colors/noble-agate.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/jolion/colors/noble-agate.webp",
                 "style": "background-color:rgba(196, 202, 210, 1);"
             },
             {
                 "id": "heavenly-topaz",
                 "name": "Океанический лазурит",
-                "carImage": "/img/models/jolion/colors/heavenly-topaz.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/jolion/colors/heavenly-topaz.webp",
                 "style": "background-color:#33a9cb;"
             },
             {
                 "id": "magmatic-red",
                 "name": "Магматический красный",
-                "carImage": "/img/models/jolion/colors/magmatic-red.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/jolion/colors/magmatic-red.webp",
                 "style": "background-color:#fd0404;"
             },
             {
                 "id": "platinum-neon",
                 "name": "Платиновый неон",
-                "carImage": "/img/models/jolion/colors/platinum-neon.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/jolion/colors/platinum-neon.webp",
                 "style": "background-color:#a3a3a3;"
             },
             {
                 "id": "galactic-black",
                 "name": "Галактический черный",
-                "carImage": "/img/models/jolion/colors/galactic-black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/jolion/colors/galactic-black.webp",
                 "style": "background-color:rgba(0, 0, 0, 1);"
             },
             {
                 "id": "smoky-pearls",
                 "name": "Дымчатый жемчуг",
-                "carImage": "/img/models/jolion/colors/smoky-pearls.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/jolion/colors/smoky-pearls.webp",
                 "style": "background-color:rgba(102, 100, 100, 1);"
             }
         ],
@@ -908,24 +908,24 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/m6/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/m6/thumb.webp",
         "colors": [
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/m6/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/m6/colors/gray.webp",
                 "style": "background-color: #808080;"
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/m6/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/m6/colors/black.webp",
                 "style": "background-color:#000000;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/m6/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/m6/colors/white.webp",
                 "style": "background-color: #e5e5e5;"
             }
         ],
@@ -1026,30 +1026,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/dargo-x/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/dargo-x/thumb.webp",
         "colors": [
             {
                 "id": "terracotta-sapphire",
                 "name": "Терракотовый сапфир",
-                "carImage": "/img/models/dargo-x/colors/terracotta-sapphire.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/terracotta-sapphire.webp",
                 "style": "background-color:rgba(201, 100, 59, 1);"
             },
             {
                 "id": "graphite-quartz",
                 "name": "Графитовый кварц",
-                "carImage": "/img/models/dargo-x/colors/graphite-quartz.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/graphite-quartz.webp",
                 "style": "background-color:rgba(81, 72, 79, 1);"
             },
             {
                 "id": "galactic-black",
                 "name": "Галактический черный / Черный нефрит",
-                "carImage": "/img/models/dargo-x/colors/galactic-black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/galactic-black.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "noble-agate",
                 "name": "Благородный агат",
-                "carImage": "/img/models/dargo-x/colors/noble-agate.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/noble-agate.webp",
                 "style": "background-color:rgba(176, 176, 169, 1);"
             }
         ],
@@ -1149,30 +1149,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/dargo-x/colors/terracotta-sapphire.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/terracotta-sapphire.webp",
         "colors": [
             {
                 "id": "graphite-quartz",
                 "name": "Графитовый кварц",
-                "carImage": "/img/models/dargo-x/colors/graphite-quartz.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/graphite-quartz.webp",
                 "style": "background-color:rgba(81, 72, 79, 1);"
             },
             {
                 "id": "terracotta-sapphire",
                 "name": "Терракотовый сапфир",
-                "carImage": "/img/models/dargo-x/colors/terracotta-sapphire.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/terracotta-sapphire.webp",
                 "style": "background-color:rgba(201, 100, 59, 1);"
             },
             {
                 "id": "noble-agate",
                 "name": "Благородный агат",
-                "carImage": "/img/models/dargo-x/colors/noble-agate.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/noble-agate.webp",
                 "style": "background-color:rgba(176, 176, 169, 1);"
             },
             {
                 "id": "galactic-black",
                 "name": "Галактический черный / Черный нефрит",
-                "carImage": "/img/models/dargo-x/colors/galactic-black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/galactic-black.webp",
                 "style": "background-color: #000000;"
             }
         ],
@@ -1292,42 +1292,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/poer-king-kong/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/poer-king-kong/thumb.webp",
         "colors": [
             {
                 "id": "blue",
                 "name": "Голубой",
-                "carImage": "/img/models/poer-king-kong/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer-king-kong/colors/blue.webp",
                 "style": "background-color:rgba(112, 139, 150, 1);"
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/poer-king-kong/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer-king-kong/colors/black.webp",
                 "style": "background-color:rgba(0, 0, 0, 1);"
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/poer-king-kong/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer-king-kong/colors/red.webp",
                 "style": "background-color:rgba(208, 4, 25, 1);"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/poer-king-kong/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer-king-kong/colors/gray.webp",
                 "style": "background-color:rgba(137, 137, 145, 1);"
             },
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/poer-king-kong/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer-king-kong/colors/silver.webp",
                 "style": "background-color:rgba(177, 177, 177, 1);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/poer-king-kong/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer-king-kong/colors/white.webp",
                 "style": "background-color:rgba(232, 232, 230, 1);"
             }
         ],
@@ -1448,42 +1448,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/poer/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/models/haval/poer/thumb.webp",
         "colors": [
             {
                 "id": "brown",
                 "name": "Коричневый",
-                "carImage": "/img/models/poer/colors/brown.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer/colors/brown.webp",
                 "style": "background-color:rgba(57, 42, 28, 1);"
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/poer/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer/colors/black.webp",
                 "style": "background-color:rgba(0, 0, 0, 1);"
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/poer/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer/colors/red.webp",
                 "style": "background-color:rgba(208, 4, 25, 1);"
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/poer/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer/colors/blue.webp",
                 "style": "background-color:rgba(39, 52, 166, 1);"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/poer/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer/colors/gray.webp",
                 "style": "background-color:rgba(137, 137, 145, 1);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/poer/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/models/haval/poer/colors/white.webp",
                 "style": "background-color:rgba(232, 232, 230, 1);"
             }
         ],
