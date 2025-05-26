@@ -102,6 +102,60 @@ def extract_improve_offer_background(content):
     match = re.search(r'<Callback bgUrl="(.*?)"', content)
     return match.group(1) if match else ""
 
+def check_settings_files():
+    settings_dir = os.path.join(OUTPUT_JSON_BASE)
+    if not os.path.exists(settings_dir):
+        print(f"{bcolors.FAIL}[!] Директория {settings_dir} не существует{bcolors.ENDC}")
+        return
+
+    missing_files = []
+    missing_logo_header = []
+    missing_logo_header_value = []
+
+    for site_dir in os.listdir(settings_dir):
+        site_path = os.path.join(settings_dir, site_dir)
+        if not os.path.isdir(site_path):
+            continue
+
+        settings_file = os.path.join(site_path, 'data', 'settings.json')
+        if not os.path.exists(settings_file):
+            missing_files.append(site_dir)
+            continue
+
+        try:
+            with open(settings_file, 'r', encoding='utf-8') as f:
+                settings = json.load(f)
+                
+            if 'logo_header' not in settings:
+                missing_logo_header.append(site_dir)
+            elif not settings['logo_header']:
+                missing_logo_header_value.append(site_dir)
+        except Exception as e:
+            print(f"{bcolors.FAIL}[!] Ошибка чтения {settings_file}: {str(e)}{bcolors.ENDC}")
+
+    print(f"\n{bcolors.OKBLUE}[i] Проверка settings.json:{bcolors.ENDC}")
+    
+    if missing_files:
+        print(f"\n{bcolors.WARNING}[!] Отсутствуют файлы settings.json в директориях: {len(missing_files)}{bcolors.ENDC}")
+        for site in missing_files:
+            print(f"{bcolors.WARNING}[!] - {site}{bcolors.ENDC}")
+    else:
+        print(f"{bcolors.OKGREEN}[✓] Все директории содержат файл settings.json{bcolors.ENDC}")
+
+    if missing_logo_header:
+        print(f"\n{bcolors.WARNING}[!] Отсутствует ключ logo_header в файлах: {len(missing_logo_header)}{bcolors.ENDC}")
+        for site in missing_logo_header:
+            print(f"{bcolors.WARNING}[!] - {site}{bcolors.ENDC}")
+    else:
+        print(f"{bcolors.OKGREEN}[✓] Все файлы содержат ключ logo_header{bcolors.ENDC}")
+
+    if missing_logo_header_value:
+        print(f"\n{bcolors.WARNING}[!] Пустое значение logo_header в файлах: {len(missing_logo_header_value)}{bcolors.ENDC}")
+        for site in missing_logo_header_value:
+            print(f"{bcolors.WARNING}[!] - {site}{bcolors.ENDC}")
+    else:
+        print(f"{bcolors.OKGREEN}[✓] Все файлы содержат непустое значение logo_header{bcolors.ENDC}")
+
 def main():
     # Получаем директорию запуска скрипта
     current_dir = os.getcwd()
@@ -256,6 +310,9 @@ def main():
     print(f"\n{bcolors.OKBLUE}[i] Пропущено (нет данных в {name}): {len(skipped_no_const_content)}{bcolors.ENDC}")
     for item in skipped_no_const_content:
         print(item)
+
+    # Запускаем проверку settings.json
+    check_settings_files()
 
 if __name__ == "__main__":
     main()
