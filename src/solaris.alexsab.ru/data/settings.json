@@ -10,5 +10,14 @@
     "yandex_widget_orgnization": "",
     "header_top_line": "",
     "connectforms_link": "https://alexsab.ru/lead/dev/",
-    "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6"
+    "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "favicon": "",
+    "logo_header": "https://cdn.alexsab.ru/logo/solaris/logo-dark-horizontal.svg",
+    "logo_map_info": "https://cdn.alexsab.ru/logo/solaris/logo-dark-horizontal.svg",
+    "logo_footer": "https://cdn.alexsab.ru/logo/solaris/logo-white-horizontal.svg",
+    "logo_dealer": "",
+    "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
+    "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
+    "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+    "improve_offer_background": "https://cdn.alexsab.ru/konkurenty/solaris-hc-hero.webp"
 }

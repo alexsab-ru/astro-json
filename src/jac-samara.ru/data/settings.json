@@ -10,5 +10,14 @@
     "yandex_widget_orgnization": "CDVxRGLQ",
     "header_top_line": "",
     "connectforms_link": "https://alexsab.ru/lead/jac/samara/",
-    "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6"
+    "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "favicon": "/favicon.svg",
+    "logo_header": "/img/logo/logo.svg",
+    "logo_map_info": "/img/logo/logo.svg",
+    "logo_footer": "/img/logo/logo.svg",
+    "logo_dealer": "",
+    "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
+    "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
+    "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+    "improve_offer_background": ""
 }

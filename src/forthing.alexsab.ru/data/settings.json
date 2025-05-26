@@ -9,6 +9,15 @@
     "phone_common": "+7 (999) 000-00-00",
     "yandex_widget_orgnization": "",
     "header_top_line": "",
-    "connectforms_link": "https://alexsab.ru/lead/dev/",
-    "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6"
+    "connectforms_link": "https://alexsab.ru/lead/test/",
+    "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "favicon": "https://cdn.alexsab.ru/b/forthing/favicon.svg",
+    "logo_header": "https://cdn.alexsab.ru/b/forthing/img/logo/logo.webp",
+    "logo_map_info": "",
+    "logo_footer": "https://cdn.alexsab.ru/b/forthing/img/logo/logo.webp",
+    "logo_dealer": "",
+    "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
+    "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
+    "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+    "improve_offer_background": ""
 }

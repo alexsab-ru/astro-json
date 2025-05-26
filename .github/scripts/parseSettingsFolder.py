@@ -73,6 +73,35 @@ def get_main_branch(repo_path):
         print(f"{bcolors.FAIL}[!] Ошибка при проверке веток в {repo_path}: {str(e)}{bcolors.ENDC}")
         return None
 
+def read_existing_settings(file_path):
+    try:
+        if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+    except Exception as e:
+        print(f"{bcolors.WARNING}[!] Ошибка чтения существующего файла настроек {file_path}: {str(e)}{bcolors.ENDC}")
+    return {}
+
+def extract_favicon(content):
+    match = re.search(r'<link rel="icon" type="image/svg\+xml" href="(.*?)" />', content)
+    return match.group(1) if match else ""
+
+def extract_logo_header(content):
+    match = re.search(r'<img src="(.*?)" class=".*?" alt={.*?}', content)
+    return match.group(1) if match else ""
+
+def extract_logo_map_info(content):
+    match = re.search(r'<img src="(.*?)" class="w-full" alt={.*?}', content)
+    return match.group(1) if match else ""
+
+def extract_logo_footer(content):
+    match = re.search(r'<img src="(.*?)" class=".*?" loading="lazy" alt={.*?}', content)
+    return match.group(1) if match else ""
+
+def extract_improve_offer_background(content):
+    match = re.search(r'<Callback bgUrl="(.*?)"', content)
+    return match.group(1) if match else ""
+
 def main():
     # Получаем директорию запуска скрипта
     current_dir = os.getcwd()
@@ -135,9 +164,14 @@ def main():
             print(f"{bcolors.OKCYAN}[i] Пропущено (нет локальной папки): {OUTPUT_JSON_BASE}/{name}{bcolors.ENDC}")
             continue
 
-        # Читаем файлы локально
+        # Читаем все необходимые файлы
         const_content = read_local_file(os.path.join(repo_path, 'src/const.js'))
         app_content = read_local_file(os.path.join(repo_path, 'src/js/app.js'))
+        head_content = read_local_file(os.path.join(repo_path, 'src/components/Head.astro'))
+        logo_content = read_local_file(os.path.join(repo_path, 'src/components/Logo/Logo.astro'))
+        map_info_content = read_local_file(os.path.join(repo_path, 'src/components/Map/MapInfo.astro'))
+        footer_content = read_local_file(os.path.join(repo_path, 'src/components/ExtendedFooter.astro'))
+        index_content = read_local_file(os.path.join(repo_path, 'src/pages/index.astro'))
 
         if not const_content and not app_content:
             print(f"{bcolors.FAIL}[!] Нет данных в {name}{bcolors.ENDC}")
@@ -146,23 +180,38 @@ def main():
         consts = extract_consts(const_content)
         connect_url, recaptcha_key = extract_app(app_content)
 
-        settings = {}
-        settings["brand"] = consts.get("BRAND", "")
-        settings["site_name"] = consts.get("SITE_NAME", "")
-        settings["site_description"] = consts.get("SITE_DESCR", "")
-        settings["legal_entity"] = consts.get("LEGAL_ENTITY", "")
-        settings["legal_inn"] = consts.get("LEGAL_INN", "")
-        settings["legal_city"] = consts.get("LEGAL_CITY", "")
-        settings["legal_city_where"] = consts.get("LEGAL_CITY_WHERE", "")
-        settings["phone_common"] = consts.get("PHONE", "")
-        settings["yandex_widget_orgnization"] = consts.get("LINK_WIDGET_ORGNIZATION", "")
-        settings["header_top_line"] = consts.get("HEADER_TOP_LINE", "")
-        settings["connectforms_link"] = connect_url
-        settings["grecaptcha_open"] = recaptcha_key
-
+        # Читаем существующие настройки
         data_dir = os.path.join(local_path, 'data')
-        os.makedirs(data_dir, exist_ok=True)
         output_file = os.path.join(data_dir, 'settings.json')
+        existing_settings = read_existing_settings(output_file)
+
+        # Создаем новые настройки, сохраняя существующие значения если новые пустые
+        settings = {}
+        settings["brand"] = consts.get("BRAND", existing_settings.get("brand", ""))
+        settings["site_name"] = consts.get("SITE_NAME", existing_settings.get("site_name", ""))
+        settings["site_description"] = consts.get("SITE_DESCR", existing_settings.get("site_description", ""))
+        settings["legal_entity"] = consts.get("LEGAL_ENTITY", existing_settings.get("legal_entity", ""))
+        settings["legal_inn"] = consts.get("LEGAL_INN", existing_settings.get("legal_inn", ""))
+        settings["legal_city"] = consts.get("LEGAL_CITY", existing_settings.get("legal_city", ""))
+        settings["legal_city_where"] = consts.get("LEGAL_CITY_WHERE", existing_settings.get("legal_city_where", ""))
+        settings["phone_common"] = consts.get("PHONE", existing_settings.get("phone_common", ""))
+        settings["yandex_widget_orgnization"] = consts.get("LINK_WIDGET_ORGNIZATION", existing_settings.get("yandex_widget_orgnization", ""))
+        settings["header_top_line"] = consts.get("HEADER_TOP_LINE", existing_settings.get("header_top_line", ""))
+        settings["connectforms_link"] = connect_url or existing_settings.get("connectforms_link", "")
+        settings["grecaptcha_open"] = recaptcha_key or existing_settings.get("grecaptcha_open", "")
+
+        # Добавляем новые настройки
+        settings["favicon"] = extract_favicon(head_content) if head_content else existing_settings.get("favicon", "")
+        settings["logo_header"] = extract_logo_header(logo_content) if logo_content else existing_settings.get("logo_header", "")
+        settings["logo_map_info"] = extract_logo_map_info(map_info_content) if map_info_content else existing_settings.get("logo_map_info", "")
+        settings["logo_footer"] = extract_logo_footer(footer_content) if footer_content else existing_settings.get("logo_footer", "")
+        settings["logo_dealer"] = existing_settings.get("logo_dealer", "")
+        settings["manager_photo"] = "https://cdn.alexsab.ru/people/user.webp"
+        settings["map_background"] = "https://cdn.alexsab.ru/maps/map-bg.webp"
+        settings["default_model_background"] = "https://cdn.alexsab.ru/models/default-model-bg.webp"
+        settings["improve_offer_background"] = extract_improve_offer_background(index_content) if index_content else existing_settings.get("improve_offer_background", "")
+
+        os.makedirs(data_dir, exist_ok=True)
 
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(settings, f, ensure_ascii=False, indent=4)
