@@ -111,18 +111,27 @@ def main():
     repos = [d for d in os.listdir(current_dir) if os.path.isdir(os.path.join(current_dir, d))]
     print(f"{bcolors.OKGREEN}[i] Найдено директорий: {len(repos)}{bcolors.ENDC}")
 
+    skipped_no_git = []
+    skipped_no_main_branch = []
+    skipped_no_required_files = []
+    skipped_no_name = []
+    skipped_no_local_path = []
+    skipped_no_const_content = []
+
     for repo in repos:
         repo_path = os.path.join(current_dir, repo)
         
         # Проверяем, является ли директория git репозиторием
         if not os.path.exists(os.path.join(repo_path, '.git')):
-            print(f"{bcolors.WARNING}[!] Пропущено (не git репозиторий): {repo}{bcolors.ENDC}")
+            skipped_no_git.append(f"{bcolors.WARNING}[!] Пропущено (не git репозиторий): {repo}{bcolors.ENDC}")
+            print(skipped_no_git[-1])
             continue
 
         # Проверяем и переключаемся на главную ветку
         main_branch = get_main_branch(repo_path)
         if not main_branch:
-            print(f"{bcolors.WARNING}[!] Пропущено (не удалось определить главную ветку): {repo}{bcolors.ENDC}")
+            skipped_no_main_branch.append(f"{bcolors.WARNING}[!] Пропущено (не удалось определить главную ветку): {repo}{bcolors.ENDC}")
+            print(skipped_no_main_branch[-1])
             continue
         
         # Проверяем наличие обязательных файлов
@@ -133,7 +142,8 @@ def main():
         ]
         
         if not all(os.path.exists(f) for f in required_files):
-            print(f"{bcolors.WARNING}[!] Пропущено (отсутствуют обязательные файлы): {repo}{bcolors.ENDC}")
+            skipped_no_required_files.append(f"{bcolors.WARNING}[!] Пропущено (отсутствуют обязательные файлы): {repo}{bcolors.ENDC}")
+            print(skipped_no_required_files[-1])
             continue
 
         # Определяем name из .env или astro.config.mjs
@@ -156,12 +166,14 @@ def main():
                     name = match.group(1).replace('https://', '').replace('http://', '').rstrip('/')
 
         if not name:
-            print(f"{bcolors.WARNING}[!] Не удалось определить имя для {repo}{bcolors.ENDC}")
+            skipped_no_name.append(f"{bcolors.WARNING}[!] Не удалось определить имя для {repo}{bcolors.ENDC}")
+            print(skipped_no_name[-1])
             continue
 
         local_path = os.path.join(OUTPUT_JSON_BASE, name)
         if not os.path.isdir(local_path):
-            print(f"{bcolors.OKCYAN}[i] Пропущено (нет локальной папки): {OUTPUT_JSON_BASE}/{name}{bcolors.ENDC}")
+            skipped_no_local_path.append(f"{bcolors.OKCYAN}[i] Пропущено (нет локальной папки): {OUTPUT_JSON_BASE}/{name}{bcolors.ENDC}")
+            print(skipped_no_local_path[-1])
             continue
 
         # Читаем все необходимые файлы
@@ -174,7 +186,8 @@ def main():
         index_content = read_local_file(os.path.join(repo_path, 'src/pages/index.astro'))
 
         if not const_content and not app_content:
-            print(f"{bcolors.FAIL}[!] Нет данных в {name}{bcolors.ENDC}")
+            skipped_no_const_content.append(f"{bcolors.FAIL}[!] Нет данных в {name}{bcolors.ENDC}")
+            print(skipped_no_const_content[-1])
             continue
 
         consts = extract_consts(const_content)
@@ -219,6 +232,30 @@ def main():
             json.dump(settings, f, ensure_ascii=False, indent=4)
 
         print(f"{bcolors.OKGREEN}[✓] Сохранено: {output_file}{bcolors.ENDC}")
+
+    print(f"\n{bcolors.OKBLUE}[i] Пропущено (не git репозиторий): {len(skipped_no_git)}{bcolors.ENDC}")
+    for item in skipped_no_git:
+        print(item)
+
+    print(f"\n{bcolors.OKBLUE}[i] Пропущено (не удалось определить главную ветку): {len(skipped_no_main_branch)}{bcolors.ENDC}")
+    for item in skipped_no_main_branch:
+        print(item)
+
+    print(f"\n{bcolors.OKBLUE}[i] Пропущено (отсутствуют обязательные файлы): {len(skipped_no_required_files)}{bcolors.ENDC}")
+    for item in skipped_no_required_files:
+        print(item)
+
+    print(f"\n{bcolors.OKBLUE}[i] Пропущено (не удалось определить имя): {len(skipped_no_name)}{bcolors.ENDC}")
+    for item in skipped_no_name:
+        print(item)
+
+    print(f"\n{bcolors.OKBLUE}[i] Пропущено (нет локальной папки): {len(skipped_no_local_path)}{bcolors.ENDC}")
+    for item in skipped_no_local_path:
+        print(item)
+
+    print(f"\n{bcolors.OKBLUE}[i] Пропущено (нет данных в {name}): {len(skipped_no_const_content)}{bcolors.ENDC}")
+    for item in skipped_no_const_content:
+        print(item)
 
 if __name__ == "__main__":
     main()
