@@ -26,7 +26,7 @@
         "type": "",
         "view": "popup-link",
         "videoUrl": "",
-        "imageUrl": "/img/banners/banner.webp",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/krd/banner.webp",
         "title": "График работы ДЦ в новогодние праздники:",
         "descr": "31.12 - с 08:00 до 15:00 <br/>01.01 - 03.01 - Выходной<br/>04.01 - 05.01 - с 09:00 до 18:00<br/>06.01 - 07.01 - с 09:00 до 17:00",
         "alt": "График Работы",
@@ -43,7 +43,7 @@
         "type": "",
         "view": "popup-link",
         "videoUrl": "",
-        "imageUrl": "/img/banners/kaiyi-x3-comfort.webp",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/krd/kaiyi-x3-comfort.webp",
         "title": "Распродажа в Автохолдинг Тургеневский <br/>до {{lastDay}} {{monthGenitive}} {{year}}!",
         "descr": "",
         "alt": "Распродажа в Автохолдинг Тургеневский",
@@ -60,7 +60,7 @@
         "type": "video",
         "view": "popup-link",
         "videoUrl": "https://alexsab.ru/video/kaiyi-e5-compress.mp4",
-        "imageUrl": "/img/banners/banner.webp",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/krd/banner.webp",
         "title": "Рассрочка без переплат на все модели KAIYI до конца {{monthGenitive}}!",
         "descr": "Еще никогда покупка нового автомобиля не была такой доступной и выгодной!",
         "btn": "Купить в рассрочку",
@@ -71,7 +71,7 @@
             "autoname": "KAIYI E5",
             "title": "Ежегодная национальная премия",
             "descr": "Лучший автомобиль в своём сегменте",
-            "image": "/img/car-year-white.png"
+            "image": "https://cdn.alexsab.ru/b/kaiyi/img/car-year-white.png"
         },
         "autoplay": 7000
     },
@@ -81,7 +81,7 @@
         "type": "",
         "view": "popup-link",
         "videoUrl": "",
-        "imageUrl": "/img/banners/banner.webp",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/krd/banner.webp",
         "title": "С&nbsp;заботой о&nbsp;Вашей безопасности!",
         "descr": "Комплект зимних шин в&nbsp;подарок",
         "btn": "Узнать подробнее",
@@ -97,7 +97,7 @@
         "type": "",
         "view": "popup-link",
         "videoUrl": "",
-        "imageUrl": "/img/banners/e5.webp",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/krd/e5.webp",
         "title": "Только честные условия без навязанных страховок",
         "descr": "",
         "btn": "Узнать подробнее",
@@ -108,7 +108,7 @@
             "autoname": "KAIYI E5",
             "title": "Ежегодная национальная премия",
             "descr": "Лучший автомобиль в своём сегменте",
-            "image": "/img/car-year-white.png"
+            "image": "https://cdn.alexsab.ru/b/kaiyi/img/car-year-white.png"
         },
         "autoplay": 7000
     }

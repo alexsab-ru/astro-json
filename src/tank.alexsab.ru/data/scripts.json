@@ -1,9 +1,9 @@
 {
-    "site": "tank-penza.ru",
+    "site": "tank.alexsab.ru",
     "gtm": "GTM-NMDLDB3F",
     "metrika": [
         {
-            "id": 99940614,
+            "id": 48905003,
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -31,6 +31,7 @@
         "site_id": ""
     },
     "konget": "",
+    "smartpoint": "",
     "streamwood": {
         "code": "",
         "quiz": ""

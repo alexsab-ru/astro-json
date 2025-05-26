@@ -26,36 +26,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/300/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/tank/img/models/300/thumb.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный Эльтон, металлик",
-                "carImage": "/img/models/300/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/red.webp",
                 "style": "background-color: #ef2929;"
             },
             {
                 "id": "orange",
                 "name": "Чарский Оранжевый, металлик",
-                "carImage": "/img/models/300/colors/orange.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/orange.webp",
                 "style": "background-color: #df4c30;"
             },
             {
                 "id": "gray",
                 "name": "Серый Шантар",
-                "carImage": "/img/models/300/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/gray.webp",
                 "style": "background-color: #c6c9ce;"
             },
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
-                "carImage": "/img/models/300/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "white",
                 "name": "Белый Ольхон, металлик",
-                "carImage": "/img/models/300/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/white.webp",
                 "style": "background-color: #e6e7e8;"
             }
         ],
@@ -175,30 +175,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/400/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/tank/img/models/400/thumb.webp",
         "colors": [
             {
                 "id": "green",
                 "name": "Зеленый Ольхон, металлик",
-                "carImage": "/img/models/400/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/400/colors/green.webp",
                 "style": "background-color: #505d5d;"
             },
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
-                "carImage": "/img/models/400/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/400/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый Сихоте, металлик.",
-                "carImage": "/img/models/400/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/400/colors/silver.webp",
                 "style": "background-color: #a2a4ab;"
             },
             {
                 "id": "gray",
                 "name": "Серый Куштау, металлик",
-                "carImage": "/img/models/400/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/400/colors/gray.webp",
                 "style": "background-color: #4f5664;"
             }
         ],
@@ -298,30 +298,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/500/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/tank/img/models/500/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
-                "carImage": "/img/models/500/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/500/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый Сихоте, металлик",
-                "carImage": "/img/models/500/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/500/colors/silver.webp",
                 "style": "background-color: #a2a4ab;"
             },
             {
                 "id": "gold",
                 "name": "Золото Рускеала, металлик",
-                "carImage": "/img/models/500/colors/gold.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/500/colors/gold.webp",
                 "style": "background-color: #b0a798;"
             },
             {
                 "id": "white",
                 "name": "Снежная Иремель, металлик",
-                "carImage": "/img/models/500/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/500/colors/white.webp",
                 "style": "background-color: #e6e7e8;"
             }
         ],
@@ -441,18 +441,18 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/700/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/tank/img/models/700/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
-                "carImage": "/img/models/700/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/700/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "gray",
                 "name": "Мультинский Серый, металлик",
-                "carImage": "/img/models/700/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/tank/img/models/700/colors/gray.webp",
                 "style": "background-color: #4f5664;"
             }
         ],

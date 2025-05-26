@@ -1,5 +1,5 @@
 {
-    "site": "tank-partner-samara.ru",
+    "site": "omoda.alexsab.ru",
     "gtm": "GTM-NMDLDB3F",
     "metrika": [
         {
@@ -31,6 +31,7 @@
         "site_id": ""
     },
     "konget": "",
+    "smartpoint": "",
     "streamwood": {
         "code": "",
         "quiz": ""

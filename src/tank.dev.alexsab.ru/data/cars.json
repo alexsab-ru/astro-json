@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tank-300",
+    "model": "TANK 300",
+    "price": "3799000",
+    "benefit": "",
+    "link": "https://tank.ru/models/tank-300"
+  },
+  {
+    "id": "tank-400",
+    "model": "TANK 400",
+    "price": "5199000",
+    "benefit": "",
+    "link": "https://tank.ru/models/tank-400"
+  },
+  {
+    "id": "tank-500",
+    "model": "TANK 500",
+    "price": "6099000",
+    "benefit": "",
+    "link": "https://tank.ru/models/tank-500"
+  },
+  {
+    "id": "tank-700",
+    "model": "TANK 700",
+    "price": "8599000",
+    "benefit": "",
+    "link": "https://tank.ru/models/tank-700"
+  }
+]

@@ -1,0 +1,625 @@
+[
+    {
+        "mark_id": "OMODA",
+        "id": "c5fl",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Вдохновленный авангардным искусством",
+        "name": "C5 New",
+        "price": "{{price-omoda-modelc5}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. OMODA C5 New",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. OMODA C5 New",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/c5fl/thumb.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/c5fl/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный",
+                "carImage": "/img/models/c5fl/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "carImage": "/img/models/c5fl/colors/silver.webp",
+                "style": "background-color: #6d767b;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/c5fl/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "white-black",
+                "name": "Белый с черной крышей",
+                "carImage": "/img/models/c5fl/colors/white-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #000 50%, #f3f4f6 50%);"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "/img/models/c5fl/colors/blue.webp",
+                "style": "background-color: #1c277a;"
+            },
+            {
+                "id": "silver-black",
+                "name": "Серебристый с черной крышей",
+                "carImage": "/img/models/c5fl/colors/silver-black.webp",
+                "style": "background-image: linear-gradient(to bottom, #000 50%, #6d767b 50%);"
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/c5fl/colors/black.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "C5, I Рестайлинг"
+        ],
+        "complectations": [
+            {
+                "name": "Fun",
+                "price": 2019900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT9",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Lifestyle",
+                "price": 2269900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT9",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultimate",
+                "price": 2409900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT9",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Drive",
+                "price": 2299900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Active",
+                "price": 2569900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Supreme",
+                "price": 2709900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT9/DCT7"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2630",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4400",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1830",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5/1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "210/275",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний/Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "OMODA",
+        "id": "c5",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "",
+        "name": "C5",
+        "price": "{{price-omoda-modelc5}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. OMODA C5",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. OMODA C5",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/c5/thumb.webp",
+        "colors": [
+            {
+                "id": "silver",
+                "name": "Серебристый (Silver Premium Double Color)",
+                "carImage": "/img/models/c5/colors/silver.webp",
+                "style": "background-color: #6d767b;"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый (Green Premium Double Color)",
+                "carImage": "/img/models/c5/colors/green.webp",
+                "style": "background-color: #8baa95;"
+            },
+            {
+                "id": "black",
+                "name": "Черный (Black)",
+                "carImage": "/img/models/c5/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "dark-blue",
+                "name": "Темно-синий (Dark Blue)",
+                "carImage": "/img/models/c5/colors/dark-blue.webp",
+                "style": "background-color: #1c2c3b;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый (Grey Premium)",
+                "carImage": "/img/models/c5/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "vanila-blue",
+                "name": "Vanila Blue",
+                "carImage": "/img/models/c5/colors/vanila-blue.webp",
+                "style": "background-color: #929fb5;"
+            },
+            {
+                "id": "white",
+                "name": "Белый (White Premium Double Color)",
+                "carImage": "/img/models/c5/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный (Red)",
+                "carImage": "/img/models/c5/colors/red.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "C5, I"
+        ],
+        "complectations": [
+            {
+                "name": "Fun",
+                "price": 1889900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT9",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Lifestyle",
+                "price": 2021900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT9",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Ultimate",
+                "price": 2133900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT9",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Active",
+                "price": 2379900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Supreme",
+                "price": 2479900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "150",
+                "gear_rus": "Робот DCT7",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT9/DCT7"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2630",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4400",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1830",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5/1.6",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "210/275",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний/Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "OMODA",
+        "id": "s5",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "БУДУЩЕЕ СТАНОВИТСЯ НАСТОЯЩИМ!",
+        "name": "S5",
+        "price": "{{price-omoda-models5}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. OMODA S5",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. OMODA S5",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/s5/thumb.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/s5/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/s5/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "/img/models/s5/colors/blue.webp",
+                "style": "background-color: #455a85;"
+            },
+            {
+                "id": "red",
+                "name": "Красный",
+                "carImage": "/img/models/s5/colors/red.webp",
+                "style": "background-color: #d7241f;"
+            },
+            {
+                "id": "steel",
+                "name": "Стальной",
+                "carImage": "/img/models/s5/colors/steel.webp",
+                "style": "background-color: #616872;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/s5/colors/white.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+        ],
+        "complectations": [
+            {
+                "name": "Classic",
+                "price": 1809900,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "113",
+                "gear_rus": "Вариатор CVT18",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT18"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2650",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4644",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1814",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "138",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "OMODA",
+        "id": "s5gt",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "БУДУЩЕЕ УСТАНОВЛЕНО",
+        "name": "S5 GT",
+        "price": "{{price-omoda-s5gt}}",
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. OMODA S5 GT",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. OMODA S5 GT",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "/img/models/s5gt/thumb.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный",
+                "carImage": "/img/models/s5gt/colors/black.webp",
+                "style": "background-color: #222222;"
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "carImage": "/img/models/s5gt/colors/blue.webp",
+                "style": "background-color: #455a85;"
+            },
+            {
+                "id": "green",
+                "name": "Зеленый",
+                "carImage": "/img/models/s5gt/colors/green.webp",
+                "style": "background-color: #557f86;"
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "/img/models/s5gt/colors/gray.webp",
+                "style": "background-color: #8a919b;"
+            },
+            {
+                "id": "red",
+                "name": "Красный",
+                "carImage": "/img/models/s5gt/colors/red.webp",
+                "style": "background-color: #d7241f;"
+            },
+            {
+                "id": "steel",
+                "name": "Стальной",
+                "carImage": "/img/models/s5gt/colors/steel.webp",
+                "style": "background-color: #616872;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "/img/models/s5gt/colors/white.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "S5 GT"
+        ],
+        "complectations": [
+            {
+                "name": "Tech",
+                "price": 2129900,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "Вариатор CVT25",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT25"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2650",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4691",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1814",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "210",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    }
+]
