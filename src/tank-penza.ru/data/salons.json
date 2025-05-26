@@ -6,7 +6,7 @@
         "work_hours": "Пн-Пт 09:00-19:00;<br>Сб- 09:00-18:00;<br>Вс- 09:00-16:00",
         "map": {
             "zoom": 17,
-            "balloon": "/img/tank-locator.svg",
+            "balloon": " https://cdn.alexsab.ru/locator/tank-locator.svg",
             "coords": [53.233942, 44.900340],
             "ya_link": "https://yandex.com/maps/49/penza/?ll=44.900340%2C53.233942&mode=routes&rtext=~53.233942%2C44.900340&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D45766503798&z=17"
         }
