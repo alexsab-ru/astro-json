@@ -205,7 +205,9 @@ def main():
         settings["logo_header"] = extract_logo_header(logo_content) if logo_content else existing_settings.get("logo_header", "")
         settings["logo_map_info"] = extract_logo_map_info(map_info_content) if map_info_content else existing_settings.get("logo_map_info", "")
         settings["logo_footer"] = extract_logo_footer(footer_content) if footer_content else existing_settings.get("logo_footer", "")
-        settings["logo_dealer"] = existing_settings.get("logo_dealer", "")
+        settings["logo_dealer_header"] = existing_settings.get("logo_dealer_header", "")
+        settings["logo_dealer_map_info"] = existing_settings.get("logo_dealer_map_info", "")
+        settings["logo_dealer_footer"] = existing_settings.get("logo_dealer_footer", "")
         settings["manager_photo"] = "https://cdn.alexsab.ru/people/user.webp"
         settings["map_background"] = "https://cdn.alexsab.ru/maps/map-bg.webp"
         settings["default_model_background"] = "https://cdn.alexsab.ru/models/default-model-bg.webp"
