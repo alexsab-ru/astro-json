@@ -159,6 +159,49 @@ def check_settings_files():
         else:
             print(f"{bcolors.OKGREEN}[✓] Все файлы содержат корректное значение {key}{bcolors.ENDC}")
 
+def create_start_script():
+    current_dir = os.getcwd()
+    missing_env = []
+    
+    # Проверяем все директории на наличие .env и package.json и astro.config.mjs
+    for repo in os.listdir(current_dir):
+        repo_path = os.path.join(current_dir, repo)
+        if not os.path.isdir(repo_path):
+            continue
+            
+        env_path = os.path.join(repo_path, '.env')
+        package_path = os.path.join(repo_path, 'package.json')
+        astro_config_path = os.path.join(repo_path, 'astro.config.mjs')
+        
+        # Добавляем только если нет .env, но есть package.json и astro.config.mjs
+        if not os.path.exists(env_path) and os.path.exists(package_path) and os.path.exists(astro_config_path):
+            missing_env.append(repo)
+
+    if not missing_env:
+        print(f"{bcolors.OKGREEN}[✓] Все репозитории содержат файл .env или не являются npm-проектами{bcolors.ENDC}")
+        return
+
+    print(f"\n{bcolors.WARNING}[!] Отсутствует .env в npm-проектах: {len(missing_env)}{bcolors.ENDC}")
+    for repo in missing_env:
+        print(f"{bcolors.WARNING}[!] - {repo}{bcolors.ENDC}")
+
+    # Создаем скрипт для запуска pnpm start
+    script_path = os.path.join(current_dir, 'start_missing_env.sh')
+    with open(script_path, 'w', encoding='utf-8') as f:
+        f.write('#!/bin/bash\n\n')
+        f.write('echo "Запуск pnpm start в npm-проектах без .env"\n\n')
+        for repo in missing_env:
+            f.write(f'echo "Переход в {repo}"\n')
+            f.write(f'cd "{repo}"\n')
+            f.write('pnpm start\n')
+            f.write('cd ..\n\n')
+    
+    # Делаем скрипт исполняемым
+    os.chmod(script_path, 0o755)
+    
+    print(f"\n{bcolors.OKBLUE}[i] Создан скрипт для запуска: {script_path}{bcolors.ENDC}")
+    print(f"{bcolors.OKBLUE}[i] Запустите его командой: ./start_missing_env.sh{bcolors.ENDC}")
+
 def main():
     # Получаем директорию запуска скрипта
     current_dir = os.getcwd()
@@ -316,6 +359,9 @@ def main():
 
     # Запускаем проверку settings.json
     check_settings_files()
+    
+    # Проверяем .env и создаем скрипт запуска
+    create_start_script()
 
 if __name__ == "__main__":
     main()
