@@ -1,9 +1,9 @@
 {
-    "site": "jetour-krasnodar.ru",
+    "site": "soueast.alexsab.ru",
     "gtm": "GTM-NMDLDB3F",
     "metrika": [
         {
-            "id": "93806197",
+            "id": 48905003,
             "clickmap": true,
             "trackLinks": true,
             "accurateTrackBounce": true,
@@ -12,7 +12,7 @@
     ],
     "ga4": [
         {
-            "id": "G-DH9GG8HK4H"
+            "id": "G-PWEBSZCJEY"
         }
     ],
     "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
@@ -31,6 +31,7 @@
         "site_id": ""
     },
     "konget": "",
+    "smartpoint": "",
     "streamwood": {
         "code": "",
         "quiz": ""
