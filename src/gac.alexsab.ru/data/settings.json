@@ -11,7 +11,7 @@
     "header_top_line": "",
     "connectforms_link": "https://alexsab.ru/lead/dev/",
     "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
-    "favicon": "/favicon.svg",
+    "favicon": "https://cdn.alexsab.ru/b/gac/favicon.svg",
     "logo_header": "https://cdn.alexsab.ru/b/gac/img/logo/logo.svg",
     "logo_map_info": "https://cdn.alexsab.ru/b/gac/img/logo/logo.svg",
     "logo_footer": "https://cdn.alexsab.ru/b/gac/img/logo/logo.svg",
@@ -21,5 +21,5 @@
     "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
     "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
     "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-    "improve_offer_background": "https://cdn.alexsab.ru/b/gac/img/konkurenty.webp"
+    "improve_offer_background": "https://cdn.alexsab.ru/b/gac/img/main-sliders/avn4.webp"
 }
