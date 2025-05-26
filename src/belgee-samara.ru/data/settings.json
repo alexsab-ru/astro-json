@@ -10,5 +10,16 @@
     "yandex_widget_orgnization": "",
     "header_top_line": "",
     "connectforms_link": "https://alexsab.ru/lead/belgee/samara/",
-    "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6"
+    "grecaptcha_open": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "favicon": "https://cdn.alexsab.ru/b/belgee/favicon.svg",
+    "logo_header": "https://cdn.alexsab.ru/b/belgee/img/logo/belgee_logo_vertical.svg",
+    "logo_map_info": "https://cdn.alexsab.ru/b/belgee/img/logo/belgee_logo_vertical.svg",
+    "logo_footer": "https://cdn.alexsab.ru/b/belgee/img/logo/belgee_logo_vertical_white.svg",
+    "logo_dealer_header": "",
+    "logo_dealer_map_info": "",
+    "logo_dealer_footer": "",
+    "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
+    "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
+    "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+    "improve_offer_background": ""
 }
