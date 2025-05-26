@@ -109,8 +109,16 @@ def check_settings_files():
         return
 
     missing_files = []
-    missing_logo_header = []
-    missing_logo_header_value = []
+    missing_keys = {
+        'favicon': [],
+        'logo_header': [],
+        'logo_map_info': [],
+        'logo_footer': [],
+        'manager_photo': [],
+        'map_background': [],
+        'default_model_background': [],
+        'improve_offer_background': []
+    }
 
     for site_dir in os.listdir(settings_dir):
         site_path = os.path.join(settings_dir, site_dir)
@@ -126,10 +134,11 @@ def check_settings_files():
             with open(settings_file, 'r', encoding='utf-8') as f:
                 settings = json.load(f)
                 
-            if 'logo_header' not in settings:
-                missing_logo_header.append(site_dir)
-            elif not settings['logo_header']:
-                missing_logo_header_value.append(site_dir)
+            for key in missing_keys.keys():
+                if key not in settings:
+                    missing_keys[key].append(site_dir)
+                elif not settings[key]:
+                    missing_keys[key].append(site_dir)
         except Exception as e:
             print(f"{bcolors.FAIL}[!] Ошибка чтения {settings_file}: {str(e)}{bcolors.ENDC}")
 
@@ -142,19 +151,13 @@ def check_settings_files():
     else:
         print(f"{bcolors.OKGREEN}[✓] Все директории содержат файл settings.json{bcolors.ENDC}")
 
-    if missing_logo_header:
-        print(f"\n{bcolors.WARNING}[!] Отсутствует ключ logo_header в файлах: {len(missing_logo_header)}{bcolors.ENDC}")
-        for site in missing_logo_header:
-            print(f"{bcolors.WARNING}[!] - {site}{bcolors.ENDC}")
-    else:
-        print(f"{bcolors.OKGREEN}[✓] Все файлы содержат ключ logo_header{bcolors.ENDC}")
-
-    if missing_logo_header_value:
-        print(f"\n{bcolors.WARNING}[!] Пустое значение logo_header в файлах: {len(missing_logo_header_value)}{bcolors.ENDC}")
-        for site in missing_logo_header_value:
-            print(f"{bcolors.WARNING}[!] - {site}{bcolors.ENDC}")
-    else:
-        print(f"{bcolors.OKGREEN}[✓] Все файлы содержат непустое значение logo_header{bcolors.ENDC}")
+    for key, sites in missing_keys.items():
+        if sites:
+            print(f"\n{bcolors.WARNING}[!] Проблемы с ключом {key} в файлах: {len(sites)}{bcolors.ENDC}")
+            for site in sites:
+                print(f"{bcolors.WARNING}[!] - {site}{bcolors.ENDC}")
+        else:
+            print(f"{bcolors.OKGREEN}[✓] Все файлы содержат корректное значение {key}{bcolors.ENDC}")
 
 def main():
     # Получаем директорию запуска скрипта
