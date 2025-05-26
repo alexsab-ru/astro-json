@@ -1,12 +1,4 @@
 {
-    "header": {
-        "vkontakte-full": {
-            "url": "https://vk.com/tankpenza"
-        }
-    },
-    "footer": {
-        "vkontakte-full": {
-            "url": "https://vk.com/tankpenza"
-        }
-    }
+    "header": {},
+    "footer": {}
 }
