@@ -6,8 +6,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/bg.jpg",
         "slogan": "Вместительный кроссовер на все случаи жизни",
         "name": "X90 Plus",
-        "price": "2399900",
-        "benefit": "1000000",
+        "price": "{{price-jetour-x90plus}}",
+        "benefit": "{{benefit-jetour-x90plus}}",
         "badge": {
             "img": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
             "alt": "Внедорожник года"
@@ -169,8 +169,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/t2/bg.jpg",
         "slogan": "Внедорожник для путешествий",
         "name": "T2",
-        "price": "3159000",
-        "benefit": "800000",
+        "price": "{{price-jetour-t2}}",
+        "benefit": "{{benefit-jetour-t2}}",
         "badge": {
             "img": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
             "alt": "Внедорожник года"
@@ -224,6 +224,12 @@
                 "name": "Синий",
                 "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t2/colors/blue.png",
                 "style": "background-color: #4682B4; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/jetourhttps://cdn.alexsab.ru/b/jetour/img/models/t2/colors/white.webp",
+                "style": "background-color: #f5f5f5; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
         "complectations": [
@@ -312,8 +318,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/bg.jpg",
         "slogan": "Городской кроссовер",
         "name": "Dashing",
-        "price": "1589900",
-        "benefit": "1180000",
+        "price": "{{price-jetour-dashing}}",
+        "benefit": "{{benefit-jetour-dashing}}",
         "badge": {
             "img": "https://cdn.alexsab.ru/b/jetour/img/badge-2024-with-text.png",
             "imgModelPage": "https://cdn.alexsab.ru/b/jetour/img/badge-2024-with-text-white.png",
@@ -509,8 +515,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x70/bg.webp",
         "slogan": "Семейный кроссовер",
         "name": "X70",
-        "price": "2049000",
-        "benefit": "600000",
+        "price": "{{price-jetour-x70}}",
+        "benefit": "{{benefit-jetour-x70}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -615,8 +621,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/bg.jpg",
         "slogan": "Семейный кроссовер для совместных путешествий",
         "name": "X70 Plus",
-        "price": "1949900",
-        "benefit": "1050000",
+        "price": "{{price-jetour-x70plus}}",
+        "benefit": "{{benefit-jetour-x70plus}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -764,8 +770,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x50/bg.jpg",
         "slogan": "Компактный кроссовер",
         "name": "X50",
-        "price": "1390000",
-        "benefit": "700000",
+        "price": "{{price-jetour-x50}}",
+        "benefit": "{{benefit-jetour-x50}}",
         "benefits": [
             {
                 "url": "#common-modal",
