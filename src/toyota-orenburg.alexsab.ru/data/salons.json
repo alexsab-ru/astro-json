@@ -6,7 +6,7 @@
         "work_hours": "пн — вс: 9:00 — 19:00",
         "map": {
             "zoom": 16,
-            "balloon": "/img/toyota-locator.png",
+            "balloon": "https://cdn.alexsab.ru/locator/toyota-locator.svgtoyota-locator.png",
             "coords": [53.211009, 50.188549],
             "ya_link": "https://yandex.com/maps/org/toyota_tsentr_samara_avrora/1131539377/?ll=50.221508%2C53.211009&z=16"
         },
@@ -29,7 +29,7 @@
         "work_hours": "пн — вс: 9:00 — 20:00",
         "map": {
             "zoom": 16,
-            "balloon": "/img/toyota-locator.png",
+            "balloon": "https://cdn.alexsab.ru/locator/toyota-locator.svgtoyota-locator.png",
             "coords": [53.321088, 50.301612],
             "ya_link": "https://yandex.com/maps/org/toyota_samara_sever/1257198925/?ll=50.301839%2C53.321128&z=16"
         },
@@ -52,7 +52,7 @@
         "work_hours": "пн — вс: 9:00 — 19:00",
         "map": {
             "zoom": 16,
-            "balloon": "/img/toyota-locator.png",
+            "balloon": "https://cdn.alexsab.ru/locator/toyota-locator.svgtoyota-locator.png",
             "coords": [53.137047, 50.180965],
             "ya_link": "https://yandex.com/maps/org/toyota_center_ug/83509754602/?ll=50.179426%2C53.136894&z=16"
         },
@@ -72,7 +72,7 @@
         "work_hours": "пн — пт: 9:00 — 18:00",
         "map": {
             "zoom": 16,
-            "balloon": "/img/toyota-locator.png",
+            "balloon": "https://cdn.alexsab.ru/locator/toyota-locator.svgtoyota-locator.png",
             "coords": [53.239902, 50.246488],
             "ya_link": "https://yandex.com/maps/org/toyota_tsentr_samara/178415743774/?ll=50.246488%2C53.239902&z=16"
         },
