@@ -5,12 +5,12 @@
         "name": "Camry",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -22,12 +22,12 @@
         "name": "Corolla",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -39,12 +39,12 @@
         "name": "Hiace",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -56,12 +56,12 @@
         "name": "Toyota C-HR",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -73,12 +73,12 @@
         "name": "Land Cruiser Prado",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -90,12 +90,12 @@
         "name": "Highlander",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -107,12 +107,12 @@
         "name": "Hilux",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -124,12 +124,12 @@
         "name": "RAV4",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -141,12 +141,12 @@
         "name": "Fortuner",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -158,12 +158,12 @@
         "name": "Land Cruiser 300",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -175,12 +175,12 @@
         "name": "Alphard",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -192,12 +192,12 @@
         "name": "Coaster",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -209,12 +209,12 @@
         "name": "Crown",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -226,12 +226,12 @@
         "name": "Совершенно новый Land Cruiser Prado",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
@@ -243,12 +243,12 @@
         "name": "Camry",
         "show": true,
         "chars": {},
-		"thumb": "/img/models/model-name/colors/color.png",
+		"thumb": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/model-name/colors/color.png",
+                "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/model-name/colors/color.png",
                 "style": ""
             }
 		],
