@@ -6,7 +6,7 @@
         "work_hours": "пн — вс: 9:00 — 19:00",
         "map": {
             "zoom": 16,
-            "balloon": "/img/toyota-locator.png",
+            "balloon": "https://cdn.alexsab.ru/locator/toyota-locator.svg",
             "coords": [45.079148, 41.937114],
             "ya_link": "https://yandex.com/maps/org/toyota_tsentr/1074147833/?ll=41.937638%2C45.079353&z=16"
         },
@@ -29,7 +29,7 @@
         "work_hours": "пн — вс: 9:00 — 19:00",
         "map": {
             "zoom": 16,
-            "balloon": "/img/lexus-locator.png",
+            "balloon": "https://cdn.alexsab.ru/locator/img/lexus-locator.svg",
             "coords": [45.079594,41.937721],
             "ya_link": "https://yandex.com/maps/org/lexus/122990386463/?ll=41.937795%2C45.079772&z=16"
         },
