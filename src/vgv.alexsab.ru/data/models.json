@@ -1,0 +1,312 @@
+[
+    {
+        "mark_id": "VGV",
+        "id": "u70-pro",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Командный игрок",
+        "name": "U70PRO",
+        "price": "{{price-vgv-u70-pro}}",
+        "benefit": 500000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгода за трейд-ин до 200&nbsp;000&nbsp;₽",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. VGV U70PRO",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгода за кредит до 300&nbsp;000&nbsp;₽",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. VGV U70PRO",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/thumb.webp",
+        "colors": [
+            {
+                "id": "white-rose",
+                "name": "Белая роза",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/white-rose.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "gray-lounge",
+                "name": "Серый лаунж",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/gray-lounge.webp",
+                "style": "background-color: #D9D9D9;"
+            },
+            {
+                "id": "silver-rain",
+                "name": "Серебряный дождь",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/silver-rain.webp",
+                "style": "background:linear-gradient(90deg, #979797 0%, #ffffff 50%, #979797 100%);"
+            },
+            {
+                "id": "royal-blue",
+                "name": "Синий королевский",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/royal-blue.webp",
+                "style": "background:#004BBD;"
+            },
+            {
+                "id": "red-jam",
+                "name": "Красный джем",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/red-jam.webp",
+                "style": "background:#951212;"
+            },
+            {
+                "id": "black-knight",
+                "name": "Черный рыцарь",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/black-knight.webp",
+                "style": "background:#000000;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort (5 мест)",
+                "price": "{{price-vgv-u70-pro}}",
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort (7 мест)",
+                "price": 2059900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Lifestyle (5 мест)",
+                "price": 2249900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Lifestyle (7 мест)",
+                "price": 2249900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Executive (7 мест)",
+                "price": 2249900,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "143",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT/6MT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4825",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1870",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "207",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "VGV",
+        "id": "u75-plus",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Большое будущее",
+        "name": "U75PLUS",
+        "price": "{{price-vgv-u75-plus}}",
+        "benefit": 450000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгода за трейд-ин до&nbsp;150&nbsp;000&nbsp;₽",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. VGV U75PLUS",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгода за кредит до&nbsp;300&nbsp;000&nbsp;₽",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. VGV U75PLUS",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/thumb.webp",
+        "colors": [
+            {
+                "id": "white-rose",
+                "name": "Белая роза",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/white-rose.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "gray-lounge",
+                "name": "Серый лаунж",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/gray-lounge.webp",
+                "style": "background-color: #D9D9D9;"
+            },
+            {
+                "id": "silver-rain",
+                "name": "Серебряный дождь",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/silver-rain.webp",
+                "style": "background:linear-gradient(90deg, #979797 0%, #ffffff 50%, #979797 100%);"
+            },
+            {
+                "id": "royal-blue",
+                "name": "Синий королевский",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/royal-blue.webp",
+                "style": "background:#004BBD;"
+            },
+            {
+                "id": "red-jam",
+                "name": "Красный джем",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/red-jam.webp",
+                "style": "background:#951212;"
+            },
+            {
+                "id": "black-knight",
+                "name": "Черный рыцарь",
+                "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/black-knight.webp",
+                "style": "background:#000000;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Executive (5 мест)",
+                "price": "{{price-vgv-u75-plus}}",
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Executive (7 мест)",
+                "price": 2599900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium (7 мест)",
+                "price": 2749900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2800",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4825",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1870",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "380",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    }
+]
