@@ -1,5 +1,11 @@
 {
     "brand": "Geely",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Джили Партнер Авто",
     "site_description": "Официальный дилерский центр Geely в Саратове",
     "legal_entity": "ООО \"Саратов-Авто-Люкс\"",

@@ -1,5 +1,11 @@
 {
     "brand": "INFINITI",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Самарские автомобили",
     "site_description": "INFINITI Самарские автомобили",
     "legal_entity": "ООО «Самарские автомобили Юг-Н»",

@@ -1,5 +1,11 @@
 {
     "brand": "Kia",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Киа в Самаре",
     "site_description": "Официальный дилер автомобилей Киа в Самаре",
     "legal_entity": "",

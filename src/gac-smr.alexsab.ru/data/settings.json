@@ -1,5 +1,11 @@
 {
     "brand": "GAC",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Эксперт Авто",
     "site_description": "Официальный дилерский центр GAC MOTOR в Самаре",
     "legal_entity": "ООО «САВ»",

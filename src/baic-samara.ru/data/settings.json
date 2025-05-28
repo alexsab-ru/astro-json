@@ -1,5 +1,11 @@
 {
     "brand": "BAIC",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Мега Авто Центр",
     "site_description": "Официальный дилерский центр Баик в Самаре",
     "legal_entity": "ООО «МЕГА Авто Центр»",

@@ -1,5 +1,11 @@
 {
     "brand": "WEY",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Пенза-Авто",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «Пенза-Авто»",

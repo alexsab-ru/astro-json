@@ -1,5 +1,11 @@
 {
     "brand": "BAIC",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Альфа",
     "site_description": "Официальный дилерский центр Баик в Самаре",
     "legal_entity": "ООО «Автоцентр Альфа»",

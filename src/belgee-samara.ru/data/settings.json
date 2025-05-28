@@ -1,5 +1,11 @@
 {
     "brand": "BELGEE",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Самара",
     "site_description": "Официальный дилерский центр Белджи в Самаре",
     "legal_entity": "ООО «Центр на Московском»",

@@ -1,5 +1,11 @@
 {
     "brand": "VGV",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Автохолдинг Тургеневский",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «Автохолдинг»",

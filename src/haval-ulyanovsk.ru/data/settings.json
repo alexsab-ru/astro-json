@@ -1,5 +1,11 @@
 {
     "brand": "HAVAL",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Тон-Авто",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «АвтоДом»",

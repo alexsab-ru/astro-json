@@ -1,5 +1,11 @@
 {
     "brand": "GAC",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "GAC НИКА АВТО",
     "site_description": "Официальный дилерский центр GAC в Оренбурге",
     "legal_entity": "ООО «Интертрейдинг-Оренбург»",

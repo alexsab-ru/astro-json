@@ -1,5 +1,11 @@
 {
     "brand": "TANK",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "TANK Пенза",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «Пенза-Авто»",

@@ -1,5 +1,11 @@
 {
     "brand": "Evolute",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Ставрополь-Авто",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «Юридическое название»",
