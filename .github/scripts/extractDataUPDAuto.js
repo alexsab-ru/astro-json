@@ -140,6 +140,13 @@ async function extractMinPrice(str) {
 
 async function readJsonFile(filePath) {
     try {
+        try {
+            await fs.access(filePath);
+        } catch (error) {
+            console.log(`Файл не существует: ${filePath}`);
+            return false;
+        }
+        
         // Чтение файла
         const data = await fs.readFile(filePath, 'utf8');
         

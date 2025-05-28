@@ -40,8 +40,12 @@ def clean_string(text, word_to_remove):
 
 def read_json_file(file_path):
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        else:
+            print(f"Файл не существует: {file_path}")
+            return None
     except Exception as e:
         logError("Ошибка при чтении файла", e)
         return None
