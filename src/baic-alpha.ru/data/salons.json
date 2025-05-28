@@ -6,7 +6,7 @@
         "work_hours": "Ежедневно с 08:00 до 20:00",
         "map": {
             "zoom": 14,
-            "balloon": "/img/baic-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/locator/baic-locator.svg",
             "coords": [53.183971, 50.151672],
             "ya_link": "https://yandex.ru/maps/51/samara/?from=api-maps&ll=50.151672%2C53.183971&mode=routes&origin=jsapi_2_1_79&rtext=~53.183971%2C50.151672&rtt=auto&ruri=~&z=14"
         }
