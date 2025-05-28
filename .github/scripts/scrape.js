@@ -279,6 +279,14 @@ async function scrapePage(url, xpaths) {
 
 async function readJsonFile(filePath) {
     try {
+        // Проверяем существование файла
+        try {
+            await fs.access(filePath);
+        } catch (error) {
+            console.log(`Файл не существует: ${filePath}`);
+            return false;
+        }
+
         // Чтение файла
         const data = await fs.readFile(filePath, 'utf8');
         
