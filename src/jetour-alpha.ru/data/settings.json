@@ -1,5 +1,11 @@
 {
     "brand": "Jetour",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Альфа",
     "site_description": "Официальный дилерский центр Jetour в Самаре",
     "legal_entity": "ООО «Эксперт Самара»",

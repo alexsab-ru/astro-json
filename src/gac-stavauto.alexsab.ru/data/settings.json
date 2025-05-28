@@ -1,5 +1,11 @@
 {
     "brand": "GAC",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "GAC Центр Кулакова",
     "site_description": "Официальный дилерский центр GAC в Ставрополе",
     "legal_entity": "ООО «Ставрополь-Авто»",

@@ -1,5 +1,11 @@
 {
     "brand": "Kaiyi",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Альфа",
     "site_description": "Официальный дилерский центр Каи в Самаре",
     "legal_entity": "ООО «Автоцентр Альфа»",

@@ -1,5 +1,11 @@
 {
     "brand": "Geely",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Джили Партнер",
     "site_description": "Официальный дилерский центр Geely в Оренбурге",
     "legal_entity": "ООО \"ПАРТНЕР\"",

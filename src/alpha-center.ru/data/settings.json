@@ -1,5 +1,11 @@
 {
     "brand": "",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Автоцентр АЛЬФА",
     "site_description": "",
     "legal_entity": "",

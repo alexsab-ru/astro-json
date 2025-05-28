@@ -1,5 +1,11 @@
 {
     "brand": "BAIC",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Автохолдинг",
     "site_description": "Официальный дилерский центр Баик в Краснодаре",
     "legal_entity": "ООО «Автохолдинг Н»",

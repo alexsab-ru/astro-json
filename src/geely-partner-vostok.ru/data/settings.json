@@ -1,5 +1,11 @@
 {
     "brand": "Geely",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Джили Партнер-Восток",
     "site_description": "Официальный дилерский центр Geely в Орске",
     "legal_entity": "ООО \"ПАРТНЕР-ВОСТОК\"",

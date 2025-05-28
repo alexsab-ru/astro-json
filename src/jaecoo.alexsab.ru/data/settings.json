@@ -1,5 +1,11 @@
 {
     "brand": "JAECOO",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Дилер",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «Юридическое название»",

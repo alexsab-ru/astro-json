@@ -1,5 +1,11 @@
 {
     "brand": "BELGEE",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Партнер Самара",
     "site_description": "Официальный дилерский центр Белджи Партнер в Самаре",
     "legal_entity": "ООО «Самара-Север-Авто»",
