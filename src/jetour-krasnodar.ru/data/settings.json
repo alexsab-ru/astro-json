@@ -1,5 +1,11 @@
 {
     "brand": "Jetour",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Автохолдинг",
     "site_description": "Официальный дилерский центр Джетур в Краснодаре",
     "legal_entity": "ООО «Автохолдинг Ф»",

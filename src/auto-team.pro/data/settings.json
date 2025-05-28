@@ -1,5 +1,11 @@
 {
     "brand": "Changan, GAC, Geely, Belgee",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Балаково Авто Тим",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «Энгельс-Авто-Тим»",

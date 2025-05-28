@@ -1,5 +1,11 @@
 {
     "brand": "OMODA",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Вип Авто",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «Вип Авто Самара»",

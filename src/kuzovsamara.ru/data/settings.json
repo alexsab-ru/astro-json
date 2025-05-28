@@ -1,5 +1,11 @@
 {
     "brand": "",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Кузов Эксперт",
     "site_description": "Первый официальный кузовной по&nbsp;автомобилям из&nbsp;Китая",
     "legal_entity": "ООО «Эксперт Авто Самара»",

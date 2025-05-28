@@ -1,5 +1,11 @@
 {
     "brand": "KNEWSTAR",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Партнер",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «ПАРТНЕР»",

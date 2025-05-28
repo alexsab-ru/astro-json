@@ -1,5 +1,11 @@
 {
     "brand": "Geely",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Джили Партнер Самара",
     "site_description": "Официальный дилерский центр Geely в Самаре",
     "legal_entity": "ООО «Самара-Север-Авто»",

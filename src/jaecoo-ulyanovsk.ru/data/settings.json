@@ -1,5 +1,11 @@
 {
     "brand": "JAECOO",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "ТОН-АВТО",
     "site_description": "Официальный дилерский центр",
     "legal_entity": "ООО «АвтоР»",

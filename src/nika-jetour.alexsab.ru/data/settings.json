@@ -1,5 +1,11 @@
 {
     "brand": "Jetour",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Ника Авто",
     "site_description": "Официальный дилерский центр Джетур в Оренбурге",
     "legal_entity": "ООО «Гермес-Авто»",

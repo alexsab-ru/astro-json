@@ -1,5 +1,11 @@
 {
     "brand": "SOUEAST",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
     "site_name": "Альфа",
     "site_description": "Официальный дилерский центр Soueast в Самаре",
     "legal_entity": "ООО «Эксперт Самара»",
