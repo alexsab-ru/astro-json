@@ -1,6 +1,6 @@
 {
     "site": "kaiyi-samara.ru",
-    "gtm": "GTM-NMDLDB3F",
+    "gtm": "",
     "metrika": [
         {
             "id": "94497526",
@@ -12,10 +12,10 @@
     ],
     "ga4": [
         {
-            "id": "G-QLL8ZFRCTG"
+            "id": ""
         }
     ],
-    "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "re": "",
     "vk-rtrg": [
         {
             "id": ""

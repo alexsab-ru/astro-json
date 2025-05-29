@@ -1,6 +1,6 @@
 {
     "site": "baic-krasnodar.ru",
-    "gtm": "GTM-NMDLDB3F",
+    "gtm": "",
     "metrika": [
         {
             "id": "93990487",
@@ -12,10 +12,10 @@
     ],
     "ga4": [
         {
-            "id": "G-JQV7MM6QF3"
+            "id": ""
         }
     ],
-    "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "re": "",
     "vk-rtrg": [
         {
             "id": ""

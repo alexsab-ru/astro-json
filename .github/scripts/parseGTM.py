@@ -9,7 +9,7 @@ with open('./src/GTM-NMDLDB3F_workspace79.json', 'r') as f:
 def getScriptsJSON(data):
     scripts_data = {
         "site": data['site'],
-        "gtm": "GTM-NMDLDB3F",
+        "gtm": "",
         "metrika": [
             {
                 "id": data['Yandex Metrica ID'],
@@ -24,7 +24,7 @@ def getScriptsJSON(data):
                 "id": data['GA4 ID']
             }
         ],
-        "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+        "re": "",
         "vk-rtrg": [
             {
                 "id": data['VK-RTRG ID']

@@ -1,6 +1,6 @@
 {
     "site": "promo.kia-samara.ru",
-    "gtm": "GTM-NMDLDB3F",
+    "gtm": "",
     "metrika": [
         {
             "id": "56034940",
@@ -18,10 +18,10 @@
     ],
     "ga4": [
         {
-            "id": "G-EYT8R7VNZP"
+            "id": ""
         }
     ],
-    "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "re": "",
     "vk-rtrg": [
         {
             "id": "VK-RTRG-456219-a8jpe"

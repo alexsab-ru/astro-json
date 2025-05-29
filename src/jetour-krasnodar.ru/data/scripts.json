@@ -1,6 +1,6 @@
 {
     "site": "jetour-krasnodar.ru",
-    "gtm": "GTM-NMDLDB3F",
+    "gtm": "",
     "metrika": [
         {
             "id": "93806197",
@@ -12,10 +12,10 @@
     ],
     "ga4": [
         {
-            "id": "G-DH9GG8HK4H"
+            "id": ""
         }
     ],
-    "re": "6Lepfy4pAAAAAAGHFP655qNe6Bb_BcskklcxajC6",
+    "re": "",
     "vk-rtrg": [
         {
             "id": ""
