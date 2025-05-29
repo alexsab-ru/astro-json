@@ -36,7 +36,7 @@ def getScriptsJSON(data):
             }
         ],
         "calltouch": {
-            "client_id": data['CallTouch Client ID'],
+            "mod_id": data['CallTouch Client ID'],
             "site_id": data['CallTouch Site ID']
         },
         "konget": "",
