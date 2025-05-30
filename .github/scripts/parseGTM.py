@@ -9,45 +9,89 @@ with open('./src/GTM-NMDLDB3F_workspace79.json', 'r') as f:
 def getScriptsJSON(data):
     scripts_data = {
         "site": data['site'],
-        "gtm": "",
-        "metrika": [
-            {
-                "id": data['Yandex Metrica ID'],
-                "clickmap": True,
-                "trackLinks": True,
-                "accurateTrackBounce": True,
-                "webvisor": True
-            }
-        ],
-        "ga4": [
-            {
-                "id": data['GA4 ID']
-            }
-        ],
-        "re": "",
-        "vk-rtrg": [
-            {
-                "id": data['VK-RTRG ID']
-            }
-        ],
-        "top.mail.ru": [
-            {
-                "id": data['VK Pixel Top.Mail.Ru ID']
-            }
-        ],
+        "gtm": {
+            "value": "",
+            "fn": "_gtm",
+            "prod": True
+        },
+        "metrika": {
+            "value": [
+                {
+                    "id": data['Yandex Metrica ID'],
+                    "clickmap": True,
+                    "trackLinks": True,
+                    "accurateTrackBounce": True,
+                    "webvisor": True
+                }
+            ],
+            "fn": "_ym", 
+            "prod": False
+        },
+        "ga4": {
+            "value": [
+                {
+                    "id": data['GA4 ID']
+                }
+            ],
+            "fn": "_ga",
+            "prod": True
+        },
+        "re": {
+            "value": "",
+            "fn": "_re",
+            "prod": True
+        },
+        "vk-rtrg": {
+            "value": [
+                {
+                    "id": data['VK-RTRG ID']
+                }
+            ],
+            "fn": "_vk",
+            "prod": True
+        },
+        "top.mail.ru": {
+            "value": [
+                {
+                    "id": data['VK Pixel Top.Mail.Ru ID']
+                }
+            ],
+            "fn": "_tm",
+            "prod": True
+        },
         "calltouch": {
-            "mod_id": data['CallTouch Client ID'],
-            "site_id": data['CallTouch Site ID']
+            "value": {
+                "mod_id": data['CallTouch Client ID'],
+                "site_id": data['CallTouch Site ID']
+            },
+            "fn": "_ct",
+            "prod": False
         },
-        "konget": "",
-        "smartpoint": "",
+        "konget": {
+            "value": "",
+            "fn": "_kg",
+            "prod": True
+        },
+        "smartpoint": {
+            "value": "",
+            "fn": "_sp",
+            "prod": True
+        },
         "streamwood": {
-            "swKey": "",
-            "swDomainKey": ""
+            "value": {
+                "swKey": "",
+                "swDomainKey": ""
+            },
+            "fn": "_sw",
+            "prod": True
         },
-        "widgets": [
-            ""
-        ]
+        "widgets": {
+            "value": [
+                ""
+            ],
+            "fn": "_wd",
+            "prod": True
+        }
     }
 
     if(len(data['Yandex Metrika ID common'])>0 and data['Yandex Metrika ID common'] != "94754424"):

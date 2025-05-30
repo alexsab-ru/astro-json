@@ -1,42 +1,86 @@
 {
     "site": "geely-partner-orenburg.ru",
-    "gtm": "",
-    "metrika": [
-        {
-            "id": "98061532",
-            "clickmap": true,
-            "trackLinks": true,
-            "accurateTrackBounce": true,
-            "webvisor": true
-        }
-    ],
-    "ga4": [
-        {
-            "id": ""
-        }
-    ],
-    "re": "",
-    "vk-rtrg": [
-        {
-            "id": ""
-        }
-    ],
-    "top.mail.ru": [
-        {
-            "id": ""
-        }
-    ],
+    "gtm": {
+        "value": "",
+        "fn": "_gtm",
+        "prod": true
+    },
+    "metrika": {
+        "value": [
+            {
+                "id": "98061532",
+                "clickmap": true,
+                "trackLinks": true,
+                "accurateTrackBounce": true,
+                "webvisor": true
+            }
+        ],
+        "fn": "_ym", 
+        "prod": false
+    },
+    "ga4": {
+        "value": [
+            {
+                "id": ""
+            }
+        ],
+        "fn": "_ga",
+        "prod": true
+    },
+    "re": {
+        "value": "",
+        "fn": "_re",
+        "prod": true
+    },
+    "vk-rtrg": {
+        "value": [
+            {
+                "id": ""
+            }
+        ],
+        "fn": "_vk",
+        "prod": true
+    },
+    "top.mail.ru": {
+        "value": [
+            {
+                "id": ""
+            }
+        ],
+        "fn": "_tm",
+        "prod": true
+    },
     "calltouch": {
-        "mod_id": "t8inbawq",
-        "site_id": "64192"
+        "value": {
+            "mod_id": "t8inbawq",
+            "site_id": "64192"
+        },
+        "fn": "_ct",
+        "prod": false
     },
-    "konget": "",
-    "smartpoint": "",
+    "konget": {
+        "value": "",
+        "fn": "_kg",
+        "prod": true
+    },
+    "smartpoint": {
+        "value": "",
+        "fn": "_sp",
+        "prod": true
+    },
     "streamwood": {
-        "swKey": "",
-        "swDomainKey": ""
+        "value": {
+            "swKey": "",
+            "swDomainKey": ""
+        },
+        "fn": "_sw",
+        "prod": true
     },
-    "widgets": [
-        ""
-    ]
+    "widgets": {
+        "value": [
+            ""
+        ],
+        "fn": "_wd",
+        "prod": true
+    }
 }

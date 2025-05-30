@@ -1,42 +1,86 @@
 {
     "site": "kaiyi-samara.ru",
-    "gtm": "",
-    "metrika": [
-        {
-            "id": "94497526",
-            "clickmap": true,
-            "trackLinks": true,
-            "accurateTrackBounce": true,
-            "webvisor": true
-        }
-    ],
-    "ga4": [
-        {
-            "id": ""
-        }
-    ],
-    "re": "",
-    "vk-rtrg": [
-        {
-            "id": ""
-        }
-    ],
-    "top.mail.ru": [
-        {
-            "id": ""
-        }
-    ],
+    "gtm": {
+        "value": "",
+        "fn": "_gtm",
+        "prod": true
+    },
+    "metrika": {
+        "value": [
+            {
+                "id": "94497526",
+                "clickmap": true,
+                "trackLinks": true,
+                "accurateTrackBounce": true,
+                "webvisor": true
+            }
+        ],
+        "fn": "_ym", 
+        "prod": false
+    },
+    "ga4": {
+        "value": [
+            {
+                "id": ""
+            }
+        ],
+        "fn": "_ga",
+        "prod": true
+    },
+    "re": {
+        "value": "",
+        "fn": "_re",
+        "prod": true
+    },
+    "vk-rtrg": {
+        "value": [
+            {
+                "id": ""
+            }
+        ],
+        "fn": "_vk",
+        "prod": true
+    },
+    "top.mail.ru": {
+        "value": [
+            {
+                "id": ""
+            }
+        ],
+        "fn": "_tm",
+        "prod": true
+    },
     "calltouch": {
-        "mod_id": "inhl3gel",
-        "site_id": "61091"
+        "value": {
+            "mod_id": "inhl3gel",
+            "site_id": "61091"
+        },
+        "fn": "_ct",
+        "prod": false
     },
-    "konget": "",
-    "smartpoint": "",
+    "konget": {
+        "value": "",
+        "fn": "_kg",
+        "prod": true
+    },
+    "smartpoint": {
+        "value": "",
+        "fn": "_sp",
+        "prod": true
+    },
     "streamwood": {
-        "swKey": "baa87a322a122e1fcde7cf2ecc89ce5b",
-        "swDomainKey": "b8db61c824508ecd68a5543524e9ad57"
+        "value": {
+            "swKey": "baa87a322a122e1fcde7cf2ecc89ce5b",
+            "swDomainKey": "b8db61c824508ecd68a5543524e9ad57"
+        },
+        "fn": "_sw",
+        "prod": true
     },
-    "widgets": [
-        ""
-    ]
+    "widgets": {
+        "value": [
+            ""
+        ],
+        "fn": "_wd",
+        "prod": true
+    }
 }
