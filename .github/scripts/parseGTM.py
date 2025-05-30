@@ -40,6 +40,7 @@ def getScriptsJSON(data):
             "site_id": data['CallTouch Site ID']
         },
         "konget": "",
+        "smartpoint": "",
         "streamwood": {
             "code": "",
             "quiz": ""
