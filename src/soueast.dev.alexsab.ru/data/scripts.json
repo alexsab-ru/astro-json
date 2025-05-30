@@ -1,0 +1,42 @@
+{
+    "site": "soueast.dev.alexsab.ru",
+    "gtm": "",
+    "metrika": [
+        {
+            "id": 48905003,
+            "clickmap": true,
+            "trackLinks": true,
+            "accurateTrackBounce": true,
+            "webvisor": true
+        }
+    ],
+    "ga4": [
+        {
+            "id": ""
+        }
+    ],
+    "re": "",
+    "vk-rtrg": [
+        {
+            "id": ""
+        }
+    ],
+    "top.mail.ru": [
+        {
+            "id": ""
+        }
+    ],
+    "calltouch": {
+        "mod_id": "",
+        "site_id": ""
+    },
+    "konget": "",
+    "smartpoint": "",
+    "streamwood": {
+        "swKey": "",
+        "swDomainKey": ""
+    },
+    "widgets": [
+        ""
+    ]
+}
