@@ -42,8 +42,8 @@ def getScriptsJSON(data):
         "konget": "",
         "smartpoint": "",
         "streamwood": {
-            "code": "",
-            "quiz": ""
+            "swKey": "",
+            "swDomainKey": ""
         },
         "widgets": [
             ""
