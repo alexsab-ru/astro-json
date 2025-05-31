@@ -1716,7 +1716,7 @@
         "slogan": "Современные технологии",
         "name": "Новый 001",
         "price": "{{price-knewstar-001}}",
-        "benefit": "",
+        "benefit": "{{benefit-knewstar-001}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1765,7 +1765,7 @@
         "complectations": [
             {
                 "name": "Luxury",
-                "price": 3589990,
+                "price": "{{price-knewstar-001}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "200",
