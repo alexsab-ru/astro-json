@@ -422,7 +422,7 @@
         "slogan": "Сила признания",
         "name": "700",
         "price": "{{price-tank-700}}",
-        "benefit": 400000,
+        "benefit": 900000,
         "benefits": [
             {
                 "url": "#common-modal",
