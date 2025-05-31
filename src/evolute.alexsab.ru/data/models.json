@@ -6,8 +6,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вот это космос!",
         "name": "i-SPACE",
-        "price": "2499000",
-        "benefit": "",
+        "price": "{{price-evolute-i-space}}",
+        "benefit": "{{benefit-evolute-i-space}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -70,7 +70,7 @@
         "complectations": [
             {
                 "name": "Комфорт",
-                "price": 2499000,
+                "price": "{{price-evolute-i-space}}",
                 "bodytype": "Кроссовер",
                 "engine_power": "177",
                 "gear_rus": "HDT300",

@@ -7,7 +7,7 @@
         "slogan": "Вот это космос!",
         "name": "i-SPACE",
         "price": "{{price-evolute-i-space}}",
-        "benefit": "",
+        "benefit": "{{benefit-evolute-i-space}}",
         "benefits": [
             {
                 "url": "#common-modal",

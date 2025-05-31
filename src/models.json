@@ -4119,8 +4119,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вот это космос!",
         "name": "i-SPACE",
-        "price": 2499000,
-        "benefit": "",
+        "price": "{{price-evolute-i-space}}",
+        "benefit": "{{benefit-evolute-i-space}}",
         "benefits": [
             {
                 "url": "#common-modal",
