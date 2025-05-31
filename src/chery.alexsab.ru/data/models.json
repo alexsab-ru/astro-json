@@ -531,8 +531,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/bg.webp",
         "slogan": "Время новых приключений",
         "name": "TIGGO 7L",
-        "price": "2580000",
-        "benefit": null,
+        "price": "{{price-chery-tiggo7l}}",
+        "benefit": "{{benefit-chery-tiggo7l}}",
         "benefits": "",
         "thumb": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/thumb.webp",
         "colors": [
@@ -588,7 +588,7 @@
         "complectations": [
             {
                 "name": "Active",
-                "price": 2580000,
+                "price": "{{price-chery-tiggo7l}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6",
                 "engine_power": "150",
