@@ -5683,6 +5683,132 @@
     },
     {
         "mark_id": "Geely",
+        "id": "ex5",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Продвинутые технологии",
+        "name": "Новый EX5",
+        "price": "{{price-geely-ex5}}",
+        "benefit": "{{benefit-geely-ex5}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. EX5",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. EX5",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/ex5/thumb.webp",
+        "colors": [
+            {
+                "id": "gray-metallic",
+                "name": "Серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/gray-metallic.webp",
+                "style": "background-color: #838789;"
+            },
+            {
+                "id": "green-blue-metallic",
+                "name": "Бирюзово-синий металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/green-blue-metallic.webp",
+                "style": "background-color: #3f888f;"
+            },
+            {
+                "id": "silver-metallic",
+                "name": "Серебристый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/silver-metallic.webp",
+                "style": "background-color: #d3d8d8;"
+            },
+            {
+                "id": "black-metallic",
+                "name": "Чёрный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/black-metallic.webp",
+                "style": "background-color: #2C2C2B;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/white.webp",
+                "style": ""
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Pro",
+                "price": "{{price-geely-ex5}}",
+                "bodytype": "Кроссовер",
+                "engine_power": "218",
+                "gear_rus": "AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Электро"
+            },
+            {
+                "name": "Max",
+                "price": 4049990,
+                "bodytype": "Кроссовер",
+                "engine_power": "218",
+                "gear_rus": "AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Электро"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Электро",
+            "gearbox": "AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2750",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4615",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1901",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Мощность э.д. (кВт/л.с.):",
+                "value": "60,2/218",
+                "measure": ""
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "320",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний (2WD)",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
         "id": "cityray",
         "show": true,
         "homeImg": "/img/models/bg.webp",
