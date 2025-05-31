@@ -6052,7 +6052,7 @@
         "slogan": "",
         "name": "Новый Atlas",
         "price": "{{price-geely-atlas-2024}}",
-        "benefit": 350000,
+        "benefit": "{{benefit-geely-atlas-2024}}",
         "benefits": [
             {
                 "url": "#common-modal",
