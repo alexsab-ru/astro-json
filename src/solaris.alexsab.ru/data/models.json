@@ -6,8 +6,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Двигайся в ритме РИО!",
         "name": "KRS",
-        "price": 1870000,
-        "benefit": 210000,
+        "price": "{{price-solaris-krs}}",
+        "benefit": "{{benefit-solaris-krs}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -86,7 +86,7 @@
         "complectations": [
             {
                 "name": "Comfort 6MT",
-                "price": 2080000,
+                "price": "{{price-solaris-krs}}",
                 "bodytype": "Седан",
                 "engine": "1.6 м³",
                 "engine_power": "123",
@@ -209,8 +209,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Двигайся в ритме РИО!",
         "name": "KRX",
-        "price": 1971000,
-        "benefit": 210000,
+        "price": "{{price-solaris-krx}}",
+        "benefit": "{{benefit-solaris-krx}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -289,7 +289,7 @@
         "complectations": [
             {
                 "name": "Comfort 6MT",
-                "price": 2181000,
+                "price": "{{price-solaris-krx}}",
                 "bodytype": "Хэтчбек",
                 "engine": "1.6 м³",
                 "engine_power": "123",
@@ -412,8 +412,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Настоящий бестселлер",
         "name": "HC",
-        "price": 2440000,
-        "benefit": 210000,
+        "price": "{{price-solaris-hc}}",
+        "benefit": "{{benefit-solaris-hc}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -543,8 +543,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Именно он",
         "name": "HS",
-        "price": 2020000,
-        "benefit": "",
+        "price": "{{price-solaris-hs}}",
+        "benefit": "{{benefit-solaris-hs}}",
         "benefits": [
             {
                 "url": "#common-modal",
