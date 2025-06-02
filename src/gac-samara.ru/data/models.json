@@ -798,6 +798,24 @@
                 "name": "Чёрный",
                 "carImage": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/black.webp",
                 "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "carImage": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/silver.webp",
+                "style": ""
             }
         ],
         "complectations": [
