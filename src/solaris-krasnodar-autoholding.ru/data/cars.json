@@ -2,28 +2,28 @@
   {
     "id": "solaris-hc",
     "model": "Solaris HC",
-    "price": "2440000",
+    "price": "1819000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-hc"
   },
   {
     "id": "solaris-hs",
     "model": "Solaris HS",
-    "price": "2020000",
+    "price": "1930000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-hs"
   },
   {
     "id": "solaris-krs",
     "model": "Solaris KRS",
-    "price": "1870000",
+    "price": "1750000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krs"
   },
   {
     "id": "solaris-krx",
     "model": "Solaris KRX",
-    "price": "1971000",
+    "price": "1750000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krx"
   }
