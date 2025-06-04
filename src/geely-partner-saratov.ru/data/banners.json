@@ -1,6 +1,24 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "special",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/specials/geely/partner-saratov/5-let-bez-servisnyh-zabot/lg.webp",
+        "tabletImageUrl": "https://cdn.alexsab.ru/specials/geely/partner-saratov/5-let-bez-servisnyh-zabot/md.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/specials/geely/partner-saratov/5-let-bez-servisnyh-zabot/thumb.webp",
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/special-offers/5-let-bez-servisnyh-zabot/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "autoplay": 6000,
+        "gradient": false
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "link",
