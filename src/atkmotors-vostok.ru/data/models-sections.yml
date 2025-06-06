@@ -1,0 +1,705 @@
+- id: "tiggo4"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: Новая версия семейного компактного кроссовера!
+      text: "<p>Встречайте кроссовер, который изменит ваши представления о комфорте и стиле. Tiggo 4 — это не просто автомобиль, это ваше новое пространство для приключений!</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 147 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 210 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 6.8 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/exterior/1.webp
+          title: "Новый внешний дизайн"
+          description: "Обновленный  кроссовер Chery Tiggo 4 стал еще прогрессивнее и технологичнее! Новый дизайн экстерьера заставляет  оборачиваться вслед, а современное оборудование делает каждую поездку максимально комфортной."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/exterior/2.webp
+          title: "Двухцветные литые диски 18″"
+          description: "Эффектные 18-дюймовые легкосплавные колесные диски  в двухцветном исполнении отражают динамичный и подвижный характер Chery Tiggo 4."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/exterior/3.webp
+          title: "Светодиодная LED-оптика"
+          description: "Полностью светодиодные фары с автоматическим переключением ближнего и дальнего света выглядят технологично и выразительно. А задержка выключения фар (функция «Проводи меня домой») обеспечит комфорт в вечернее время суток."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/exterior/4.webp
+          title: "Стильный задний вид"
+          description: "Корма автомобиля оформлена  в «Стиле тигра». Черные задние  фонари в виде сплошной полосы  с тигриным принтом имеют  стильный, простой и изысканный  вид. Широкие обводы задней  части кузова, как мощные лапы  тигра, обеспечивают баланс,  маневренность и устойчивость."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/interior/1.webp
+          title: "Стильный двухцветный салон"
+          description: "Интерьер Chery Tiggo 4 может служить  эталоном скрупулезной проработки  деталей и продуманной до мелочей эргономики. А главное — только  вам выбирать, каким он будет:  классическим черным или стильным  двухцветным."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/interior/2.webp
+          title: "Зимний пакет для всей семьи"
+          description: "Температурные катаклизмы — не проблема, когда автомобиль оснащен полным зимним пакетом. Обогрев ветрового и заднего стекол, форсунок омывателя, наружных зеркал заднего вида, рулевого колеса, а также передних и задних сидений  позволяет комфортно путешествовать, даже когда за окном автомобиля глубокий минус."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/interior/3.webp
+          title: "Комфорт в вашей поездке"
+          description: "Что главное в путешествии? Удобство! Chery Tiggo 4 оснащен эргономичными сиденьями из экокожи с боковой поддержкой. Для кресла водителя предусмотрена электрическая регулировка в 6 направлениях, а также регулировка поясничного подпора. Рулевая колонка легко адаптируется как по углу наклона, так и по вылету. Атмосферная подсветка добавит уюта."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/interior/4.webp
+          title: "Вместительный багажник для всех ваших увлечений"
+          description: "Просторный багажник на 1100 литров обеспечит пространство для всех ваших ежедневных нужд! Вы сможете без проблем разместить различные покупки, спортивный инвентарь или дорожные сумки."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/1.webp
+          title: "Цифровая зона управления 2*10,25”"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/2.webp
+          title: "Беспроводной Android Auto / Apple CarPlay"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/3.webp
+          title: "Беспроводная зарядка под рукой"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/4.webp
+          title: "Круговой обзор 540° в режиме HD"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/technology/5.webp
+          title: "Современный двигатель 1.5Т + 6DCT"
+          description: ""
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/security/1.webp
+          title: "7 подушек безопасности"
+          description: "Chery Tiggo 4 разделяет вашу заботу о безопасности близких. Будьте уверены в вашей безопасности благодаря 7 подушкам безопасности. Особое внимание уделено безопасности маленьких пассажиров — автомобиль оснащен продуманными решениями для их защиты."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/security/2.webp
+          title: "Задние и передние датчики парковки"
+          description: "Система мониторинга «слепых» зон и система кругового обзора нового TIGGO 4 отвечают за вашу безопасность в поездке. Видеокамеры класса HD и современные радарные датчики предоставят водителю исчерпывающую информацию о том, что происходит рядом с автомобилем, даже если за бортом ночь, туман или дождь."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4/sections/security/3.webp
+          title: "Гарантия 5 лет или 150 000 км пробега*"
+          description: "Chery Tiggo 4 оптимально встроится в ваш бюджет, ведь затраты на его обслуживание  минимальны. На автомобиль предоставляется заводская гарантия на пять лет или 150 тысяч  километров пробега."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/T4_april_2025_16372739711419044133.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/CHERY_BR_28-10-2024_web_11334324963499778397.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "tiggo4pro"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: "Новый Chery Tiggo 4 Pro 18 Years Edition"
+      text: "<p>Компания Chery уже 18 лет с вами. Мы создаем технологичные, безопасные и стильные автомобили для вас и вашей семьи. Мы всегда рядом и всегда говорим с вами на одном языке. В честь 18-летия Chery на Российском рынке мы создали Tiggo 4 Pro 18 Years Edition.</p><p>Бестселлер. Стильный и современный кроссовер. Автомобиль на любой случай. Всё это – про обновленный Chery Tiggo 4 Pro. В специальной версии 18 Years Edition он стал ещё лучше и ещё технологичнее в каждом аспекте. Мы обновили интерьер, добавили новое оснащение и комплектации, сделав Tiggo 4 Pro ещё более универсальным и привлекательным. Время познакомиться с ним поближе.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 113 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 138 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 7.4 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/exterior/1.webp
+          title: "Эффектный и модный"
+          description: "TIGGO 4 PRO 18 YEARS EDITION — модный смарт-кроссовер с узнаваемым технологичным стилем и характером, выпущенный в честь 18-летия CHERY в России. Дизайн автомобиля имеет выразительные линии, которые придают ему яркий и динамичный вид."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/exterior/2.webp
+          title: "Для активной жизни"
+          description: "Спадающая линия крыши, стабилизирующая верхняя поясная линия и энергичные нижние линии создают образ, который выглядит стремительным и энергичным. Tiggo 4 PRO создан для людей, не представляющих себе жизнь без взаимодействия с персональными устройствами и предпочитающих активный образ жизни."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/interior/1.webp
+          title: "НОВЫЙ И СТИЛЬНЫЙ"
+          description: "Интерьер автомобиля предлагается в двух вариантах дизайна: новое эффектное и стильное сочетание белого и черного, а также классический черный салон, олицетворяющий элегантность."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/interior/2.webp
+          title: "Просторный"
+          description: "Благодаря колесной базе 2610 мм салон автомобиля получился просторным и вместительным. Эргономичный дизайн интерьера вмещает целых 34 отделения  для хранения вещей и различных мелочей.  "
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/interior/3.webp
+          title: "Вместительный"
+          description: "Большие внешние габариты Chery Tiggo 4 Pro определяют и впечатляющий простор внутри его салона на переднем и заднем ряду, и непосредственно объем багажного отсека. В зависимости от положения задних сидений объем багажного отделения варьируется от 340 до 1100 литров. "
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/technology/1.webp
+          title: "Полный обзор"
+          description: "Качественное изображение высокой четкости дополнено динамическими направляющими линиями, что позволяет водителю точно знать направление движения и расстояние до препятствий при парковке."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/technology/2.webp
+          title: "Цифровая зона управления 2х10.25”"
+          description: "Цифровая зона управления TIGGO 4 PRO 18 YEARS EDITION создана с учетом потребностей молодых водителей и семей: два сдвоенных экрана с диагональю 10.25” - сенсорный экран мультимедиа высокой четкости изображения и дисплей панели приборов"
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/technology/3.webp
+          title: "Уверенность на дороге"
+          description: "Автомобиль обладает рядом передовых технологий, которые помогут молодым водителям ощутить уверенность на дороге и обеспечить безопасность для всех пассажирах: адаптивный круиз-контроль, система автономного экстренного торможения, мониторинг слепых зон и автоматическое переключение ближнего и дальнего света."
+    - id: dynamics
+      sectionClass: ""
+      title: Динамика
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/dynamics/1.webp
+          title: "Динамика и драйв"
+          description: "TIGGO 4 PRO 18 YEARS EDITION в комплектации Ultimate оснащается динамичным 1.5-литровым бензиновым турбированным двигателем (147 л.с.) в сочетании с вариатором CVT25."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/dynamics/2.webp
+          title: "Точное управление"
+          description: "Передняя независимая подвеска McPherson обеспечивает точное рулевое управление, хорошее сцепление с дорогой и  надежность. Дорожный просвет 190 мм  значительно повышает проходимость TIGGO 4 PRO."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/dynamics/3.webp
+          title: "Технологии движения"
+          description: "Энергоэффективный турбокомпрессор и технология двойного управления фазами газораспределения DVVT обеспечивают наилучшие показатели эффективности и динамики (1.5 TURBO)."
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/security/1.webp
+          title: "Оцинкованный кузов"
+          description: "Адаптация к российским условиям эксплуатации за счет оцинковки ультрапрочной, термоформованной стали – оцинкованы все детали (кроме крыши и капота), толщина цинкового покрытия 0,02 мм (двустороннее). Гарантия на кузов 5 лет! *"
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/security/2.webp
+          title: "Высокопрочная сталь"
+          description: "Высокопрочные стали в конструкции кузова составляют  более 60%. Большинство элементов кузова выполнено из высокопрочной стали."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/security/3.webp
+          title: "Система курсовой устойчивости"
+          description: "Все верси TIGGO 4 PRO оснащены системой курсовой устойчивости ESC, использующей новейший высокопроизводительный процессор для снижения энергопотребления, ускорения вычислений и уменьшения времени отклика."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/T4_18YE_april_god_vypuska_25_12529756206100706169.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/4pro_Brochure_13624592870184341907.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "newtiggo7promax"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: "Для семейных побед"
+      text: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 150 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 275 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 7.7 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/exterior/1.webp
+          title: "Новый яркий облик"
+          description: "Передняя часть CHERY TIGGO 7 PRO MAX, триумфально врывающегося в будничную жизнь, воплощает в себе философию «Автомобиль для семейных побед». В ее совершенном дизайне раскрывается особый подход компании CHERY к гармонии формы и содержания."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/exterior/2.webp
+          title: "Стильный эффектный силуэт"
+          description: "Эффект «парящей» крыши, возникающий от плавного «перетекания» крыши в заднюю стойку кузова, усиливается выступом спойлера. Он придает силуэту автомобилю стремительности, улучшая его аэродинамику и добавляя устойчивости на высоких скоростях."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/exterior/3.webp
+          title: "Обновленный дизайн сзади"
+          description: "Новый дизайн задней части TIGGO 7 PRO MAX отличает элегантно выполненная световая планка, которая соединяет стильные LED-фары, придавая автомобилю современный и динамичный вид.  Двойные патрубки выхлопной трубы добавляют дополнительную дозу стиля и подчеркивают спортивный характер TIGGO 7 PRO MAX."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/interior/1.webp
+          title: "Новый и стильный салон"
+          description: "Роскошный салон из эко-кожи черного или уже доступного представительного темно-коричневого цвета так и манит оказаться внутри. Сиденье водителя с электроприводом, памятью настроек и регулировкой поясничного упора обволакивает комфортом при вождении даже в течение долгой поездки. Электрический обогрев и эргономичный подголовник дополняют общее ощущение удобства."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/interior/2.webp
+          title: "Вместительный и практичный"
+          description: "Вместительный салон и багажник емкостью до 1500 литров с функцией автоматического открытия без помощи рук, делает погрузку вещей максимально удобной. Большой багажник TIGGO 7 PRO MAX сыграет важную роль в ваших семейных поездках, обеспечивая пространство для перевозки чемоданов, коляски, спортивного снаряжение, продуктов и многого другого. Вы можете быть уверены, что у вас всегда будет достаточно места для всех ваших нужд."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/interior/3.webp
+          title: "Комфортный и функциональный"
+          description: "Круговой обзор, беспроводная зарядка, возможность подключения AppleCarPlay / Android Auto - технологичные решения, создающие максимальный комфорт при вождении и уверенности в безопасности вашей семейной поездки. Интеллектуальный голосовой помощник поможет пользоваться всеми возможностями цифрового управления, не отвлекаясь от дороги. Панорамная крыша с люком позволяет пассажирам любоваться бескрайним небом, при этом оставаясь в комфорте и безопасности салона."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/interior/4.webp
+          title: "Максимально приятная атмосфера"
+          description: "В салоне TIGGO 7 PRO MAX все продумано до мелочей - вплоть до регулируемой подсветки зеркала на солнцезащитном козырьке у водителя и пассажира. Атмосферная интерьерная подсветка салона может быть интегрирована с вашей любимой музыкой, а глубокое и проникновенное звучание высококачественных динамиков погрузит вас в волнующий мир, наполненный яркими эмоциями.  "
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/technology/1.webp
+          title: "Цифровая зона управления"
+          description: "Цифровая зона управления объединяет в единой изогнутой панели два интегрированных 12.3″ экрана. Центральный HD-дисплей с разрешением 1920*720 позволяет интуитивно управлять навигацией, настройками автомобиля и обширным мультимедийным функционалом."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/technology/2.webp
+          title: "Яркие эмоции от управления"
+          description: "Новый выделяющийся в салоне рычаг КПП со светящимся тигром привлекает внимание и комфортен в управлении. Высокотехнологичный электронный селектор передач прост и безопасен в использовании."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/technology/3.webp
+          title: "Система кругового обзора"
+          description: "Система кругового обзора с HD-камерами высокой четкости облегчает управление автомобилем в случаях, когда видимость ограничена, при движении задним ходом или при маневрировании со скоростью менее 20 км/ч."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/technology/4.webp
+          title: "Управление климатом"
+          description: "Настройте комфортный климат для двух зон в вашем TIGGO 7 PRO MAX, не отвлекаясь от вождения с помощью горячих клавиш управления или с помощью голосового помощника."
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/security/1.webp
+          title: "Защита от коррозии"
+          description: "Применяемый процесс производства кузова обеспечивает защиту от ржавчины на многие годы. Для этого используется очень прочная сталь, покрытая слоем цинка с обеих сторон. Затем кузов проходит специальную обработку: его покрывают катафорезным грунтом на 10 этапах и красят с использованием современных безопасных материалов на водной основе. В результате защита от коррозии у кузова становится в 25 раз сильнее, чем у обычных машинных кузовов без таких покрытий."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/security/2.webp
+          title: "7 лет поддержки"
+          description: "Гарантия и дополнительная поддержка на CHERY TIGGO 7 PRO MAX достигает рекордных 7 лет или 200 000 км пробега в зависимости от того, что наступит ранее. Уверенность в качестве и надёжности базируется на длительной испытательной программе."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/sections/security/3.webp
+          title: "Инновационная платформа Т1Х"
+          description: "Инновационная платформа Т1Х предоставляет переднему и задним пассажирам достаточно места для наслаждения комфортом во время поездок. Благодаря платформе автомобиль имеет выдающуюся геометрическую проходимость: высокий дорожный просвет 190 мм и внушительные углы въезда и съезда."
+    - id: option
+      sectionClass: ""
+      title: Опция CHERY REMOTE
+      text: <ul class="list-disc list-inside"><li>Автозапуск из любой точки мира</li><li>Поиск автомобиля на парковке</li><li>Контроль состояния и управление функциями (подогрев, центральный замком)</li><li>Фиксация ДТП и помощь</li><li>Управление голосом «Привет, Siri, заведи мой автомобиль»</li></ul>
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/T7PM_april_god_vypuska_2025_4420907595123567213.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/NewTiggo7promax_Broshur_12831260099192421528.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "tiggo7l"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: "Встречайте новый Tiggo 7L"
+      text: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 150 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 275 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 6.2 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/exterior/1.webp
+          title: "Обновленный дизайн кузова"
+          description: "Внешность обновленного CHERY TIGGO 7L соответствует внутреннему содержанию: это элегантный, яркий и динамичный кроссовер, который идеально воплощает свое предназначение и обязательно доставит вас и вашу семью к намеченной цели."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/exterior/2.webp
+          title: "Выразительная светодиодная оптика"
+          description: "Высоко расположенные светодиодные ходовые огни усиливают ощущение стремительности и современности силуэта. Стильные противотуманные фары не только помогают ориентироваться в сложных дорожных условиях, но и украшают автомобиль. Задние светодиодные огни эстетично дополняют экстерьер."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/exterior/3.webp
+          title: "Эффективные литые диски"
+          description: "Оригинальный двухцветный дизайн 18′′ и 19′′ дисков** эффектно подчеркивает образ современного автомобиля, который воплощает в себе динамику и стиль."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/interior/1.webp
+          title: "Эффектный темный салон"
+          description: "Интерьер салона, выполненный из высококачественной экокожи в благородных оттенках чёрного и насыщенного тёмно-коричневого, обеспечивает исключительный комфорт и привлекает внимание своим утончённым стилем. Атмосферная подсветка создаёт игру света и тени, придавая особую атмосферу уюта и комфорта. Потолочная консоль антрацитового оттенка идеально дополняет современный и гармоничный образ автомобиля."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/interior/2.webp
+          title: "Комфортные сидения с вентиляцией"
+          description: "Непревзойденный комфорт сопровождает вас даже в самых длительных путешествиях, благодаря водительскому сиденью, которое запоминает все настройки ваших предпочтений. Обогрев и вентиляция обеспечат оптимальный микроклимат в любое время года, а регулируемая поясничная поддержка позаботится о здоровье вашей спины. Это сиденье создано, чтобы вы чувствовали себя отдохнувшим даже после долгих часов за рулем."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/interior/3.webp
+          title: "Для семейных приключений"
+          description: "В вашем распоряжении вместительный багажник емкостью до 1500 литров, с функцией автоматического открытия без помощи рук. Это не просто функция, а проявление заботы о вашей повседневной жизни."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/interior/4.webp
+          title: "Панорамная крыша с люком"
+          description: "Погрузитесь в атмосферу свободы и безграничных возможностей с панорамной крышей с люком и солнцезащитной шторкой! Наслаждайтесь захватывающими видами облаков, горных вершин и городских огней прямо из уютного салона. Широкая стеклянная крыша позволяет естественному свету заполнять салон, создавая ощущение простора и лёгкости."
+    - id: digital-technologies
+      sectionClass: ""
+      title: Цифровая панель управления 2*12.3”
+      suptitle: ""
+      text: "<p class='mb-4'>Два 12,3-дюймовых экрана образуют единую изогнутую панель в цифровой зоне. Центральный HD-дисплей с разрешением 1920x720 отвечает за навигацию, настройки автомобиля и мультимедийные функции.</p><p>Также, в оснащении автомобиля имеется система панорамного обзора, беспроводная зарядка и поддержка Apple CarPlay/Android Auto. Голосовой помощник позволяет не отвлекаясь от дороги, управлять большинством интеллектуальных функций.</p>"
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/digital-technologies/1.webp
+          title: "Физические клавиши управления"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/digital-technologies/2.webp
+          title: "Круговой обзор 540° в режиме HD"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/digital-technologies/3.webp
+          title: "Беспроводная зарядка под рукой"
+          description: ""
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: ""
+      text: "<h3 class='font-bold text-xl mb-3'>Производительность</h3><p class='mb-4'>Сильные стороны двигателя 1.6 TGDI раскрываются в паре с роботизированной коробкой передач DCT7, с полностью электронным управлением</p><h3 class='font-bold text-xl mb-3'>Маневренность</h3><p class='mb-4'>Передняя подвеска McPherson обеспечивает превосходную управляемость и уверенное сцепление с дорогой, что делает вождение безопасным и комфортным.</p><h3 class='font-bold text-xl mb-3'>Проходимость</h3><p class='mb-4'>Дорожный просвет 190 мм и продуманная геометрия кузова позволяют уверенно двигаться по пересеченной местности.</p>"
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/technology/1.webp
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/security/1.webp
+          title: "Безопасность на высоте"
+          description: "Безопасность CHERY TIGGO 7L подтверждена успешным прохождением комплекса испытаний по стандартам ANCAP (Университет Аделаиды, Австралия) и гарантирует соответствие современным требованиям к конструкции и системам активной безопасности."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/security/2.webp
+          title: "Современные системы помощи водителю"
+          description: "ADAS*** — это не просто системы защиты, это ваш ассистент на дороге, который не только помогает избежать опасных ситуаций, но и берет на себя часть управления, чтобы сделать вашу поездку более удобной и безопасной."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/T7L_april_10576924203569098347.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/CHERY_BR_15-04-2025_9933691639803201903.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "newtiggo8promax"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: ""
+      text: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 186 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 275 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 7.2 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/exterior/1.webp
+          title: "Rhomb Diamond Matrix"
+          description: "Обновленные элементы экстерьера и решетка радиатора Rhomb Diamond Matrix создают неповторимый образ, воплощая сочетание традиционной эстетики Китая и глобального мира."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/exterior/2.webp
+          title: "Яркий спутник в поездках"
+          description: "Узнаваемые огни LED-оптики, динамические указатели поворотов и яркие ходовые огни подчеркивают уникальный стиль TIGGO 8 PRO MAX и помогут стать верным спутником в ваших семейных поездках!"
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/exterior/3.webp
+          title: "Для семейных увлечений"
+          description: "Просторный семиместный кроссовер с 19” дисками, удлиненным силуэтом, стильным дизайном задних LED-фонарей уместит все атрибуты ваших семейных увлечений."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/interior/1.webp
+          title: "Дизайнерский салон для нужд всей семьи"
+          description: "Атмосферная подсветка, объемное звучание аудио-системы Sony с 10 динамиками и улучшенная шумоизоляция создают ощущение уюта  для всей вашей семьи."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/interior/2.webp
+          title: "7 мест для путешествий всей семьей"
+          description: "Просторный интерьер с отделкой из эко-кожи на 7 мест в темно-коричневых или черных тонах вместит всю вашу семью, а удобные кресла с возможностью регулировки обеспечат комфорт в длительных поездках."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/interior/3.webp
+          title: "Эргономичные сиденья и панорамная крыша"
+          description: "Выверенная эргономика кресел, авиационные подголовники и множество настроек для водителя, функция массажа и регулировка подставки для ног пассажира - все для комфорта в семейных поездках."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/1.webp
+          title: "Цифровая зона управления 2х12.3”"
+          description: "Цифровая зона управления с изогнутой панелью 2х12.3”, проекционный дисплей, круговой обзор в формате 540°, телематика Chery Connect, беспроводная зарядка - технологичные решения, создающие максимальный комфорт при вождении. Система контроля качества воздуха AQS и ионизация создают в салоне чистый кислородный бар."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/2.webp
+          title: "Контроль качества воздуха AQS"
+          description: "Система контроля качества воздуха AQS и ионизация создают в салоне чистый кислородный бар. Двузонный климат-контроль, возможность регулировки потока воздуха для каждого ряда сидений и полный зимний пакет позволяют учесть все предпочтения в пути."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/3.webp
+          title: "Продвинутый функционал"
+          description: "Полноприводный семиместный кроссовер TIGGO 8 PRO MAX оснащен дополнительным оборудованием, которое выводит модель на новый уровень комфорта, соответствующий бизнес-классу: проекционный дисплей, телематика Chery Connect, встроенный видеорегистратор, аудиосистема SONY, круговой обзор в формате 540°."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/4.webp
+          title: "Надежен в ваших поездках"
+          description: "Преселективная роботизированная 7-ступенчатая трансмиссия DCT7 с двумя сцеплениями мокрого типа оптимально сочетается с интеллектуальным полным приводом 4WD, что позволит путешествовать в самые отдаленные места."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/5.webp
+          title: "Полный привод 4WD"
+          description: "Интеллектуальный полный привод – гарантия повышенной проходимости вне города. В зависимости от дорожных условий, интеллектуальный ассистент выбирает режим вождения, автоматически переключая между 2WD и 4WD-приводом."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/6.webp
+          title: "Мониторинг слепых зон"
+          description: "Появление транспортных средств в слепых зонах с обеих сторон автомобиля контролируется микроволновым радаром, предупреждая об опасной ситуации звуковым и визуальным сигналом (BSD)."
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/security/1.webp
+          title: "Поддержка 7 лет"
+          description: "Гарантия и дополнительная поддержка на CHERY TIGGO 8 PRO MAX достигает рекордных 7 лет или 200 000 км пробега в зависимости от того, что наступит ранее. Уверенность в качестве и надёжности базируется на длительной испытательной программе."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/security/2.webp
+          title: "5 звезд CNCAP"
+          description: "TIGGO 8 PRO MAX заслуженно получил высшую оценку безопасности 5* по методике C-NCAP Китайского Центра Автомобильных Технологий и Исследований. Комплексная защита включает в себя 9 подушек безопасности и мощный силовой каркас безопасности."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/T8PM_april_god_vypuska_2025_16320689286466147556.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/Tiggo%208%20Pro%20Max%20FL%20catalog%20preview_11599361390388115835.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "tiggo9"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: "Новый Tiggo 9"
+      text: "Полноприводный кроссовер сегмента SUV (D) 4810X1925X1741."
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 245 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 375 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 8.3 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Эффектный экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/exterior/1.webp
+          title: "Решетка радиатора"
+          description: "Решетка радиатора украшена трехмерным узором, напоминающим россыпь множества бриллиантов."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/exterior/2.webp
+          title: "Оптика"
+          description: "Элементы дизайна ходовых огней вызывают ассоциацию с тигриными полосками, создавая изысканный эстетичный образ. Они усиливают визуальное ощущение трехмерности и глубину перспективы."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/exterior/3.webp
+          title: "20-дюймовые колесные диски"
+          description: "Автомобиль украшают стильные 20-дюймовые колесные диски. У него обтекаемый силуэт, а также панорамная крыша с люком и шторкой."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/exterior/4.webp
+          title: "Выдвижные ручки"
+          description: "Выдвижные ручки имеют усиленный электропривод от обледенения, улучшают аэродинамику, а также снижают уровень шума."
+    - id: interior
+      sectionClass: ""
+      title: Роскошный удобный интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/interior/1.webp
+          title: "Современные технологии"
+          description: "В распоряжении водителя «парящий» экран приборной панели (10.3 дюйма), а также 15.6-дюймовый основной экран с разрешением Ultra-HD."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/interior/2.webp
+          title: "Роскошный кожаный салон на семь мест"
+          description: "Роскошный кожаный салон на семь мест в черных или коричневых тонах выглядит модно и изысканно. Атмосферная подсветка, объемное звучание аудио-системы Sony с 14 динамиками и улучшенная шумоизоляция создают ощущение уюта и премиального комфорта."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/interior/3.webp
+          title: "Двузонный климат-контроль"
+          description: "Двузонный климат-контроль, боковые и задние дефлекторы позволяют создать комфортную атмосферу для водителя и всех пассажиров в салоне."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/1.webp
+          title: "Автоматическая КПП АТ8"
+          description: "Автоматическая коробка передач АТ8 идеально сочетается с мощным 2-литровым турбодвигателем, обеспечивая превосходную динамику и плавность движения."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/2.webp
+          title: "Интеллектуальный полный привод"
+          description: "Интеллектуальный полный привод обеспечивает отклик муфты примерно за 0,1 секунды и непрерывную передачу крутящего момента на заднюю ось. В вашем распоряжении 7 режимов выбора движения — Нормальный, Экономичный, Спортивный, Песок, Грязь, Снег, Бездорожье."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/3.webp
+          title: "Интеллектуальная система автоматической парковки и ассистенты водителя"
+          description: "Новый кроссовер CHERY TIGGO 9 будет оборудован системой автоматической парковки новейшего поколения – APA. Парковочный автопилот демонстрирует передовые разработки CHERY в области интеллектуальных технологий вождения."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/4.webp
+          title: "Современные ассистенты водителя"
+          description: "В вашем распоряжении современные ассистенты водителя (адаптивный круиз-контроль, система мониторинга слепых зон, удержание в полосе и другие)."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/technology/5.webp
+          title: "Уверенность на дороге"
+          description: "Фронтальные и задние и боковые датчики контролируют обстановку на дороге и делают вашу поездку максимально безопасной."
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/security/1.webp
+          title: "Полный зимний пакет"
+          description: "Автомобиль максимально адаптирован к климату и дорожным условиям благодаря полному зимнему пакету, оцинкованному кузову и системам, позволяющим снизить расход топлива"
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/security/2.webp
+          title: "10 подушек безопасности"
+          description: "Автомобиль имеет 10 подушек безопасности: фронтальные и боковые для 1-го и 2-го рядов. Также вас защищают шторки безопасности, центральная подушка между водителем и пассажиром и коленная подушка водителя."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/security/3.webp
+          title: "5 лет гарантии"
+          description: "Компоненты для обеспечения безопасности приобретаются у лучших мировых поставщиков, что гарантирует надежность и качество. На модель Chery Tiggo 9 предоставляется гарантия пять лет или 150 000 км."
+    - id: connect
+      sectionClass: ""
+      title: Chery Connect
+      suptitle: ""
+      text: Система телематики позволяет дистанционно прогреть салон, контролировать состояние автомобиля и найти его на парковке.
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo9/sections/connect/1.webp
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/T9_april_2025_7754589389088834511.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/T9_BR_04-02-2025_PRV_4354513153866378714.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "arrizo8"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: "Arrizo 8"
+      text: "Элегантность в движении"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 150 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 275 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 7.5 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/exterior/1.webp
+          title: "Элегантный бизнес-седан"
+          description: "Эффектный силуэт кузова и мощные мускулистые линии, словно визуальное выражение динамики, создают ощущение энергии и неудержимой жизненной силы."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/exterior/2.webp
+          title: "Дерзский темперамент"
+          description: "«Х»-образная форма радиаторной решетки и резкие геометрические формы отражают стремительный характер и дерзкий темперамент, и даже придают нотки агрессии."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/exterior/3.webp
+          title: "Эстетика стиля"
+          description: "Удлиненный стройный силуэт автомобиля, созданный переплетением резких и плавных линий, подчеркивает выразительные формы, отражает стремительную динамику и мощь."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/interior/1.webp
+          title: "Пространство стиля"
+          description: "Платформа M1X обеспечивает максимально комфортное пространство для водителя и всех пассажиров. Плавные линии дизайна прекрасно соответствуют сочетанию высококачественных материалов отделки. Усиленная шумоизоляция сделает поездку еще уютнее и комфортнее."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/interior/2.webp
+          title: "Окутывающий интерьер"
+          description: "Обтекаемые плавные формы, элегантное сочетание качественных материалов, комфортный теплый свет и большая цифровая зона управления с двумя 12,3″ HD-дисплеями буквально погружают Вас в атмосферу премиального комфорта."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/interior/3.webp
+          title: "Центр управления движением"
+          description: "Регулировка сиденья водителя в 6 направлениях и поясничного упора, обогрев, вентиляция, память настроек, анатомические сиденья, авиационные подголовники, премиальная аудиосистема SONY - уровень, достойный Вашего внимания."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/technology/1.webp
+          title: "Все под контролем"
+          description: "Электронное управление роботизированной коробкой передач DCT7 обеспечивает максимально плавное переключение и высокий КПД трансмиссии ~ 96%. Электрический стояночный тормоз надежен при парковке, а AutoHold реализует временную фиксацию автомобиля во время коротких остановок."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/technology/2.webp
+          title: "Безопасность 5★"
+          description: "Автомобиль спроектирован с учётом требований для 5* C-NCAP: 10 подушек безопасности, 80% содержания высокопрочной стали в силовом каркасе, более 12 высокотехнологичных систем активной безопасности и помощи водителю ADAS - все это обеспечивает максимальную защиту каждого пассажира."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/technology/3.webp
+          title: "Платформа M1X"
+          description: "Увеличенная до 2790 мм колесная база, полностью независимая многорычажная подвеска в сочетании с мощным энергоэффективным двигателем 1.6TGDI 186 л.с. обеспечивают истинное удовольствие от прохождения каждого поворота."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/Arrizo_8_april_5082965617045538250.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/Arrizo8_new_15891955370138132057.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "tiggo7pro-plug-in-hybrid"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: ""
+      text: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 147 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 160 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива при минимальной степени зарядки батареи от 7.3 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/exterior/1.webp
+          title: "Панорамная «парящая» крыша"
+          description: "Придает автомобилю элегантный вид и создает ощущение простора в салоне. Благодаря этому предоставляется уникальная возможность наслаждаться ярким дневным светом и внешним пейзажем."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/exterior/2.webp
+          title: "Эффективный дизайн"
+          description: "CHERY Tiggo 7 PRO Plug-in Hybrid привлекает внимание своим современным и элегантным экстерьером, а также ярким и инновационным оснащением. Все эти преимущества сделают вашу поездку комфортной и стильной, привнося при этом долю роскоши и удовольствия на дороге."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/interior/1.webp
+          title: "Технологичный"
+          description: "CHERY Tiggo 7 PRO Plug-in Hybrid оснащен технологичным интерьером, который обеспечивает комфорт и удобство во время поездок. Сдвоенная панель экранов размером 2х12.3” предлагает интуитивное управление автомобилем и предоставляет информацию о различных параметрах работы автомобиля. На панели климата размером 8” можно легко настроить и контролировать климатическую систему автомобиля."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/interior/2.webp
+          title: "Согревая в пути"
+          description: "CHERY Tiggo 7 PRO Plug-in Hybrid оснащен полным зимним пакетом, куда входят обогревы ветрового стекла, форсунок омывателя, зеркал, заднего стекла, рулевого колеса, передних и задних сидений."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/interior/3.webp
+          title: "Стильный"
+          description: "CHERY Tiggo 7 PRO Plug-in Hybrid предлагает современные технологии и функции в удобном и элегантном интерьере, создавая приятную и комфортную атмосферу в автомобиле, атмосферная подсветка придаст уникальность салону автомобиля. Сиденья анатомической формы с усиленной боковой поддержкой обеспечивают комфортную посадку. 10 направлений регулировки водительского кресла и память настроек позволяет создать идеальное положение водителя для максимального удобства в поездке."
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/security/1.webp
+          title: "Надежный партнер на дорогах"
+          description: "Наслаждайтесь комфортной и безопасной поездкой на Chery Tiggo 7 Pro Plug-in Hybrid с передовой системой активной безопасности ADAS.  Интеллектуальные системы помощи водителю обеспечивают безопасность на дороге, а система Эра-Глонасс гарантирует точную локализацию и быстрый вызов помощи при необходимости."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/security/2.webp
+          title: "Оцинкованный кузов"
+          description: "Каркас безопасности обеспечивает дополнительную защиту при авариях, а более 60% кузова изготовлено из высокопрочной термоформованной стали Benteler, создающую высокую прочность и жесткость."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/security/3.webp
+          title: "Интеллектуальные системы"
+          description: "Chery Tiggo 7 Pro Plug-in Hybrid предлагает множество удобных функций для повседневного использования. Например, проекционный экран, система удержания полосы движения и контроль слепых зон облегчают движение в городских условиях. Предупреждение о препятствиях при открытии дверей или движении задним ходом в ограниченной видимости помогает избегать возможных неприятностей. Камеры кругового обзора делают парковку на узких местах безопасной и удобной."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/security/4.webp
+          title: "Помощь на дорогах"
+          description: "Мы понимаем насколько важна мобильность и оперативная помощь при возникновении внештатной ситуации на дороге и с заботой об автовладельцах предлагаем программу помощи на дорогах CHERY HYBRID Assistance на 5 лет. Она включает в себя круглосуточную техническую помощь в радиусе 250 км от административных границ города присутствия дилерского центра CHERY (прошедшего сертификацию на продажу и обслуживание автомобилей с гибридной силовой установкой)."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/прайс_phev_7_pro_mar_7351197756814969083.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/каталог%20гибриды_8914018805080901917.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"
+- id: "tiggo8pro-plug-in-hybrid"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: ""
+      text: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 108 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 160 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива при минимальной степени зарядки батареи от 6.8 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/exterior/1.webp
+          title: "Современный, эффектный и стильный"
+          description: "Идеальный выбор для тех, кто ценит современные технологии, стиль и комфорт. CHERY TIGGO 8 PRO Plug-in Hybrid привлекает внимание своей стильной внешностью, а внушительная решетка радиатора Rhomb Diamond Matrix с трехмерным эффектом и светящимся логотипом создают неповторимый образ."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/exterior/2.webp
+          title: "Интеллектуальная LED-оптика "
+          description: "Обеспечивает яркое и ровное освещение дороги, что повышает безопасность и комфорт водителя и пассажиров. Динамические поворотники добавляют стиля и уникальности внешности автомобиля, делая его более заметным на дороге."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/exterior/3.webp
+          title: "19” диски "
+          description: "19” диски Chery Tiggo 8 Pro Plug-in Hybrid придают автомобилю яркий вид и привлекают внимание на дороге."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/interior/1.webp
+          title: "Премиальный комфорт"
+          description: "CHERY Tiggo 8 PRO Plug-In HYBRID сочетает в себе такие качества как комфорт и удобство для водителя и пассажира, так и передовые современные технологии. Качественные премиальные материалы интерьера 7-местного салона, специальные подголовники «авиационного» типа, кресло переднего пассажира с пневматическим массажем поясницы и подставкой для ног с бесступенчатой регулировкой, электропривод регулировок кресел и USB-зарядки – все для удовольствия за рулем."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/interior/2.webp
+          title: "Погружение в мир технологий"
+          description: "С помощью 4 круговых камер и 3D-обзора вы полностью охватываете всю окружающую обстановку. Функция камеры 540 HD Panoramic View позволяет видеть даже «прозрачное дно», не упуская ни одной детали. Каждая поездка с Chery Tiggo 8 Pro Plug-in Hybrid становится незабываемым приключением! Великолепная звуковая система от известного бренда Sony с 10 мощными динамиками обеспечивает эмоциональное и высококачественное звучание во время вашего путешествия."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/interior/3.webp
+          title: "Согревая в пути"
+          description: "CHERY TIGGO 8 Plug-in Hybrid оснащен различными системами обогрева, обеспечивающими комфортные поездки в холодную погоду: подогрев передних и задних сидений, рулевого колеса, лобового стекла и форсунок стеклоомывателя. Эти функции гарантируют теплоту и удобство для водителя и пассажиров, а также обеспечивают хорошую видимость на дороге в любых погодных условиях."
+    - id: security
+      sectionClass: ""
+      title: Технологии и безопасность
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/security/1.webp
+          title: "Надежный партнер на дорогах"
+          description: "Каркас безопасности обеспечивает дополнительную защиту при авариях, а более 60% кузова изготовлено из высокопрочной термоформованной стали Benteler, создающую высокую прочность и жесткость."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/security/2.webp
+          title: "Интеллектуальные системы"
+          description: "Chery Tiggo 8 Pro Plug-in Hybrid предлагает множество удобных функций для повседневного использования. Например, проекционный экран, система удержания полосы движения и контроль слепых зон облегчают движение в городских условиях. Предупреждение о препятствиях при открытии дверей или движении задним ходом в ограниченной видимости помогает избегать возможных неприятностей. Камеры кругового обзора делают парковку на узких местах безопасной и удобной."
+        - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/sections/security/3.webp
+          title: "Помощь на дорогах"
+          description: "Мы понимаем насколько важна мобильность и оперативная помощь при возникновении внештатной ситуации на дороге и с заботой об автовладельцах предлагаем программу помощи на дорогах CHERY HYBRID Assistance на 5 лет. Она включает в себя круглосуточную техническую помощь в радиусе 250 км от административных границ города присутствия дилерского центра CHERY (прошедшего сертификацию на продажу и обслуживание автомобилей с гибридной силовой установкой)."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://www.chery.ru/прайс%20TIiggo_8_PHEV_2024_mar_18241767179244804511.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/каталог%20гибриды_8914018805080901917.pdf' class='underline' target='_blank'>Брошюра</a></span></p>"

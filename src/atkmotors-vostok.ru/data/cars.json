@@ -1,0 +1,65 @@
+[
+  {
+    "id": "chery-arrizo8",
+    "model": "ARRIZO 8",
+    "price": "2710000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/arrizo8/"
+  },
+  {
+    "id": "chery-newtiggo7promax",
+    "model": "TIGGO 7 PRO MAX",
+    "price": "2470000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/newtiggo7promax/"
+  },
+  {
+    "id": "chery-newtiggo8promax",
+    "model": "TIGGO 8 PRO MAX",
+    "price": "2840000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/newtiggo8promax/"
+  },
+  {
+    "id": "chery-tiggo4",
+    "model": "TIGGO 4",
+    "price": "2110000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo4/"
+  },
+  {
+    "id": "chery-tiggo4pro",
+    "model": "TIGGO 4 PRO 18 years edition",
+    "price": "1730000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo4pro/"
+  },
+  {
+    "id": "chery-tiggo7l",
+    "model": "TIGGO 7L НОВИНКА",
+    "price": "2580000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo7l/"
+  },
+  {
+    "id": "chery-tiggo7pro-plug-in-hybrid",
+    "model": "TIGGO 7 PRO PLUG-IN HYBRID",
+    "price": "3309000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo7pro-plug-in-hybrid/"
+  },
+  {
+    "id": "chery-tiggo8pro-plug-in-hybrid",
+    "model": "TIGGO 8 PRO PLUG-IN HYBRID",
+    "price": "3699000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo8pro-plug-in-hybrid/"
+  },
+  {
+    "id": "chery-tiggo9",
+    "model": "TIGGO 9",
+    "price": "4150000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo9/"
+  }
+]
