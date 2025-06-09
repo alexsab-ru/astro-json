@@ -1,14 +1,26 @@
 [
     {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
+        "name": "Chery АТК Моторс Восток",
+        "address": "Самара, Аэропортовское ш., 1Ж",
+        "phone":  "+7 (846) 207-99-88",
+        "work_hours": "пн — вс: 9:00 — 21:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/b/chery/img/chery-locator.svg",
-            "coords": [55.715873, 47.617700],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+            "coords": [53.252561,50.362156],
+            "ya_link": "https://yandex.ru/maps/51/samara/?ll=50.362236%2C53.252549&mode=routes&rtext=~53.252561%2C50.362156&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D1260111269&z=21"
+        }
+    },
+    {
+        "name": "Changan АТК Моторс Восток",
+        "address": "Самара, Аэропортовское ш., 1Ж",
+        "phone":  "+7 (846) 207-98-88",
+        "work_hours": "пн — вс: 9:00 — 21:00",
+        "map": {
+            "zoom": 13,
+            "balloon": "https://cdn.alexsab.ru/locator/changan-locator.svg",
+            "coords": [53.252638617700,50.362114],
+            "ya_link": "https://yandex.ru/maps/51/samara/?ll=50.362236%2C53.252549&mode=routes&rtext=~53.252638%2C50.362114&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D190040306224&z=21"
         }
     }
 ]
