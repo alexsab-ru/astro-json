@@ -1,0 +1,1711 @@
+[
+	{
+		"mark_id": "Changan",
+		"id": "cs75plusnew",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Вдохновлен путешествиями",
+		"name": "CS75PLUS NEW",
+		"price": "{{price-changan-cs75plusnew}}",
+		"benefit": "{{benefit-changan-cs75plusnew}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan CS75PLUS NEW",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan CS75PLUS NEW",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_atomic_grey.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_atomic_grey.webp",
+		"colors": [
+			{
+				"id": "atomic_grey",
+				"name": "Атомный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_atomic_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/atomic_grey.webp')"
+			},
+			{
+				"id": "deep_black",
+				"name": "Глубокий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_deep_black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/deep_black.webp')"
+			},
+			{
+				"id": "mountain_grey",
+				"name": "Горный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_mountain_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/mountain_grey.webp')"
+			},
+			{
+				"id": "crystal_white",
+				"name": "Кристальный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_crystal_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/crystal_white.webp')"
+			}
+		],
+		"feed_names": [],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "8AT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2710",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4710",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1865",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "2.0",
+				"measure": ""
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "8AT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "380",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "226",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "cs55plus",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Симфония технологий",
+		"name": "CS55PLUS",
+		"price": "{{price-changan-cs55plus}}",
+		"benefit": "{{benefit-changan-cs55plus}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan CS55PLUS",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan CS55PLUS",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/cs55plus_atomic_grey.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/cs55plus_atomic_grey.webp",
+		"colors": [
+			{
+				"id": "atomic_grey",
+				"name": "Атомный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/cs55plus_atomic_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/atomic-grey.webp')"
+			},
+			{
+				"id": "deep_black",
+				"name": "Глубокий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/cs55plus_deep_black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/pitch-black.webp')"
+			},
+			{
+				"id": "pearl_white",
+				"name": "Перламутровый белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/cs55plus_pearl_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/pearl-white.webp')"
+			},
+			{
+				"id": "spark_red",
+				"name": "Искрящийся красный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/cs55plus_spark_red.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/spark-red.webp')"
+			},
+			{
+				"id": "star_grey",
+				"name": "Звездный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/cs55plus_star_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/star-grey.webp')"
+			}
+		],
+		"feed_names": [
+			"CS55PLUS, I Рестайлинг"
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "7 DCT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2656",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4515",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1865",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "1.5T",
+				"measure": ""
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "7 DCT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "280",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "181",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "cs35plusnew",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Пульс города",
+		"name": "CS35PLUS NEW",
+		"price": "{{price-changan-cs35plusnew}}",
+		"benefit": "{{benefit-changan-cs35plusnew}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan CS35PLUS NEW",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan CS35PLUS NEW",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/cs35plusnew_crystal_white.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/cs35plusnew_crystal_white.webp",
+		"colors": [
+			{
+				"id": "crystal_white",
+				"name": "Кристально белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/cs35plusnew_crystal_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/crystal_white.webp')"
+			},
+			{
+				"id": "ashen_grey",
+				"name": "Серебристый пепел",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/cs35plusnew_ashen_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/ashen_grey.webp')"
+			},
+			{
+				"id": "spark_red",
+				"name": "Искрящийся красный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/cs35plusnew_spark_red.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/spark_red.webp')"
+			},
+			{
+				"id": "mountain_grey",
+				"name": "Горный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/cs35plusnew_mountain_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/mountain_grey.webp')"
+			}
+		],
+		"feed_names": [
+			"CS35PLUS, I Рестайлинг"
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "7 DCT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2600",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4330",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1825",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "1.4T",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "7 DCT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "255",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "150",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "alsvin",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Воплощение уверенности",
+		"name": "ALSVIN",
+		"price": "{{price-changan-alsvin}}",
+		"benefit": "{{benefit-changan-alsvin}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan ALSVIN",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan ALSVIN",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/alsvin/colors/black.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/alsvin/colors/black.webp",
+		"colors": [
+			{
+				"id": "black",
+				"name": "Глубокий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/alsvin/colors/black.webp",
+				"style": "background: linear-gradient(40deg, #000000 45%, white)"
+			},
+			{
+				"id": "blue",
+				"name": "Кристальный синий",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/alsvin/colors/blue.webp",
+				"style": "background: linear-gradient(40deg, #001ebe 45%, white)"
+			},
+			{
+				"id": "gray",
+				"name": "Космический серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/alsvin/colors/gray.webp",
+				"style": "background: linear-gradient(40deg, #616e7c 45%, white)"
+			},
+			{
+				"id": "red",
+				"name": "Искрящийся красный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/alsvin/colors/red.webp",
+				"style": "background: linear-gradient(40deg, #a71313 45%, white)"
+			},
+			{
+				"id": "silver",
+				"name": "Лунный серебристый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/alsvin/colors/silver.webp",
+				"style": "background: linear-gradient(40deg, #cdcfd4 45%, white)"
+			},
+			{
+				"id": "white",
+				"name": "Звездный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/alsvin/colors/white.webp",
+				"style": "background: linear-gradient(40deg, #ffffff 45%, white)"
+			}
+		],
+		"feed_names": [
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "5DCT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2535",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4390",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1725",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "1.5л",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "5DCT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "137",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "98",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "eadoplus",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Единство формы и содержания",
+		"name": "EADOplus",
+		"price": "{{price-changan-eadoplus}}",
+		"benefit": "{{benefit-changan-eadoplus}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan EADOplus",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan EADOplus",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/eadoplus_black.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/eadoplus_black.webp",
+		"colors": [
+			{
+				"id": "black",
+				"name": "Глубокий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/eadoplus_black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/black.webp')"
+			},
+			{
+				"id": "grey",
+				"name": "Космический серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/eadoplus_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/grey.webp')"
+			},
+			{
+				"id": "white",
+				"name": "Звездный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/eadoplus_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/white.webp')"
+			},
+			{
+				"id": "silver",
+				"name": "Титановый серебристый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/eadoplus_silver.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/silver.webp')"
+			},
+			{
+				"id": "red",
+				"name": "Искрящийся красный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/eadoplus_red.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/red.webp')"
+			}
+		],
+		"feed_names": [
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "7 DCT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "1.4",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "7 DCT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "255",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "150",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "lamore",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Символ элегантности",
+		"name": "Lamore",
+		"price": "{{price-changan-lamore}}",
+		"benefit": "{{benefit-changan-lamore}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan Lamore",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan Lamore",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/lamore_deep_black.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/lamore_deep_black.webp",
+		"colors": [
+			{
+				"id": "deep_black",
+				"name": "Глубокий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/lamore_deep_black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/deep_black.webp')"
+			},
+			{
+				"id": "mountain_grey",
+				"name": "Горный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/lamore_mountain_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/mountain_grey.webp')"
+			},
+			{
+				"id": "shining_red",
+				"name": "Сияющий красный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/lamore_shining_red.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/shining_red.webp')"
+			},
+			{
+				"id": "starry_white",
+				"name": "Звездный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/lamore_starry_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/starry_white.webp')"
+			},
+			{
+				"id": "exquisite_green",
+				"name": "Изысканный зеленый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/lamore_exquisite_green.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/exquisite_green.webp')"
+			}
+		],
+		"feed_names": [
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "7 DCT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2765",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4770",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1840",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "1.5T",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "7 DCT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "300",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "181",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "cs75plus",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Вдохновлен путешествиями",
+		"name": "CS75plus",
+		"price": "{{price-changan-cs75plus}}",
+		"benefit": "{{benefit-changan-cs75plus}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan CS75plus",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan CS75plus",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/cs75plus_atomic_grey.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/cs75plus_atomic_grey.webp",
+		"colors": [
+			{
+				"id": "atomic_grey",
+				"name": "Атомный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/cs75plus_atomic_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/atomic_grey.webp')"
+			},
+			{
+				"id": "deep_black",
+				"name": "Глубокий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/cs75plus_deep_black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/deep_black.webp')"
+			},
+			{
+				"id": "mountain_grey",
+				"name": "Горный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/cs75plus_mountain_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/mountain_grey.webp')"
+			},
+			{
+				"id": "crystal_white",
+				"name": "Кристальный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/cs75plus_crystal_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/crystal_white.webp')"
+			},
+			{
+				"id": "crystal_blue",
+				"name": "Кристальный синий",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/cs75plus_crystal_blue.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/crystal_blue.webp')"
+			}
+		],
+		"feed_names": [
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "6AT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2710",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4700",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1865",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "1.5",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "6AT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "265",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "167",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "cs85coupe",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Стиль жизни",
+		"name": "CS85COUPE",
+		"price": "{{price-changan-cs85coupe}}",
+		"benefit": "{{benefit-changan-cs85coupe}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan CS85COUPE",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan CS85COUPE",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/cs85_black.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/cs85_black.webp",
+		"colors": [
+			{
+				"id": "black",
+				"name": "Тихий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/cs85_black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/black.webp')"
+			},
+			{
+				"id": "blue",
+				"name": "Сияющий синий",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/cs85_blue.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/blue.webp')"
+			},
+			{
+				"id": "white",
+				"name": "Полярный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/cs85_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/white.webp')"
+			},
+			{
+				"id": "red",
+				"name": "Сияющий красный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/cs85_red.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/red.webp')"
+			},
+			{
+				"id": "viol",
+				"name": "Глубокий фиолетовый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/cs85_viol.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/viol.webp')"
+			},
+			{
+				"id": "grey",
+				"name": "Серебристый серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/cs85_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/grey.webp')"
+			}
+		],
+		"feed_names": [
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "8AT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2705",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4720",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1845",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "2.0T",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "8AT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "360",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "224",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "cs95",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Новые горизонты",
+		"name": "CS95",
+		"price": "{{price-changan-cs95}}",
+		"benefit": "{{benefit-changan-cs95}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan CS95",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan CS95",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/cs95/colors/cs95_white.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs95/colors/cs95_white.webp",
+		"colors": [
+			{
+				"id": "white",
+				"name": "Полярный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs95/colors/cs95_white.webp",
+				"style": "background: linear-gradient(40deg, #c2c2c2 45%, white)"
+			},
+			{
+				"id": "grey",
+				"name": "Горный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs95/colors/cs95_grey.webp",
+				"style": "background: linear-gradient(40deg, #434343 45%, white)"
+			},
+			{
+				"id": "black",
+				"name": "Благородный черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs95/colors/cs95_black.webp",
+				"style": "background: linear-gradient(40deg, #121212 45%, white)"
+			}
+		],
+		"feed_names": [
+			"CS95, I Рестайлинг 2"
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "6AT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2810",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4949",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1930",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "2.0T",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "6AT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "355",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "224",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "cs95new",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Новые горизонты",
+		"name": "CS95NEW",
+		"price": "{{price-changan-cs95new}}",
+		"benefit": "{{benefit-changan-cs95new}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan CS95NEW",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan CS95NEW",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/cs95new_noble_black.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/cs95new_noble_black.webp",
+		"colors": [
+			{
+				"id": "noble_black",
+				"name": "Благородный черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/cs95new_noble_black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/noble_black.webp')"
+			},
+			{
+				"id": "mountain_grey",
+				"name": "Горный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/cs95new_mountain_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/mountain_grey.webp')"
+			},
+			{
+				"id": "polar_white",
+				"name": "Полярный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/cs95new_polar_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/polar_white.webp')"
+			}
+		],
+		"feed_names": [
+			"CS95PLUS"
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "8AT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2810",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4949",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1940",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "2.0",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "8AT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "380",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "226",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "uni-t",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Искусство самовыражения",
+		"name": "UNI-T",
+		"price": "{{price-changan-uni-t}}",
+		"benefit": "{{benefit-changan-uni-t}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan UNI-T",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan UNI-T",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/uni-t_air_blue.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/uni-t_air_blue.webp",
+		"colors": [
+			{
+				"id": "air_blue",
+				"name": "Воздушный голубой",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/uni-t_air_blue.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/air_blue.webp')"
+			},
+			{
+				"id": "atomic_grey",
+				"name": "Атомный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/uni-t_atomic_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/atomic_grey.webp')"
+			},
+			{
+				"id": "star_grey",
+				"name": "Звездный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/uni-t_star_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/star_grey.webp')"
+			},
+			{
+				"id": "pearl_white",
+				"name": "Перламутровый белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/uni-t_pearl_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/pearl_white.webp')"
+			},
+			{
+				"id": "pitch_black",
+				"name": "Глубокий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/uni-t_pitch_black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/pitch_black.webp')"
+			},
+			{
+				"id": "sky_blue",
+				"name": "Небесный синий",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/uni-t_sky_blue.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/sky_blue.webp')"
+			}
+		],
+		"feed_names": [
+			"UNI-T, I Рестайлинг"
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "7 DCT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2710",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4515",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1870",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "1.5",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "7 DCT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "280",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "167",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "uni-v",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Эстетика в динамике",
+		"name": "UNI-V",
+		"price": "{{price-changan-uni-v}}",
+		"benefit": "{{benefit-changan-uni-v}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan UNI-V",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan UNI-V",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/uni-v_atomic_grey.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/uni-v_atomic_grey.webp",
+		"colors": [
+			{
+				"id": "atomic_grey",
+				"name": "Атомный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/uni-v_atomic_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/atomic_grey.webp')"
+			},
+			{
+				"id": "bursting_blue",
+				"name": "Взрывной синий",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/uni-v_bursting_blue.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/bursting_blue.webp')"
+			},
+			{
+				"id": "moonlight_white",
+				"name": "Лунный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/uni-v_moonlight_white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/moonlight_white.webp')"
+			},
+			{
+				"id": "star_dark",
+				"name": "Звездный черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/uni-v_star_dark.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/star_dark.webp')"
+			},
+			{
+				"id": "dazzling_red",
+				"name": "Ослепительный красный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/uni-v_dazzling_red.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/dazzling_red.webp')"
+			},
+			{
+				"id": "sparkling_grey",
+				"name": "Искрящийся серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/uni-v_sparkling_grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/sparkling_grey.webp')"
+			}
+		],
+		"feed_names": [
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "7 DCT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "1.5",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "7 DCT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "300",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "181",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "uni-k",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "",
+		"name": "UNI-K",
+		"price": "{{price-changan-uni-k}}",
+		"benefit": "{{benefit-changan-uni-k}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan UNI-K",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan UNI-K",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/uni-k_air-blue.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/uni-k_air-blue.webp",
+		"colors": [
+			{
+				"id": "air-blue",
+				"name": "Воздушный голубой",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/uni-k_air-blue.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/air-blue.webp')"
+			},
+			{
+				"id": "atomic-grey",
+				"name": "Атомный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/uni-k_atomic-grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/atomic-grey.webp')"
+			},
+			{
+				"id": "star-grey",
+				"name": "Звездный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/uni-k_star-grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/star-grey.webp')"
+			},
+			{
+				"id": "pearl-white",
+				"name": "Перламутровый белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/uni-k_pearl-white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/pearl-white.webp')"
+			},
+			{
+				"id": "pitch-black",
+				"name": "Глубокий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/uni-k_pitch-black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/pitch-black.webp')"
+			},
+			{
+				"id": "sky-blue",
+				"name": "Небесный синий",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/uni-k_sky-blue.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k/colors/sky-blue.webp')"
+			}
+		],
+		"feed_names": [
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "8AT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "2.0",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "8AT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "380",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "226",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "hunterplus",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Свобода приключений",
+		"name": "HUNTERplus",
+		"price": "{{price-changan-hunter}}",
+		"benefit": "{{benefit-changan-hunter}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan HUNTERplus",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan HUNTERplus",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/hunderplus-snowy-white.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/hunderplus-snowy-white.webp",
+		"colors": [
+			{
+				"id": "snowy-white",
+				"name": "Снежный белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/hunderplus-snowy-white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/snowy-white.webp')"
+			},
+			{
+				"id": "silver-grey",
+				"name": "Серебристый серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/hunderplus-silver-grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/silver-grey.webp')"
+			},
+			{
+				"id": "mountain-grey",
+				"name": "Горный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/hunderplus-mountain-grey.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/mountain-grey.webp')"
+			},
+			{
+				"id": "cobalt-blue",
+				"name": "Кобальтовый синий",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/hunderplus-cobalt-blue.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/cobalt-blue.webp')"
+			},
+			{
+				"id": "ruby-red",
+				"name": "Рубиновый красный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/hunderplus-ruby-red.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/ruby-red.webp')"
+			}
+		],
+		"feed_names": [
+			"Hunter Plus"
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "8AT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "3180",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "5350",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1980",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "2.0",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "8AT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "390",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "226",
+				"measure": "л.с."
+			}
+		]
+	},
+	{
+		"mark_id": "Changan",
+		"id": "uni-k idd",
+		"show": true,
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Притяжение индивидуальности",
+		"name": "UNI-K iDD",
+		"price": "{{price-changan-uni-k_idd}}",
+		"benefit": "{{benefit-changan-uni-k_idd}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Выгодный трейд-ин",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Выгодный трейд-ин",
+				"data_form_name": "Выгодный трейд-ин. Changan UNI-K iDD",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Выгодный кредит",
+				"data_form_name": "Выгодный кредит. Changan UNI-K iDD",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/uni-k_idd_atomic-gray.webp",
+		"image": "https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/uni-k_idd_atomic-gray.webp",
+		"colors": [
+			{
+				"id": "atomic-gray",
+				"name": "Атомный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/uni-k_idd_atomic-gray.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/atomic-gray.webp')"
+			},
+			{
+				"id": "deep-black",
+				"name": "Глубокий черный",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/uni-k_idd_deep-black.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/deep-black.webp')"
+			},
+			{
+				"id": "star-gray",
+				"name": "Звездный серый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/uni-k_idd_star-gray.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/star-gray.webp')"
+			},
+			{
+				"id": "sky-gray",
+				"name": "Небесный синий",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/uni-k_idd_sky-gray.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/sky-gray.webp')"
+			},
+			{
+				"id": "pearl-white",
+				"name": "Перламутровый белый",
+				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/uni-k_idd_pearl-white.webp",
+				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-k idd/colors/pearl-white.webp')"
+			}
+		],
+		"feed_names": [
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "6DCT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2890",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4865",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1948",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Двигатель",
+				"value": "PHEV",
+				"measure": "л"
+			},
+			{
+				"id": "gear",
+				"title": "КПП",
+				"value": "6DCT",
+				"measure": ""
+			},
+			{
+				"id": "torgue",
+				"title": "Крут. момент",
+				"value": "585",
+				"measure": "н.м."
+			},
+			{
+				"id": "power",
+				"title": "Мощность",
+				"value": "316",
+				"measure": "л.с."
+			}
+		]
+	}
+]
