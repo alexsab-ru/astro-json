@@ -15072,7 +15072,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Технологичный кроссовер премиум класса",
         "name": "S09",
-        "price": "3009000",
+        "price": "{{price-soueast-s09}}",
         "benefit": "550000",
         "badge": {},
         "benefits": [
@@ -15093,49 +15093,49 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s09/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/soueast/img/models/s09/thumb.webp",
         "colors": [
             {
                 "id": "green",
                 "name": "Зеленый",
-                "carImage": "/img/models/s09/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s09/colors/green.webp",
                 "style": "background-color: #427276;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/s09/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s09/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/s09/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s09/colors/gray.webp",
                 "style": "background-color: #b5b5b5;"
             },
             {
                 "id": "gray-light",
                 "name": "Светло-серый",
-                "carImage": "/img/models/s09/colors/gray-light.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s09/colors/gray-light.webp",
                 "style": "background-color: #d7d7d7;"
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/s09/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s09/colors/blue.webp",
                 "style": "background-color: #3e5d9c;"
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/s09/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s09/colors/black.webp",
                 "style": ""
             }
         ],
         "complectations": [
             {
                 "name": "Comfort",
-                "price": 3009000,
+                "price": "{{price-soueast-s09}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "190",
@@ -15218,7 +15218,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Интеллектуальный городской кроссовер",
         "name": "S07",
-        "price": "2599000",
+        "price": "{{price-soueast-s07}}",
         "benefit": "400000",
         "badge": {},
         "benefits": [
@@ -15239,55 +15239,55 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s07/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/soueast/img/models/s07/thumb.webp",
         "colors": [
             {
                 "id": "pearl-white",
                 "name": "Жемчужно-белый",
-                "carImage": "/img/models/s07/colors/pearl-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s07/colors/pearl-white.webp",
                 "style": "background-color: #f0f0f0;"
             },
             {
                 "id": "brown",
                 "name": "Коричневый",
-                "carImage": "/img/models/s07/colors/brown.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s07/colors/brown.webp",
                 "style": "background-color: #877776;"
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/s07/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s07/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/s07/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s07/colors/gray.webp",
                 "style": "background-color: #b5b5b5;"
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/s07/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s07/colors/blue.webp",
                 "style": "background-color: #3e5d9c;"
             },
             {
                 "id": "blue-light",
                 "name": "Светло-синий",
-                "carImage": "/img/models/s07/colors/blue-light.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s07/colors/blue-light.webp",
                 "style": "background-color: #90a9c2;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/s07/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s07/colors/white.webp",
                 "style": "background-color: #e5e5e5;"
             }
         ],
         "complectations": [
             {
                 "name": "Comfort 2WD",
-                "price": 2599000,
+                "price": "{{price-soueast-s07}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "190",
