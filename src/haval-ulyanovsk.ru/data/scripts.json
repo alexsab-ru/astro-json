@@ -59,8 +59,8 @@
     },
     "calltouch": {
         "value": {
-            "mod_id": "",
-            "site_id": ""
+            "mod_id": "n57hfumi",
+            "site_id": "63773"
         },
         "fn": "_ct",
         "prod": false
@@ -71,7 +71,7 @@
         "prod": true
     },
     "smartpoint": {
-        "value": "",
+        "value": "429463",
         "fn": "_sp",
         "prod": true
     },
@@ -85,7 +85,7 @@
     },
     "widgets": {
         "value": [
-            ""
+            "<!-- Begin Online-Chat {literal} -->\n<script>\n    (function(){(function c(d,w,m,i) {\n        window.supportAPIMethod = m;\n        var s = d.createElement('script');\n        s.id = 'supportScript'; \n        var id = '97d26708aa48cf18d178ac18af20bca4';\n        s.src = (!i ? 'https://zcdn.ru/support/support.js' : 'https://static.site-chat.me/support/support.int.js') + '?h=' + id;\n        s.onerror = i ? undefined : function(){c(d,w,m,true)};\n        w[m] = w[m] ? w[m] : function(){(w[m].q = w[m].q ? w[m].q : []).push(arguments);};\n        (d.head ? d.head : d.body).appendChild(s);\n    })(document,window,'OnlineChat')})();\n</script>\n<!-- {/literal} End Online-Chat -->"
         ],
         "fn": "_wd",
         "prod": true
