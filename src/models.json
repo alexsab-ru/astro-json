@@ -5683,13 +5683,265 @@
     },
     {
         "mark_id": "Geely",
+        "id": "ex5",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Продвинутые технологии",
+        "name": "Новый EX5",
+        "price": "{{price-geely-ex5}}",
+        "benefit": "{{benefit-geely-ex5}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. EX5",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. EX5",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/ex5/thumb.webp",
+        "colors": [
+            {
+                "id": "gray-metallic",
+                "name": "Серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/gray-metallic.webp",
+                "style": "background-color: #838789;"
+            },
+            {
+                "id": "green-blue-metallic",
+                "name": "Бирюзово-синий металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/green-blue-metallic.webp",
+                "style": "background-color: #3f888f;"
+            },
+            {
+                "id": "silver-metallic",
+                "name": "Серебристый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/silver-metallic.webp",
+                "style": "background-color: #d3d8d8;"
+            },
+            {
+                "id": "black-metallic",
+                "name": "Чёрный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/black-metallic.webp",
+                "style": "background-color: #2C2C2B;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/white.webp",
+                "style": ""
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Pro",
+                "price": "{{price-geely-ex5}}",
+                "bodytype": "Кроссовер",
+                "engine_power": "218",
+                "gear_rus": "AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Электро"
+            },
+            {
+                "name": "Max",
+                "price": 4049990,
+                "bodytype": "Кроссовер",
+                "engine_power": "218",
+                "gear_rus": "AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Электро"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Электро",
+            "gearbox": "AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2750",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4615",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1901",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Мощность э.д. (кВт/л.с.):",
+                "value": "60,2/218",
+                "measure": ""
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "320",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний (2WD)",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Knewstar",
+        "id": "001",
+        "show": false,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Современные технологии",
+        "name": "Новый 001",
+        "price": "{{price-knewstar-001}}",
+        "benefit": "{{benefit-knewstar-001}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. 001",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. 001",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/001/thumb.webp",
+        "colors": [
+            {
+                "id": "black",
+                "name": "Черный металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/001/colors/black.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/001/colors/white.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый металлик",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/001/colors/gray.webp",
+                "style": ""
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": "{{price-knewstar-001}}",
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 3803190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship Sport",
+                "price": 3903190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "238",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2700",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4590",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1878",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "325",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Geely",
         "id": "cityray",
         "show": true,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Энергия города",
         "name": "Новый Cityray",
         "price": "{{price-geely-cityray}}",
-        "benefit": "",
+        "benefit": "{{benefit-geely-cityray}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -5708,37 +5960,37 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Cityray/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Cityray/thumb.webp",
         "colors": [
             {
                 "id": "light-blue",
                 "name": "Голубой металлик",
-                "carImage": "/img/models/Cityray/colors/light-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Cityray/colors/light-blue.webp",
                 "style": "background-color: #87a6d4;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/Cityray/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Cityray/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Cityray/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Cityray/colors/gray.webp",
                 "style": "background-color: #646971;"
             },
             {
                 "id": "silver-metallic",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Cityray/colors/silver-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Cityray/colors/silver-metallic.webp",
                 "style": "background-color: #b6c2cc;"
             }
         ],
         "complectations": [
             {
                 "name": "Comfort",
-                "price": 2518190,
+                "price": "{{price-geely-cityray}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -5748,7 +6000,7 @@
             },
             {
                 "name": "Luxury",
-                "price": 2668190,
+                "price": 2654190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -5758,7 +6010,7 @@
             },
             {
                 "name": "Flagship",
-                "price": 2788190,
+                "price": 2774190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -5768,7 +6020,7 @@
             },
             {
                 "name": "Flagship Sport",
-                "price": 2828190,
+                "price": 2814190,
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -5829,11 +6081,11 @@
         "mark_id": "Geely",
         "id": "preface",
         "show": true,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Preface",
         "price": "{{price-geely-preface}}",
-        "benefit": "",
+        "benefit": "{{benefit-geely-preface}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -5852,49 +6104,49 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Preface/gray-blue_500w.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Preface/gray-blue_500w.webp",
         "colors": [
             {
                 "id": "gray-purple",
                 "name": "Серо-фиолетовый металлик",
-                "carImage": "/img/models/Preface/colors/gray-purple.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Preface/colors/gray-purple.webp",
                 "style": "background-color: #898baa;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/Preface/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Preface/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Preface/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Preface/colors/gray.webp",
                 "style": "background-color: #5c5d61;"
             },
             {
                 "id": "gray-blue",
                 "name": "Серо-голубой металлик",
-                "carImage": "/img/models/Preface/colors/gray-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Preface/colors/gray-blue.webp",
                 "style": "background-color: #92a7b2;"
             },
             {
                 "id": "green",
                 "name": "Зеленый металлик",
-                "carImage": "/img/models/Preface/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Preface/colors/green.webp",
                 "style": "background-color: #718377;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Preface/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Preface/colors/black.webp",
                 "style": ""
             }
         ],
         "complectations": [
             {
                 "name": "Luxury",
-                "price": 2938190,
+                "price": "{{price-geely-preface}}",
                 "bodytype": "Седан",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -5904,7 +6156,7 @@
             },
             {
                 "name": "Flagship",
-                "price": 3096190,
+                "price": 3259190,
                 "bodytype": "Седан",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -5965,7 +6217,7 @@
         "mark_id": "Geely",
         "id": "geometry-g6",
         "show": false,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Geometry G6",
         "price": 2139990,
@@ -5988,12 +6240,12 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Geometry G6/gray-500w.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Geometry G6/gray-500w.webp",
         "colors": [
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Geometry G6/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Geometry G6/colors/gray.webp",
                 "style": "background-color: #a3a6a0;"
             }
         ],
@@ -6048,7 +6300,7 @@
         "mark_id": "Geely",
         "id": "geely-atlas-2024",
         "show": true,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Новый Atlas",
         "price": "{{price-geely-atlas-2024}}",
@@ -6071,37 +6323,99 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Atlas-2024/starry-blue-metallic_500px.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/starry-blue-metallic_500px.webp",
         "colors": [
             {
                 "id": "gray",
                 "name": "Серо-голубой металлик",
-                "carImage": "/img/models/Atlas-2024/colors/starry-blue-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/colors/starry-blue-metallic.webp",
                 "style": "background-color: #4c5698;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Atlas-2024/colors/black-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/colors/black-metallic.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Atlas-2024/colors/silver-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/colors/silver-metallic.webp",
                 "style": "background-color: #828793;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/Atlas-2024/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "racing-green",
                 "name": "Зеленый металлик",
-                "carImage": "/img/models/Atlas-2024/colors/racing-green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/colors/racing-green.webp",
                 "style": "background-color: #487f76;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": "{{price-geely-atlas-2024}}",
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 3304190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship Sport",
+                "price": 3404190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury 4WD",
+                "price": 3304190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship 4WD",
+                "price": 3504190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship Sport 4WD",
+                "price": 3604190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -6111,7 +6425,7 @@
         "chars": {
             "seats": "5 мест",
             "fuel": "Бензин",
-            "gearbox": "7DCT"
+            "gearbox": "7DCT/8AT"
         },
         "globalChars": [
             {
@@ -6147,7 +6461,7 @@
             {
                 "id": "transmission",
                 "title": "Привод",
-                "value": "2WD",
+                "value": "2WD/4WD",
                 "measure": ""
             }
         ]
@@ -6156,11 +6470,11 @@
         "mark_id": "Geely",
         "id": "atlaspro",
         "show": true,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Atlas Pro",
         "price": "{{price-geely-atlaspro}}",
-        "benefit": 600000,
+        "benefit": "{{benefit-geely-atlaspro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -6179,36 +6493,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Atlas%20Pro/black-metallic_500px.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Atlas%20Pro/black-metallic_500px.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/Atlas%20Pro/colors/red-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas%20Pro/colors/red-metallic.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Atlas%20Pro/colors/gray-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas%20Pro/colors/gray-metallic.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Atlas%20Pro/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas%20Pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Atlas%20Pro/colors/silver-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas%20Pro/colors/silver-metallic.webp",
                 "style": "background-color: #B9B4B4;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Atlas%20Pro/colors/black-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Atlas%20Pro/colors/black-metallic.webp",
                 "style": ""
             }
         ],
@@ -6263,11 +6577,11 @@
         "mark_id": "Geely",
         "id": "emgrand",
         "show": true,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Emgrand",
         "price": "{{price-geely-emgrand}}",
-        "benefit": 350000,
+        "benefit": "{{benefit-geely-emgrand}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -6286,43 +6600,95 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Emgrand/emgrand_500px.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Emgrand/emgrand_500px.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Emgrand/colors/white-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Emgrand/colors/white-metallic.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Голубой металлик",
-                "carImage": "/img/models/Emgrand/colors/blue-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Emgrand/colors/blue-metallic.webp",
                 "style": "background-color: #50AECE;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Emgrand/colors/gray-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Emgrand/colors/gray-metallic.webp",
                 "style": ""
             },
             {
                 "id": "gold",
                 "name": "Золотой металлик",
-                "carImage": "/img/models/Emgrand/colors/gold-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Emgrand/colors/gold-metallic.webp",
                 "style": "background-color: #AC9579;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Emgrand/colors/black-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Emgrand/colors/black-metallic.webp",
                 "style": ""
             },
             {
                 "id": "gray-blue",
                 "name": "Серо-голубой металлик",
-                "carImage": "/img/models/Emgrand/colors/gray-blue-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Emgrand/colors/gray-blue-metallic.webp",
                 "style": "background-color: #bdc9d5;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Standard",
+                "price": "{{price-geely-emgrand}}",
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "5MT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort",
+                "price": 1953990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "5MT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 6AT",
+                "price": 2103990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "6AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2193990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "6AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 2373990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "6AT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -6377,7 +6743,7 @@
         "mark_id": "Geely",
         "id": "coolray",
         "show": false,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Coolray",
         "price": 2024990,
@@ -6400,36 +6766,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Coolray/blue-metallic_500px.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Coolray/blue-metallic_500px.webp",
         "colors": [
             {
                 "id": "blue",
                 "name": "Голубой металлик",
-                "carImage": "/img/models/Coolray/colors/blue-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Coolray/colors/blue-metallic.webp",
                 "style": "background-color: #50AECE;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Coolray/colors/grey.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Coolray/colors/grey.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/Coolray/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Coolray/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Coolray/colors/silver-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Coolray/colors/silver-metallic.webp",
                 "style": "background-color: #B9B4B4;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Coolray/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Coolray/colors/white.webp",
                 "style": ""
             }
         ],
@@ -6484,11 +6850,11 @@
         "mark_id": "Geely",
         "id": "geely-coolray-2023",
         "show": true,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Новый Coolray",
         "price": "{{price-geely-coolray-2023}}",
-        "benefit": 300000,
+        "benefit": "{{benefit-geely-coolray-2023}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -6507,37 +6873,79 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/New Coolray/unicorn-grey_500px.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/New Coolray/unicorn-grey_500px.webp",
         "colors": [
             {
                 "id": "unicorn-grey",
                 "name": "Unicorn Grey / Лиловый перламутр",
-                "carImage": "/img/models/New Coolray/colors/unicorn-grey.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/New Coolray/colors/unicorn-grey.webp",
                 "style": "background-color: #bdadc2;"
             },
             {
                 "id": "magnetic-grey",
                 "name": "Magnetic Grey / Серый",
-                "carImage": "/img/models/New Coolray/colors/magnetic-grey.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/New Coolray/colors/magnetic-grey.webp",
                 "style": "background-color: #696969;"
             },
             {
                 "id": "crystal-white",
                 "name": "Crystal White / Белый",
-                "carImage": "/img/models/New Coolray/colors/crystal-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/New Coolray/colors/crystal-white.webp",
                 "style": "background-color: #f3f4f6;"
             },
             {
                 "id": "cyber-blue",
                 "name": "Cyber Blue / Голубой металлик",
-                "carImage": "/img/models/New Coolray/colors/cyber-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/New Coolray/colors/cyber-blue.webp",
                 "style": "background-color: #49B6D0;"
             },
             {
                 "id": "bright-vermilion",
                 "name": "Bright Vermilion / Красный",
-                "carImage": "/img/models/New Coolray/colors/bright-vermilion.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/New Coolray/colors/bright-vermilion.webp",
                 "style": "background-color: #ff0000;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Comfort",
+                "price": "{{price-geely-coolray-2023}}",
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxury",
+                "price": 2529190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 2729190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Exclusive",
+                "price": 2759190,
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "147",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -6593,7 +7001,7 @@
         "mark_id": "Geely",
         "id": "newtugella",
         "show": false,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Tugella",
         "price": "{{price-geely-newtugella}}",
@@ -6616,30 +7024,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Tugella/black-metallic_500px.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Tugella/black-metallic_500px.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Tugella/colors/black-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Tugella/colors/black-metallic.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Tugella/colors/white-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Tugella/colors/white-metallic.webp",
                 "style": ""
             },
             {
                 "id": "gray-blue",
                 "name": "Серо-голубой металлик",
-                "carImage": "/img/models/Tugella/colors/gray-blue-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Tugella/colors/gray-blue-metallic.webp",
                 "style": "background-color: #ABB5C1;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Tugella/colors/gray-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Tugella/colors/gray-metallic.webp",
                 "style": ""
             }
         ],
@@ -6694,11 +7102,11 @@
         "mark_id": "Geely",
         "id": "geely-okavango",
         "show": true,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Новый OKAVANGO",
         "price": "{{price-geely-okavango}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-geely-okavango}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -6717,31 +7125,53 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Okavango/indigo-blue_500px.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Okavango/indigo-blue_500px.webp",
         "colors": [
             {
                 "id": "blue",
                 "name": "Синий металлик",
-                "carImage": "/img/models/Okavango/colors/indigo-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Okavango/colors/indigo-blue.webp",
                 "style": "background-color: #0000ff;"
             },
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Okavango/colors/ink-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Okavango/colors/ink-black.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Okavango/colors/basalt-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Okavango/colors/basalt-gray.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/Okavango/colors/crystal-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Okavango/colors/crystal-white.webp",
                 "style": ""
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": "{{price-geely-okavango}}",
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 3474190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "200",
+                "gear_rus": "7DCT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -6797,11 +7227,11 @@
         "mark_id": "Geely",
         "id": "monjaro",
         "show": true,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Monjaro",
         "price": "{{price-geely-monjaro}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-geely-monjaro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -6820,43 +7250,75 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Monjaro/emerald-metallic_500px.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Monjaro/emerald-metallic_500px.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Monjaro/colors/black-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Monjaro/colors/black-metallic.webp",
                 "style": ""
             },
             {
                 "id": "emerald",
                 "name": "Изумрудный металлик",
-                "carImage": "/img/models/Monjaro/colors/emerald-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Monjaro/colors/emerald-metallic.webp",
                 "style": "background-color: #518D9B;"
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Monjaro/colors/gray-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Monjaro/colors/gray-metallic.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Monjaro/colors/silver-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Monjaro/colors/silver-metallic.webp",
                 "style": "background-color: #B8B3B3;"
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/Monjaro/colors/white-metallic.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Monjaro/colors/white-metallic.webp",
                 "style": ""
             },
             {
                 "id": "lomo-gray",
                 "name": "Серый матовый",
-                "carImage": "/img/models/Monjaro/colors/lomo-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Monjaro/colors/lomo-gray.webp",
                 "style": "background-color: #5e6775;"
+            }
+        ],
+        "complectations": [
+            {
+                "name": "Luxury",
+                "price": "{{price-geely-monjaro}}",
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "238",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Flagship",
+                "price": 4142190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "238",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Exclusive",
+                "price": 4342190,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "238",
+                "gear_rus": "8AT",
+                "drive": "Полный (4WD)",
+                "fuel": "Бензин"
             }
         ],
         "feed_names": [
@@ -6910,7 +7372,7 @@
         "mark_id": "Geely",
         "id": "belgee-x50",
         "show": false,
-        "homeImg": "/img/models/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Belgee X50",
         "price": "{{price-geely-belgee-x50}}",
@@ -6933,42 +7395,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/Belgee X50/black_500px.webp",
+        "thumb": "https://cdn.alexsab.ru/b/geely/img/models/Belgee X50/black_500px.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный металлик",
-                "carImage": "/img/models/Belgee X50/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Belgee X50/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/Belgee X50/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Belgee X50/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/Belgee X50/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Belgee X50/colors/gray.webp",
                 "style": "background-color: #4e5253;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый металлик",
-                "carImage": "/img/models/Belgee X50/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Belgee X50/colors/silver.webp",
                 "style": "background-color: #afaeb3;"
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/Belgee X50/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Belgee X50/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Голубой металлик",
-                "carImage": "/img/models/Belgee X50/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Belgee X50/colors/blue.webp",
                 "style": ""
             }
         ],
