@@ -4247,7 +4247,7 @@
         "mark_id": "Forthing",
         "id": "t5evo",
         "show": true,
-        "homeImg": "/img/models/t5evo/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/bg.webp",
         "slogan": "Смотри в будущее",
         "name": "T5 EVO",
         "price": "2600000",
@@ -4257,42 +4257,42 @@
             "alt": ""
         },
         "benefits": [],
-        "thumb": "/img/models/t5evo/colors/gray.png",
+        "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/gray.png",
         "colors": [
             {
                 "id": "t5evo_gray",
                 "name": "Искрящийся серый",
-                "carImage": "/img/models/t5evo/colors/gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/gray.png",
                 "style": "background-color: #848474;"
             },
             {
                 "id": "t5evo_green",
                 "name": "Магический изумруд",
-                "carImage": "/img/models/t5evo/colors/green.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/green.png",
                 "style": "background-color: #0c5a5a;"
             },
             {
                 "id": "t5evo_red",
                 "name": "Красный агат",
-                "carImage": "/img/models/t5evo/colors/red.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/red.png",
                 "style": "background-color: #ae1a11;"
             },
             {
                 "id": "t5evo_black",
                 "name": "Чёрный бриллиант",
-                "carImage": "/img/models/t5evo/colors/black.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/black.png",
                 "style": "background-color: #131313;"
             },
             {
                 "id": "t5evo_white",
                 "name": "Альпийский белый",
-                "carImage": "/img/models/t5evo/colors/white.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/white.png",
                 "style": "background-color: #fff;"
             },
             {
                 "id": "t5evo_anthracite",
                 "name": "Космический антрацит",
-                "carImage": "/img/models/t5evo/colors/gray-dark.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/gray-dark.png",
                 "style": "background-color: #525252;"
             }
         ],
@@ -4379,7 +4379,7 @@
         "mark_id": "Forthing",
         "id": "yacht",
         "show": true,
-        "homeImg": "/img/models/yacht/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/forthing/img/models/yacht/bg.webp",
         "slogan": "Победитель премии \"Автомобиль года в России\"",
         "name": "YACHT",
         "price": "3400000",
@@ -4389,18 +4389,18 @@
             "alt": ""
         },
         "benefits": [],
-        "thumb": "/img/models/yacht/colors/white.png",
+        "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/yacht/colors/white.png",
         "colors": [
             {
                 "id": "yacht_white",
                 "name": "Альпийский белый",
-                "carImage": "/img/models/yacht/colors/white.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/yacht/colors/white.png",
                 "style": "background-color: #fff;"
             },
             {
                 "id": "yacht_black",
                 "name": "Чёрный бриллиант",
-                "carImage": "/img/models/yacht/colors/black.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/yacht/colors/black.png",
                 "style": "background-color: #131313;"
             }
         ],
@@ -4476,7 +4476,7 @@
         "mark_id": "Venucia",
         "id": "v-online",
         "show": true,
-        "homeImg": "/img/models/v-online/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/forthing/img/models/v-online/bg.webp",
         "slogan": "Стиль и брутальность",
         "name": "V-Online",
         "price": "2780000",
@@ -4486,12 +4486,12 @@
             "alt": ""
         },
         "benefits": [],
-        "thumb": "/img/models/v-online/colors/gray.png",
+        "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/v-online/colors/gray.png",
         "colors": [
             {
                 "id": "v-online_gray",
                 "name": "Серый Бернина",
-                "carImage": "/img/models/v-online/colors/gray.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/v-online/colors/gray.png",
                 "style": "background-color: #51586d;"
             }
         ],
@@ -4567,7 +4567,7 @@
         "mark_id": "Venucia",
         "id": "d60-plus",
         "show": true,
-        "homeImg": "/img/models/d60-plus/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/bg.webp",
         "slogan": "Спокойная решительность",
         "name": "D60 Plus",
         "price": "2140000",
@@ -4577,18 +4577,18 @@
             "alt": ""
         },
         "benefits": [],
-        "thumb": "/img/models/d60-plus/colors/black.png",
+        "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/colors/black.png",
         "colors": [
             {
                 "id": "d60-plus_black",
                 "name": "Чёрный бриллиант",
-                "carImage": "/img/models/d60-plus/colors/black.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/colors/black.png",
                 "style": "background-color: #131313;"
             },
             {
                 "id": "d60-plus_white",
                 "name": "Альпийский белый",
-                "carImage": "/img/models/d60-plus/colors/white.png",
+                "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/colors/white.png",
                 "style": "background-color: #fff;"
             }
         ],
