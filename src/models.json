@@ -12356,7 +12356,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вдохновленный авангардным искусством",
         "name": "C5 New",
-        "price": 2019900,
+        "price": "{{price-omoda-modelc5}}",
         "benefit": "",
         "benefits": [
             {
@@ -12376,54 +12376,54 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/c5fl/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/omoda/img/models/c5fl/thumb.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/c5fl/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5fl/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/c5fl/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5fl/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/c5fl/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5fl/colors/silver.webp",
                 "style": "background-color: #6d767b;"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/c5fl/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5fl/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "white-black",
                 "name": "Белый с черной крышей",
-                "carImage": "/img/models/c5fl/colors/white-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5fl/colors/white-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #000 50%, #f3f4f6 50%);"
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/c5fl/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5fl/colors/blue.webp",
                 "style": "background-color: #1c277a;"
             },
             {
                 "id": "silver-black",
                 "name": "Серебристый с черной крышей",
-                "carImage": "/img/models/c5fl/colors/silver-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5fl/colors/silver-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #000 50%, #6d767b 50%);"
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/c5fl/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5fl/colors/black.webp",
                 "style": ""
             }
         ],
@@ -12544,7 +12544,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "C5",
-        "price": 1889900,
+        "price": "{{price-omoda-modelc5}}",
         "benefit": "",
         "benefits": [
             {
@@ -12564,54 +12564,54 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/c5/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/omoda/img/models/c5/thumb.webp",
         "colors": [
             {
                 "id": "silver",
                 "name": "Серебристый (Silver Premium Double Color)",
-                "carImage": "/img/models/c5/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5/colors/silver.webp",
                 "style": "background-color: #6d767b;"
             },
             {
                 "id": "green",
                 "name": "Зеленый (Green Premium Double Color)",
-                "carImage": "/img/models/c5/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5/colors/green.webp",
                 "style": "background-color: #8baa95;"
             },
             {
                 "id": "black",
                 "name": "Черный (Black)",
-                "carImage": "/img/models/c5/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "dark-blue",
                 "name": "Темно-синий (Dark Blue)",
-                "carImage": "/img/models/c5/colors/dark-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5/colors/dark-blue.webp",
                 "style": "background-color: #1c2c3b;"
             },
             {
                 "id": "gray",
                 "name": "Серый (Grey Premium)",
-                "carImage": "/img/models/c5/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "vanila-blue",
                 "name": "Vanila Blue",
-                "carImage": "/img/models/c5/colors/vanila-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5/colors/vanila-blue.webp",
                 "style": "background-color: #929fb5;"
             },
             {
                 "id": "white",
                 "name": "Белый (White Premium Double Color)",
-                "carImage": "/img/models/c5/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный (Red)",
-                "carImage": "/img/models/c5/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/c5/colors/red.webp",
                 "style": ""
             }
         ],
@@ -12722,7 +12722,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "БУДУЩЕЕ СТАНОВИТСЯ НАСТОЯЩИМ!",
         "name": "S5",
-        "price": 1809900,
+        "price": "{{price-omoda-models5}}",
         "benefit": "",
         "benefits": [
             {
@@ -12742,42 +12742,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s5/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/omoda/img/models/s5/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/s5/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/s5/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/s5/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5/colors/blue.webp",
                 "style": "background-color: #455a85;"
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/s5/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5/colors/red.webp",
                 "style": "background-color: #d7241f;"
             },
             {
                 "id": "steel",
                 "name": "Стальной",
-                "carImage": "/img/models/s5/colors/steel.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5/colors/steel.webp",
                 "style": "background-color: #616872;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/s5/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5/colors/white.webp",
                 "style": ""
             }
         ],
@@ -12847,7 +12847,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "БУДУЩЕЕ УСТАНОВЛЕНО",
         "name": "S5 GT",
-        "price": 2129900,
+        "price": "{{price-omoda-s5gt}}",
         "benefit": "",
         "benefits": [
             {
@@ -12867,48 +12867,48 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s5gt/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/omoda/img/models/s5gt/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/s5gt/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5gt/colors/black.webp",
                 "style": "background-color: #222222;"
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/s5gt/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5gt/colors/blue.webp",
                 "style": "background-color: #455a85;"
             },
             {
                 "id": "green",
                 "name": "Зеленый",
-                "carImage": "/img/models/s5gt/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5gt/colors/green.webp",
                 "style": "background-color: #557f86;"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/s5gt/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5gt/colors/gray.webp",
                 "style": "background-color: #8a919b;"
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/s5gt/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5gt/colors/red.webp",
                 "style": "background-color: #d7241f;"
             },
             {
                 "id": "steel",
                 "name": "Стальной",
-                "carImage": "/img/models/s5gt/colors/steel.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5gt/colors/steel.webp",
                 "style": "background-color: #616872;"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/s5gt/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/omoda/img/models/s5gt/colors/white.webp",
                 "style": ""
             }
         ],
