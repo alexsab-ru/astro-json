@@ -9141,42 +9141,48 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t9/colors/red.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/red.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/t9/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебро",
-                "carImage": "/img/models/t9/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/silver.webp",
                 "style": "background-color: #DDDDDD;"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/t9/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/t9/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный",
-                "carImage": "/img/models/t9/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/t9/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/blue.webp",
+                "style": ""
+            },
+            {
+                "id": "light-gray",
+                "name": "Светло-серый",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/light-gray.webp",
                 "style": ""
             }
         ],
@@ -9254,48 +9260,48 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s3/colors/brown.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/brown.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/s3/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый фантом",
-                "carImage": "/img/models/s3/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/silver.webp",
                 "style": "background-color: #dddddd;"
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/s3/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/s3/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "brown",
                 "name": "Коричневый каштан",
-                "carImage": "/img/models/s3/colors/brown.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/brown.webp",
                 "style": "background-color: #613302;"
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/s3/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/s3/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -9373,12 +9379,12 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/iev7s/colors/white.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/iev7s/colors/white.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/iev7s/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/iev7s/colors/white.webp",
                 "style": ""
             }
         ],
@@ -9457,30 +9463,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/js3/colors/silver.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/silver.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/js3/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый фантом",
-                "carImage": "/img/models/js3/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/silver.webp",
                 "style": "background-color: #dddddd;"
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/js3/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/js3/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/black.webp",
                 "style": ""
             }
         ],
@@ -9559,36 +9565,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/j7/colors/red.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/red.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/j7/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/j7/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/j7/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/j7/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/j7/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -9668,36 +9674,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/js6/colors/black.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/black.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/js6/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/js6/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/js6/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "brown",
                 "name": "Коричневый каштан",
-                "carImage": "/img/models/js6/colors/brown.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/brown.webp",
                 "style": "background-color: #613302;"
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/js6/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/red.webp",
                 "style": ""
             }
         ],
@@ -9775,36 +9781,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t6/colors/white.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/white.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/t6/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый фантом",
-                "carImage": "/img/models/t6/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/silver.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/t6/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/t6/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/t6/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t6/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -9882,36 +9888,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t8/colors/white.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/white.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/t8/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/t8/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/t8/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/t8/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/t8/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/blue.webp",
                 "style": ""
             }
         ],
@@ -9989,42 +9995,42 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/t8-pro/colors/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/thumb.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый глянец",
-                "carImage": "/img/models/t8-pro/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебро",
-                "carImage": "/img/models/t8-pro/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/silver.webp",
                 "style": "background-color: #DDDDDD;"
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
-                "carImage": "/img/models/t8-pro/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
-                "carImage": "/img/models/t8-pro/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
-                "carImage": "/img/models/t8-pro/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
-                "carImage": "/img/models/t8-pro/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8-pro/colors/blue.webp",
                 "style": ""
             }
         ],
