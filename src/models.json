@@ -10088,7 +10088,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Элегантный и запоминающийся кроссовер",
         "name": "J7",
-        "price": 2339900,
+        "price": "{{price-jaecoo-modelj7}}",
         "benefit": "",
         "benefits": [
             {
@@ -10108,54 +10108,54 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/j7/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jaecoo/img/models/j7/thumb.webp",
         "colors": [
             {
                 "id": "silver",
                 "name": "Серебристый",
-                "carImage": "/img/models/j7/colors/silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j7/colors/silver.webp",
                 "style": "background-color: #afafb0;"
             },
             {
                 "id": "silver-black",
                 "name": "Серебристый с черной крышей",
-                "carImage": "/img/models/j7/colors/silver-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j7/colors/silver-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #afafb0 50%);"
             },
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/j7/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j7/colors/black.webp",
                 "style": "background-color: #03080c;"
             },
             {
                 "id": "green",
                 "name": "Зеленый",
-                "carImage": "/img/models/j7/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j7/colors/green.webp",
                 "style": "background-color: #869567;"
             },
             {
                 "id": "green-black",
                 "name": "Зеленый с черной крышей",
-                "carImage": "/img/models/j7/colors/green-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j7/colors/green-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #869567 50%);"
             },
             {
                 "id": "gray-blue",
                 "name": "Серо-голубой",
-                "carImage": "/img/models/j7/colors/gray-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j7/colors/gray-blue.webp",
                 "style": "background-color: #546b6e;"
             },
             {
                 "id": "gray-blue-black",
                 "name": "Серо-голубой с черной крышей",
-                "carImage": "/img/models/j7/colors/gray-blue-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j7/colors/gray-blue-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #546b6e 50%);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/j7/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j7/colors/white.webp",
                 "style": "background-color: #dfe3e5;"
             }
         ],
@@ -10315,7 +10315,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Новый флагманский кроссовер",
         "name": "J8",
-        "price": 3799000,
+        "price": "{{price-jaecoo-modelj8}}",
         "benefit": "",
         "benefits": [
             {
@@ -10335,60 +10335,60 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/j8/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/thumb.webp",
         "colors": [
             {
                 "id": "black",
                 "name": "Черный",
-                "carImage": "/img/models/j8/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/colors/black.webp",
                 "style": "background-color: #03080c;"
             },
             {
                 "id": "gray-blue",
                 "name": "Серо-голубой",
-                "carImage": "/img/models/j8/colors/gray-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/colors/gray-blue.webp",
                 "style": "background-color: #648ea6;"
             },
             {
                 "id": "gray-blue-black",
                 "name": "Серо-голубой с черной крышей",
-                "carImage": "/img/models/j8/colors/gray-blue-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/colors/gray-blue-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #648ea6 50%);"
             },
             {
                 "id": "dark-gray",
                 "name": "Темно-серый",
-                "carImage": "/img/models/j8/colors/dark-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/colors/dark-gray.webp",
                 "style": "background-color: #4b4b4b;"
             },
             {
                 "id": "dark-gray-black",
                 "name": "Темно-серый с черной крышей",
-                "carImage": "/img/models/j8/colors/dark-gray-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/colors/dark-gray-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #4b4b4b 50%);"
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/j8/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/colors/gray.webp",
                 "style": "background-color: #91949a;"
             },
             {
                 "id": "gray-black",
                 "name": "Серый с черной крышей",
-                "carImage": "/img/models/j8/colors/gray-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/colors/gray-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #91949a 50%);"
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/j8/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/colors/white.webp",
                 "style": "background-color: #e6ebed;"
             },
             {
                 "id": "white-black",
                 "name": "Белый с черной крышей",
-                "carImage": "/img/models/j8/colors/white-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/colors/white-black.webp",
                 "style": "background-image: linear-gradient(to bottom, #03080c 50%, #e6ebed 50%);"
             }
         ],
@@ -10478,7 +10478,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Следуй за открытиями",
         "name": "J5",
-        "price": 3649000,
+        "price": "{{price-jaecoo-modelj5}}",
         "benefit": 450000,
         "benefits": [
             {
