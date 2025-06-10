@@ -12045,7 +12045,7 @@
         "mark_id": "Livan",
         "id": "x3pro",
         "show": true,
-        "homeImg": "/img/models/x3pro/bg2.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/bg2.webp",
         "slogan": "Быть свободным",
         "name": "X3PRO",
         "price": "{{price-livan-x3pro}}",
@@ -12068,36 +12068,36 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x3pro/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/thumb.webp",
         "colors": [
             {
                 "id": "gold",
                 "name": "Золотой",
-                "carImage": "/img/models/x3pro/colors/gold.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/gold.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый",
-                "carImage": "/img/models/x3pro/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "red",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x3pro/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Голубой",
-                "carImage": "/img/models/x3pro/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/blue.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый",
-                "carImage": "/img/models/x3pro/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x3pro/colors/gray.webp",
                 "style": ""
             }
         ],
@@ -12152,7 +12152,7 @@
         "mark_id": "Livan",
         "id": "x6pro",
         "show": true,
-        "homeImg": "/img/models/x6pro/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/bg.webp",
         "slogan": "Дайте старт новому",
         "name": "X6PRO",
         "price": "{{price-livan-x6pro}}",
@@ -12175,30 +12175,30 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/x6pro/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/thumb.webp",
         "colors": [
             {
                 "id": "gray",
                 "name": "Красный металлик",
-                "carImage": "/img/models/x6pro/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/x6pro/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий",
-                "carImage": "/img/models/x6pro/colors/blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/colors/blue.webp",
                 "style": ""
             },
             {
                 "id": "green",
                 "name": "Зеленый",
-                "carImage": "/img/models/x6pro/colors/green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/x6pro/colors/green.webp",
                 "style": ""
             }
         ],
@@ -12253,14 +12253,14 @@
         "mark_id": "Livan",
         "id": "s6pro",
         "show": true,
-        "homeImg": "/img/models/s6pro/bg.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/bg.webp",
         "slogan": "Драйв в Вашем стиле",
         "name": "S6PRO",
         "price": "{{price-livan-s6pro}}",
         "benefit": "{{benefit-livan-s6pro}}",
         "badge": {
-            "img": "/img/badge-2024-with-text.png",
-            "imgModelPage": "/img/badge-2024-with-text-white.png",
+            "img": "https://cdn.alexsab.ru/b/livan/img/badge-2024-with-text.png",
+            "imgModelPage": "https://cdn.alexsab.ru/b/livan/img/badge-2024-with-text-white.png",
             "alt": "Автомобиль года"
         },
         "benefits": [
@@ -12281,24 +12281,24 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/s6pro/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/thumb.webp",
         "colors": [
             {
                 "id": "white",
                 "name": "Белый металлик",
-                "carImage": "/img/models/s6pro/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серый металлик",
-                "carImage": "/img/models/s6pro/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "light-blue",
                 "name": "Голубой металлик",
-                "carImage": "/img/models/s6pro/colors/light-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/colors/light-blue.webp",
                 "style": ""
             }
         ],
