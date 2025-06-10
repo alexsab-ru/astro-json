@@ -12999,54 +12999,54 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/sportage/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/sportage/thumb.webp",
         "colors": [
             {
                 "id": "clear-white",
                 "name": "Clear White (UD)",
-                "carImage": "/img/models/sportage/colors/clear-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/clear-white.webp",
                 "style": "background-color: #e8e9e7;"
             },
             {
                 "id": "snow-white",
                 "name": "Snow White Pearl (SWP)",
-                "carImage": "/img/models/sportage/colors/snow-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/snow-white.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "gravity-gray",
                 "name": "Gravity Gray (KDG)",
-                "carImage": "/img/models/sportage/colors/gravity-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/gravity-gray.webp",
                 "style": "background-color: #3f434b;"
             },
             {
                 "id": "steel-gray",
                 "name": "Steel Gray (KLG)",
-                "carImage": "/img/models/sportage/colors/steel-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/steel-gray.webp",
                 "style": "background-color: #585856;"
             },
             {
                 "id": "modern-black",
                 "name": "Modern Black (FSB)",
-                "carImage": "/img/models/sportage/colors/modern-black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/modern-black.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "dawning-red",
                 "name": "Dawning Red (DWR)",
-                "carImage": "/img/models/sportage/colors/dawning-red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/dawning-red.webp",
                 "style": "background-color: #b02418;"
             },
             {
                 "id": "deep-blue",
                 "name": "Deep Blue (BB2)",
-                "carImage": "/img/models/sportage/colors/deep-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/deep-blue.webp",
                 "style": "background-color: #276181;"
             },
             {
                 "id": "jungle-wood-green",
                 "name": "Jungle Wood Green (JUG)",
-                "carImage": "/img/models/sportage/colors/jungle-wood-green.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/jungle-wood-green.webp",
                 "style": "background-color: #a0a392;"
             }
         ],
@@ -13267,54 +13267,54 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/k5/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/k5/thumb.webp",
         "colors": [
             {
                 "id": "clear-white",
                 "name": "Clear White (UD)",
-                "carImage": "/img/models/k5/colors/clear-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/clear-white.webp",
                 "style": "background-color: #e8e9e7;"
             },
             {
                 "id": "snow-white",
                 "name": "Snow White Pearl (SWP)",
-                "carImage": "/img/models/k5/colors/snow-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/snow-white.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "interstellar-gray",
                 "name": "Interstellar Gray (AGT)",
-                "carImage": "/img/models/k5/colors/interstellar-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/interstellar-gray.webp",
                 "style": "background-color: #393939;"
             },
             {
                 "id": "steel-gray",
                 "name": "Steel Gray (KLG)",
-                "carImage": "/img/models/k5/colors/steel-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/steel-gray.webp",
                 "style": "background-color: #636363;"
             },
             {
                 "id": "aurora-black-pearl",
                 "name": "Aurora Black Pearl (ABP)",
-                "carImage": "/img/models/k5/colors/aurora-black-pearl.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/aurora-black-pearl.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "gravity-blue",
                 "name": "Gravity Blue (B4U)",
-                "carImage": "/img/models/k5/colors/gravity-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/gravity-blue.webp",
                 "style": "background-color: #313642;"
             },
             {
                 "id": "runway-red",
                 "name": "Runway Red (CR5)",
-                "carImage": "/img/models/k5/colors/runway-red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/runway-red.webp",
                 "style": "background-color: #942a25;"
             },
             {
                 "id": "yacht-blue",
                 "name": "Yacht Blue (DU3)",
-                "carImage": "/img/models/k5/colors/yacht-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/yacht-blue.webp",
                 "style": "background-color: #2b489e;"
             }
         ],
@@ -13515,71 +13515,70 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/sorento/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/sorento/thumb.webp",
         "colors": [
             {
                 "id": "clear-white",
                 "name": "Clear White (UD)",
-                "carImage": "/img/models/sorento/colors/clear-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/clear-white.webp",
                 "style": "background-color: #e8e9e7;"
             },
             {
                 "id": "snow-white",
                 "name": "Snow White Pearl (SWP)",
-                "carImage": "/img/models/sorento/colors/snow-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/snow-white.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "essence-brown",
                 "name": "Essence Brown (BE2)",
-                "carImage": "/img/models/sorento/colors/essence-brown.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/essence-brown.webp",
                 "style": "background-color: #4f4443;"
             },
             {
                 "id": "steel-gray",
                 "name": "Steel Gray (KLG)",
-                "carImage": "/img/models/sorento/colors/steel-gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/steel-gray.webp",
                 "style": "background-color: #636363;"
             },
             {
                 "id": "aurora-black-pearl",
                 "name": "Aurora Black Pearl (ABP)",
-                "carImage": "/img/models/sorento/colors/aurora-black-pearl.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/aurora-black-pearl.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "gravity-blue",
                 "name": "Gravity Blue (B4U)",
-                "carImage": "/img/models/sorento/colors/gravity-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/gravity-blue.webp",
                 "style": "background-color: #313642;"
             },
             {
                 "id": "runway-red",
                 "name": "Runway Red (CR5)",
-                "carImage": "/img/models/sorento/colors/runway-red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/runway-red.webp",
                 "style": "background-color: #942a25;"
             },
             {
                 "id": "mineral-blue",
                 "name": "Mineral Blue (M4B)",
-                "carImage": "/img/models/sorento/colors/mineral-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/mineral-blue.webp",
                 "style": "background-color: #5b819d;"
             },
             {
                 "id": "platinum-graphite",
                 "name": "Platinum Graphite (ABT)",
-                "carImage": "/img/models/sorento/colors/platinum-graphite.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/platinum-graphite.webp",
                 "style": "background-color: #6c6c6e;"
             },
             {
                 "id": "silky-silver",
                 "name": "Silky Silver (4SS)",
-                "carImage": "/img/models/sorento/colors/silky-silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/silky-silver.webp",
                 "style": "background-color: #c1c2c6;"
             }
         ],
-        "feed_names": [
-        ],
+        "feed_names": [],
         "complectations": [
             {
                 "name": "Classic 2.5 6AT",
@@ -13814,24 +13813,24 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/sorento2024/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/sorento2024/thumb.webp",
         "colors": [
             {
                 "id": "gray",
                 "name": "Gray",
-                "carImage": "/img/models/sorento2024/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento2024/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "white",
                 "name": "Clear White (UD)",
-                "carImage": "/img/models/sorento2024/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento2024/colors/white.webp",
                 "style": "background-color: #e8e9e7;"
             },
             {
                 "id": "black",
                 "name": "Aurora Black Pearl (ABP)",
-                "carImage": "/img/models/sorento2024/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento2024/colors/black.webp",
                 "style": "background-color: #000000;"
             }
         ],
@@ -14072,78 +14071,78 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "/img/models/seltos/thumb.webp",
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/seltos/thumb.webp",
         "colors": [
             {
                 "id": "clear-white",
                 "name": "Clear White (UD)",
-                "carImage": "/img/models/seltos/colors/clear-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/clear-white.webp",
                 "style": "background-color: #e8e9e7;"
             },
             {
                 "id": "snow-white",
                 "name": "Snow White Pearl (SWP)",
-                "carImage": "/img/models/seltos/colors/snow-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/snow-white.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "silky-silver",
                 "name": "Silky Silver (4SS)",
-                "carImage": "/img/models/seltos/colors/silky-silver.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/silky-silver.webp",
                 "style": "background-color: #898a91;"
             },
             {
                 "id": "neptune-blue",
                 "name": "Neptune Blue (B3A)",
-                "carImage": "/img/models/seltos/colors/neptune-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/neptune-blue.webp",
                 "style": "background-color: #3345ac;"
             },
             {
                 "id": "runway-red",
                 "name": "Runway Red (CR5)",
-                "carImage": "/img/models/seltos/colors/runway-red.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/runway-red.webp",
                 "style": "background-color: #a72f2c;"
             },
             {
                 "id": "gravity-blue",
                 "name": "Gravity Blue (B4U)",
-                "carImage": "/img/models/seltos/colors/gravity-blue.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/gravity-blue.webp",
                 "style": "background-color: #252b39;"
             },
             {
                 "id": "glittering-metal",
                 "name": "Glittering Metal (K3G)",
-                "carImage": "/img/models/seltos/colors/glittering-metal.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/glittering-metal.webp",
                 "style": "background-color: #383a3e;"
             },
             {
                 "id": "aurora-black-pearl",
                 "name": "Aurora Black Pearl (ABP)",
-                "carImage": "/img/models/seltos/colors/aurora-black-pearl.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/aurora-black-pearl.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "clear-white-aurora-black-pearl",
                 "name": "Clear White / Aurora Black Pearl (GB1)",
-                "carImage": "/img/models/seltos/colors/clear-white-aurora-black-pearl.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/clear-white-aurora-black-pearl.webp",
                 "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #000000 51%);"
             },
             {
                 "id": "neptune-blue-clear-white",
                 "name": "Neptune Blue / Clear White (GB6)",
-                "carImage": "/img/models/seltos/colors/neptune-blue-clear-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/neptune-blue-clear-white.webp",
                 "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #3345ac 51%);"
             },
             {
                 "id": "gravity-blue-clear-white",
                 "name": "Gravity Blue / Сlear White (GB4)",
-                "carImage": "/img/models/seltos/colors/gravity-blue-clear-white.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/gravity-blue-clear-white.webp",
                 "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #182453 51%);"
             },
             {
                 "id": "gravity-blue-aurora-black-pearl",
                 "name": "Gravity Blue / Aurora Black Pearl (GB5)",
-                "carImage": "/img/models/seltos/colors/gravity-blue-aurora-black-pearl.webp",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/gravity-blue-aurora-black-pearl.webp",
                 "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #000000 51%);"
             }
         ],
