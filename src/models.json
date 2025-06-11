@@ -2761,7 +2761,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/bg.webp",
         "slogan": "Начните… с TIGGO 4 !",
         "name": "TIGGO 4",
-        "price": "1990000",
+        "price": "{{price-chery-tiggo4}}",
         "benefit": 300000,
         "benefits": [
             {
@@ -2900,7 +2900,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/bg.webp",
         "slogan": "18 years edition*",
         "name": "TIGGO 4 PRO",
-        "price": "1700000",
+        "price": "{{price-chery-tiggo4pro}}",
         "benefit": 250000,
         "benefits": [
             {
@@ -3047,7 +3047,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/bg.webp",
         "slogan": "ЛЮБИМЫЙ СЕМЕЙНЫЙ КРОССОВЕР №1",
         "name": "TIGGO 7 PRO MAX",
-        "price": "2430000",
+        "price": "{{price-chery-newtiggo7promax}}",
         "benefit": 300000,
         "benefits": [
             {
@@ -3064,44 +3064,50 @@
             {
                 "id": "black",
                 "name": "Глубокий черный",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/deep-black_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/deep-black.webp",
                 "style": "background-color: #000000;"
+            },
+            {
+                "id": "red",
+                "name": "Огненно-красный",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/fiery-red.webp",
+                "style": "background-color: #d10808;"
             },
             {
                 "id": "red-black",
                 "name": "Огненно-красный (черная крыша)",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/fiery-red-(black-roof)_500px.webp",
-                "style": "background-color: #a70202;"
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/fiery-red-black.webp",
+                "style": "background: linear-gradient(180deg,rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 1) 50%, rgba(209, 8, 8, 1) 50%, rgba(209, 8, 8, 1) 100%);"
             },
             {
                 "id": "steel-gray",
                 "name": "Стальной серый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/steel-gray_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/steel-gray.webp",
                 "style": "background-color: #787878;"
             },
             {
-                "id": "silver-gray",
+                "id": "silvery",
                 "name": "Серебристый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/silver_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/silvery.webp",
                 "style": "background-color: #bcbfc1;"
             },
             {
                 "id": "white",
                 "name": "Искрящийся белый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/sparking-white_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/sparkling-white.webp",
                 "style": "background-color: #dcdfe2;"
             },
             {
                 "id": "white-black",
                 "name": "Искрящийся белый (черная крыша)",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/sparking-white-(black-roof)_500px.webp",
-                "style": "background-color: #dcdfe2;"
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/sparkling-white-black.webp",
+                "style": "background: linear-gradient(180deg,rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 1) 50%, rgba(221, 224, 226, 1) 50%, rgba(221, 224, 226, 1) 100%);"
             },
             {
                 "id": "blue",
                 "name": "Небесно-голубой",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/heavenly-blue_500px.webp",
-                "style": "background-color: #2E5CAA;"
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/sky-blue.webp",
+                "style": "background-color: #6c91b9;"
             }
         ],
         "complectations": [
@@ -3440,7 +3446,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/bg.webp",
         "slogan": "Лидер продаж среди 7-местных кроссоверов",
         "name": "TIGGO  8 PRO MAX",
-        "price": "3020000",
+        "price": "{{price-chery-newtiggo8promax}}",
         "benefit": 600000,
         "benefits": [
             {
@@ -3599,7 +3605,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo9/bg.webp",
         "slogan": "Комфорт первого класса",
         "name": "TIGGO 9",
-        "price": "4150000",
+        "price": "{{price-chery-tiggo9}}",
         "benefit": null,
         "benefits": [
             {
@@ -3726,7 +3732,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/arrizo8/bg.webp",
         "slogan": "",
         "name": "ARRIZO  8",
-        "price": "2680000",
+        "price": "{{price-chery-arrizo8}}",
         "benefit": 220000,
         "benefits": [
             {
@@ -3867,7 +3873,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/bg.webp",
         "slogan": "Участник программы «Семейный автомобиль»",
         "name": "TIGGO 7 PRO PLUG-IN HYBRID",
-        "price": "3699000",
+        "price": "{{price-chery-tiggo7pro-plug-in-hybrid}}",
         "benefit": 1151000,
         "benefits": [
             {
@@ -3884,44 +3890,44 @@
             {
                 "id": "black",
                 "name": "Глубокий черный",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/deep-black_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/black.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "red-black",
                 "name": "Огненно-красный (черная крыша)",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/fiery-red-(black-roof)_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/red.webp",
                 "style": "background-color: #a70202;"
             },
             {
                 "id": "steel-gray",
                 "name": "Стальной серый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/steel-gray_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/steel-gray.webp",
                 "style": "background-color: #787878;"
             },
             {
                 "id": "silver-gray",
                 "name": "Серебристый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/silver_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/gray.webp",
                 "style": "background-color: #bcbfc1;"
             },
             {
                 "id": "white",
                 "name": "Искрящийся белый",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/sparking-white_500px.webp",
-                "style": "background-color: #dcdfe2;"
-            },
-            {
-                "id": "white-black",
-                "name": "Искрящийся белый (черная крыша)",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/sparking-white-(black-roof)_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/white.webp",
                 "style": "background-color: #dcdfe2;"
             },
             {
                 "id": "blue",
                 "name": "Небесно-голубой",
-                "carImage": "https://cdn.alexsab.ru/models/chery/tiggo7promax/colors/heavenly-blue_500px.webp",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/blue.webp",
                 "style": "background-color: #2E5CAA;"
+            },
+            {
+                "id": "sea-blue",
+                "name": "Морской синий",
+                "carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/colors/sea-blue.webp",
+                "style": "background-color: #224968;"
             }
         ],
         "complectations": [
@@ -3990,7 +3996,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/chery/img/models/tiggo8pro-plug-in-hybrid/bg.webp",
         "slogan": "Участник программы «Семейный автомобиль»",
         "name": "TIGGO 8 PRO PLUG-IN HYBRID",
-        "price": "3699000",
+        "price": "{{price-chery-tiggo8pro-plug-in-hybrid}}",
         "benefit": 1151000,
         "benefits": [
             {
@@ -5470,8 +5476,8 @@
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/empow/bg.webp",
         "slogan": "Динамика твоей жизни",
         "name": "Empow",
-        "price": "",
-        "benefit": "",
+        "price": "{{price-gac-empow}}",
+        "benefit": "{{benefit-gac-empow}}",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/empow/colors/black.webp",
         "colors": [
             {
