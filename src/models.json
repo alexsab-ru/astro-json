@@ -7415,7 +7415,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Для независимых и уверенных",
         "name": "H3",
-        "price": 2299000,
+        "price": "{{price-haval-haval-h3}}",
         "benefit": 400000,
         "benefits": [
             {
@@ -7555,7 +7555,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ЛЮБАЯ ЗАДАЧА ПО РАЗМЕРУ",
         "name": "H5",
-        "price": "{{prive-haval-haval-h5}}",
+        "price": "{{price-haval-haval-h5}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -7605,7 +7605,7 @@
         "complectations": [
             {
                 "name": "ELITE 2.0T",
-                "price": "{{prive-haval-haval-h5}}",
+                "price": {{price-haval-haval-h5}},
                 "bodytype": "5-дверный универсал",
                 "engine": "2.0 м3",
                 "engine_power": "200",
