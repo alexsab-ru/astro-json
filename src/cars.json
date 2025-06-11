@@ -1,0 +1,730 @@
+[
+  {
+    "id": "baic-u5_plus",
+    "model": "BAIC U5 PLUS",
+    "price": "1394500",
+    "benefit": "490000",
+    "link": "/models/u5_plus/"
+  },
+  {
+    "id": "baic-x35",
+    "model": "BAIC X35",
+    "price": "0",
+    "benefit": "350000",
+    "link": "/models/x35/"
+  },
+  {
+    "id": "baic-x55",
+    "model": "BAIC X55",
+    "price": "1975000",
+    "benefit": "380000",
+    "link": "/models/x55/"
+  },
+  {
+    "id": "baic-x7",
+    "model": "BAIC X7",
+    "price": "1940000",
+    "benefit": "950000",
+    "link": "/models/x7/"
+  },
+  {
+    "id": "baic-x75",
+    "model": "BAIC X75",
+    "price": "2100000",
+    "benefit": "405000",
+    "link": "/models/x75/"
+  },
+  {
+    "id": "baic-bj40",
+    "model": "BAIC BJ40",
+    "price": "3025000",
+    "benefit": "780000",
+    "link": "/models/bj40/"
+  },
+  {
+    "id": "kaiyi-e5",
+    "model": "KAIYI E5",
+    "price": "1225000",
+    "benefit": "735000",
+    "link": "/models/kaiyi-e5/"
+  },
+  {
+    "id": "kaiyi-x3",
+    "model": "KAIYI X3",
+    "price": "1375000",
+    "benefit": "450000",
+    "link": "/models/kaiyi-x3/"
+  },
+  {
+    "id": "kaiyi-x3pro",
+    "model": "KAIYI X3 PRO",
+    "price": "1529900",
+    "benefit": "350000",
+    "link": "/models/kaiyi-x3pro/"
+  },
+  {
+    "id": "kaiyi-x7-kunlun",
+    "model": "KAIYI X7 Kunlun",
+    "price": "2250000",
+    "benefit": "180000",
+    "link": "/models/kaiyi-x7-kunlun/"
+  },
+  {
+    "id": "belgee-x50",
+    "model": "X50",
+    "price": "1939990",
+    "benefit": "",
+    "link": "https://belgee.ru/model/belgee-x50"
+  },
+  {
+    "id": "belgee-x70",
+    "model": "X70",
+    "price": "2275990",
+    "benefit": "",
+    "link": "https://belgee.ru/model/belgee-x70"
+  },
+  {
+    "id": "changan-alsvin",
+    "model": "ALSVIN",
+    "price": "1350000",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/alsvin/"
+  },
+  {
+    "id": "changan-cs35plusnew",
+    "model": "CS35PLUS NEW",
+    "price": "1799900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/cs35plusnew/"
+  },
+  {
+    "id": "changan-cs75plusnew",
+    "model": "CS75PLUS",
+    "price": "2440000",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/cs75plusnew/"
+  },
+  {
+    "id": "changan-cs95new",
+    "model": "CS95",
+    "price": "3759900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/cs95new/"
+  },
+  {
+    "id": "changan-eadoplus",
+    "model": "EADOplus",
+    "price": "1929900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/eadoplus/"
+  },
+  {
+    "id": "changan-hunter",
+    "model": "HUNTERplus",
+    "price": "3129900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/hunter/"
+  },
+  {
+    "id": "changan-lamore",
+    "model": "Lamore",
+    "price": "2349900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/lamore/"
+  },
+  {
+    "id": "changan-uni-k",
+    "model": "UNI-K",
+    "price": "2979900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/uni-k/"
+  },
+  {
+    "id": "changan-uni-k_idd",
+    "model": "UNI-K iDD",
+    "price": "3629900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/uni-k_idd/"
+  },
+  {
+    "id": "changan-uni-s",
+    "model": "UNI-S / CS55PLUS",
+    "price": "2169900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/uni-s/"
+  },
+  {
+    "id": "changan-uni-t",
+    "model": "UNI-T",
+    "price": "2069900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/uni-t/"
+  },
+  {
+    "id": "changan-uni-v",
+    "model": "UNI-V",
+    "price": "2309900",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/uni-v/"
+  },
+  {
+    "id": "chery-arrizo8",
+    "model": "ARRIZO 8",
+    "price": "2710000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/arrizo8/"
+  },
+  {
+    "id": "chery-newtiggo7promax",
+    "model": "TIGGO 7 PRO MAX",
+    "price": "2470000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/newtiggo7promax/"
+  },
+  {
+    "id": "chery-newtiggo8promax",
+    "model": "TIGGO 8 PRO MAX",
+    "price": "2840000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/newtiggo8promax/"
+  },
+  {
+    "id": "chery-tiggo4",
+    "model": "TIGGO 4",
+    "price": "1949000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo4/"
+  },
+  {
+    "id": "chery-tiggo4pro",
+    "model": "TIGGO 4 PRO 18 years edition",
+    "price": "1730000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo4pro/"
+  },
+  {
+    "id": "chery-tiggo7l",
+    "model": "TIGGO 7L НОВИНКА",
+    "price": "2580000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo7l/"
+  },
+  {
+    "id": "chery-tiggo7pro-plug-in-hybrid",
+    "model": "TIGGO 7 PRO PLUG-IN HYBRID",
+    "price": "3309000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo7pro-plug-in-hybrid/"
+  },
+  {
+    "id": "chery-tiggo8pro-plug-in-hybrid",
+    "model": "TIGGO 8 PRO PLUG-IN HYBRID",
+    "price": "3699000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo8pro-plug-in-hybrid/"
+  },
+  {
+    "id": "chery-tiggo9",
+    "model": "TIGGO 9",
+    "price": "4150000",
+    "benefit": "",
+    "link": "https://www.chery.ru/models/tiggo9/"
+  },
+  {
+    "id": "gac-empow",
+    "model": "empow",
+    "price": "2799000",
+    "benefit": "",
+    "link": "https://gac.ru/models/empow"
+  },
+  {
+    "id": "gac-gs3",
+    "model": "gs3",
+    "price": "2099000",
+    "benefit": "",
+    "link": "https://gac.ru/models/gs3"
+  },
+  {
+    "id": "gac-gs4",
+    "model": "gs4",
+    "price": "2799000",
+    "benefit": "",
+    "link": "https://gac.ru/models/gs4"
+  },
+  {
+    "id": "gac-gs8-ii",
+    "model": "gs8-ii",
+    "price": "4699000",
+    "benefit": "",
+    "link": "https://gac.ru/models/gs8-ii"
+  },
+  {
+    "id": "gac-gs8-ii",
+    "model": "gs8-ii",
+    "price": "3599000",
+    "benefit": "",
+    "link": "https://gac.ru/models/gs8-ii"
+  },
+  {
+    "id": "gac-m8",
+    "model": "m8",
+    "price": "5199999",
+    "benefit": "",
+    "link": "https://gac.ru/models/m8"
+  },
+  {
+    "id": "evolute-i-jet",
+    "model": "i‑JET",
+    "price": "4350000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-jet"
+  },
+  {
+    "id": "evolute-i-joy",
+    "model": "i‑JOY",
+    "price": "1750000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-joy"
+  },
+  {
+    "id": "evolute-i-pro",
+    "model": "i‑PRO",
+    "price": "1499000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-pro"
+  },
+  {
+    "id": "evolute-i-sky",
+    "model": "i‑SKY",
+    "price": "2995000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-sky"
+  },
+  {
+    "id": "evolute-i-space",
+    "model": "i‑SPACE",
+    "price": "2499000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-space"
+  },
+  {
+    "id": "evolute-i-van",
+    "model": "i‑VAN",
+    "price": "2695000",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-van"
+  },
+  {
+    "id": "geely-atlas-2024",
+    "model": "ATLAS",
+    "price": "2999990",
+    "benefit": "",
+    "link": "https://www.geely-motors.com/model/geely-atlas-2024"
+  },
+  {
+    "id": "geely-cityray",
+    "model": "CITYRAY",
+    "price": "2499990",
+    "benefit": "",
+    "link": "https://www.geely-motors.com/model/cityray"
+  },
+  {
+    "id": "geely-coolray-2023",
+    "model": "COOLRAY",
+    "price": "2414990",
+    "benefit": "",
+    "link": "https://www.geely-motors.com/model/geely-coolray-2023"
+  },
+  {
+    "id": "geely-emgrand",
+    "model": "EMGRAND",
+    "price": "1889990",
+    "benefit": "",
+    "link": "https://www.geely-motors.com/model/emgrand"
+  },
+  {
+    "id": "geely-ex5",
+    "model": "EX5",
+    "price": "3749990",
+    "benefit": "",
+    "link": "https://www.geely-motors.com/model/geely-ex5"
+  },
+  {
+    "id": "geely-monjaro",
+    "model": "MONJARO",
+    "price": "3839990",
+    "benefit": "",
+    "link": "https://www.geely-motors.com/model/monjaro"
+  },
+  {
+    "id": "geely-okavango",
+    "model": "OKAVANGO",
+    "price": "3269990",
+    "benefit": "",
+    "link": "https://www.geely-motors.com/model/geely-okavango"
+  },
+  {
+    "id": "geely-preface",
+    "model": "PREFACE",
+    "price": "3099990",
+    "benefit": "",
+    "link": "https://www.geely-motors.com/model/geely-preface"
+  },
+  {
+    "id": "haval-haval-f7-new2024",
+    "model": "F7",
+    "price": "2699000",
+    "benefit": "",
+    "link": "https://haval.ru/models/haval-f7-new2024/"
+  },
+  {
+    "id": "haval-haval-h3",
+    "model": "H3",
+    "price": "2249000",
+    "benefit": "",
+    "link": "https://haval.ru/models/haval-h3/"
+  },
+  {
+    "id": "haval-haval-h5",
+    "model": "H5",
+    "price": "3649000",
+    "benefit": "",
+    "link": "https://haval.ru/models/haval-h5/"
+  },
+  {
+    "id": "haval-haval-h7",
+    "model": "НОВЫЙ H7",
+    "price": "3299000",
+    "benefit": "",
+    "link": "https://haval.ru/models/haval-h7/"
+  },
+  {
+    "id": "haval-haval-h9-new",
+    "model": "H9",
+    "price": "4399000",
+    "benefit": "",
+    "link": "https://haval.ru/models/haval-h9-new/"
+  },
+  {
+    "id": "haval-haval-jolion-new2024",
+    "model": "JOLION",
+    "price": "1899000",
+    "benefit": "",
+    "link": "https://haval.ru/models/haval-jolion-new2024/"
+  },
+  {
+    "id": "haval-new-haval-dargo",
+    "model": "DARGO",
+    "price": "2849000",
+    "benefit": "",
+    "link": "https://haval.ru/models/new-haval-dargo/"
+  },
+  {
+    "id": "haval-new-haval-dargo-x",
+    "model": "DARGO X",
+    "price": "3149000",
+    "benefit": "",
+    "link": "https://haval.ru/models/new-haval-dargo-x/"
+  },
+  {
+    "id": "haval-new-haval-f7x",
+    "model": "НОВЫЙ F7x",
+    "price": "3349000",
+    "benefit": "",
+    "link": "https://haval.ru/models/new-haval-f7x/"
+  },
+  {
+    "id": "haval-new-haval-m6",
+    "model": "M6",
+    "price": "2029000",
+    "benefit": "",
+    "link": "https://haval.ru/models/new-haval-m6/"
+  },
+  {
+    "id": "haval-new-poer",
+    "model": "НОВЫЙ POER",
+    "price": "3799000",
+    "benefit": "",
+    "link": "https://haval.ru/models/new-poer/"
+  },
+  {
+    "id": "haval-poer",
+    "model": "POER",
+    "price": "3449000",
+    "benefit": "",
+    "link": "https://haval.ru/models/poer/"
+  },
+  {
+    "id": "haval-poer-king-kong",
+    "model": "KINGKONG POER",
+    "price": "2899000",
+    "benefit": "",
+    "link": "https://haval.ru/models/poer-king-kong/"
+  },
+  {
+    "id": "jac-j7",
+    "model": "J7",
+    "price": "1449000",
+    "benefit": "700000",
+    "link": "https://jaccar.ru/models/j7/"
+  },
+  {
+    "id": "jac-js3",
+    "model": "JS3",
+    "price": "1299000",
+    "benefit": "600000",
+    "link": "https://jaccar.ru/models/js3/"
+  },
+  {
+    "id": "jac-js6",
+    "model": "JS6",
+    "price": "1899000",
+    "benefit": "650000",
+    "link": "https://jaccar.ru/models/js6/"
+  },
+  {
+    "id": "jac-t8",
+    "model": "T8",
+    "price": "2449000",
+    "benefit": "",
+    "link": "https://jaccar.ru/models/t8/"
+  },
+  {
+    "id": "jac-t8-pro",
+    "model": "T8 PRO",
+    "price": "2699000",
+    "benefit": "450000",
+    "link": "https://jaccar.ru/models/t8-pro/"
+  },
+  {
+    "id": "jac-t9",
+    "model": "T9",
+    "price": "3249000",
+    "benefit": "350000",
+    "link": "https://jaccar.ru/models/t9/"
+  },
+  {
+    "id": "jaecoo-modelj5",
+    "model": "J5",
+    "price": "",
+    "benefit": "",
+    "link": "https://jaecoo.ru/models/modelj5/"
+  },
+  {
+    "id": "jaecoo-modelj7",
+    "model": "J7",
+    "price": "2479900",
+    "benefit": "",
+    "link": "https://jaecoo.ru/models/modelj7/"
+  },
+  {
+    "id": "jaecoo-modelj8",
+    "model": "J8",
+    "price": "3949000",
+    "benefit": "",
+    "link": "https://jaecoo.ru/models/modelj8/"
+  },
+  {
+    "id": "jetour-dashing",
+    "model": "Dashing",
+    "price": "1589900",
+    "benefit": "",
+    "link": "https://jetour-ru.com/models/dashing"
+  },
+  {
+    "id": "jetour-t2",
+    "model": "T2",
+    "price": "3359000",
+    "benefit": "",
+    "link": "https://jetour-ru.com/models/t2"
+  },
+  {
+    "id": "jetour-x50",
+    "model": "X50",
+    "price": "1490000",
+    "benefit": "",
+    "link": "https://jetour-ru.com/models/x50"
+  },
+  {
+    "id": "jetour-x70",
+    "model": "X70",
+    "price": "2149000",
+    "benefit": "",
+    "link": "https://jetour-ru.com/models/x70"
+  },
+  {
+    "id": "jetour-x70plus",
+    "model": "X70 Plus",
+    "price": "2049900",
+    "benefit": "",
+    "link": "https://jetour-ru.com/models/x70plus"
+  },
+  {
+    "id": "jetour-x90plus",
+    "model": "X90 Plus",
+    "price": "2579900",
+    "benefit": "",
+    "link": "https://jetour-ru.com/models/x90plus"
+  },
+  {
+    "id": "knewstar-001",
+    "model": "KNEWSTAR 001",
+    "price": "3299990",
+    "benefit": "",
+    "link": "https://knewstar.ru/model/knewstar-001"
+  },
+  {
+    "id": "livan-s6pro",
+    "model": "S6PRO",
+    "price": "1600000",
+    "benefit": "1049900",
+    "link": "https://livan-motors.ru/model/s6pro/"
+  },
+  {
+    "id": "livan-x3pro",
+    "model": "X3PRO",
+    "price": "1340000",
+    "benefit": "549900",
+    "link": "https://livan-motors.ru/model/x3pro/"
+  },
+  {
+    "id": "livan-x6pro",
+    "model": "X6PRO",
+    "price": "1790000",
+    "benefit": "949900",
+    "link": "https://livan-motors.ru/model/x6pro/"
+  },
+  {
+    "id": "omoda-modelc5",
+    "model": "C5",
+    "price": "2089900",
+    "benefit": "",
+    "link": "https://omoda.ru/models/modelc5/"
+  },
+  {
+    "id": "omoda-modelc7",
+    "model": "C7",
+    "price": "2799900",
+    "benefit": "",
+    "link": "https://omoda.ru/models/modelc7/"
+  },
+  {
+    "id": "omoda-models5",
+    "model": "S5",
+    "price": "1839900",
+    "benefit": "",
+    "link": "https://omoda.ru/models/models5/"
+  },
+  {
+    "id": "omoda-s5gt",
+    "model": "S5 GT",
+    "price": "2159900",
+    "benefit": "",
+    "link": "https://omoda.ru/models/s5gt/"
+  },
+  {
+    "id": "solaris-hs",
+    "model": "Solaris HS",
+    "price": "1930000",
+    "benefit": "",
+    "link": "https://solaris.auto/models/solaris-hs"
+  },
+  {
+    "id": "solaris-krs",
+    "model": "Solaris KRS",
+    "price": "1750000",
+    "benefit": "",
+    "link": "https://solaris.auto/models/solaris-krs"
+  },
+  {
+    "id": "solaris-krx",
+    "model": "Solaris KRX",
+    "price": "1750000",
+    "benefit": "",
+    "link": "https://solaris.auto/models/solaris-krx"
+  },
+  {
+    "id": "soueast-s07",
+    "model": "S07",
+    "price": "2249000",
+    "benefit": "",
+    "link": "https://soueast.ru/s07"
+  },
+  {
+    "id": "soueast-s09",
+    "model": "S09",
+    "price": "2919000",
+    "benefit": "",
+    "link": "https://soueast.ru/s09"
+  },
+  {
+    "id": "tank-300",
+    "model": "TANK 300",
+    "price": "3799000",
+    "benefit": "",
+    "link": "https://tank.ru/models/tank-300"
+  },
+  {
+    "id": "tank-400",
+    "model": "TANK 400",
+    "price": "5199000",
+    "benefit": "",
+    "link": "https://tank.ru/models/tank-400"
+  },
+  {
+    "id": "tank-500",
+    "model": "TANK 500",
+    "price": "6099000",
+    "benefit": "",
+    "link": "https://tank.ru/models/tank-500"
+  },
+  {
+    "id": "tank-700",
+    "model": "TANK 700",
+    "price": "8599000",
+    "benefit": "",
+    "link": "https://tank.ru/models/tank-700"
+  },
+  {
+    "id": "vgv-u70-pro",
+    "model": "U70PRO",
+    "price": "1849900",
+    "benefit": "",
+    "link": "https://vgvmotor.ru/models/u70-pro/"
+  },
+  {
+    "id": "vgv-u75-plus",
+    "model": "U75PLUS",
+    "price": "2249900",
+    "benefit": "",
+    "link": "https://vgvmotor.ru/models/u75-plus/"
+  },
+  {
+    "id": "wey-05",
+    "model": "WEY 05",
+    "price": "4900000",
+    "benefit": "",
+    "link": "https://gwm-wey.ru/models/wey-05"
+  },
+  {
+    "id": "wey-07",
+    "model": "WEY 07",
+    "price": "6549000",
+    "benefit": "",
+    "link": "https://gwm-wey.ru/models/wey-07"
+  },
+  {
+    "id": "wey-80-business-lounge",
+    "model": "WEY 80 Lounge",
+    "price": "7999000",
+    "benefit": "",
+    "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-business-lounge"
+  },
+  {
+    "id": "wey-80-premium",
+    "model": "WEY 80",
+    "price": "6499000",
+    "benefit": "",
+    "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-premium"
+  }
+]
