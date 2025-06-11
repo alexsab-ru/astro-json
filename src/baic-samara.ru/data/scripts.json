@@ -21,7 +21,7 @@
     "ga4": {
         "value": [
             {
-                "id": ""
+                "id": "G-70X4ZB0TSP"
             }
         ],
         "fn": "_ga",
@@ -70,8 +70,8 @@
     },
     "streamwood": {
         "value": {
-            "swKey": "",
-            "swDomainKey": ""
+            "swKey": "baa87a322a122e1fcde7cf2ecc89ce5b",
+            "swDomainKey": "5f96655242425f1f6ef2d2bf266f948a"
         },
         "fn": "_sw",
         "prod": true
