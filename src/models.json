@@ -7605,7 +7605,7 @@
         "complectations": [
             {
                 "name": "ELITE 2.0T",
-                "price": {{price-haval-haval-h5}},
+                "price": "{{price-haval-haval-h5}}",
                 "bodytype": "5-дверный универсал",
                 "engine": "2.0 м3",
                 "engine_power": "200",
