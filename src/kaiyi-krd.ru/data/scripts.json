@@ -59,7 +59,7 @@
         "prod": false
     },
     "konget": {
-        "value": "",
+        "value": "3518ac79ea5b4f5cbdb1ac13afdb8bda",
         "fn": "_kg",
         "prod": true
     },
@@ -70,15 +70,15 @@
     },
     "streamwood": {
         "value": {
-            "swKey": "",
-            "swDomainKey": ""
+            "swKey": "4bdfcbc749fa24090dc1debc6f021361",
+            "swDomainKey": "b7b8d0f3b5ba012ba8e27596650264f5"
         },
         "fn": "_sw",
         "prod": true
     },
     "widgets": {
         "value": [
-            ""
+            "<script async type=\"text/javascript\">\n(function ct_load_script() {\n    var ct = document.createElement('script');\n    ct.type = 'text/javascript';\n    ct.async = true;\n    ct.rel = \"preload\";\n    ct.src = document.location.protocol + '//cc.calltracking.ru/phone.ceed2.14071.async.js?nc=' + Math.floor(new Date().getTime() / 300000);\n    var s = document.getElementsByTagName('script')[0];\n    s.parentNode.insertBefore(ct, s);\n})();\n</script>"
         ],
         "fn": "_wd",
         "prod": true
