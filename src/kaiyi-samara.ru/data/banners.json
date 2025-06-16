@@ -5,7 +5,7 @@
         "type": "video",
         "view": "popup-link",
         "videoUrl": "https://alexsab.ru/video/kaiyi-e5-compress.mp4",
-        "imageUrl": "/img/banners/banner.webp",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/mega/banner.webp",
         "title": "Выгода до {{benefitb-kaiyi-e5}}<sup>*</sup> на&nbsp;KAIYI.",
         "descr": "Акция до&nbsp;{{lastDay}}.{{month}}.{{year}}. Оставьте заявку. Автомобили в&nbsp;наличии",
         "btn": "Узнать подробнее",
