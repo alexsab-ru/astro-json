@@ -623,6 +623,13 @@
     "link": "https://omoda.ru/models/s5gt/"
   },
   {
+    "id": "solaris-hc",
+    "model": "Solaris HC",
+    "price": "1819000",
+    "benefit": "",
+    "link": "https://solaris.auto/models/solaris-hc"
+  },
+  {
     "id": "solaris-hs",
     "model": "Solaris HS",
     "price": "1930000",
