@@ -52,14 +52,14 @@
     },
     "calltouch": {
         "value": {
-            "mod_id": "",
-            "site_id": ""
+            "mod_id": "rfs6xtsz",
+            "site_id": "71283"
         },
         "fn": "_ct",
         "prod": false
     },
     "konget": {
-        "value": "",
+        "value": "9714f4f792254302b7022e21aee779c9",
         "fn": "_kg",
         "prod": true
     },
