@@ -180,7 +180,7 @@ def load_page(url, click_selector=None, wait_selector=None, wait_time=1):
     response = requests.get(url)
     return response.content
 
-def scrape_page(url, xpaths):
+def scrape_page(url, xpaths, brand_prefix):
     # Получаем параметры для кликов из переменных окружения
     click_selector = os.getenv('CLICK_SELECTOR')
     wait_selector = os.getenv('WAIT_SELECTOR')
@@ -235,7 +235,9 @@ if __name__ == "__main__":
         'link_xpath': os.getenv('LINK_XPATH'),
     }
 
-    data = scrape_page(url, xpaths)
+    brand_prefix = os.getenv('BRAND')
+
+    data = scrape_page(url, xpaths, brand_prefix)
     print(json.dumps(data, indent=2))
     
     if data:
@@ -246,7 +248,6 @@ if __name__ == "__main__":
         dealer_price = os.getenv('DEALERPRICE')
         dealer_price_field = os.getenv('DEALERPRICEFIELD')
         dealer_benefit_field = os.getenv('DEALERBENEFITFIELD')
-        brand_prefix = os.getenv('BRAND')
         
         save_json(
             data, 

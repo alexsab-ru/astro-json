@@ -191,7 +191,7 @@ async function scrapePage(url, xpaths) {
     }
     
     console.log("Извлечение данных со страницы...");
-    const data = await page.evaluate((xpaths, baseUrl) => {
+    const data = await page.evaluate((xpaths, baseUrl, brandPrefix) => {
         const results = [];
 
         // Улучшенная функция для выполнения XPath запросов
@@ -265,7 +265,7 @@ async function scrapePage(url, xpaths) {
 
         console.log(`Всего извлечено ${results.length} элементов`);
         return results;
-    }, xpaths, url);
+    }, xpaths, url, brandPrefix);
 
     console.log(`Извлечено ${data.length} элементов`);
     await browser.close();
