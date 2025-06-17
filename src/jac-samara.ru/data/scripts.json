@@ -70,8 +70,8 @@
     },
     "streamwood": {
         "value": {
-            "swKey": "",
-            "swDomainKey": ""
+            "swKey": "baa87a322a122e1fcde7cf2ecc89ce5b",
+            "swDomainKey": "07fc4e2971ddf1a127b8393f8c8f0295"
         },
         "fn": "_sw",
         "prod": true
