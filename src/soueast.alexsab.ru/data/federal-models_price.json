@@ -1,6 +1,7 @@
 [
   {
     "id": "soueast-s07",
+    "brand": "soueast",
     "model": "S07",
     "price": "2249000",
     "benefit": "",
@@ -8,6 +9,7 @@
   },
   {
     "id": "soueast-s09",
+    "brand": "soueast",
     "model": "S09",
     "price": "2919000",
     "benefit": "",

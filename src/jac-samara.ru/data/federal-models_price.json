@@ -1,6 +1,7 @@
 [
   {
     "id": "jac-j7",
+    "brand": "jac",
     "model": "J7",
     "price": "1449000",
     "benefit": "700000",
@@ -8,6 +9,7 @@
   },
   {
     "id": "jac-js3",
+    "brand": "jac",
     "model": "JS3",
     "price": "1299000",
     "benefit": "600000",
@@ -15,6 +17,7 @@
   },
   {
     "id": "jac-js6",
+    "brand": "jac",
     "model": "JS6",
     "price": "1899000",
     "benefit": "650000",
@@ -22,6 +25,7 @@
   },
   {
     "id": "jac-t8",
+    "brand": "jac",
     "model": "T8",
     "price": "2449000",
     "benefit": "",
@@ -29,6 +33,7 @@
   },
   {
     "id": "jac-t8-pro",
+    "brand": "jac",
     "model": "T8 PRO",
     "price": "2699000",
     "benefit": "450000",
@@ -36,6 +41,7 @@
   },
   {
     "id": "jac-t9",
+    "brand": "jac",
     "model": "T9",
     "price": "3249000",
     "benefit": "350000",

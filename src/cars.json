@@ -1,6 +1,7 @@
 [
   {
     "id": "baic-u5_plus",
+    "brand": "baic",
     "model": "BAIC U5 PLUS",
     "price": "1394500",
     "benefit": "490000",
@@ -8,6 +9,7 @@
   },
   {
     "id": "baic-x35",
+    "brand": "baic",
     "model": "BAIC X35",
     "price": "0",
     "benefit": "350000",
@@ -15,6 +17,7 @@
   },
   {
     "id": "baic-x55",
+    "brand": "baic",
     "model": "BAIC X55",
     "price": "1975000",
     "benefit": "380000",
@@ -22,6 +25,7 @@
   },
   {
     "id": "baic-x7",
+    "brand": "baic",
     "model": "BAIC X7",
     "price": "1940000",
     "benefit": "950000",
@@ -29,6 +33,7 @@
   },
   {
     "id": "baic-x75",
+    "brand": "baic",
     "model": "BAIC X75",
     "price": "2100000",
     "benefit": "405000",
@@ -36,6 +41,7 @@
   },
   {
     "id": "baic-bj40",
+    "brand": "baic",
     "model": "BAIC BJ40",
     "price": "3025000",
     "benefit": "780000",
@@ -43,6 +49,7 @@
   },
   {
     "id": "kaiyi-e5",
+    "brand": "kaiyi",
     "model": "KAIYI E5",
     "price": "1225000",
     "benefit": "735000",
@@ -50,6 +57,7 @@
   },
   {
     "id": "kaiyi-x3",
+    "brand": "kaiyi",
     "model": "KAIYI X3",
     "price": "1375000",
     "benefit": "450000",
@@ -57,6 +65,7 @@
   },
   {
     "id": "kaiyi-x3pro",
+    "brand": "kaiyi",
     "model": "KAIYI X3 PRO",
     "price": "1529900",
     "benefit": "350000",
@@ -64,6 +73,7 @@
   },
   {
     "id": "kaiyi-x7-kunlun",
+    "brand": "kaiyi",
     "model": "KAIYI X7 Kunlun",
     "price": "2250000",
     "benefit": "180000",
@@ -71,6 +81,7 @@
   },
   {
     "id": "belgee-x50",
+    "brand": "belgee",
     "model": "X50",
     "price": "1939990",
     "benefit": "",
@@ -78,6 +89,7 @@
   },
   {
     "id": "belgee-x70",
+    "brand": "belgee",
     "model": "X70",
     "price": "2275990",
     "benefit": "",
@@ -85,6 +97,7 @@
   },
   {
     "id": "changan-alsvin",
+    "brand": "changan",
     "model": "ALSVIN",
     "price": "1350000",
     "benefit": "",
@@ -92,6 +105,7 @@
   },
   {
     "id": "changan-cs35plusnew",
+    "brand": "changan",
     "model": "CS35PLUS NEW",
     "price": "1799900",
     "benefit": "",
@@ -99,6 +113,7 @@
   },
   {
     "id": "changan-cs75plusnew",
+    "brand": "changan",
     "model": "CS75PLUS",
     "price": "2440000",
     "benefit": "",
@@ -106,6 +121,7 @@
   },
   {
     "id": "changan-cs95new",
+    "brand": "changan",
     "model": "CS95",
     "price": "3759900",
     "benefit": "",
@@ -113,6 +129,7 @@
   },
   {
     "id": "changan-eadoplus",
+    "brand": "changan",
     "model": "EADOplus",
     "price": "1929900",
     "benefit": "",
@@ -120,6 +137,7 @@
   },
   {
     "id": "changan-hunter",
+    "brand": "changan",
     "model": "HUNTERplus",
     "price": "3129900",
     "benefit": "",
@@ -127,6 +145,7 @@
   },
   {
     "id": "changan-lamore",
+    "brand": "changan",
     "model": "Lamore",
     "price": "2349900",
     "benefit": "",
@@ -134,6 +153,7 @@
   },
   {
     "id": "changan-uni-k",
+    "brand": "changan",
     "model": "UNI-K",
     "price": "2979900",
     "benefit": "",
@@ -141,6 +161,7 @@
   },
   {
     "id": "changan-uni-k_idd",
+    "brand": "changan",
     "model": "UNI-K iDD",
     "price": "3629900",
     "benefit": "",
@@ -148,6 +169,7 @@
   },
   {
     "id": "changan-uni-s",
+    "brand": "changan",
     "model": "UNI-S / CS55PLUS",
     "price": "2169900",
     "benefit": "",
@@ -155,6 +177,7 @@
   },
   {
     "id": "changan-uni-t",
+    "brand": "changan",
     "model": "UNI-T",
     "price": "2069900",
     "benefit": "",
@@ -162,6 +185,7 @@
   },
   {
     "id": "changan-uni-v",
+    "brand": "changan",
     "model": "UNI-V",
     "price": "2309900",
     "benefit": "",
@@ -169,6 +193,7 @@
   },
   {
     "id": "chery-arrizo8",
+    "brand": "chery",
     "model": "ARRIZO 8",
     "price": "2710000",
     "benefit": "",
@@ -176,6 +201,7 @@
   },
   {
     "id": "chery-newtiggo7promax",
+    "brand": "chery",
     "model": "TIGGO 7 PRO MAX",
     "price": "2470000",
     "benefit": "",
@@ -183,6 +209,7 @@
   },
   {
     "id": "chery-newtiggo8promax",
+    "brand": "chery",
     "model": "TIGGO 8 PRO MAX",
     "price": "2840000",
     "benefit": "",
@@ -190,6 +217,7 @@
   },
   {
     "id": "chery-tiggo4",
+    "brand": "chery",
     "model": "TIGGO 4",
     "price": "1949000",
     "benefit": "",
@@ -197,6 +225,7 @@
   },
   {
     "id": "chery-tiggo4pro",
+    "brand": "chery",
     "model": "TIGGO 4 PRO 18 years edition",
     "price": "1730000",
     "benefit": "",
@@ -204,6 +233,7 @@
   },
   {
     "id": "chery-tiggo7l",
+    "brand": "chery",
     "model": "TIGGO 7L НОВИНКА",
     "price": "2580000",
     "benefit": "",
@@ -211,6 +241,7 @@
   },
   {
     "id": "chery-tiggo7pro-plug-in-hybrid",
+    "brand": "chery",
     "model": "TIGGO 7 PRO PLUG-IN HYBRID",
     "price": "3309000",
     "benefit": "",
@@ -218,6 +249,7 @@
   },
   {
     "id": "chery-tiggo8pro-plug-in-hybrid",
+    "brand": "chery",
     "model": "TIGGO 8 PRO PLUG-IN HYBRID",
     "price": "3699000",
     "benefit": "",
@@ -225,6 +257,7 @@
   },
   {
     "id": "chery-tiggo9",
+    "brand": "chery",
     "model": "TIGGO 9",
     "price": "4150000",
     "benefit": "",
@@ -232,6 +265,7 @@
   },
   {
     "id": "gac-empow",
+    "brand": "gac",
     "model": "empow",
     "price": "2799000",
     "benefit": "",
@@ -239,6 +273,7 @@
   },
   {
     "id": "gac-gs3",
+    "brand": "gac",
     "model": "gs3",
     "price": "2099000",
     "benefit": "",
@@ -246,6 +281,7 @@
   },
   {
     "id": "gac-gs4",
+    "brand": "gac",
     "model": "gs4",
     "price": "2799000",
     "benefit": "",
@@ -253,6 +289,7 @@
   },
   {
     "id": "gac-gs8-ii",
+    "brand": "gac",
     "model": "gs8-ii",
     "price": "4699000",
     "benefit": "",
@@ -260,6 +297,7 @@
   },
   {
     "id": "gac-gs8-ii",
+    "brand": "gac",
     "model": "gs8-ii",
     "price": "3599000",
     "benefit": "",
@@ -267,6 +305,7 @@
   },
   {
     "id": "gac-m8",
+    "brand": "gac",
     "model": "m8",
     "price": "5199999",
     "benefit": "",
@@ -274,6 +313,7 @@
   },
   {
     "id": "evolute-i-jet",
+    "brand": "evolute",
     "model": "i‑JET",
     "price": "4350000",
     "benefit": "",
@@ -281,6 +321,7 @@
   },
   {
     "id": "evolute-i-joy",
+    "brand": "evolute",
     "model": "i‑JOY",
     "price": "1750000",
     "benefit": "",
@@ -288,6 +329,7 @@
   },
   {
     "id": "evolute-i-pro",
+    "brand": "evolute",
     "model": "i‑PRO",
     "price": "1499000",
     "benefit": "",
@@ -295,6 +337,7 @@
   },
   {
     "id": "evolute-i-sky",
+    "brand": "evolute",
     "model": "i‑SKY",
     "price": "2995000",
     "benefit": "",
@@ -302,6 +345,7 @@
   },
   {
     "id": "evolute-i-space",
+    "brand": "evolute",
     "model": "i‑SPACE",
     "price": "2499000",
     "benefit": "",
@@ -309,6 +353,7 @@
   },
   {
     "id": "evolute-i-van",
+    "brand": "evolute",
     "model": "i‑VAN",
     "price": "2695000",
     "benefit": "",
@@ -316,6 +361,7 @@
   },
   {
     "id": "geely-atlas-2024",
+    "brand": "geely",
     "model": "ATLAS",
     "price": "2999990",
     "benefit": "",
@@ -323,6 +369,7 @@
   },
   {
     "id": "geely-cityray",
+    "brand": "geely",
     "model": "CITYRAY",
     "price": "2499990",
     "benefit": "",
@@ -330,6 +377,7 @@
   },
   {
     "id": "geely-coolray-2023",
+    "brand": "geely",
     "model": "COOLRAY",
     "price": "2414990",
     "benefit": "",
@@ -337,6 +385,7 @@
   },
   {
     "id": "geely-emgrand",
+    "brand": "geely",
     "model": "EMGRAND",
     "price": "1889990",
     "benefit": "",
@@ -344,6 +393,7 @@
   },
   {
     "id": "geely-ex5",
+    "brand": "geely",
     "model": "EX5",
     "price": "3749990",
     "benefit": "",
@@ -351,6 +401,7 @@
   },
   {
     "id": "geely-monjaro",
+    "brand": "geely",
     "model": "MONJARO",
     "price": "3839990",
     "benefit": "",
@@ -358,6 +409,7 @@
   },
   {
     "id": "geely-okavango",
+    "brand": "geely",
     "model": "OKAVANGO",
     "price": "3269990",
     "benefit": "",
@@ -365,6 +417,7 @@
   },
   {
     "id": "geely-preface",
+    "brand": "geely",
     "model": "PREFACE",
     "price": "3099990",
     "benefit": "",
@@ -372,6 +425,7 @@
   },
   {
     "id": "haval-haval-f7-new2024",
+    "brand": "haval",
     "model": "F7",
     "price": "2699000",
     "benefit": "",
@@ -379,6 +433,7 @@
   },
   {
     "id": "haval-haval-h3",
+    "brand": "haval",
     "model": "H3",
     "price": "2249000",
     "benefit": "",
@@ -386,6 +441,7 @@
   },
   {
     "id": "haval-haval-h5",
+    "brand": "haval",
     "model": "H5",
     "price": "3649000",
     "benefit": "",
@@ -393,6 +449,7 @@
   },
   {
     "id": "haval-haval-h7",
+    "brand": "haval",
     "model": "НОВЫЙ H7",
     "price": "3299000",
     "benefit": "",
@@ -400,6 +457,7 @@
   },
   {
     "id": "haval-haval-h9-new",
+    "brand": "haval",
     "model": "H9",
     "price": "4399000",
     "benefit": "",
@@ -407,6 +465,7 @@
   },
   {
     "id": "haval-haval-jolion-new2024",
+    "brand": "haval",
     "model": "JOLION",
     "price": "1899000",
     "benefit": "",
@@ -414,6 +473,7 @@
   },
   {
     "id": "haval-new-haval-dargo",
+    "brand": "haval",
     "model": "DARGO",
     "price": "2849000",
     "benefit": "",
@@ -421,6 +481,7 @@
   },
   {
     "id": "haval-new-haval-dargo-x",
+    "brand": "haval",
     "model": "DARGO X",
     "price": "3149000",
     "benefit": "",
@@ -428,6 +489,7 @@
   },
   {
     "id": "haval-new-haval-f7x",
+    "brand": "haval",
     "model": "НОВЫЙ F7x",
     "price": "3349000",
     "benefit": "",
@@ -435,6 +497,7 @@
   },
   {
     "id": "haval-new-haval-m6",
+    "brand": "haval",
     "model": "M6",
     "price": "2029000",
     "benefit": "",
@@ -442,6 +505,7 @@
   },
   {
     "id": "haval-new-poer",
+    "brand": "haval",
     "model": "НОВЫЙ POER",
     "price": "3799000",
     "benefit": "",
@@ -449,6 +513,7 @@
   },
   {
     "id": "haval-poer",
+    "brand": "haval",
     "model": "POER",
     "price": "3449000",
     "benefit": "",
@@ -456,6 +521,7 @@
   },
   {
     "id": "haval-poer-king-kong",
+    "brand": "haval",
     "model": "KINGKONG POER",
     "price": "2899000",
     "benefit": "",
@@ -463,6 +529,7 @@
   },
   {
     "id": "jac-j7",
+    "brand": "jac",
     "model": "J7",
     "price": "1449000",
     "benefit": "700000",
@@ -470,6 +537,7 @@
   },
   {
     "id": "jac-js3",
+    "brand": "jac",
     "model": "JS3",
     "price": "1299000",
     "benefit": "600000",
@@ -477,6 +545,7 @@
   },
   {
     "id": "jac-js6",
+    "brand": "jac",
     "model": "JS6",
     "price": "1899000",
     "benefit": "650000",
@@ -484,6 +553,7 @@
   },
   {
     "id": "jac-t8",
+    "brand": "jac",
     "model": "T8",
     "price": "2449000",
     "benefit": "",
@@ -491,6 +561,7 @@
   },
   {
     "id": "jac-t8-pro",
+    "brand": "jac",
     "model": "T8 PRO",
     "price": "2699000",
     "benefit": "450000",
@@ -498,6 +569,7 @@
   },
   {
     "id": "jac-t9",
+    "brand": "jac",
     "model": "T9",
     "price": "3249000",
     "benefit": "350000",
@@ -505,6 +577,7 @@
   },
   {
     "id": "jaecoo-modelj5",
+    "brand": "jaecoo",
     "model": "J5",
     "price": "",
     "benefit": "",
@@ -512,6 +585,7 @@
   },
   {
     "id": "jaecoo-modelj7",
+    "brand": "jaecoo",
     "model": "J7",
     "price": "2529900",
     "benefit": "",
@@ -519,6 +593,7 @@
   },
   {
     "id": "jaecoo-modelj8",
+    "brand": "jaecoo",
     "model": "J8",
     "price": "3949000",
     "benefit": "",
@@ -526,6 +601,7 @@
   },
   {
     "id": "jetour-dashing",
+    "brand": "jetour",
     "model": "Dashing",
     "price": "1589900",
     "benefit": "",
@@ -533,6 +609,7 @@
   },
   {
     "id": "jetour-t2",
+    "brand": "jetour",
     "model": "T2",
     "price": "3359000",
     "benefit": "",
@@ -540,6 +617,7 @@
   },
   {
     "id": "jetour-x50",
+    "brand": "jetour",
     "model": "X50",
     "price": "1490000",
     "benefit": "",
@@ -547,6 +625,7 @@
   },
   {
     "id": "jetour-x70",
+    "brand": "jetour",
     "model": "X70",
     "price": "2149000",
     "benefit": "",
@@ -554,6 +633,7 @@
   },
   {
     "id": "jetour-x70plus",
+    "brand": "jetour",
     "model": "X70 Plus",
     "price": "2049900",
     "benefit": "",
@@ -561,6 +641,7 @@
   },
   {
     "id": "jetour-x90plus",
+    "brand": "jetour",
     "model": "X90 Plus",
     "price": "2579900",
     "benefit": "",
@@ -568,6 +649,7 @@
   },
   {
     "id": "knewstar-001",
+    "brand": "knewstar",
     "model": "KNEWSTAR 001",
     "price": "3299990",
     "benefit": "",
@@ -575,6 +657,7 @@
   },
   {
     "id": "livan-s6pro",
+    "brand": "livan",
     "model": "S6PRO",
     "price": "1600000",
     "benefit": "1049900",
@@ -582,6 +665,7 @@
   },
   {
     "id": "livan-x3pro",
+    "brand": "livan",
     "model": "X3PRO",
     "price": "1340000",
     "benefit": "549900",
@@ -589,6 +673,7 @@
   },
   {
     "id": "livan-x6pro",
+    "brand": "livan",
     "model": "X6PRO",
     "price": "1790000",
     "benefit": "949900",
@@ -596,6 +681,7 @@
   },
   {
     "id": "omoda-modelc5",
+    "brand": "omoda",
     "model": "C5",
     "price": "2169900",
     "benefit": "",
@@ -603,6 +689,7 @@
   },
   {
     "id": "omoda-modelc7",
+    "brand": "omoda",
     "model": "C7",
     "price": "2799900",
     "benefit": "",
@@ -610,6 +697,7 @@
   },
   {
     "id": "omoda-models5",
+    "brand": "omoda",
     "model": "S5",
     "price": "1839900",
     "benefit": "",
@@ -617,6 +705,7 @@
   },
   {
     "id": "omoda-s5gt",
+    "brand": "omoda",
     "model": "S5 GT",
     "price": "2159900",
     "benefit": "",
@@ -624,6 +713,7 @@
   },
   {
     "id": "solaris-hc",
+    "brand": "solaris",
     "model": "Solaris HC",
     "price": "1819000",
     "benefit": "",
@@ -631,6 +721,7 @@
   },
   {
     "id": "solaris-hs",
+    "brand": "solaris",
     "model": "Solaris HS",
     "price": "1930000",
     "benefit": "",
@@ -638,6 +729,7 @@
   },
   {
     "id": "solaris-krs",
+    "brand": "solaris",
     "model": "Solaris KRS",
     "price": "1750000",
     "benefit": "",
@@ -645,6 +737,7 @@
   },
   {
     "id": "solaris-krx",
+    "brand": "solaris",
     "model": "Solaris KRX",
     "price": "1750000",
     "benefit": "",
@@ -652,6 +745,7 @@
   },
   {
     "id": "soueast-s07",
+    "brand": "soueast",
     "model": "S07",
     "price": "2249000",
     "benefit": "",
@@ -659,6 +753,7 @@
   },
   {
     "id": "soueast-s09",
+    "brand": "soueast",
     "model": "S09",
     "price": "2919000",
     "benefit": "",
@@ -666,6 +761,7 @@
   },
   {
     "id": "tank-300",
+    "brand": "tank",
     "model": "TANK 300",
     "price": "3799000",
     "benefit": "",
@@ -673,6 +769,7 @@
   },
   {
     "id": "tank-400",
+    "brand": "tank",
     "model": "TANK 400",
     "price": "5199000",
     "benefit": "",
@@ -680,6 +777,7 @@
   },
   {
     "id": "tank-500",
+    "brand": "tank",
     "model": "TANK 500",
     "price": "6099000",
     "benefit": "",
@@ -687,6 +785,7 @@
   },
   {
     "id": "tank-700",
+    "brand": "tank",
     "model": "TANK 700",
     "price": "8599000",
     "benefit": "",
@@ -694,6 +793,7 @@
   },
   {
     "id": "vgv-u70-pro",
+    "brand": "vgv",
     "model": "U70PRO",
     "price": "1849900",
     "benefit": "",
@@ -701,6 +801,7 @@
   },
   {
     "id": "vgv-u75-plus",
+    "brand": "vgv",
     "model": "U75PLUS",
     "price": "2249900",
     "benefit": "",
@@ -708,6 +809,7 @@
   },
   {
     "id": "wey-05",
+    "brand": "wey",
     "model": "WEY 05",
     "price": "4900000",
     "benefit": "",
@@ -715,6 +817,7 @@
   },
   {
     "id": "wey-07",
+    "brand": "wey",
     "model": "WEY 07",
     "price": "6549000",
     "benefit": "",
@@ -722,6 +825,7 @@
   },
   {
     "id": "wey-80-business-lounge",
+    "brand": "wey",
     "model": "WEY 80 Lounge",
     "price": "7999000",
     "benefit": "",
@@ -729,6 +833,7 @@
   },
   {
     "id": "wey-80-premium",
+    "brand": "wey",
     "model": "WEY 80",
     "price": "6499000",
     "benefit": "",

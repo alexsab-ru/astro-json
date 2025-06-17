@@ -1,6 +1,7 @@
 [
   {
     "id": "vgv-u70-pro",
+    "brand": "vgv",
     "model": "U70PRO",
     "price": "1849900",
     "benefit": "",
@@ -8,6 +9,7 @@
   },
   {
     "id": "vgv-u75-plus",
+    "brand": "vgv",
     "model": "U75PLUS",
     "price": "2249900",
     "benefit": "",

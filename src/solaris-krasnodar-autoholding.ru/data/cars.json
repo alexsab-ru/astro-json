@@ -1,6 +1,7 @@
 [
   {
     "id": "solaris-hc",
+    "brand": "solaris",
     "model": "Solaris HC",
     "price": "1819000",
     "benefit": "",
@@ -8,6 +9,7 @@
   },
   {
     "id": "solaris-hs",
+    "brand": "solaris",
     "model": "Solaris HS",
     "price": "1930000",
     "benefit": "",
@@ -15,6 +17,7 @@
   },
   {
     "id": "solaris-krs",
+    "brand": "solaris",
     "model": "Solaris KRS",
     "price": "1750000",
     "benefit": "",
@@ -22,6 +25,7 @@
   },
   {
     "id": "solaris-krx",
+    "brand": "solaris",
     "model": "Solaris KRX",
     "price": "1750000",
     "benefit": "",

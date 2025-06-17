@@ -1,6 +1,7 @@
 [
   {
     "id": "gac-empow",
+    "brand": "gac",
     "model": "empow",
     "price": "2799000",
     "benefit": "",
@@ -8,6 +9,7 @@
   },
   {
     "id": "gac-gs3",
+    "brand": "gac",
     "model": "gs3",
     "price": "2099000",
     "benefit": "",
@@ -15,6 +17,7 @@
   },
   {
     "id": "gac-gs4",
+    "brand": "gac",
     "model": "gs4",
     "price": "2799000",
     "benefit": "",
@@ -22,6 +25,7 @@
   },
   {
     "id": "gac-gs8-ii",
+    "brand": "gac",
     "model": "gs8-ii",
     "price": "4699000",
     "benefit": "",
@@ -29,6 +33,7 @@
   },
   {
     "id": "gac-gs8-ii",
+    "brand": "gac",
     "model": "gs8-ii",
     "price": "3599000",
     "benefit": "",
@@ -36,6 +41,7 @@
   },
   {
     "id": "gac-m8",
+    "brand": "gac",
     "model": "m8",
     "price": "5199999",
     "benefit": "",

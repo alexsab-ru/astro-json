@@ -1,6 +1,7 @@
 [
   {
     "id": "belgee-x50",
+    "brand": "belgee",
     "model": "X50",
     "price": "1939990",
     "benefit": "500000",
@@ -8,6 +9,7 @@
   },
   {
     "id": "belgee-x70",
+    "brand": "belgee",
     "model": "X70",
     "price": "2146190",
     "benefit": "800000",

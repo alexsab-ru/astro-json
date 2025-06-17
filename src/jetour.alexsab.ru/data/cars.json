@@ -1,6 +1,7 @@
 [
   {
     "id": "jetour-dashing",
+    "brand": "jetour",
     "model": "Dashing",
     "price": "1589900",
     "benefit": "",
@@ -8,6 +9,7 @@
   },
   {
     "id": "jetour-t2",
+    "brand": "jetour",
     "model": "T2",
     "price": "3359000",
     "benefit": "",
@@ -15,6 +17,7 @@
   },
   {
     "id": "jetour-x50",
+    "brand": "jetour",
     "model": "X50",
     "price": "1490000",
     "benefit": "",
@@ -22,6 +25,7 @@
   },
   {
     "id": "jetour-x70",
+    "brand": "jetour",
     "model": "X70",
     "price": "2149000",
     "benefit": "",
@@ -29,6 +33,7 @@
   },
   {
     "id": "jetour-x70plus",
+    "brand": "jetour",
     "model": "X70 Plus",
     "price": "2049900",
     "benefit": "",
@@ -36,6 +41,7 @@
   },
   {
     "id": "jetour-x90plus",
+    "brand": "jetour",
     "model": "X90 Plus",
     "price": "2579900",
     "benefit": "",

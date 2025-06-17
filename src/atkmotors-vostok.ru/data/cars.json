@@ -1,6 +1,7 @@
 [
   {
     "id": "chery-arrizo8",
+    "brand": "chery",
     "model": "ARRIZO 8",
     "price": "2710000",
     "benefit": "",
@@ -8,6 +9,7 @@
   },
   {
     "id": "chery-newtiggo7promax",
+    "brand": "chery",
     "model": "TIGGO 7 PRO MAX",
     "price": "2470000",
     "benefit": "",
@@ -15,6 +17,7 @@
   },
   {
     "id": "chery-newtiggo8promax",
+    "brand": "chery",
     "model": "TIGGO 8 PRO MAX",
     "price": "2840000",
     "benefit": "",
@@ -22,6 +25,7 @@
   },
   {
     "id": "chery-tiggo4",
+    "brand": "chery",
     "model": "TIGGO 4",
     "price": "1949000",
     "benefit": "",
@@ -29,6 +33,7 @@
   },
   {
     "id": "chery-tiggo4pro",
+    "brand": "chery",
     "model": "TIGGO 4 PRO 18 years edition",
     "price": "1730000",
     "benefit": "",
@@ -36,6 +41,7 @@
   },
   {
     "id": "chery-tiggo7l",
+    "brand": "chery",
     "model": "TIGGO 7L НОВИНКА",
     "price": "2580000",
     "benefit": "",
@@ -43,6 +49,7 @@
   },
   {
     "id": "chery-tiggo7pro-plug-in-hybrid",
+    "brand": "chery",
     "model": "TIGGO 7 PRO PLUG-IN HYBRID",
     "price": "3309000",
     "benefit": "",
@@ -50,6 +57,7 @@
   },
   {
     "id": "chery-tiggo8pro-plug-in-hybrid",
+    "brand": "chery",
     "model": "TIGGO 8 PRO PLUG-IN HYBRID",
     "price": "3699000",
     "benefit": "",
@@ -57,6 +65,7 @@
   },
   {
     "id": "chery-tiggo9",
+    "brand": "chery",
     "model": "TIGGO 9",
     "price": "4150000",
     "benefit": "",
@@ -64,6 +73,7 @@
   },
   {
     "id": "changan-alsvin",
+    "brand": "changan",
     "model": "ALSVIN",
     "price": "1350000",
     "benefit": "",
@@ -71,6 +81,7 @@
   },
   {
     "id": "changan-cs35plusnew",
+    "brand": "changan",
     "model": "CS35PLUS NEW",
     "price": "1799900",
     "benefit": "",
@@ -78,6 +89,7 @@
   },
   {
     "id": "changan-cs75plusnew",
+    "brand": "changan",
     "model": "CS75PLUS",
     "price": "2440000",
     "benefit": "",
@@ -85,6 +97,7 @@
   },
   {
     "id": "changan-cs95new",
+    "brand": "changan",
     "model": "CS95",
     "price": "3759900",
     "benefit": "",
@@ -92,6 +105,7 @@
   },
   {
     "id": "changan-eadoplus",
+    "brand": "changan",
     "model": "EADOplus",
     "price": "1929900",
     "benefit": "",
@@ -99,6 +113,7 @@
   },
   {
     "id": "changan-hunter",
+    "brand": "changan",
     "model": "HUNTERplus",
     "price": "3129900",
     "benefit": "",
@@ -106,6 +121,7 @@
   },
   {
     "id": "changan-lamore",
+    "brand": "changan",
     "model": "Lamore",
     "price": "2349900",
     "benefit": "",
@@ -113,6 +129,7 @@
   },
   {
     "id": "changan-uni-k",
+    "brand": "changan",
     "model": "UNI-K",
     "price": "2979900",
     "benefit": "",
@@ -120,6 +137,7 @@
   },
   {
     "id": "changan-uni-k_idd",
+    "brand": "changan",
     "model": "UNI-K iDD",
     "price": "3629900",
     "benefit": "",
@@ -127,6 +145,7 @@
   },
   {
     "id": "changan-uni-s",
+    "brand": "changan",
     "model": "UNI-S / CS55PLUS",
     "price": "2169900",
     "benefit": "",
@@ -134,6 +153,7 @@
   },
   {
     "id": "changan-uni-t",
+    "brand": "changan",
     "model": "UNI-T",
     "price": "2069900",
     "benefit": "",
@@ -141,6 +161,7 @@
   },
   {
     "id": "changan-uni-v",
+    "brand": "changan",
     "model": "UNI-V",
     "price": "2309900",
     "benefit": "",

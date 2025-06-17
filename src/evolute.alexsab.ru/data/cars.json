@@ -1,6 +1,7 @@
 [
   {
     "id": "evolute-i-jet",
+    "brand": "evolute",
     "model": "i‑JET",
     "price": "4350000",
     "benefit": "",
@@ -8,6 +9,7 @@
   },
   {
     "id": "evolute-i-joy",
+    "brand": "evolute",
     "model": "i‑JOY",
     "price": "1750000",
     "benefit": "",
@@ -15,6 +17,7 @@
   },
   {
     "id": "evolute-i-pro",
+    "brand": "evolute",
     "model": "i‑PRO",
     "price": "1499000",
     "benefit": "",
@@ -22,6 +25,7 @@
   },
   {
     "id": "evolute-i-sky",
+    "brand": "evolute",
     "model": "i‑SKY",
     "price": "2995000",
     "benefit": "",
@@ -29,6 +33,7 @@
   },
   {
     "id": "evolute-i-space",
+    "brand": "evolute",
     "model": "i‑SPACE",
     "price": "2499000",
     "benefit": "",
@@ -36,6 +41,7 @@
   },
   {
     "id": "evolute-i-van",
+    "brand": "evolute",
     "model": "i‑VAN",
     "price": "2695000",
     "benefit": "",

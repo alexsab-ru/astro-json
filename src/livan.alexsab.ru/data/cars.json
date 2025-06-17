@@ -1,6 +1,7 @@
 [
   {
     "id": "livan-s6pro",
+    "brand": "livan",
     "model": "S6PRO",
     "price": "1600000",
     "benefit": "1049900",
@@ -8,6 +9,7 @@
   },
   {
     "id": "livan-x3pro",
+    "brand": "livan",
     "model": "X3PRO",
     "price": "1340000",
     "benefit": "549900",
@@ -15,6 +17,7 @@
   },
   {
     "id": "livan-x6pro",
+    "brand": "livan",
     "model": "X6PRO",
     "price": "1790000",
     "benefit": "949900",

@@ -1,6 +1,7 @@
 [
   {
     "id": "geely-atlas-2024",
+    "brand": "geely",
     "model": "ATLAS",
     "price": "2999990",
     "benefit": "",
@@ -8,6 +9,7 @@
   },
   {
     "id": "geely-cityray",
+    "brand": "geely",
     "model": "CITYRAY",
     "price": "2499990",
     "benefit": "",
@@ -15,6 +17,7 @@
   },
   {
     "id": "geely-coolray-2023",
+    "brand": "geely",
     "model": "COOLRAY",
     "price": "2414990",
     "benefit": "",
@@ -22,6 +25,7 @@
   },
   {
     "id": "geely-emgrand",
+    "brand": "geely",
     "model": "EMGRAND",
     "price": "1889990",
     "benefit": "",
@@ -29,6 +33,7 @@
   },
   {
     "id": "geely-ex5",
+    "brand": "geely",
     "model": "EX5",
     "price": "3749990",
     "benefit": "",
@@ -36,6 +41,7 @@
   },
   {
     "id": "geely-monjaro",
+    "brand": "geely",
     "model": "MONJARO",
     "price": "3839990",
     "benefit": "",
@@ -43,6 +49,7 @@
   },
   {
     "id": "geely-okavango",
+    "brand": "geely",
     "model": "OKAVANGO",
     "price": "3269990",
     "benefit": "",
@@ -50,6 +57,7 @@
   },
   {
     "id": "geely-preface",
+    "brand": "geely",
     "model": "PREFACE",
     "price": "3099990",
     "benefit": "",

@@ -1,6 +1,7 @@
 [
   {
     "id": "baic-u5_plus",
+    "brand": "baic",
     "model": "BAIC U5 PLUS",
     "price": "1394500",
     "benefit": "490000",
@@ -8,6 +9,7 @@
   },
   {
     "id": "baic-x35",
+    "brand": "baic",
     "model": "BAIC X35",
     "price": "0",
     "benefit": "350000",
@@ -15,6 +17,7 @@
   },
   {
     "id": "baic-x55",
+    "brand": "baic",
     "model": "BAIC X55",
     "price": "1975000",
     "benefit": "380000",
@@ -22,6 +25,7 @@
   },
   {
     "id": "baic-x7",
+    "brand": "baic",
     "model": "BAIC X7",
     "price": "1940000",
     "benefit": "950000",
@@ -29,6 +33,7 @@
   },
   {
     "id": "baic-x75",
+    "brand": "baic",
     "model": "BAIC X75",
     "price": "2100000",
     "benefit": "405000",
@@ -36,6 +41,7 @@
   },
   {
     "id": "baic-bj40",
+    "brand": "baic",
     "model": "BAIC BJ40",
     "price": "3025000",
     "benefit": "780000",

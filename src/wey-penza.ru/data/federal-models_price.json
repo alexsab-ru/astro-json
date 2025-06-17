@@ -1,6 +1,7 @@
 [
   {
     "id": "wey-05",
+    "brand": "wey",
     "model": "WEY 05",
     "price": "4900000",
     "benefit": "",
@@ -8,6 +9,7 @@
   },
   {
     "id": "wey-07",
+    "brand": "wey",
     "model": "WEY 07",
     "price": "6549000",
     "benefit": "",
@@ -15,6 +17,7 @@
   },
   {
     "id": "wey-80-business-lounge",
+    "brand": "wey",
     "model": "WEY 80 Lounge",
     "price": "7999000",
     "benefit": "",
@@ -22,6 +25,7 @@
   },
   {
     "id": "wey-80-premium",
+    "brand": "wey",
     "model": "WEY 80",
     "price": "6499000",
     "benefit": "",
