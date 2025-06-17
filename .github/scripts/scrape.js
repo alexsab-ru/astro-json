@@ -248,6 +248,7 @@ async function scrapePage(url, xpaths) {
                 if (model) {
                     results.push({
                         id: id,
+                        brand: brandPrefix,
                         model: model,
                         price: price,
                         benefit: "",

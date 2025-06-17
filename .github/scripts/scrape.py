@@ -212,6 +212,7 @@ def scrape_page(url, xpaths):
 
             data.append({
                 'id': process_xpath_result(id),
+                'brand': brand_prefix,
                 'model': process_xpath_result(model),
                 'price': process_xpath_result(price),
                 'benefit': "",  # Добавляем поле benefit как в JS версии

@@ -83,6 +83,7 @@ async function extractData() {
         
         return {
             id: id,
+            brand: brandPrefix,
             model: card.title.text.value,
             price: price,
             benefit: benefit,
