@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "python": "python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt",
+    "python": "echo \"Copy and run:\" && echo \"\\033[30;43mpython3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt\\033[0m\n\"",
     "extract-baic": "sh ./.github/scripts/sh/extract-baic.sh",
     "extract-kaiyi": "sh ./.github/scripts/sh/extract-kaiyi.sh",
     "get-baic-alpha": "sh ./.github/scripts/sh/get-baic-alpha.sh",
