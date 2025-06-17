@@ -2,6 +2,23 @@
     {
         "id": 1,
         "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "/img/news/letnie-vygody-jetour-prodlevaet-specialnye-predlozheniya-na-pokupku-avtomobilej-v-iyune/letnie-vygody-jetour_1920x1080.webp",
+        "mobileImageUrl": "/img/news/letnie-vygody-jetour-prodlevaet-specialnye-predlozheniya-na-pokupku-avtomobilej-v-iyune/thumb.webp",
+        "title": "Летние выгоды!",
+        "descr": "JETOUR продлевает специальные предложения на покупку автомобилей.<br/>До {{lastDay}} {{monthGenitive}} {{year}}",
+        "btn": "Подробнее",
+        "btnUrl": "/news/letnie-vygody-jetour-prodlevaet-specialnye-predlozheniya-na-pokupku-avtomobilej-v-iyune/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
         "type": "special",
         "view": "link",
         "videoUrl": "",
