@@ -195,7 +195,7 @@
     - id: description
       sectionClass: "!bg-gray-100"
       title: "JAECOO J8 — новый флагманский кроссовер бренда"
-      text: 'JAECOO J8 — стильный и элегантный кроссовер, который выделяется в городском потоке и уверенно чувствует себя на любом покрытии: асфальте, грунте, снегу или бездорожье. Оснащен технологией TORQUE VECTORING, которая обеспечивает точное прохождение поворотов в любых условиях.<br/><br/><br/><a href="https://files.jaecoo.ru/priceJ8.pdf" class="btn" target="_blank" rel="nofollow">Прайс-лист</a><br/><video class="block w-full aspect-video object-cover mt-10" poster="https://cdn.alexsab.ru/b/jaecoo/img/models/j8/sections/poster.webp" autoplay muted loop playsinline><source type="video/mp4" src="https://www.jaecoo-ton-auto.ru/J8_winter_2700x1400px_14607563122846596945.mp4"></video>'
+      text: 'JAECOO J8 — стильный и элегантный кроссовер, который выделяется в городском потоке и уверенно чувствует себя на любом покрытии: асфальте, грунте, снегу или бездорожье. Оснащен технологией TORQUE VECTORING, которая обеспечивает точное прохождение поворотов в любых условиях.<br/><br/><br/><a href="https://files.jaecoo.ru/priceJ8.pdf" class="btn" target="_blank" rel="nofollow">Прайс-лист</a>'
     - id: info
       images: 
         - url: "https://cdn.alexsab.ru/b/jaecoo/img/models/j8/sections/1/1.webp"
