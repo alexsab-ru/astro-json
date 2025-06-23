@@ -203,7 +203,7 @@
         "videoUrl": "",
         "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/new_coolray.webp",
         "title": "<span class='uppercase block font-medium'>Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Coolray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Coolray'><span class='uppercase block font-medium'>Живей!</span>",
-        "descr": "Выгода до {{benefitb-geely-coolray}}",
+        "descr": "Выгода до {{benefitb-geely-coolray-2023}}",
         "btn": "Подробнее",
         "btnUrl": "/models/geely-coolray-2023/",
         "dataTitle": "",
