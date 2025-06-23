@@ -193,6 +193,7 @@ async function scrapePage(url, xpaths) {
     console.log("Извлечение данных со страницы...");
     const data = await page.evaluate((xpaths, baseUrl, brandPrefix) => {
         const results = [];
+        const errors = []; // Массив для сбора ошибок
 
         // Улучшенная функция для выполнения XPath запросов
         const evaluateXPath = (xpath, contextNode = document) => {
@@ -204,7 +205,9 @@ async function scrapePage(url, xpaths) {
                 }
                 return result;
             } catch (error) {
-                logError(`Ошибка при выполнении XPath`, `${xpath}`, error);
+                const errorMessage = `Ошибка при выполнении XPath: "${xpath}", Error: ${error.message}`;
+                console.error(errorMessage);
+                errors.push(errorMessage);
                 return [];
             }
         };
@@ -215,7 +218,9 @@ async function scrapePage(url, xpaths) {
                 const result = document.evaluate(xpath, contextNode, null, XPathResult.STRING_TYPE, null);
                 return result.stringValue.trim();
             } catch (error) {
-                logError(`Ошибка при получении строкового значения`, `${xpath}`, error);
+                const errorMessage = `Ошибка при получении строкового значения: "${xpath}", Error: ${error.message}`;
+                console.error(errorMessage);
+                errors.push(errorMessage);
                 return "";
             }
         };
@@ -240,7 +245,9 @@ async function scrapePage(url, xpaths) {
                     try {
                         link = new URL(link, baseUrl).href;  // Добавляем домен к относительной ссылке
                     } catch (urlError) {
-                        logError(`Ошибка при обработке URL`, `${link}`, error);
+                        const errorMessage = `Ошибка при обработке URL "${link}": ${urlError.message}`;
+                        console.error(errorMessage);
+                        errors.push(errorMessage);
                     }
                 }
                 
@@ -259,23 +266,34 @@ async function scrapePage(url, xpaths) {
                     console.warn(`Элемент #${index} пропущен: нет модели`);
                 }
             } catch (itemError) {
-                logError(`Ошибка при обработке элемента`, `#${index}`, error);
+                const errorMessage = `Ошибка при обработке элемента #${index}: ${itemError.message}`;
+                console.error(errorMessage);
+                errors.push(errorMessage);
             }
         });
 
         console.log(`Всего извлечено ${results.length} элементов`);
-        return results;
+        return { results, errors }; // Возвращаем и результаты, и ошибки
     }, xpaths, url, brandPrefix);
 
-    console.log(`Извлечено ${data.length} элементов`);
+    // Логируем ошибки в Node.js контексте
+    if (data.errors && data.errors.length > 0) {
+        for (const errorMsg of data.errors) {
+            await logWarning('Ошибка в page.evaluate', errorMsg);
+        }
+    }
+    
+    const scrapedData = data.results || [];
+
+    console.log(`Извлечено ${scrapedData.length} элементов`);
     await browser.close();
     console.log("Браузер закрыт");
     
     // Сортируем данные по ID
-    data.sort((a, b) => a.id.localeCompare(b.id));
+    scrapedData.sort((a, b) => a.id.localeCompare(b.id));
     console.log("Данные отсортированы по ID");
     
-    return data;
+    return scrapedData;
 }
 
 async function readJsonFile(filePath) {
