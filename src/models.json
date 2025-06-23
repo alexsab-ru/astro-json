@@ -16489,5 +16489,125 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "Mazda",
+        "id": "cx-50",
+        "centered": false,
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Благородное происхождение",
+        "name": "CX-50",
+        "price": "{{price-mazda-cx-50}}",
+        "benefit": "{{benefit-mazda-cx-50}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. CX-50",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. CX-50",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/thumb.webp",
+        "colors": [
+            {
+                "id": "arctic-gray",
+                "name": "Arctic Gray",
+                "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/arctic-gray.webp",
+                "style": "background-color: #242a31;"
+            },
+            {
+                "id": "extreme-night-black",
+                "name": "Extreme Night Black",
+                "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/extreme-night-black.webp",
+                "style": "background-color: #0d0c0f;"
+            },
+            {
+                "id": "pearlescent-white",
+                "name": "Pearlescent White",
+                "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/pearlescent-white.webp",
+                "style": "background-color: #d1d1d1;"
+            },
+            {
+                "id": "platinum-steel-gray",
+                "name": "Platinum Steel Gray",
+                "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/platinum-steel-gray.webp",
+                "style": "background-color: #4f4f51;"
+            },
+            {
+                "id": "silent-blue",
+                "name": "Silent Blue",
+                "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/silent-blue.webp",
+                "style": "background-color: #364d71;"
+            },
+            {
+                "id": "soul-red-crystal",
+                "name": "Soul Red Crystal",
+                "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/soul-red-crystal.webp",
+                "style": "background-color: #c32637;"
+            },
+            {
+                "id": "zircon-sand",
+                "name": "Zircon sand",
+                "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/zircon-sand.webp",
+                "style": "background-color: #7e745f;"
+            }
+        ],
+        "feed_names": [
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2815",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4785",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1920",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "200",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
     }
 ]
