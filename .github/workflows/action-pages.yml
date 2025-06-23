@@ -38,18 +38,76 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check-pages:
+    runs-on: ubuntu-latest
+    outputs:
+      pages_enabled: ${{ steps.check-pages.outputs.pages_enabled }}
+    steps:
+      - name: Check GitHub Pages status
+        id: check-pages
+        run: |
+          PAGES_STATUS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/pages" \
+            -w '%{http_code}' -o /dev/null)
+          if [ "$PAGES_STATUS" = "200" ]; then
+            echo "pages_enabled=true" >> $GITHUB_OUTPUT
+          else
+            echo "pages_enabled=false" >> $GITHUB_OUTPUT
+          fi
+
+  determine_env:
+    needs: check-pages
+    runs-on: ubuntu-latest
+    outputs:
+      env_name: ${{ steps.set_env.outputs.env_name }}
+    steps:
+      - id: set_env
+        run: |
+          PROD_BRANCHES=("main" "master" "brand" "dealer") # Bash array
+          CURRENT_BRANCH="${{ github.ref_name }}"
+          IS_PROD=false
+          for branch in "${PROD_BRANCHES[@]}"; do
+            if [[ "$CURRENT_BRANCH" == "$branch" ]]; then
+              IS_PROD=true
+              break
+            fi
+          done
+          if $IS_PROD; then
+            echo "env_name=production" >> $GITHUB_OUTPUT
+          else
+            echo "env_name=development" >> $GITHUB_OUTPUT
+          fi
+
   # Build job
   build:
+    needs: [check-pages, determine_env]
+    if: needs.check-pages.outputs.pages_enabled == 'true'
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
 
     # Указываете окружение и его переменные
     environment:
-      name: ${{ github.ref == 'refs/heads/main' && 'production' || 'development' }}
+      name: ${{ needs.determine_env.outputs.env_name }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Cache pnpm dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.pnpm-store
+            node_modules
+            .pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
 
       - name: Determine changes
         id: check_changes
@@ -59,10 +117,10 @@ jobs:
             echo "Run manually. Assuming changes." && echo "changes=true" >> $GITHUB_OUTPUT
           else
             COUNT=$(git rev-list --count HEAD --since="10 minutes ago")
-          if [ "$COUNT" -eq "0" ]; then
+            if [ "$COUNT" -eq "0" ]; then
               echo "No new commits. Exiting workflow." && echo "changes=false" >> $GITHUB_OUTPUT
-            exit 0
-          else
+              exit 0
+            else
               echo "New commits found." && echo "changes=true" >> $GITHUB_OUTPUT
             fi
           fi
