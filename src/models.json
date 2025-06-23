@@ -7415,8 +7415,8 @@
       "homeImg": "https://cdn.alexsab.ru/models/haval/h7/sections/bg.webp",
       "slogan": "Побеждай уверенностью",
       "name": "H7",
-      "price": "{{price-haval-haval-h7}}",
-      "benefit": "{{benefit-haval-haval-h7}}",
+      "price": "{{price-haval-h7}}",
+      "benefit": "{{benefit-haval-h7}}",
       "benefits": [
         {
           "url": "#common-modal",
