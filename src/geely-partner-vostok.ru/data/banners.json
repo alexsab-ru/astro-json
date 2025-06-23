@@ -1,6 +1,30 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/partner-vostok/geely-orsk-4Cars-1920x800.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/geely/partner-vostok/geely-orsk-4Cars-640x900.webp",        
+        "title": "<b>Выгода до 1 050 000 ₽</b><br/><b>Рассрочка 0,01%</b>",
+        "gradient": true,
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "/cars/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "link",
