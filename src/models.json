@@ -5585,7 +5585,7 @@
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Продвинутые технологии",
-        "name": "Новый EX5",
+        "name": "EX5",
         "price": "{{price-geely-ex5}}",
         "benefit": "{{benefit-geely-ex5}}",
         "benefits": [
@@ -5711,7 +5711,7 @@
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Энергия города",
-        "name": "Новый Cityray",
+        "name": "Cityray",
         "price": "{{price-geely-cityray}}",
         "benefit": "{{benefit-geely-cityray}}",
         "benefits": [
@@ -6074,7 +6074,7 @@
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
-        "name": "Новый Atlas",
+        "name": "Atlas",
         "price": "{{price-geely-atlas-2024}}",
         "benefit": "{{benefit-geely-atlas-2024}}",
         "benefits": [
@@ -6083,7 +6083,7 @@
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Новый Atlas",
+                "data_form_name": "Выгодный трейд-ин. Atlas",
                 "view": "popup-link"
             },
             {
@@ -6091,7 +6091,7 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Новый Atlas",
+                "data_form_name": "Выгодный кредит. Atlas",
                 "view": "popup-link"
             }
         ],
@@ -6624,7 +6624,7 @@
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
-        "name": "Новый Coolray",
+        "name": "Coolray",
         "price": "{{price-geely-coolray-2023}}",
         "benefit": "{{benefit-geely-coolray-2023}}",
         "benefits": [
@@ -6633,7 +6633,7 @@
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Новый Coolray",
+                "data_form_name": "Выгодный трейд-ин. Coolray",
                 "view": "popup-link"
             },
             {
@@ -6641,7 +6641,7 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Новый Coolray",
+                "data_form_name": "Выгодный кредит. Coolray",
                 "view": "popup-link"
             }
         ],
@@ -6876,7 +6876,7 @@
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
-        "name": "Новый OKAVANGO",
+        "name": "OKAVANGO",
         "price": "{{price-geely-okavango}}",
         "benefit": "{{benefit-geely-okavango}}",
         "benefits": [
@@ -7146,7 +7146,7 @@
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Добавь эмоциям оборотов",
-        "name": "НОВЫЙ F7x",
+        "name": "F7x",
         "price": "{{price-haval-new-haval-f7x}}",
         "benefit": 150000,
         "benefits": [
@@ -7155,7 +7155,7 @@
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. НОВЫЙ F7x",
+                "data_form_name": "Выгодный трейд-ин. F7x",
                 "view": "popup-link"
             },
             {
@@ -7163,7 +7163,7 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. НОВЫЙ F7x",
+                "data_form_name": "Выгодный кредит. F7x",
                 "view": "popup-link"
             }
         ],
@@ -11580,7 +11580,7 @@
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Современные технологии",
-        "name": "Новый 001",
+        "name": "001",
         "price": "{{price-knewstar-001}}",
         "benefit": "{{benefit-knewstar-001}}",
         "benefits": [
@@ -13451,7 +13451,7 @@
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Играя главную роль",
-        "name": "Новый Sorento",
+        "name": "Sorento",
         "price": 3789900,
         "benefit": 250000,
         "benefits": [
@@ -13460,7 +13460,7 @@
                 "label": "Выгодный трейд-ин",
                 "icon_name": "mdi:credit-card-check-outline",
                 "data_title": "Выгодный трейд-ин",
-                "data_form_name": "Выгодный трейд-ин. Kia Новый Sorento",
+                "data_form_name": "Выгодный трейд-ин. Kia Sorento",
                 "view": "popup-link"
             },
             {
@@ -13468,7 +13468,7 @@
                 "label": "Выгодный кредит",
                 "icon_name": "mdi:gift-outline",
                 "data_title": "Выгодный кредит",
-                "data_form_name": "Выгодный кредит. Kia Новый Sorento",
+                "data_form_name": "Выгодный кредит. Kia Sorento",
                 "view": "popup-link"
             }
         ],
