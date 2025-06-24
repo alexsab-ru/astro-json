@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "show": true,
+        "type": "video",
+        "view": "popup-link",
+        "videoUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein-mobild.webp",
+        "title": "Меняйтесь. Это выгодно",
+        "descr": "Выгода до 300 000 рублей по программе трейд-ин",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Новые автомобили по цене заводов изготовителей. Баннер",
+        "badge": "",
+        "autoplay": 6000
+    }
+]

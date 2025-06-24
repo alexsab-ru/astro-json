@@ -1,0 +1,31 @@
+{
+    "brand": "GAC",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
+    "site_name": "Армада-Авто",
+    "site_description": "Официальный дилерский центр",
+    "legal_entity": "ООО «ТД Армада-Авто»",
+    "legal_inn": "7327075832",
+    "legal_city": "Ульяновск",
+    "legal_city_where": "Ульяновске",
+    "phone_common": "8 (800) 707 06 33",
+    "yandex_widget_orgnization": "CHcDFBkU",
+    "header_top_line": "",
+    "connectforms_link": "https://alexsab.ru/lead/dev/",
+    "grecaptcha_open": "",
+    "favicon": "https://cdn.alexsab.ru/b/gac/favicon.svg",
+    "logo_header": "https://cdn.alexsab.ru/b/gac/img/logo/logo.svg",
+    "logo_map_info": "https://cdn.alexsab.ru/b/gac/img/logo/logo.svg",
+    "logo_footer": "https://cdn.alexsab.ru/b/gac/img/logo/logo.svg",
+    "logo_dealer_header": "",
+    "logo_dealer_map_info": "",
+    "logo_dealer_footer": "",
+    "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
+    "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
+    "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+    "improve_offer_background": "https://cdn.alexsab.ru/b/gac/img/main-sliders/avn4.webp"
+}
