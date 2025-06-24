@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Армада-Авто",
+        "legal_entity": "ООО «ТД Армада-Авто»",
+        "address": "432045, г.Ульяновск, Московское шоссе, д.5В",
+        "phone":  "8 (800) 707 06 33",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "map": {
+            "zoom": 17,
+            "balloon": "https://cdn.alexsab.ru/b/mazda/img/mazda-locator.svg",
+            "coords": [54.293956, 48.274982],
+            "ya_link": "https://yandex.ru/maps/195/ulyanovsk/?ll=48.275050%2C54.293908&mode=routes&rtext=~54.293956%2C48.274982&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D96529714286&z=17.03"
+        }
+    }
+]
