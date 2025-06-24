@@ -2,22 +2,40 @@
     {
         "id": 1,
         "show": true,
-        "type": "video",
-        "view": "popup-link",
-        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-        "title": "Заголовок баннера до 31.08.2024",
-        "descr": "Подзаголовок баннера может быть длиннее или короче за 1 234 567 ₽",
-        "btn": "Онлайн запись",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Онлайн запись",
-        "dataFormName": "Онлайн запись. Баннер",
-        "badge": {
-            "autoname": "Jetour Dashing",
-            "title": "Ежегодная национальная премия",
-            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "https://jetour-alpha.ru/img/badge-4x4-2024.png"
-        },
-        "autoplay": 6000
+        "type": "",
+        "view": "link",
+        "imageUrl": "https://cdn.alexsab.ru/b/mazda/img/main-sliders/armada/In_stock_desktop-min-1.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/mazda/img/main-sliders/armada/In_stock_mobile.webp",
+        "title": "Автомобили в наличии",
+        "descr": "",
+        "btn": "Узнать и воспользоваться",
+        "btnUrl": "/cars/",
+        "autoplay": 10000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "imageUrl": "https://cdn.alexsab.ru/b/mazda/img/main-sliders/armada/hero-cx-5.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/mazda/img/main-sliders/armada/hero-cx-5-mobile.webp",
+        "title": "MAZDA CX-5",
+        "descr": "Премиальное качество",
+        "btn": "Подробнее",
+        "btnUrl": "/models/cx-5/",
+        "autoplay": 10000
+    },
+    {
+        "id": 3,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "imageUrl": "https://cdn.alexsab.ru/b/mazda/img/main-sliders/armada/hero-cx-50.webp",
+        "mobileImageUrl": "https://cdn.alexsab.ru/b/mazda/img/main-sliders/armada/hero-cx-50-mobile.webp",
+        "title": "MAZDA CX-50",
+        "descr": "Благородное происхождение",
+        "btn": "Подробнее",
+        "btnUrl": "/models/cx-50/",
+        "autoplay": 10000
     }
 ]
