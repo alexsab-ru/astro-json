@@ -178,7 +178,7 @@
             "autoname": "",
             "title": "",
             "descr": "",
-            "image": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
+            "image": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png,https://cdn.alexsab.ru/badges/za-rulem-shield.svg",
             "position": "left"
         },
         "autoplay": 6000
@@ -281,6 +281,13 @@
         "descr": "Внедорожник для путешествий",
         "btn": "Подробнее о модели",
         "btnUrl": "/models/t2",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png,https://cdn.alexsab.ru/badges/za-rulem-shield.svg",
+            "position": "left"
+        },
         "autoplay": 10000
     },
     {
@@ -475,7 +482,7 @@
             "autoname": "",
             "title": "",
             "descr": "",
-            "image": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
+            "image": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png,https://cdn.alexsab.ru/badges/za-rulem-shield.svg",
             "position": "left"
         },
         "autoplay": 6000
