@@ -1,5 +1,5 @@
 {
-    "brand": "Forthing",
+    "brand": "Forthing,Venucia",
     "modelIDs": [
     ],
     "testDriveIDs": [
@@ -18,12 +18,12 @@
     "connectforms_link": "https://alexsab.ru/lead/test/",
     "grecaptcha_open": "",
     "favicon": "https://cdn.alexsab.ru/b/forthing/favicon.svg",
-    "logo_header": "https://cdn.alexsab.ru/b/forthing/img/logo/logo.webp",
-    "logo_map_info": "https://cdn.alexsab.ru/b/forthing/img/logo/logo.webp",
-    "logo_footer": "https://cdn.alexsab.ru/b/forthing/img/logo/logo.webp",
-    "logo_dealer_header": "/img/logo/logo-dealer.svg",
-    "logo_dealer_map_info": "/img/logo/logo-dealer.svg",
-    "logo_dealer_footer": "/img/logo/logo-dealer.svg",
+    "logo_header": "https://cdn.alexsab.ru/b/forthing/img/logo/logo-forthing-white.svg",
+    "logo_map_info": "https://cdn.alexsab.ru/b/forthing/img/logo/logo-forthing-black.svg",
+    "logo_footer": "https://cdn.alexsab.ru/b/forthing/img/logo/logo-forthing-white.svg",
+    "logo_dealer_header": "https://cdn.alexsab.ru/b/forthing/img/logo/logo-dealer-white.svg",
+    "logo_dealer_map_info": "https://cdn.alexsab.ru/b/forthing/img/logo/logo-dealer-black.svg",
+    "logo_dealer_footer": "https://cdn.alexsab.ru/b/forthing/img/logo/logo-dealer-white.svg",
     "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
     "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
     "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
