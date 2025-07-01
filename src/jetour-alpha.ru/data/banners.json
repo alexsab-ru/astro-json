@@ -239,25 +239,6 @@
         "autoplay": 7000
     },
     {
-        "id": 1,
-        "show": true,
-        "type": "",
-        "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/alan-walker-1920x1080.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/alan-walker-767x767.webp",
-        "imagePosition": "center",
-        "title": "Алан Уокер",
-        "descr": "Глобальный амбассадор бренда Jetour",
-        "btn": "Подробнее",
-        "btnUrl": "/news/alan-uoker-globalnyj-ambassador-brenda-jetour/",
-        "dataTitle": "",
-        "dataFormName": "",
-        "badge": "",
-        "gradient": true,
-        "autoplay": 7000
-    },
-    {
         "id": 5,
         "show": true,
         "type": "video",
