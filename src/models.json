@@ -4499,6 +4499,18 @@
                 "name": "Серый Бернина",
                 "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/v-online/colors/gray.png",
                 "style": "background-color: #51586d;"
+            },
+            {
+            "id": "v-online_white",
+            "name": "Искрящийся Белый",
+            "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/v-online/colors/white.webp",
+            "style": "background-color: #f1f1f1;"
+            },
+            {
+            "id": "v-online_black",
+            "name": "Черный Бриллиант",
+            "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/v-online/colors/black.webp",
+            "style": "background-color: #000000;"
             }
         ],
         "complectations": [
