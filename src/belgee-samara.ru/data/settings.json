@@ -14,7 +14,7 @@
     "legal_city_where": "Самаре",
     "phone_common": "+7 (846) 377-73-00",
     "yandex_widget_orgnization": "",
-    "header_top_line": "",
+    "header_top_line": "Не дозвонились? Мы вам перезвоним — <a href=\"#common-modal\" class=\"popup-link underline\" data-title=\"Заказать звонок\" data-form_name=\"Заказ звонка. Не дозвонились\">оставьте заявку</a>",
     "connectforms_link": "https://alexsab.ru/lead/belgee/samara/",
     "grecaptcha_open": "",
     "favicon": "https://cdn.alexsab.ru/b/belgee/favicon.svg",
