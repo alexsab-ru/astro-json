@@ -1,5 +1,5 @@
 {
-    "site": "localhost",
+    "site": "sales-autoholding-turgenevskiy.ru.ru",
     "gtm": {
         "value": "",
         "fn": "_gtm",
@@ -8,7 +8,7 @@
     "metrika": {
         "value": [
             {
-                "id": 48905003,
+                "id": 103195984,
                 "clickmap": true,
                 "trackLinks": true,
                 "accurateTrackBounce": true,
