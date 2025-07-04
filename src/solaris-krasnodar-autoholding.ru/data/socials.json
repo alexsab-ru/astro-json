@@ -1,12 +1,18 @@
 {
     "header": {
         "vkontakte-full": {
-            "url": "https://vk.com/jetour_krd"
+            "url": "https://vk.com/solaris_krd"
+        },
+        "telegram-full": {
+            "url": "https://t.me/solaris_krd"
         }
     },
     "footer": {
         "vkontakte-full": {
-            "url": "https://vk.com/jetour_krd"
+            "url": "https://vk.com/solaris_krd"
+        },
+        "telegram-full": {
+            "url": "https://t.me/solaris_krd"
         }
     }
 }
