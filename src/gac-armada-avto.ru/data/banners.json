@@ -115,7 +115,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "videoUrl": "",
@@ -135,7 +135,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "video",
         "view": "link",
         "videoUrl": "https://cdn.alexsab.ru/video/gac/m8.mp4",
