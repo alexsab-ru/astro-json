@@ -1,8 +1,10 @@
 {
     "brand": "GAC",
     "modelIDs": [
+        "gs3","gs8-ii","gs4"
     ],
     "testDriveIDs": [
+        "gs3","gs8-ii","gs4"
     ],
     "serviceIDs": [
     ],
