@@ -56,6 +56,14 @@
     "link": "https://changanauto.ru/models/lamore/"
   },
   {
+    "id": "changan-star-truck",
+    "brand": "changan",
+    "model": "Star Truck",
+    "price": "1769000",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/star-truck/"
+  },
+  {
     "id": "changan-uni-k",
     "brand": "changan",
     "model": "UNI-K",
