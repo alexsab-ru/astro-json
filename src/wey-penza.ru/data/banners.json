@@ -42,12 +42,7 @@
         "imageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-80.webp",
         "mobileImageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-80-mobile.webp",
         "title": "WEY 80",
-        "descr": "Масштаб возможностей",
-        "btn": "О модели",
-        "btnUrl": "/models/wey-80/",
-        "dataTitle": "",
-        "dataFormName": "",
-        "badge": "",
+        "descr": "Масштаб возможностей<div class=\"flex gap-2 sm:gap-5 items-center flex-wrap mt-3 sm:mt-6\"><a href=\"/models/wey-80-premium/\" class=\"btn white text-xs sm:text-base\">WEY 80 Premium</a><a href=\"/models/wey-80-business-lounge/\" class=\"btn white text-xs sm:text-base\">WEY 80 Business Lounge</a></div>",
         "autoplay": 5000
     },
     {
