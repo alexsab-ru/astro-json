@@ -471,6 +471,23 @@
                 "Розовый": "lavender.webp"
             }
         },
+        "GS3, I": {
+            "folder": "gs3",
+            "cyrillic": "ГС3",
+            "color": {
+                "Черный": "black.webp",
+                "Голубой": "blue.webp",
+                "Синий": "blue.webp",
+                "Серый": "gray.webp",
+                "Графитовый": "grey-graphite.webp",
+                "Графеновый серый": "grey-graphite.webp",
+                "Серебристый": "silver.webp",
+                "Серебряный": "silver.webp",
+                "Белый": "white.webp",
+                "Лавандовый": "lavender.webp",
+                "Розовый": "lavender.webp"
+            }
+        },
         "GS4": {
             "folder": "gs4",
             "cyrillic": "ГС4",
@@ -547,6 +564,19 @@
             }
         },
         "M8": {
+            "folder": "m8",
+            "cyrillic": "М8",
+            "color": {
+                "Черный": "black.webp",
+                "Чёрный": "black.webp",
+                "Синий": "blue.webp",
+                "Зеленый": "green.webp",
+                "Зелёный": "green.webp",
+                "Золотой": "gold.webp",
+                "Белый": "white.webp"
+            }
+        },
+        "M8, I": {
             "folder": "m8",
             "cyrillic": "М8",
             "color": {
