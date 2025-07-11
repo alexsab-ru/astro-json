@@ -2116,6 +2116,26 @@
                 "Серебристый": "silver.webp"
             }
         },
+        "M4 Yacht": {
+            "folder": "yacht",
+            "cyrillic": "Яхт",
+            "color": {
+                "Black": "black.webp",
+                "Черный": "black.webp",
+                "Черный бриллиант": "black.webp",
+                "Gray": "gray.webp",
+                "Серый": "gray.webp",
+                "White": "white.webp",
+                "Белый": "white.webp",
+                "Альпийский белый": "white.webp",
+                "Red": "red.webp",
+                "Красный": "red.webp",
+                "Blue": "blue.webp",
+                "Синий": "blue.webp",
+                "Silver": "silver.webp",
+                "Серебристый": "silver.webp"
+            }
+        },
         "M7": {
             "folder": "m7",
             "cyrillic": "Эм 7",
