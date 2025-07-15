@@ -3,6 +3,23 @@
         "id": 1,
         "show": true,
         "type": "special",
+        "view": "popup-link",
+        "videoUrl": "",
+        "bannerUrl": "",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/Ton-avto_haval_h3_1920х800.webp",
+        "title": "HAVAL H3",
+        "descr": "Рассрочка до 4 лет - 0.01%",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Рассрочка до 4 лет. HAVAL H3",
+        "dataFormName": "Подробнее. Рассрочка до 4 лет. HAVAL H3. Баннер",
+        "badge": {},
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": false,
+        "type": "special",
         "view": "link",
         "videoUrl": "",
         "bannerUrl": "/cars/?model=h9+ii%2Ch7+i%2Ch5+ii%2Ch3&sort_by=price_up",
@@ -16,7 +33,7 @@
         "dataFormName": "",
         "badge": {},
         "autoplay": 10000
-    },    
+    },
     {
         "id": 1,
         "show": false,
