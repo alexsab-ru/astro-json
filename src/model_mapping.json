@@ -672,7 +672,8 @@
                 "Серый": "gray.webp",
                 "Черный": "black.webp",
                 "Красный": "red.webp",
-                "Синий": "blue.webp"
+                "Синий": "blue.webp",
+                "Серебристый": "silver.webp"
             }},
         "T9": {
             "folder": "t9",

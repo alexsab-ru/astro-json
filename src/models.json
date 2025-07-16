@@ -9704,16 +9704,10 @@
                 "style": ""
             },
             {
-                "id": "red",
-                "name": "Спелая вишня",
-                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/red.webp",
-                "style": ""
-            },
-            {
-                "id": "blue",
-                "name": "Синий сапфир",
-                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/blue.webp",
-                "style": ""
+                "id": "silver",
+                "name": "Серебристый фантом",
+                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/silver.webp",
+                "style": "background-color: #cdd5de;"
             }
         ],
         "feed_names": [
