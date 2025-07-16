@@ -2258,6 +2258,7 @@
             "color": {
                 "Black": "black.webp",
                 "Черный": "black.webp",
+                "Чёрный": "black.webp",
                 "Gray": "gray.webp",
                 "Серый": "gray.webp",
                 "White": "white.webp",
