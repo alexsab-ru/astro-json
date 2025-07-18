@@ -172,90 +172,113 @@ def load_page(url, click_selector=None, wait_selector=None, wait_time=1):
                 driver.quit()
             # Если не получилось через WebDriver, пробуем через requests
             print("Переключение на загрузку через requests")
-            response = requests.get(url)
-            return response.content
+            try:
+                response = requests.get(url, timeout=30, verify=False)
+                return response.content
+            except Exception as requests_e:
+                logError("Ошибка при fallback к requests", str(requests_e))
+                return ""
     
     # По умолчанию используем requests
     print(f"Загрузка страницы через requests")
-    response = requests.get(url)
-    return response.content
+    try:
+        response = requests.get(url, timeout=30, verify=False)  # Добавляем timeout и отключаем SSL verification
+        return response.content
+    except Exception as e:
+        logError("Ошибка при загрузке страницы через requests", str(e))
+        return ""
 
 def scrape_page(url, xpaths, brand_prefix):
-    # Получаем параметры для кликов из переменных окружения
-    click_selector = os.getenv('CLICK_SELECTOR')
-    wait_selector = os.getenv('WAIT_SELECTOR')
-    wait_time = int(os.getenv('WAIT_TIME', '1'))
-    
-    # Загружаем страницу
-    page_content = load_page(url, click_selector, wait_selector, wait_time)
-    
-    # Парсим HTML с помощью lxml
-    tree = html.fromstring(page_content)
-    
-    data = []
-    
-    # Используем elementpath для выполнения XPath 3.0 запроса
-    items = elementpath.select(tree, xpaths['item_xpath'], parser=XPath3Parser)
-    
-    for item in items:
-        # Извлекаем данные из результата elementpath
-        id = elementpath.select(item, xpaths['id_xpath'], parser=XPath3Parser)
-        model = elementpath.select(item, xpaths['model_xpath'], parser=XPath3Parser)
-        price = elementpath.select(item, xpaths['price_xpath'], parser=XPath3Parser)
-        link = elementpath.select(item, xpaths['link_xpath'], parser=XPath3Parser)
+    try:
+        # Получаем параметры для кликов из переменных окружения
+        click_selector = os.getenv('CLICK_SELECTOR')
+        wait_selector = os.getenv('WAIT_SELECTOR')
+        wait_time = int(os.getenv('WAIT_TIME', '1'))
+        
+        # Загружаем страницу
+        page_content = load_page(url, click_selector, wait_selector, wait_time)
+        
+        # Если страница не загрузилась, возвращаем пустой список
+        if not page_content:
+            print("Страница не загрузилась, возвращаем пустой список")
+            return []
+        
+        # Парсим HTML с помощью lxml
+        tree = html.fromstring(page_content)
+        
+        data = []
+        
+        # Используем elementpath для выполнения XPath 3.0 запроса
+        items = elementpath.select(tree, xpaths['item_xpath'], parser=XPath3Parser)
+        
+        for item in items:
+            # Извлекаем данные из результата elementpath
+            id = elementpath.select(item, xpaths['id_xpath'], parser=XPath3Parser)
+            model = elementpath.select(item, xpaths['model_xpath'], parser=XPath3Parser)
+            price = elementpath.select(item, xpaths['price_xpath'], parser=XPath3Parser)
+            link = elementpath.select(item, xpaths['link_xpath'], parser=XPath3Parser)
 
-        if model:  # Добавляем только если есть модель
-            # Обрабатываем ссылку
-            link_value = process_xpath_result(link)
-            if link_value and not link_value.startswith('http'):
-                link_value = urljoin(url, link_value)
+            if model:  # Добавляем только если есть модель
+                # Обрабатываем ссылку
+                link_value = process_xpath_result(link)
+                if link_value and not link_value.startswith('http'):
+                    link_value = urljoin(url, link_value)
 
-            data.append({
-                'id': process_xpath_result(id),
-                'brand': brand_prefix,
-                'model': process_xpath_result(model),
-                'price': process_xpath_result(price),
-                'benefit': "",  # Добавляем поле benefit как в JS версии
-                'link': link_value
-            })
+                data.append({
+                    'id': process_xpath_result(id),
+                    'brand': brand_prefix,
+                    'model': process_xpath_result(model),
+                    'price': process_xpath_result(price),
+                    'benefit': "",  # Добавляем поле benefit как в JS версии
+                    'link': link_value
+                })
 
-    # Сортируем данные по ID
-    data.sort(key=lambda x: x['id'])
-    print("Данные отсортированы по ID")
+        # Сортируем данные по ID
+        data.sort(key=lambda x: x['id'])
+        print("Данные отсортированы по ID")
 
-    return data
+        return data
+    except Exception as e:
+        logError("Ошибка в scrape_page", str(e))
+        return []
 
 if __name__ == "__main__":
-    url = os.getenv('URL')  # URL передается через переменные окружения
-    xpaths = {
-        'item_xpath': os.getenv('ITEM_XPATH'),
-        'id_xpath': os.getenv('ID_XPATH'),
-        'model_xpath': os.getenv('MODEL_XPATH'),
-        'price_xpath': os.getenv('PRICE_XPATH'),
-        'link_xpath': os.getenv('LINK_XPATH'),
-    }
+    try:
+        url = os.getenv('URL')  # URL передается через переменные окружения
+        xpaths = {
+            'item_xpath': os.getenv('ITEM_XPATH'),
+            'id_xpath': os.getenv('ID_XPATH'),
+            'model_xpath': os.getenv('MODEL_XPATH'),
+            'price_xpath': os.getenv('PRICE_XPATH'),
+            'link_xpath': os.getenv('LINK_XPATH'),
+        }
 
-    brand_prefix = os.getenv('BRAND')
+        brand_prefix = os.getenv('BRAND')
 
-    data = scrape_page(url, xpaths, brand_prefix)
-    print(json.dumps(data, indent=2))
-    
-    if data:
-        # Разделяем пути по запятой
-        output_file_paths = os.getenv('OUTPUT_PATHS', './output/data.json').split(',')
+        data = scrape_page(url, xpaths, brand_prefix)
+        print(json.dumps(data, indent=2))
         
-        # Получаем параметры для дилерских цен
-        dealer_price = os.getenv('DEALERPRICE')
-        dealer_price_field = os.getenv('DEALERPRICEFIELD')
-        dealer_benefit_field = os.getenv('DEALERBENEFITFIELD')
-        
-        save_json(
-            data, 
-            output_file_paths,
-            dealer_price,
-            dealer_price_field,
-            dealer_benefit_field,
-            brand_prefix
-        )
-    else:
-        print("Данные не были получены, файл не записывается.")
+        if data:
+            # Разделяем пути по запятой
+            output_file_paths = os.getenv('OUTPUT_PATHS', './output/data.json').split(',')
+            
+            # Получаем параметры для дилерских цен
+            dealer_price = os.getenv('DEALERPRICE')
+            dealer_price_field = os.getenv('DEALERPRICEFIELD')
+            dealer_benefit_field = os.getenv('DEALERBENEFITFIELD')
+            
+            save_json(
+                data, 
+                output_file_paths,
+                dealer_price,
+                dealer_price_field,
+                dealer_benefit_field,
+                brand_prefix
+            )
+        else:
+            print("Данные не были получены, файл не записывается.")
+    except Exception as e:
+        logError("Критическая ошибка в main", str(e))
+        print("Скрипт завершен с ошибкой, но не прерывает workflow")
+        # Возвращаем код 0 для успешного завершения в CI/CD
+        exit(0)

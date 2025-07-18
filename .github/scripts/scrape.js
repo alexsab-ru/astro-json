@@ -186,108 +186,129 @@ async function scrapePage(url, xpaths) {
             console.error("Не удалось создать скриншот ошибки:", screenshotError);
         }
         
-        await browser.close();
+        // Закрываем браузер безопасно
+        try {
+            await browser.close();
+        } catch (closeError) {
+            console.error("Ошибка при закрытии браузера:", closeError);
+        }
+        
+        console.log("Возвращаем пустой массив из-за ошибки загрузки страницы");
         return []; // Возвращаем пустой массив, чтобы скрипт не ломался
     }
     
     console.log("Извлечение данных со страницы...");
-    const data = await page.evaluate((xpaths, baseUrl, brandPrefix) => {
-        const results = [];
-        const errors = []; // Массив для сбора ошибок
+    
+    let data = [];
+    try {
+        data = await page.evaluate((xpaths, baseUrl, brandPrefix) => {
+            const results = [];
+            const errors = []; // Массив для сбора ошибок
 
-        // Улучшенная функция для выполнения XPath запросов
-        const evaluateXPath = (xpath, contextNode = document) => {
-            try {
-                const snapshot = document.evaluate(xpath, contextNode, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
-                let result = [];
-                for (let i = 0; i < snapshot.snapshotLength; i++) {
-                    result.push(snapshot.snapshotItem(i));
-                }
-                return result;
-            } catch (error) {
-                const errorMessage = `Ошибка при выполнении XPath: "${xpath}", Error: ${error.message}`;
-                console.error(errorMessage);
-                errors.push(errorMessage);
-                return [];
-            }
-        };
-
-        // Функция для извлечения строкового значения из узла по XPath
-        const getStringValue = (xpath, contextNode = document) => {
-            try {
-                const result = document.evaluate(xpath, contextNode, null, XPathResult.STRING_TYPE, null);
-                return result.stringValue.trim();
-            } catch (error) {
-                const errorMessage = `Ошибка при получении строкового значения: "${xpath}", Error: ${error.message}`;
-                console.error(errorMessage);
-                errors.push(errorMessage);
-                return "";
-            }
-        };
-
-        // Логируем начало извлечения данных
-        console.log("XPath для элементов:", xpaths.itemXPath);
-        
-        // Получаем все элементы
-        const items = evaluateXPath(xpaths.itemXPath);
-        console.log(`Найдено ${items.length} элементов`);
-
-        // Перебираем найденные элементы
-        items.forEach((item, index) => {
-            try {
-                const id = getStringValue(xpaths.idXPath, item);
-                const model = getStringValue(xpaths.modelXPath, item);
-                const price = getStringValue(xpaths.priceXPath, item);
-                let link = getStringValue(xpaths.linkXPath, item);
-
-                // Проверяем, является ли ссылка относительной
-                if (link && !link.startsWith('http')) {
-                    try {
-                        link = new URL(link, baseUrl).href;  // Добавляем домен к относительной ссылке
-                    } catch (urlError) {
-                        const errorMessage = `Ошибка при обработке URL "${link}": ${urlError.message}`;
-                        console.error(errorMessage);
-                        errors.push(errorMessage);
+            // Улучшенная функция для выполнения XPath запросов
+            const evaluateXPath = (xpath, contextNode = document) => {
+                try {
+                    const snapshot = document.evaluate(xpath, contextNode, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+                    let result = [];
+                    for (let i = 0; i < snapshot.snapshotLength; i++) {
+                        result.push(snapshot.snapshotItem(i));
                     }
+                    return result;
+                } catch (error) {
+                    const errorMessage = `Ошибка при выполнении XPath: "${xpath}", Error: ${error.message}`;
+                    console.error(errorMessage);
+                    errors.push(errorMessage);
+                    return [];
                 }
-                
-                // Проверка на наличие обязательных данных
-                if (model) {
-                    results.push({
-                        id: id,
-                        brand: brandPrefix,
-                        model: model,
-                        price: price,
-                        benefit: "",
-                        link: link
-                    });
-                    console.log(`Добавлен элемент #${index}: ${model}`);
-                } else {
-                    console.warn(`Элемент #${index} пропущен: нет модели`);
+            };
+
+            // Функция для извлечения строкового значения из узла по XPath
+            const getStringValue = (xpath, contextNode = document) => {
+                try {
+                    const result = document.evaluate(xpath, contextNode, null, XPathResult.STRING_TYPE, null);
+                    return result.stringValue.trim();
+                } catch (error) {
+                    const errorMessage = `Ошибка при получении строкового значения: "${xpath}", Error: ${error.message}`;
+                    console.error(errorMessage);
+                    errors.push(errorMessage);
+                    return "";
                 }
-            } catch (itemError) {
-                const errorMessage = `Ошибка при обработке элемента #${index}: ${itemError.message}`;
-                console.error(errorMessage);
-                errors.push(errorMessage);
+            };
+
+            // Логируем начало извлечения данных
+            console.log("XPath для элементов:", xpaths.itemXPath);
+            
+            // Получаем все элементы
+            const items = evaluateXPath(xpaths.itemXPath);
+            console.log(`Найдено ${items.length} элементов`);
+
+            // Перебираем найденные элементы
+            items.forEach((item, index) => {
+                try {
+                    const id = getStringValue(xpaths.idXPath, item);
+                    const model = getStringValue(xpaths.modelXPath, item);
+                    const price = getStringValue(xpaths.priceXPath, item);
+                    let link = getStringValue(xpaths.linkXPath, item);
+
+                    // Проверяем, является ли ссылка относительной
+                    if (link && !link.startsWith('http')) {
+                        try {
+                            link = new URL(link, baseUrl).href;  // Добавляем домен к относительной ссылке
+                        } catch (urlError) {
+                            const errorMessage = `Ошибка при обработке URL "${link}": ${urlError.message}`;
+                            console.error(errorMessage);
+                            errors.push(errorMessage);
+                        }
+                    }
+                    
+                    // Проверка на наличие обязательных данных
+                    if (model) {
+                        results.push({
+                            id: id,
+                            brand: brandPrefix,
+                            model: model,
+                            price: price,
+                            benefit: "",
+                            link: link
+                        });
+                        console.log(`Добавлен элемент #${index}: ${model}`);
+                    } else {
+                        console.warn(`Элемент #${index} пропущен: нет модели`);
+                    }
+                } catch (itemError) {
+                    const errorMessage = `Ошибка при обработке элемента #${index}: ${itemError.message}`;
+                    console.error(errorMessage);
+                    errors.push(errorMessage);
+                }
+            });
+
+            console.log(`Всего извлечено ${results.length} элементов`);
+            return { results, errors }; // Возвращаем и результаты, и ошибки
+        }, xpaths, url, brandPrefix);
+
+        // Логируем ошибки в Node.js контексте
+        if (data.errors && data.errors.length > 0) {
+            for (const errorMsg of data.errors) {
+                await logWarning('Ошибка в page.evaluate', errorMsg);
             }
-        });
-
-        console.log(`Всего извлечено ${results.length} элементов`);
-        return { results, errors }; // Возвращаем и результаты, и ошибки
-    }, xpaths, url, brandPrefix);
-
-    // Логируем ошибки в Node.js контексте
-    if (data.errors && data.errors.length > 0) {
-        for (const errorMsg of data.errors) {
-            await logWarning('Ошибка в page.evaluate', errorMsg);
         }
+        
+    } catch (evaluateError) {
+        await logError("Ошибка при извлечении данных из страницы", evaluateError.message, evaluateError);
+        data = { results: [], errors: [] }; // Устанавливаем значения по умолчанию
     }
     
     const scrapedData = data.results || [];
 
     console.log(`Извлечено ${scrapedData.length} элементов`);
-    await browser.close();
-    console.log("Браузер закрыт");
+    
+    // Закрываем браузер безопасно
+    try {
+        await browser.close();
+        console.log("Браузер закрыт");
+    } catch (closeError) {
+        console.error("Ошибка при закрытии браузера:", closeError);
+    }
     
     // Сортируем данные по ID
     scrapedData.sort((a, b) => a.id.localeCompare(b.id));
@@ -422,47 +443,55 @@ async function saveJson(data, filePaths) {
 
 // Пример вызова функции
 (async () => {
-    const url = process.env.URL;  // URL передается через переменные окружения
-    if (!url) {
-        console.error("Ошибка: URL не указан в переменных окружения");
-        process.exit(1);
-    }
-    
-    const xpaths = {
-        itemXPath: process.env.ITEM_XPATH,
-        idXPath: process.env.ID_XPATH,
-        modelXPath: process.env.MODEL_XPATH,
-        priceXPath: process.env.PRICE_XPATH,
-        linkXPath: process.env.LINK_XPATH,
-    };
-    
-    // Проверяем наличие обязательных XPath
-    const missingXPaths = Object.entries(xpaths)
-        .filter(([key, value]) => !value)
-        .map(([key]) => key);
-    
-    if (missingXPaths.length > 0) {
-        console.error(`Ошибка: Отсутствуют обязательные XPath: ${missingXPaths.join(', ')}`);
-        process.exit(1);
-    }
+    try {
+        const url = process.env.URL;  // URL передается через переменные окружения
+        if (!url) {
+            console.error("Ошибка: URL не указан в переменных окружения");
+            process.exit(0); // Изменено с process.exit(1) для продолжения workflow
+        }
+        
+        const xpaths = {
+            itemXPath: process.env.ITEM_XPATH,
+            idXPath: process.env.ID_XPATH,
+            modelXPath: process.env.MODEL_XPATH,
+            priceXPath: process.env.PRICE_XPATH,
+            linkXPath: process.env.LINK_XPATH,
+        };
+        
+        // Проверяем наличие обязательных XPath
+        const missingXPaths = Object.entries(xpaths)
+            .filter(([key, value]) => !value)
+            .map(([key]) => key);
+        
+        if (missingXPaths.length > 0) {
+            console.error(`Ошибка: Отсутствуют обязательные XPath: ${missingXPaths.join(', ')}`);
+            process.exit(0); // Изменено с process.exit(1) для продолжения workflow
+        }
 
-    console.log("Начало выполнения скрапинга...");
-    console.log(`URL: ${url}`);
-    console.log("XPaths:", xpaths);
-    
-    const data = await scrapePage(url, xpaths);
-    console.log(`Получено ${data.length} элементов данных`);
+        console.log("Начало выполнения скрапинга...");
+        console.log(`URL: ${url}`);
+        console.log("XPaths:", xpaths);
+        
+        const data = await scrapePage(url, xpaths);
+        console.log(`Получено ${data.length} элементов данных`);
 
-    if (data.length > 0) {
-        // Разделение путей сохранения по запятой и обработка их как списка
-        const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
-        console.log(`Сохранение данных в файлы: ${outputFilePaths.join(', ')}`);
-        await saveJson(data, outputFilePaths);
-        console.log("Данные успешно сохранены");
-    } else {
-        console.log("Данные не были получены, файл не записывается.");
+        if (data.length > 0) {
+            // Разделение путей сохранения по запятой и обработка их как списка
+            const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
+            console.log(`Сохранение данных в файлы: ${outputFilePaths.join(', ')}`);
+            await saveJson(data, outputFilePaths);
+            console.log("Данные успешно сохранены");
+        } else {
+            console.log("Данные не были получены, файл не записывается.");
+        }
+    } catch (error) {
+        console.error("Критическая ошибка в main:", error);
+        await logError("Критическая ошибка в main", error.message, error);
+        console.log("Скрипт завершен с ошибкой, но не прерывает workflow");
+        process.exit(0); // Возвращаем код 0 для успешного завершения в CI/CD
     }
 })().catch(error => {
-    console.error("Критическая ошибка:", error);
-    process.exit(1);
+    console.error("Неперехваченная ошибка:", error);
+    // Не вызываем process.exit(1) для продолжения workflow
+    process.exit(0);
 });

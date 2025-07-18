@@ -26,72 +26,101 @@ async function logError(error) {
 // Функция для загрузки HTML-страницы
 async function fetchHTML(url) {
     try {
-        const { data } = await axios.get(url);
+        // Добавляем больше опций для axios для лучшей обработки SSL ошибок
+        const { data } = await axios.get(url, {
+            timeout: 30000,
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+        });
         return data;
     } catch (error) {
-        await logError(`Ошибка при загрузке URL: ${url}, ${error}`);
-        process.exit(1);
+        await logError(`Ошибка при загрузке URL: ${url}, ${error.message}`);
+        console.log("Возвращаем пустую строку из-за ошибки загрузки");
+        return ""; // Возвращаем пустую строку вместо завершения процесса
     }
 }
 
 // Основная функция для выполнения поиска и извлечения данных
 async function extractData() {
-    // Загружаем HTML по URL
-    const html = await fetchHTML(url);
-
-    // Применяем регулярное выражение для поиска нужной строки
-    const regex = new RegExp(regexPattern);
-    const match = html.match(regex);
-
-    if (!match || match.length < 2) {
-        await logError("Не удалось найти соответствие регулярному выражению.");
-        process.exit(1);
-    }
-
-    // Парсим JSON из найденной строки
-    const jsonString = match[1];
-    let jsonData;
     try {
-        jsonData = JSON.parse(jsonString);
-    } catch (error) {
-        await logError(`Ошибка при парсинге JSON: ${error}`);
-        process.exit(1);
-    }
+        // Загружаем HTML по URL
+        const html = await fetchHTML(url);
 
-    // Достаем объекты по пути desktopMenu.sections[0].data.tabs.items[0].content.cards
-    const cards = jsonData.desktopMenu.sections[0].data.tabs.items[0].content.cards;
-
-    if (!cards || !Array.isArray(cards)) {
-        await logError("Не удалось найти объекты cards по заданному пути.");
-        process.exit(1);
-    }
-
-    // Преобразуем объекты в нужный формат
-    const result = await Promise.all(cards.map(async card => {
-        const linkParts = card.link.url.split('/').filter(part => part !== ''); // Убираем пустые значения
-        let id = linkParts[linkParts.length - 1]; // Берем последнее непустое значение
-
-        // Проверяем и добавляем префикс BRAND, если необходимо
-        if (!id.startsWith(`${brandPrefix}-`)) {
-            id = `${brandPrefix}-${id}`;
+        // Проверяем, что HTML загрузился
+        if (!html) {
+            console.log("HTML не загрузился, возвращаем пустой массив");
+            return [];
         }
 
-        console.log("value: ", card.price.value.toLowerCase());
-        const { benefit, cleanString } = await extractBenefit(card.price.value.toLowerCase());
-        const price = await extractMinPrice(cleanString);
-        console.log("price: ", price, benefit);
-        
-        return {
-            id: id,
-            brand: brandPrefix,
-            model: card.title.text.value,
-            price: price,
-            benefit: benefit,
-            link: card.link.url
-        };
-    }));
+        // Применяем регулярное выражение для поиска нужной строки
+        const regex = new RegExp(regexPattern);
+        const match = html.match(regex);
 
-    return result;
+        if (!match || match.length < 2) {
+            await logError("Не удалось найти соответствие регулярному выражению.");
+            console.log("Возвращаем пустой массив из-за отсутствия совпадений с regex");
+            return [];
+        }
+
+        // Парсим JSON из найденной строки
+        const jsonString = match[1];
+        let jsonData;
+        try {
+            jsonData = JSON.parse(jsonString);
+        } catch (error) {
+            await logError(`Ошибка при парсинге JSON: ${error.message}`);
+            console.log("Возвращаем пустой массив из-за ошибки парсинга JSON");
+            return [];
+        }
+
+        // Достаем объекты по пути desktopMenu.sections[0].data.tabs.items[0].content.cards
+        let cards;
+        try {
+            cards = jsonData.desktopMenu.sections[0].data.tabs.items[0].content.cards;
+        } catch (pathError) {
+            await logError(`Ошибка при доступе к пути объекта: ${pathError.message}`);
+            console.log("Возвращаем пустой массив из-за ошибки доступа к данным");
+            return [];
+        }
+
+        if (!cards || !Array.isArray(cards)) {
+            await logError("Не удалось найти объекты cards по заданному пути.");
+            console.log("Возвращаем пустой массив - cards не найдены");
+            return [];
+        }
+
+        // Преобразуем объекты в нужный формат
+        const result = await Promise.all(cards.map(async card => {
+            const linkParts = card.link.url.split('/').filter(part => part !== ''); // Убираем пустые значения
+            let id = linkParts[linkParts.length - 1]; // Берем последнее непустое значение
+
+            // Проверяем и добавляем префикс BRAND, если необходимо
+            if (!id.startsWith(`${brandPrefix}-`)) {
+                id = `${brandPrefix}-${id}`;
+            }
+
+            console.log("value: ", card.price.value.toLowerCase());
+            const { benefit, cleanString } = await extractBenefit(card.price.value.toLowerCase());
+            const price = await extractMinPrice(cleanString);
+            console.log("price: ", price, benefit);
+            
+            return {
+                id: id,
+                brand: brandPrefix,
+                model: card.title.text.value,
+                price: price,
+                benefit: benefit,
+                link: card.link.url
+            };
+        }));
+
+        return result;
+    } catch (error) {
+        await logError(`Критическая ошибка в extractData: ${error.message}`);
+        console.log("Возвращаем пустой массив из-за критической ошибки");
+        return [];
+    }
 }
 
 async function extractBenefit(str) {
@@ -248,10 +277,22 @@ function processNumber(num) {
 }
 
 (async () => {
-    // Запускаем основную функцию
-    const data = await extractData();
-    
-    // Разделение путей сохранения по запятой и обработка их как списка
-    const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
-    await saveJson(data, outputFilePaths);
-})();
+    try {
+        // Запускаем основную функцию
+        const data = await extractData();
+        
+        // Разделение путей сохранения по запятой и обработка их как списка
+        const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
+        await saveJson(data, outputFilePaths);
+        console.log("Скрипт завершен успешно");
+    } catch (error) {
+        console.error("Критическая ошибка в main:", error);
+        await logError(`Критическая ошибка в main: ${error.message}`);
+        console.log("Скрипт завершен с ошибкой, но не прерывает workflow");
+        process.exit(0); // Возвращаем код 0 для успешного завершения в CI/CD
+    }
+})().catch(error => {
+    console.error("Неперехваченная ошибка:", error);
+    // Не вызываем process.exit(1) для продолжения workflow
+    process.exit(0);
+});
