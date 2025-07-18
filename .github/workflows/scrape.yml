@@ -403,5 +403,5 @@ jobs:
       additional-text: |
         ${{ needs.scrape_all.outputs.script_output }}
     secrets:
-      TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
+      TELEGRAM_TO: ${{ secrets.TELEGRAM_TO_ERROR }}
       TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
