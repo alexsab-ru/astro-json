@@ -3,80 +3,80 @@
     "id": "baic-u5_plus",
     "brand": "baic",
     "model": "BAIC U5 PLUS",
-    "price": "1394500",
-    "benefit": "490000",
+    "price": 1394500,
+    "benefit": 0,
     "link": "/models/u5_plus/"
   },
   {
     "id": "baic-x35",
     "brand": "baic",
     "model": "BAIC X35",
-    "price": "0",
-    "benefit": "350000",
+    "price": 0,
+    "benefit": 0,
     "link": "/models/x35/"
   },
   {
     "id": "baic-x55",
     "brand": "baic",
     "model": "BAIC X55",
-    "price": "1975000",
-    "benefit": "380000",
+    "price": 1975000,
+    "benefit": 0,
     "link": "/models/x55/"
   },
   {
     "id": "baic-x7",
     "brand": "baic",
     "model": "BAIC X7",
-    "price": "1940000",
-    "benefit": "950000",
+    "price": 1940000,
+    "benefit": 0,
     "link": "/models/x7/"
   },
   {
     "id": "baic-x75",
     "brand": "baic",
     "model": "BAIC X75",
-    "price": "2100000",
-    "benefit": "405000",
+    "price": 2100000,
+    "benefit": 0,
     "link": "/models/x75/"
   },
   {
     "id": "baic-bj40",
     "brand": "baic",
     "model": "BAIC BJ40",
-    "price": "3025000",
-    "benefit": "780000",
+    "price": 3025000,
+    "benefit": 0,
     "link": "/models/bj40/"
   },
   {
     "id": "kaiyi-e5",
     "brand": "kaiyi",
     "model": "KAIYI E5",
-    "price": "1225000",
-    "benefit": "735000",
+    "price": 1225000,
+    "benefit": 0,
     "link": "/models/kaiyi-e5/"
   },
   {
     "id": "kaiyi-x3",
     "brand": "kaiyi",
     "model": "KAIYI X3",
-    "price": "1375000",
-    "benefit": "450000",
+    "price": 1375000,
+    "benefit": 0,
     "link": "/models/kaiyi-x3/"
   },
   {
     "id": "kaiyi-x3pro",
     "brand": "kaiyi",
     "model": "KAIYI X3 PRO",
-    "price": "1529900",
-    "benefit": "350000",
+    "price": 1675000,
+    "benefit": 0,
     "link": "/models/kaiyi-x3pro/"
   },
   {
     "id": "kaiyi-x7-kunlun",
     "brand": "kaiyi",
     "model": "KAIYI X7 Kunlun",
-    "price": "2250000",
-    "benefit": "180000",
+    "price": 2250000,
+    "benefit": 0,
     "link": "/models/kaiyi-x7-kunlun/"
   },
   {
@@ -547,16 +547,16 @@
     "id": "jac-j7",
     "brand": "jac",
     "model": "J7",
-    "price": "1449000",
-    "benefit": "700000",
+    "price": "1709000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/j7/"
   },
   {
     "id": "jac-js3",
     "brand": "jac",
     "model": "JS3",
-    "price": "1299000",
-    "benefit": "600000",
+    "price": "1449000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/js3/"
   },
   {
@@ -564,7 +564,7 @@
     "brand": "jac",
     "model": "JS6",
     "price": "1899000",
-    "benefit": "650000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/js6/"
   },
   {
@@ -580,15 +580,15 @@
     "brand": "jac",
     "model": "T8 PRO",
     "price": "2699000",
-    "benefit": "450000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/t8-pro/"
   },
   {
     "id": "jac-t9",
     "brand": "jac",
     "model": "T9",
-    "price": "3249000",
-    "benefit": "350000",
+    "price": "3449000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/t9/"
   },
   {
@@ -675,24 +675,24 @@
     "id": "livan-s6pro",
     "brand": "livan",
     "model": "S6PRO",
-    "price": "1600000",
-    "benefit": "1049900",
+    "price": "1654000",
+    "benefit": "",
     "link": "https://livan-motors.ru/model/s6pro/"
   },
   {
     "id": "livan-x3pro",
     "brand": "livan",
     "model": "X3PRO",
-    "price": "1340000",
-    "benefit": "549900",
+    "price": "1449900",
+    "benefit": "",
     "link": "https://livan-motors.ru/model/x3pro/"
   },
   {
     "id": "livan-x6pro",
     "brand": "livan",
     "model": "X6PRO",
-    "price": "1790000",
-    "benefit": "949900",
+    "price": "1889000",
+    "benefit": "",
     "link": "https://livan-motors.ru/model/x6pro/"
   },
   {
