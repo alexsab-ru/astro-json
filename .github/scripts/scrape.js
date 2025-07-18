@@ -38,8 +38,24 @@ async function logInFile(message, errorText) {
 
 
 
+// Функция для повторных попыток при ошибках навигации
+async function retryOperation(operation, maxRetries = 2, delay = 2000) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            return await operation();
+        } catch (error) {
+            if (attempt === maxRetries) {
+                throw error; // Пробрасываем ошибку на последней попытке
+            }
+            
+            console.log(`Попытка ${attempt} неудачна: ${error.message}. Повторяем через ${delay}ms...`);
+            await new Promise(resolve => setTimeout(resolve, delay));
+        }
+    }
+}
+
 async function scrapePage(url, xpaths) {
-    // Настраиваем дополнительные опции для puppeteer
+    // Настраиваем дополнительные опции для puppeteer с повышенной устойчивостью
     const browserOptions = {
         args: [
             '--no-sandbox',
@@ -52,13 +68,22 @@ async function scrapePage(url, xpaths) {
             '--no-first-run',
             '--no-zygote',
             '--single-process',
-            '--disable-gpu'
+            '--disable-gpu',
+            '--disable-web-security', // Отключаем web security для проблемных сайтов
+            '--disable-features=VizDisplayCompositor', // Дополнительная стабильность
+            '--ignore-certificate-errors-spki-list',
+            '--ignore-certificate-errors',
+            '--ignore-ssl-errors',
+            '--disable-background-timer-throttling',
+            '--disable-backgrounding-occluded-windows',
+            '--disable-renderer-backgrounding'
         ],
         executablePath: process.env.CHROME_BIN || (process.platform === 'win32' 
             ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
             : '/usr/bin/google-chrome'),
-        timeout: 120000,
-        headless: 'new'
+        timeout: 60000, // Уменьшаем timeout для более быстрого фейла
+        headless: 'new',
+        ignoreHTTPSErrors: true // Игнорируем HTTPS ошибки
     };
 
     console.log(`Запуск браузера с настройками:`, browserOptions);
@@ -67,13 +92,45 @@ async function scrapePage(url, xpaths) {
     
     // Устанавливаем размер окна браузера
     await page.setViewport({ width: 1920, height: 1080 });
+    
+    // Добавляем обработчик для отключенных страниц
+    page.on('close', () => {
+        console.log('Страница была закрыта');
+    });
+    
+    page.on('error', (error) => {
+        console.error('Ошибка страницы:', error.message);
+    });
 
     try {
         console.log(`Переход на страницу ${url}`);
-        await page.goto(url, { 
-            waitUntil: 'domcontentloaded', 
-            timeout: parseInt(process.env.TIMEOUT || '120000') 
-        });
+        
+        // Используем retry механизм для навигации с fallback стратегией
+        try {
+            await retryOperation(async () => {
+                // Пробуем сначала с networkidle0
+                await page.goto(url, { 
+                    waitUntil: 'networkidle0', // Ждем пока все сетевые запросы завершатся
+                    timeout: parseInt(process.env.TIMEOUT || '60000') // Уменьшаем timeout
+                });
+                
+                // Проверяем, что страница все еще доступна
+                if (page.isClosed()) {
+                    throw new Error('Страница была закрыта во время навигации');
+                }
+            }, 2, 3000); // 2 попытки с задержкой 3 секунды
+        } catch (networkIdleError) {
+            console.log('Fallback: пробуем более простую навигацию...');
+            // Fallback к более простому waitUntil
+            await page.goto(url, { 
+                waitUntil: 'domcontentloaded',
+                timeout: parseInt(process.env.TIMEOUT || '30000')
+            });
+            
+            if (page.isClosed()) {
+                throw new Error('Страница была закрыта во время fallback навигации');
+            }
+        }
 
         if (process.env.DEBUG_SCREENSHOT === 'true') {
             await page.screenshot({ path: 'debug-screenshot-1.png', fullPage: true });
@@ -84,6 +141,11 @@ async function scrapePage(url, xpaths) {
         if (process.env.WAIT_SELECTOR && process.env.WAIT_SELECTOR.trim()) {
             console.log(`Ожидание селектора: ${process.env.WAIT_SELECTOR}`);
             try {
+                // Проверяем состояние страницы перед ожиданием селектора
+                if (page.isClosed()) {
+                    throw new Error('Страница была закрыта');
+                }
+                
                 await page.waitForSelector(process.env.WAIT_SELECTOR, { 
                     timeout: parseInt(process.env.WAIT_TIME || '10000') 
                 });
@@ -104,6 +166,11 @@ async function scrapePage(url, xpaths) {
             console.log(`Попытка клика на селектор: ${process.env.CLICK_SELECTOR}`);
             
             try {
+                // Проверяем состояние страницы перед кликом
+                if (page.isClosed()) {
+                    throw new Error('Страница была закрыта перед кликом');
+                }
+                
                 // Проверим наличие элемента перед кликом
                 const elementExists = await page.$(process.env.CLICK_SELECTOR);
                 if (elementExists) {
@@ -112,8 +179,14 @@ async function scrapePage(url, xpaths) {
                         visible: true,
                         timeout: parseInt(process.env.CLICK_TIMEOUT || '10000') 
                     });
-                    await page.click(process.env.CLICK_SELECTOR);
-                    console.log("Клик выполнен успешно");
+                    
+                    // Дополнительная проверка перед кликом
+                    if (!page.isClosed()) {
+                        await page.click(process.env.CLICK_SELECTOR);
+                        console.log("Клик выполнен успешно");
+                    } else {
+                        throw new Error('Страница закрылась перед выполнением клика');
+                    }
                 } else {
                     console.warn(`Предупреждение: Элемент для клика не найден: ${process.env.CLICK_SELECTOR}`);
                     
@@ -178,12 +251,16 @@ async function scrapePage(url, xpaths) {
     } catch (error) {
         await logError(`Ошибка загрузки страницы`, `${url}`, error);
         
-        // Создаем скриншот ошибки
+        // Создаем скриншот ошибки только если страница еще доступна
         try {
-            await page.screenshot({ path: 'error-screenshot.png' });
-            console.log("Создан скриншот ошибки");
+            if (!page.isClosed() && page.url() !== 'about:blank') {
+                await page.screenshot({ path: 'error-screenshot.png' });
+                console.log("Создан скриншот ошибки");
+            } else {
+                console.log("Скриншот ошибки не создан - страница недоступна");
+            }
         } catch (screenshotError) {
-            console.error("Не удалось создать скриншот ошибки:", screenshotError);
+            console.error("Не удалось создать скриншот ошибки:", screenshotError.message);
         }
         
         // Закрываем браузер безопасно
@@ -201,6 +278,11 @@ async function scrapePage(url, xpaths) {
     
     let data = [];
     try {
+        // Проверяем состояние страницы перед извлечением данных
+        if (page.isClosed()) {
+            throw new Error('Страница была закрыта перед извлечением данных');
+        }
+        
         data = await page.evaluate((xpaths, baseUrl, brandPrefix) => {
             const results = [];
             const errors = []; // Массив для сбора ошибок
