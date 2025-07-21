@@ -148,10 +148,10 @@
         "view": "link",
         "videoUrl": "",
         "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/photo_2024-09-04 10.53.16.webp",
-        "title": "Специальное предложение!<br/>X90&nbsp;Plus&nbsp;Comfort&nbsp;1.6&nbsp;(190л.с.)&nbsp;2023&nbsp;г.в.<br/>с выгодой до&nbsp;{{benefitb-jetour-x90plus}}!",
-        "descr": "Остался один автомобиль! <br/>Цена от {{priceb-jetour-x90plus}}.<br/>Честная цена, без скрытых условий! <br/>До  {{lastDay}} {{monthGenitive}} {{year}}",
+        "title": "Специальное предложение!<br/>JETOUR&nbsp;X90&nbsp;PLUS&nbsp;Elite&nbsp;2.0&nbsp;AMT&nbsp;(244л.с.)&nbsp;2023&nbsp;г.в.<br/>с выгодой до&nbsp;{{benefitb-jetour-x90plus}}!",
+        "descr": "Осталось 2 автомобиля! <br/>Цена от&nbsp;{{priceb-jetour-x90plus}}.<br/>Честная цена, без скрытых условий! <br/>До {{lastDay}} {{monthGenitive}} {{year}}",
         "btn": "Успеть купить",
-        "btnUrl": "/cars/?model=x90+plus",
+        "btnUrl": "/cars/jetour-x90-plus-20-amt-244-лс-elite-белый-2023/",
         "badge": {
             "autoname": "",
             "title": "",
