@@ -1,6 +1,7 @@
 {
     "Baic": {
         "BJ40": {
+            "short": "BJ40",
             "folder": "bj40",
             "cyrillic": "БДЖ40",
             "color": {
@@ -20,6 +21,7 @@
             }
         },
         "BJ40, I Рестайлинг": {
+            "short": "BJ40",
             "folder": "bj40",
             "cyrillic": "БДЖ40",
             "color": {
@@ -39,6 +41,7 @@
             }
         },
         "U5 Plus": {
+            "short": "U5 Plus",
             "folder": "u5-plus",
             "cyrillic": "Ю5 Плюс",
             "color": {
@@ -54,6 +57,7 @@
             }
         },
         "X35": {
+            "short": "X35",
             "folder": "x35",
             "cyrillic": "Икс 35",
             "color": {
@@ -71,6 +75,7 @@
             }
         },
         "X55": {
+            "short": "X55",
             "folder": "x55",
             "cyrillic": "Икс 55",
             "color": {
@@ -98,6 +103,7 @@
             }
         },
         "X7": {
+            "short": "X7",
             "folder": "x7",
             "cyrillic": "Икс 7",
             "color": {
@@ -113,6 +119,7 @@
             }
         },
         "X75": {
+            "short": "X75",
             "folder": "x75",
             "cyrillic": "Икс 75",
             "color": {
@@ -144,6 +151,7 @@
     },
     "Geely": {
         "001": {
+            "short": "001",
             "folder": "001",
             "cyrillic": "001",
             "color": {
@@ -158,6 +166,7 @@
             }
         },
         "Atlas Pro": {
+            "short": "Atlas Pro",
             "folder": "Atlas Pro",
             "cyrillic": "Атлас Про",
             "color": {
@@ -171,6 +180,7 @@
             }
         },
         "Atlas, I": {
+            "short": "Atlas",
             "folder": "Atlas Pro",
             "cyrillic": "Атлас Про",
             "color": {
@@ -178,6 +188,7 @@
             }
         },
         "Atlas, II": {
+            "short": "Atlas",
             "folder": "Atlas-2024",
             "cyrillic": "Атлас",
             "color": {
@@ -193,6 +204,7 @@
             }
         },
         "Coolray, I Рестайлинг": {
+            "short": "Coolray",
             "folder": "New Coolray",
             "cyrillic": "Кулрей",
             "color": {
@@ -206,6 +218,7 @@
             }
         },
         "Coolray, I": {
+            "short": "Coolray",
             "folder": "Coolray",
             "cyrillic": "Кулрей",
             "color": {
@@ -217,6 +230,7 @@
             }
         },
         "Emgrand L": {
+            "short": "Emgrand",
             "folder": "Emgrand",
             "cyrillic": "Эмгранд",
             "color": {
@@ -228,6 +242,7 @@
             }
         },
         "Emgrand, II": {
+            "short": "Emgrand",
             "folder": "Emgrand",
             "cyrillic": "Эмгранд",
             "color": {
@@ -244,6 +259,7 @@
             }
         },
         "Geometry G6": {
+            "short": "Geometry G6",
             "folder": "Geometry G6",
             "cyrillic": "Геометрия Г6",
             "color": {
@@ -251,6 +267,7 @@
             }
         },
         "Monjaro": {
+            "short": "Monjaro",
             "folder": "Monjaro",
             "cyrillic": "Монджаро",
             "color": {
@@ -265,6 +282,7 @@
             }
         },
         "Okavango": {
+            "short": "Okavango",
             "folder": "Okavango",
             "cyrillic": "Окаванго",
             "color": {
@@ -279,6 +297,7 @@
             }
         },
         "Okavango, I Рестайлинг": {
+            "short": "Okavango",
             "folder": "Okavango",
             "cyrillic": "Окаванго",
             "color": {
@@ -293,6 +312,7 @@
             }
         },
         "Tugella, I Рестайлинг": {
+            "short": "Tugella",
             "folder": "Tugella",
             "cyrillic": "Тугелла",
             "color": {
@@ -305,6 +325,7 @@
             }
         },
         "Preface, I Рестайлинг 2": {
+            "short": "Preface",
             "folder": "Preface",
             "cyrillic": "Префейс",
             "color": {
@@ -324,6 +345,7 @@
             }
         },
         "X50": {
+            "short": "X50",
             "folder": "Belgee X50",
             "cyrillic": "Белджи Х50",
             "color": {
@@ -339,6 +361,7 @@
             }
         },
         "X70": {
+            "short": "X70",
             "folder": "Belgee X70",
             "cyrillic": "Белджи Х70",
             "color": {
@@ -359,6 +382,7 @@
             }
         },
         "Cityray": {
+            "short": "Cityray",
             "folder": "Cityray",
             "cyrillic": "Ситирей",
             "color": {
@@ -376,6 +400,7 @@
     },
     "Belgee": {
         "001": {
+            "short": "001",
             "folder": "001",
             "cyrillic": "001",
             "color": {
@@ -390,6 +415,7 @@
             }
         },
         "X50": {
+            "short": "X50",
             "folder": "x50",
             "cyrillic": "Икс 50",
             "color": {
@@ -417,6 +443,7 @@
             }
         },
         "X70": {
+            "short": "X70",
             "folder": "x70",
             "cyrillic": "Икс 70",
             "color": {
@@ -444,6 +471,7 @@
     },
     "Gac": {
         "GN8": {
+            "short": "GN8",
             "folder": "gn8",
             "cyrillic": "ГН8",
             "color": {
@@ -455,6 +483,7 @@
             }
         },
         "GS3": {
+            "short": "GS3",
             "folder": "gs3",
             "cyrillic": "ГС3",
             "color": {
@@ -472,6 +501,7 @@
             }
         },
         "GS3, I": {
+            "short": "GS3",
             "folder": "gs3",
             "cyrillic": "ГС3",
             "color": {
@@ -489,6 +519,7 @@
             }
         },
         "GS4": {
+            "short": "GS4",
             "folder": "gs4",
             "cyrillic": "ГС4",
             "color": {
@@ -499,6 +530,7 @@
             }
         },
         "GS4, I": {
+            "short": "GS4",
             "folder": "gs4",
             "cyrillic": "ГС4",
             "color": {
@@ -509,6 +541,7 @@
             }
         },
         "GS5": {
+            "short": "GS5",
             "folder": "gs5",
             "cyrillic": "ГС5",
             "color": {
@@ -523,6 +556,7 @@
             }
         },
         "GS8, I поколение": {
+            "short": "GS8",
             "folder": "gs8",
             "cyrillic": "ГС8",
             "color": {
@@ -536,6 +570,7 @@
             }
         },
         "GS8": {
+            "short": "GS8",
             "folder": "gs8ii",
             "cyrillic": "ГС8",
             "color": {
@@ -550,6 +585,7 @@
             }
         },
         "GS8, II": {
+            "short": "GS8",
             "folder": "gs8ii",
             "cyrillic": "ГС8",
             "color": {
@@ -563,7 +599,8 @@
                 "Белый": "white.webp"
             }
         },
-        "M8": {
+        "M8": { 
+            "short": "M8",
             "folder": "m8",
             "cyrillic": "М8",
             "color": {
@@ -577,6 +614,7 @@
             }
         },
         "M8, I": {
+            "short": "M8",
             "folder": "m8",
             "cyrillic": "М8",
             "color": {
@@ -590,6 +628,7 @@
             }
         },
         "EMPOW": {
+            "short": "EMPOW",
             "folder": "empow",
             "cyrillic": "Эмпоу",
             "color": {
@@ -602,6 +641,7 @@
     },
     "KNEWSTAR": {
         "001": {
+            "short": "001",
             "folder": "001",
             "cyrillic": "001",
             "color": {
@@ -618,6 +658,7 @@
     },
     "Jac": {
         "J7, I": {
+            "short": "J7",
             "folder": "j7",
             "cyrillic": "Джей 7",
             "color": {
@@ -631,6 +672,7 @@
                 "Белый": "white.webp"
             }},
         "JS3": {
+            "short": "JS3",
             "folder": "js3",
             "cyrillic": "Джей Эс 3",
             "color": {
@@ -644,6 +686,7 @@
                 "Белый": "white.webp"
             }},
         "JS6": {
+            "short": "JS6",
             "folder": "js6",
             "cyrillic": "Джей Эс 6",
             "color": {
@@ -654,6 +697,7 @@
                 "Белый": "white.webp"
             }},
         "T6": {
+            "short": "T6",
             "folder": "t6",
             "cyrillic": "Т6",
             "color": {
@@ -665,6 +709,7 @@
                 "Белый": "white.webp"
             }},
         "T8": {
+            "short": "T8",
             "folder": "t8-pro",
             "cyrillic": "Т8 Про",
             "color": {
@@ -676,6 +721,7 @@
                 "Серебристый": "silver.webp"
             }},
         "T9": {
+            "short": "T9",
             "folder": "t9",
             "cyrillic": "Т9",
             "color": {
@@ -692,6 +738,7 @@
     },
     "Jetour": {
         "Dashing, I": {
+            "short": "Dashing",
             "folder": "dashing",
             "cyrillic": "Дашинг",
             "color": {
@@ -716,6 +763,7 @@
             }
         },
         "Dashing": {
+            "short": "Dashing",
             "folder": "dashing",
             "cyrillic": "Дашинг",
             "color": {
@@ -740,6 +788,7 @@
             }
         },
         "T2": {
+            "short": "T2",
             "folder": "t2",
             "cyrillic": "Т2",
             "color": {
@@ -764,6 +813,7 @@
             }
         },
         "X50": {
+            "short": "X50",
             "folder": "x50",
             "cyrillic": "Икс 50",
             "color": {
@@ -779,6 +829,7 @@
             }
         },
         "X70 PLUS, I": {
+            "short": "X70 PLUS",
             "folder": "x70plus",
             "cyrillic": "Икс 70 Плюс",
             "color": {
@@ -803,6 +854,7 @@
             }
         },
         "X70 PLUS, I Рестайлинг": {
+            "short": "X70 PLUS",
             "folder": "x70plus",
             "cyrillic": "Икс 70 Плюс",
             "color": {
@@ -828,6 +880,7 @@
             }
         },
         "X70": {
+            "short": "X70",
             "folder": "x70plus",
             "cyrillic": "Икс 70 Плюс",
             "color": {
@@ -850,6 +903,7 @@
             }
         },
         "X70, I Рестайлинг 2": {
+            "short": "X70",
             "folder": "x70plus",
             "cyrillic": "Икс 70 Плюс",
             "color": {
@@ -872,6 +926,7 @@
             }
         },
         "X90 PLUS": {
+            "short": "X90 PLUS",
             "folder": "x90plus",
             "cyrillic": "Икс 90 Плюс",
             "color": {
@@ -890,6 +945,7 @@
     },
     "Kaiyi": {
         "E5": {
+            "short": "E5",
             "folder": "e5",
             "cyrillic": "Е5",
             "color": {
@@ -907,6 +963,7 @@
                 "Белый": "white.png"
             }},
         "X3": {
+            "short": "X3",
             "folder": "x3",
             "cyrillic": "Икс 3",
             "color": {
@@ -927,6 +984,7 @@
                 "Белый": "white.png"
             }},
         "X3 PRO": {
+            "short": "X3 PRO",
             "folder": "x3pro",
             "cyrillic": "Икс 3 Про",
             "color": {
@@ -947,6 +1005,7 @@
                 "Белый": "white.png"
             }},
         "X7 Kunlun": {
+            "short": "X7 Kunlun",
             "folder": "x7-kunlun",
             "cyrillic": "Икс 7 Кунлун",
             "color": {
@@ -970,6 +1029,7 @@
     },
     "Livan": {
         "X3 Pro": {
+            "short": "X3Pro",
             "folder": "x3pro",
             "cyrillic": "Икс 3 Про",
             "color": {
@@ -991,6 +1051,7 @@
                 "Серый": "gray.webp"
             }},
         "X6 Pro": {
+            "short": "X6Pro",
             "folder": "x6pro",
             "cyrillic": "Икс 6 Про",
             "color": {
@@ -1008,6 +1069,7 @@
                 "Зеленый": "green.webp"
             }},
         "S6 Pro": {
+            "short": "S6PRO",
             "folder": "s6pro",
             "cyrillic": "С6 Про",
             "color": {
@@ -1025,6 +1087,7 @@
     },
     "Changan": {
         "Alsvin": {
+            "short": "ALSVIN",
             "folder": "alsvin",
             "color": {
                 "Black": "black.webp",
@@ -1042,6 +1105,7 @@
             }
         },
         "CS55PLUS, I Рестайлинг": {
+            "short": "CS55PLUS",
             "folder": "cs55plus",
             "color": {
                 "Atomic_grey": "cs55plus_atomic_grey.webp",
@@ -1062,6 +1126,7 @@
             }
         },
         "CS35PLUS, I Рестайлинг": {
+            "short": "CS35PLUS NEW",
             "folder": "cs35plusnew",
             "color": {
                 "Crystal_white": "cs35plusnew_crystal_white.webp",
@@ -1079,6 +1144,7 @@
             }
         },
         "CS75PLUS": {
+            "short": "CS75PLUS",
             "folder": "cs75plus",
             "color": {
                 "Atomic_grey": "cs75plus_atomic_grey.webp",
@@ -1099,6 +1165,7 @@
             }
         },
         "CS85COUPE": {
+            "short": "CS85COUPE",
             "folder": "cs85coupe",
             "color": {
                 "Black": "cs85_black.webp",
@@ -1122,6 +1189,7 @@
             }
         },
         "CS95": {
+            "short": "CS95",
             "folder": "cs95",
             "color": {
                 "White": "cs95_white.webp",
@@ -1136,6 +1204,7 @@
             }
         },
         "CS95, I Рестайлинг 2": {
+            "short": "CS95",
             "folder": "cs95",
             "color": {
                 "White": "cs95_white.webp",
@@ -1150,6 +1219,7 @@
             }
         },
         "CS95PLUS": {
+            "short": "CS95PLUS",
             "folder": "cs95new",
             "color": {
                 "Noble_black": "cs95new_noble_black.webp",
@@ -1164,6 +1234,7 @@
             }
         },
         "Eado Plus": {
+            "short": "EADOplus",
             "folder": "eadoplus",
             "color": {
                 "Black": "eadoplus_black.webp",
@@ -1184,6 +1255,7 @@
             }
         },
         "Lamore": {
+            "short": "Lamore",
             "folder": "lamore",
             "color": {
                 "Deep_black": "lamore_deep_black.webp",
@@ -1204,6 +1276,7 @@
             }
         },
         "UNI-T, I Рестайлинг": {
+            "short": "UNI-T",
             "folder": "uni-t",
             "color": {
                 "Air_blue": "uni-t_air_blue.webp",
@@ -1227,6 +1300,7 @@
             }
         },
         "UNI-V": {
+            "short": "UNI-V",
             "folder": "uni-v",
             "color": {
                 "Atomic_grey": "uni-v_atomic_grey.webp",
@@ -1250,6 +1324,7 @@
             }
         },
         "UNI-K": {
+            "short": "UNI-K",
             "folder": "uni-k",
             "color": {
                 "Air-blue": "uni-k_air-blue.webp",
@@ -1273,6 +1348,7 @@
             }
         },
         "UNI-K, IDD": {
+            "short": "UNI-K",
             "folder": "uni-k idd",
             "color": {
                 "Atomic-gray": "uni-k_idd_atomic-gray.webp",
@@ -1293,6 +1369,7 @@
             }
         },
         "Hunter Plus": {
+            "short": "HUNTERplus",
             "folder": "hunterplus",
             "color": {
                 "Snowy-white": "hunderplus-snowy-white.webp",
@@ -1315,6 +1392,7 @@
     },
     "Kia": {
         "K5, III": {
+            "short": "K5",
             "folder": "k5",
             "cyrillic": "К5",
             "color": {
@@ -1322,6 +1400,7 @@
             }
         },
         "Seltos, I Рестайлинг": {
+            "short": "Seltos",
             "folder": "seltos",
             "cyrillic": "Селтос",
             "color": {
@@ -1331,6 +1410,7 @@
             }
         },
         "Seltos, I": {
+            "short": "Seltos",
             "folder": "seltos",
             "cyrillic": "Селтос",
             "color": {
@@ -1338,6 +1418,7 @@
             }
         },
         "Sorento, IV Рестайлинг": {
+            "short": "Sorento",
             "folder": "sorento2024",
             "cyrillic": "Соренто",
             "color": {
@@ -1349,6 +1430,7 @@
             }
         },
         "Sportage, V": {
+            "short": "Sportage",
             "folder": "sportage",
             "cyrillic": "Спортаж",
             "color": {
@@ -1363,6 +1445,7 @@
     },
     "Great Wall": {
         "Poer King Kong": {
+            "short": "POER KINGKONG",
             "folder": "poer-king-kong",
             "cyrillic": "POER KINGKONG",
             "color": {
@@ -1376,6 +1459,7 @@
             }
         },
         "Poer, I": {
+            "short": "Poer",
             "folder": "poer",
             "cyrillic": "POER",
             "color": {
@@ -1391,6 +1475,7 @@
     },
     "Haval": {
         "H9, II": {
+            "short": "H9",
             "folder": "h9",
             "cyrillic": "H9",
             "color": {
@@ -1402,6 +1487,7 @@
             }
         },
         "H3": {
+            "short": "H3",
             "folder": "h3",
             "cyrillic": "H3",
             "color": {
@@ -1414,6 +1500,7 @@
             }
         },
         "H3, I": {
+            "short": "H3",
             "folder": "h3",
             "cyrillic": "H3",
             "color": {
@@ -1427,6 +1514,7 @@
             }
         },
         "H7, I": {
+            "short": "H7",
             "folder": "h7",
             "cyrillic": "H7",
             "color": {
@@ -1439,6 +1527,7 @@
             }
         },
         "H5, II": {
+            "short": "H5",
             "folder": "h5",
             "cyrillic": "H5",
             "color": {
@@ -1450,6 +1539,7 @@
             }
         },
         "F7, II": {
+            "short": "F7",
             "folder": "f7",
             "cyrillic": "F7",
             "color": {
@@ -1461,6 +1551,7 @@
             }
         },
         "F7x, I": {
+            "short": "F7x",
             "folder": "new-haval-f7x",
             "cyrillic": "F7x",
             "color": {
@@ -1472,6 +1563,7 @@
             }
         },
         "F7x, II": {
+            "short": "F7x",
             "folder": "new-haval-f7x",
             "cyrillic": "F7x",
             "color": {
@@ -1483,6 +1575,7 @@
             }
         },
         "Jolion, I Рестайлинг": {
+            "short": "Jolion",
             "folder": "jolion",
             "cyrillic": "JOLION",
             "color": {
@@ -1498,6 +1591,7 @@
             }
         },
         "M6, II": {
+            "short": "M6",
             "folder": "m6",
             "cyrillic": "M6",
             "color": {
@@ -1508,6 +1602,7 @@
             }
         },
         "DARGO X": {
+            "short": "DARGO X",
             "folder": "dargo-x",
             "cyrillic": "DARGO X",
             "color": {
@@ -1519,6 +1614,7 @@
             }
         },
         "DARGO": {
+            "short": "DARGO",
             "folder": "dargo-x",
             "cyrillic": "DARGO",
             "color": {
@@ -1532,6 +1628,7 @@
     },
     "Omoda": {
         "C5, I": {
+            "short": "C5",
             "folder": "c5",
             "cyrillic": "ЦЕ 5",
             "color": {
@@ -1556,6 +1653,7 @@
             }
         },
         "C5, I Рестайлинг": {
+            "short": "C5",
             "folder": "c5fl",
             "cyrillic": "ЦЕ 5 ЭФ ЭЛ",
             "color": {
@@ -1578,6 +1676,7 @@
             }
         },
         "S5": {
+            "short": "S5",
             "folder": "s5",
             "cyrillic": "ЭС 5",
             "color": {
@@ -1596,6 +1695,7 @@
             }
         },
         "S5 GT": {
+            "short": "S5 GT",
             "folder": "s5gt",
             "cyrillic": "ЭС 5 ДЖЕЙ ТИ",
             "color": {
@@ -1618,6 +1718,7 @@
     },
     "Jaecoo": {
         "J7": {
+            "short": "J7",
             "folder": "j7",
             "cyrillic": "Джей 7",
             "color": {
@@ -1642,6 +1743,7 @@
             }
         },
         "J8": {
+            "short": "J8",
             "folder": "j8",
             "cyrillic": "Джей 8",
             "color": {
@@ -1669,7 +1771,8 @@
     },
     "Wey": {
         "Wey 07": {
-           "folder": "wey07",
+            "short": "07",
+            "folder": "wey07",
             "cyrillic": "ВЕЙ 07",
             "color": {
                 "Black": "black.webp",
@@ -1685,6 +1788,7 @@
             } 
         },
         "Wey 05": {
+            "short": "05",
            "folder": "wey05",
             "cyrillic": "ВЕЙ 05",
             "color": {
@@ -1703,6 +1807,7 @@
             } 
         },
         "Wey 80": {
+            "short": "80 Premium",
            "folder": "wey80",
             "cyrillic": "ВЕЙ 80",
             "color": {
@@ -1719,6 +1824,7 @@
             } 
         },
         "Wey 80 Lounge": {
+            "short": "80 Business Lounge",
            "folder": "wey80lounge",
             "cyrillic": "ВЕЙ 80 лаундж",
             "color": {
@@ -1735,6 +1841,7 @@
     },
     "Chery": {
         "Tiggo 4": {
+            "short": "TIGGO 4",
             "folder": "tiggo4",
             "cyrillic": "Тигго 4",
             "color": {
@@ -1753,6 +1860,7 @@
             }
         },
         "Tiggo 4 Pro": {
+            "short": "TIGGO 4 PRO",
             "folder": "tiggo4pro",
             "cyrillic": "Тигго 4 Про",
             "color": {
@@ -1775,6 +1883,7 @@
             }
         },
         "Tiggo 7 Pro Max": {
+            "short": "TIGGO 7 PRO MAX",
             "folder": "newtiggo7promax",
             "cyrillic": "Тигго 7 Про Макс",
             "color": {
@@ -1799,6 +1908,7 @@
             }
         },
         "Tiggo 8 Pro Max": {
+            "short": "TIGGO 8 PRO MAX",
             "folder": "newtiggo8promax",
             "cyrillic": "Тигго 8 Про Макс",
             "color": {
@@ -1825,6 +1935,7 @@
             }
         },
         "Tiggo 9": {
+            "short": "TIGGO 9",
             "folder": "tiggo9",
             "cyrillic": "Тигго 9",
             "color": {
@@ -1847,6 +1958,7 @@
             }
         },
         "Arrizo 8": {
+            "short": "ARRIZO 8",
             "folder": "arrizo8",
             "cyrillic": "Арризо 8",
             "color": {
@@ -1868,6 +1980,7 @@
             }
         },
         "Tiggo 7 Pro Plug-in Hybrid": {
+            "short": "TIGGO 7 PRO PLUG-IN HYBRID",
             "folder": "tiggo7pro-plug-in-hybrid",
             "cyrillic": "Тигго 7 Про Плаг ин Гибрид",
             "color": {
@@ -1891,6 +2004,7 @@
             }
         },
         "Tiggo 8 Pro Plug-in Hybrid": {
+            "short": "TIGGO 8 PRO PLUG-IN HYBRID",
             "folder": "tiggo8pro-plug-in-hybrid",
             "cyrillic": "Тигго 8 Про Плаг ин Гибрид",
             "color": {
@@ -1919,6 +2033,7 @@
     },
     "Solaris": {
         "HC": {
+            "short": "HC",
             "folder": "hc",
             "cyrillic": "'Эйч-Си",
             "color": {
@@ -1941,6 +2056,7 @@
             }
         },
         "KRX": {
+            "short": "KRX",
             "folder": "krx",
             "cyrillic": "Кей-Ар-Икс",
             "color": {
@@ -1961,6 +2077,7 @@
             }
         },
         "KRS": {
+            "short": "KRS",
             "folder": "krs",
             "cyrillic": "Кей-Ар-Эс",
             "color": {
@@ -1981,6 +2098,7 @@
             }
         },
         "HS": {
+            "short": "HS",
             "folder": "hs",
             "cyrillic": "Эйч-Эс",
             "color": {
@@ -2003,6 +2121,7 @@
     },
     "Soueast": {
         "S09": {
+            "short": "S09",
             "folder": "s09",
             "cyrillic": "Эс-09",
             "color": {
@@ -2023,6 +2142,7 @@
             }
         },
         "S07": {
+            "short": "S07",
             "folder": "s07",
             "cyrillic": "Эс-07",
             "color": {
@@ -2045,6 +2165,7 @@
             }
         },
         "S06": {
+            "short": "S06",
             "folder": "s06",
             "cyrillic": "Эс-06",
             "color": {
@@ -2065,6 +2186,7 @@
     },
     "Forthing": {
         "T5 EVO": {
+            "short": "T5 EVO",
             "folder": "t5-evo",
             "cyrillic": "Тэ 5 Эво",
             "color": {
@@ -2089,6 +2211,7 @@
             }
         },
         "T5": {
+            "short": "T5",
             "folder": "t5",
             "cyrillic": "Тэ 5",
             "color": {
@@ -2109,6 +2232,7 @@
             }
         },
         "Yacht": {
+            "short": "Yacht",
             "folder": "yacht",
             "cyrillic": "Яхт",
             "color": {
@@ -2129,6 +2253,7 @@
             }
         },
         "M4 Yacht": {
+            "short": "Yacht",
             "folder": "yacht",
             "cyrillic": "Яхт",
             "color": {
@@ -2149,6 +2274,7 @@
             }
         },
         "M7": {
+            "short": "M7",
             "folder": "m7",
             "cyrillic": "Эм 7",
             "color": {
@@ -2171,6 +2297,7 @@
     },
     "Venucia": {
         "V-Online": {
+            "short": "V-Online",
             "folder": "v-online",
             "cyrillic": "Вэ-Онлайн",
             "color": {
@@ -2192,6 +2319,7 @@
             }
         },
         "V-Online, I": {
+            "short": "V-Online",
             "folder": "v-online",
             "cyrillic": "Вэ-Онлайн",
             "color": {
@@ -2213,6 +2341,7 @@
             }
         },
         "D60 Plus": {
+            "short": "D60 Plus",
             "folder": "d60-plus",
             "cyrillic": "Дэ 60 Плюс",
             "color": {
@@ -2235,6 +2364,7 @@
     },
     "Dongfeng": {
         "DFSK iХ5 Fengon": {
+            "short": "DFSK iХ5 Fengon",
             "folder": "dfsk-ix5-fengon",
             "cyrillic": "Дэ-эф-эс-ка ай-икс 5 Фенгон",
             "color": {
@@ -2253,6 +2383,7 @@
             }
         },
         "DFSK iX5": {
+            "short": "DFSK iX5",
             "folder": "dfsk-ix5-fengon",
             "cyrillic": "Дэ-эф-эс-ка ай-икс 5",
             "color": {
