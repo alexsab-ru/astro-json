@@ -3,16 +3,16 @@
     "id": "jac-j7",
     "brand": "jac",
     "model": "J7",
-    "price": "1449000",
-    "benefit": "700000",
+    "price": "1709000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/j7/"
   },
   {
     "id": "jac-js3",
     "brand": "jac",
     "model": "JS3",
-    "price": "1299000",
-    "benefit": "600000",
+    "price": "1449000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/js3/"
   },
   {
@@ -20,7 +20,7 @@
     "brand": "jac",
     "model": "JS6",
     "price": "1899000",
-    "benefit": "650000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/js6/"
   },
   {
@@ -36,15 +36,15 @@
     "brand": "jac",
     "model": "T8 PRO",
     "price": "2699000",
-    "benefit": "450000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/t8-pro/"
   },
   {
     "id": "jac-t9",
     "brand": "jac",
     "model": "T9",
-    "price": "3249000",
-    "benefit": "350000",
+    "price": "3449000",
+    "benefit": "",
     "link": "https://jaccar.ru/models/t9/"
   }
 ]

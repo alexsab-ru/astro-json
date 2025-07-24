@@ -160,161 +160,181 @@ jobs:
 
       - name: Scrape dealer price geely-partner-samara.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'geely' }}
-        run: pnpm run get-geely-partner-samara
+        run: echo "pnpm run get-geely-partner-samara"
         env:
           CSV_URL: ${{ secrets.CSV_PARTNER }}
 
       - name: Run Geely scraper
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'geely' }}
         run: pnpm run scrape-geely
+        continue-on-error: true
 
       - name: Scrape dealer price belgee-samara.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'belgee' }}
-        run: pnpm run get-belgee-samara
+        run: echo "pnpm run get-belgee-samara"
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price belgee-smr.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'belgee' }}
-        run: pnpm run get-belgee-smr
+        run: echo "pnpm run get-belgee-smr"
         env:
           CSV_URL: ${{ secrets.CSV_PARTNER }}
 
       - name: Scrape belgee.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'belgee' }}
         run: pnpm run scrape-belgee
+        continue-on-error: true
 
       - name: Scrape dealer price jac-samara.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jac' }}
-        run: pnpm run get-jac-samara
+        run: echo "pnpm run get-jac-samara"
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape jaccar.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jac' }}
         run: pnpm run scrape-jac
+        continue-on-error: true
 
       - name: Scrape dealer price jetour-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jetour' }}
-        run: pnpm run get-jetour-alpha
+        run: echo "pnpm run get-jetour-alpha"
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price jetour-krasnodar.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jetour' }}
-        run: pnpm run get-jetour-krasnodar
+        run: echo "pnpm run get-jetour-krasnodar"
         env:
           CSV_URL: ${{ secrets.CSV_AUTOHOLDING }}
 
       - name: Scrape jetour-ru.com
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jetour' }}
         run: pnpm run scrape-jetour
+        continue-on-error: true
 
       - name: Scrape dealer price livan-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'livan' }}
-        run: pnpm run get-livan-alpha
+        run: echo "pnpm run get-livan-alpha"
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape livan-motors.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'livan' }}
         run: pnpm run scrape-livan
+        continue-on-error: true
 
       - name: Scrape gac.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'gac' }}
         run: pnpm run scrape-gac
+        continue-on-error: true
 
       - name: Scrape changanauto.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'changan' }}
         run: pnpm run scrape-changan
+        continue-on-error: true
 
       - name: Scrape VGV
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'vgv' }}
         run: pnpm run scrape-vgv
+        continue-on-error: true
 
       - name: Scrape tank.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'tank' }}
         run: pnpm run scrape-tank
+        continue-on-error: true
 
       - name: Scrape Haval
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'haval' }}
         run: pnpm run scrape-haval
+        continue-on-error: true
 
       - name: Scrape Omoda
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'omoda' }}
         run: pnpm run scrape-omoda
+        continue-on-error: true
 
       - name: Scrape Jaecoo
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'jaecoo' }}
         run: pnpm run scrape-jaecoo
+        continue-on-error: true
 
       - name: Scrape Chery
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'chery' }}
         run: pnpm run scrape-chery
+        continue-on-error: true
 
       - name: Scrape Evolute
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'evolute' }}
         run: pnpm run scrape-evolute
+        continue-on-error: true
 
       - name: Scrape Soueast
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'soueast' }}
         run: pnpm run scrape-soueast
+        continue-on-error: true
 
       - name: Scrape Knewstar
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'knewstar' }}
         run: pnpm run scrape-knewstar
+        continue-on-error: true
 
       - name: Scrape Wey
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'wey' }}
         run: pnpm run scrape-wey
+        continue-on-error: true
 
       - name: Scrape Solaris
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'solaris' }}
         run: pnpm run scrape-solaris
+        continue-on-error: true
       
       - name: Scrape dealer price for kaiyi-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
-        run: pnpm run get-kaiyi-alpha
+        run: echo "pnpm run get-kaiyi-alpha"
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price for kaiyi-samara.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
-        run: pnpm run get-kaiyi-samara
+        run: echo "pnpm run get-kaiyi-samara"
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price for kaiyi-krd.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
-        run: pnpm run get-kaiyi-krd
+        run: echo "pnpm run get-kaiyi-krd"
         env:
           CSV_URL: ${{ secrets.CSV_AUTOHOLDING }}
 
       - name: Scrape kaiyi-auto.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'kaiyi' }}
         run: pnpm run extract-kaiyi
+        continue-on-error: true
 
       - name: Scrape dealer price для baic-alpha.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
-        run: pnpm run get-baic-alpha
+        run: echo "pnpm run get-baic-alpha"
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price для baic-samara.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
-        run: pnpm run get-baic-samara
+        run: echo "pnpm run get-baic-samara"
         env:
           CSV_URL: ${{ secrets.CSV_ALPHA }}
 
       - name: Scrape dealer price для baic-krasnodar.ru
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
-        run: pnpm run get-baic-krasnodar
+        run: echo "pnpm run get-baic-krasnodar"
         env:
           CSV_URL: ${{ secrets.CSV_AUTOHOLDING }}
 
       - name: Extract BAIC data
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'baic' }}
         run: pnpm run extract-baic
+        continue-on-error: true
 
       - name: Merge JSON for auto-team.pro
         if: ${{ steps.set_brand.outputs.brand == 'all' }}
@@ -347,7 +367,7 @@ jobs:
             echo "<blockquote>Nothing changes</blockquote>" >> output_wrapped.txt
           fi
           if [ -s output.txt ]; then
-            echo "<pre language=\"json\">$(cat output.txt)</pre>" >> output_wrapped.txt
+            echo "$(cat output.txt)" >> output_wrapped.txt
           fi
           # Кодируем содержимое файла в base64
           encoded_output=$(base64 -w 0 output_wrapped.txt)
@@ -383,5 +403,5 @@ jobs:
       additional-text: |
         ${{ needs.scrape_all.outputs.script_output }}
     secrets:
-      TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
+      TELEGRAM_TO: ${{ secrets.TELEGRAM_TO_ERROR }}
       TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}

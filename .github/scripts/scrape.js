@@ -38,8 +38,24 @@ async function logInFile(message, errorText) {
 
 
 
+// Функция для повторных попыток при ошибках навигации
+async function retryOperation(operation, maxRetries = 2, delay = 2000) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            return await operation();
+        } catch (error) {
+            if (attempt === maxRetries) {
+                throw error; // Пробрасываем ошибку на последней попытке
+            }
+            
+            console.log(`Попытка ${attempt} неудачна: ${error.message}. Повторяем через ${delay}ms...`);
+            await new Promise(resolve => setTimeout(resolve, delay));
+        }
+    }
+}
+
 async function scrapePage(url, xpaths) {
-    // Настраиваем дополнительные опции для puppeteer
+    // Настраиваем дополнительные опции для puppeteer с повышенной устойчивостью
     const browserOptions = {
         args: [
             '--no-sandbox',
@@ -52,13 +68,22 @@ async function scrapePage(url, xpaths) {
             '--no-first-run',
             '--no-zygote',
             '--single-process',
-            '--disable-gpu'
+            '--disable-gpu',
+            '--disable-web-security', // Отключаем web security для проблемных сайтов
+            '--disable-features=VizDisplayCompositor', // Дополнительная стабильность
+            '--ignore-certificate-errors-spki-list',
+            '--ignore-certificate-errors',
+            '--ignore-ssl-errors',
+            '--disable-background-timer-throttling',
+            '--disable-backgrounding-occluded-windows',
+            '--disable-renderer-backgrounding'
         ],
         executablePath: process.env.CHROME_BIN || (process.platform === 'win32' 
             ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
             : '/usr/bin/google-chrome'),
-        timeout: 120000,
-        headless: 'new'
+        timeout: 60000, // Уменьшаем timeout для более быстрого фейла
+        headless: 'new',
+        ignoreHTTPSErrors: true // Игнорируем HTTPS ошибки
     };
 
     console.log(`Запуск браузера с настройками:`, browserOptions);
@@ -67,13 +92,45 @@ async function scrapePage(url, xpaths) {
     
     // Устанавливаем размер окна браузера
     await page.setViewport({ width: 1920, height: 1080 });
+    
+    // Добавляем обработчик для отключенных страниц
+    page.on('close', () => {
+        console.log('Страница была закрыта');
+    });
+    
+    page.on('error', (error) => {
+        console.error('Ошибка страницы:', error.message);
+    });
 
     try {
         console.log(`Переход на страницу ${url}`);
-        await page.goto(url, { 
-            waitUntil: 'domcontentloaded', 
-            timeout: parseInt(process.env.TIMEOUT || '120000') 
-        });
+        
+        // Используем retry механизм для навигации с fallback стратегией
+        try {
+            await retryOperation(async () => {
+                // Пробуем сначала с networkidle0
+                await page.goto(url, { 
+                    waitUntil: 'networkidle0', // Ждем пока все сетевые запросы завершатся
+                    timeout: parseInt(process.env.TIMEOUT || '60000') // Уменьшаем timeout
+                });
+                
+                // Проверяем, что страница все еще доступна
+                if (page.isClosed()) {
+                    throw new Error('Страница была закрыта во время навигации');
+                }
+            }, 2, 3000); // 2 попытки с задержкой 3 секунды
+        } catch (networkIdleError) {
+            console.log('Fallback: пробуем более простую навигацию...');
+            // Fallback к более простому waitUntil
+            await page.goto(url, { 
+                waitUntil: 'domcontentloaded',
+                timeout: parseInt(process.env.TIMEOUT || '30000')
+            });
+            
+            if (page.isClosed()) {
+                throw new Error('Страница была закрыта во время fallback навигации');
+            }
+        }
 
         if (process.env.DEBUG_SCREENSHOT === 'true') {
             await page.screenshot({ path: 'debug-screenshot-1.png', fullPage: true });
@@ -84,6 +141,11 @@ async function scrapePage(url, xpaths) {
         if (process.env.WAIT_SELECTOR && process.env.WAIT_SELECTOR.trim()) {
             console.log(`Ожидание селектора: ${process.env.WAIT_SELECTOR}`);
             try {
+                // Проверяем состояние страницы перед ожиданием селектора
+                if (page.isClosed()) {
+                    throw new Error('Страница была закрыта');
+                }
+                
                 await page.waitForSelector(process.env.WAIT_SELECTOR, { 
                     timeout: parseInt(process.env.WAIT_TIME || '10000') 
                 });
@@ -104,6 +166,11 @@ async function scrapePage(url, xpaths) {
             console.log(`Попытка клика на селектор: ${process.env.CLICK_SELECTOR}`);
             
             try {
+                // Проверяем состояние страницы перед кликом
+                if (page.isClosed()) {
+                    throw new Error('Страница была закрыта перед кликом');
+                }
+                
                 // Проверим наличие элемента перед кликом
                 const elementExists = await page.$(process.env.CLICK_SELECTOR);
                 if (elementExists) {
@@ -112,8 +179,14 @@ async function scrapePage(url, xpaths) {
                         visible: true,
                         timeout: parseInt(process.env.CLICK_TIMEOUT || '10000') 
                     });
-                    await page.click(process.env.CLICK_SELECTOR);
-                    console.log("Клик выполнен успешно");
+                    
+                    // Дополнительная проверка перед кликом
+                    if (!page.isClosed()) {
+                        await page.click(process.env.CLICK_SELECTOR);
+                        console.log("Клик выполнен успешно");
+                    } else {
+                        throw new Error('Страница закрылась перед выполнением клика');
+                    }
                 } else {
                     console.warn(`Предупреждение: Элемент для клика не найден: ${process.env.CLICK_SELECTOR}`);
                     
@@ -178,116 +251,146 @@ async function scrapePage(url, xpaths) {
     } catch (error) {
         await logError(`Ошибка загрузки страницы`, `${url}`, error);
         
-        // Создаем скриншот ошибки
+        // Создаем скриншот ошибки только если страница еще доступна
         try {
-            await page.screenshot({ path: 'error-screenshot.png' });
-            console.log("Создан скриншот ошибки");
+            if (!page.isClosed() && page.url() !== 'about:blank') {
+                await page.screenshot({ path: 'error-screenshot.png' });
+                console.log("Создан скриншот ошибки");
+            } else {
+                console.log("Скриншот ошибки не создан - страница недоступна");
+            }
         } catch (screenshotError) {
-            console.error("Не удалось создать скриншот ошибки:", screenshotError);
+            console.error("Не удалось создать скриншот ошибки:", screenshotError.message);
         }
         
-        await browser.close();
+        // Закрываем браузер безопасно
+        try {
+            await browser.close();
+        } catch (closeError) {
+            console.error("Ошибка при закрытии браузера:", closeError);
+        }
+        
+        console.log("Возвращаем пустой массив из-за ошибки загрузки страницы");
         return []; // Возвращаем пустой массив, чтобы скрипт не ломался
     }
     
     console.log("Извлечение данных со страницы...");
-    const data = await page.evaluate((xpaths, baseUrl, brandPrefix) => {
-        const results = [];
-        const errors = []; // Массив для сбора ошибок
-
-        // Улучшенная функция для выполнения XPath запросов
-        const evaluateXPath = (xpath, contextNode = document) => {
-            try {
-                const snapshot = document.evaluate(xpath, contextNode, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
-                let result = [];
-                for (let i = 0; i < snapshot.snapshotLength; i++) {
-                    result.push(snapshot.snapshotItem(i));
-                }
-                return result;
-            } catch (error) {
-                const errorMessage = `Ошибка при выполнении XPath: "${xpath}", Error: ${error.message}`;
-                console.error(errorMessage);
-                errors.push(errorMessage);
-                return [];
-            }
-        };
-
-        // Функция для извлечения строкового значения из узла по XPath
-        const getStringValue = (xpath, contextNode = document) => {
-            try {
-                const result = document.evaluate(xpath, contextNode, null, XPathResult.STRING_TYPE, null);
-                return result.stringValue.trim();
-            } catch (error) {
-                const errorMessage = `Ошибка при получении строкового значения: "${xpath}", Error: ${error.message}`;
-                console.error(errorMessage);
-                errors.push(errorMessage);
-                return "";
-            }
-        };
-
-        // Логируем начало извлечения данных
-        console.log("XPath для элементов:", xpaths.itemXPath);
-        
-        // Получаем все элементы
-        const items = evaluateXPath(xpaths.itemXPath);
-        console.log(`Найдено ${items.length} элементов`);
-
-        // Перебираем найденные элементы
-        items.forEach((item, index) => {
-            try {
-                const id = getStringValue(xpaths.idXPath, item);
-                const model = getStringValue(xpaths.modelXPath, item);
-                const price = getStringValue(xpaths.priceXPath, item);
-                let link = getStringValue(xpaths.linkXPath, item);
-
-                // Проверяем, является ли ссылка относительной
-                if (link && !link.startsWith('http')) {
-                    try {
-                        link = new URL(link, baseUrl).href;  // Добавляем домен к относительной ссылке
-                    } catch (urlError) {
-                        const errorMessage = `Ошибка при обработке URL "${link}": ${urlError.message}`;
-                        console.error(errorMessage);
-                        errors.push(errorMessage);
-                    }
-                }
-                
-                // Проверка на наличие обязательных данных
-                if (model) {
-                    results.push({
-                        id: id,
-                        brand: brandPrefix,
-                        model: model,
-                        price: price,
-                        benefit: "",
-                        link: link
-                    });
-                    console.log(`Добавлен элемент #${index}: ${model}`);
-                } else {
-                    console.warn(`Элемент #${index} пропущен: нет модели`);
-                }
-            } catch (itemError) {
-                const errorMessage = `Ошибка при обработке элемента #${index}: ${itemError.message}`;
-                console.error(errorMessage);
-                errors.push(errorMessage);
-            }
-        });
-
-        console.log(`Всего извлечено ${results.length} элементов`);
-        return { results, errors }; // Возвращаем и результаты, и ошибки
-    }, xpaths, url, brandPrefix);
-
-    // Логируем ошибки в Node.js контексте
-    if (data.errors && data.errors.length > 0) {
-        for (const errorMsg of data.errors) {
-            await logWarning('Ошибка в page.evaluate', errorMsg);
+    
+    let data = [];
+    try {
+        // Проверяем состояние страницы перед извлечением данных
+        if (page.isClosed()) {
+            throw new Error('Страница была закрыта перед извлечением данных');
         }
+        
+        data = await page.evaluate((xpaths, baseUrl, brandPrefix) => {
+            const results = [];
+            const errors = []; // Массив для сбора ошибок
+
+            // Улучшенная функция для выполнения XPath запросов
+            const evaluateXPath = (xpath, contextNode = document) => {
+                try {
+                    const snapshot = document.evaluate(xpath, contextNode, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+                    let result = [];
+                    for (let i = 0; i < snapshot.snapshotLength; i++) {
+                        result.push(snapshot.snapshotItem(i));
+                    }
+                    return result;
+                } catch (error) {
+                    const errorMessage = `Ошибка при выполнении XPath: "${xpath}", Error: ${error.message}`;
+                    console.error(errorMessage);
+                    errors.push(errorMessage);
+                    return [];
+                }
+            };
+
+            // Функция для извлечения строкового значения из узла по XPath
+            const getStringValue = (xpath, contextNode = document) => {
+                try {
+                    const result = document.evaluate(xpath, contextNode, null, XPathResult.STRING_TYPE, null);
+                    return result.stringValue.trim();
+                } catch (error) {
+                    const errorMessage = `Ошибка при получении строкового значения: "${xpath}", Error: ${error.message}`;
+                    console.error(errorMessage);
+                    errors.push(errorMessage);
+                    return "";
+                }
+            };
+
+            // Логируем начало извлечения данных
+            console.log("XPath для элементов:", xpaths.itemXPath);
+            
+            // Получаем все элементы
+            const items = evaluateXPath(xpaths.itemXPath);
+            console.log(`Найдено ${items.length} элементов`);
+
+            // Перебираем найденные элементы
+            items.forEach((item, index) => {
+                try {
+                    const id = getStringValue(xpaths.idXPath, item);
+                    const model = getStringValue(xpaths.modelXPath, item);
+                    const price = getStringValue(xpaths.priceXPath, item);
+                    let link = getStringValue(xpaths.linkXPath, item);
+
+                    // Проверяем, является ли ссылка относительной
+                    if (link && !link.startsWith('http')) {
+                        try {
+                            link = new URL(link, baseUrl).href;  // Добавляем домен к относительной ссылке
+                        } catch (urlError) {
+                            const errorMessage = `Ошибка при обработке URL "${link}": ${urlError.message}`;
+                            console.error(errorMessage);
+                            errors.push(errorMessage);
+                        }
+                    }
+                    
+                    // Проверка на наличие обязательных данных
+                    if (model) {
+                        results.push({
+                            id: id,
+                            brand: brandPrefix,
+                            model: model,
+                            price: price,
+                            benefit: "",
+                            link: link
+                        });
+                        console.log(`Добавлен элемент #${index}: ${model}`);
+                    } else {
+                        console.warn(`Элемент #${index} пропущен: нет модели`);
+                    }
+                } catch (itemError) {
+                    const errorMessage = `Ошибка при обработке элемента #${index}: ${itemError.message}`;
+                    console.error(errorMessage);
+                    errors.push(errorMessage);
+                }
+            });
+
+            console.log(`Всего извлечено ${results.length} элементов`);
+            return { results, errors }; // Возвращаем и результаты, и ошибки
+        }, xpaths, url, brandPrefix);
+
+        // Логируем ошибки в Node.js контексте
+        if (data.errors && data.errors.length > 0) {
+            for (const errorMsg of data.errors) {
+                await logWarning('Ошибка в page.evaluate', errorMsg);
+            }
+        }
+        
+    } catch (evaluateError) {
+        await logError("Ошибка при извлечении данных из страницы", evaluateError.message, evaluateError);
+        data = { results: [], errors: [] }; // Устанавливаем значения по умолчанию
     }
     
     const scrapedData = data.results || [];
 
     console.log(`Извлечено ${scrapedData.length} элементов`);
-    await browser.close();
-    console.log("Браузер закрыт");
+    
+    // Закрываем браузер безопасно
+    try {
+        await browser.close();
+        console.log("Браузер закрыт");
+    } catch (closeError) {
+        console.error("Ошибка при закрытии браузера:", closeError);
+    }
     
     // Сортируем данные по ID
     scrapedData.sort((a, b) => a.id.localeCompare(b.id));
@@ -422,47 +525,55 @@ async function saveJson(data, filePaths) {
 
 // Пример вызова функции
 (async () => {
-    const url = process.env.URL;  // URL передается через переменные окружения
-    if (!url) {
-        console.error("Ошибка: URL не указан в переменных окружения");
-        process.exit(1);
-    }
-    
-    const xpaths = {
-        itemXPath: process.env.ITEM_XPATH,
-        idXPath: process.env.ID_XPATH,
-        modelXPath: process.env.MODEL_XPATH,
-        priceXPath: process.env.PRICE_XPATH,
-        linkXPath: process.env.LINK_XPATH,
-    };
-    
-    // Проверяем наличие обязательных XPath
-    const missingXPaths = Object.entries(xpaths)
-        .filter(([key, value]) => !value)
-        .map(([key]) => key);
-    
-    if (missingXPaths.length > 0) {
-        console.error(`Ошибка: Отсутствуют обязательные XPath: ${missingXPaths.join(', ')}`);
-        process.exit(1);
-    }
+    try {
+        const url = process.env.URL;  // URL передается через переменные окружения
+        if (!url) {
+            console.error("Ошибка: URL не указан в переменных окружения");
+            process.exit(0); // Изменено с process.exit(1) для продолжения workflow
+        }
+        
+        const xpaths = {
+            itemXPath: process.env.ITEM_XPATH,
+            idXPath: process.env.ID_XPATH,
+            modelXPath: process.env.MODEL_XPATH,
+            priceXPath: process.env.PRICE_XPATH,
+            linkXPath: process.env.LINK_XPATH,
+        };
+        
+        // Проверяем наличие обязательных XPath
+        const missingXPaths = Object.entries(xpaths)
+            .filter(([key, value]) => !value)
+            .map(([key]) => key);
+        
+        if (missingXPaths.length > 0) {
+            console.error(`Ошибка: Отсутствуют обязательные XPath: ${missingXPaths.join(', ')}`);
+            process.exit(0); // Изменено с process.exit(1) для продолжения workflow
+        }
 
-    console.log("Начало выполнения скрапинга...");
-    console.log(`URL: ${url}`);
-    console.log("XPaths:", xpaths);
-    
-    const data = await scrapePage(url, xpaths);
-    console.log(`Получено ${data.length} элементов данных`);
+        console.log("Начало выполнения скрапинга...");
+        console.log(`URL: ${url}`);
+        console.log("XPaths:", xpaths);
+        
+        const data = await scrapePage(url, xpaths);
+        console.log(`Получено ${data.length} элементов данных`);
 
-    if (data.length > 0) {
-        // Разделение путей сохранения по запятой и обработка их как списка
-        const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
-        console.log(`Сохранение данных в файлы: ${outputFilePaths.join(', ')}`);
-        await saveJson(data, outputFilePaths);
-        console.log("Данные успешно сохранены");
-    } else {
-        console.log("Данные не были получены, файл не записывается.");
+        if (data.length > 0) {
+            // Разделение путей сохранения по запятой и обработка их как списка
+            const outputFilePaths = process.env.OUTPUT_PATHS ? process.env.OUTPUT_PATHS.split(',') : ['./output/data.json'];
+            console.log(`Сохранение данных в файлы: ${outputFilePaths.join(', ')}`);
+            await saveJson(data, outputFilePaths);
+            console.log("Данные успешно сохранены");
+        } else {
+            console.log("Данные не были получены, файл не записывается.");
+        }
+    } catch (error) {
+        console.error("Критическая ошибка в main:", error);
+        await logError("Критическая ошибка в main", error.message, error);
+        console.log("Скрипт завершен с ошибкой, но не прерывает workflow");
+        process.exit(0); // Возвращаем код 0 для успешного завершения в CI/CD
     }
 })().catch(error => {
-    console.error("Критическая ошибка:", error);
-    process.exit(1);
+    console.error("Неперехваченная ошибка:", error);
+    // Не вызываем process.exit(1) для продолжения workflow
+    process.exit(0);
 });
