@@ -2164,7 +2164,8 @@
                 "Синий": "blue.webp",
                 "Silver": "silver.webp",
                 "Серебристый": "silver.webp",
-                "Зеленый": "green.webp"
+                "Зеленый": "green.webp",
+                "Зелёный": "green.webp"
             }
         },
         "S07": {
@@ -2174,6 +2175,7 @@
             "color": {
                 "Black": "black.webp",
                 "Черный": "black.webp",
+                "Чёрный": "black.webp",
                 "Gray": "gray.webp",
                 "Серый": "gray.webp",
                 "White": "white.webp",
