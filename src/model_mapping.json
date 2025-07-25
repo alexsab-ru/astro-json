@@ -187,6 +187,22 @@
 
             }
         },
+        "Atlas": {
+            "short": "Atlas",
+            "folder": "Atlas-2024",
+            "cyrillic": "Атлас",
+            "color": {
+                "Черный": "black-metallic.webp",
+                "Черный/черный": "black-metallic.webp",
+                "Серебристый": "silver-metallic.webp",
+                "Серый": "silver-metallic.webp",
+                "Синий": "starry-blue-metallic.webp",
+                "Серо-голубой": "starry-blue-metallic.webp",
+                "Белый": "white.webp",
+                "Зелёный": "racing-green.webp",
+                "Зеленый": "racing-green.webp"
+            }
+        },
         "Atlas, II": {
             "short": "Atlas",
             "folder": "Atlas-2024",
@@ -201,6 +217,20 @@
                 "Белый": "white.webp",
                 "Зелёный": "racing-green.webp",
                 "Зеленый": "racing-green.webp"
+            }
+        },
+        "Coolray": {
+            "short": "Coolray",
+            "folder": "New Coolray",
+            "cyrillic": "Кулрей",
+            "color": {
+                "Красный": "bright-vermilion.webp",
+                "Белый": "crystal-white.webp",
+                "Синий": "cyber-blue.webp",
+                "Голубой": "cyber-blue.webp",
+                "Серый": "magnetic-grey.webp",
+                "Серый металлик": "magnetic-grey.webp",
+                "Серебристый": "unicorn-grey.webp"
             }
         },
         "Coolray, I Рестайлинг": {
@@ -238,6 +268,23 @@
                 "Синий": "blue-metallic.webp",
                 "Золотой": "gold-metallic.webp",
                 "Серый": "gray-metallic.webp",
+                "Белый": "white-metallic.webp"
+            }
+        },
+        "Emgrand": {
+            "short": "Emgrand",
+            "folder": "Emgrand",
+            "cyrillic": "Эмгранд",
+            "color": {
+                "Черный": "black-metallic.webp",
+                "Темно-синий": "blue-metallic.webp",
+                "Синий": "blue-metallic.webp",
+                "Желтый": "gold-metallic.webp",
+                "Золотой": "gold-metallic.webp",
+                "Бежевый": "gold-metallic.webp",
+                "Оранжевый": "gold-metallic.webp",
+                "Серый": "gray-metallic.webp",
+                "Серо-голубой": "gray-blue-metallic.webp",
                 "Белый": "white-metallic.webp"
             }
         },
@@ -322,6 +369,26 @@
                 "Серый": "gray-metallic.webp",
                 "Серый металлик": "gray-metallic.webp",
                 "Белый": "white-metallic.webp"
+            }
+        },
+        "Preface": {
+            "short": "Preface",
+            "folder": "Preface",
+            "cyrillic": "Префейс",
+            "color": {
+                "Black": "black.webp",
+                "Черный": "black.webp",
+                "Gray-blue": "gray-blue.webp",
+                "Серо-голубой": "gray-blue.webp",
+                "Голубой": "gray-blue.webp",
+                "Gray-purple": "gray-purple.webp",
+                "Серо-фиолетовый": "gray-purple.webp",
+                "Gray": "gray.webp",
+                "Серый": "gray.webp",
+                "Green": "green.webp",
+                "Зеленый": "green.webp",
+                "White": "white.webp",
+                "Белый": "white.webp"
             }
         },
         "Preface, I Рестайлинг 2": {
