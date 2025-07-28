@@ -6,7 +6,7 @@
         "work_hours": "Пн-пт: 9:00 - 19:00<br>Сб-вс: 9:00 - 16:00",
         "map": {
             "zoom": 14,
-            "balloon": "/img/auto_team-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/locator/auto_team-locator.svg",
             "coords": [51.983505,47.796614],
             "ya_link": "https://yandex.ru/maps/11143/balakovo/?ll=47.796626%2C51.983604&mode=routes&rtext=~51.983505%2C47.796614&rtt=auto&ruri=~&z=17.03"
         }

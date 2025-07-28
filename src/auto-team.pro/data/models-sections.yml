@@ -15,22 +15,22 @@
       title: Для бесконечного вдохновения
       text: "<p>X50 — это воплощение атлетической красоты и дерзкого характера. Его динамичный и яркий облик разработан международной командой дизайнеров, которые стремились создать стильный и манёвренный городской кроссовер.</p>"
       images:
-        - url: /img/models/belgee/x50/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/1.webp
     - id: design
       sectionClass: "bg-gray-100"
       title: Дизайн
       text: ""
       images:
-        - url: /img/models/belgee/x50/sections/design/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/design/1.webp
           title: Экстерьер
           description: Стремительный силуэт X50 отражает его дерзкий характер, демонстрируя энергичность и молодость. Чёткие и стремительные линии кузова символизируют смелость кроссовера, словно готового вырваться за пределы возможного.
-        - url: /img/models/belgee/x50/sections/design/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/design/2.webp
           title: Интерьер
           description: Просторный салон X50, выполненный в современном элегантном стиле, позволит вам наслаждаться тишиной во время каждой поездки. Благодаря оригинальным дизайнерским решениям и высококачественным материалам, этот автомобиль подарит эстетическое наслаждение даже самым взыскательным автолюбителям и обеспечит максимальный комфорт.
-        - url: /img/models/belgee/x50/sections/design/3.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/design/3.webp
           title: Светодиодные фары
           description: Светодиодные дневные ходовые огни придают спортивность облику X50. Высокотехнологичные светодиодные фары обеспечивают превосходную видимость в тёмное время суток. Отдельные светодиодные противотуманные фары с функцией подсветки поворотов способствуют повышению безопасности управления автомобилем в сложных погодных условиях.
-        - url: /img/models/belgee/x50/sections/design/4.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/design/4.webp
           title: Светодиодные фонари
           description: Задняя часть X50 обладает неповторимым стилем и индивидуальностью, которые подчёркиваются уникальными светодиодными фонарями. Они обеспечивают безопасность движения в любое время суток и при любых погодных условиях.
     - id: engine
@@ -38,13 +38,13 @@
       title: Двигатель и трансмиссия
       text: ""
       images:
-        - url: /img/models/belgee/x50/sections/engine/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/engine/1.webp
           title: Двигатель
           description: Вождение X50 подарит вам массу ярких эмоций. На кроссовере установлен турбированный мотор объёмом 1,5 литра и крутящим моментом 255 Н·м — двигатель, который обеспечивает автомобилю невероятную динамику.
-        - url: /img/models/belgee/x50/sections/engine/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/engine/2.webp
           title: Коробка передач
           description: X50 оборудован семиступенчатой преселективной автоматической коробкой передач с двумя «мокрыми» сцеплениями и масляной системой охлаждения (7DCT). Эта инновационная КПП обеспечивает быстрое и точное переключение передач, позволяя автомобилю разгоняться без задержек и замедляться плавно. Она также помогает экономить топливо и отличается высокой надёжностью.
-        - url: /img/models/belgee/x50/sections/engine/3.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/engine/3.webp
           title: Режимы движения
           description: "X50 предлагает три режима движения: Comfort, Eco и Sport. В каждом из них настройки рулевого управления, двигателя и коробки передач адаптируются соответствующим образом."
     - id: comfort
@@ -52,19 +52,19 @@
       title: Комфорт
       text: ""
       images:
-        - url: /img/models/belgee/x50/sections/comfort/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/comfort/1.webp
           title: Климат-контроль
           description: Система климат-контроля имеет простое и интуитивное управление, которое автоматически поддерживает заданную температуру. Она позволит создать комфортные условия в поездке на длительное расстояние.
-        - url: /img/models/belgee/x50/sections/comfort/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/comfort/2.webp
           title: Сиденье водителя с электроприводом
           description: Эргономичное сиденье в спортивном стиле регулируется в 6 направлениях. Настройте его под себя для максимального удобства с помощью сервоприводов. Функция предусмотрена только в комплектации Prestige.
-        - url: /img/models/belgee/x50/sections/comfort/3.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/comfort/3.webp
           title: «Зимние» опции
           description: X50 подготовлен к комфортной эксплуатации в холодное время года. Он имеет электрический подогрев передних и задних сидений, а также подогрев рулевого колеса, боковых зеркал, форсунок переднего стеклоомывателя и зоны покоя щеток переднего стеклоочистителя.
-        - url: /img/models/belgee/x50/sections/comfort/4.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/comfort/4.webp
           title: Задние сиденья
           description: Задние пассажирские места удобнее и просторнее, чем можно представить в компактном автомобиле. Двое здесь с комфортом разместятся благодаря большому пространству в области головы и ног и центральному подлокотнику, а при необходимости сиденье примет и трех пассажиров. Для перевозки крупных вещей оно может раздельно складываться в пропорции 60:40.
-        - url: /img/models/belgee/x50/sections/comfort/5.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/comfort/5.webp
           title: Просторное багажное отделение
           description: Просторное багажное отделение с органайзером и отсеками для хранения. Конструкция с ровным полом и оптимальной погрузочной высотой позволяет удобно разместить все необходимое.
     - id: security
@@ -72,19 +72,19 @@
       title: Безопасность
       text: ""
       images: 
-        - url: /img/models/belgee/x50/sections/security/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/security/1.webp
           title: Пассивная безопасность
           description: В X50 используются новейшие технологии в области пассивной безопасности. 70 % элементов кузова выполнены из высокопрочной стали, а ещё 20 % — из стали, полученной методом горячей штамповки. Благодаря многочисленным испытаниям конструкция автомобиля обеспечивает надёжность и долговечность.
-        - url: /img/models/belgee/x50/sections/security/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/security/2.webp
           title: Активная безопасность
           description: Базовая комплектация X50 включает более десяти передовых систем активной безопасности. Среди них высокоэффективный комплекс управления тормозами, состоящий из систем стабилизации курсовой устойчивости и динамического контроля тяги, а также антипробуксовочная и противооткатная системы.
-        - url: /img/models/belgee/x50/sections/security/3.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/security/3.webp
           title: Подушки безопасности
           description: В X50 предусмотрены шесть подушек безопасности и преднатяжители ремней безопасности. Педаль тормоза и рулевое колесо сконструированы таким образом, чтобы минимизировать риск получения травм при аварии. Для обеспечения безопасности во время ДТП в автомобиле установлены аварийная система разблокировки дверей и механизм отключения подачи топлива.
-        - url: /img/models/belgee/x50/sections/security/4.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/security/4.webp
           title: Система контроля слепых зон (BSD)
           description: Система контроля слепых зон (BSD) обнаруживает автомобили, которые приближаются к вашему транспортному средству сзади справа или слева, облегчая процесс перестроения из одной полосы в другую. Усовершенствованная система мониторинга столкновений подаёт звуковые и световые предупреждения на встроенном индикаторе в зеркале.
-        - url: /img/models/belgee/x50/sections/security/5.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/security/5.webp
           title: Видеорегистратор
           description: X50 оборудован встроенным четырёхканальным видеорегистратором. Этот инновационный прибор обеспечивает всестороннюю защиту и контроль над происходящим на дороге благодаря четырём камерам, которые фиксируют всё вокруг вашего автомобиля. Удобный и понятный интерфейс позволяет легко настроить параметры съёмки и просматривать записанные материалы. Кроме того, видеорегистратор поддерживает карты памяти большого объёма, что даёт возможность хранить множество видеофайлов.
     - id: functionality
@@ -92,25 +92,25 @@
       title: Функциональность
       text: ""
       images: 
-        - url: /img/models/belgee/x50/sections/functionality/1.gif
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/functionality/1.gif
           title: Цифровая приборная панель
           description: 7-дюймовая приборная панель X50 меняет свой дизайн в зависимости от выбранного режима вождения. Яркие цвета привлекают внимание и поднимают настроение.
-        - url: /img/models/belgee/x50/sections/functionality/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/functionality/2.webp
           title: Мультимедийный сенсорный экран
           description: Управление мультимедийными функциями и контроль некоторых параметров автомобиля осуществляются простым алгоритмом. Сенсорный экран диагональю 10,25 дюйма в салоне X50 быстро реагирует на прикосновения. Высокое разрешение гарантирует чёткое изображение с хорошей детализацией. Слушайте любимые треки с телефона или другого устройства через Bluetooth* и наслаждайтесь качественным звуком. <br /><sup>*</sup> Технология беспроводной передачи данных между устройствами на расстоянии до нескольких десятков метров.
-        - url: /img/models/belgee/x50/sections/functionality/3.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/functionality/3.webp
           title: Система камер кругового обзора 360°
           description: Благодаря четырём камерам, установленным в корпусах боковых зеркал, на двери багажника и в радиаторной решетке, мультимедийная система X50 отображает вид спереди и сзади, а также создаёт виртуальный вид сверху, позволяющий оценить положение автомобиля и окружающих объектов. Система улучшает манёвренность в ограниченном пространстве, повышая комфорт и безопасность.
-        - url: /img/models/belgee/x50/sections/functionality/4.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/functionality/4.webp
           title: Панорамная крыша с люком
           description: Панорамная крыша со сдвигающимся электрическим люком наполняет интерьер большим количеством света и пространства. Она способствует получению ещё более ярких впечатлений от поездок, поскольку всегда приятно восхищаться небом в течение дня или наблюдать за мерцающими звёздами ночью.
-        - url: /img/models/belgee/x50/sections/functionality/5.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/functionality/5.webp
           title: Атмосферная подсветка интерьера
           description: Атмосферная подсветка интерьера автомобиля создаёт особую атмосферу уюта и комфорта внутри салона. Она мягко освещает пространство, подчёркивая элегантность линий и форм, и добавляет изысканности интерьеру. Разнообразие цветовых схем и режимов освещения позволяет настроить атмосферу в автомобиле под настроение или ситуацию, создавая неповторимую атмосферу.
-        - url: /img/models/belgee/x50/sections/functionality/6.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/functionality/6.webp
           title: Система автоматической парковки (APA)
           description: "Функция ассистента автоматической парковки позволяет осуществлять параллельную и поперечную парковку простым нажатием кнопки. Выбирайте любой из 4 режимов маневрирования: поперечную или параллельную парковку, на правую или на левую сторону."
-        - url: /img/models/belgee/x50/sections/functionality/7.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/functionality/7.webp
           title: Интеграция смартфона
           description: Одна из важных особенностей мультимедийной системы X50 — способность подключать мобильные устройства с помощью фирменного интерфейса. Для интеграции нужно установить бесплатное приложение QDLink и соединить смартфон USB-проводом с системой. На тачскрине мультимедиа «зеркально» отображается экран мобильного телефона, что позволяет пользоваться всеми его приложениями, включая навигационные сервисы.
     - id: gallery
@@ -118,37 +118,37 @@
       title: Галерея
       text: ""
       images:  
-        - url: /img/models/belgee/x50/sections/gallery/1.webp   
-        - url: /img/models/belgee/x50/sections/gallery/2.webp   
-        - url: /img/models/belgee/x50/sections/gallery/3.webp   
-        - url: /img/models/belgee/x50/sections/gallery/4.webp   
-        - url: /img/models/belgee/x50/sections/gallery/5.webp   
-        - url: /img/models/belgee/x50/sections/gallery/6.webp   
-        - url: /img/models/belgee/x50/sections/gallery/7.webp   
-        - url: /img/models/belgee/x50/sections/gallery/8.webp   
-        - url: /img/models/belgee/x50/sections/gallery/9.webp   
-        - url: /img/models/belgee/x50/sections/gallery/10.webp   
-        - url: /img/models/belgee/x50/sections/gallery/11.webp   
-        - url: /img/models/belgee/x50/sections/gallery/12.webp   
-        - url: /img/models/belgee/x50/sections/gallery/13.webp   
-        - url: /img/models/belgee/x50/sections/gallery/14.webp   
-        - url: /img/models/belgee/x50/sections/gallery/15.webp   
-        - url: /img/models/belgee/x50/sections/gallery/16.webp   
-        - url: /img/models/belgee/x50/sections/gallery/17.webp   
-        - url: /img/models/belgee/x50/sections/gallery/18.webp   
-        - url: /img/models/belgee/x50/sections/gallery/19.webp   
-        - url: /img/models/belgee/x50/sections/gallery/20.webp   
-        - url: /img/models/belgee/x50/sections/gallery/21.webp   
-        - url: /img/models/belgee/x50/sections/gallery/22.webp   
-        - url: /img/models/belgee/x50/sections/gallery/23.webp   
-        - url: /img/models/belgee/x50/sections/gallery/24.webp   
-        - url: /img/models/belgee/x50/sections/gallery/25.webp   
-        - url: /img/models/belgee/x50/sections/gallery/26.webp   
-        - url: /img/models/belgee/x50/sections/gallery/27.webp   
-        - url: /img/models/belgee/x50/sections/gallery/28.webp   
-        - url: /img/models/belgee/x50/sections/gallery/29.webp   
-        - url: /img/models/belgee/x50/sections/gallery/31.webp   
-        - url: /img/models/belgee/x50/sections/gallery/32.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/1.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/2.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/3.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/4.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/5.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/6.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/7.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/8.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/9.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/10.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/11.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/12.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/13.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/14.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/15.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/16.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/17.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/18.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/19.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/20.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/21.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/22.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/23.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/24.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/25.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/26.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/27.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/28.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/29.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/31.webp   
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x50/sections/gallery/32.webp
 - id: x70
   sections:
     - id: items
@@ -166,22 +166,22 @@
       title: Для бесконечного вдохновения
       text: "<p>X70 — это универсальный среднеразмерный кроссовер, сочетающий в себе элегантность и функциональность. Классический дизайн, надежность и современные технологии делают его идеальным выбором для ежедневных поездок и семейных путешествий.</p>"
       images:
-        - url: /img/models/belgee/x70/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/1.webp
     - id: design
       sectionClass: "bg-gray-100"
       title: Дизайн
       text: ""
       images:
-        - url: /img/models/belgee/x70/sections/design/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/design/1.webp
           title: Экстерьер
           description: X70 сочетает в себе комбинацию европейских технологий и современной эстетики. Кроссовер имеет атлетичные линии капота, которые придают ему лёгкость и стремительность. Лаконичный и уверенный профиль создаёт ощущение силы и решительности. Концентрическая решётка радиатора завершает цельный и мужественный образ Х70.
-        - url: /img/models/belgee/x70/sections/design/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/design/2.webp
           title: Интерьер
           description: Внутри автомобиль выглядит лаконичного и брутально. В интерьере использованы современные высококачественные материалы и искусно подобранные текстуры. Высококонтрастный сенсорный экран мультимедиа размером 12,3 дюйма, огромная панорамная крыша площадью около 1,2 квадратных метров и 42-цветная атмосферная подсветка, меняющаяся в зависимости от режима вождения, создают комфортную атмосферу для водителя и пассажиров.
-        - url: /img/models/belgee/x70/sections/design/3.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/design/3.webp
           title: Светодиодные фары
           description: X70 оснащен мощными светодиодными фарами способными освещать объекты, находящиеся на дальнем расстоянии — до 220 м от автомобиля (+ 70 м, по сравнению с галогеновыми фарами). Система интеллектуального управления автоматически переключает дальний свет на ближний при приближении к встречному или попутному автомобилю. Ресурс фар увеличен до 50 000 часов непрерывной работы и, по сравнению с галогенной оптикой, они обеспечивают до 40% экономии энергии.
-        - url: /img/models/belgee/x70/sections/design/4.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/design/4.webp
           title: Светодиодные фонари
           description: Плавные линии и изящные формы светодиодных фонарей подчёркивают индивидуальность и характер X70. Благодаря современным материалам и технологиям, эти фонари обеспечивают высокую яркость и равномерное распределение света, делая ваш автомобиль видимым на дороге даже в условиях недостаточной освещённости.
     - id: engine
@@ -189,16 +189,16 @@
       title: Двигатель и трансмиссия
       text: ""
       images:
-        - url: /img/models/belgee/x70/sections/engine/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/engine/1.webp
           title: Двигатель
           description: X70 установлен бензиновый двигатель рабочим объемом 1,5 л, развивающий мощность от 150 до 177 л.с. и крутящий момент до 255 Нм. Благодаря непосредственному впрыску под высоким давлением (200 бар) двигатель очень экономичен. Применение низкоинерционной турбины позволило практически избавиться от эффекта «турбоямы». При этом двигатель отличается удивительно низким уровнем шума и вибраций.
-        - url: /img/models/belgee/x70/sections/engine/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/engine/2.webp
           title: Коробка передач
           description: "В связке с мощным двигателем на X70 предлагаются два типа автоматических коробок передач: 7-ступенчатая преселективная (7DCT) для модификации с полным приводом и 6-ступенчатая гидромеханическая (6АТ) для модификации с передним приводом. Высокоэффективная 7-ступенчатая преселективная трансмиссия (7DCT) с двумя сцеплениями мокрого типа рассчитана на передачу высокого крутящего момента, отличается высоким быстродействием (время переключения — 0,2 с) и заметно улучшает топливную экономичность. 6-ступенчатая автоматическая коробка передач с гидротрансформатором (6АТ) — классический «автомат», облегчающий управление автомобилем, благодаря плавному переключению передач. Современная электроника обеспечивает высокую энергоэффективность и удобство вождения."
-        - url: /img/models/belgee/x70/sections/engine/3.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/engine/3.webp
           title: Интеллектуальный полный привод
           description: "X70 – имеет современную систему полного привода с многодисковой муфтой, автоматически перераспределяющей крутящий момент между передними и задними колесами. При выборе режима Offroad автоматически меняется алгоритм управления силовой установкой и трансмиссией для повышения проходимости. Полный привод X70 поможет уверенно и безопасно двигаться по скользкой трассе в снег и дождь, или добраться до нужного места там, где кончается асфальт."
-        - url: /img/models/belgee/x70/sections/engine/4.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/engine/4.webp
           title: Система мягкого гибрида
           description: "В полноприводном X70 применена инновационная система мягкого гибрида 48V EMS (Electric Motor Synergy). В её состав входят приводной стартер-генератор, конвертер, 48-вольтовая литий-ионная батарея и блок управления рекуперацией. В определенных режимах движения система улучшает разгонную динамику автомобиля за счет дополнительного крутящего момента (+ 50 Нм), а также обеспечивает до 15% экономии топлива. Батарея заряжается автоматически при работе двигателя внутреннего сгорания и в режиме рекуперации энергии при торможении. Система обладает функцией «старт-стоп», которая выключает и мгновенно запускает двигатель в пробках, а также поддерживает экономичный режим движения накатом."
     - id: comfort
@@ -206,19 +206,19 @@
       title: Комфорт
       text: ""
       images:
-        - url: /img/models/belgee/x70/sections/comfort/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/comfort/1.webp
           title: Климат-контроль
           description: X70 оснащен системой автоматического поддержания заданной температуры в салоне с двумя зонами. Блок климат-контроля эргономично размещен на центральной консоли под экраном мультимедиа и выполнен на высоком эстетическом уровне — с так называемыми «рояльными» клавишами. Пользоваться ими очень удобно и приятно. Здесь также включаются электрообогрев зоны покоя стеклоочистителей и форсунок стеклоомывателя лобового стекла, зеркал и заднего стекла. Управление функциями подогрева сидений и рулевого колеса в соответствии с современными тенденциями вынесено на мультимедийный экран.
-        - url: /img/models/belgee/x70/sections/comfort/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/comfort/2.webp
           title: Сиденье водителя с электроприводом
           description: Эргономичное сиденье водителя регулируется в 6 направлениях. Настройте его под себя для максимального удобства с помощью сервоприводов и удобства во время длительных поездок.
-        - url: /img/models/belgee/x70/sections/comfort/3.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/comfort/3.webp
           title: «Зимние» опции
           description: X70 подготовлен к комфортной эксплуатации не только в теплое, но и холодное время года. Во всех комплектациях он имеет электрический подогрев подушек и спинок, как передних, так и задних сидений, а также подогрев рулевого колеса, боковых зеркал, форсунок переднего стеклоомывателя и зоны покоя щеток переднего стеклоочистителя.
-        - url: /img/models/belgee/x70/sections/comfort/4.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/comfort/4.webp
           title: Задние сиденья
           description: Задние сиденья X70 обеспечивают непревзойденный комфорт и имеют регулировку спинок по углу наклона. Для пассажиров второго ряда имеются отдельные дефлекторы системы кондиционирования, подлокотник, USB-порты для зарядки, а также кнопки включения подогревов двух боковых сидений. Кроме того, его можно разделить на две части в соотношении 60:40, что облегчает перевозку крупногабаритных предметов.
-        - url: /img/models/belgee/x70/sections/comfort/5.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/comfort/5.webp
           title: Просторное багажное отделение
           description: Багажное отделение имеет достаточно большой объем (378 л под шторкой) и удобную конфигурацию. При сложенных задних сиденьях его пространство дополнительно увеличивается. Шторка легко перемещается по направляющим. Дверь багажного отделения X70 получила электропривод, которым можно управлять из салона, кнопкой на задней двери и дистанционно с ключа.
     - id: security
@@ -226,19 +226,19 @@
       title: Безопасность
       text: ""
       images: 
-        - url: /img/models/belgee/x70/sections/security/1.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/security/1.webp
           title: Cистемы активной и пассивной безопасности
           description: Система распознавания дорожных знаков обеспечивает безопасность и комфорт на дорогах. Она представляет собой комплекс электронных устройств, способных анализировать информацию о дорожных знаках и предупреждать водителя о возможных опасностях или изменениях в правилах движения. Благодаря этой системе, водитель всегда будет в курсе актуальных дорожных условий и сможет своевременно реагировать на изменения ситуации на дороге.
-        - url: /img/models/belgee/x70/sections/security/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/security/2.webp
           title: Интеллектуальный круиз-контроль (ICC)
           description: X70 предлагаетcя с широким набором инновационных систем активной безопасности и помощи водителю, входящих в комплекс ADAS. Одна из таких систем — интеллектуальный круиз-контроль — он поддерживает дистанцию до впередиидущего автомобиля, автоматически замедляя и ускоряя X70. Она способна полностью остановить автомобиль и автоматически возобновить движение, сохраняя свои функции даже в поворотах радиусом не менее 250 м. При этом система исключает слишком резкое замедление для снижения риска возникновения опасной дорожной ситуации.
-        - url: /img/models/belgee/x70/sections/security/3.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/security/3.webp
           title: Система удержания автомобиля в полосе движения (LKA)
           description: Система LKA предотвращает аварийные ситуации, связанные с выездом из занимаемой полосы, и при помощи электроусилителя руля корректирует автомобиль таким образом, чтобы он ехал ровно посередине полосы движения — при наличии чёткой разметки по обеим её сторонам.
-        - url: /img/models/belgee/x70/sections/security/4.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/security/4.webp
           title: Система автоматического экстренного торможения (AEB)
           description: Система автоматического экстренного торможения (AEB), установленная на X70, призвана предупредить водителя о риске фронтального столкновения с другим автомобилем (или иным препятствием на дороге, вкл. пешехода) и автоматически затормозить автомобиль в экстренной ситуации. Для этого система снабжена радаром, определяющим расстояние до препятствия, и камерой, распознающей объект на дороге. Эти два блока дополняют друг друга и работают совместно, а компьютер, установленный в автомобиле, самостоятельно оценивает потенциальную опасность в возникшей ситуации. Таким образом система АЕВ при определенных условиях и на скоростях до 50 км/ч способна предотвращать аварии, которые чаще всего случаются в городе.
-        - url: /img/models/belgee/x70/sections/security/5.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/security/5.webp
           title: Система распознавания дорожных знаков (SLIF)
           description: Система распознавания дорожных знаков обеспечивает безопасность и комфорт на дорогах. Она представляет собой комплекс электронных устройств, способных анализировать информацию о дорожных знаках и предупреждать водителя о возможных опасностях или изменениях в правилах движения. Благодаря этой системе, водитель всегда будет в курсе актуальных дорожных условий и сможет своевременно реагировать на изменения ситуации на дороге.
     - id: functionality
@@ -246,25 +246,25 @@
       title: Функциональность
       text: ""
       images: 
-        - url: /img/models/belgee/x70/sections/functionality/1.gif
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/functionality/1.gif
           title: Цифровая приборная панель
           description: 7-дюймовая приборная панель X70 меняет свой дизайн в зависимости от выбранного режима вождения, вся необходимая информация считывается без труда.
-        - url: /img/models/belgee/x70/sections/functionality/2.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/functionality/2.webp
           title: Мультимедийный сенсорный экран
           description: Информационно-развлекательная система X70 — это то, что впечатляет уже при первом знакомстве с автомобилем. Огромный, 12,3-дюймовый цветной сенсорный экран отличается современной графикой, высокой контрастностью (1MP, 720 пикселей), а также способностью реагировать даже на касания влажных пальцев и рук в перчатках. За качественное звучание аудиосистемы отвечают 8 динамиков, а за приподнятое настроение — 42-цветная система атмосферной подсветки салона, которая может работать в такт воспроизводимой музыке.
-        - url: /img/models/belgee/x70/sections/functionality/3.gif
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/functionality/3.gif
           title: Система камер кругового обзора 360°
           description: Благодаря четырем камерам, расположенным в корпусах боковых зеркал, на дверце багажника и в облицовке радиатора на экране мультимедиа X70 демонстрируется вид спереди и сзади, а также синтезируется виртуальный вид сверху, который позволяет оценивать положение автомобиля и находящихся вокруг объектов. Такой круговой обзор на 360° облегчает маневрирование в стесненных условиях, повышая комфорт и безопасность.
-        - url: /img/models/belgee/x70/sections/functionality/4.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/functionality/4.webp
           title: Панорамная крыша с люком
           description: Панорамная крыша с люком создаёт ощущение простора и наполняет салон естественным светом, обеспечивая великолепный обзор и улучшая эстетическое восприятие автомобиля. Люк позволяет наслаждаться свежим воздухом и солнечными лучами, обеспечивая дополнительную вентиляцию и создавая комфортную атмосферу внутри автомобиля.
-        - url: /img/models/belgee/x70/sections/functionality/5.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/functionality/5.webp
           title: Беспроводная зарядка
           description: Беспроводная зарядка смартфонов — актуальное решение для современного автомобиля. В X70 для этого предусмотрена специальная площадка на передней консоли. Зарядка работает с телефонами, поддерживающими эту функцию.
-        - url: /img/models/belgee/x70/sections/functionality/6.gif
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/functionality/6.gif
           title: Интеллектуальная система управления дальним светом (IHBC)
           description: "Интеллектуальная система управления дальним светом анализирует ситуацию по многим факторам и автоматически переключает дальний свет на ближний и обратно, повышая безопасность езды в темное время суток. Режим работы фар меняется не только при приближении к встречному или попутному автомобилю, но и в зависимости от условий освещённости дороги и скорости движения X70."
-        - url: /img/models/belgee/x70/sections/functionality/7.webp
+        - url: https://cdn.alexsab.ru/b/belgee/img/models/x70/sections/functionality/7.webp
           title: Интеграция смартфона
           description: Одна из важных особенностей мультимедийной системы X70 — способность подключать мобильные устройства с помощью фирменного интерфейса. Для интеграции нужно установить бесплатное приложение QDLink и соединить смартфон USB-проводом с системой. На тачскрине мультимедиа «зеркально» отображается экран мобильного телефона, что позволяет пользоваться всеми его приложениями, включая навигационные сервисы.
 - id: "001"
@@ -282,88 +282,88 @@
         - icon: mdi:gas-station-outline
           text: Ср. расход топлива - 8,1 л / 100 км
       images:
-        - url: /img/models/knewstar/001/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/1.webp
     - id: design
       sectionClass: "bg-gray-100"
       title: Дизайн и архитектура
       images:
-        - url: /img/models/knewstar/001/sections/design/1.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/design/1.webp
           title: "Экстерьер"
           description: "Выразительный силуэт кросс-купе KNEWSTAR 001 заметен в потоке с первого взгляда. Спортивный характер автомобиля подчёркивают строгая решётка радиатора, лаконичный передний бампер и сдвоенные выхлопные патрубки в заднем бампере."
-        - url: /img/models/knewstar/001/sections/design/2.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/design/2.webp
           title: "Интерьер"
           description: "Премиальный интерьер KNEWSTAR 001 производит сильное впечатление: отличная шумоизоляция, высококачественная отделка мягким пластиком, экокожей, кожей наппа и замшей, панорамная крыша с люком, отделка потолка черной тканью, двухзонный климат-контроль, подогрев руля, сидений и лобового стекла, атмосферная подсветка и мощная премиальная аудиосистема с 12 динамиками, включая сабвуфер. Всё это подчеркивает премиальность и динамичный характер автомобиля."
-        - url: /img/models/knewstar/001/sections/design/3.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/design/3.webp
           title: "Архитектура"
           description: "KNEWSTAR 001 базируется на инновационной модульной архитектуре. Она была разработана в европейском научно-исследовательском центре командой шведских и китайских инженеров. В автомобилестроении используется принцип, схожий с тем, что применяется в строительстве: различные системы автомобиля стандартизированы и выпускаются в виде готовых блоков и модулей, которые затем компонуются в зависимости от того, как должны располагаться различные части машины. Подобный подход позволяет использовать одну и ту же архитектуру для создания целого ряда моделей, имеющих общие структурные элементы. Модульная архитектура KNEWSTAR обеспечивает уровень безопасности, соответствующий 5 звёздам по стандартам оценки безопасности автомобилей в Китае (C-NCAP), Европе (Euro-NCAP) и США (US IIHS)."
     - id: engine
       sectionClass: ""
       title: Двигатель и трансмиссия
       images:
-        - url: /img/models/knewstar/001/sections/engine/1.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/engine/1.webp
           title: "Двигатель"
           description: "Шведские и китайские инженеры совместно разработали современный 4-цилиндровый турбированный двигатель объёмом 2.0 литра. Он способен развивать мощность до 238 л. с. и крутящий момент до 350 Н∙м. KNEWSTAR 001, оснащённый этим двигателем, разгоняется с места до 100 км/ч за 6,9 секунды. При этом расход топлива в смешанном цикле составляет всего 8,1л* на 100 километров (по циклу NEDC)."
-        - url: /img/models/knewstar/001/sections/engine/2.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/engine/2.webp
           title: "Коробка передач"
           description: "8-ступенчатая автоматическая коробка передач (8АТ) — это традиционный «автомат» с гидротрансформатором, который обеспечивает максимальный комфорт при езде и позволяет экономить топливо за счёт плавного переключения. Кроме того, эта коробка передач гарантирует впечатляющую динамику разгона уже на низких оборотах."
-        - url: /img/models/knewstar/001/sections/engine/3.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/engine/3.webp
           title: "Интеллектуальный полный привод"
           description: "На любом покрытии — от асфальтового шоссе до лёгкого бездорожья — интеллектуальный полный привод KNEWSTAR 001 придаёт водителю уверенности. Система автоматически распределяет крутящий момент между передней и задней осями в пропорции до 50:50, обеспечивая надёжное управление автомобилем."
     - id: security
       sectionClass: "bg-gray-100"
       title: Безопасность
       images:
-        - url: /img/models/knewstar/001/sections/security/1.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/security/1.webp
           title: "Кузов"
           description: "Кузов KNEWSTAR 001 выполнен из высокопрочной стали, доля которой составляет более 72%. Ещё 14% приходится на сталь горячей штамповки. Благодаря такому подходу и модульной архитектуре, которая предполагает использование технологии лазерной сварки с глубоким проплавлением, достигается высокий уровень пассивной безопасности автомобиля. Прочность соединений при таком типе сварки увеличивается на 50%."
-        - url: /img/models/knewstar/001/sections/security/2.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/security/2.webp
           title: "Современные системы пассивной безопасности"
           description: "В автомобиле KNEWSTAR 001 во всех комплектациях установлены современные системы пассивной безопасности: 6 подушек безопасности, травмобезопасная рулевая колонка, регулируемые по высоте трехточечные ремни с преднатяжителями спереди, функция предупреждения о непристёгнутых ремнях спереди, задние трехточечные ремни безопасности, крепления для детских кресел стандарта ISOFIX, «Детский» замок на задних дверях"
-        - url: /img/models/knewstar/001/sections/security/3.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/security/3.webp
           title: "Современные системы активной безопасности"
           description: "В автомобиле KNEWSTAR 001 во всех комплектациях установлены современные системы активной безопасности: Комплекс управления тормозной системой Bosch 9.3, Электронная система стабилизации (ESC), Антиблокировочная система тормозов (ABS), Электронная система распределения тормозного усилия (EBD), Система помощи при экстренном торможении (EBA), Предупреждение об экстренном торможении (ESS), Электрический стояночный тормоз (EPB), Система автоматического удержания стояночного тормоза (Auto Hold), Система удержания автомобиля на уклоне (HHC), Система поддержания скорости на спуске (HDC), Противобуксовочная система (TCS)"
-        - url: /img/models/knewstar/001/sections/security/4.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/security/4.webp
           title: "Интеллектуальный круиз-контроль"
           description: "KNEWSTAR 001 оснащён внушительным набором современных систем активной безопасности и помощи водителю ADAS второго уровня. За работу этих систем отвечают радар, пять камер и восемь ультразвуковых датчиков. Одной из таких систем является интеллектуальный круиз-контроль, который поддерживает дистанцию до впереди идущего автомобиля, автоматически замедляя и ускоряя KNEWSTAR 001 в диапазоне скоростей от 0 до 150 км/ч. Эта система может полностью остановить автомобиль и затем снова начать движение. При этом она предотвращает слишком резкое замедление, чтобы снизить риск столкновения сзади."
-        - url: /img/models/knewstar/001/sections/security/5.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/security/5.webp
           title: "Система автоматического экстренного торможения (AEB)"
           description: "Система AEB внедрена для того, чтобы предупредить водителя о вероятности лобового столкновения с другим транспортным средством или препятствием на дороге, включая пешеходов, и автоматически затормозить автомобиль в случае необходимости. За обнаружение препятствий отвечают радар, который измеряет расстояние до объекта, и камера, способная распознать объект на дороге. Эти элементы работают вместе, а компьютер автомобиля самостоятельно оценивает уровень опасности ситуации. Благодаря этому система AEB может предотвратить аварии на городских дорогах при определённых условиях и на скорости до 50 км/ч."
-        - url: /img/models/knewstar/001/sections/security/6.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/security/6.webp
           title: "Системы контроля полосы движения (LKA) и распознавания дорожных знаков (TSR)"
           description: "В KNEWSTAR 001 функция контроля полосы движения (LKA) обеспечивается двумя элементами системы ADAS: системой слежения за разметкой и ассистентом удержания автомобиля в полосе движения. Система слежения предупреждает водителя с помощью визуальных, звуковых сигналов и вибрации на руле, если автомобиль случайно покидает свою полосу или водитель меняет полосу без включения сигнала поворота. LKA предотвращает аварии, связанные с выездом из своей полосы. С помощью электроусилителя руля система корректирует траекторию так, чтобы автомобиль оставался посередине полосы при наличии чёткой разметки по обеим её сторонам. Также в системе ADAS есть функция распознавания дорожных знаков ограничения скорости и предупреждения о её превышении (TSR)."
     - id: comfort
       sectionClass: ""
       title: Комфорт
       images:
-        - url: /img/models/knewstar/001/sections/comfort/1.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/comfort/1.webp
           title: "Климат-контроль"
           description: "В KNEWSTAR 001 установлена система автоматического поддержания заданной температуры в салоне и управления кондиционером. Блок климат-контроля удобно расположен на центральной консоли под экраном мультимедийной системы. Следуя современным принципам технологичности, на экран мультимедийной системы также выведено управление функциями подогрева и вентиляции сидений, подогрева руля и лобового стекла."
-        - url: /img/models/knewstar/001/sections/comfort/2.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/comfort/2.webp
           title: "«ЗИМНИЙ» ПАКЕТ"
           description: "В холодное время года особенно полезны такие функции, как подогрев передних и задних сидений, подогрев руля, электроподогрев всего лобового стекла и форсунок омывателя. Всё это есть в KNEWSTAR 001. А в жаркую погоду водитель и передний пассажир могут охладиться, включив вентиляцию сидений."
-        - url: /img/models/knewstar/001/sections/comfort/3.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/comfort/3.webp
           title: "Мультимедиа"
           description: "Большой сенсорный мультимедийный дисплей диагональю 12,3 дюйма отличается современной графикой и высокой контрастностью. Он реагирует даже на касания влажных пальцев и рук в перчатках. За качественное звучание аудиосистемы премиум-класса от именитого производителя отвечают 12 динамиков, включая сабвуфер. А за создание приятной атмосферы в салоне — многоцветная система атмосферной подсветки."
-        - url: /img/models/knewstar/001/sections/comfort/4.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/comfort/4.webp
           title: "Проекционный дисплей"
           description: "Проекционный дисплей (HUD) встроен в верхнюю часть передней панели перед водителем. Он создаёт эффект изображения, которое как будто парит над капотом на расстоянии пары метров впереди. Проекционный дисплей позволяет водителю следить за ключевыми показателями автомобиля, такими как скорость движения, состояние круиз-контроля, мониторинг слепых зон и знаки ограничения скорости, не отрывая взгляд от дороги."
-        - url: /img/models/knewstar/001/sections/comfort/5.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/comfort/5.webp
           title: "Дублирование экрана смартфона"
           description: "Важная особенность мультимедийной системы KNEWSTAR 001 — возможность подключения мобильных устройств через специальный интерфейс. Для этого нужно установить бесплатное приложение Qdlink и соединить смартфон с системой при помощи USB-провода. Экран мобильного телефона будет «зеркально» отображаться на сенсорном экране мультимедиа. Это позволит использовать все ваши любимые приложения, включая навигаторы Яндекс и Google. А если телефон работает на платформе Android, то на дисплее KNEWSTAR 001 будет дублироваться сенсорное управление командами и функциями смартфона."
     - id: functionality
       sectionClass: "bg-gray-100"
       title: Функциональность
       images:
-        - url: /img/models/knewstar/001/sections/functionality/1.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/functionality/1.webp
           title: "Электропривод двери багажника с системой Hands-free"
           description: "Багажная дверь KNEWSTAR 001 открывается и закрывается легко и разными способами: кнопкой на ключе, кнопкой на двери водителя, кнопкой на багажной двери, движением ноги под центральной частью заднего бампера (функция «hands-free»). Благодаря функции «hands-free», Вы можете открыть и закрыть багажную дверь без помощи рук. Это удобно, когда у Вас заняты руки или Вы не хотите их пачкать в плохую погоду."
-        - url: /img/models/knewstar/001/sections/functionality/2.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/functionality/2.webp
           title: "Беспроводная зарядка"
           description: "Беспроводная зарядка смартфона — востребованная функция для современного пользователя. В KNEWSTAR 001 есть специальная площадка для беспроводной зарядки на центральной консоли. Она совместима с телефонами, поддерживающими эту функцию."
-        - url: /img/models/knewstar/001/sections/functionality/3.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/functionality/3.webp
           title: "Система камер кругового обзора 360°"
           description: "Благодаря четырём камерам, которые установлены в корпусах боковых зеркал, на двери багажника и в облицовке радиатора, на экране мультимедиа KNEWSTAR 001 отображается вид спереди и сзади. Также синтезируется виртуальный вид сверху, который позволяет оценить положение автомобиля и объектов вокруг него. Круговой обзор на 360 градусов облегчает манёвры в ограниченном пространстве, повышая комфорт и безопасность вождения."
-        - url: /img/models/knewstar/001/sections/functionality/4.webp
+        - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/functionality/4.webp
           title: "Система автоматического управления дальним светом"
           description: "Интеллектуальная система управления дальним светом анализирует множество факторов и автоматически переключает дальний свет на ближний и обратно, обеспечивая более безопасное вождение в тёмное время суток на загородных шоссе. Свет фар автоматически переключается не только при приближении к встречному или попутному автомобилю, но и в зависимости от освещённости дороги и скорости движения KNEWSTAR 001."
     - id: description
@@ -386,81 +386,81 @@
         - icon: mdi:gas-station-outline
           text: Ср. расход топлива - 6,5 л / 100 км
       images:
-        - url: /img/models/geely/Cityray/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/1.webp
     - id: design
       sectionClass: "bg-gray-100"
       title: Дизайн
       images:
-        - url: /img/models/geely/Cityray/sections/design/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/design/1.webp
           title: "Экстерьер"
           description: "Футуристичный и яркий дизайн экстерьера Geely Cityray выделяется смелым сочетанием современного городского стиля и технологичности. Широкая безрамочная решетка радиатора, дополненная контурной линией светодиодных ходовых огней, передний бампер с акцентными элементами выделяют кроссовер в потоке и делают его образ запоминающимся."
-        - url: /img/models/geely/Cityray/sections/design/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/design/2.webp
           title: "Интерьер"
           description: "Интерьер нового Geely Cityray – это воплощение комфорта и современных технологий, созданное для тех, кто ценит современный стиль и функциональность. Салон выполнен из высококачественных и экологичных материалов. Цифровая приборная панель 10,2`` и вертикальный центральный мультимедийный дисплей диагональю 13,2`` обеспечивают удобство управления функциями автомобиля. Cityray оснащен панорамной крышей с люком, аудиосистемой с 8 динамиками, многоцветной атмосферной подсветкой."
-        - url: /img/models/geely/Cityray/sections/design/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/design/3.webp
           title: "Светодиодные фары"
           description: "Выразительный дизайн фронтальной части акцентирован линией светодиодных ходовых огней, состоящей из 256 диодов. Фары полностью обеспечивают безопасность движения в темное время суток и в плохих погодных условиях, в том числе благодаря системе интеллектуального управления дальним светом и дальности освещения до 189 м."
-        - url: /img/models/geely/Cityray/sections/design/4.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/design/4.webp
           title: "Светодиодные фонари"
           description: "Светодиоды сзади образуют эффектную светящуюся дугу, а особый трехмерный контур задних фонарей придаёт освещению объём и многослойность, подчеркивая футуристичный дизайн задней части автомобиля и выделяя новый Cityray в потоке."
-        - url: /img/models/geely/Cityray/sections/design/5.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/design/5.webp
           title: "Модульная архитектура"
           description: "Новый Geely Cityray построен на современной модульной архитектуре, позволяющей применять передовые инженерные решения, обеспечить не только отличную управляемость, но и высокий уровень качества и безопасности."
     - id: engine
       sectionClass: ""
       title: Двигатель и трансмиссия
       images:
-        - url: /img/models/geely/Cityray/sections/engine/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/engine/1.webp
           title: "Двигатель"
           description: "Современный 4-цилиндровый турбированный двигатель объёмом 1,5 литра развивает мощность до 147 л.с. и крутящий момент до 270 Н∙м. Он разработан совместно шведскими и китайскими инженерами Geely. За счёт применённых технологий разгон с места до 100 км/ч у нового Geely Cityray составляет 8,9 с, при этом двигатель экономичен – в смешанном цикле расход топлива составляет 6,5 л/100 км* (по циклу NEDC)."
-        - url: /img/models/geely/Cityray/sections/engine/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/engine/2.webp
           title: "Коробка передач"
           description: "Автоматическая 7-ступенчатая преселективная трансмиссия с двойным сцеплением и масляным охлаждением (7DCT*) обеспечивает высокую топливную экономичность, а также быстрое и точное переключение передач, что позволяет автомобилю разгоняться и замедляться без задержек при переключениях."
-        - url: /img/models/geely/Cityray/sections/engine/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/engine/3.webp
           title: "Режимы движения"
           description: "Через меню мультимедийной системы можно выбрать один из 4 режимов движения – Eco (Экономичный), Comfort (Комфортный), Sport (Спортивный), Smart (Интеллектуальный). Каждый режим меняет настройки рулевого управления, двигателя и коробки передач. Интеллектуальный режим способен адаптировать параметры настроек под ваш индивидуальный стиль управления автомобилем."
     - id: security
       sectionClass: "bg-gray-100"
       title: Безопасность
       images:
-        - url: /img/models/geely/Cityray/sections/security/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/security/1.webp
           title: "Кузов"
           description: "Высокий уровень пассивной безопасности достигнут благодаря широкому применению высокопрочной стали в силовой структуре кузова, доля которой составляет более 68%. Такая конструкция позволяет оптимизировать вес автомобиля, одновременно способствуя достижению прочности и топливной экономичности."
-        - url: /img/models/geely/Cityray/sections/security/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/security/2.webp
           title: "Активная и пассивная безопасность"
           description: "Новый Geely Cityray оборудован современными системами пассивной и активной безопасности: 6 подушек безопасности, Крепления для детских кресел стандарта ISOFIX, «Детский» замок на задних дверях, Комплекс систем активной безопасности автомобиля, в том числе включающий в себя систему курсовой устойчивости, антипробуксовочную систему, системы помощи при старте на подъеме и при движении под уклон"
-        - url: /img/models/geely/Cityray/sections/security/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/security/3.webp
           title: "Предотвращение фронтального столкновения"
           description: "Системы предотвращения фронтального столкновения (AEB и CMSF) могут обнаруживать не только автомобили, но также пешеходов и велосипедистов. Системы работают в широком диапазоне скоростей и эффективно помогают избегать несчастных случаев, предупредив о риске столкновения, и даже помогают остановить автомобиль путем активного торможения."
-        - url: /img/models/geely/Cityray/sections/security/4.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/security/4.webp
           title: "Интеллектуальные ассистенты водителя"
           description: "Новый Geely Cityray оснащен комплексом интеллектуальных ассистентов водителя ADAS второго уровня. За функционирование этих систем отвечают пять камер и шесть ультразвуковых датчиков. Адаптивный круиз-контроль — одна из таких систем, которая поддерживает безопасную дистанцию до впереди идущего транспорта, автоматически замедляя и ускоряя Cityray в диапазоне скоростей от 0 до 150 км/ч. Система удержания автомобиля в полосе (LKA) помогает предотвратить аварийные ситуации, связанные с выездом из занимаемой полосы, и корректирует траекторию движения автомобиля, удерживая его в пределах полосы движения."
-        - url: /img/models/geely/Cityray/sections/security/5.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/security/5.webp
           title: "Мониторинг слепых зон"
           description: "Новый Geely Cityray осуществляет постоянный мониторинг пространства в слепых зонах заднего обзора. Системы мониторинга слепых зон (BSD) и предупреждения при открывании двери (DOW) своевременно предупредят об опасности с помощью звуковой и визуальной индикации. Система помощи при выезде задним ходом (RCTA) предупредит о других автомобилях или пешеходах при выезде с парковки задним ходом."
-        - url: /img/models/geely/Cityray/sections/security/6.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/security/6.webp
           title: "Система распознавания дорожных знаков"
           description: "Функция распознавания дорожных знаков расширяет возможности ассистентов ADAS. Система способна определять знаки, указывающие на ограничение скорости, и может оповещать водителя, если он превышает разрешённую скорость."
     - id: comfort
       sectionClass: ""
       title: Комфорт
       images:
-        - url: /img/models/geely/Cityray/sections/comfort/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/comfort/1.webp
           title: "Мультимедийный сенсорный экран"
           description: "Большой вертикальный мультимедийный дисплей с высоким разрешением и диагональю 13,2”, управляемый мощным процессором, отличается современной графикой и быстродействием, а также высокой четкостью изображения. Специальное антибликовое покрытие и продуманный интерфейс обеспечат легкое и интуитивно понятное управление функциями нового Cityray."
-        - url: /img/models/geely/Cityray/sections/comfort/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/comfort/2.webp
           title: "Атмосферная подсветка интерьера"
           description: "72 цвета на выбор, Цвет подсветки может меняться при изменении температуры климат-контроля, а также реагировать на входящие звонки, Подсветка динамиков"
-        - url: /img/models/geely/Cityray/sections/comfort/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/comfort/3.webp
           title: "«Зимние» опции"
           description: "Новый Geely Cityray полностью подготовлен к зимней эксплуатации, имея в комплектации такие опции как подогрев передних и задних сидений, подогрев руля, зеркал, форсунок стеклоомывателя и зоны покоя стеклоочистителей, а также всей поверхности лобового стекла"
-        - url: /img/models/geely/Cityray/sections/comfort/4.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/comfort/4.webp
           title: "Регулировки передних сидений"
           description: "Сиденье водителя имеет спортивный профиль с ярко выраженной боковой поддержкой, а также электрорегулировки в 6 направлениях. Сиденье переднего пассажира регулируется в 4 направлениях также электрически."
-        - url: /img/models/geely/Cityray/sections/comfort/5.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/comfort/5.webp
           title: "Дублирование экрана смартфона"
           description: "Мультимедийная система Geely Cityray позволяет подключать мобильные устройства через специальный интерфейс. Чтобы интегрировать смартфон, нужно установить бесплатное приложение AUTO DO и подключить его к мультимедийной системе по Wi-Fi. Экран мобильного устройства отображается на сенсорном дисплее мультимедиа, что даёт возможность использовать приложения смартфона, включая навигаторы Яндекс и Google"
-        - url: /img/models/geely/Cityray/sections/comfort/6.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Cityray/sections/comfort/6.webp
           title: "Багажное отделение"
           description: "Объем багажного отделения 571 л, Сиденья второго ряда складываются в ровный пол, что позволяет увеличить объем багажного отделения до 1271 л, Дверь багажного отделения оснащается электроприводом* и имеет 3 варианта управления: с помощью ключа, меню на экране мультимедиа или кнопки на двери багажника"
 - id: "preface"
@@ -478,125 +478,125 @@
         - icon: mdi:gas-station-outline
           text: Ср. расход топлива - 7,2 л / 100 км
       images:
-        - url: /img/models/geely/Preface/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/1.webp
     - id: design
       sectionClass: "bg-gray-100"
       title: Дизайн и архитектура
       images:
-        - url: /img/models/geely/Preface/sections/design/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/design/1.webp
           title: "Экстерьер"
           description: "Впечатляющая решетка радиатора Geely Preface и Т-образный декор боковых воздухозаборников усиливает притягательный образ покорителя дорог, способного дарить чувство истинной свободы."
-        - url: /img/models/geely/Preface/sections/design/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/design/2.webp
           title: "Интерьер"
           description: "Geely Preface – идеальный выбор для тех, кто ценит качество в каждой детали. В салоне вы ощутите истинный комфорт и современный стиль. Каждая поездка подарит вам эстетическое наслаждение и удовольствие от вождения."
-        - url: /img/models/geely/Preface/sections/design/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/design/3.webp
           title: "Светодиодные фары"
           description: "Мощные светодиодные фары Geely Preface обеспечивают яркий и четкий свет, гарантируя отличную видимость в любых условиях. Благодаря сверхтонкому оптическому модулю, равномерно рассеивающему световой пучок, дальний свет покрывает дистанцию до 172 метров"
-        - url: /img/models/geely/Preface/sections/design/4.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/design/4.webp
           title: "Светодиодные фонари"
           description: "Задние фонари визуально объединены контурной светодиодной линией во всю ширину кузова, что повышает привлекательность и узнаваемость Preface"
-        - url: /img/models/geely/Preface/sections/design/5.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/design/5.webp
           title: "Модульная архитектура"
           description: "Инновационная модульная архитектура, положенная в основу Preface, воплощает четыре ключевых принципа: безопасность, экологичность, качество и интеллектуальные технологии. Сбалансированное шасси, эффективная тормозная система и продвинутая электроника обеспечивают превосходную управляемость и сохранение контроля над автомобилем даже в сложных ситуациях. Тормозной путь Preface при экстренном торможении со 100 км/ч — всего 35,9 метра, что является одним из лучших показателей в данном классе."
     - id: engine
       sectionClass: ""
       title: Двигатель и трансмиссия
       images:
-        - url: /img/models/geely/Preface/sections/engine/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/engine/1.webp
           title: "Двигатель"
           description: "Современный 4-цилиндровый турбомотор объёмом 2,0 литра развивает мощность до 200 л.с. и крутящий момент до 325 Н∙м. Он разработан совместно шведскими и китайскими инженерами по мировым стандартам. Новый Geely Preface способен разгоняться с места до 100 км /ч за 7,1 с, а расход топлива в смешанном цикле составляет всего 7,2 л/100 км* (по циклу NEDC)."
-        - url: /img/models/geely/Preface/sections/engine/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/engine/2.webp
           title: "Коробка передач"
           description: "Автоматическая 7-ступенчатая преселективнаякоробка передач с двумя «мокрыми» сцеплениями и масляным охлаждением (7DCT*) обладает высокой скоростью и точностью переключения, обеспечивая динамичный разгон и плавное замедление. Этот инновационный агрегат характеризуется надёжностью и эффективностью."
-        - url: /img/models/geely/Preface/sections/engine/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/engine/3.webp
           title: "Режимы движения"
           description: "Новый Geely Preface предлагает четыре режима движения: комфортный, экономичный, спортивный и интеллектуальный. Выбор режима осуществляется через экран мультимедийной системы. В каждом режиме изменяются параметры рулевого управления, двигателя и коробки передач. Интеллектуальный режим подстраивается к вашему индивидуальному стилю вождения."
     - id: security
       sectionClass: "bg-gray-100"
       title: Безопасность
       images:
-        - url: /img/models/geely/Preface/sections/security/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/security/1.webp
           title: "Активная безопасность"
           description: "Во всех комплектациях Geely Preface оборудован современными системами активной безопасности:  Антиблокировочная система тормозов (ABS), Электронная система распределения тормозного усилия (EBD), Система помощи при экстренном торможении (EBA), Электронная система стабилизации (ESC), Противобуксовочная система (TCS), Электрический стояночный тормоз (EPB), Система автоматического удержания стояночного тормоза (AutoHold), Система помощи при старте на подъеме (HАC)"
-        - url: /img/models/geely/Preface/sections/security/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/security/2.webp
           title: "Пассивная безопасность"
           description: "Уже в базовой комплектации Geely Preface оборудован широким спектром систем пассивной безопасности: 6 подушек безопасности, Травмобезопасная рулевая колонка, Трёхточечные ремни безопасности с преднатяжителями и ограничителями нагрузки, Функция предупреждения о непристёгнутых ремнях спереди и сзади, Крепления для детских кресел стандарта ISOFIX, «Детский» замок на задних дверях"
-        - url: /img/models/geely/Preface/sections/security/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/security/3.webp
           title: "Адаптивный круиз-контроль (ACC)"
           description: "Новый Geely Preface предлагает внушительный пакет современных систем активной безопасности и помощи водителю ADAS 2-го уровня. Одна из таких систем - адаптивный круиз-контроль который поддерживает дистанцию до впереди идущего автомобиля, автоматически замедляя и ускоряя Preface в диапазоне скоростей от 0 до 150 км/ч. Она способна полностью остановить автомобиль и автоматически возобновить движение. При этом система исключает слишком резкое замедление для снижения риска удара сзади."
-        - url: /img/models/geely/Preface/sections/security/4.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/security/4.webp
           title: "Система удержания автомобиля в полосе движения (LKA)"
           description: "Удержание автомобиля в полосе движения осуществляется двумя элементами комплекса ADAS: системой слежения за разметкой и ассистентом удержания автомобиля в полосе. Первая предупреждает водителя визуальным и/или звуковым сигналами, а также вибрацией на руле о непреднамеренном уходе с полосы или при смене полосы движения без включения сигнала поворота. Вторая - функция удержания в полосе движения - помогает предотвратить аварийные ситуации, связанные с выездом из занимаемой полосы, и при помощи электроусилителя руля корректирует автомобиль таким образом, чтобы он ехал ровно посередине полосы движения при наличии чёткой разметки по обеим её сторонам."
-        - url: /img/models/geely/Preface/sections/security/5.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/security/5.webp
           title: "Система предотвращения фронтального столкновения (CMSF)"
           description: "Система предотвращения фронтального столкновения (CMSF), установленная на Geely Preface, призвана предупредить водителя о риске фронтального столкновения с другим автомобилем (или иным препятствием на дороге, вкл. пешехода) и автоматически затормозить автомобиль в экстренной ситуации. Для этого система снабжена радаром, определяющим расстояние до препятствия, и камерой, распознающей объект на дороге. Эти два блока дополняют друг друга и работают совместно, а компьютер, установленный в автомобиле, самостоятельно оценивает потенциальную опасность в возникшей ситуации. Таким образом система CMSF при определенных условиях способна предотвращать аварии, которые чаще всего случаются в городе, или уменьшать степень повреждений."
-        - url: /img/models/geely/Preface/sections/security/6.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/security/6.webp
           title: "Система распознавания дорожных знаков (TSI)"
           description: "Система распознавания дорожных знаков обеспечивает безопасность и комфорт на дорогах. Она представляет собой комплекс электронных устройств, способных анализировать информацию о дорожных знаках и предупреждать водителя об ограничении скорости и возможных опасностях. Благодаря этой системе, водитель всегда будет в курсе актуальных дорожных условий и сможет своевременно реагировать на изменения ситуации на дороге, даже если пропустил дорожный знак."
     - id: comfort
       sectionClass: ""
       title: Комфорт
       images:
-        - url: /img/models/geely/Preface/sections/comfort/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/comfort/1.webp
           title: "Высококачественный интерьер"
           description: "Высококачественный интерьер Geely Preface представляет собой гармоничное сочетание премиального комфорта и функциональности. Отделка салона выполнена из высококачественных материалов, а сиденья обеспечивают идеальную поддержку и комфорт во время длительных поездок. Центральная консоль украшена элегантными кнопками управления с матовым хромированным покрытием. Здесь расположен сенсорный дисплей мультимедийной системы, который обеспечивает доступ к музыке и различным функциям автомобиля."
-        - url: /img/models/geely/Preface/sections/comfort/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/comfort/2.webp
           title: "Премиальная аудиосистема"
           description: "Аудиосистема премиум-класса с двенадцатью динамиками обеспечивает чистый и мощный звук. За глубину звучания низких частот отвечает отдельный сабвуфер. Особенность системы — два динамика в подголовнике водителя. При желании можно переключить звучание только на динамики, интегрированные в подголовник, чтобы не беспокоить спящих пассажиров в длительных поездках."
-        - url: /img/models/geely/Preface/sections/comfort/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/comfort/3.webp
           title: "Передние сиденья с электроприводом и вентиляцией"
           description: "Сиденье водителя обеспечивает максимальный комфорт благодаря электрорегулировкам в шести направлениях и поддержке поясницы в четырёх направлениях. Сиденье переднего пассажира также оснащено электроприводом и регулируется в четырёх направлениях. Функция вентиляции передних сидений обеспечивает эффективный воздухообмен и повышенный комфорт во время поездок."
-        - url: /img/models/geely/Preface/sections/comfort/4.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/comfort/4.webp
           title: "«Зимние» опции"
           description: "Geely Preface хорошо подготовлен к эксплуатации в холодное время года и имеет уже в базовой комплектации полный набор «зимних» опций: подогрев рулевого колеса, подогрев передних и задних сидений, подогрев всей поверхности лобового стекла, подогрев внешних зеркал заднего вида, подогрев заднего стекла. Система климат-контроля имеет интуитивно простое управление и автоматически поддерживает заданную температуру."
-        - url: /img/models/geely/Preface/sections/comfort/5.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/comfort/5.webp
           title: "Задние сиденья"
           description: "Задние сиденья Geely Preface обеспечивают комфорт и удобство для пассажиров. Они имеют эргономичную форму, которая поддерживает правильное положение тела во время поездки. Сиденья обиты мягкой и приятной на ощупь экокожей, которая легко чистится и сохраняет свой первоначальный вид долгое время."
     - id: functionality
       sectionClass: "bg-gray-100"
       title: Функциональность
       images:
-        - url: /img/models/geely/Preface/sections/functionality/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/functionality/1.webp
           title: "Цифровая приборная панель"
           description: "На 10,2-дюймовой цифровой комбинации приборов высокой четкости вся необходимая информация как на ладони."
-        - url: /img/models/geely/Preface/sections/functionality/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/functionality/2.webp
           title: "Мультимедийный сенсорный экран"
           description: "Большой вертикальный мультимедийный дисплей диагональю 13,2” отличается современной графикой и быстродействием, а также высокой четкостью."
-        - url: /img/models/geely/Preface/sections/functionality/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/functionality/3.webp
           title: "Система камер кругового обзора 360°"
           description: "Благодаря четырем камерам, расположенным в корпусах боковых зеркал, на заднем бампере и в облицовке радиатора на экране мультимедиа Geely Preface демонстрируется вид спереди и сзади, а также синтезируется виртуальный вид сверху, который позволяет оценивать положение автомобиля и находящихся вокруг объектов. Такой круговой обзор на 360° облегчает маневрирование в стесненных условиях, повышая комфорт и безопасность."
-        - url: /img/models/geely/Preface/sections/functionality/4.gif
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/functionality/4.gif
           title: "Интеллектуальная система управления дальним светом (IHBC)"
           description: "Интеллектуальная система управления дальним светом анализирует различные факторы, автоматически включает и выключает дальний свет, обеспечивая безопасность движения в тёмное время суток. Работа фар изменяется не только при приближении к встречным или попутным автомобилям, но и в зависимости от освещённости дороги и скорости движения."
-        - url: /img/models/geely/Preface/sections/functionality/5.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/functionality/5.webp
           title: "Интеграция смартфона"
           description: "Одна из важных особенностей мультимедийной системы Geely Preface – способность подключать мобильные устройства с помощью фирменного интерфейса. Для интеграции нужно установить бесплатное приложение Auto Do и соединить смартфон по Bluetooth и WiFi без помощи проводов с системой. На сенсорном экране мультимедиа «зеркально» отображается экран мобильного телефона, что позволяет пользоваться всеми его приложениями, включая навигационные сервисы."
-        - url: /img/models/geely/Preface/sections/functionality/6.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/functionality/6.webp
           title: "Просторное багажное отделение"
           description: "Вместительное багажное отделение отлично подходит для любых путешествий. Его объем при стандартном положении спинок задних сидений составляет внушительные 500 литров."
     - id: gallery
       title: "Галерея"
       images:
-        - url: /img/models/geely/Preface/sections/gallery/1.webp
-        - url: /img/models/geely/Preface/sections/gallery/2.webp
-        - url: /img/models/geely/Preface/sections/gallery/3.webp
-        - url: /img/models/geely/Preface/sections/gallery/4.webp
-        - url: /img/models/geely/Preface/sections/gallery/5.webp
-        - url: /img/models/geely/Preface/sections/gallery/6.webp
-        - url: /img/models/geely/Preface/sections/gallery/7.webp
-        - url: /img/models/geely/Preface/sections/gallery/8.webp
-        - url: /img/models/geely/Preface/sections/gallery/9.webp
-        - url: /img/models/geely/Preface/sections/gallery/10.webp
-        - url: /img/models/geely/Preface/sections/gallery/11.webp
-        - url: /img/models/geely/Preface/sections/gallery/12.webp
-        - url: /img/models/geely/Preface/sections/gallery/13.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/1.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/2.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/3.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/4.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/5.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/6.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/7.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/8.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/9.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/10.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/11.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/12.webp
+        - url: https://cdn.alexsab.ru/b/geely/img/models/Preface/sections/gallery/13.webp
 - id: geely-atlas-2024
   sections:
   - id: section-0
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-0/4na2zgxp7ahmfaddo7c9rsur9q05x32a.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-0/4na2zgxp7ahmfaddo7c9rsur9q05x32a.webp
     items:
     - icon: mdi:engine-outline
       text: <span>Мощность</span>&nbsp;-&nbsp;<b>200 л.с.</b>
@@ -617,7 +617,7 @@
         «блики на воде» дополняется контурной линией светодиодных ходовых огней и
         светящимся логотипом Geely.
       title: Экстерьер
-      url: /img/models/geely/Atlas-2024/sections/section-1/0q887hluq7xsg53xp337kyuepjaq1rbj.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-1/0q887hluq7xsg53xp337kyuepjaq1rbj.webp
     - description: 'Интерьер Geely Atlas впечатляет своим дизайном и практичной сбалансированностью:
         высококачественные материалы, приятная экокожа и мягкий пластик, вертикальный
         мультимедийный дисплей 13,2”, большая панорамная крыша с люком, двухзонный
@@ -626,18 +626,18 @@
         Уникальные прозрачные солнцезащитные козырьки подчёркивают технологичность
         решений, применённых в Geely Atlas.'
       title: Интерьер
-      url: /img/models/geely/Atlas-2024/sections/section-1/hd4h6sq9yti3u1c363q1zyajtfwqtww7.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-1/hd4h6sq9yti3u1c363q1zyajtfwqtww7.webp
     - description: Высокоэффективные светодиодные фары, подчёркнутые ходовыми огнями
         в виде обрамления по периметру передней части обеспечивают безопасность движения
         ночью и в плохую погоду, в том числе благодаря ассистенту автопереключения
         дальнего света и освещения на расстояние до 168 метров.
       title: Светодиодные фары
-      url: /img/models/geely/Atlas-2024/sections/section-1/oc28u5lavfhzmopdnqus9t8pt6kamlaf.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-1/oc28u5lavfhzmopdnqus9t8pt6kamlaf.webp
     - description: Световой рисунок задней части подчеркивает уникальность и индивидуальность
         Geely Atlas. Яркие светодиодные фонари обеспечат безопасное движение в любую
         погоду и в любое время дня и ночи.
       title: Светодиодные фонари
-      url: /img/models/geely/Atlas-2024/sections/section-1/s0h0g1w5dzxgob4dsv5lce4v1xh6lmlm.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-1/s0h0g1w5dzxgob4dsv5lce4v1xh6lmlm.webp
     - description: Новый Geely Atlas базируется на передовой модульной архитектуре
         Geely. Она разрабатывалась в течение 4 лет в европейском научно-исследовательском
         центре Geely командой шведских и китайских инженеров. Архитектура автомобиля
@@ -648,7 +648,7 @@
         архитектуры соответствует 5 звёздам по стандартам китайского C-NCAP, европейского
         Euro-NCAP и американского US IIHS.
       title: Модульная архитектура
-      url: /img/models/geely/Atlas-2024/sections/section-1/lw671zecyoq7heof2x509e1g5lq6iwur.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-1/lw671zecyoq7heof2x509e1g5lq6iwur.webp
     sectionClass: ''
     text: ''
     title: Дизайн
@@ -667,7 +667,7 @@
         официальном утверждении типа по Правилам ООН №101 (цикл NEDC); данные не относятся
         к конкретному автомобилю и приведены исключительно в целях сравнения.</span>'
       title: Двигатель
-      url: /img/models/geely/Atlas-2024/sections/section-2/qj4wm5iwcq0pgrn168lj7o61osiikb2q.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-2/qj4wm5iwcq0pgrn168lj7o61osiikb2q.webp
     - description: "Автоматическая 7-ступенчатая преселективная коробка передач с\
         \ двумя мокрыми сцеплениями и масляным охлаждением (7DCT*) быстро и точно\
         \ переключает передачи, что обеспечивает динамичный разгон и плавное замедление.\
@@ -680,7 +680,7 @@
         \ коробка передач с двойным сцеплением</span><br/>\n<span style=\"font-size:60%\"\
         >** 8-ступенчатая автоматическая коробка передач</span>"
       title: Коробка передач
-      url: /img/models/geely/Atlas-2024/sections/section-2/g7fg55ps0kmyw8k67u8ailv4ltb82z0c.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-2/g7fg55ps0kmyw8k67u8ailv4ltb82z0c.webp
     - description: Для комплектаций Atlas с передним приводом доступны 4 режима движения
         – Комфортный, Экономичный, Спортивный, Интеллектуальный. А для комплектаций
         с полным приводом доступны 2 дополнительных режима – Снег и Внедорожный. Выбрать
@@ -689,13 +689,13 @@
         полного привода. Интеллектуальный режим способен подстраиваться под ваш индивидуальный
         стиль управления.
       title: Режимы движения
-      url: /img/models/geely/Atlas-2024/sections/section-2/8452ax57gdqlv934iu3v2vxekj62den7.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-2/8452ax57gdqlv934iu3v2vxekj62den7.webp
     - description: На любой дороге и легком бездорожье система интеллектуального полного
         привода 4WD 6-го поколения даёт водителю полную уверенность. Крутящий момент
         может автоматически распределяться между передней и задней осями вплоть до
         50:50. Это обеспечивает надежный контроль над автомобилем.
       title: Интеллектуальный полный привод
-      url: /img/models/geely/Atlas-2024/sections/section-2/o0xqc89i23837lp2xz20fl7cjqoy5dsw.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-2/o0xqc89i23837lp2xz20fl7cjqoy5dsw.webp
     sectionClass: bg-gray-100
     text: ''
     title: Двигатель и трансмиссия
@@ -708,7 +708,7 @@
         а в передней части установлена алюминиевая энергопоглощающая балка (элемент
         буферной зоны).
       title: Кузов
-      url: /img/models/geely/Atlas-2024/sections/section-3/5mvejyaag01nrvrc5fc012gsd0gdd6zy.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-3/5mvejyaag01nrvrc5fc012gsd0gdd6zy.webp
     - description: "• Электронная система курсовой устойчивости (ESС) и антипробуксовочная\
         \ система (TCS)<br/>\r\n\t\t\t • Антиблокировочная система тормозов (ABS)\
         \ с функцией электронного распределения тормозных усилий (EBD)<br/>\r\n\t\
@@ -719,14 +719,14 @@
         \ фронтального столкновения (CMSF)<br/>\r\n\t\t\t • Система удержания автомобиля\
         \ в полосе движения (LKA)<br/>"
       title: Активная безопасность
-      url: /img/models/geely/Atlas-2024/sections/section-3/ydw9zn8irbv120iztjiov6qku1yrennb.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-3/ydw9zn8irbv120iztjiov6qku1yrennb.webp
     - description: "• 6 подушек безопасности <br/>\r\n\t\t\t • Трёхточечные ремни\
         \ безопасности с преднатяжителями и ограничителями нагрузки<br/>\r\n\t\t\t\
         \ • Функция предупреждения о непристёгнутых ремнях спереди и сзади<br/>\r\n\
         \t\t\t • Крепления для детских кресел стандарта ISOFIX<br/>\r\n\t\t\t • «Детский»\
         \ замок на задних дверях<br/>"
       title: Пассивная безопасность
-      url: /img/models/geely/Atlas-2024/sections/section-3/vb91tuk96izdfuakpq1fnx7btb0ensoz.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-3/vb91tuk96izdfuakpq1fnx7btb0ensoz.webp
     - description: Система предотвращения фронтального столкновения может с помощью
         радара и передней камеры обнаруживать не только автомобили, но и пешеходов,
         велосипедистов на проезжей части в случае, если вы непреднамеренно отвлеклись
@@ -734,7 +734,7 @@
         обнаружения достаточна велика, а идентификация отличается точностью. Система
         эффективно помогает избегать несчастных случаев.
       title: Предотвращение фронтального столкновения
-      url: /img/models/geely/Atlas-2024/sections/section-3/d992istmnmoprfhbd7gdi43fxzqevr61.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-3/d992istmnmoprfhbd7gdi43fxzqevr61.webp
     - description: Новый Geely Atlas предлагает внушительный пакет современных систем
         активной безопасности и помощи водителю ADAS 2-го уровня. Их работу обеспечивают
         радар, 5 камер и 8 ультразвуковых датчиков. Одна из таких систем - адаптивный
@@ -744,7 +744,7 @@
         этом система исключает слишком резкое замедление для снижения риска удара
         сзади.
       title: Адаптивный круиз-контроль (ACC)
-      url: /img/models/geely/Atlas-2024/sections/section-3/ft4rogx6y2iaps0cz9ieutdx0m7a9skb.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-3/ft4rogx6y2iaps0cz9ieutdx0m7a9skb.webp
     - description: 'Удержание автомобиля в полосе движения осуществляется двумя элементами
         комплекса ADAS: системой слежения за разметкой и ассистентом удержания автомобиля
         в полосе. Первая предупреждает водителя визуальным и звуковым сигналами, а
@@ -755,12 +755,12 @@
         таким образом, чтобы он ехал ровно посередине полосы движения при наличии
         чёткой разметки по обеим её сторонам.'
       title: Система удержания автомобиля в полосе движения (LKA)
-      url: /img/models/geely/Atlas-2024/sections/section-3/xwclbehttf01ow8b12lk10y6vhkncaiy.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-3/xwclbehttf01ow8b12lk10y6vhkncaiy.webp
     - description: Комплекс ассистентов ADAS дополняет функция распознавания дорожных
         знаков. Среди прочих система опознаёт знаки ограничения скорости и может предупреждать
         о её превышении.
       title: Система распознавания дорожных знаков (TSI)
-      url: /img/models/geely/Atlas-2024/sections/section-3/29xvjhak0g8r28dy6wzirysajcz72xay.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-3/29xvjhak0g8r28dy6wzirysajcz72xay.webp
     sectionClass: ''
     text: ''
     title: Безопасность
@@ -769,32 +769,32 @@
     - description: Большой вертикальный мультимедийный дисплей диагональю 13,2” отличается
         современной графикой и быстродействием, а также высокой четкостью.
       title: Мультимедийный сенсорный экран
-      url: /img/models/geely/Atlas-2024/sections/section-4/hzqycf3ogqjmm1mzwqbwn47v7bkjv550.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-4/hzqycf3ogqjmm1mzwqbwn47v7bkjv550.webp
     - description: Премиальная аудиосистема с 9 динамиками обеспечивает чистое и мощное
         звучание. Важной особенностью системы являются 2 динамика в подголовнике водителя.
         По желанию можно перевести весь звуковой поток только на подголовник в дальней
         поездке, чтобы не мешать заснувшим попутчикам.
       title: Премиальная аудиосистема
-      url: /img/models/geely/Atlas-2024/sections/section-4/23yth85zwuuaq4yljqtmz2bsmvuslymb.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-4/23yth85zwuuaq4yljqtmz2bsmvuslymb.webp
     - description: Новый Atlas отлично подготовлен к зимним условиям, имея в комплектации
         такие опции, как электрический подогрев передних и задних сидений, руля и
         лобового стекла. А в жаркую погоду вентиляция передних сидений поможет быстро
         охладиться и чувствовать себя комфортно на протяжении всей поездки.
       title: «Зимние» опции и вентиляция передних сидений
-      url: /img/models/geely/Atlas-2024/sections/section-4/5c0dpzr1v95hjr77f2d4g3m9q4k3jqav.gif
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-4/5c0dpzr1v95hjr77f2d4g3m9q4k3jqav.gif
     - description: 'Сиденье водителя предлагает все возможности для максимально удобной
         посадки: электрорегулировки в 6 направлениях и поясничного подпора в 4 направлениях,
         механическая регулировка длины подушки сиденья. Сиденье переднего пассажира
         регулируется в 4 направлениях также с помощью электроприводов.'
       title: Регулировка передних сидений
-      url: /img/models/geely/Atlas-2024/sections/section-4/h19lkbloiv96lbn7oz3q55tcwb2o0xf9.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-4/h19lkbloiv96lbn7oz3q55tcwb2o0xf9.webp
     - description: Проекционный дисплей встроен в верхнюю часть передней панели напротив
         водителя. Он создаёт эффект парящего изображения над капотом на расстоянии
         примерно 2 метров впереди. Проекционный дисплей позволяет следить за ключевыми
         показателями автомобиля, такими как скорость движения, состояние круиз-контроля,
         знаки ограничения скорости и т.д., и не отрывать взгляд от дороги.
       title: Проекционный дисплей
-      url: /img/models/geely/Atlas-2024/sections/section-4/mopva9ajupwsrtyphtu6b940k8h4wet0.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-4/mopva9ajupwsrtyphtu6b940k8h4wet0.webp
     - description: "Багажное отделение нового Geely Atlas - одно из самых больших\
         \ в классе. Объем багажника составляет 650 литров, а при сложенных задних\
         \ сиденьях объём полезного пространства увеличивается до 1610 литров. <br/>\r\
@@ -803,7 +803,7 @@
         \ см по высоте. Дополнительно можно расширить функциональность багажника с\
         \ помощью аксессуаров."
       title: Просторное багажное отделение
-      url: /img/models/geely/Atlas-2024/sections/section-4/dxbd3q0xo0s13byjgfl8wrashc0ka12q.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-4/dxbd3q0xo0s13byjgfl8wrashc0ka12q.webp
     sectionClass: bg-gray-100
     text: ''
     title: Комфорт
@@ -812,7 +812,7 @@
     - description: 10,2-дюймовой цифровой комбинацией приборов высокой четкости вся
         необходимая информация как на ладони.
       title: Приборная панель
-      url: /img/models/geely/Atlas-2024/sections/section-5/saqjw60pb92k9qv1bpwizut1mlbwrgfi.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-5/saqjw60pb92k9qv1bpwizut1mlbwrgfi.webp
     - description: Благодаря четырем камерам, расположенным в корпусах боковых зеркал,
         на двери багажника и в облицовке радиатора, на экране мультимедиа Geely Atlas
         демонстрируется вид спереди и сзади, а также синтезируется виртуальный вид
@@ -822,38 +822,38 @@
         круговой обзор на 360° облегчает маневрирование в стесненных условиях, повышая
         комфорт и безопасность.
       title: Система камер кругового обзора 360°
-      url: /img/models/geely/Atlas-2024/sections/section-5/0xxgxcgrl02wm6wnwkr3bvt3rmjr0oui.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-5/0xxgxcgrl02wm6wnwkr3bvt3rmjr0oui.webp
     - description: Беспроводная зарядка – актуальное решение для современного пользователя.
         В Geely Atlas для этого предусмотрена специальная площадка в передней консоли.
         Зарядка работает с телефонами и прочими компактными устройствами, поддерживающими
         эту функцию.
       title: Беспроводная зарядка
-      url: /img/models/geely/Atlas-2024/sections/section-5/o7muqi9lyzmtat2snpkxau3idc5gydv1.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-5/o7muqi9lyzmtat2snpkxau3idc5gydv1.webp
     - description: Панорамная крыша со сдвижным электрическим люком дает интерьеру
         ещё больше света и пространства. Она дарит ещё больше позитивных впечатлений
         от поездок, потому что всегда приятно насладиться глубиной синего неба днём
         или мерцанием звёзд ночью.
       title: Панорамная крыша с люком
-      url: /img/models/geely/Atlas-2024/sections/section-5/i0civ4u613q04gpnnpm2c36mzovutj36.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-5/i0civ4u613q04gpnnpm2c36mzovutj36.webp
     - description: Система интеллектуального управления дальним светом фар анализирует
         ситуацию по многим факторам и автоматически переключает дальний свет на ближний
         и обратно, повышая безопасность движения в темное время суток. Режим работы
         фар меняется не только при приближении к встречному или попутному автомобилю,
         но и в зависимости от условий освещённости дороги и скорости движения.
       title: Система автоматического управления дальним светом
-      url: /img/models/geely/Atlas-2024/sections/section-5/8ldsymrp23xbdjn7f9ro0gdh9djbungo.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-5/8ldsymrp23xbdjn7f9ro0gdh9djbungo.webp
     - description: Атмосферная подсветка интерьера имеет 72 цветовых варианта, из
         которых всегда можно подобрать цвет себе под настроение. Подсветка может мерцать
         в такт музыке или, например, менять свой цвет при разгоне и торможении.
       title: Атмосферная подсветка интерьера
-      url: /img/models/geely/Atlas-2024/sections/section-5/z03767o3i0ouire6pawdmf452yhbrqs3.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-5/z03767o3i0ouire6pawdmf452yhbrqs3.webp
     - description: "Благодаря системе бесключевого доступа, нет необходимости доставать\
         \ ключ из кармана, чтобы разблокировать боковые двери автомобиля. А открывать\
         \ и закрывать багажную дверь с электроприводом можно легко и разными способами:\
         \ <br/>\r\n\t\t\t • Кнопкой на ключе<br/>\r\n\t\t\t • Через мультимедийную\
         \ систему<br/>\r\n\t\t\t • Кнопкой на багажной двери<br/>"
       title: Бесключевой доступ и электропривод двери багажника
-      url: /img/models/geely/Atlas-2024/sections/section-5/u4w10bv875et039wcoawjjk6w8fa2f1n.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-5/u4w10bv875et039wcoawjjk6w8fa2f1n.webp
     sectionClass: ''
     text: ''
     title: Функциональность
@@ -870,7 +870,7 @@
         \n\t\t\t\t • Селектор автоматической коробки передач с декоративной прозрачной\
         \ накладкой<br/>"
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-6/8b2gvh8iwcreztlgbl6ozrw30ralnwck.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-6/8b2gvh8iwcreztlgbl6ozrw30ralnwck.webp
     sectionClass: bg-gray-100
     text: ''
     title: Особая версия Flagship Sport
@@ -878,34 +878,34 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/r2nkn0ixk114g98l7b3vuywwzdrxyr13.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/r2nkn0ixk114g98l7b3vuywwzdrxyr13.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/o7bltucx6z13u2sbg511j63b6dby8p4m.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/o7bltucx6z13u2sbg511j63b6dby8p4m.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/v1ie1jnq60fds05rlh9hg0z5g3s09vwx.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/v1ie1jnq60fds05rlh9hg0z5g3s09vwx.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/w1fnvty1gqo9u1m80n05dj3c349knoro.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/w1fnvty1gqo9u1m80n05dj3c349knoro.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/5xg96m58j8ahjfmd027uikjgyesih55y.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/5xg96m58j8ahjfmd027uikjgyesih55y.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/z54nf5jo2uhkg93uikaehnfq7z02akdp.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/z54nf5jo2uhkg93uikaehnfq7z02akdp.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/cmevdc00yoq1921bmmhc01q10tc4665z.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/cmevdc00yoq1921bmmhc01q10tc4665z.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/nsfbfwpy6nw7new11t230vj3zao7jz0d.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/nsfbfwpy6nw7new11t230vj3zao7jz0d.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/a4eumwtlkn22fjxgek3imrmgwm25lmzq.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/a4eumwtlkn22fjxgek3imrmgwm25lmzq.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas-2024/sections/section-7/3okeqt3ledo2ewggc1gh8zi8moscvwh0.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/sections/section-7/3okeqt3ledo2ewggc1gh8zi8moscvwh0.webp
     sectionClass: ''
     text: ''
     title: Галерея
@@ -915,7 +915,7 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/Atlas Pro/sections/section-1/GAE_104.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-1/GAE_104.webp
     items:
     - icon: mdi:engine-outline
       text: <span>Мощность</span>&nbsp;-&nbsp;<b>150 л.с. (2WD) / 177 л.с. (4WD)</b>
@@ -940,7 +940,7 @@
         концентрическая решетка радиатора с обновленным монохромным логотипом завершает
         цельный и мужественный образ нового кроссовера от Geely.
       title: Экстерьер
-      url: /img/models/geely/Atlas Pro/sections/section-1/GAE_104.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-1/GAE_104.webp
     - description: Внутри он выглядит роскошно. Без ложной скромности салон внешне
         лаконичного и даже брутального кроссовера по уровню дизайна, отделки и оснащения
         может соперничать с автомобилями более высокого класса. Его струящийся дизайн
@@ -950,7 +950,7 @@
         кв. м и 42-цветная система атмосферной подсветки, меняющейся в соответствии
         с режимом вождения, создают приятную обстановку для водителя и пассажиров.
       title: Интерьер
-      url: /img/models/geely/Atlas Pro/sections/section-1/Priqyel0570_Light_eco.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-1/Priqyel0570_Light_eco.webp
     - description: Atlas Pro оснащен мощными светодиодными фарами Valeo способными
         освещать объекты, находящиеся на дальнем расстоянии - до 220 м от автомобиля
         (+ 70 м, по сравнению с галогеновыми фарами). Система интеллектуального управления
@@ -961,14 +961,14 @@
         дизайн, стали ярче и долговечнее. Благодаря их оригинальному рисунку Atlas
         Pro легко узнать в вечернем потоке.
       title: Светодиодные фары
-      url: /img/models/geely/Atlas Pro/sections/section-1/GAE_135.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-1/GAE_135.webp
     - description: Atlas Pro привлекает внимание новыми изысканными 18-дюймовыми дисками
         из алюминиевого сплава. Они рассчитаны на установку широких шин 225/60R18.
         Увеличенный передний бампер имеет стильные хромированные акценты и черные
         боковые вставки, в которых выполнены аэродинамические каналы для более эффективного
         охлаждения тормозов.
       title: Колёса и бампер
-      url: /img/models/geely/Atlas Pro/sections/section-1/MG_3829_Edit.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-1/MG_3829_Edit.webp
     sectionClass: ''
     text: ''
     title: Дизайн
@@ -985,7 +985,7 @@
         При этом, несмотря на 3-цилиндровую конфигурацию, этот турбомотор отличается
         удивительно низким уровнем шума и вибраций.
       title: Двигатель
-      url: /img/models/geely/Atlas Pro/sections/section-2/2d6iw11pet02kk2w2io3uc8mbe8gdwmn.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-2/2d6iw11pet02kk2w2io3uc8mbe8gdwmn.webp
     - description: 'В связке с мощным двигателем на Atlas Pro предлагаются два типа
         автоматических коробок передач: 7-ступенчатая преселективная (7DCT) для модификации
         с полным приводом и 6-ступенчатая гидромеханическая (6АТ) для модификации
@@ -1003,7 +1003,7 @@
         плавному переключению передач. Современная электроника обеспечивает высокую
         энергоэффективность и удобство вождения.'
       title: Коробка передач
-      url: /img/models/geely/Atlas Pro/sections/section-2/Priqyel0978_Edit-_1_.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-2/Priqyel0978_Edit-_1_.webp
     - description: В полноприводном Geely Atlas Pro применена инновационная система
         мягкого гибрида 48V EMS (Electric Motor Synergy). В её состав входят приводной
         стартер-генератор, конвертер, 48-вольтовая литий-ионная батарея и блок управления
@@ -1014,7 +1014,7 @@
         обладает функцией «старт-стоп», которая выключает и мгновенно запускает двигатель
         в пробках, а также поддерживает экономичный режим движения накатом.
       title: Система мягкого гибрида 48V EMS
-      url: /img/models/geely/Atlas Pro/sections/section-2/BSG_MHEV.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-2/BSG_MHEV.webp
     - description: Atlas Pro 4WD – надежный и универсальный кроссовер для ежедневного
         использования в любое время года и в любую погоду, для семейных путешествий
         и вылазок на природу. Он снабжен современной системой полного привода с многодисковой
@@ -1024,7 +1024,7 @@
         привод Atlas Pro поможет уверенно и безопасно двигаться по скользкой трассе
         в снег и дождь, или добраться до нужного места там, где кончается асфальт.
       title: Интеллектуальный полный привод
-      url: /img/models/geely/Atlas Pro/sections/section-2/_.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-2/_.webp
     sectionClass: bg-gray-100
     text: ''
     title: Силовая установка
@@ -1039,14 +1039,14 @@
         стекла. Управление функциями подогрева сидений и рулевого колеса в соответствии
         с современными тенденциями вынесено на мультимедийный экран.
       title: Климат-контроль
-      url: /img/models/geely/Atlas Pro/sections/section-3/Priqyel0782_klimat.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-3/Priqyel0782_klimat.webp
     - description: Новый Geely Atlas Pro подготовлен к комфортной эксплуатации не
         только в теплое, но и холодное время года. Во всех комплектациях он имеет
         электрический подогрев подушек и спинок, как передних, так и задних сидений,
         а также подогрев рулевого колеса, боковых зеркал, форсунок переднего стеклоомывателя
         и зоны покоя щеток переднего стеклоочистителя.
       title: Подогрев сидений и рулевого колеса
-      url: /img/models/geely/Atlas Pro/sections/section-3/4o1pu6z7y9d9es4uvbvng26f0go1ggez.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-3/4o1pu6z7y9d9es4uvbvng26f0go1ggez.webp
     - description: Информационно-развлекательная система Atlas Pro – это то, что впечатляет
         уже при первом знакомстве с автомобилем. Огромный, 12,3-дюймовый цветной сенсорный
         экран отличается современной графикой, высокой контрастностью (1MP, 720 пикселей),
@@ -1055,7 +1055,7 @@
         настроение – 42-цветная система атмосферной подсветки салона, которая может
         работать в такт воспроизводимой музыке.
       title: Мультимедиа
-      url: /img/models/geely/Atlas Pro/sections/section-3/Priqyel0782_easy_2.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-3/Priqyel0782_easy_2.webp
     - description: Одна из важных особенностей мультимедийного комплекса Atlas Pro
         – способность подключать мобильные устройства с помощью фирменного интерфейса
         Easy Connection. Для интеграции нужно установить бесплатное приложение EasyCon
@@ -1065,7 +1065,7 @@
         на платформе Android, на дисплее Atlas Pro дублируется сенсорное управление
         командами и функциями смартфона.
       title: Система подключения смартфона EasyConnection
-      url: /img/models/geely/Atlas Pro/sections/section-3/Priqyel0782_navi.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-3/Priqyel0782_navi.webp
     sectionClass: ''
     text: ''
     title: Комфорт
@@ -1081,7 +1081,7 @@
         надежную управляемость и высокую устойчивость автомобиля при движении с высокой
         скоростью в поворотах, по скользкой дороге и пересеченной местности.
       title: Современные системы активной и пассивной безопасности
-      url: /img/models/geely/Atlas Pro/sections/section-4/Picture1.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-4/Picture1.webp
     - description: Новый Geely Atlas Pro предлагаетcя с широким набором инновационных
         систем активной безопасности и помощи водителю, входящих в комплекс ADAS 2-го
         уровня. Их работу обеспечивают радар, 5 камер и 8 ультразвуковых датчиков.
@@ -1091,7 +1091,7 @@
         сохраняя свои функции даже в поворотах радиусом не менее 250 м. При этом система
         исключает слишком резкое замедление для снижения риска удара сзади.
       title: Интеллектуальный круиз-контроль
-      url: /img/models/geely/Atlas Pro/sections/section-4/ICC_AWD_.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-4/ICC_AWD_.webp
     - description: Система автоматического экстренного торможения (AEB), установленная
         на Geely Atlas Pro, призвана предупредить водителя о риске фронтального столкновения
         с другим автомобилем (или иным препятствием на дороге, вкл. пешехода) и автоматически
@@ -1103,7 +1103,7 @@
         и на скоростях до 50 км/ч способна предотвращать аварии, которые чаще всего
         случаются в городе.
       title: Система автоматического экстренного торможения
-      url: /img/models/geely/Atlas Pro/sections/section-4/_.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-4/_.webp
     - description: На новом Geely Atlas Pro функция контроля полосы осуществляется
         двумя элементами комплекса ADAS – системой слежения за разметкой (LDW) и ассистентом
         удержания автомобиля в полосе движения (LKA). Первая предупреждает водителя
@@ -1114,7 +1114,7 @@
         чтобы он ехал ровно посередине полосы движения — при наличии чёткой разметки
         по обеим её сторонам.
       title: Функция контроля полосы
-      url: /img/models/geely/Atlas Pro/sections/section-4/_-_LKS_190820.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-4/_-_LKS_190820.webp
     sectionClass: bg-gray-100
     text: ''
     title: Безопасность
@@ -1129,12 +1129,12 @@
         теперь можно регулировать по углу наклона. К услугам задних пассажиров два
         USB-порта, один из которых (на 18 Ватт) предназначен для быстрой зарядки гаджетов.
       title: Электропривод двери багажника
-      url: /img/models/geely/Atlas Pro/sections/section-5/2_14_-0521_-_.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-5/2_14_-0521_-_.webp
     - description: Беспроводная зарядка смартфонов – актуальное решение для современного
         потребителя. В Atlas Pro для этого предусмотрена специальная площадка на передней
         консоли. Зарядка работает с телефонами, поддерживающими эту функцию.
       title: Беспроводная зарядка
-      url: /img/models/geely/Atlas Pro/sections/section-5/2_24_-_.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-5/2_24_-_.webp
     - description: Благодаря четырем камерам, расположенным в корпусах боковых зеркал,
         на дверце багажника и в облицовке радиатора на экране мультимедиа Atlas Pro
         демонстрируется вид спереди и сзади, а также синтезируется виртуальный вид
@@ -1142,7 +1142,7 @@
         объектов. Такой круговой обзор на 360° облегчает маневрирование в стесненных
         условиях, повышая комфорт и безопасность.
       title: Система кругового обзора 360°
-      url: /img/models/geely/Atlas Pro/sections/section-5/GAI_28.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-5/GAI_28.webp
     - description: Интеллектуальная система управления дальним светом анализирует
         ситуацию по многим факторам и автоматически переключает дальний свет на ближний
         и обратно, повышая безопасность езды в темное время суток. Режим работы фар
@@ -1150,7 +1150,7 @@
         но и в зависимости от условий освещённости дороги и скорости движения Atlas
         Pro.
       title: Система автоматического управления дальним светом
-      url: /img/models/geely/Atlas Pro/sections/section-5/IHBC_AWD_.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Atlas Pro/sections/section-5/IHBC_AWD_.webp
     sectionClass: ''
     text: ''
     title: Функциональность
@@ -1160,7 +1160,7 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-0/ufpno5naqe0flka5f2hnnng62v1oimq3.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-0/ufpno5naqe0flka5f2hnnng62v1oimq3.webp
     items:
     - icon: mdi:engine-outline
       text: <span>Мощность</span>&nbsp;-&nbsp;<b>122 л.с.</b>
@@ -1179,28 +1179,28 @@
         эстетики. Элементы его дизайна собраны в гармоничный, целостный образ компактного
         седана нашего времени.
       title: Экстерьер
-      url: /img/models/geely/Emgrand/sections/section-1/udem0e6bryqs5o3rus3ixn0yns0d459n.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/udem0e6bryqs5o3rus3ixn0yns0d459n.webp
     - description: Строгий, стильный интерьер Emgrand располагает к себе с первого
         взгляда. Двухцветная отделка, кресла со вставками из перфорированной экокожи,
         большие экраны мультимедиа и приборной панели… Почувствуйте себя как дома
         или в доме своей мечты.
       title: Интерьер
-      url: /img/models/geely/Emgrand/sections/section-1/PBGE_11716.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/PBGE_11716.webp
     - description: Светодиодные дневные ходовые огни подчёркивают современный стиль
         нового Emgrand. Полностью светодиодные фары обеспечивают отличную видимость
         в ночное время. Функция задержки выключения головного освещения позволит безопасно
         дойти до освещенных участков в темноте.
       title: Светодиодные фары
-      url: /img/models/geely/Emgrand/sections/section-1/yxiq32psnia7oqxx5x5ju0f3wg6ws560.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/yxiq32psnia7oqxx5x5ju0f3wg6ws560.webp
     - description: Доминирующий элемент задней части нового Emgrand – сплошной светодиодный
         фонарь во всю ширину кузова, благодаря чему он выглядит как автомобиль более
         высокого класса.
       title: Светодиодные фонари
-      url: /img/models/geely/Emgrand/sections/section-1/rzqrd9j3587zkshuqogbcsqsfambe972.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/rzqrd9j3587zkshuqogbcsqsfambe972.webp
     - description: Стильные 17-дюймовые легкосплавные диски с десятью спицами усиливают
         впечатления от автомобиля, придавая ему визуальную индивидуальность и элегантность.
       title: 17-дюймовые легкосплавные колесные диски
-      url: /img/models/geely/Emgrand/sections/section-1/s12r8exy7u8gzhbl81r75xuo6wygpbcu.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/s12r8exy7u8gzhbl81r75xuo6wygpbcu.webp
     sectionClass: ''
     text: ''
     title: Дизайн
@@ -1213,7 +1213,7 @@
         122 л.с. и при этом в условном загородном цикле способен потреблять всего
         4,5 литра бензина на 100 км.
       title: Двигатель
-      url: /img/models/geely/Emgrand/sections/section-2/bsouc8wctuucz47z0shhktcb7f6ukm7h.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-2/bsouc8wctuucz47z0shhktcb7f6ukm7h.webp
     - description: 'В зависимости от ваших предпочтений можно выбрать комплектацию
         с механической или автоматической коробкой передач. Последняя представляет
         собой классический 6-ступенчатый гидромеханический «автомат», надежный и выносливый.
@@ -1224,7 +1224,7 @@
 
         <span style="font-size:60%">* Спортивный, Комфортный, Экономичный</span>'
       title: Коробка передач
-      url: /img/models/geely/Emgrand/sections/section-2/5nc708urdttxutonvnpcazu5zenf51xf.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-2/5nc708urdttxutonvnpcazu5zenf51xf.webp
     sectionClass: bg-gray-100
     text: ''
     title: Двигатель и трансмиссия
@@ -1233,38 +1233,38 @@
     - description: Большой сенсорный дисплей мультимедийной системы c диагональю 12,3”
         отличается современной графикой и быстродействием, а также высокой четкостью.
       title: Мультимедийный сенсорный экран
-      url: /img/models/geely/Emgrand/sections/section-3/PBGE_11932_2.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/PBGE_11932_2.webp
     - description: Система климат-контроля будет автоматически поддерживать комфортную
         температуру воздуха в салоне независимо от времени года.
       title: Климат-контроль
-      url: /img/models/geely/Emgrand/sections/section-3/hrxuva3p0eqwqw5pk7y4sni0s7odocgv.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/hrxuva3p0eqwqw5pk7y4sni0s7odocgv.webp
     - description: В отделке интерьера используются высококачественные мягкие материалы,
         создающие ощущение комфорта на высшем уровне.
       title: Высококачественная отделка интерьера
-      url: /img/models/geely/Emgrand/sections/section-3/PBGE_11913.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/PBGE_11913.webp
     - description: Эргономичный салон Emgrand гораздо просторнее, чем может показаться,
         глядя на автомобиль снаружи. Это особенно оценят пассажиры второго ряда. Его
         ширина – 1,5 метра, высота – 975 мм. Даже человек высокого роста может расположиться
         здесь с комфортом.
       title: Задние сиденья
-      url: /img/models/geely/Emgrand/sections/section-3/PBGE_11662.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/PBGE_11662.webp
     - description: Вместительное багажное отделение отлично подходит для любых путешествий.
         Его объем при стандартном положении спинок задних сидений составляет внушительные
         500 литров.
       title: Просторное багажное отделение
-      url: /img/models/geely/Emgrand/sections/section-3/ezn94eeilenjrgw746dw4zhsfzamu25y.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/ezn94eeilenjrgw746dw4zhsfzamu25y.webp
     - description: В Geely Emgrand будет тепло даже в холодную погоду. Морозным утром
         можно дистанционно запустить двигатель с помощью кнопки на ключе, чтобы автомобиль
         прогрелся перед поездкой. Рулевое колесо и передние сиденья снабжены электроподогревом,
         так же, как и заднее стекло, боковые зеркала, лобовое стекло в зоне покоя
         щеток и форсунки стеклоомывателя.
       title: «Зимние» опции
-      url: /img/models/geely/Emgrand/sections/section-3/u882u1w7mvoh6es05cf8jzpjbn3ybdat.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/u882u1w7mvoh6es05cf8jzpjbn3ybdat.webp
     - description: Сиденье водителя с возможностью электрорегулировки в шести направлениях
         и эргономичным профилем позволяет подобрать максимально комфортное положение
         за рулем.
       title: Сиденье водителя с электроприводом
-      url: /img/models/geely/Emgrand/sections/section-3/x8rb16ythedr5a2nb5iyejiuht8c0uwp.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/x8rb16ythedr5a2nb5iyejiuht8c0uwp.webp
     sectionClass: ''
     text: ''
     title: Комфорт
@@ -1280,23 +1280,23 @@
         <span style="font-size:60%">* Geely BMA (B-Segment Module Architecture) –
         автомобильная платформа, выпускаемая компанией Geely Automobile с 2018 года</span>'
       title: Модульная архитектура
-      url: /img/models/geely/Emgrand/sections/section-4/hjz48y4rougzns21xq39kzwqjokqxizf.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-4/hjz48y4rougzns21xq39kzwqjokqxizf.webp
     - description: Geely Emgrand тщательно проработан с точки зрения пассивной безопасности.
         Его кузов изготовлен с широким применением высокопрочной стали и спроектирован
         так, чтобы обеспечить максимальную жесткость конструкции. И, конечно, есть
         крепления Isofix для детских кресел.
       title: Пассивная безопасность
-      url: /img/models/geely/Emgrand/sections/section-4/88g8jkq24d7kqq9cr3epxkrb6x9932e6.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-4/88g8jkq24d7kqq9cr3epxkrb6x9932e6.webp
     - description: Системы активной безопасности Geely Emgrand позаботятся о том,
         чтобы водитель и пассажиры чувствовали себя защищенными в любых непредвиденных
         обстоятельствах. При торможении на скользкой дороге колеса Emgrand не заблокируются,
         и сохранится контроль над автомобилем, при этом тормозные усилия будут распределятся
         между колесами в оптимальной пропорции.
       title: Активная безопасность
-      url: /img/models/geely/Emgrand/sections/section-4/1ypyzukbkh3266bfah4lxxf452m5mky5.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-4/1ypyzukbkh3266bfah4lxxf452m5mky5.webp
     - description: Шесть подушек безопасности защищают водителя и пассажиров от травм.
       title: Подушки безопасности
-      url: /img/models/geely/Emgrand/sections/section-4/f04zogp0cdu98u1zvqdrfljrtp3q8b0q.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-4/f04zogp0cdu98u1zvqdrfljrtp3q8b0q.webp
     sectionClass: bg-gray-100
     text: ''
     title: Безопасность
@@ -1305,32 +1305,32 @@
     - description: С 12,3-дюймовой цифровой комбинацией приборов высокой четкости
         вся необходимая информация как на ладони.
       title: Приборная панель
-      url: /img/models/geely/Emgrand/sections/section-5/biqor2z3ogzp7ojyui0vwj03fie6s0p8.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/biqor2z3ogzp7ojyui0vwj03fie6s0p8.webp
     - description: Люк с электроприводом визуально расширяет пространство в салоне
         над головой, а шторка при необходимости позволит уменьшить попадание прямых
         солнечных лучей в интерьер.
       title: Люк с электроприводом и шторкой
-      url: /img/models/geely/Emgrand/sections/section-5/PBGE_11848.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/PBGE_11848.webp
     - description: Автомобиль оснащается задними датчиками парковки с широким радиусом
         обнаружения, позволяющие с комфортом маневрировать при парковке.
       title: Задние датчики парковки
-      url: /img/models/geely/Emgrand/sections/section-5/eg5y6h4rzcj3u6t7y5mx3f1o69llcz5o.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/eg5y6h4rzcj3u6t7y5mx3f1o69llcz5o.webp
     - description: Боковые зеркала нового Emgrand имеют электроприводы регулировки
         и складывания для максимального комфорта и удобства при парковке.
       title: Электропривод складывания наружных зеркал
-      url: /img/models/geely/Emgrand/sections/section-5/8wpl1kpcdknwksvg66nr6tq419petbld.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/8wpl1kpcdknwksvg66nr6tq419petbld.webp
     - description: Инженеры тщательно проанализировали всевозможные ситуации при эксплуатации
         автомобиля и продумали до мелочей каждое вещевое отделение в салоне Emgrand.
         Это делает автомобиль еще более удобным и практичным.
       title: Места для хранения
-      url: /img/models/geely/Emgrand/sections/section-5/lp42mjuhp3xkpllkny329alyndsftd0x.gif
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/lp42mjuhp3xkpllkny329alyndsftd0x.gif
     - description: "-Для водителя и переднего пассажира в центральной консоли расположены\
         \ два разъема: USB типа А – для зарядки и передачи данных,12V– для подключения\
         \ любых устройств, поддерживающих этот формат.<br/>\r\n\t\t\t -Для пассажиров\
         \ второго ряда сидений на центральной консоли расположен один вход USB типа\
         \ А - для зарядки мобильных устройств."
       title: Разъемы для гаджетов
-      url: /img/models/geely/Emgrand/sections/section-5/yz7ye1gguso7s8azmazy104pjwymmtnu.gif
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/yz7ye1gguso7s8azmazy104pjwymmtnu.gif
     sectionClass: ''
     text: ''
     title: Функциональность
@@ -1338,73 +1338,73 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/vms5cacftg8fxqji9t2h180pxxocii5r.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/vms5cacftg8fxqji9t2h180pxxocii5r.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/uqda8z9x1mjvst31gtnn41bgj72r1zns.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/uqda8z9x1mjvst31gtnn41bgj72r1zns.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/783siauh9kzrw6pud2qc03y3vart5hhi.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/783siauh9kzrw6pud2qc03y3vart5hhi.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/4d18a886wlonju9s9scdnmjyeee4r82y.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/4d18a886wlonju9s9scdnmjyeee4r82y.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/27unf7y65wyhrn1mqkxv6rp80e8wcyx1.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/27unf7y65wyhrn1mqkxv6rp80e8wcyx1.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/qihy9ahegogf4f6q2orbokeowdtsxog9.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/qihy9ahegogf4f6q2orbokeowdtsxog9.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/g2n1pmmtl55a4gdi2hmlapo72betv1q0.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/g2n1pmmtl55a4gdi2hmlapo72betv1q0.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/hwce5mx2sao3oh1y45cd6g7f7az9clw1.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/hwce5mx2sao3oh1y45cd6g7f7az9clw1.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/j636c4qwn5y6i0zncoulyp07yjemwtih.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/j636c4qwn5y6i0zncoulyp07yjemwtih.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/uj7n47by45kurwss68gdhkgfqtq4xg99.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/uj7n47by45kurwss68gdhkgfqtq4xg99.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11932_5.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11932_5.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11662.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11662.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11716.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11716.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11771.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11771.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11803.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11803.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11827_2.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11827_2.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11843.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11843.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11848.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11848.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11870.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11870.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11870_2.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11870_2.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11892.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11892.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11913.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11913.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Emgrand/sections/section-6/PBGE_11932_4.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11932_4.webp
     sectionClass: bg-gray-100
     text: ''
     title: Галерея
@@ -1414,7 +1414,7 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-0/4pb5vjnu3lrw1mg7jvzdvp6s8jwmp3kv.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-0/4pb5vjnu3lrw1mg7jvzdvp6s8jwmp3kv.webp
     items:
     - icon: mdi:engine-outline
       text: <span>Мощность</span>&nbsp;-&nbsp;<b>147 л.с. </b>
@@ -1433,7 +1433,7 @@
         \ к свободе. <br/>\n<br/>\r\n\t\t\t Новый статус Coolray чувствуется во всем.\
         \ И прежде всего в еще более дерзком и привлекательном дизайне."
       title: Экстерьер
-      url: /img/models/geely/New Coolray/sections/section-1/410flnup9nq3m1jxoyqvwakupqdjynrz.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-1/410flnup9nq3m1jxoyqvwakupqdjynrz.webp
     - description: "Салон Coolray полностью преобразился, но качество материалов отделки\
         \ по-прежнему на высоком уровне.<br/>\n<br/>\r\n\t\t\t Стиль интерьера – подчеркнуто\
         \ спортивный. Он способен понравиться с первого взгляда и не наскучит со\
@@ -1441,18 +1441,18 @@
         \ другом и образуют единую комфортную среду, в которой вы чувствуете себя\
         \ спокойно и уверенно."
       title: Интерьер
-      url: /img/models/geely/New Coolray/sections/section-1/b0at48l2s8xx8o56hhvyiyfdvbxho7ev.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-1/b0at48l2s8xx8o56hhvyiyfdvbxho7ev.webp
     - description: Новые полностью светодиодные фары обеспечивают безопасность движения
         в любую погоду и время суток, в том числе благодаря ассистенту автопереключения
         дальнего света. Вертикальные дневные ходовые огни, интегрированные в передний
         бампер, подчеркивают технологичность и спортивный дизайн автомобиля.
       title: Светодиодные фары
-      url: /img/models/geely/New Coolray/sections/section-1/omxqa3ix8x3mbvznyv8jx64mbhfuu76h.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-1/omxqa3ix8x3mbvznyv8jx64mbhfuu76h.webp
     - description: Задние фонари нового дизайна визуально объединены контурной светодиодной
         линией во всю ширину кузова, что повышает привлекательность и узнаваемость
         Coolray в городском потоке.
       title: Светодиодные фонари
-      url: /img/models/geely/New Coolray/sections/section-1/z86rxxsngh41bdrdpg83o06td3fl0y92.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-1/z86rxxsngh41bdrdpg83o06td3fl0y92.webp
     sectionClass: ''
     text: ''
     title: Дизайн
@@ -1464,7 +1464,7 @@
         поддерживается в широком диапазоне - от 2000 до 3500 оборотов в минуту. Это
         обеспечивает мощное и равномерное ускорение с 0 до 100 км/ч за 8,1 секунды.
       title: Двигатель
-      url: /img/models/geely/New Coolray/sections/section-2/76d98hi7erl4wcjyjjx9ipes0tfbygjv.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-2/76d98hi7erl4wcjyjjx9ipes0tfbygjv.webp
     - description: "Автоматическая коробка передач 7DCT* мгновенно реагирует на педаль\
         \ акселератора. <br/>\n<br/>\r\n\t\t\t В ней реализована схема с двумя «мокрыми»\
         \ сцеплениями, что обеспечивает высокую надежность и приспособленность к напряженному\
@@ -1475,7 +1475,7 @@
         \ коробка передач с двойным сцеплением.<br/>\r\n\t\t\t ** «Экономичный», «Комфортный»,\
         \ «Спортивный» и «Адаптивный».</span>"
       title: Коробка передач
-      url: /img/models/geely/New Coolray/sections/section-2/ibgb6xf6ra2vl7d5v9e1lyjd4fwj3qya.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-2/ibgb6xf6ra2vl7d5v9e1lyjd4fwj3qya.webp
     sectionClass: bg-gray-100
     text: ''
     title: Двигатель и трансмиссия
@@ -1491,7 +1491,7 @@
 
         <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
       title: Мультимедийный сенсорный экран
-      url: /img/models/geely/New Coolray/sections/section-3/s8v7pe4ak39xw933kgnxj72w8f3oba85.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/s8v7pe4ak39xw933kgnxj72w8f3oba85.webp
     - description: 'Сиденье водителя с возможностью электрорегулировки в шести направлениях
         и спортивным профилем позволяет подобрать максимально комфортное положение
         за рулем.<br/>
@@ -1500,14 +1500,14 @@
 
         <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
       title: Сиденье водителя с электроприводом*
-      url: /img/models/geely/New Coolray/sections/section-3/sbjgak8yvsc6hinf5xc1mmh0du248ure.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/sbjgak8yvsc6hinf5xc1mmh0du248ure.webp
     - description: "Высококачественная экокожа, замшевые вставки*, эффектный двухцветный\
         \ декор. Все привлекательно выглядит и приятно на ощупь. <br/>\n<br/>\r\n\t\
         \t\t Для пассажиров второго ряда также предусмотрен отдельный USB-разъем\
         \ для зарядки.<br/>\n<br/>\n<span style=\"font-size: 60%\">* Вставки выполнены\
         \ из искусственной замши, опция доступна не во всех комплектациях</span>"
       title: Задние сиденья
-      url: /img/models/geely/New Coolray/sections/section-3/0yw3pdlqryp1tyvsnqs5ddmlk8nu279j.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/0yw3pdlqryp1tyvsnqs5ddmlk8nu279j.webp
     - description: "Geely Coolray хорошо подготовлен к эксплуатации в холодное время\
         \ года. Подогреваются сиденья, форсунки стеклоомывателя, руль.<br/>\n<br/>\r\
         \n\t\t\t \"Зимние\" опции уже в базовой комплектации:<br/>\r\n\t\t\t • подогрев\
@@ -1517,14 +1517,14 @@
         \ стекла<br/>\n<br/>\r\n\t\t\t Система климат-контроля имеет интуитивно простое\
         \ управление и автоматически поддерживает заданную температуру ."
       title: '"Зимние" опции'
-      url: /img/models/geely/New Coolray/sections/section-3/tace22dnxu9y2ndgmn04s26mrnfr30fl.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/tace22dnxu9y2ndgmn04s26mrnfr30fl.webp
     - description: "• Открывается на высоту 1,83 м и угол 74,8 ̊<br/>\r\n\t\t\t •\
         \ 3 варианта управления: с помощью ключа, кнопки на центральной консоли или\
         \ кнопки на двери багажника<br/>\r\n\t\t\t • Имеет защиту от защемления при\
         \ контакте с препятствием<br/>\n<br/>\n<span style=\"font-size: 60%\">* Указанная\
         \ опция доступна не во всех комплектациях </span>"
       title: Электропривод багажного отделения*
-      url: /img/models/geely/New Coolray/sections/section-3/r6s47tv288gre7n3jtp8281ces4fgrn0.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/r6s47tv288gre7n3jtp8281ces4fgrn0.webp
     sectionClass: ''
     text: ''
     title: Комфорт
@@ -1534,12 +1534,12 @@
         самые современные наработки в области безопасности и экологии, обеспечить
         повышенный уровень автоматизации производства и высокое качество.
       title: Модульная архитектура
-      url: /img/models/geely/New Coolray/sections/section-4/8teuf18axypxqmvky04rv83ob2x5zl98.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/8teuf18axypxqmvky04rv83ob2x5zl98.webp
     - description: Кузов из высокопрочной стали имеет энергопоглощающую конструкцию.
         При ударе в случае ДТП происходит запрограммированная деформация, при которой
         салон сохраняет целостность.
       title: Пассивная безопасность
-      url: /img/models/geely/New Coolray/sections/section-4/6veuelwzq1hytkm3ms16wmuk0f3enqqo.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/6veuelwzq1hytkm3ms16wmuk0f3enqqo.webp
     - description: "За вашу защиту отвечает комплекс из 12 инновационных систем активной\
         \ безопасности.<br/>\n<br/>\r\n\t\t\t Комплекс систем безопасности Coolray\
         \ постоянно отслеживает положение автомобиля на дороге относительно направления\
@@ -1548,7 +1548,7 @@
         \ с большей уверенностью двигаться по скользкой дороге, не опасаясь заноса\
         \ и потери управления."
       title: Активная безопасность
-      url: /img/models/geely/New Coolray/sections/section-4/3a93w2iqxl3v86wta1kbe6z3nj50p1tl.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/3a93w2iqxl3v86wta1kbe6z3nj50p1tl.webp
     - description: 'Coolray оснащен 6 подушками безопасности и травмобезопасной рулевой
         колонкой.* Для маленьких пассажиров предусмотрены крепления кресел Isofix.<br/>
 
@@ -1556,7 +1556,7 @@
 
         <span style="font-size: 60%">* Указанные опции доступны не во всех комплектациях</span>'
       title: Подушки безопасности
-      url: /img/models/geely/New Coolray/sections/section-4/7cxjavwp5eumtwccuuz4uxxcxqymhnzx.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/7cxjavwp5eumtwccuuz4uxxcxqymhnzx.webp
     - description: 'Система автоматически поддерживает дистанцию до впереди идущего
         транспортного средства и заданную водителем скорость, включая автоматическую
         остановку и продолжение движения после кратковременной остановки.<br/>
@@ -1565,7 +1565,7 @@
 
         <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
       title: Адаптивный круиз-контроль*
-      url: /img/models/geely/New Coolray/sections/section-4/ve2ni3l34v7pvqe0bzrms45r63ridzpa.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/ve2ni3l34v7pvqe0bzrms45r63ridzpa.webp
     - description: "Система может предупреждать водителя о наличии на дороге пешеходов,\
         \ велосипедистов и транспортных средств с помощью звукового сигнала, изображения\
         \ или применять автоматическое экстренное торможение в случае риска столкновения.\
@@ -1574,7 +1574,7 @@
         \ 60%\">* Указанная опция доступна не во всех комплектациях<br/>\r\n\t\t\t\
         \ ** Система не является 100% гарантией безаварийного вождения</span>"
       title: Система автоматического экстренного торможения*
-      url: /img/models/geely/New Coolray/sections/section-4/dkw0yxquu1va0e01fmv61lgnhh6wzlaa.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/dkw0yxquu1va0e01fmv61lgnhh6wzlaa.webp
     - description: 'Интеллектуальная система управления дальним светом анализирует
         ситуацию по многим факторам и автоматически переключает дальний свет на ближний
         и обратно, повышая безопасность езды в темное время суток. Режим работы фар
@@ -1585,7 +1585,7 @@
 
         <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
       title: Интеллектуальное управление дальним светом*
-      url: /img/models/geely/New Coolray/sections/section-4/yz6ov0r3z271sgg5mqu1m91qmxnl6er1.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/yz6ov0r3z271sgg5mqu1m91qmxnl6er1.webp
     sectionClass: bg-gray-100
     text: ''
     title: Безопасность
@@ -1601,7 +1601,7 @@
 
         <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
       title: Система камер кругового обзора 360°*
-      url: /img/models/geely/New Coolray/sections/section-5/hjxoxom5chsp85e5st2b6hvhst75wkv0.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/hjxoxom5chsp85e5st2b6hvhst75wkv0.webp
     - description: 'Панорамная крыша с электрическим люком придает интерьеру усиленное
         ощущение света и пространства. Она дарит ещё больше позитивных впечатлений
         от поездок.<br/>
@@ -1610,7 +1610,7 @@
 
         <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
       title: Панорамная крыша с люком*
-      url: /img/models/geely/New Coolray/sections/section-5/cs48ly6umlv4sj1uh4yjeofs1dd2ypwy.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/cs48ly6umlv4sj1uh4yjeofs1dd2ypwy.webp
     - description: 'Функция ассистента автоматической парковки позволяет осуществлять
         4 типа парковки: параллельную и поперечную как на правую, так и на левую стороны
         простым нажатием кнопки.<br/>
@@ -1619,7 +1619,7 @@
 
         <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
       title: Автопарковка*
-      url: /img/models/geely/New Coolray/sections/section-5/g71ook9jjr8ewoawicgjc9545t419gy7.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/g71ook9jjr8ewoawicgjc9545t419gy7.webp
     - description: 'На центральной консоли удобно расположена беспроводная зарядка
         для смартфонов, а также два USB-разъема для передачи данных и быстрой зарядки.
         <br/>
@@ -1628,13 +1628,13 @@
 
         <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
       title: Беспроводная зарядка*
-      url: /img/models/geely/New Coolray/sections/section-5/tlc2tbkvjq2y1i02jr7e0j32equiocpw.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/tlc2tbkvjq2y1i02jr7e0j32equiocpw.webp
     - description: "• 72 цветовых варианта <br/>\r\n\t\t\t • Несколько режимов работы:\
         \ мерцание в ритм музыки, адаптация к режимам движения, приветственная подсветка\
         \ при открывании дверей<br/>\n<br/>\n<span style=\"font-size: 60%\">* Указанная\
         \ опция доступна не во всех комплектациях.</span>"
       title: Атмосферная подсветка интерьера*
-      url: /img/models/geely/New Coolray/sections/section-5/ecij1brgxxdqo2x3keu3zn563w1uyjeu.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/ecij1brgxxdqo2x3keu3zn563w1uyjeu.webp
     sectionClass: ''
     text: ''
     title: Функциональность
@@ -1642,79 +1642,79 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/1oqnmmew3iajfu37i5k6agp7nvt0c583.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/1oqnmmew3iajfu37i5k6agp7nvt0c583.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/8rjl5csg7n664j4dyb2dkpkdh1sbw3i1.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/8rjl5csg7n664j4dyb2dkpkdh1sbw3i1.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/507mz4ujwdmykc29uge8ynbqiuzbsbqy.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/507mz4ujwdmykc29uge8ynbqiuzbsbqy.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/52pxndjm21n7i0dnd0e563l1dsjvevy8.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/52pxndjm21n7i0dnd0e563l1dsjvevy8.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/mghembindcbnmm8f804raa7nnwcycj3j.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/mghembindcbnmm8f804raa7nnwcycj3j.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/mhqn0m4q0ilrl3ch99sco18h4s95yx7u.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/mhqn0m4q0ilrl3ch99sco18h4s95yx7u.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/xohyq28caep73z9n68zd3s8y32b3s3xl.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/xohyq28caep73z9n68zd3s8y32b3s3xl.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/8tjxj4jmvjia1mlz8t65j8p26e0lzmdt.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/8tjxj4jmvjia1mlz8t65j8p26e0lzmdt.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/9cxv3jfu9c781n3x67l5mhah72lequo6.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/9cxv3jfu9c781n3x67l5mhah72lequo6.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/rlqhg2vzjvicy2q7efzpy1tllbok614q.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/rlqhg2vzjvicy2q7efzpy1tllbok614q.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/9udss0wh1uyxqcgbgf5h520eeohtbw9r.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/9udss0wh1uyxqcgbgf5h520eeohtbw9r.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/yaf3nnhhtwggcm8kwn58jwe8hbtpfr8t.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/yaf3nnhhtwggcm8kwn58jwe8hbtpfr8t.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/uc07q94o5wj1xzmr3kcoramlwrnsghoj.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/uc07q94o5wj1xzmr3kcoramlwrnsghoj.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/j73zwatl4rjri3spc6jpw7bk5c4j3xiu.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/j73zwatl4rjri3spc6jpw7bk5c4j3xiu.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/a4ow0831tu0ysmvc1s37zpex0a3gqk26.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/a4ow0831tu0ysmvc1s37zpex0a3gqk26.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/80hrdav7uew1ni0rj5wqp5xjmik0v574.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/80hrdav7uew1ni0rj5wqp5xjmik0v574.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/ajmtwfbgp7csv67lxr09kjbnlr3od0id.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/ajmtwfbgp7csv67lxr09kjbnlr3od0id.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/ouf7dxmeo14k1czcqkzsvvvzlqzhtt3z.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/ouf7dxmeo14k1czcqkzsvvvzlqzhtt3z.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/60ab6qwarshcy8278fixp4tnxi2mdubq.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/60ab6qwarshcy8278fixp4tnxi2mdubq.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/a1zt713ua712dlf2zwi3hif0z874ibf4.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/a1zt713ua712dlf2zwi3hif0z874ibf4.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/vfrmorm15byfomeile4q3dohx7qbc72v.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/vfrmorm15byfomeile4q3dohx7qbc72v.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/q474b4vx5pvclwqwwbosnxiht3bdan5c.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/q474b4vx5pvclwqwwbosnxiht3bdan5c.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/xwvb0ubz9aw2tsupwk1j2rwvjsbhe2le.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/xwvb0ubz9aw2tsupwk1j2rwvjsbhe2le.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/5srh9adh3yfehs5kebduxpeu3gqj9548.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/5srh9adh3yfehs5kebduxpeu3gqj9548.webp
     - description: ''
       title: ''
-      url: /img/models/geely/New Coolray/sections/section-6/n9eg2k52zqxmsib8dmuas0qso8ix4g0p.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/n9eg2k52zqxmsib8dmuas0qso8ix4g0p.webp
     sectionClass: bg-gray-100
     text: ''
     title: Галерея
@@ -1724,7 +1724,7 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-0/3ymwfomlw1jnvovbpxs72hcnvbafhvqe.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-0/3ymwfomlw1jnvovbpxs72hcnvbafhvqe.webp
     items:
     - icon: mdi:engine-outline
       text: <span>Мощность</span>&nbsp;-&nbsp;<b>200 л.с.</b>
@@ -1742,7 +1742,7 @@
         уверенность и привлекает внимание на дороге. Решётка радиатора, выполненная
         в концепции «ледяной водопад», подчеркивает солидность автомобиля.
       title: Экстерьер
-      url: /img/models/geely/Okavango/sections/section-1/jxfbbqphvzr25eb2dhmfmbps8vfke92g.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-1/jxfbbqphvzr25eb2dhmfmbps8vfke92g.webp
     - description: Интерьер Geely Okavango имеет выверенный и сбалансированный дизайн.
         Высококачественный мягкий пластик и экокожа обеспечивают максимум комфорта
         при каждой поездке. Большая панорамная крыша даёт много света в салоне, а
@@ -1751,16 +1751,16 @@
         складывать сиденья во множестве разных конфигураций позволяет найти идеальный
         вариант расположения пассажиров и груза в зависимости от ситуации.
       title: Интерьер
-      url: /img/models/geely/Okavango/sections/section-1/6krz6qbud8ovrlor40os6ja4yp7npm0x.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-1/6krz6qbud8ovrlor40os6ja4yp7npm0x.webp
     - description: Линзованные светодиодные фары, подчёркнутые сверху ходовыми огнями
         с тремя сегментами, повышают безопасность движения ночью и в плохую погоду.
       title: Светодиодные фары
-      url: /img/models/geely/Okavango/sections/section-1/uw5p5cp215p8v80oh47g899cgs59lv69.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-1/uw5p5cp215p8v80oh47g899cgs59lv69.webp
     - description: Световой рисунок задней части подчеркивает индивидуальность Okavango.
         Яркие светодиодные фонари способствуют безопасному передвижению в любую погоду
         и в любое время дня и ночи.
       title: Светодиодные фонари
-      url: /img/models/geely/Okavango/sections/section-1/31j9xuykxglejjyhb54ci1rdtk97c2wr.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-1/31j9xuykxglejjyhb54ci1rdtk97c2wr.webp
     sectionClass: ''
     text: ''
     title: Дизайн
@@ -1777,17 +1777,17 @@
         об официальном утверждении типа по Правилам ООН №101 (цикл NEDC); данные не
         относятся к конкретному автомобилю и приведены исключительно в целях сравнения.</span>'
       title: Двигатель
-      url: /img/models/geely/Okavango/sections/section-2/hssjh7c2ak49bbz629m7fqltzpjeqnoe.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-2/hssjh7c2ak49bbz629m7fqltzpjeqnoe.webp
     - description: Автоматическая 7-ступенчатая преселективная коробка передач с двумя
         мокрыми сцеплениями и масляным охлаждением (7DCT) быстро и точно переключает
         передачи, что обеспечивает динамичный разгон и плавное замедление. Этот инновационный
         агрегат отличается высокой надежностью и обеспечивает экономию топлива. <br/>
       title: Коробка передач
-      url: /img/models/geely/Okavango/sections/section-2/3lqmzfwq0hlprx7nq2xkezuo1p7044ss.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-2/3lqmzfwq0hlprx7nq2xkezuo1p7044ss.webp
     - description: При помощи специального селектора на центральной консоли можно
         выбрать подходящий режим движения - Комфортный, Экономичный, Спортивный.
       title: Режимы движения
-      url: /img/models/geely/Okavango/sections/section-2/ocygjtx50cumyu9yijnihphkmov661uj.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-2/ocygjtx50cumyu9yijnihphkmov661uj.webp
     sectionClass: bg-gray-100
     text: ''
     title: Двигатель и трансмиссия
@@ -1802,7 +1802,7 @@
         \n\t\t\t • Крепления для детских кресел стандарта ISOFIX на боковых сиденьях\
         \ 2-го ряда<br/>\r\n\t\t\t • «Детский» замок на задних дверях<br/>"
       title: Кузов и пассивная безопасность
-      url: /img/models/geely/Okavango/sections/section-3/1m421mwfhlazliwny50p8sl3ftsycu3h.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-3/1m421mwfhlazliwny50p8sl3ftsycu3h.webp
     - description: "Geely Okavango имеет усовершенствованное, комфортно настроенное\
         \ шасси с задней многорычажной независимой подвеской, а также современным\
         \ комплексом управления тормозной системой, включающим в себя следующие системы:\
@@ -1814,7 +1814,7 @@
         \ - Система помощи при экстренном торможении (EBA) <br/>\r\n\t\t\t - Система\
         \ помощи при старте на подъеме (HАC) и при движении под уклон (HDC)"
       title: Активная безопасность
-      url: /img/models/geely/Okavango/sections/section-3/sqnwjexxjywsr469n75iqu8nyzjonk39.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-3/sqnwjexxjywsr469n75iqu8nyzjonk39.webp
     - description: Автомобиль постоянно контролирует пространство в слепых зонах по
         обеим сторонам. Продвинутая программа мониторинга опасности столкновения передает
         предупредительный звуковой сигнал и световой сигнал на интегрированном в зеркала
@@ -1824,7 +1824,7 @@
         а также предупредит наезд сзади (RCW), превентивно просигнализировав автомобилю,
         быстро приближающемуся сзади.
       title: Мониторинг слепых зон (BSD)
-      url: /img/models/geely/Okavango/sections/section-3/h1h90p9nsebh7ao7klwmfbsstu1guqi4.gif
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-3/h1h90p9nsebh7ao7klwmfbsstu1guqi4.gif
     sectionClass: ''
     text: ''
     title: Безопасность
@@ -1837,7 +1837,7 @@
         положения для двух разных водителей. Сиденье переднего пассажира имеет электрорегулировки
         в 4 направлениях.
       title: Передние сиденья с электроприводом
-      url: /img/models/geely/Okavango/sections/section-4/y3j5lkpblqq6b3ckd8b74zw0sl0nwo4f.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/y3j5lkpblqq6b3ckd8b74zw0sl0nwo4f.webp
     - description: На втором ряду расположены три отдельных комфортных сиденья, которые
         могут двигаться вперёд и назад, а также складываться совершенно независимо
         друг от друга. Крайние сиденья оборудованы креплениями Isofix. А при помощи
@@ -1847,13 +1847,13 @@
         второго ряда имеются отдельные дефлекторы системы кондиционирования, USB-порты
         для зарядки, а также кнопки включения подогревов двух боковых сидений.
       title: Второй ряд сидений
-      url: /img/models/geely/Okavango/sections/section-4/h63t9gtm1lspaxrm0naz4r6b10rgfe33.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/h63t9gtm1lspaxrm0naz4r6b10rgfe33.webp
     - description: Третий ряд сидений можно легко сложить и разложить при необходимости.
         В двух отдельных креслах здесь могут с комфортом разместиться пассажиры ростом
         до 180 см. Для комфортных поездок по бокам расположены отдельные воздуховоды,
         а также есть функция регулировки интенсивности вентиляции воздуха.<br/>
       title: Просторный третий ряд сидений
-      url: /img/models/geely/Okavango/sections/section-4/pu8yur3bliyyuk7zh8m4190ym080krtw.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/pu8yur3bliyyuk7zh8m4190ym080krtw.webp
     - description: "Geely Okavango хорошо подготовлен к эксплуатации в холодное время\
         \ года. \"Зимние\" опции уже в базовой комплектации:<br/>\n<br/>\r\n\t\t\t\
         \ • подогрев рулевого колеса <br/>\r\n\t\t\t • подогрев передних и задних\
@@ -1861,21 +1861,21 @@
         \ стекла и форсунок стеклоомывателя<br/>\r\n\t\t\t • подогрев внешних зеркал\
         \ заднего вида <br/>\r\n\t\t\t • подогрев заднего стекла<br/>"
       title: «Зимние» опции
-      url: /img/models/geely/Okavango/sections/section-4/dn86g59bwzje6qzrakfrl896us9fjwrm.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/dn86g59bwzje6qzrakfrl896us9fjwrm.webp
     - description: Система двухзонного климат-контроля имеет интуитивно простое управление
         и автоматически поддерживает заданную температуру. Для пассажиров второго
         ряда предусмотрены отдельные воздуховоды. А для пассажиров третьего ряда сидений
         предусмотрены не только отдельные воздуховоды, но ещё и регулятор интенсивности
         подачи воздуха.
       title: Климат-контроль
-      url: /img/models/geely/Okavango/sections/section-4/blurlevub9b4f6h0vurhle68e30qnw3o.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/blurlevub9b4f6h0vurhle68e30qnw3o.webp
     - description: Салон нового Okavango даёт поистине безграничные возможности по
         перевозке пассажиров и грузов за счёт множества вариантов трансформации сидений.
         Обширный грузовой отсек вместимостью 2360 литров, а также большое пространство
         длиной 2,2 метра обеспечат при сложенных сиденьях достаточно места для перевозки
         крупных вещей.
       title: Багажное отделение и трансформация салона
-      url: /img/models/geely/Okavango/sections/section-4/geelygif.gif
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/geelygif.gif
     sectionClass: bg-gray-100
     text: ''
     title: Комфорт
@@ -1884,14 +1884,14 @@
     - description: С 10,25-дюймовой цифровой комбинацией приборов высокой четкости
         вся необходимая информация как на ладони.
       title: Цифровая приборная панель
-      url: /img/models/geely/Okavango/sections/section-5/3vdbmp2gsq0lizx8ottlx1ci0awfheqj.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/3vdbmp2gsq0lizx8ottlx1ci0awfheqj.webp
     - description: Управление всеми функциями мультимедийной системы сосредоточено
         в ультратонком экране высокого разрешения с диагональю 12,3 дюйма. Проекция
         смартфона, система камер кругового обзора с функцией «прозрачное шасси»,
         управление климатом, музыкой и приложениями собраны в один простой и интуитивно
         понятный интерфейс.
       title: Мультимедийный сенсорный экран
-      url: /img/models/geely/Okavango/sections/section-5/9b551v8ceqlz1tovcc7s0xxcbnxj9i42.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/9b551v8ceqlz1tovcc7s0xxcbnxj9i42.webp
     - description: Одна из важных особенностей мультимедийной системы Geely Okavango
         – способность подключать мобильные устройства, в том числе дублируя экран
         смартфона на мультимедийном дисплее. Для этого нужно установить бесплатное
@@ -1901,26 +1901,26 @@
         на платформе Android, на дисплее Geely Okavango дублируется сенсорное управление
         командами и функциями смартфона.
       title: Интеграция смартфона
-      url: /img/models/geely/Okavango/sections/section-5/bawesagp83roiay21d3lpfbt8uss1k5n.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/bawesagp83roiay21d3lpfbt8uss1k5n.webp
     - description: Система камер кругового обзора с функцией “прозрачное шасси” обеспечивает
         водителю наглядную информацию об окружающих препятствиях и улучшенную безопасность
         при маневрировании, позволяя выводить на экран виртуальный вид под автомобилем.
         Она объединяет данные с 4-х камер для создания объемного изображения, доступного
         к просмотру в различных режимах.
       title: Система камер кругового обзора 360°
-      url: /img/models/geely/Okavango/sections/section-5/gpcghch4d8wclaxhklnwyov08giotakd.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/gpcghch4d8wclaxhklnwyov08giotakd.webp
     - description: Панорамная крыша со сдвижным электрическим люком дает интерьеру
         Okavango ещё больше света и пространства. Она дарит ещё больше позитивных
         впечатлений от поездок, потому что всегда приятно насладиться глубиной синего
         неба днём или мерцанием звёзд ночью.<br/>
       title: Большая панорамная крыша с люком
-      url: /img/models/geely/Okavango/sections/section-5/kmcr49yeebh7yzw9jazjgibx0scys45x.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/kmcr49yeebh7yzw9jazjgibx0scys45x.webp
     - description: Беспроводная зарядка – актуальное решение для современного пользователя.
         В Geely Okavango для этого предусмотрена специальная площадка в передней консоли.
         Зарядка работает с телефонами и прочими устройствами, поддерживающими эту
         функцию.
       title: Беспроводная зарядка
-      url: /img/models/geely/Okavango/sections/section-5/lw771qz62i3hwrg5u45awfipefew52k2.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/lw771qz62i3hwrg5u45awfipefew52k2.webp
     - description: "Благодаря системе бесключевого доступа, нет необходимости доставать\
         \ ключ из кармана, чтобы открыть автомобиль. <br/>\r\n\t\t\t Открывать и закрывать\
         \ багажную дверь можно очень легко и разными способами: <br/>\n<br/>\r\n\t\
@@ -1932,7 +1932,7 @@
         \ к багажной двери запертого автомобиля с ключом в кармане и через 3 секунды\
         \ дверь откроется."
       title: Бесключевой доступ и электропривод двери багажника
-      url: /img/models/geely/Okavango/sections/section-5/v1fmoel1d1vcl1i6k1t2zzk3x6rylwf3.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/v1fmoel1d1vcl1i6k1t2zzk3x6rylwf3.webp
     sectionClass: ''
     text: ''
     title: Функциональность
@@ -1940,49 +1940,49 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/hoku2ohpkdkl5555c8h05es1a6yie8qi.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/hoku2ohpkdkl5555c8h05es1a6yie8qi.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/cbiq2n3cd4nprp5jg3t4edke2fol7eiv.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/cbiq2n3cd4nprp5jg3t4edke2fol7eiv.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/utbf4wd9m1xlsv3f8qk16pk6764mb719.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/utbf4wd9m1xlsv3f8qk16pk6764mb719.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/lpescwx9n1ahg2grzgssvv305ifknj5s.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/lpescwx9n1ahg2grzgssvv305ifknj5s.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/d2qotbbqu33h02ydmx8w8ydxt3h4lyba.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/d2qotbbqu33h02ydmx8w8ydxt3h4lyba.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/dshgrdgdx856lta4dwfk27tzglvxos4e.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/dshgrdgdx856lta4dwfk27tzglvxos4e.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/d4fnplasgbvg34qoyyur3xniqhlp9n1p.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/d4fnplasgbvg34qoyyur3xniqhlp9n1p.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/sd9ykbytpd4lfi2ns38dtxenwyr1g7ub.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/sd9ykbytpd4lfi2ns38dtxenwyr1g7ub.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/q4s74xygrawqy021m7q5zg601ltrd9qj.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/q4s74xygrawqy021m7q5zg601ltrd9qj.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/23nn9267v5e03ezdcnr54vyqf9yck0gf.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/23nn9267v5e03ezdcnr54vyqf9yck0gf.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/svcd5rdsw9cb7av1oq8jra1k16ma1ubw.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/svcd5rdsw9cb7av1oq8jra1k16ma1ubw.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/f6b1kzyini2qih6z4pwd9vwgb76gjly7.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/f6b1kzyini2qih6z4pwd9vwgb76gjly7.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/x2wl72l6zroqcr41z01sd6es00gz66cq.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/x2wl72l6zroqcr41z01sd6es00gz66cq.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/7jgmx1qjvxf2t5zxg3y9alr0ovx30dah.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/7jgmx1qjvxf2t5zxg3y9alr0ovx30dah.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Okavango/sections/section-6/h52ktfphfbrj0i7v2jydcwjs3jx2sqkx.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/h52ktfphfbrj0i7v2jydcwjs3jx2sqkx.webp
     sectionClass: bg-gray-100
     text: ''
     title: Галерея
@@ -1992,7 +1992,7 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-0/8ja6fwviz8ezaoils6zqka8shgi2ymio.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-0/8ja6fwviz8ezaoils6zqka8shgi2ymio.webp
     items:
     - icon: mdi:engine-outline
       text: <span>Мощность</span>&nbsp;-&nbsp;<b>238 л.с.</b>
@@ -2011,7 +2011,7 @@
         ламелями, оптика оригинального дизайна с двойными горизонтальными ходовыми
         огнями – запоминающиеся и узнаваемые черты Monjaro.
       title: Экстерьер
-      url: /img/models/geely/Monjaro/sections/section-1/sx30xzbyp72gpoxmu8flco02j1hvuimf.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-1/sx30xzbyp72gpoxmu8flco02j1hvuimf.webp
     - description: "Интерьер Geely Monjaro поражает своей палитрой оснащения: шумоизолирующие\
         \ передние стёкла, высококачественные материалы, кожа и приятная на ощупь\
         \ замша, панорамная крыша с люком, трёхзонный климат-контроль, подогрев руля,\
@@ -2023,7 +2023,7 @@
         \ элементы серебристого цвета<br/>\r\n\t\t\t • Отделка чёрной кожей и замшей\
         \ изумрудного цвета, декоративные элементы бронзового цвета"
       title: Интерьер
-      url: /img/models/geely/Monjaro/sections/section-1/1dtnwl3ppjbtzalz3omoar58fc6j7f7o.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-1/1dtnwl3ppjbtzalz3omoar58fc6j7f7o.webp
     - description: Современные светодиодные фары, подчёркнутые горизонтальными полосками
         ходовых огней, полностью обеспечивают безопасность движения ночью и в плохую
         погоду, в том числе благодаря ассистенту автопереключения дальнего света.
@@ -2031,7 +2031,7 @@
         багажной двери не оставляет равнодушным никого вокруг и притягивает восхищённые
         взгляды.
       title: Светодиодные фары
-      url: /img/models/geely/Monjaro/sections/section-1/zq3j6aajw29foghfzkwzqr7i1j7dfrza.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-1/zq3j6aajw29foghfzkwzqr7i1j7dfrza.webp
     - description: Новый Geely Monjaro базируется на оригинальной модульной архитектуре
         Geely. Она разрабатывалась в течение 4 лет в европейском научно-исследовательском
         центре Geely командой шведских и китайских инженеров. Архитектура автомобиля
@@ -2042,7 +2042,7 @@
         архитектуры соответствует 5 звёздам по стандартам китайского C-NCAP, европейского
         Euro-NCAP и американского US IIHS.
       title: Модульная архитектура
-      url: /img/models/geely/Monjaro/sections/section-1/b4nt7by6zgedhb0r91r288rnqc73hu4k.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-1/b4nt7by6zgedhb0r91r288rnqc73hu4k.webp
     sectionClass: ''
     text: ''
     title: Дизайн и архитектура
@@ -2055,25 +2055,25 @@
         динамическом потенциале двигатель достаточно экономичен – в смешанном цикле
         расход топлива составляет 8,5 л/100 км1 (по циклу NEDC).
       title: Двигатель
-      url: /img/models/geely/Monjaro/sections/section-2/omoirjcb9rdx1vavgos3i3uooj7fmzlo.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-2/omoirjcb9rdx1vavgos3i3uooj7fmzlo.webp
     - description: 8-ступенчатая автоматическая коробка передач (8АТ) – это классический
         «автомат» с гидротрансформатором, предоставляющий максимальный комфорт в сочетании
         с низким расходом топлива при плавном движении, а также впечатляющую динамику
         при ускорении уже с низких оборотов.
       title: Коробка передач
-      url: /img/models/geely/Monjaro/sections/section-2/wt0f7qlqixqxnr5cpbfzhjnzic17jvz4.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-2/wt0f7qlqixqxnr5cpbfzhjnzic17jvz4.webp
     - description: На любой дороге и легком бездорожье система интеллектуального полного
         привода 4WD 6-го поколения даёт водителю полную уверенность. Крутящий момент
         может автоматически распределяться между передней и задней осями вплоть до
         50:50. Это обеспечивает надежный контроль над автомобилем.
       title: Интеллектуальный полный привод
-      url: /img/models/geely/Monjaro/sections/section-2/b7xebcfk8hc2mm7a4v61dy5pd70jqsw4.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-2/b7xebcfk8hc2mm7a4v61dy5pd70jqsw4.webp
     - description: С помощью селектора на центральной консоли можно выбрать один из
         6 режимов движения – Комфортный, Экономичный, Спортивный, Интеллектуальный,
         Снег, Внедорожный. В каждом режиме соответственно меняются настройки рулевого
         управления, двигателя, коробки передач и системы полного привода.
       title: Режимы движения
-      url: /img/models/geely/Monjaro/sections/section-2/2vsxfbus112phf4ebos8vsvduv6bptc0.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-2/2vsxfbus112phf4ebos8vsvduv6bptc0.webp
     sectionClass: bg-gray-100
     text: ''
     title: Двигатель и трансмиссия
@@ -2085,7 +2085,7 @@
         что увеличивает прочность соединений на 50%. В передней части установлена
         алюминиевая энергопоглощающая балка (элемент буферной зоны).
       title: Кузов
-      url: /img/models/geely/Monjaro/sections/section-3/7pe3iyoamycr4ay5alasktuwe52a65wo.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-3/7pe3iyoamycr4ay5alasktuwe52a65wo.webp
     - description: "Во всех комплектациях Geely Monjaro оборудован современными системами\
         \ пассивной и активной безопасности:<br/>\r\n\t\t\t • 6 подушек безопасности<br/>\r\
         \n\t\t\t • Трёхточечные ремни безопасности с преднатяжителями и ограничителями\
@@ -2103,7 +2103,7 @@
         \ поддержания скорости на спуске (HDC)<br/>\r\n\t\t\t - Противобуксовочная\
         \ система (TCS)"
       title: Активная и пассивная
-      url: /img/models/geely/Monjaro/sections/section-3/k20hdt4acer7xivrlko0g3sxzz7b83be.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-3/k20hdt4acer7xivrlko0g3sxzz7b83be.webp
     - description: "Geely Monjaro предлагает внушительный пакет современных систем\
         \ активной безопасности и помощи водителю ADAS 2-го уровня. Их работу обеспечивают\
         \ 3 радара, 5 камер и 12 ультразвуковых датчиков. Одна из таких систем - интеллектуальный\
@@ -2118,7 +2118,7 @@
         \ автомобилей. Вам нужно только держать руки на руле. Эти системы повышают\
         \ безопасность и уменьшает стресс при движении по шоссе."
       title: Адаптивный круиз-контроль и система G-Pilot
-      url: /img/models/geely/Monjaro/sections/section-3/qi2q2p25hx26nby82rk1fik6s3pk59ak.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-3/qi2q2p25hx26nby82rk1fik6s3pk59ak.webp
     - description: Автомобиль постоянно контролирует пространство в слепых зонах по
         обеим сторонам. Продвинутая программа мониторинга опасности столкновения передает
         предупредительный звуковой сигнал и световой сигнал на интегрированном в зеркала
@@ -2128,7 +2128,7 @@
         выезде задним ходом с парковки сзади будут обнаружены другие автомобили или
         пешеходы.
       title: Мониторинг слепых зон (BSD)
-      url: /img/models/geely/Monjaro/sections/section-3/f150spzhhkesoz4mvvpgmv5eph5iqhl6.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-3/f150spzhhkesoz4mvvpgmv5eph5iqhl6.webp
     - description: 'Система предотвращения фронтального столкновения (CMSF) может
         с помощью радара и передней камеры обнаруживать не только автомобили, но и
         пешеходов, велосипедистов на дороге в случае, если вы непреднамеренно отвлеклись
@@ -2141,7 +2141,7 @@
         <span style="font-size: 70%">* Система не является 100% гарантией безаварийного
         вождения</span>'
       title: Предотвращение фронтального столкновения (CMSF)*
-      url: /img/models/geely/Monjaro/sections/section-3/cp1j1czxcnldrhxa0rq6n1pgvav05bev.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-3/cp1j1czxcnldrhxa0rq6n1pgvav05bev.webp
     - description: "Функция контроля полосы движения (LKA) осуществляется двумя элементами\
         \ комплекса ADAS: системой слежения за разметкой и ассистентом удержания автомобиля\
         \ в полосе. Первая предупреждает водителя визуальным и звуковым сигналами,\
@@ -2156,7 +2156,7 @@
         \ полосы и потенциального столкновения со встречным автомобилем или попутным\
         \ автомобилем в соседней полосе."
       title: Контроль полосы движения (LKA)
-      url: /img/models/geely/Monjaro/sections/section-3/e9v1a7wkn8kdwqym18gruf4iwiegs18l.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-3/e9v1a7wkn8kdwqym18gruf4iwiegs18l.webp
     sectionClass: ''
     text: ''
     title: Безопасность
@@ -2171,14 +2171,14 @@
         рулевого колеса и лобового стекла в соответствии с современными тенденциями
         вынесено на мультимедийный экран.
       title: Трёхзонный климат-контроль
-      url: /img/models/geely/Monjaro/sections/section-4/wv0dxwuv20nc2lgerc1ic3nfsxknmsp8.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-4/wv0dxwuv20nc2lgerc1ic3nfsxknmsp8.webp
     - description: В холодное время года полностью ощущаются преимущества таких опций
         как подогрев передних и задних сидений, подогрев руля и электроподогрев всей
         поверхности лобового стекла. Всё это есть в Geely Monjaro. А в жаркое время
         года водитель и передний пассажир могут быстро освежиться, включив вентиляцию
         сидений.
       title: Зимние опции
-      url: /img/models/geely/Monjaro/sections/section-4/av2l6a5itnjgz7psa1smtfwr4f5a2c45.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-4/av2l6a5itnjgz7psa1smtfwr4f5a2c45.webp
     - description: Большой сенсорный дисплей мультимедиа диагональю 12,3” и дисплей
         для переднего пассажира 12,3” отличаются современной графикой, высокой контрастностью,
         а также способностью реагировать даже на касания влажных пальцев и рук в перчатках.
@@ -2186,14 +2186,14 @@
         также система активного шумоподавления. А за приподнятое настроение – многоцветная
         система атмосферной подсветки салона.
       title: Цифровой мультимедийный интерфейс
-      url: /img/models/geely/Monjaro/sections/section-4/cxzgiojnfsldtgxd5pvrb3n6u8rl8hf0.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-4/cxzgiojnfsldtgxd5pvrb3n6u8rl8hf0.webp
     - description: Проекционный дисплей встроен в верхнюю часть передней панели напротив
         водителя. Он создаёт эффект парящего изображения над капотом на расстоянии
         примерно 2 метров впереди. Проекционный дисплей позволяет следить за ключевыми
         показателями автомобиля, такими как скорость движения, состояние круиз-контроля
         и т.д., не отрывая взгляд от дороги.
       title: Проекционный дисплей
-      url: /img/models/geely/Monjaro/sections/section-4/ubqdelfo1hkgva0b3udft37uc019y0wx.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-4/ubqdelfo1hkgva0b3udft37uc019y0wx.webp
     - description: Одна из важных особенностей мультимедийной системы Geely Monjaro
         – способность подключать мобильные устройства с помощью фирменного интерфейса.
         Для интеграции нужно установить бесплатное приложение Carbit Link (EasyCon)
@@ -2204,7 +2204,7 @@
         командами и функциями смартфона. Спроецировать экран смартфона можно на центральный
         дисплей или на дисплей для переднего пассажира.
       title: Дублирование экрана смартфона
-      url: /img/models/geely/Monjaro/sections/section-4/zi03w7z517ha4u4wmk0l9zzah8h1scok.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-4/zi03w7z517ha4u4wmk0l9zzah8h1scok.webp
     sectionClass: bg-gray-100
     text: ''
     title: Комфорт
@@ -2219,12 +2219,12 @@
         \ погоду. Достаточно лишь подойти к багажной двери запертого автомобиля с\
         \ ключом в кармане и через 3 секунды дверь откроется."
       title: Бесключевой доступ и электропривод двери багажника
-      url: /img/models/geely/Monjaro/sections/section-5/4kewy29n5jbd0vjognp5i1wfmu43x5ue.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-5/4kewy29n5jbd0vjognp5i1wfmu43x5ue.webp
     - description: Беспроводная зарядка смартфонов – актуальное решение для современного
         потребителя. В Monjaro для этого предусмотрена специальная площадка в передней
         консоли. Зарядка работает с телефонами, поддерживающими эту функцию.
       title: Беспроводная зарядка
-      url: /img/models/geely/Monjaro/sections/section-5/wpn4v6z3vw2tj9kgkur07olsmav1towa.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-5/wpn4v6z3vw2tj9kgkur07olsmav1towa.webp
     - description: Благодаря четырем камерам, расположенным в корпусах боковых зеркал,
         на двери багажника и в облицовке радиатора на экране мультимедиа Geely Monjaro
         демонстрируется вид спереди и сзади, а также синтезируется виртуальный вид
@@ -2232,19 +2232,19 @@
         объектов. Такой круговой обзор на 360° облегчает маневрирование в стесненных
         условиях, повышая комфорт и безопасность.
       title: Система камер кругового обзора 360°
-      url: /img/models/geely/Monjaro/sections/section-5/2gkoses6n0t29qdm6260vetro2cme56l.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-5/2gkoses6n0t29qdm6260vetro2cme56l.webp
     - description: Интеллектуальная система управления дальним светом анализирует
         ситуацию по многим факторам и автоматически переключает дальний свет на ближний
         и обратно, повышая безопасность езды в темное время суток. Режим работы фар
         меняется не только при приближении к встречному или попутному автомобилю,
         но и в зависимости от условий освещённости дороги и скорости движения Monjaro.
       title: Система автоматического управления дальним светом
-      url: /img/models/geely/Monjaro/sections/section-5/liqgst94v7yvhad723ysq4jznj715mdo.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-5/liqgst94v7yvhad723ysq4jznj715mdo.webp
     - description: Функция ассистента автоматической парковки позволяет осуществлять
         параллельную и поперечную парковку на правую и на левую стороны простым нажатием
         кнопки.
       title: Функция автопарковки
-      url: /img/models/geely/Monjaro/sections/section-5/1vnvplizbxea3ljrue8nqkb0fvmz4vi2.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-5/1vnvplizbxea3ljrue8nqkb0fvmz4vi2.webp
     sectionClass: ''
     text: ''
     title: Функциональность
@@ -2260,7 +2260,7 @@
         \ <br/>\r\n\t\t\t • Декоративные элементы бронзового цвета <br/>\r\n\t\t\t\
         \ • Автомобильный ключ изумрудного цвета <br/>"
       title: Exclusive Emerald Blue
-      url: /img/models/geely/Monjaro/sections/section-6/uew1l86bj36jmgl7ow4oi4edrqnrucx9.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-6/uew1l86bj36jmgl7ow4oi4edrqnrucx9.webp
     - description: "Exclusive Lomo Grey с матовой окраской кузова особо подчёркивает\
         \ уникальность и монументальность Monjaro как в солнечный день, так и в свете\
         \ ночных городских фонарей. <br/>\n<br/>\r\n\t\t\t В экстерьере: <br/>\n<br/>\r\
@@ -2269,7 +2269,7 @@
         \ <br/>\n<br/>\r\n\t\t\t • Отделка салона чёрной кожей и замшей, замшевые\
         \ вставки на сиденьях, на передней панели, в дверных панелях <br/>"
       title: Exclusive Lomo Grey
-      url: /img/models/geely/Monjaro/sections/section-6/2x2oo014b546wfp8u3njwxv1un07b91u.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-6/2x2oo014b546wfp8u3njwxv1un07b91u.webp
     sectionClass: bg-gray-100
     text: ''
     title: Особая версия Exclusive
@@ -2277,43 +2277,43 @@
     images:
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/r3hdymp10oqdmlgjmy0lcl69oh5rufie.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/r3hdymp10oqdmlgjmy0lcl69oh5rufie.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/2z24f473qhaia8hlf4jld6iubd93yrrz.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/2z24f473qhaia8hlf4jld6iubd93yrrz.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/f7tb1cekj4eloyb192bu69nvtcxvjcpi.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/f7tb1cekj4eloyb192bu69nvtcxvjcpi.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/vft1u9ewvr8vjj3hnr6uobia5x7nc9yk.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/vft1u9ewvr8vjj3hnr6uobia5x7nc9yk.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/36qzwhm772xoukcxxvvk1q1gdn3dquxo.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/36qzwhm772xoukcxxvvk1q1gdn3dquxo.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/uvyitdl9k5pu0gbm9y6y0w17c9lom01c.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/uvyitdl9k5pu0gbm9y6y0w17c9lom01c.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/6pe2xgydec64tb1a518nkghjjrr87dea.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/6pe2xgydec64tb1a518nkghjjrr87dea.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/iofqcicrbm2mop2iuer4vv3nvmmdzwz0.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/iofqcicrbm2mop2iuer4vv3nvmmdzwz0.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/plblolcnfp3vogtbsjwqxq0wfsjb8hag.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/plblolcnfp3vogtbsjwqxq0wfsjb8hag.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/aukai1l8ibjhrzxaqrh3q60f3jy3pfjy.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/aukai1l8ibjhrzxaqrh3q60f3jy3pfjy.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/mstxwe25yvhf5l61x9s86ioyckcd30ge.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/mstxwe25yvhf5l61x9s86ioyckcd30ge.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/enm3q09s0c20l25pdbtnchuqjwaet96k.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/enm3q09s0c20l25pdbtnchuqjwaet96k.webp
     - description: ''
       title: ''
-      url: /img/models/geely/Monjaro/sections/section-9/cj0sfu4wlfphoahvf816j7emsliqqstt.webp
+      url: https://cdn.alexsab.ru/b/geely/img/models/Monjaro/sections/section-9/cj0sfu4wlfphoahvf816j7emsliqqstt.webp
     sectionClass: ''
     text: ''
     title: Галерея
