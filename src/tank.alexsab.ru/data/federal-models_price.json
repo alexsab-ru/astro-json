@@ -2,7 +2,7 @@
   {
     "id": "tank-300",
     "brand": "tank",
-    "model": "TANK 300",
+    "model": "300",
     "price": "3799000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-300"
@@ -10,7 +10,7 @@
   {
     "id": "tank-400",
     "brand": "tank",
-    "model": "TANK 400",
+    "model": "400",
     "price": "4749000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-400"
@@ -18,7 +18,7 @@
   {
     "id": "tank-500",
     "brand": "tank",
-    "model": "TANK 500",
+    "model": "500",
     "price": "6099000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-500"
@@ -26,7 +26,7 @@
   {
     "id": "tank-700",
     "brand": "tank",
-    "model": "TANK 700",
+    "model": "700",
     "price": "7999000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-700"

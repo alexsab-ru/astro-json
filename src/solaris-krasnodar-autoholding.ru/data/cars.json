@@ -2,7 +2,7 @@
   {
     "id": "solaris-hc",
     "brand": "solaris",
-    "model": "Solaris HC",
+    "model": "HC",
     "price": "1819000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-hc"
@@ -10,7 +10,7 @@
   {
     "id": "solaris-hs",
     "brand": "solaris",
-    "model": "Solaris HS",
+    "model": "HS",
     "price": "1930000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-hs"
@@ -18,7 +18,7 @@
   {
     "id": "solaris-krs",
     "brand": "solaris",
-    "model": "Solaris KRS",
+    "model": "KRS",
     "price": "1750000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krs"
@@ -26,7 +26,7 @@
   {
     "id": "solaris-krx",
     "brand": "solaris",
-    "model": "Solaris KRX",
+    "model": "KRX",
     "price": "1750000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krx"
