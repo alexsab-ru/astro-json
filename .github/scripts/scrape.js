@@ -328,7 +328,10 @@ async function scrapePage(url, xpaths) {
             items.forEach((item, index) => {
                 try {
                     const id = getStringValue(xpaths.idXPath, item);
-                    const model = getStringValue(xpaths.modelXPath, item);
+                    let model = getStringValue(xpaths.modelXPath, item).toLowerCase();
+                    if (model.startsWith(brandPrefix)) {
+                        model = model.replace(brandPrefix, '').trim();
+                    }
                     const price = getStringValue(xpaths.priceXPath, item);
                     let link = getStringValue(xpaths.linkXPath, item);
 
