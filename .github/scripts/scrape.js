@@ -81,7 +81,7 @@ async function scrapePage(url, xpaths) {
         executablePath: process.env.CHROME_BIN || (process.platform === 'win32' 
             ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
             : '/usr/bin/google-chrome'),
-        timeout: 60000, // Уменьшаем timeout для более быстрого фейла
+        timeout: 10000, // Уменьшаем timeout для более быстрого фейла
         headless: 'new',
         ignoreHTTPSErrors: true // Игнорируем HTTPS ошибки
     };
@@ -111,7 +111,7 @@ async function scrapePage(url, xpaths) {
                 // Пробуем сначала с networkidle0
                 await page.goto(url, { 
                     waitUntil: 'networkidle0', // Ждем пока все сетевые запросы завершатся
-                    timeout: parseInt(process.env.TIMEOUT || '60000') // Уменьшаем timeout
+                    timeout: parseInt(process.env.TIMEOUT || '10000') // Уменьшаем timeout
                 });
                 
                 // Проверяем, что страница все еще доступна
