@@ -104,9 +104,10 @@ async function extractData() {
             const { benefit, cleanString } = await extractBenefit(card.price.value.toLowerCase());
             const price = await extractMinPrice(cleanString);
             console.log("price: ", price, benefit);
-            let model = card.title.text.value.toLowerCase();
-            if (model.startsWith(brandPrefix)) {
-                model = model.replace(brandPrefix, '').trim();
+            let model = card.title.text.value;
+            if (model.toLowerCase().startsWith(brandPrefix)) {
+                const regex = new RegExp('^' + brandPrefix, 'i');
+                model = model.replace(regex, '').trim();
             }
             
             return {

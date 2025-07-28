@@ -230,7 +230,7 @@ def scrape_page(url, xpaths, brand_prefix):
                 data.append({
                     'id': process_xpath_result(id),
                     'brand': brand_prefix,
-                    'model': process_xpath_result(model),
+                    'model': model,
                     'price': process_xpath_result(price),
                     'benefit': "",  # Добавляем поле benefit как в JS версии
                     'link': link_value
