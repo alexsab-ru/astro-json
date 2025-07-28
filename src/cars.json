@@ -2,7 +2,7 @@
   {
     "id": "baic-u5_plus",
     "brand": "baic",
-    "model": "BAIC U5 PLUS",
+    "model": "U5 PLUS",
     "price": 1394500,
     "benefit": 0,
     "link": "/models/u5_plus/"
@@ -10,7 +10,7 @@
   {
     "id": "baic-x35",
     "brand": "baic",
-    "model": "BAIC X35",
+    "model": "X35",
     "price": 0,
     "benefit": 0,
     "link": "/models/x35/"
@@ -18,7 +18,7 @@
   {
     "id": "baic-x55",
     "brand": "baic",
-    "model": "BAIC X55",
+    "model": "X55",
     "price": 1975000,
     "benefit": 0,
     "link": "/models/x55/"
@@ -26,7 +26,7 @@
   {
     "id": "baic-x7",
     "brand": "baic",
-    "model": "BAIC X7",
+    "model": "X7",
     "price": 1940000,
     "benefit": 0,
     "link": "/models/x7/"
@@ -34,7 +34,7 @@
   {
     "id": "baic-x75",
     "brand": "baic",
-    "model": "BAIC X75",
+    "model": "X75",
     "price": 2100000,
     "benefit": 0,
     "link": "/models/x75/"
@@ -42,7 +42,7 @@
   {
     "id": "baic-bj40",
     "brand": "baic",
-    "model": "BAIC BJ40",
+    "model": "BJ40",
     "price": 3025000,
     "benefit": 0,
     "link": "/models/bj40/"
@@ -50,7 +50,7 @@
   {
     "id": "kaiyi-e5",
     "brand": "kaiyi",
-    "model": "KAIYI E5",
+    "model": "E5",
     "price": 1225000,
     "benefit": 0,
     "link": "/models/kaiyi-e5/"
@@ -58,7 +58,7 @@
   {
     "id": "kaiyi-x3",
     "brand": "kaiyi",
-    "model": "KAIYI X3",
+    "model": "X3",
     "price": 1375000,
     "benefit": 0,
     "link": "/models/kaiyi-x3/"
@@ -66,7 +66,7 @@
   {
     "id": "kaiyi-x3pro",
     "brand": "kaiyi",
-    "model": "KAIYI X3 PRO",
+    "model": "X3 PRO",
     "price": 1675000,
     "benefit": 0,
     "link": "/models/kaiyi-x3pro/"
@@ -74,7 +74,7 @@
   {
     "id": "kaiyi-x7-kunlun",
     "brand": "kaiyi",
-    "model": "KAIYI X7 Kunlun",
+    "model": "X7 Kunlun",
     "price": 2250000,
     "benefit": 0,
     "link": "/models/kaiyi-x7-kunlun/"
@@ -666,7 +666,7 @@
   {
     "id": "knewstar-001",
     "brand": "knewstar",
-    "model": "KNEWSTAR 001",
+    "model": "001",
     "price": "3299990",
     "benefit": "",
     "link": "https://knewstar.ru/model/knewstar-001"
@@ -826,7 +826,7 @@
   {
     "id": "wey-05",
     "brand": "wey",
-    "model": "WEY 05",
+    "model": "05",
     "price": "4900000",
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-05"
@@ -834,7 +834,7 @@
   {
     "id": "wey-07",
     "brand": "wey",
-    "model": "WEY 07",
+    "model": "07",
     "price": "6299000",
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-07"
@@ -842,7 +842,7 @@
   {
     "id": "wey-80-business-lounge",
     "brand": "wey",
-    "model": "WEY 80 Business Lounge",
+    "model": "80 Business Lounge",
     "price": "7699000",
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-business-lounge"
@@ -850,7 +850,7 @@
   {
     "id": "wey-80-premium",
     "brand": "wey",
-    "model": "WEY 80 Premium",
+    "model": "80 Premium",
     "price": "6299000",
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-premium"

@@ -215,6 +215,9 @@ def scrape_page(url, xpaths, brand_prefix):
             # Извлекаем данные из результата elementpath
             id = elementpath.select(item, xpaths['id_xpath'], parser=XPath3Parser)
             model = elementpath.select(item, xpaths['model_xpath'], parser=XPath3Parser)
+            model = process_xpath_result(model)
+            if model.lower().startswith(brand_prefix.lower()):
+                model = model[len(brand_prefix):].strip()
             price = elementpath.select(item, xpaths['price_xpath'], parser=XPath3Parser)
             link = elementpath.select(item, xpaths['link_xpath'], parser=XPath3Parser)
 
@@ -227,7 +230,7 @@ def scrape_page(url, xpaths, brand_prefix):
                 data.append({
                     'id': process_xpath_result(id),
                     'brand': brand_prefix,
-                    'model': process_xpath_result(model),
+                    'model': model,
                     'price': process_xpath_result(price),
                     'benefit': "",  # Добавляем поле benefit как в JS версии
                     'link': link_value
