@@ -2,7 +2,7 @@
   {
     "id": "baic-u5_plus",
     "brand": "baic",
-    "model": "u5 plus",
+    "model": "U5 PLUS",
     "price": 1394500,
     "benefit": 0,
     "link": "/models/u5_plus/"
@@ -10,7 +10,7 @@
   {
     "id": "baic-x35",
     "brand": "baic",
-    "model": "x35",
+    "model": "X35",
     "price": 0,
     "benefit": 0,
     "link": "/models/x35/"
@@ -18,7 +18,7 @@
   {
     "id": "baic-x55",
     "brand": "baic",
-    "model": "x55",
+    "model": "X55",
     "price": 1975000,
     "benefit": 0,
     "link": "/models/x55/"
@@ -26,7 +26,7 @@
   {
     "id": "baic-x7",
     "brand": "baic",
-    "model": "x7",
+    "model": "X7",
     "price": 1940000,
     "benefit": 0,
     "link": "/models/x7/"
@@ -34,7 +34,7 @@
   {
     "id": "baic-x75",
     "brand": "baic",
-    "model": "x75",
+    "model": "X75",
     "price": 2100000,
     "benefit": 0,
     "link": "/models/x75/"
@@ -42,7 +42,7 @@
   {
     "id": "baic-bj40",
     "brand": "baic",
-    "model": "bj40",
+    "model": "BJ40",
     "price": 3025000,
     "benefit": 0,
     "link": "/models/bj40/"
@@ -50,7 +50,7 @@
   {
     "id": "kaiyi-e5",
     "brand": "kaiyi",
-    "model": "e5",
+    "model": "E5",
     "price": 1225000,
     "benefit": 0,
     "link": "/models/kaiyi-e5/"
@@ -58,7 +58,7 @@
   {
     "id": "kaiyi-x3",
     "brand": "kaiyi",
-    "model": "x3",
+    "model": "X3",
     "price": 1375000,
     "benefit": 0,
     "link": "/models/kaiyi-x3/"
@@ -66,7 +66,7 @@
   {
     "id": "kaiyi-x3pro",
     "brand": "kaiyi",
-    "model": "x3 pro",
+    "model": "X3 PRO",
     "price": 1675000,
     "benefit": 0,
     "link": "/models/kaiyi-x3pro/"
@@ -74,7 +74,7 @@
   {
     "id": "kaiyi-x7-kunlun",
     "brand": "kaiyi",
-    "model": "x7 kunlun",
+    "model": "X7 Kunlun",
     "price": 2250000,
     "benefit": 0,
     "link": "/models/kaiyi-x7-kunlun/"
@@ -762,7 +762,7 @@
   {
     "id": "soueast-s07",
     "brand": "soueast",
-    "model": "s07",
+    "model": "S07",
     "price": "2109000",
     "benefit": "",
     "link": "https://soueast.ru/s07"
@@ -770,7 +770,7 @@
   {
     "id": "soueast-s09",
     "brand": "soueast",
-    "model": "s09",
+    "model": "S09",
     "price": "2449000",
     "benefit": "",
     "link": "https://soueast.ru/s09"
@@ -810,7 +810,7 @@
   {
     "id": "vgv-u70-pro",
     "brand": "vgv",
-    "model": "u70pro",
+    "model": "U70PRO",
     "price": "1899900",
     "benefit": "",
     "link": "https://vgvmotor.ru/models/u70-pro/"
@@ -818,7 +818,7 @@
   {
     "id": "vgv-u75-plus",
     "brand": "vgv",
-    "model": "u75plus",
+    "model": "U75PLUS",
     "price": "2349900",
     "benefit": "",
     "link": "https://vgvmotor.ru/models/u75-plus/"
