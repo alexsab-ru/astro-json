@@ -1,10 +1,10 @@
 export BRAND='geely'
 export URL="https://www.geely-motors.com"
-export ITEM_XPATH="//a[contains(@class,'v2-menu-curtain-automobiles__item')]"
-export ID_XPATH="concat('geely-', substring(substring-after(./@href, '/model/'), 1 + 6 * starts-with(substring-after(./@href, '/model/'), 'geely-')))"
-export MODEL_XPATH="./div/h4[@class='v2-automobile-menu-card__heading']/text()"
-export PRICE_XPATH="translate(string(./div/p[@class='v2-automobile-menu-card__paragraph']/text()), translate(string(./div/p[@class='v2-automobile-menu-card__paragraph']/text()), '0123456789', ''), '')"
-export LINK_XPATH="./@href"
+export ITEM_XPATH="//div[@class='menu__models-item']"
+export ID_XPATH="concat('geely-', substring-before(substring(substring-after(./a/@href, '/model/'), 1 + 6 * starts-with(substring-after(./a/@href, '/model/'), 'geely-')), '/'))"
+export MODEL_XPATH=".//div[contains(concat(' ', normalize-space(@class), ' '), ' menu__models-item-title ')]/text()"
+export PRICE_XPATH="translate(string(.//div[contains(concat(' ', normalize-space(@class), ' '), ' menu__models-item-price ')]/text()), translate(string(.//div[contains(concat(' ', normalize-space(@class), ' '), ' menu__models-item-price ')]/text()), '0123456789', ''), '')"
+export LINK_XPATH="./a/@href"
 export OUTPUT_PATHS="./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-samara.ru/data/cars.json,./src/geely-partner-saratov.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json,./tmp/auto-team.pro/data/geely.json,./src/geely.alexsab.ru/data/cars.json"
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'

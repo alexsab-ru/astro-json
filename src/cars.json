@@ -730,7 +730,7 @@
   {
     "id": "solaris-hc",
     "brand": "solaris",
-    "model": "Solaris HC",
+    "model": "HC",
     "price": "1819000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-hc"
@@ -738,7 +738,7 @@
   {
     "id": "solaris-hs",
     "brand": "solaris",
-    "model": "Solaris HS",
+    "model": "HS",
     "price": "1930000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-hs"
@@ -746,7 +746,7 @@
   {
     "id": "solaris-krs",
     "brand": "solaris",
-    "model": "Solaris KRS",
+    "model": "KRS",
     "price": "1750000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krs"
@@ -754,7 +754,7 @@
   {
     "id": "solaris-krx",
     "brand": "solaris",
-    "model": "Solaris KRX",
+    "model": "KRX",
     "price": "1750000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krx"
@@ -778,7 +778,7 @@
   {
     "id": "tank-300",
     "brand": "tank",
-    "model": "TANK 300",
+    "model": "300",
     "price": "3799000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-300"
@@ -786,7 +786,7 @@
   {
     "id": "tank-400",
     "brand": "tank",
-    "model": "TANK 400",
+    "model": "400",
     "price": "4749000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-400"
@@ -794,7 +794,7 @@
   {
     "id": "tank-500",
     "brand": "tank",
-    "model": "TANK 500",
+    "model": "500",
     "price": "6099000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-500"
@@ -802,7 +802,7 @@
   {
     "id": "tank-700",
     "brand": "tank",
-    "model": "TANK 700",
+    "model": "700",
     "price": "7999000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-700"

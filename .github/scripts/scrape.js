@@ -81,7 +81,7 @@ async function scrapePage(url, xpaths) {
         executablePath: process.env.CHROME_BIN || (process.platform === 'win32' 
             ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
             : '/usr/bin/google-chrome'),
-        timeout: 60000, // Уменьшаем timeout для более быстрого фейла
+        timeout: 10000, // Уменьшаем timeout для более быстрого фейла
         headless: 'new',
         ignoreHTTPSErrors: true // Игнорируем HTTPS ошибки
     };
@@ -108,10 +108,10 @@ async function scrapePage(url, xpaths) {
         // Используем retry механизм для навигации с fallback стратегией
         try {
             await retryOperation(async () => {
-                // Пробуем сначала с networkidle0
+                // Пробуем сначала с domcontentloaded (быстрее)
                 await page.goto(url, { 
-                    waitUntil: 'networkidle0', // Ждем пока все сетевые запросы завершатся
-                    timeout: parseInt(process.env.TIMEOUT || '60000') // Уменьшаем timeout
+                    waitUntil: 'domcontentloaded', // Ждем только загрузку DOM
+                    timeout: parseInt(process.env.TIMEOUT || '10000') // Уменьшаем timeout
                 });
                 
                 // Проверяем, что страница все еще доступна
@@ -119,16 +119,24 @@ async function scrapePage(url, xpaths) {
                     throw new Error('Страница была закрыта во время навигации');
                 }
             }, 2, 3000); // 2 попытки с задержкой 3 секунды
-        } catch (networkIdleError) {
-            console.log('Fallback: пробуем более простую навигацию...');
-            // Fallback к более простому waitUntil
-            await page.goto(url, { 
-                waitUntil: 'domcontentloaded',
-                timeout: parseInt(process.env.TIMEOUT || '30000')
-            });
-            
-            if (page.isClosed()) {
-                throw new Error('Страница была закрыта во время fallback навигации');
+        } catch (domContentError) {
+            console.log('Fallback: пробуем более надежную навигацию с networkidle0...');
+            // Fallback к более надежному waitUntil (медленнее, но надежнее)
+            try {
+                await retryOperation(async () => {
+                    await page.goto(url, { 
+                        waitUntil: 'networkidle0', // Ждем пока все сетевые запросы завершатся
+                        timeout: parseInt(process.env.TIMEOUT || '30000')
+                    });
+                    
+                    // Проверяем, что страница все еще доступна
+                    if (page.isClosed()) {
+                        throw new Error('Страница была закрыта во время fallback навигации');
+                    }
+                }, 2, 3000); // 2 попытки с задержкой 3 секунды
+            } catch (networkIdleError) {
+                // Если и fallback не сработал, пробрасываем ошибку дальше
+                throw new Error(`Оба метода навигации не сработали. DOM Content: ${domContentError.message}, Network Idle: ${networkIdleError.message}`);
             }
         }
 
