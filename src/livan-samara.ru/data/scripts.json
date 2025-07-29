@@ -11,6 +11,12 @@
                 "id": "93431320",
                 "clickmap": true,
                 "trackLinks": true,
+                "accurateTrackBounce": true
+            },
+            {
+                "id": "103528711",
+                "clickmap": true,
+                "trackLinks": true,
                 "accurateTrackBounce": true,
                 "webvisor": true
             }
