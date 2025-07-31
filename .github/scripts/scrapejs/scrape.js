@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 require('dotenv').config();
 const { BrowserOption, Viewport, Platform, ResponseOption, SearchType } = require('./variables');
 const { getDataByXPath } = require('./getDataByXPath');
-const { getDataByCSS } = require('./getDataByCSS');
+const { getModel, getPrice, getLink } = require('./getDataByCSS');
 
 const browserOptions = {
   args: BrowserOption.ARGS,
@@ -20,6 +20,8 @@ const searchData = {
 (async () => {
   const browser = await puppeteer.launch(browserOptions);
   const page = await browser.newPage();
+  const brand = process.env.BRAND;
+  let data = [];
   await page.setViewport({width: Viewport.WIDTH, height: Viewport.HEIGHT});
   try {
     const response = await page.goto(searchData.url, {
@@ -35,40 +37,24 @@ const searchData = {
       const elements = await page.$$(process.env.ITEM_CSS);
       if (elements && elements.length) {
         for (const element of elements) {
-          const model = await element.$(process.env.MODEL_CSS);
-          if (model) {
-            const text = await model.evaluate(node => node.textContent);
-            console.log('model', text);
-          } else {
-            console.log('no model')
-          }
-          const price = await element.$(process.env.PRICE_CSS);
-          console.log('price: ', price);
-          if (price) {
-            const text = await price.evaluate(node => node.textContent);
-            console.log(text);
-          } else {
-            console.log('no price')
-          }
+          const model = await getModel(element, process.env.MODEL_CSS, brand);
+          const price = await getPrice(element, process.env.PRICE_CSS);
+          const link = await getLink(element, process.env.LINK_CSS);
+          const id = `${brand}-${model.toLowerCase()}`;
+          data.push({
+            id,
+            brand,
+            model,
+            price,
+            benefit: '',
+            link,
+          });
         }
+        console.log('data: ', data);
       } else {
-        console.log('no items');
+        console.log('Не найдено ни одного элемента.');
       }
-    }
-    
-    // const elements = await page.$$(`xpath/${searchData.item}`);
-    
-    // if (elements && elements.length) {
-    //   for (const element of elements) {
-        
-    //     if (searchData.type === SearchType.XPATH) {
-    //       const model = await element.$eval('a');
-    //       console.log(model);
-    //     }
-    //   }
-    // }
-    
-        
+    }   
   } catch (err) {
     console.log('Ошибка получения данных: ', err);
   } finally {
