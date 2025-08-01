@@ -1,12 +1,11 @@
 const puppeteer = require('puppeteer');
 require('dotenv').config();
-const { BrowserOption, Viewport, Platform, ResponseOption, SearchType } = require('./variables');
-const { getDataByXPath } = require('./getDataByXPath');
+const { BrowserOption, Viewport, Platform, ResponseOption, WaitUntil, WaitForSelectorOption } = require('./variables');
 const { getId, getModel, getPrice, getLink } = require('./getDataByCSS');
 
 const browserOptions = {
   args: BrowserOption.ARGS,
-  executablePath: process.env.CHROME_BIN || (process.platform === Platform.WIN ? BrowserOption.WIN_PATH : BrowserOption.DEFAULT_PATH),
+  executablePath: process.env.CHROME_BIN || (process.platform === Platform.WIN ? BrowserOption.PATHS.WIN : BrowserOption.PATHS.LINUX),
   timeout: BrowserOption.TIMEOUT,
   headless: true,
   ignoreHTTPSErrors: true
@@ -20,7 +19,7 @@ const browserOptions = {
   await page.setViewport({width: Viewport.WIDTH, height: Viewport.HEIGHT});
   try {
     const response = await page.goto(process.env.URL, {
-      waitUntil: ResponseOption.WAIT_UNTIL.dom,
+      waitUntil: process.env.CLICK_SELECTOR ? WaitUntil.DOM : WaitUntil.NETWORK_IDLE_2,
       timeout: ResponseOption.TIMEOUT,
     });
 
@@ -28,8 +27,14 @@ const browserOptions = {
       throw new Error(`Статус загрузки страницы: ${response.status()}`);
     }
 
+    if (process.env.CLICK_SELECTOR) {
+      await page.waitForSelector(process.env.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
+      const modelsLink = await page.$(process.env.CLICK_SELECTOR);
+      await modelsLink.click();
+    }
+
     const elements = await page.$$(process.env.ITEM_CSS);
-    if (elements && elements.length) {
+    if (elements.length) {
       for (const element of elements) {
         const model = await getModel(element, process.env.MODEL_CSS, brand);
         console.log('model: ', model);

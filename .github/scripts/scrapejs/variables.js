@@ -8,14 +8,17 @@ const BrowserOption = {
     '--single-process', // Может помочь на слабых серверах (но не всегда стабильно)
     '--no-zygote', // Уменьшает использование памяти
   ],
-  WIN_PATH: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-  DEFAULT_PATH: '/usr/bin/google-chrome',
+  PATHS: {
+    WIN: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    MAC: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+    LINUX: '/usr/bin/google-chrome'
+  },
   TIMEOUT: 60000,
 };
 
 const Viewport = {
-  WIDTH: 1080,
-  HEIGHT: 1024
+  WIDTH: 1980,
+  HEIGHT: 1080
 };
 
 const Platform = {
@@ -23,18 +26,18 @@ const Platform = {
 };
 
 const ResponseOption = {
-  WAIT_UNTIL: {
-    full: 'load', // Полная загрузка страницы (включая CSS, изображения, скрипты).
-    dom: 'domcontentloaded', // Быстрое завершение (DOM готов, но ресурсы могут догружаться).
-    network0: 'networkidle0', // Нет активных запросов (хорош для SPA и AJAX-сайтов).
-    network2: 'networkidle2' // Почти нет запросов (подходит для фоновых процессов).
-  },
   TIMEOUT: 60000,
 };
 
-const SearchType = {
-  XPATH: 'xpath',
-  CSS: 'css'
+const WaitForSelectorOption = {
+  TIMEOUT: 5000,
+};
+
+const WaitUntil = {
+  FULL: 'load', // Полная загрузка страницы (включая CSS, изображения, скрипты).
+  DOM: 'domcontentloaded', // Быстрое завершение (DOM готов, но ресурсы могут догружаться).
+  NETWORK_IDLE_0: 'networkidle0', // Нет активных запросов (хорош для SPA и AJAX-сайтов).
+  NETWORK_IDLE_2: 'networkidle2' // Почти нет запросов (подходит для фоновых процессов).
 };
 
 module.exports = {
@@ -42,5 +45,6 @@ module.exports = {
   Viewport,
   Platform,
   ResponseOption,
-  SearchType
+  WaitForSelectorOption,
+  WaitUntil,
 };
