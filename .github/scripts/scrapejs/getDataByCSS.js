@@ -6,6 +6,10 @@ const checkBrandPrefix = (element, brand) => {
   return element.trim();
 };
 
+const checkLink = (link) => {
+  return link.split('?')[0];
+};
+
 const getId = (brand, url) => {
   url = url.replace(/\/$/, '');
   url = url.split('/').pop();
@@ -41,7 +45,7 @@ const getLink = async (element, selector) => {
   const linkElement = await element.$(selector);
   if (linkElement) {
     const linkHref = await linkElement.evaluate(node => node.href);
-    return linkHref ? linkHref : null;
+    return linkHref ? checkLink(linkHref) : null;
   } else {
     return null;
   }
