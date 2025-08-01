@@ -39,7 +39,7 @@ const getPrice = async (element, selector) => {
 const getLink = async (element, selector) => {
   const elementHref = await element.evaluate(node => node.href);
   if (elementHref) {
-    return elementHref;
+    return checkLink(elementHref);
   }
   
   const linkElement = await element.$(selector);
