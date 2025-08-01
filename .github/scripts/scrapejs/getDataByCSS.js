@@ -3,7 +3,7 @@ const checkBrandPrefix = (element, brand) => {
     const regex = new RegExp('^' + brand + '-?', 'i');
     element = element.replace(regex, '').trim();
   }
-  return element;
+  return element.trim();
 };
 
 const getId = (brand, url) => {
