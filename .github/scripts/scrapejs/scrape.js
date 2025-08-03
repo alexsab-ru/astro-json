@@ -29,8 +29,14 @@ const browserOptions = {
 
     if (process.env.CLICK_SELECTOR) {
       await page.waitForSelector(process.env.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
+      if (process.env.DEBUG_SCREENSHOT) {
+        await page.screenshot({ path: 'before-click.png' });
+      }
       const modelsLink = await page.$(process.env.CLICK_SELECTOR);
       await modelsLink.click();
+      if (process.env.DEBUG_SCREENSHOT) {
+        await page.screenshot({ path: 'after-click.png' });
+      }
     }
 
     const elements = await page.$$(process.env.ITEM_CSS);
