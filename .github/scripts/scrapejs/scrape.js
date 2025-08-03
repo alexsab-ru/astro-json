@@ -3,6 +3,8 @@ require('dotenv').config();
 const { BrowserOption, Viewport, Platform, ResponseOption, WaitUntil, WaitForSelectorOption } = require('./variables');
 const { getId, getModel, getPrice, getLink } = require('./getDataByCSS');
 
+const DEBUG_SCREENSHOT = process.env.DEBUG_SCREENSHOT === 'true' ? true : false;
+
 const browserOptions = {
   args: BrowserOption.ARGS,
   executablePath: process.env.CHROME_BIN || (process.platform === Platform.WIN ? BrowserOption.PATHS.WIN : BrowserOption.PATHS.LINUX),
@@ -15,11 +17,11 @@ const browserOptions = {
   const browser = await puppeteer.launch(browserOptions);
   const page = await browser.newPage();
   const brand = process.env.BRAND;
-  let data = [];
+  const data = [];
   await page.setViewport({width: Viewport.WIDTH, height: Viewport.HEIGHT});
   try {
     const response = await page.goto(process.env.URL, {
-      waitUntil: process.env.CLICK_SELECTOR ? WaitUntil.DOM : WaitUntil.NETWORK_IDLE_2,
+      waitUntil: process.env.CLICK_SELECTOR ? WaitUntil.DOM : WaitUntil.FULL,
       timeout: ResponseOption.TIMEOUT,
     });
 
@@ -29,12 +31,12 @@ const browserOptions = {
 
     if (process.env.CLICK_SELECTOR) {
       await page.waitForSelector(process.env.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
-      if (process.env.DEBUG_SCREENSHOT) {
+      if (DEBUG_SCREENSHOT) {
         await page.screenshot({ path: 'before-click.png' });
       }
       const modelsLink = await page.$(process.env.CLICK_SELECTOR);
       await modelsLink.click();
-      if (process.env.DEBUG_SCREENSHOT) {
+      if (DEBUG_SCREENSHOT) {
         await page.screenshot({ path: 'after-click.png' });
       }
     }
