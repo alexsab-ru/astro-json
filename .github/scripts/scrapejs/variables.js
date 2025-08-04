@@ -1,3 +1,7 @@
+const Selector = {
+  IMG: 'img',
+};
+
 const BrowserOption = {
   ARGS: [
     '--no-sandbox', // Обязательно для Linux (GitHub Actions использует Ubuntu)
@@ -41,6 +45,7 @@ const WaitUntil = {
 };
 
 module.exports = {
+  Selector,
   BrowserOption,
   Viewport,
   Platform,

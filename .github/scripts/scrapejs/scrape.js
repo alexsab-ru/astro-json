@@ -44,14 +44,10 @@ const browserOptions = {
     const elements = await page.$$(process.env.ITEM_CSS);
     if (elements.length) {
       for (const element of elements) {
-        const model = await getModel(element, process.env.MODEL_CSS, brand);
-        console.log('model: ', model);
         const price = await getPrice(element, process.env.PRICE_CSS);
-        console.log('price: ', price);
         const link = process.env.LINK_CSS ? await getLink(element, process.env.LINK_CSS) : null;
-        console.log('link: ', link);
+        const model = await getModel(element, process.env.MODEL_CSS, brand, link);
         const id = getId(brand, link);
-        console.log('id: ', id);
         data.push({
           id,
           brand,
