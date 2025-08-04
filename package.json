@@ -32,6 +32,7 @@
     "scrape-jac": "sh ./.github/scripts/sh/scrape-jac.sh",
     "scrape-jaecoo": "sh ./.github/scripts/sh/scrape-jaecoo.sh",
     "scrape-jetour": "sh ./.github/scripts/sh/scrape-jetour.sh",
+    "scrape-kaiyi": "sh ./.github/scripts/sh/scrape-kaiyi.sh",
     "scrape-knewstar": "sh ./.github/scripts/sh/scrape-knewstar.sh",
     "scrape-livan": "sh ./.github/scripts/sh/scrape-livan.sh",
     "scrape-omoda": "sh ./.github/scripts/sh/scrape-omoda.sh",
