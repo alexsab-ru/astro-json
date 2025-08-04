@@ -47,7 +47,13 @@ const getModel = async (element, selector, brand, url) => {
 const getPrice = async (element, selector) => {
   const priceElement = await element.$(selector);
   if (priceElement) {
-    const priceText = await priceElement.evaluate(node => node.textContent);
+    const priceText = await priceElement.evaluate(node => {
+      const childNodes = Array.from(node.childNodes);
+    // Фильтруем только текстовые узлы (игнорируем элементы)
+    const textNodes = childNodes.filter(n => n.nodeType === Node.TEXT_NODE);
+    // Объединяем текст из текстовых узлов
+    return textNodes.map(n => n.textContent.trim()).join(' ').trim();
+    });
     return priceText ? priceText.replace(/\D/g, '') : null;
   } else {
     return null;
