@@ -11750,6 +11750,12 @@
                 "name": "Серый металлик",
                 "carImage": "https://cdn.alexsab.ru/b/knewstar/img/models/001/colors/gray.webp",
                 "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный",
+                "carImage": "https://cdn.alexsab.ru/b/knewstar/img/models/001/colors/red.webp",
+                "style": ""
             }
         ],
         "complectations": [
