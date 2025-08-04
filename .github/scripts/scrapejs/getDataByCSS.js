@@ -5,7 +5,9 @@ const checkBrandPrefix = (element, brand) => {
     const regex = new RegExp('^' + brand + '-?', 'i');
     element = element.replace(regex, '').trim();
   }
-  return element.trim();
+  const regex = new RegExp(brand + '-?', 'ig');
+  element = element.replace(regex, '').trim();
+  return element;
 };
 
 const checkLink = (link) => {
