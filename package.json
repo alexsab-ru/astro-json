@@ -20,6 +20,7 @@
     "get-kaiyi-samara": "sh ./.github/scripts/sh/get-kaiyi-samara.sh",
     "get-livan-alpha": "sh ./.github/scripts/sh/get-livan-alpha.sh",
     "mergeJson": "sh ./.github/scripts/sh/mergeJson.sh",
+    "scrape-baic": "sh ./.github/scripts/sh/scrape-baic.sh",
     "scrape-belgee": "sh ./.github/scripts/sh/scrape-belgee.sh",
     "scrape-changan": "sh ./.github/scripts/sh/scrape-changan.sh",
     "scrape-chery": "sh ./.github/scripts/sh/scrape-chery.sh",

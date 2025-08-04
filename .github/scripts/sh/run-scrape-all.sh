@@ -1,4 +1,5 @@
 #!/bin/bash
+pnpm run scrape-baic
 pnpm run scrape-belgee
 pnpm run scrape-changan
 pnpm run scrape-chery
@@ -21,5 +22,5 @@ pnpm run scrape-wey
 # pnpm run scrape-wey-js
 # pnpm run scrape-wey-js-click
 pnpm run extract-kaiyi
-pnpm run extract-baic
+# pnpm run extract-baic
 pnpm run mergeJson
