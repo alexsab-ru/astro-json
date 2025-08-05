@@ -2008,6 +2008,28 @@
                 "Небесно-голубой": "blue.webp"
             }
         },
+        "Tiggo 7L, I": {
+            "short": "TIGGO 7L, I",
+            "folder": "tiggo7l",
+            "cyrillic": "Тигго 7Л, И",
+            "color": {
+                "Морской синий": "sea-blue.webp",
+                "Cиний": "sea-blue.webp",
+                "Глубокий черный": "deep-black.webp",
+                "Черный": "deep-black.webp",
+                "Чёрный": "deep-black.webp",
+                "Фантом": "phantom.webp",
+                "Красный с черной крышей": "red-black.webp",
+                "Красный (черная крыша)": "red-black.webp",
+                "Серебристый": "silvery.webp",
+                "Серебряный": "silvery.webp",
+                "Искрящийся белый": "sparkling-white.webp",
+                "Белый": "sparkling-white.webp",
+                "Технологичный серый": "technological-gray.webp",
+                "Белый с черной крышей": "white-black.webp",
+                "Белый (черная крыша)": "white-black.webp"
+            }
+        },
         "Tiggo 8 Pro Max": {
             "short": "TIGGO 8 PRO MAX",
             "folder": "newtiggo8promax",
