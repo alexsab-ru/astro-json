@@ -1983,6 +1983,29 @@
                 "Небесно-голубой": "blue.webp"
             }
         },
+        "Tiggo 4 Pro, I Рестайлинг": {
+            "short": "TIGGO 4 PRO",
+            "folder": "tiggo4pro",
+            "cyrillic": "Тигго 4 Про Ай Рестайлинг",
+            "color": {
+                "Black": "black.webp",
+                "Черный": "black.webp",
+                "Глубокий черный": "black.webp",
+                "Gray": "gray.webp",
+                "Серый": "gray.webp",
+                "Стальной серый": "steel-gray.webp",
+                "Серебристый серый": "silver-gray.webp",
+                "White": "white.webp",
+                "Белый": "white.webp",
+                "Искрящийся белый": "white.webp",
+                "Red": "red.webp",
+                "Красный": "red.webp",
+                "Огненно-красный": "red.webp",
+                "Blue": "blue.webp",
+                "Голубой": "blue.webp",
+                "Небесно-голубой": "blue.webp"
+            }
+        },
         "Tiggo 7 Pro Max": {
             "short": "TIGGO 7 PRO MAX",
             "folder": "newtiggo7promax",
