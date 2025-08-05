@@ -2,8 +2,10 @@ const puppeteer = require('puppeteer');
 require('dotenv').config();
 const { BrowserOption, Viewport, Platform, ResponseOption, WaitUntil, WaitForSelectorOption } = require('./variables');
 const { getId, getModel, getPrice, getLink } = require('./getDataByCSS');
+const { saveJson } = require('./saveJson');
 
 const DEBUG_SCREENSHOT = process.env.DEBUG_SCREENSHOT === 'true' ? true : false;
+const OUTPUT_PATHS = process.env.OUTPUT_PATHS.split(',');
 
 const Config = {
   URL: process.env.URL,
@@ -119,9 +121,13 @@ const getElements = async () => {
   }
   return data;
 })().then(data => {
-  console.log('data: ', data);
+  data.sort((a, b) => a.id.localeCompare(b.id));
+  console.log('sort data: ', data);
+  saveJson(data, OUTPUT_PATHS);
+  console.log('Данные успешно сохранены.');
 }).catch(err => {
   console.log('Ошибка получения данных: ', err.message);
+  process.exit(0);
 });
 
 

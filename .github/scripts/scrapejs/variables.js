@@ -1,3 +1,5 @@
+const JSON_INDENT_SIZE = 2;
+
 const Selector = {
   IMG: 'img',
 };
@@ -51,6 +53,7 @@ const WaitUntil = {
 };
 
 module.exports = {
+  JSON_INDENT_SIZE,
   Selector,
   Brand,
   BrowserOption,
