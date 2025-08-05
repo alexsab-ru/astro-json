@@ -31,10 +31,12 @@ const Platform = {
 
 const ResponseOption = {
   TIMEOUT: 60000,
+  TIMEOUT_BETWEEN_RETRIES: 2000,
+  MAX_RETRIES: 3
 };
 
 const WaitForSelectorOption = {
-  TIMEOUT: 5000,
+  TIMEOUT: 60000,
 };
 
 const WaitUntil = {

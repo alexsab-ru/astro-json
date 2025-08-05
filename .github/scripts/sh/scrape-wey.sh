@@ -7,6 +7,7 @@ export PRICE_XPATH="translate(string(.//article[contains(concat(' ', normalize-s
 export LINK_XPATH="concat('/models/', substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/'))"
 export OUTPUT_PATHS="./src/wey.alexsab.ru/data/cars.json,./src/wey-penza.ru/data/cars.json"
 export CLICK_SELECTOR="div[class='main-navigation-menu__item']:nth-child(2)"
+export WAIT_SELECTOR="div[class*='navigation-header__submenu-container']"
 export ITEM_CSS="div[class*='main-navigation-widgets__car']"
 export MODEL_CSS="article[class='main-navigation-widget-card__title']"
 export PRICE_CSS="article[class='main-navigation-widget-card__subtitle'] article[class='text']"

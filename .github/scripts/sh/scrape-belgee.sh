@@ -1,5 +1,5 @@
 export BRAND='belgee'
-export URL="https://belgee.ru"
+export URL="https://belgee.ru/about-belgee/"
 export ITEM_XPATH="//li[@class='menu-models__item']"
 export ID_XPATH="concat('belgee-', substring-before(substring-after(substring-after(./a[@class='btn btn_secondary menu-models__item-btn']/@href, '/model/'), 'belgee-'), '/'))"
 export MODEL_XPATH="./div[@class='menu-models__item-title h3']/text()"

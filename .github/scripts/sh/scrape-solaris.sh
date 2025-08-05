@@ -1,5 +1,5 @@
 export BRAND='solaris'
-export URL="https://solaris.auto/"
+export URL="https://solaris.auto/about-brand"
 export ITEM_XPATH="//section[contains(@class, 'ModelSlide_container___a9d3')]"
 export ID_XPATH="concat('', substring-after(.//a[contains(@href, 'models/')]/@href, 'models/'))"
 export MODEL_XPATH=".//h1[contains(@class, 'ModelSlide_hideInMobile__G9Y_w')]"
