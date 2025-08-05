@@ -1376,6 +1376,30 @@
                 "Зеленый": "lamore_exquisite_green.webp"
             }
         },
+        "UNI-T, I": {
+            "short": "UNI-T",
+            "folder": "uni-t",
+            "color": {
+                "Air_blue": "uni-t_air_blue.webp",
+                "Воздушный голубой": "uni-t_air_blue.webp",
+                "Голубой": "uni-t_air_blue.webp",
+                "Atomic_grey": "uni-t_atomic_grey.webp",
+                "Атомный серый": "uni-t_atomic_grey.webp",
+                "Серый": "uni-t_atomic_grey.webp",
+                "Star_grey": "uni-t_star_grey.webp",
+                "Звездный серый": "uni-t_star_grey.webp",
+                "Темно-серый": "uni-t_star_grey.webp",
+                "Pearl_white": "uni-t_pearl_white.webp",
+                "Перламутровый белый": "uni-t_pearl_white.webp",
+                "Белый": "uni-t_pearl_white.webp",
+                "Pitch_black": "uni-t_pitch_black.webp",
+                "Глубокий черный": "uni-t_pitch_black.webp",
+                "Черный": "uni-t_pitch_black.webp",
+                "Sky_blue": "uni-t_sky_blue.webp",
+                "Небесный синий": "uni-t_sky_blue.webp",
+                "Синий": "uni-t_sky_blue.webp"
+            }
+        },
         "UNI-T, I Рестайлинг": {
             "short": "UNI-T",
             "folder": "uni-t",
