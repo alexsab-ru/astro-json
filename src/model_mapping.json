@@ -1620,6 +1620,20 @@
                 "Серый": "gray.webp",
                 "Белый": "white.webp"
             }
+        },
+        "Poer, I Рестайлинг": {
+            "short": "Poer",
+            "folder": "poer",
+            "cyrillic": "POER I",
+            "color": {
+                "Коричневый": "brown.webp",
+                "Черный": "black.webp",
+                "Чёрный": "black.webp",
+                "Красный": "red.webp",
+                "Синий": "blue.webp",
+                "Серый": "gray.webp",
+                "Белый": "white.webp"
+            }
         }
     },
     "Haval": {
