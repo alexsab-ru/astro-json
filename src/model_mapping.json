@@ -2008,6 +2008,25 @@
                 "Огненный красный": "red.webp"
             }
         },
+        "Tiggo 4, I Рестайлинг 2": {
+            "short": "TIGGO 4",
+            "folder": "tiggo4",
+            "cyrillic": "Тигго 4 ай Рестайлинг 2",
+            "color": {
+                "Black": "black.webp",
+                "Черный": "black.webp",
+                "Gray": "gray.webp",
+                "Серый": "gray.webp",
+                "Стальной серый": "steel-gray.webp",
+                "Серебристый серый": "silver-gray.webp",
+                "White": "white.webp",
+                "Белый": "white.webp",
+                "Искрящийся белый": "white.webp",
+                "Red": "red.webp",
+                "Красный": "red.webp",
+                "Огненный красный": "red.webp"
+            }
+        },
         "Tiggo 4 Pro": {
             "short": "TIGGO 4 PRO",
             "folder": "tiggo4pro",
@@ -2043,6 +2062,7 @@
                 "Серый": "gray.webp",
                 "Стальной серый": "steel-gray.webp",
                 "Серебристый серый": "silver-gray.webp",
+                "Серебряный": "silver-gray.webp",
                 "White": "white.webp",
                 "Белый": "white.webp",
                 "Искрящийся белый": "white.webp",
@@ -2086,16 +2106,19 @@
             "color": {
                 "Морской синий": "sea-blue.webp",
                 "Cиний": "sea-blue.webp",
+                "Синий": "sea-blue.webp",
                 "Глубокий черный": "deep-black.webp",
                 "Черный": "deep-black.webp",
                 "Чёрный": "deep-black.webp",
                 "Фантом": "phantom.webp",
+                "Красный": "red-black.webp",
                 "Красный с черной крышей": "red-black.webp",
                 "Красный (черная крыша)": "red-black.webp",
                 "Серебристый": "silvery.webp",
                 "Серебряный": "silvery.webp",
                 "Искрящийся белый": "sparkling-white.webp",
                 "Белый": "sparkling-white.webp",
+                "Серый": "technological-gray.webp",
                 "Технологичный серый": "technological-gray.webp",
                 "Белый с черной крышей": "white-black.webp",
                 "Белый (черная крыша)": "white-black.webp"
