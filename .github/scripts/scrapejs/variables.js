@@ -2,6 +2,10 @@ const Selector = {
   IMG: 'img',
 };
 
+const Brand = {
+  WEY: 'wey'
+};
+
 const BrowserOption = {
   ARGS: [
     '--no-sandbox', // Обязательно для Linux (GitHub Actions использует Ubuntu)
@@ -48,6 +52,7 @@ const WaitUntil = {
 
 module.exports = {
   Selector,
+  Brand,
   BrowserOption,
   Viewport,
   Platform,

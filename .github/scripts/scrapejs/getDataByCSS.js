@@ -1,4 +1,4 @@
-const { Selector } = require('./variables');
+const { Selector, Brand } = require('./variables');
 
 const checkBrandPrefix = (element, brand) => {
   if (element.toLowerCase().startsWith(brand)) {
@@ -10,14 +10,18 @@ const checkBrandPrefix = (element, brand) => {
   return element;
 };
 
-const checkLink = (link) => {
-  return link.split('?')[0];
+const checkLink = (link, brand) => {
+  return brand === Brand.WEY ? link : link.split('?')[0];
 };
 
 const getId = (brand, url) => {
   if (url) {
     url = url.replace(/\/$/, '');
     url = url.split('/').pop();
+    if (brand === Brand.WEY) {
+      url = url.split('=').pop();
+      return url ? url : null;
+    }
     return url ? `${brand}-${checkBrandPrefix(url, brand)}` : null;
   } else {
     return null;
@@ -60,16 +64,16 @@ const getPrice = async (element, selector) => {
   }
 };
 
-const getLink = async (element, selector) => {
+const getLink = async (element, selector, brand) => {
   const elementHref = await element.evaluate(node => node.href);
   if (elementHref) {
-    return checkLink(elementHref);
+    return checkLink(elementHref, brand);
   }
   
   const linkElement = await element.$(selector);
   if (linkElement) {
     const linkHref = await linkElement.evaluate(node => node.href);
-    return linkHref ? checkLink(linkHref) : null;
+    return linkHref ? checkLink(linkHref, brand) : null;
   } else {
     return null;
   }
