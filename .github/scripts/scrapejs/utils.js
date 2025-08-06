@@ -1,4 +1,10 @@
-const { Selector, Brand } = require('./variables');
+const Selector = {
+  IMG: 'img',
+};
+
+const Brand = {
+  WEY: 'wey'
+};
 
 const checkBrandPrefix = (element, brand) => {
   if (element.toLowerCase().startsWith(brand)) {
