@@ -2,6 +2,7 @@
 require('dotenv').config();
 const { getElements } = require('./getElements');
 const { saveJson } = require('./saveJson');
+const { logError } = require('./logError');
 
 const MAX_RETRIES = 3;
 const TIMEOUT_BETWEEN_RETRIES = 2000;
@@ -13,19 +14,19 @@ const Message = {
 
 (async () => {
   let data;
-  let retryCount = 1;
+  let retryCount = 0;
 
   while (retryCount <= MAX_RETRIES) {
-    console.log(`Попытка получения данных ${retryCount} из ${MAX_RETRIES} ...`);
+    console.log(`Попытка получения данных ${retryCount + 1} из ${MAX_RETRIES} ...`);
     try {
       data = await getElements();
       break;
     } catch (err) {
-      console.error(`Попытка #${retryCount} не удалась:`, err.message);
+      console.error(`Попытка #${retryCount + 1} не удалась:`, err.message);
       retryCount++;
       
       if (retryCount === MAX_RETRIES) {
-        throw new Error(`Не удалось загрузить страницу после ${MAX_RETRIES} попыток`);
+        throw new Error(`Не удалось загрузить страницу после ${MAX_RETRIES} попыток. ${err.message}`);
       }
       
       await new Promise(resolve => setTimeout(resolve, TIMEOUT_BETWEEN_RETRIES));
@@ -34,11 +35,12 @@ const Message = {
   return data;
 })().then(data => {
   data.sort((a, b) => a.id.localeCompare(b.id));
-  console.log(data);
+  // console.log(data);
   saveJson(data, OUTPUT_PATHS);
   console.log(Message.SUCCESS);
 }).catch(err => {
   console.log(Message.ERROR, err.message);
+  logError(err.message);
   process.exit(0);
 });
 
