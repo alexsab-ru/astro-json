@@ -1,0 +1,54 @@
+[
+	{
+        "url": "/cars/", 
+        "name": "Авто в наличии"
+    },
+	{
+        "url": "/models/", 
+        "name": "Модели", 
+        "children": "models"
+    },
+	{
+        "url": "javascript:void(0)", 
+        "name": "Покупателям",
+        "children": [
+            {
+                "url": "/special-offers/", 
+                "name": "Спецпредложения"
+            },
+            {
+                "url": "/news/", 
+                "name": "Новости"
+            },
+            {
+                "url": "/test-drive/", 
+                "name": "Запись на тест-драйв"
+            }
+        ]
+    },
+	{
+        "url": "javascript:void(0)", 
+        "name": "Владельцам",
+        "children": {
+            "Сервис": [
+                {
+                    "url": "/service-request/", 
+                    "name": "Запись на сервис",
+                    "thumb": "https://cdn.alexsab.ru/models/default-model-bg.webp"
+                },
+                {
+                    "url": "/#services", 
+                    "name": "Услуги",
+                    "thumb": "https://cdn.alexsab.ru/models/default-model-bg.webp"
+                }
+            ],
+            "Инфо": [
+                {
+                    "url": "/contacts/", 
+                    "name": "Контакты",
+                    "thumb": "https://cdn.alexsab.ru/models/default-model-bg.webp"
+                }
+            ]
+        }
+    }
+]
