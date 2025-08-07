@@ -2077,7 +2077,7 @@
   sections:
   - id: s1
     title: "Всегда в победном стиле"
-    text: '<p class="mb-10">Просторный и технологичный HAVAL H7 будет надежным спутником как в городе, так и за его пределами, благодаря внедорожной подготовке, широкому набору интеллектуальных ассистентов, опций безопасности и комфорта.</p><video class="block w-full aspect-video object-cover" preload="metadata" autoplay loop playsinline muted poster="https://haval.ru/hero_5447527530498078486.png"><source src="https://haval.ru/HAVAL%20H7%20Product%20film%20Titles%2063mb_1758189176594892716.mp4" type="video/mp4"></video>'
+    text: '<p class="mb-10">Просторный и технологичный HAVAL H7 будет надежным спутником как в городе, так и за его пределами, благодаря внедорожной подготовке, широкому набору интеллектуальных ассистентов, опций безопасности и комфорта.</p><video class="block w-full aspect-video object-cover" preload="metadata" autoplay loop playsinline muted poster="https://cdn.alexsab.ru/models/haval/h7/sections/hero.png"><source src="https://haval.ru/HAVAL%20H7%20Product%20film%20Titles%2063mb_1758189176594892716.mp4" type="video/mp4"></video>'
   - id: s2
     title: Блистающий новыми гранями
     images:
@@ -2248,4 +2248,4 @@
   - id: documentation
     title: Документация
     suptitle: Может пригодиться
-    text: "<p><a class='underline' href='https://haval.ru/HAVAL%20new%20H7_график%20ТО_14307170971940714804.pdf' target='newtab'>Регламент ТО для HAVAL H7</a><br><a class='underline' href='https://haval.ru/HAVAL%20H7_Price%20list_1305_5362774395879170699.pdf' target='newtab'>Прайс-лист</a></p>"
+    text: "<p><a class='underline' href='https://haval.ru/HAVAL%20new%20H7_график%20ТО_14307170971940714804.pdf' target='newtab'>Регламент ТО для HAVAL H7</a><br><a class='underline' href='https://haval.ru/HAVAL%20H7_Price%20list_2407_13435717877441327734.pdf' target='newtab'>Прайс-лист</a></p>"
