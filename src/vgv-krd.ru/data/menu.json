@@ -1,0 +1,25 @@
+[
+    {"url": "/cars/", "name": "Авто в наличии"},
+	{ 
+		"url": "/models/", 
+		"name": "Модели",
+		"children": "models"
+	},
+	{ 
+		"url": "javascript:void(0)", 
+		"name": "Покупателям",
+		"children": [
+			{"url": "/test-drive/", "name": "Запись на тест-драйв"}
+		]
+	},
+	{ 
+		"url": "javascript:void(0)", 
+		"name": "Владельцам",
+		"children": [
+			{"url": "/service-request/", "name": "Запись на сервис"}
+		]
+	},	
+	{"url": "/#services", "name": "Услуги"},
+	{"url": "about/", "name": "О бренде"},
+	{"url": "/contacts/", "name": "Контакты"}
+]
