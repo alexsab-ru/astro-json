@@ -26,7 +26,7 @@ const Message = {
       retryCount++;
       
       if (retryCount === MAX_RETRIES) {
-        throw new Error(`Не удалось загрузить страницу после ${MAX_RETRIES} попыток. ${err.message}`);
+        throw new Error(`Не удалось получить данные ${err.message}`);
       }
       
       await new Promise(resolve => setTimeout(resolve, TIMEOUT_BETWEEN_RETRIES));
