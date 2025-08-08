@@ -42,7 +42,7 @@ const Message = {
 }).catch(err => {
   console.log(Message.ERROR, err.message);
   logError(err.message);
-  process.exit(1);
+  process.exit(0);
 });
 
 
