@@ -9,7 +9,7 @@ export ITEM_CSS="div[class*='td-card-widget__item-wrap']"
 export MODEL_CSS="h2[class='td-card-widget__title']"
 export PRICE_CSS="h4"
 export LINK_CSS="a[class='td-overlay-link']"
-export OUTPUT_PATHS="./src/evolute.alexsab.ru/data/cars.json,./src/evolute.alexsab.ru/data/cars.json"
+export OUTPUT_PATHS="./src/evolute.alexsab.ru/data/cars.json"
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
 export DEALERBENEFITFIELD='Скидка'
