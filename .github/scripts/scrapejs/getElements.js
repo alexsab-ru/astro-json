@@ -110,7 +110,7 @@ const getElements = async () => {
     if (!elements.length) throw new Error(`${Config.BRAND.toUpperCase()}: Не найдено ни одного элемента.`);
     
     for (const element of elements) {
-      const price = await getPrice(element, Config.PRICE);
+      const price = await getPrice(element, Config.PRICE, Config.BRAND);
       const link = Config.LINK ? await getLink(element, Config.LINK, Config.BRAND) : null;
       const model = await getModel(element, Config.MODEL, Config.BRAND, link);
       const id = getId(Config.BRAND, link);
