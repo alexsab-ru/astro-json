@@ -85,7 +85,7 @@ const getElements = async () => {
     });
   
     if (!response.ok()) {
-      throw new Error(`Статус загрузки страницы: ${response.status()}`);
+      throw new Error(`${Config.BRAND.toUpperCase()}: Статус загрузки страницы: ${response.status()}`);
     }
 
     if (Config.CLICK_SELECTOR) {
@@ -107,7 +107,7 @@ const getElements = async () => {
     }
 
     const elements = await page.$$(Config.ITEM);
-    if (!elements.length) throw new Error('Не найдено ни одного элемента.');
+    if (!elements.length) throw new Error(`${Config.BRAND.toUpperCase()}: Не найдено ни одного элемента.`);
     
     for (const element of elements) {
       const price = await getPrice(element, Config.PRICE);
