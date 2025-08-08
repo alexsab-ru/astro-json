@@ -13,6 +13,13 @@
                 "trackLinks": true,
                 "accurateTrackBounce": true,
                 "webvisor": true
+            },
+            {
+                "id": "103615900",
+                "clickmap": true,
+                "ecommerce": "dataLayer",
+                "accurateTrackBounce": true,
+                "trackLinks": true
             }
         ],
         "fn": "_ym", 
