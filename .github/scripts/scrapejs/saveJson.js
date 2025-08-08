@@ -20,13 +20,13 @@ const checkDirectory = (filePath) => {
 };
 
 const saveJson = (data, paths) => {
-  for (const path of paths) {
-    checkDirectory(path);
-    console.log('Сохраняю данные по пути: ', path);
-    fs.writeFileSync(path, JSON.stringify(data, null, WriteFileConfig.JSON_INDENT_SIZE), WriteFileConfig.CHARSET);
-    const copyPath = path.replace(FileName.ORIGINAL, FileName.COPY);
+  for (const outPath of paths) {
+    checkDirectory(outPath);
+    console.log('Сохраняю данные по пути: ', outPath);
+    fs.writeFileSync(outPath, JSON.stringify(data, null, WriteFileConfig.JSON_INDENT_SIZE), WriteFileConfig.CHARSET);
+    const copyPath = outPath.replace(FileName.ORIGINAL, FileName.COPY);
     console.log(`Создаю копию файла: ${copyPath}`);
-    fs.copyFileSync(path, copyPath);
+    fs.copyFileSync(outPath, copyPath);
   }
 };
 
