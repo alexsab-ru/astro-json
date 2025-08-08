@@ -19,26 +19,26 @@ on:
         required: true
         options:
           - all
-          - geely
+          - baic
           - belgee
-          - jac
-          - jetour
-          - livan
-          - gac
           - changan
-          - vgv
-          - tank
-          - haval
-          - omoda
-          - jaecoo
           - chery
           - evolute
+          - gac
+          - geely
+          - haval
+          - jac
+          - jaecoo
+          - jetour
           - kaiyi
-          - baic
-          - soueast
           - knewstar
-          - wey
+          - livan
+          - omoda
           - solaris
+          - soueast
+          - tank
+          - vgv
+          - wey
       commit_changes:
         description: 'Commit changes to repository'
         type: boolean
