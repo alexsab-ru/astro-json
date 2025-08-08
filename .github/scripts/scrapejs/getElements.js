@@ -65,13 +65,14 @@ const browserOptions = {
 };
 
 const getElements = async () => {
-  const browser = await puppeteer.launch(browserOptions);
-  const page = await browser.newPage();
-  const data = [];
-
-  await page.setViewport({width: Viewport.WIDTH, height: Viewport.HEIGHT});
-
+  let browser;
   try {
+    browser = await puppeteer.launch(browserOptions);
+    const page = await browser.newPage();
+    const data = [];
+
+    await page.setViewport({width: Viewport.WIDTH, height: Viewport.HEIGHT});
+
     const response = await page.goto(Config.URL, {
       waitUntil: Config.CLICK_SELECTOR ? WaitUntil.DOM : WaitUntil.FULL,
       timeout: ResponseOption.TIMEOUT,
@@ -80,40 +81,28 @@ const getElements = async () => {
     if (!response.ok()) {
       throw new Error(`Статус загрузки страницы: ${response.status()}`);
     }
-  } catch (err) {
-    await browser.close();
-    throw new Error(err.message);
-  }
-  
 
-  if (Config.CLICK_SELECTOR) {
-    try {
-      await page.waitForSelector(Config.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
-    } catch (err) {
-      throw new Error(err.message);
-    }
-    
-    if (DEBUG_SCREENSHOT) {
-      await page.screenshot({ path: 'before-click.png' });
-    }
-    const modelsLink = await page.$(Config.CLICK_SELECTOR);
-    await modelsLink.click();
-    
-    if (Config.WAIT_SELECTOR) {
-      try {
+    if (Config.CLICK_SELECTOR) {
+      const modelsLink = await page.waitForSelector(Config.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
+      
+      if (DEBUG_SCREENSHOT) {
+        await page.screenshot({ path: 'before-click.png' });
+      }
+      
+      await modelsLink.click();
+      
+      if (Config.WAIT_SELECTOR) {
         await page.waitForSelector(Config.WAIT_SELECTOR, { timeout: WaitForSelectorOption.TIMEOUT });
-      } catch (err) {
-        throw new Error(err.message);
+      }
+     
+      if (DEBUG_SCREENSHOT) {
+        await page.screenshot({ path: 'after-click.png' });
       }
     }
-   
-    if (DEBUG_SCREENSHOT) {
-      await page.screenshot({ path: 'after-click.png' });
-    }
-  }
 
-  const elements = await page.$$(Config.ITEM);
-  if (elements.length) {
+    const elements = await page.$$(Config.ITEM);
+    if (!elements.length) throw new Error('Не найдено ни одного элемента.');
+    
     for (const element of elements) {
       const price = await getPrice(element, Config.PRICE);
       const link = Config.LINK ? await getLink(element, Config.LINK, Config.BRAND) : null;
@@ -128,11 +117,9 @@ const getElements = async () => {
         link,
       });
     }
-    await browser.close();
     return data;
-  } else {
-    await browser.close();
-    throw new Error('Не найдено ни одного элемента.');
+  } finally {
+    if (browser) await browser.close();
   }
 };
 
