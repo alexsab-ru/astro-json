@@ -28,6 +28,8 @@ const Viewport = {
 
 const Platform = {
   WIN: 'win32',
+  MAC: 'darwin',
+  LINUX: 'linux',
 };
 
 const ResponseOption = {
@@ -58,7 +60,11 @@ const Config = {
 
 const browserOptions = {
   args: BrowserOption.ARGS,
-  executablePath: process.env.CHROME_BIN || (process.platform === Platform.WIN ? BrowserOption.PATHS.WIN : BrowserOption.PATHS.LINUX),
+  executablePath: process.env.CHROME_BIN || (
+    process.platform === Platform.WIN ? BrowserOption.PATHS.WIN : 
+    process.platform === Platform.MAC ? BrowserOption.PATHS.MAC : 
+    BrowserOption.PATHS.LINUX
+  ),
   timeout: BrowserOption.TIMEOUT,
   headless: true,
   ignoreHTTPSErrors: true
