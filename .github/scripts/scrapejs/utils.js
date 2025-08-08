@@ -37,7 +37,7 @@ const getId = (brand, url) => {
 const getModel = async (element, selector, brand, url) => {
   if (selector === Selector.IMG) {
     if (url) {
-      let modelText = checkLink(url);
+      let modelText = checkLink(url, brand);
       modelText = modelText.replace(/\/$/, '');
       modelText = modelText.split('/').pop();
       return modelText ? checkBrandPrefix(modelText, brand) : null;
