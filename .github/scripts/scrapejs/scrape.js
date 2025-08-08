@@ -34,7 +34,8 @@ const Message = {
   }
   return data;
 })().then(data => {
-  data.sort((a, b) => a.id.localeCompare(b.id));
+  // Безопасная сортировка по id
+  data.sort((a, b) => (a.id || '').localeCompare(b.id || ''));
   // console.log(data);
   saveJson(data, OUTPUT_PATHS);
   console.log(Message.SUCCESS);
