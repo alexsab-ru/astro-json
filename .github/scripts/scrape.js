@@ -27,7 +27,7 @@ async function logWarning(message, errorText) {
 
 async function logInFile(message, errorText) {
     try {
-        await fs.appendFile('output.txt', `"${message}": "${errorText}",\n`);
+        await fs.appendFile('output.txt', `\n${message}: ${errorText},\n`);
     } catch (appendError) {
         console.error('Ошибка при записи в лог:', appendError);
     }
