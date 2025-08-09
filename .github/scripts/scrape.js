@@ -503,18 +503,6 @@ async function saveJson(data, filePaths) {
 
             // Создаем копию файла с именем federal-models_price.json
             if (filePath.endsWith('cars.json')) {
-                const models_price = path.join(directory, 'models-price.json');
-                try {
-                    await fs.access(models_price);
-                    await fs.unlink(models_price);
-                    console.log(`File ${models_price} deleted successfully.`);
-                } catch (err) {
-                    if (err.code === 'ENOENT') {
-                        console.log(`File ${models_price} does not exist.`);
-                    } else {
-                        console.error(`Error deleting file: ${err}`);
-                    }
-                }
                 const modelsPricePath = path.join(directory, 'federal-models_price.json');
                 await fs.writeFile(modelsPricePath, JSON.stringify(dealerdata, null, 2), 'utf8');
                 console.log(`Копия данных успешно сохранена в файл: ${modelsPricePath}`);

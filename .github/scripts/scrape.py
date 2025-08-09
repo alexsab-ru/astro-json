@@ -67,10 +67,6 @@ def save_json(data, file_paths, brand_prefix=None):
 
             # Создаем копию файла с именем federal-models_price.json
             if file_path.endswith('cars.json'):
-                if os.path.exists(os.path.join(directory, 'models-price.json')):
-                    os.remove(os.path.join(directory, 'models-price.json'))
-                else:
-                    print("The file does not exist")
                 models_price_path = os.path.join(directory, 'federal-models_price.json')
                 with open(models_price_path, 'w', encoding='utf-8') as f:
                     json.dump(dealer_data, f, ensure_ascii=False, indent=2)
