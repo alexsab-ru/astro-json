@@ -132,6 +132,10 @@ async function runScrapeSteps(page, steps, options) {
 
     if (type === 'get') {
       const variable = (step.variable || '').toString().toUpperCase();
+      if (options?.debugScreenshot) {
+        await page.screenshot({ path: `${options.timestamp}-${Config.BRAND?.toUpperCase() || 'SCRAPER'}-${currentScreenshotCount}-before-get-${variable}.png` });
+        currentScreenshotCount++;
+      }
       if (['ITEM', 'MODEL', 'PRICE', 'LINK'].includes(variable)) {
         overrides[variable] = step.selector;
       }
