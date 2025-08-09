@@ -26,8 +26,9 @@ async function saveJson(data, filePaths) {
     for (const filePath of filePaths) {
         try {
             const directory = path.dirname(filePath);
+            const dealerdata = JSON.parse(JSON.stringify(data));
             await fs.mkdir(directory, { recursive: true });
-            await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
+            await fs.writeFile(filePath, JSON.stringify(dealerdata, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);
 
             // Создаем копию файла с именем federal-models_price.json
