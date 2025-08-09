@@ -6,7 +6,4 @@ export MODEL_XPATH=".//div[contains(concat(' ', normalize-space(@class), ' '), '
 export PRICE_XPATH="translate(string(.//div[contains(concat(' ', normalize-space(@class), ' '), ' menu__models-item-price ')]/text()), translate(string(.//div[contains(concat(' ', normalize-space(@class), ' '), ' menu__models-item-price ')]/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a/@href"
 export OUTPUT_PATHS="./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-samara.ru/data/cars.json,./src/geely-partner-saratov.ru/data/cars.json,./src/geely-partner-vostok.ru/data/cars.json,./tmp/auto-team.pro/data/geely.json,./src/geely.alexsab.ru/data/cars.json"
-export DEALERPRICE='dealer_price.json'
-export DEALERPRICEFIELD='Конечная цена'
-export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js

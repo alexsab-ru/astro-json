@@ -50,31 +50,11 @@ def read_json_file(file_path):
         logError("Ошибка при чтении файла", e)
         return None
 
-def save_json(data, file_paths, dealer_price=None, dealer_price_field=None, dealer_benefit_field=None, brand_prefix=None):
+def save_json(data, file_paths, brand_prefix=None):
     for file_path in file_paths:
         try:
             directory = os.path.dirname(file_path)
             dealer_data = data.copy()
-
-            # Обработка дилерских цен
-            # TODO: Отключить обработку дилерских цен
-            if dealer_price:
-                dealer_price_path = os.path.join(directory, dealer_price)
-                json_data = read_json_file(dealer_price_path)
-                
-                if json_data:
-                    for car in dealer_data:
-                        model = clean_string(car["model"], brand_prefix)
-                        if model in json_data:
-                            if dealer_price_field and json_data[model].get(dealer_price_field):
-                                car_price = int(car["price"]) if car["price"] else float('inf')
-                                dealer_price = int(json_data[model][dealer_price_field])
-                                car["price"] = str(min(car_price, dealer_price))
-                            
-                            if dealer_benefit_field and json_data[model].get(dealer_benefit_field):
-                                car_benefit = int(car.get("benefit", 0))
-                                dealer_benefit = int(json_data[model][dealer_benefit_field])
-                                car["benefit"] = str(max(car_benefit, dealer_benefit))
 
             # Создаем директорию, если её нет
             os.makedirs(directory, exist_ok=True)
@@ -264,18 +244,10 @@ if __name__ == "__main__":
         if data:
             # Разделяем пути по запятой
             output_file_paths = os.getenv('OUTPUT_PATHS', './output/data.json').split(',')
-            
-            # Получаем параметры для дилерских цен
-            dealer_price = os.getenv('DEALERPRICE')
-            dealer_price_field = os.getenv('DEALERPRICEFIELD')
-            dealer_benefit_field = os.getenv('DEALERBENEFITFIELD')
-            
+                        
             save_json(
                 data, 
                 output_file_paths,
-                dealer_price,
-                dealer_price_field,
-                dealer_benefit_field,
                 brand_prefix
             )
         else:

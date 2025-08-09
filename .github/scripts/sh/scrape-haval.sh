@@ -7,7 +7,4 @@ export PRICE_XPATH="translate(string(.//div[contains(@class, 'web_block_models__
 export LINK_XPATH=".//div[contains(@class, 'web_block_models__item-btn')]/a/@href"
 export OUTPUT_PATHS="./src/haval-ulyanovsk.ru/data/cars.json,./src/haval.alexsab.ru/data/cars.json"
 export WAIT_TIME=1
-export DEALERPRICE='dealer_price.json'
-export DEALERPRICEFIELD='Конечная цена'
-export DEALERBENEFITFIELD='Скидка'
 python3 .github/scripts/scrape.py

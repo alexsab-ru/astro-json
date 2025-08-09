@@ -6,7 +6,4 @@ export MODEL_XPATH="concat('TANK ', substring-after(.//*[contains(concat(' ', no
 export PRICE_XPATH="translate(string(.//div[contains(@class, 'car-info')]/div[3]/span/b), translate(string(.//div[contains(@class, 'car-info')]/div[3]/span/b), '0123456789', ''), '')"
 export LINK_XPATH=".//a[contains(@class, 'car-info-btn') and contains(@class, 'text-black')]/@href"
 export OUTPUT_PATHS="./src/tank-penza.ru/data/cars.json,./src/tank.alexsab.ru/data/cars.json"
-export DEALERPRICE='dealer_price.json'
-export DEALERPRICEFIELD='Конечная цена'
-export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js

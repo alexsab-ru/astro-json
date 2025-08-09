@@ -6,7 +6,4 @@ export MODEL_XPATH=".//div[contains(concat(' ', normalize-space(@class), ' '), '
 export PRICE_XPATH="translate(string(.//div[contains(@class, 'menu-models__desc-price')]/text()), translate(string(.//div[contains(@class, 'menu-models__desc-price')]/text()), '0123456789', ''), '')"
 export LINK_XPATH=".//div[contains(@class, 'menu-models__desc-btns')]/a[2]/@href"
 export OUTPUT_PATHS="./src/chery.alexsab.ru/data/cars.json,./tmp/atkmotors-vostok.ru/data/chery.json"
-export DEALERPRICE='dealer_price.json'
-export DEALERPRICEFIELD='Конечная цена'
-export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js

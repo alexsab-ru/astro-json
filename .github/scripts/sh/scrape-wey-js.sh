@@ -6,7 +6,4 @@ export MODEL_XPATH=".//h3[contains(concat(' ', normalize-space(@class), ' '), ' 
 export PRICE_XPATH="translate(string(.//article[contains(concat(' ', normalize-space(@class), ' '), ' car-card__subtitle ')]/p/text()), translate(string(.//article[contains(concat(' ', normalize-space(@class), ' '), ' car-card__subtitle ')]/p/text()), '0123456789', ''), '')"
 export LINK_XPATH="concat('/models/', substring-after(./a[starts-with(@href, '/configurator/')]/@href, '/configurator/'))"
 export OUTPUT_PATHS="./src/wey.alexsab.ru/data/cars.json,./src/wey-penza.ru/data/cars.json"
-export DEALERPRICE='dealer_price.json'
-export DEALERPRICEFIELD='Конечная цена'
-export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js

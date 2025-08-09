@@ -9,9 +9,6 @@ const { JSDOM } = jsdom;
 const url = process.env.URL;
 const regexPattern = process.env.REGEXP;
 const brandPrefix = process.env.BRAND;
-const dealerPrice = process.env.DEALERPRICE ?? "";
-const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
-const dealerBenefitField = process.env.DEALERBENEFITFIELD ?? "";
 
 // Добавляем функцию логирования
 async function logError(error) {
@@ -212,23 +209,6 @@ async function saveJson(data, filePaths) {
         try {
             const directory = path.dirname(filePath);
             const dealerdata = JSON.parse(JSON.stringify(data));
-            if(dealerPrice) {
-                const jsonData = await readJsonFile(path.join(directory, '/', dealerPrice));
-                if(jsonData) {
-                    dealerdata.map(car => {
-                        model = cleanString(car["model"], brandPrefix);
-                        if(jsonData[model] && jsonData[model][dealerPriceField] != "") {
-
-                            car["price"] = Math.min(parseInt(car["price"]), jsonData[model][dealerPriceField]).toString();
-                        }
-                        if(jsonData[model] && jsonData[model][dealerBenefitField] != "") {
-
-                            car["benefit"] = car["benefit"] != "" ? Math.max(parseInt(car["benefit"]), jsonData[model][dealerBenefitField]).toString() : jsonData[model][dealerBenefitField].toString();
-                        }
-                        return car;
-                    });
-                }
-            }
             await fs.mkdir(directory, { recursive: true });
             await fs.writeFile(filePath, JSON.stringify(dealerdata, null, 2), 'utf8');
             console.log(`Данные успешно сохранены в файл: ${filePath}`);

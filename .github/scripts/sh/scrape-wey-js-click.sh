@@ -12,7 +12,4 @@ export WAIT_SELECTOR="#__nuxt > div > div.navigation-header > div > div.main-nav
 export WAIT_TIME=1000
 export WAIT_AFTER_CLICK=1000
 export DEBUG_SCREENSHOT=true
-export DEALERPRICE='dealer_price.json'
-export DEALERPRICEFIELD='Конечная цена'
-export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js

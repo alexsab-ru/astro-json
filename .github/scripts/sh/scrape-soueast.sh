@@ -6,7 +6,4 @@ export MODEL_XPATH=".//div[contains(@class, 'td-model-card__head')]//div[contain
 export PRICE_XPATH="translate(string(.//div[contains(@class, 'td-model-card__price-wrap')]/div/text()[1]), translate(string(.//div[contains(@class, 'td-model-card__price')]/div/text()[1]), '0123456789', ''), '')"
 export LINK_XPATH=".//div[contains(@class, 'td-model-card__btns')]/a/@href"
 export OUTPUT_PATHS="./src/soueast.alexsab.ru/data/cars.json"
-export DEALERPRICE='dealer_price.json'
-export DEALERPRICEFIELD='Конечная цена'
-export DEALERBENEFITFIELD='Скидка'
 node .github/scripts/scrape.js

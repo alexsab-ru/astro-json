@@ -13,9 +13,6 @@ const fs = require('fs').promises;
 const path = require('path');
 require('dotenv').config(); // Добавляем загрузку переменных окружения
 const brandPrefix = process.env.BRAND;
-const dealerPrice = process.env.DEALERPRICE ?? "";
-const dealerPriceField = process.env.DEALERPRICEFIELD ?? "";
-const dealerBenefitField = process.env.DEALERBENEFITFIELD ?? "";
 
 // Добавляем функцию логирования
 async function logError(message, errorText, error) {
@@ -481,48 +478,6 @@ async function saveJson(data, filePaths) {
         try {
             const directory = path.dirname(filePath);
             const dealerdata = JSON.parse(JSON.stringify(data));
-            // TODO: Отключить обработку дилерских цен
-            if(dealerPrice) {
-                console.log(`Проверка дилерских цен из файла: ${dealerPrice}`);
-                const dealerPricePath = path.join(directory, dealerPrice);
-                console.log(`Полный путь к файлу дилерских цен: ${dealerPricePath}`);
-                
-                const jsonData = await readJsonFile(dealerPricePath);
-                if(jsonData) {
-                    console.log(`Файл дилерских цен прочитан, обработка данных...`);
-                    
-                    dealerdata.forEach(car => {
-                        const model = cleanString(car["model"], brandPrefix);
-                        console.log(`Обработка модели: ${car["model"]} (очищенная: ${model})`);
-                        
-                        if(jsonData[model]) {
-                            console.log(`Найдена модель в дилерских ценах: ${model}`);
-                            
-                            if(dealerPriceField && jsonData[model][dealerPriceField] != "") {
-                                const carPrice = parseInt(car["price"]) || Infinity;
-                                const dealerModelPrice = parseInt(jsonData[model][dealerPriceField]);
-                                
-                                console.log(`Сравнение цен: ${carPrice} vs ${dealerModelPrice}`);
-                                car["price"] = Math.min(carPrice, dealerModelPrice).toString();
-                                console.log(`Итоговая цена: ${car["price"]}`);
-                            }
-                            
-                            if(dealerBenefitField && jsonData[model][dealerBenefitField] != "") {
-                                const carBenefit = car["benefit"] ? parseInt(car["benefit"]) : 0;
-                                const dealerModelBenefit = parseInt(jsonData[model][dealerBenefitField]);
-                                
-                                console.log(`Сравнение выгоды: ${carBenefit} vs ${dealerModelBenefit}`);
-                                car["benefit"] = Math.max(carBenefit, dealerModelBenefit).toString();
-                                console.log(`Итоговая выгода: ${car["benefit"]}`);
-                            }
-                        } else {
-                            console.log(`Модель ${model} не найдена в дилерских ценах`);
-                        }
-                    });
-                } else {
-                    console.log(`Файл дилерских цен не найден или пуст`);
-                }
-            }
             
             // Создаем директорию, если её нет
             await fs.mkdir(directory, { recursive: true });

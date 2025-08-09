@@ -9,7 +9,4 @@ export OUTPUT_PATHS="./src/wey.alexsab.ru/data/cars.json,./src/wey-penza.ru/data
 export CLICK_SELECTOR="#__nuxt > div > div.navigation-header > div > div.main-navigation-menu.flex.navigation-header__menu-left > div:nth-child(2)"
 export WAIT_SELECTOR="#__nuxt > div > div.navigation-header > div > div.main-navigation-menu.flex.navigation-header__menu-left > div:nth-child(2)"
 export WAIT_TIME=1
-export DEALERPRICE='dealer_price.json'
-export DEALERPRICEFIELD='Конечная цена'
-export DEALERBENEFITFIELD='Скидка'
 python3 .github/scripts/scrape.py
