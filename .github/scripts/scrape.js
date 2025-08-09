@@ -54,6 +54,10 @@ async function retryOperation(operation, maxRetries = 2, delay = 2000) {
     }
 }
 
+function getTimestamp() {
+    return new Date().toISOString().substring(0, 19).replace('T', '-');
+}
+
 async function scrapePage(url, xpaths) {
     // Настраиваем дополнительные опции для puppeteer с повышенной устойчивостью
     const browserOptions = {
@@ -91,6 +95,7 @@ async function scrapePage(url, xpaths) {
     console.log(`Запуск браузера с настройками:`, browserOptions);
     const browser = await puppeteer.launch(browserOptions);
     const page = await browser.newPage();
+    let screenshotCount = 0;
     
     // Устанавливаем размер окна браузера
     await page.setViewport({ width: 1920, height: 1080 });
@@ -143,8 +148,10 @@ async function scrapePage(url, xpaths) {
         }
 
         if (process.env.DEBUG_SCREENSHOT === 'true') {
-            await page.screenshot({ path: 'debug-screenshot-1.png', fullPage: true });
-            console.log("Создан скриншот для отладки 1");
+            const name = `${getTimestamp()}-${brandPrefix.toUpperCase()}-${screenshotCount}-after-load.png`;
+            await page.screenshot({ path: name, fullPage: true });
+            screenshotCount++;
+            console.log(`Создан скриншот для отладки ${name}`);
         }
 
         // Если указан селектор ожидания, ждем его появления
@@ -167,8 +174,10 @@ async function scrapePage(url, xpaths) {
         }
 
         if (process.env.DEBUG_SCREENSHOT === 'true') {
-            await page.screenshot({ path: 'debug-screenshot-2.png', fullPage: true });
-            console.log("Создан скриншот для отладки 2");
+            const name = `${getTimestamp()}-${brandPrefix.toUpperCase()}-${screenshotCount}-after-wait.png`;
+            await page.screenshot({ path: name, fullPage: true });
+            screenshotCount++;
+            console.log(`Создан скриншот для отладки ${name}`);
         }
 
         // Выполняем клик только если CLICK_SELECTOR существует и не пустой
@@ -228,8 +237,10 @@ async function scrapePage(url, xpaths) {
         }
 
         if (process.env.DEBUG_SCREENSHOT === 'true') {
-            await page.screenshot({ path: 'debug-screenshot-3.png', fullPage: true });
-            console.log("Создан скриншот для отладки 3");
+            const name = `${getTimestamp()}-${brandPrefix.toUpperCase()}-${screenshotCount}-after-click.png`;
+            await page.screenshot({ path: name, fullPage: true });
+            screenshotCount++;
+            console.log(`Создан скриншот для отладки ${name}`);
         }
 
         // Если указан второй селектор клика, выполняем второй клик
@@ -254,8 +265,10 @@ async function scrapePage(url, xpaths) {
         
         // Можно добавить скриншот для отладки
         if (process.env.DEBUG_SCREENSHOT === 'true') {
-            await page.screenshot({ path: 'debug-screenshot-4.png', fullPage: true });
-            console.log("Создан скриншот для отладки 4");
+            const name = `${getTimestamp()}-${brandPrefix.toUpperCase()}-${screenshotCount}-after-click2.png`;
+            await page.screenshot({ path: name, fullPage: true });
+            screenshotCount++;
+            console.log(`Создан скриншот для отладки ${name}`);
         }
 
     } catch (error) {
@@ -264,7 +277,8 @@ async function scrapePage(url, xpaths) {
         // Создаем скриншот ошибки только если страница еще доступна
         try {
             if (!page.isClosed() && page.url() !== 'about:blank') {
-                await page.screenshot({ path: 'error-screenshot.png' });
+                const name = `${getTimestamp()}-${brandPrefix.toUpperCase()}-${screenshotCount}-error-screenshot.png`;
+                await page.screenshot({ path: name });
                 console.log("Создан скриншот ошибки");
             } else {
                 console.log("Скриншот ошибки не создан - страница недоступна");
