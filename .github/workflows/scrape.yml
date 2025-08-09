@@ -19,26 +19,26 @@ on:
         required: true
         options:
           - all
-          - geely
+          - baic
           - belgee
-          - jac
-          - jetour
-          - livan
-          - gac
           - changan
-          - vgv
-          - tank
-          - haval
-          - omoda
-          - jaecoo
           - chery
           - evolute
+          - gac
+          - geely
+          - haval
+          - jac
+          - jaecoo
+          - jetour
           - kaiyi
-          - baic
-          - soueast
           - knewstar
-          - wey
+          - livan
+          - omoda
           - solaris
+          - soueast
+          - tank
+          - vgv
+          - wey
       commit_changes:
         description: 'Commit changes to repository'
         type: boolean
@@ -378,7 +378,8 @@ jobs:
       - name: Commit files
         if: |
           env.changes == 'true' && 
-          (github.event_name == 'push' || github.event_name == 'schedule' || github.event.inputs.commit_changes == 'true')
+          (github.event_name == 'push' || github.event_name == 'schedule' || github.event.inputs.commit_changes == 'true') &&
+          github.ref == 'refs/heads/main'
         run: |
             git config --local user.email "support+actions@github.com"
             git config --local user.name "github-actions-bot"
