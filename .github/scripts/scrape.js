@@ -87,7 +87,7 @@ async function scrapePage(url, xpaths) {
             process.platform === 'darwin' ? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' : 
             '/usr/bin/google-chrome'
         ),
-        timeout: 10000, // Уменьшаем timeout для более быстрого фейла
+        timeout: 30000, // Уменьшаем timeout для более быстрого фейла
         headless: 'new',
         ignoreHTTPSErrors: true // Игнорируем HTTPS ошибки
     };
