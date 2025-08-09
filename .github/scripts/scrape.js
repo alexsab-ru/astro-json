@@ -111,7 +111,7 @@ async function scrapePage(url, xpaths) {
         try {
             await retryOperation(async () => {
                 // Пробуем сначала с domcontentloaded (быстрее)
-                console.log(`Переход на страницу ${url}, waitUntil: domcontentloaded`);
+                console.log(`Переход на страницу ${url} , waitUntil: domcontentloaded`);
                 await page.goto(url, { 
                     waitUntil: 'domcontentloaded', // Ждем только загрузку DOM
                     timeout: parseInt(process.env.TIMEOUT || '10000') // Уменьшаем timeout
@@ -127,7 +127,7 @@ async function scrapePage(url, xpaths) {
             // Fallback к более надежному waitUntil (медленнее, но надежнее)
             try {
                 await retryOperation(async () => {
-                    console.log(`Переход на страницу ${url}, waitUntil: networkidle0`);
+                    console.log(`Переход на страницу ${url} , waitUntil: networkidle0`);
                     await page.goto(url, { 
                         waitUntil: 'networkidle0', // Ждем пока все сетевые запросы завершатся
                         timeout: parseInt(process.env.TIMEOUT || '30000')
