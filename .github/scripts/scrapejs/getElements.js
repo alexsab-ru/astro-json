@@ -1,4 +1,6 @@
 const puppeteer = require('puppeteer'); 
+const fs = require('fs');
+const path = require('path');
 const { getId, getModel, getPrice, getLink } = require('./utils');
 
 const DEBUG_SCREENSHOT = process.env.DEBUG_SCREENSHOT === 'true' ? true : false;
@@ -55,7 +57,8 @@ const Config = {
   ITEM: process.env.ITEM_CSS,
   PRICE: process.env.PRICE_CSS,
   MODEL: process.env.MODEL_CSS,
-  LINK: process.env.LINK_CSS || null
+  LINK: process.env.LINK_CSS || null,
+  SCRAPE_JSON: process.env.SCRAPE_JSON || null // JSON-шаги: путь к файлу либо JSON-строка
 };
 
 const browserOptions = {
@@ -70,6 +73,74 @@ const browserOptions = {
   ignoreHTTPSErrors: true
 };
 
+/**
+ * Загружает и парсит шаги из переменной окружения SCRAPE_JSON.
+ * Поддерживает как путь к файлу, так и JSON-строку. Возвращает массив шагов.
+ */
+function loadScrapeStepsFromEnv() {
+  if (!Config.SCRAPE_JSON) return null;
+  try {
+    const raw = Config.SCRAPE_JSON.trim();
+    const content = (raw.startsWith('[') || raw.startsWith('{'))
+      ? raw
+      : fs.readFileSync(path.isAbsolute(raw) ? raw : path.resolve(process.cwd(), raw), 'utf8');
+    const steps = JSON.parse(content);
+    if (!Array.isArray(steps)) {
+      throw new Error('SCRAPE_JSON должен быть массивом шагов');
+    }
+    return steps;
+  } catch (err) {
+    throw new Error(`${Config.BRAND?.toUpperCase() || 'SCRAPER'}: Не удалось загрузить SCRAPE_JSON: ${err.message}`);
+  }
+}
+
+/**
+ * Выполняет шаги сценария на странице. Возвращает объект с переопределёнными селекторами.
+ * Поддерживаемые шаги:
+ * - { type: 'waitForNetworkIdle' }
+ * - { type: 'wait', selector?: string, wait?: number }
+ * - { type: 'click', selector: string, wait?: number }
+ * - { type: 'get', selector: string, variable: 'item'|'model'|'price'|'link' }
+ */
+async function runScrapeSteps(page, steps, options) {
+  const overrides = { ITEM: null, MODEL: null, PRICE: null, LINK: null };
+  let currentScreenshotCount = options?.screenshotCount ?? 0;
+  for (const step of steps) {
+    const type = step?.type;
+    if (!type) continue;
+    if (type === 'waitForNetworkIdle') {
+      await page.waitForNetworkIdle();
+      continue;
+    }
+
+    if (type === 'wait') {
+      if (step.selector) {
+        await page.waitForSelector(step.selector, { timeout: step.wait || WaitForSelectorOption.TIMEOUT });
+      }
+      continue;
+    }
+
+    if (type === 'click') {
+      const handle = await page.waitForSelector(step.selector, { visible: true, timeout: step.wait || WaitForSelectorOption.TIMEOUT });
+      if (options?.debugScreenshot) {
+        await page.screenshot({ path: `${options.timestamp}-${Config.BRAND?.toUpperCase() || 'SCRAPER'}-${currentScreenshotCount}-before-json-click.png` });
+        currentScreenshotCount++;
+      }
+      await handle.click();
+      continue;
+    }
+
+    if (type === 'get') {
+      const variable = (step.variable || '').toString().toUpperCase();
+      if (['ITEM', 'MODEL', 'PRICE', 'LINK'].includes(variable)) {
+        overrides[variable] = step.selector;
+      }
+      continue;
+    }
+  }
+  return { overrides, screenshotCount: currentScreenshotCount };
+}
+
 const getElements = async () => {
   let browser;
   try {
@@ -82,7 +153,9 @@ const getElements = async () => {
     await page.setViewport({width: Viewport.WIDTH, height: Viewport.HEIGHT});
 
     const response = await page.goto(Config.URL, {
-      waitUntil: Config.CLICK_SELECTOR ? WaitUntil.DOM : WaitUntil.FULL,
+      // Если используется SCRAPE_JSON, позволим странице полностью загрузиться,
+      // иначе поведение по старой логике
+      waitUntil: Config.SCRAPE_JSON ? WaitUntil.FULL : (Config.CLICK_SELECTOR ? WaitUntil.DOM : WaitUntil.FULL),
       timeout: ResponseOption.TIMEOUT,
     });
   
@@ -97,7 +170,31 @@ const getElements = async () => {
       screenshotCount++;
     }  
 
-    if (Config.CLICK_SELECTOR) {
+    // Подготовим рантайм-селекторы (могут быть переопределены SCRAPE_JSON)
+    const RuntimeSelectors = {
+      ITEM: Config.ITEM,
+      PRICE: Config.PRICE,
+      MODEL: Config.MODEL,
+      LINK: Config.LINK,
+    };
+
+    // Если переданы JSON-шаги, выполняем их и переопределяем селекторы
+    const steps = loadScrapeStepsFromEnv();
+    if (steps && Array.isArray(steps)) {
+      const result = await runScrapeSteps(page, steps, {
+        debugScreenshot: DEBUG_SCREENSHOT,
+        timestamp,
+        screenshotCount,
+      });
+      // Обновим счётчик скриншотов
+      screenshotCount = result.screenshotCount;
+
+      RuntimeSelectors.ITEM = result.overrides.ITEM || RuntimeSelectors.ITEM;
+      RuntimeSelectors.MODEL = result.overrides.MODEL || RuntimeSelectors.MODEL;
+      RuntimeSelectors.PRICE = result.overrides.PRICE || RuntimeSelectors.PRICE;
+      RuntimeSelectors.LINK = result.overrides.LINK || RuntimeSelectors.LINK;
+    } else if (Config.CLICK_SELECTOR) {
+      // Старая логика клика, если SCRAPE_JSON не используется
       const modelsLink = await page.waitForSelector(Config.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
       
       if (DEBUG_SCREENSHOT) {
@@ -117,13 +214,13 @@ const getElements = async () => {
       }
     }
 
-    const elements = await page.$$(Config.ITEM);
+    const elements = await page.$$(RuntimeSelectors.ITEM);
     if (!elements.length) throw new Error(`${Config.BRAND.toUpperCase()}: Не найдено ни одного элемента.`);
     
     for (const element of elements) {
-      const price = await getPrice(element, Config.PRICE, Config.BRAND);
-      const link = Config.LINK ? await getLink(element, Config.LINK, Config.BRAND) : null;
-      const model = await getModel(element, Config.MODEL, Config.BRAND, link);
+      const price = await getPrice(element, RuntimeSelectors.PRICE, Config.BRAND);
+      const link = RuntimeSelectors.LINK ? await getLink(element, RuntimeSelectors.LINK, Config.BRAND) : null;
+      const model = await getModel(element, RuntimeSelectors.MODEL, Config.BRAND, link);
       const id = getId(Config.BRAND, link);
       data.push({
         id,
