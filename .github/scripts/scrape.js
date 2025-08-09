@@ -411,6 +411,10 @@ async function scrapePage(url, xpaths) {
     const scrapedData = data.results || [];
 
     console.log(`Извлечено ${scrapedData.length} элементов`);
+
+    if (scrapedData.length === 0) {
+        await logWarning(`${brandPrefix.toUpperCase()}:`, "Нет данных для сохранения");
+    }
     
     // Закрываем браузер безопасно
     try {
