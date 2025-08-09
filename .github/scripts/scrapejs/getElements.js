@@ -76,6 +76,7 @@ const getElements = async () => {
     browser = await puppeteer.launch(browserOptions);
     const page = await browser.newPage();
     const data = [];
+    const timestamp = new Date().toISOString().substring(0, 19).replace('T', '-');
 
     await page.setViewport({width: Viewport.WIDTH, height: Viewport.HEIGHT});
 
@@ -92,7 +93,7 @@ const getElements = async () => {
       const modelsLink = await page.waitForSelector(Config.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
       
       if (DEBUG_SCREENSHOT) {
-        await page.screenshot({ path: 'before-click.png' });
+        await page.screenshot({ path: `${timestamp}-${Config.BRAND.toUpperCase()}-before-click.png` });
       }
       
       await modelsLink.click();
@@ -102,7 +103,7 @@ const getElements = async () => {
       }
      
       if (DEBUG_SCREENSHOT) {
-        await page.screenshot({ path: 'after-click.png' });
+        await page.screenshot({ path: `${timestamp}-${Config.BRAND.toUpperCase()}-after-click.png` });
       }
     }
 
