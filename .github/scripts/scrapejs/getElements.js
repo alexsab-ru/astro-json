@@ -90,6 +90,13 @@ const getElements = async () => {
       throw new Error(`${Config.BRAND.toUpperCase()}: Статус загрузки страницы: ${response.status()}`);
     }
 
+    await page.waitForNetworkIdle();
+
+    if (DEBUG_SCREENSHOT) {
+      await page.screenshot({ path: `${timestamp}-${Config.BRAND.toUpperCase()}-${screenshotCount}-after-wait.png` });
+      screenshotCount++;
+    }  
+
     if (Config.CLICK_SELECTOR) {
       const modelsLink = await page.waitForSelector(Config.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
       
