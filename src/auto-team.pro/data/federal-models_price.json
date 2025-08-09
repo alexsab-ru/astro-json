@@ -1,76 +1,87 @@
 [
   {
     "id": "belgee-x50",
+    "brand": "belgee",
     "model": "X50",
     "price": "1939990",
     "benefit": "",
-    "link": "https://belgee.ru/model/belgee-x50"
+    "link": "https://belgee.ru/model/belgee-x50/"
   },
   {
     "id": "belgee-x70",
+    "brand": "belgee",
     "model": "X70",
     "price": "2275990",
     "benefit": "",
-    "link": "https://belgee.ru/model/belgee-x70"
+    "link": "https://belgee.ru/model/belgee-x70/"
   },
   {
     "id": "geely-atlas-2024",
+    "brand": "geely",
     "model": "ATLAS",
     "price": "2999990",
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-atlas-2024"
+    "link": "https://www.geely-motors.com/model/geely-atlas-2024/"
   },
   {
     "id": "geely-cityray",
+    "brand": "geely",
     "model": "CITYRAY",
     "price": "2499990",
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/cityray"
+    "link": "https://www.geely-motors.com/model/cityray/"
   },
   {
     "id": "geely-coolray-2023",
+    "brand": "geely",
     "model": "COOLRAY",
     "price": "2414990",
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-coolray-2023"
+    "link": "https://www.geely-motors.com/model/geely-coolray-2023/"
   },
   {
     "id": "geely-emgrand",
+    "brand": "geely",
     "model": "EMGRAND",
-    "price": "1889990",
+    "price": "1684990",
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/emgrand"
+    "link": "https://www.geely-motors.com/model/emgrand/"
   },
   {
     "id": "geely-ex5",
+    "brand": "geely",
     "model": "EX5",
     "price": "3749990",
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-ex5"
+    "link": "https://www.geely-motors.com/model/geely-ex5/"
   },
   {
     "id": "geely-monjaro",
+    "brand": "geely",
     "model": "MONJARO",
     "price": "3839990",
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/monjaro"
+    "link": "https://www.geely-motors.com/model/monjaro/"
   },
   {
     "id": "geely-okavango",
+    "brand": "geely",
     "model": "OKAVANGO",
     "price": "3269990",
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-okavango"
+    "link": "https://www.geely-motors.com/model/geely-okavango/"
   },
   {
     "id": "geely-preface",
+    "brand": "geely",
     "model": "PREFACE",
-    "price": "3099990",
+    "price": "2899990",
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-preface"
+    "link": "https://www.geely-motors.com/model/geely-preface/"
   },
   {
     "id": "gac-empow",
+    "brand": "gac",
     "model": "empow",
     "price": "2799000",
     "benefit": "",
@@ -78,6 +89,7 @@
   },
   {
     "id": "gac-gs3",
+    "brand": "gac",
     "model": "gs3",
     "price": "2249000",
     "benefit": "",
@@ -85,6 +97,7 @@
   },
   {
     "id": "gac-gs4",
+    "brand": "gac",
     "model": "gs4",
     "price": "2799000",
     "benefit": "",
@@ -92,27 +105,31 @@
   },
   {
     "id": "gac-gs8-ii",
+    "brand": "gac",
     "model": "gs8-ii",
-    "price": "4649000",
-    "benefit": "",
-    "link": "https://gac.ru/models/gs8-ii"
-  },
-  {
-    "id": "gac-gs8-ii",
-    "model": "gs8-ii",
-    "price": "3799000",
+    "price": "3599000",
     "benefit": "",
     "link": "https://gac.ru/models/gs8-ii"
   },
   {
     "id": "gac-m8",
+    "brand": "gac",
     "model": "m8",
     "price": "5199999",
     "benefit": "",
     "link": "https://gac.ru/models/m8"
   },
   {
+    "id": "gac-new-gs8",
+    "brand": "gac",
+    "model": "new-gs8",
+    "price": "3899000",
+    "benefit": "",
+    "link": "https://gac.ru/models/new-gs8"
+  },
+  {
     "id": "changan-alsvin",
+    "brand": "changan",
     "model": "ALSVIN",
     "price": "1400000",
     "benefit": "",
@@ -120,34 +137,39 @@
   },
   {
     "id": "changan-cs35plusnew",
+    "brand": "changan",
     "model": "CS35PLUS NEW",
-    "price": "1799900",
+    "price": "2019900",
     "benefit": "",
     "link": "https://changanauto.ru/models/cs35plusnew/"
   },
   {
     "id": "changan-cs75plusnew",
-    "model": "CS75PLUS NEW",
-    "price": "2440000",
+    "brand": "changan",
+    "model": "CS75PLUS",
+    "price": "2840000",
     "benefit": "",
     "link": "https://changanauto.ru/models/cs75plusnew/"
   },
   {
     "id": "changan-cs95new",
-    "model": "CS95NEW",
-    "price": "3759900",
+    "brand": "changan",
+    "model": "CS95",
+    "price": "3929900",
     "benefit": "",
     "link": "https://changanauto.ru/models/cs95new/"
   },
   {
     "id": "changan-eadoplus",
+    "brand": "changan",
     "model": "EADOplus",
-    "price": "1929900",
+    "price": "2129900",
     "benefit": "",
     "link": "https://changanauto.ru/models/eadoplus/"
   },
   {
     "id": "changan-hunter",
+    "brand": "changan",
     "model": "HUNTERplus",
     "price": "3129900",
     "benefit": "",
@@ -155,50 +177,65 @@
   },
   {
     "id": "changan-lamore",
+    "brand": "changan",
     "model": "Lamore",
-    "price": "2349900",
+    "price": "2469900",
     "benefit": "",
     "link": "https://changanauto.ru/models/lamore/"
   },
   {
+    "id": "changan-star-truck",
+    "brand": "changan",
+    "model": "Star Truck",
+    "price": "1769000",
+    "benefit": "",
+    "link": "https://changanauto.ru/models/star-truck/"
+  },
+  {
     "id": "changan-uni-k",
+    "brand": "changan",
     "model": "UNI-K",
-    "price": "2979900",
+    "price": "3369900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-k/"
   },
   {
     "id": "changan-uni-k_idd",
+    "brand": "changan",
     "model": "UNI-K iDD",
-    "price": "4129900",
+    "price": "3769900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-k_idd/"
   },
   {
     "id": "changan-uni-s",
+    "brand": "changan",
     "model": "UNI-S / CS55PLUS",
-    "price": "2169900",
+    "price": "2449900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-s/"
   },
   {
     "id": "changan-uni-t",
+    "brand": "changan",
     "model": "UNI-T",
-    "price": "2069900",
+    "price": "2269900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-t/"
   },
   {
     "id": "changan-uni-v",
+    "brand": "changan",
     "model": "UNI-V",
-    "price": "2309900",
+    "price": "2379900",
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-v/"
   },
   {
     "id": "knewstar-001",
-    "model": "KNEWSTAR 001",
-    "price": "3509990",
+    "brand": "knewstar",
+    "model": "001",
+    "price": "3359990",
     "benefit": "",
     "link": "https://knewstar.ru/model/knewstar-001"
   }
