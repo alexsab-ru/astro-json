@@ -77,6 +77,7 @@ const getElements = async () => {
     const page = await browser.newPage();
     const data = [];
     const timestamp = new Date().toISOString().substring(0, 19).replace('T', '-');
+    let screenshotCount = 0;
 
     await page.setViewport({width: Viewport.WIDTH, height: Viewport.HEIGHT});
 
@@ -93,7 +94,8 @@ const getElements = async () => {
       const modelsLink = await page.waitForSelector(Config.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
       
       if (DEBUG_SCREENSHOT) {
-        await page.screenshot({ path: `${timestamp}-${Config.BRAND.toUpperCase()}-before-click.png` });
+        await page.screenshot({ path: `${timestamp}-${Config.BRAND.toUpperCase()}-${screenshotCount}-before-click.png` });
+        screenshotCount++;
       }
       
       await modelsLink.click();
@@ -103,7 +105,8 @@ const getElements = async () => {
       }
      
       if (DEBUG_SCREENSHOT) {
-        await page.screenshot({ path: `${timestamp}-${Config.BRAND.toUpperCase()}-after-click.png` });
+        await page.screenshot({ path: `${timestamp}-${Config.BRAND.toUpperCase()}-${screenshotCount}-after-click.png` });
+        screenshotCount++;
       }
     }
 
