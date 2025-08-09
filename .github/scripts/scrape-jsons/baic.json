@@ -1,0 +1,41 @@
+[
+    {
+        "type": "waitForNetworkIdle"
+    },
+    {
+        "type": "wait",
+        "selector": "ul[class='n103-00__list']>li:first-child>a",
+        "wait": 10000,
+        "comment": "Wait for the menu button"
+    },
+    {
+        "type": "click",
+        "selector": "ul[class='n103-00__list']>li:first-child>a",
+        "wait": 1000,
+        "comment": "Click on the menu item"
+    },
+    {
+        "type": "wait",
+        "selector": "div[class='u123-03__row']",
+        "wait": 1000,
+        "comment": "Wait for the menu open"
+    },
+    {
+        "type": "get",
+        "selector": "div[class='u105-00__text h6']",
+        "variable": "model",
+        "comment": "Get the model"
+    },
+    {
+        "type": "get",
+        "selector": "span[class='u114-00__price']",
+        "variable": "price",
+        "comment": "Get the price"
+    },
+    {
+        "type": "get",
+        "selector": "a",
+        "variable": "link",
+        "comment": "Get the link"
+    }
+]
