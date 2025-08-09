@@ -1,7 +1,7 @@
 export BRAND='belgee'
 export URL="https://belgee.ru"
 export ITEM_XPATH="//header//li[@class='menu-models__item']"
-export ID_XPATH="concat('belgee-', substring-before(substring-after(substring-after(.//a[contains(class, 'menu-models__item-btn')]/@href, '/model/'), 'belgee-'), '/'))"
+export ID_XPATH="concat('belgee-', substring-before(substring-after(substring-after(.//a[contains(@class,'menu-models__item-btn')]/@href, '/model/'), 'belgee-'), '/'))"
 export MODEL_XPATH=".//div[@class='menu-models__item-title h3']/text()"
 export PRICE_XPATH="translate(string(.//div[@class='menu-models__item-price caps mb-green']/text()), translate(string(.//div[@class='menu-models__item-price caps mb-green']/text()), '0123456789', ''), '')"
 export LINK_XPATH=".//a[@class='btn btn_secondary menu-models__item-btn']/@href"
