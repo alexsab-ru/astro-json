@@ -8,6 +8,14 @@
     "link": "https://jetour-ru.com/models/dashing"
   },
   {
+    "id": "jetour-t1",
+    "brand": "jetour",
+    "model": "T1",
+    "price": "",
+    "benefit": "",
+    "link": "https://jetour-ru.com/models/t1"
+  },
+  {
     "id": "jetour-t2",
     "brand": "jetour",
     "model": "T2",
@@ -27,7 +35,7 @@
     "id": "jetour-x70",
     "brand": "jetour",
     "model": "X70",
-    "price": "2049900",
+    "price": "2049000",
     "benefit": "",
     "link": "https://jetour-ru.com/models/x70"
   },

@@ -85,7 +85,7 @@
     "model": "X50",
     "price": "1939990",
     "benefit": "",
-    "link": "https://belgee.ru/model/belgee-x50"
+    "link": "https://belgee.ru/model/belgee-x50/"
   },
   {
     "id": "belgee-x70",
@@ -93,7 +93,7 @@
     "model": "X70",
     "price": "2275990",
     "benefit": "",
-    "link": "https://belgee.ru/model/belgee-x70"
+    "link": "https://belgee.ru/model/belgee-x70/"
   },
   {
     "id": "changan-alsvin",
@@ -403,7 +403,7 @@
     "id": "geely-emgrand",
     "brand": "geely",
     "model": "EMGRAND",
-    "price": "1759990",
+    "price": "1684990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/emgrand/"
   },
@@ -624,6 +624,14 @@
     "link": "https://jetour-ru.com/models/dashing"
   },
   {
+    "id": "jetour-t1",
+    "brand": "jetour",
+    "model": "T1",
+    "price": "",
+    "benefit": "",
+    "link": "https://jetour-ru.com/models/t1"
+  },
+  {
     "id": "jetour-t2",
     "brand": "jetour",
     "model": "T2",
@@ -643,7 +651,7 @@
     "id": "jetour-x70",
     "brand": "jetour",
     "model": "X70",
-    "price": "2049900",
+    "price": "2049000",
     "benefit": "",
     "link": "https://jetour-ru.com/models/x70"
   },
