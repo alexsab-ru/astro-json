@@ -378,7 +378,8 @@ jobs:
       - name: Commit files
         if: |
           env.changes == 'true' && 
-          (github.event_name == 'push' || github.event_name == 'schedule' || github.event.inputs.commit_changes == 'true')
+          (github.event_name == 'push' || github.event_name == 'schedule' || github.event.inputs.commit_changes == 'true') &&
+          github.ref == 'refs/heads/main'
         run: |
             git config --local user.email "support+actions@github.com"
             git config --local user.name "github-actions-bot"
