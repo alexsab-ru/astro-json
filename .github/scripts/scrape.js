@@ -78,9 +78,11 @@ async function scrapePage(url, xpaths) {
             '--disable-backgrounding-occluded-windows',
             '--disable-renderer-backgrounding'
         ],
-        executablePath: process.env.CHROME_BIN || (process.platform === 'win32' 
-            ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
-            : '/usr/bin/google-chrome'),
+        executablePath: process.env.CHROME_BIN || (
+            process.platform === 'win32' ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' : 
+            process.platform === 'darwin' ? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' : 
+            '/usr/bin/google-chrome'
+        ),
         timeout: 10000, // Уменьшаем timeout для более быстрого фейла
         headless: 'new',
         ignoreHTTPSErrors: true // Игнорируем HTTPS ошибки
