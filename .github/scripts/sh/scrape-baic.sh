@@ -11,5 +11,6 @@ export OUTPUT_PATHS="./src/baic-alpha.ru/data/cars.json,./src/baic-krasnodar.ru/
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
 export DEALERBENEFITFIELD='Скидка'
-node .github/scripts/extractDataUPDAuto.js
-# node .github/scripts/scrapejs/scrape.js
+# node .github/scripts/extractDataUPDAuto.js
+export SCRAPE_JSON='.github/scripts/scrape-jsons/baic.json'
+node .github/scripts/scrapejs/scrape.js
