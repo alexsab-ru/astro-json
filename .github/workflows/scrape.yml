@@ -53,6 +53,8 @@ on:
 jobs:
   scrape_all:
     runs-on: ubuntu-latest
+    env:
+      USER_AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 
     # Указываете окружение и его переменные
     environment:
@@ -86,14 +88,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-
-      - name: Install Chrome
+      - name: Configure Chrome env
         run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-
-      - name: Set Chrome path
-        run: echo "CHROME_BIN=$(which google-chrome)" >> $GITHUB_ENV
+          echo "CHROME_BIN=${CHROME_PATH}" >> $GITHUB_ENV
+          echo "Using CHROME_PATH=${CHROME_PATH}"
 
       # Определяем, какой бренд запускать
       - name: Set brand to scrape
@@ -155,8 +153,10 @@ jobs:
 
       - name: which chrome
         run: |
-          which google-chrome
-          which chromium
+          echo "CHROME_PATH=${CHROME_PATH}"
+          echo "CHROME_BIN=${CHROME_BIN}"
+          which google-chrome || true
+          which chromium || true
 
       - name: Run Geely scraper
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'geely' }}

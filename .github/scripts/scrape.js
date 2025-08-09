@@ -68,10 +68,10 @@ async function scrapePage(url, xpaths) {
             '--disable-accelerated-2d-canvas',
             '--no-first-run',
             '--no-zygote',
-            '--single-process',
+            // '--single-process',
             '--disable-gpu',
-            '--disable-web-security', // Отключаем web security для проблемных сайтов
-            '--disable-features=VizDisplayCompositor', // Дополнительная стабильность
+            // '--disable-web-security', // Отключаем web security для проблемных сайтов
+            // '--disable-features=VizDisplayCompositor', // Дополнительная стабильность
             '--ignore-certificate-errors-spki-list',
             '--ignore-certificate-errors',
             '--ignore-ssl-errors',
@@ -79,19 +79,34 @@ async function scrapePage(url, xpaths) {
             '--disable-backgrounding-occluded-windows',
             '--disable-renderer-backgrounding'
         ],
-        executablePath: process.env.CHROME_BIN || (
+        // В CI Chrome может быть доступен как CHROME_PATH (setup-chrome) или CHROME_BIN (apt-get). Поддержим оба варианта.
+        executablePath: process.env.CHROME_BIN || process.env.CHROME_PATH || (
             process.platform === 'win32' ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' : 
             process.platform === 'darwin' ? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' : 
             '/usr/bin/google-chrome'
         ),
-        timeout: 30000, // Уменьшаем timeout для более быстрого фейла
-        headless: 'new',
+        timeout: 60000, // Увеличиваем timeout запуска браузера для CI
+        headless: true,
         ignoreHTTPSErrors: true // Игнорируем HTTPS ошибки
     };
 
     console.log(`Запуск браузера с настройками:`, browserOptions);
     const browser = await puppeteer.launch(browserOptions);
     const page = await browser.newPage();
+    
+    // Устанавливаем стабильный User-Agent (уменьшает риск редиректов/anti-bot в CI)
+    try {
+        await page.setUserAgent(
+            process.env.USER_AGENT ||
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+        );
+    } catch (uaErr) {
+        console.warn('Не удалось установить User-Agent:', uaErr.message);
+    }
+    
+    // Базовые таймауты ожиданий (могут быть переопределены через переменные окружения)
+    page.setDefaultNavigationTimeout(parseInt(process.env.NAV_TIMEOUT || '45000'));
+    page.setDefaultTimeout(parseInt(process.env.DEFAULT_TIMEOUT || '20000'));
     let screenshotCount = 0;
     
     // Устанавливаем размер окна браузера
