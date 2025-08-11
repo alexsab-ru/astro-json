@@ -203,6 +203,10 @@ def scrape_page(url, xpaths, brand_prefix):
                 if link_value and not link_value.startswith('http'):
                     link_value = urljoin(url, link_value)
 
+                # replace "models.gac.alexsab.ru" to "gac.ru" in link_value only if link_value contains "models.gac.alexsab.ru"
+                if "models.gac.alexsab.ru" in link_value:
+                    link_value = link_value.replace("models.gac.alexsab.ru", "gac.ru")
+
                 data.append({
                     'id': process_xpath_result(id),
                     'brand': brand_prefix,
