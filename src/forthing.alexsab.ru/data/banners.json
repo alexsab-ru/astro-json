@@ -55,5 +55,24 @@
     "dataTitle": "",
     "dataFormName": "",
     "autoplay": 6000
+  },
+  {
+    "id": 0,
+    "show": true,
+    "type": "",
+    "view": "link",
+    "videoUrl": "",
+    "bannerUrl": "",
+    "imageUrl": "https://cdn.alexsab.ru/main-sliders/forthing/dfsk-ix5-desktop.webp",
+    "tabletImageUrl": "http://cdn.alexsab.ru/main-sliders/forthing/dfsk-ix5-tablet.webp",
+    "mobileImageUrl": "http://cdn.alexsab.ru/main-sliders/forthing/dfsk-ix5-mobile.webp",
+    "title": "DFSK iХ5 Fengon",
+    "descr": "Стиль и универсальность",
+    "btn": "Подробнее",
+    "gradient": false,
+    "btnUrl": "/models/fengon-ix5/",
+    "dataTitle": "",
+    "dataFormName": "",
+    "autoplay": 6000
   }
 ]
