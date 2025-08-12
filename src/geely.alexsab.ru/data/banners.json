@@ -76,7 +76,10 @@
     "btnUrl": "/models/monjaro/",
     "dataTitle": "",
     "dataFormName": "",
-    "badge": "https://cdn.alexsab.ru/main-sliders/geely/Sticker_Monjaro_Caroftheyear.svg",
+    "badge": {
+      "image": "https://cdn.alexsab.ru/main-sliders/geely/Sticker_Monjaro_Caroftheyear.svg",
+      "position": "left"
+    },
     "autoplay": 7000
   },
   {
