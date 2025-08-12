@@ -58,7 +58,7 @@
     "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/h9-desktop.webp",
     "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/h9-mobile.webp",
     "title": "HAVAL H9",
-    "descr": "Цена от {{priceb-haval-h9new}}*",
+    "descr": "Цена от {{priceb-haval-h9-new}}*",
     "btn": "Подробнее",
     "btnUrl": "/models/h9",
     "dataTitle": "",
