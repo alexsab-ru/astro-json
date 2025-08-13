@@ -5,7 +5,7 @@
       items:
         - icon: engine
           text: Новый двигатель Smartstream 2.5 GDI
-        - icon: stinger_teaser2
+        - icon: teaser
           text: Terrain mode - Система адаптации к дорожным условиям
         - icon: drive-wise
           text: Интеллектуальные системы безопасности и помощи водителю
@@ -215,7 +215,7 @@
       items:
         - icon: engine
           text: Новый двигатель Smartstream 2.5 GDI
-        - icon: stinger_teaser2
+        - icon: teaser
           text: 8-ступенчатая автоматическая трансмиссия
         - icon: drive-wise
           text: Интеллектуальные системы безопасности и помощи водителю
@@ -299,7 +299,7 @@
           text: 5-ти и 7-ми местная компоновка салона
         - icon: drive-wise
           text: Системы безопасности Drive Wise
-        - icon: stinger_teaser2
+        - icon: teaser
           text: Terrain mode
     - id: description
       sectionClass: ""
@@ -374,7 +374,7 @@
       items:
         - icon: drive-wise
           text: Интеллектуальные системы безопасности и помощи водителю
-        - icon: stinger_teaser2
+        - icon: teaser
           text: Система автоматически подключаемого полного привода
         - icon: proceed
           text: Уникальный кузов Hatchback
