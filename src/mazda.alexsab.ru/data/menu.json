@@ -1,0 +1,89 @@
+[
+  {
+    "url": "/cars/",
+    "name": "Авто в наличии"
+  },
+  {
+    "url": "/models/",
+    "name": "Модели",
+    "children": "models"
+  },
+  {
+    "url": "javascript:void(0)",
+    "name": "Покупателям",
+    "children": [
+      {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/test-drive/",
+        "name": "Запись на тест-драйв"
+      },
+      {
+        "url": "/mazda-garant/",
+        "name": "MAZDA ГАРАНТ"
+      }
+    ]
+  },
+  {
+    "url": "javascript:void(0)",
+    "name": "Владельцам",
+    "children": [
+      {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/maintainance/",
+        "name": "Техническое обслуживание"
+      },
+      {
+        "url": "/customer-support/",
+        "name": "Поддержка клиентов"
+      },
+      {
+        "url": "/reference-guides/",
+        "name": "Справочные руководства"
+      },
+      {
+        "url": "/mazda-servis-kontrakt/",
+        "name": "MAZDA СЕРВИС КОНТРАКТ"
+      },
+      {
+        "url": "/service-request/",
+        "name": "Запись на сервис"
+      }
+    ]
+  },
+  {
+    "url": "/#services",
+    "name": "Услуги"
+  },
+  {
+    "url": "javascript:void(0)",
+    "name": "МИР MAZDA",
+    "children": [
+      {
+        "url": "/mazda-history/",
+        "name": "История Mazda"
+      },
+      {
+        "url": "/technology/",
+        "name": "Мультимедиа"
+      },
+      {
+        "url": "/security_systems/",
+        "name": "Системы безопасности"
+      },
+      {
+        "url": "/news/",
+        "name": "Новости"
+      }
+    ]
+  },
+  {
+    "url": "/contacts/",
+    "name": "Контакты"
+  }
+]

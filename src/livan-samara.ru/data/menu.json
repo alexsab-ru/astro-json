@@ -25,6 +25,10 @@
     "name": "Услуги"
   },
   {
+    "url": "/brand-history/",
+    "name": "История бренда"
+  },
+  {
     "url": "/contacts/",
     "name": "Контакты"
   }

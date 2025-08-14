@@ -13,18 +13,30 @@
     "name": "Покупателям",
     "children": [
       {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
         "url": "/test-drive/",
         "name": "Запись на тест-драйв"
       }
     ]
   },
   {
-    "url": "javascript:void(0)",
+    "url": "/for-owners/",
     "name": "Владельцам",
     "children": [
       {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
         "url": "/service-request/",
         "name": "Запись на сервис"
+      },
+      {
+        "url": "/service-and-warranty/",
+        "name": "Сервис и гарантия"
       }
     ]
   },
@@ -33,8 +45,18 @@
     "name": "Услуги"
   },
   {
-    "url": "/about/",
-    "name": "О бренде"
+    "url": "javascript:void(0)",
+    "name": "GAC",
+    "children": [
+      {
+        "url": "/about/",
+        "name": "О бренде"
+      },
+      {
+        "url": "/news/",
+        "name": "Новости"
+      }
+    ]
   },
   {
     "url": "/contacts/",

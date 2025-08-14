@@ -9,10 +9,6 @@
     "children": "models"
   },
   {
-    "url": "/special-offers/",
-    "name": "Спецпредложения"
-  },
-  {
     "url": "/test-drive/",
     "name": "Запись на тест-драйв"
   },

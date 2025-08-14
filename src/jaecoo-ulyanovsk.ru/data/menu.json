@@ -15,6 +15,14 @@
       {
         "url": "/test-drive/",
         "name": "Запись на тест-драйв"
+      },
+      {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/customers-credit/",
+        "name": "Кредитование и страхование"
       }
     ]
   },
@@ -25,6 +33,22 @@
       {
         "url": "/service-request/",
         "name": "Запись на сервис"
+      },
+      {
+        "url": "/owners-service-promo/",
+        "name": "Сервисные акции"
+      },
+      {
+        "url": "/owners-support/",
+        "name": "Поддержка"
+      },
+      {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/iov/",
+        "name": "JAECOO Connect"
       }
     ]
   },

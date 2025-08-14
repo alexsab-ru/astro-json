@@ -4,13 +4,13 @@
     "name": "Авто в наличии"
   },
   {
+    "url": "/used_cars/",
+    "name": "Авто с пробегом"
+  },
+  {
     "url": "/models/",
     "name": "Модели",
     "children": "models"
-  },
-  {
-    "url": "/special-offers/",
-    "name": "Спецпредложения"
   },
   {
     "url": "/test-drive/",

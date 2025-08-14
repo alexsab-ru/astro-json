@@ -9,6 +9,10 @@
     "children": "models"
   },
   {
+    "url": "/for-owners/",
+    "name": "Владельцам"
+  },
+  {
     "url": "/special-offers/",
     "name": "Спецпредложения"
   },

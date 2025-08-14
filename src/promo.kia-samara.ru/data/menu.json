@@ -1,7 +1,15 @@
 [
   {
+    "url": "/request-kz/",
+    "name": "Заказ авто из KZ"
+  },
+  {
     "url": "/cars/",
     "name": "Авто в наличии"
+  },
+  {
+    "url": "/used_cars/",
+    "name": "Авто с пробегом"
   },
   {
     "url": "/models/",
@@ -9,15 +17,7 @@
     "children": "models"
   },
   {
-    "url": "/special-offers/",
-    "name": "Спецпредложения"
-  },
-  {
-    "url": "/test-drive/",
-    "name": "Запись на тест-драйв"
-  },
-  {
-    "url": "/service-request/",
+    "url": "https://service.kia-samara.ru/?utm_source=promo",
     "name": "Запись на сервис"
   },
   {

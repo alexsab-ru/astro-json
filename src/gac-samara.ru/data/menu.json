@@ -4,12 +4,24 @@
     "name": "Спецпредложения"
   },
   {
+    "url": "/#models",
+    "name": "Модели"
+  },
+  {
     "url": "/#test-drive",
     "name": "Запись на тест-драйв"
   },
   {
     "url": "/#cars",
     "name": "Авто в наличии"
+  },
+  {
+    "url": "/service-and-warranty/",
+    "name": "Сервис и гарантия"
+  },
+  {
+    "url": "/#reviews",
+    "name": "Отзывы"
   },
   {
     "url": "/#contacts",
