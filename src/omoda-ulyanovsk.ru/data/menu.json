@@ -1,27 +1,18 @@
 [
   {
-    "url": "/cars/",
-    "name": "Авто в наличии"
+    "url": "/special-offers/",
+    "name": "Спецпредложения"
   },
   {
-    "url": "/models/",
-    "name": "Модели",
-    "children": "models"
+    "url": "/customers-credit/",
+    "name": "Кредитование и страхование"
   },
   {
-    "url": "/test-drive/",
-    "name": "Запись на тест-драйв"
+    "url": "/owners-support/",
+    "name": "Поддержка"
   },
   {
-    "url": "/service-request/",
-    "name": "Запись на сервис"
-  },
-  {
-    "url": "/#services",
-    "name": "Услуги"
-  },
-  {
-    "url": "/contacts/",
-    "name": "Контакты"
+    "url": "/news/",
+    "name": "Новости"
   }
 ]
