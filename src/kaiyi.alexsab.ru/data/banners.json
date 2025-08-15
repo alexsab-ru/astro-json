@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "id": 1,
+    "show": true,
+    "type": "",
+    "view": "link",
+    "videoUrl": "",
+    "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/granpri-x7-kunlun-desktop.webp",
+    "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/granpri-x7-kunlun-mobile.webp",
+    "title": "",
+    "descr": "",
+    "btn": "Подробнее",
+    "bannerUrl": "/news/the-kaiyi-x7-best-in-class-grand-prix-award-za-rulem-2025/",
+    "dataTitle": "",
+    "dataFormName": "",
+    "badge": "",
+    "autoplay": 6000
+  },
+  {
+    "id": 1,
+    "show": true,
+    "type": "",
+    "view": "link",
+    "videoUrl": "",
+    "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/e5-desktop.webp",
+    "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/e5-mobile.webp",
+    "title": "Элегантный и комфортный<br>седан KAIYI E5",
+    "descr": "Цена от {{priceb-kaiyi-e5}} руб.*",
+    "btn": "Подробнее",
+    "btnUrl": "/models/e5/",
+    "dataTitle": "",
+    "dataFormName": "",
+    "badge": {
+      "image": "https://cdn.alexsab.ru/main-sliders/kaiyi/warranty.webp",
+      "position": "left"
+    },
+    "autoplay": 6000
+  },
+  {
+    "id": 1,
+    "show": true,
+    "type": "",
+    "view": "link",
+    "videoUrl": "",
+    "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/x3pro-desktop.webp",
+    "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/x3pro-mobile.webp",
+    "title": "Динамичный и технологичный<br>KAIYI X3PRO",
+    "descr": "Цена от {{priceb-kaiyi-x3pro}} руб.*",
+    "btn": "Подробнее",
+    "btnUrl": "/models/x3pro/",
+    "dataTitle": "",
+    "dataFormName": "",
+    "badge": {
+      "image": "https://cdn.alexsab.ru/main-sliders/kaiyi/warranty.webp",
+      "position": "left"
+    },
+    "autoplay": 6000
+  },
+  {
+    "id": 1,
+    "show": true,
+    "type": "",
+    "view": "link",
+    "videoUrl": "",
+    "imageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/x7kunlun-desktop.webp",
+    "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/kaiyi/x7kunlun-mobile.webp",
+    "title": "KAIYI X7 Kunlun",
+    "descr": "Цена от {{priceb-kaiyi-x7-kunlun}} руб.*",
+    "btn": "Подробнее",
+    "btnUrl": "/models/x7-kunlun/",
+    "dataTitle": "",
+    "dataFormName": "",
+    "badge": {
+      "image": "https://cdn.alexsab.ru/main-sliders/kaiyi/warranty.webp",
+      "position": "left"
+    },
+    "autoplay": 6000
+  }
+]
