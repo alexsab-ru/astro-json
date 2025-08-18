@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": 1,
+    "show": true,
+    "type": "",
+    "view": "link",
+    "videoUrl": "",
+    "imageUrl": "https://cdn.alexsab.ru/main-sliders/livan/s6pro-desktop.webp",
+    "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/livan/s6pro-mobile.webp",
+    "title": "LIVAN S6PRO",
+    "descr": "Драйв в вашем стиле<br>от <span class='text-red-500'>{{priceb-livan-s6pro}}</span> р.",
+    "btn": "Подробнее",
+    "btnUrl": "/models/s6pro/",
+    "dataTitle": "",
+    "dataFormName": "",
+    "badge": {
+      "image": "https://cdn.alexsab.ru/main-sliders/livan/badge-car-year-2024.webp, https://cdn.alexsab.ru/main-sliders/livan/badge-livan-geely.webp",
+      "position": "left"
+    },
+    "autoplay": 6000
+  },
+  {
+    "id": 1,
+    "show": true,
+    "type": "",
+    "view": "link",
+    "videoUrl": "",
+    "imageUrl": "https://cdn.alexsab.ru/main-sliders/livan/x6pro-desktop.webp",
+    "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/livan/x6pro-mobile.webp",
+    "title": "LIVAN X6PRO",
+    "descr": "Дайте старт новому<br>от <span class='text-red-500'>{{priceb-livan-x6pro}}</span> р.",
+    "btn": "Подробнее",
+    "btnUrl": "/models/x6pro/",
+    "dataTitle": "",
+    "dataFormName": "",
+    "badge": {
+      "image": "https://cdn.alexsab.ru/main-sliders/livan/badge-livan-geely.webp",
+      "position": "left"
+    },
+    "autoplay": 6000
+  },
+  {
+    "id": 1,
+    "show": true,
+    "type": "",
+    "view": "link",
+    "videoUrl": "",
+    "imageUrl": "https://cdn.alexsab.ru/main-sliders/livan/x3pro-desktop.webp",
+    "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/livan/x3pro-mobile.webp",
+    "title": "LIVAN X3PRO",
+    "descr": "Быть свободным<br>от <span class='text-red-500'>{{priceb-livan-x3pro}}</span> р.",
+    "btn": "Подробнее",
+    "btnUrl": "/models/x3pro/",
+    "dataTitle": "",
+    "dataFormName": "",
+    "badge": {
+      "image": "https://cdn.alexsab.ru/main-sliders/livan/badge-livan-geely.webp",
+      "position": "left"
+    },
+    "autoplay": 6000
+  }
+]
