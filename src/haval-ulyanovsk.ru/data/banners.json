@@ -231,7 +231,7 @@
         "videoUrl": "",
         "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/simple-h3.webp",
         "title": "HAVAL <span style=\"color: #00cabf; font-weight: 300\">SIMPLE</span>",
-        "descr": "Ваш новый Haval H3 в кредит от&nbsp;16&nbsp;500&nbsp;руб/мес<span class=\"text-sm\">*</span>",
+        "descr": "Ваш новый Haval H3 в кредит от&nbsp;16&nbsp;500&nbsp;руб/мес<span>*</span>",
         "btn": "Подробнее",
         "btnUrl": "/cars/?model=h3",
         "dataTitle": "Подробнее HAVAL H3 в кредит",
