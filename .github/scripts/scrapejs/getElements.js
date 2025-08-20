@@ -2,27 +2,23 @@ const puppeteer = require('puppeteer');
 const { getId, getModel, getPrice, getLink } = require('./utils');
 
 const DEBUG_SCREENSHOT = process.env.DEBUG_SCREENSHOT === 'true' ? true : false;
+const DEFAULT_NAVIGATION_TIMEOUT = 60000;
+const DEFAULT_TIMEOUT = 60000;
 
 const BrowserOption = {
   ARGS: [
     '--no-sandbox', // Обязательно для Linux (GitHub Actions использует Ubuntu)
-    '--disable-setuid-sandbox', // Для избежания проблем с правами
-    '--disable-dev-shm-usage', // Помогает избежать проблем с памятью в Docker/CI
-    '--disable-accelerated-2d-canvas', // Уменьшает использование ресурсов
-    '--disable-gpu', // Отключает GPU (не нужен в headless)
-    '--single-process', // Может помочь на слабых серверах (но не всегда стабильно)
-    '--no-zygote', // Уменьшает использование памяти
   ],
   PATHS: {
     WIN: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
     MAC: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
     LINUX: '/usr/bin/google-chrome'
   },
-  TIMEOUT: 60000,
+  TIMEOUT: DEFAULT_TIMEOUT,
 };
 
 const Viewport = {
-  WIDTH: 1980,
+  WIDTH: 1920,
   HEIGHT: 1080
 };
 
@@ -30,14 +26,6 @@ const Platform = {
   WIN: 'win32',
   MAC: 'darwin',
   LINUX: 'linux',
-};
-
-const ResponseOption = {
-  TIMEOUT: 60000,
-};
-
-const WaitForSelectorOption = {
-  TIMEOUT: 60000,
 };
 
 const WaitUntil = {
@@ -66,8 +54,12 @@ const browserOptions = {
     BrowserOption.PATHS.LINUX
   ),
   timeout: BrowserOption.TIMEOUT,
-  headless: true,
-  ignoreHTTPSErrors: true
+  headless: 'new',
+  ignoreHTTPSErrors: true,
+  defaultViewport: {
+    width: Viewport.WIDTH,
+    height: Viewport.HEIGHT,
+  },
 };
 
 const getElements = async () => {
@@ -78,19 +70,16 @@ const getElements = async () => {
     const data = [];
     const timestamp = new Date().toISOString().substring(0, 19).replace('T', '-');
     let screenshotCount = 0;
-
-    await page.setViewport({width: Viewport.WIDTH, height: Viewport.HEIGHT});
+    page.setDefaultTimeout(DEFAULT_TIMEOUT);
+    page.setDefaultNavigationTimeout(DEFAULT_NAVIGATION_TIMEOUT);
 
     const response = await page.goto(Config.URL, {
-      waitUntil: Config.CLICK_SELECTOR ? WaitUntil.DOM : WaitUntil.FULL,
-      timeout: ResponseOption.TIMEOUT,
+      waitUntil: Config.CLICK_SELECTOR ? WaitUntil.FULL : WaitUntil.DOM,
     });
-  
+
     if (!response.ok()) {
       throw new Error(`${Config.BRAND.toUpperCase()}: Статус загрузки страницы: ${response.status()}`);
     }
-
-    await page.waitForNetworkIdle();
 
     if (DEBUG_SCREENSHOT) {
       await page.screenshot({ path: `${timestamp}-${Config.BRAND.toUpperCase()}-${screenshotCount}-after-wait.png` });
@@ -98,7 +87,7 @@ const getElements = async () => {
     }  
 
     if (Config.CLICK_SELECTOR) {
-      const modelsLink = await page.waitForSelector(Config.CLICK_SELECTOR, { visible: true, timeout: WaitForSelectorOption.TIMEOUT });
+      const modelsLink = await page.waitForSelector(Config.CLICK_SELECTOR, { visible: true });
       
       if (DEBUG_SCREENSHOT) {
         await page.screenshot({ path: `${timestamp}-${Config.BRAND.toUpperCase()}-${screenshotCount}-before-click.png` });
@@ -108,7 +97,7 @@ const getElements = async () => {
       await modelsLink.click();
       
       if (Config.WAIT_SELECTOR) {
-        await page.waitForSelector(Config.WAIT_SELECTOR, { timeout: WaitForSelectorOption.TIMEOUT });
+        await page.waitForSelector(Config.WAIT_SELECTOR);
       }
      
       if (DEBUG_SCREENSHOT) {
@@ -118,11 +107,11 @@ const getElements = async () => {
     }
 
     const elements = await page.$$(Config.ITEM);
-    if (!elements.length) throw new Error(`${Config.BRAND.toUpperCase()}: Не найдено ни одного элемента.`);
+    if (!elements.length) throw new Error(`Не найдено ни одного элемента.`);
     
     for (const element of elements) {
-      const price = await getPrice(element, Config.PRICE, Config.BRAND);
-      const link = Config.LINK ? await getLink(element, Config.LINK, Config.BRAND) : null;
+      const price = await getPrice(element, Config.PRICE);
+      const link = await getLink(element, Config.LINK, Config.BRAND);
       const model = await getModel(element, Config.MODEL, Config.BRAND, link);
       const id = getId(Config.BRAND, link);
       data.push({
