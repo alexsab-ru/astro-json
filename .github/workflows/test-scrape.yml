@@ -1,0 +1,58 @@
+name: Test scrape
+on: push
+jobs:
+  test-scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Deps
+        run: |
+          npm install -g pnpm
+          pnpm install --no-frozen-lockfile
+      - name: Test Baic
+        run: pnpm scrape-baic
+      - name: Test Belgee
+        run: pnpm scrape-belgee
+      - name: Test changan
+        run: pnpm scrape-changan
+      - name: Test chery
+        run: pnpm scrape-chery
+      - name: Test evolute
+        run: pnpm scrape-evolute
+      # - name: Test gac
+      #   run: pnpm scrape-gac
+      - name: Test geely
+        run: pnpm scrape-geely
+      - name: Test haval
+        run: pnpm scrape-haval
+      - name: Test jac
+        run: pnpm scrape-jac
+      - name: Test jaecoo
+        run: pnpm scrape-jaecoo
+      - name: Test jetour
+        run: pnpm scrape-jetour
+      - name: Test kaiyi
+        run: pnpm scrape-kaiyi
+      - name: Test knewstar
+        run: pnpm scrape-knewstar
+      - name: Test livan
+        run: pnpm scrape-livan
+      - name: Test omoda
+        run: pnpm scrape-omoda
+      - name: Test solaris
+        run: pnpm scrape-solaris
+      - name: Test soueast
+        run: pnpm scrape-soueast
+      - name: Test tank
+        run: pnpm scrape-tank
+      - name: Test vgv
+        run: pnpm scrape-vgv
+      - name: Test wey
+        run: pnpm scrape-wey
