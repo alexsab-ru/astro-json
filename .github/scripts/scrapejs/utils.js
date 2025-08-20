@@ -25,27 +25,15 @@ const checkLink = (link, brand) => {
  * ВАЖНО: если идентификатор нельзя получить, выбрасывается ошибка с указанием бренда.
  */
 const getId = (brand, url) => {
-  // Если ссылки нет, дальше вычислять нечего — кидаем понятную ошибку.
-  if (!url) {
-    throw new Error(`${brand.toUpperCase()}: Не удалось получить id — отсутствует ссылка (url).`);
-  }
-
   // Убираем возможный завершающий слэш и берём последний сегмент пути
   let lastPathSegment = url.replace(/\/$/, '').split('/').pop();
-
   if (brand === Brand.WEY) {
     // Для WEY id хранится в query-параметре после '='
     const idFromQuery = lastPathSegment.split('=').pop();
-    if (!idFromQuery) {
-      throw new Error(`${brand.toUpperCase()}: Не удалось получить id — пустой параметр в ссылке.`);
-    }
+    if (!idFromQuery) throw new Error(`Не удалось получить id — пустой параметр в ссылке.`);
     return idFromQuery;
   }
-
-  if (!lastPathSegment) {
-    throw new Error(`${brand.toUpperCase()}: Не удалось получить id — пустой хвост ссылки.`);
-  }
-
+  if (!lastPathSegment) throw new Error(`Не удалось получить id — пустой хвост ссылки.`);
   return `${brand}-${checkBrandPrefix(lastPathSegment, brand)}`;
 };
 
@@ -56,26 +44,15 @@ const getId = (brand, url) => {
 const getModel = async (element, selector, brand, url) => {
   // Вариант, когда модель берём из ссылки на картинку/страницу
   if (selector === Selector.IMG) {
-    if (!url) {
-      throw new Error(`${brand.toUpperCase()}: Не удалось определить модель — отсутствует ссылка (url) для IMG.`);
-    }
     let modelText = checkLink(url, brand);
     modelText = modelText.replace(/\/$/, '').split('/').pop();
-    if (!modelText) {
-      throw new Error(`${brand.toUpperCase()}: Не удалось определить модель — пустое значение в ссылке.`);
-    }
+    if (!modelText) throw new Error(`Не удалось определить модель — пустое значение в ссылке.`);
     return checkBrandPrefix(modelText, brand);
   }
-
-  // Ищем элемент модели по селектору
   const modelElement = await element.$(selector);
-  if (!modelElement) {
-    throw new Error(`${brand.toUpperCase()}: Не найден элемент модели по селектору "${selector}".`);
-  }
+  if (!modelElement) throw new Error(`Не найден элемент модели по селектору ${selector}`);
   const modelText = await modelElement.evaluate(node => node.textContent);
-  if (!modelText) {
-    throw new Error(`${brand.toUpperCase()}: Не удалось определить модель — пустой текст в элементе "${selector}".`);
-  }
+  if (!modelText) throw new Error(`Не удалось определить модель — пустой текст в элементе ${selector}`);
   return checkBrandPrefix(modelText, brand);
 };
 
@@ -83,11 +60,9 @@ const getModel = async (element, selector, brand, url) => {
  * Возвращает цену в числовой строке (только цифры).
  * Если цену получить нельзя — выбрасывает ошибку с брендом и селектором.
  */
-const getPrice = async (element, selector, brand) => {
+const getPrice = async (element, selector) => {
   const priceElement = await element.$(selector);
-  if (!priceElement) {
-    throw new Error(`${brand.toUpperCase()}: Не найден элемент цены по селектору "${selector}".`);
-  }
+  if (!priceElement) throw new Error(`Не удалось найти цену по селектору ${selector}.`);
   const priceText = await priceElement.evaluate(node => {
     const childNodes = Array.from(node.childNodes);
     // Фильтруем только текстовые узлы (игнорируем элементы)
@@ -96,13 +71,13 @@ const getPrice = async (element, selector, brand) => {
     return textNodes.map(n => n.textContent.trim()).join(' ').trim();
   });
   if (!priceText) {
-    throw new Error(`${brand.toUpperCase()}: Не удалось получить цену — пустое содержимое в "${selector}".`);
+    return 0;
   }
   const onlyDigits = priceText.replace(/\D/g, '');
   if (!onlyDigits) {
-    throw new Error(`${brand.toUpperCase()}: Не удалось получить цену — нет цифр в значении "${priceText}".`);
+    return 0;
   }
-  return onlyDigits;
+  return Number(onlyDigits);
 };
 
 /**
@@ -115,16 +90,11 @@ const getLink = async (element, selector, brand) => {
   if (elementHref) {
     return checkLink(elementHref, brand);
   }
-
   // Иначе пытаемся найти дочерний элемент по селектору
   const linkElement = await element.$(selector);
-  if (!linkElement) {
-    throw new Error(`${brand.toUpperCase()}: Не найден элемент ссылки по селектору "${selector}".`);
-  }
+  if (!linkElement) throw new Error(`Не найден элемент ссылки по селектору ${selector}.`);
   const linkHref = await linkElement.evaluate(node => node.href);
-  if (!linkHref) {
-    throw new Error(`${brand.toUpperCase()}: Не удалось получить href из элемента ссылки "${selector}".`);
-  }
+  if (!linkHref) throw new Error(`Не удалось получить href из элемента ссылки ${selector}.`);
   return checkLink(linkHref, brand);
 };
 
