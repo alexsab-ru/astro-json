@@ -3,7 +3,7 @@
     "id": "haval-f7-new2024",
     "brand": "haval",
     "model": "F7",
-    "price": "2649000",
+    "price": 2649000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-f7-new2024/"
   },
@@ -11,7 +11,7 @@
     "id": "haval-h3",
     "brand": "haval",
     "model": "H3",
-    "price": "2249000",
+    "price": 2299000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-h3/"
   },
@@ -19,7 +19,7 @@
     "id": "haval-h5",
     "brand": "haval",
     "model": "H5",
-    "price": "3599000",
+    "price": 3599000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-h5/"
   },
@@ -27,7 +27,7 @@
     "id": "haval-h7",
     "brand": "haval",
     "model": "НОВЫЙ H7",
-    "price": "3299000",
+    "price": 3299000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-h7/"
   },
@@ -35,7 +35,7 @@
     "id": "haval-h9-new",
     "brand": "haval",
     "model": "H9",
-    "price": "4199000",
+    "price": 4199000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-h9-new/"
   },
@@ -43,7 +43,7 @@
     "id": "haval-jolion-new2024",
     "brand": "haval",
     "model": "JOLION",
-    "price": "1799000",
+    "price": 1799000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-jolion-new2024/"
   },
@@ -51,7 +51,7 @@
     "id": "haval-new-dargo",
     "brand": "haval",
     "model": "DARGO",
-    "price": "2799000",
+    "price": 2799000,
     "benefit": "",
     "link": "https://haval.ru/models/new-haval-dargo/"
   },
@@ -59,7 +59,7 @@
     "id": "haval-new-dargo-x",
     "brand": "haval",
     "model": "DARGO X",
-    "price": "3099000",
+    "price": 3099000,
     "benefit": "",
     "link": "https://haval.ru/models/new-haval-dargo-x/"
   },
@@ -67,7 +67,7 @@
     "id": "haval-new-f7x",
     "brand": "haval",
     "model": "НОВЫЙ F7x",
-    "price": "3349000",
+    "price": 3349000,
     "benefit": "",
     "link": "https://haval.ru/models/new-haval-f7x/"
   },
@@ -75,7 +75,7 @@
     "id": "haval-new-m6",
     "brand": "haval",
     "model": "M6",
-    "price": "1979000",
+    "price": 1979000,
     "benefit": "",
     "link": "https://haval.ru/models/new-haval-m6/"
   },
@@ -83,7 +83,7 @@
     "id": "haval-new-poer",
     "brand": "haval",
     "model": "НОВЫЙ POER",
-    "price": "3599000",
+    "price": 3599000,
     "benefit": "",
     "link": "https://haval.ru/models/new-poer/"
   },
@@ -91,7 +91,7 @@
     "id": "haval-poer",
     "brand": "haval",
     "model": "POER",
-    "price": "3349000",
+    "price": 3349000,
     "benefit": "",
     "link": "https://haval.ru/models/poer/"
   },
@@ -99,7 +99,7 @@
     "id": "haval-poer-king-kong",
     "brand": "haval",
     "model": "KINGKONG POER",
-    "price": "2899000",
+    "price": 2899000,
     "benefit": "",
     "link": "https://haval.ru/models/poer-king-kong/"
   }

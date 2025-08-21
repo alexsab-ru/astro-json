@@ -3,7 +3,7 @@
     "id": "wey-05",
     "brand": "wey",
     "model": "05",
-    "price": "4900000",
+    "price": 4900000,
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-05"
   },
@@ -11,7 +11,7 @@
     "id": "wey-07",
     "brand": "wey",
     "model": "07",
-    "price": "6299000",
+    "price": 6299000,
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-07"
   },
@@ -19,7 +19,7 @@
     "id": "wey-80-business-lounge",
     "brand": "wey",
     "model": "80 Business Lounge",
-    "price": "7699000",
+    "price": 7699000,
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-business-lounge"
   },
@@ -27,7 +27,7 @@
     "id": "wey-80-premium",
     "brand": "wey",
     "model": "80 Premium",
-    "price": "6299000",
+    "price": 6299000,
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-premium"
   }

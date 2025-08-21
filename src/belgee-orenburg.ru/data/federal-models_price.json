@@ -3,16 +3,16 @@
     "id": "belgee-x50",
     "brand": "belgee",
     "model": "X50",
-    "price": "1939990",
+    "price": 1939990,
     "benefit": "",
-    "link": "https://belgee.ru/model/belgee-x50"
+    "link": "https://belgee.ru/model/belgee-x50/"
   },
   {
     "id": "belgee-x70",
     "brand": "belgee",
     "model": "X70",
-    "price": "2275990",
+    "price": 2275990,
     "benefit": "",
-    "link": "https://belgee.ru/model/belgee-x70"
+    "link": "https://belgee.ru/model/belgee-x70/"
   }
 ]

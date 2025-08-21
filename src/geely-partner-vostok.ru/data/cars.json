@@ -3,64 +3,64 @@
     "id": "geely-atlas-2024",
     "brand": "geely",
     "model": "ATLAS",
-    "price": "2999990",
+    "price": 2999990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-atlas-2024"
+    "link": "https://www.geely-motors.com/model/geely-atlas-2024/"
   },
   {
     "id": "geely-cityray",
     "brand": "geely",
     "model": "CITYRAY",
-    "price": "2499990",
+    "price": 2499990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/cityray"
+    "link": "https://www.geely-motors.com/model/cityray/"
   },
   {
     "id": "geely-coolray-2023",
     "brand": "geely",
     "model": "COOLRAY",
-    "price": "2414990",
+    "price": 2414990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-coolray-2023"
+    "link": "https://www.geely-motors.com/model/geely-coolray-2023/"
   },
   {
     "id": "geely-emgrand",
     "brand": "geely",
     "model": "EMGRAND",
-    "price": "1759990",
+    "price": 1684990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/emgrand"
+    "link": "https://www.geely-motors.com/model/emgrand/"
   },
   {
     "id": "geely-ex5",
     "brand": "geely",
-    "model": "Geely EX5",
-    "price": "3749990",
+    "model": "EX5",
+    "price": 3749990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-ex5"
+    "link": "https://www.geely-motors.com/model/geely-ex5/"
   },
   {
     "id": "geely-monjaro",
     "brand": "geely",
     "model": "MONJARO",
-    "price": "3839990",
+    "price": 3839990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/monjaro"
+    "link": "https://www.geely-motors.com/model/monjaro/"
   },
   {
     "id": "geely-okavango",
     "brand": "geely",
     "model": "OKAVANGO",
-    "price": "3269990",
+    "price": 3269990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-okavango"
+    "link": "https://www.geely-motors.com/model/geely-okavango/"
   },
   {
     "id": "geely-preface",
     "brand": "geely",
     "model": "PREFACE",
-    "price": "2899990",
+    "price": 2899990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-preface"
+    "link": "https://www.geely-motors.com/model/geely-preface/"
   }
 ]

@@ -83,23 +83,23 @@
     "id": "belgee-x50",
     "brand": "belgee",
     "model": "X50",
-    "price": "1939990",
+    "price": 1939990,
     "benefit": "",
-    "link": "https://belgee.ru/model/belgee-x50"
+    "link": "https://belgee.ru/model/belgee-x50/"
   },
   {
     "id": "belgee-x70",
     "brand": "belgee",
     "model": "X70",
-    "price": "2275990",
+    "price": 2275990,
     "benefit": "",
-    "link": "https://belgee.ru/model/belgee-x70"
+    "link": "https://belgee.ru/model/belgee-x70/"
   },
   {
     "id": "changan-alsvin",
     "brand": "changan",
     "model": "ALSVIN",
-    "price": "1350000",
+    "price": 1400000,
     "benefit": "",
     "link": "https://changanauto.ru/models/alsvin/"
   },
@@ -107,7 +107,7 @@
     "id": "changan-cs35plusnew",
     "brand": "changan",
     "model": "CS35PLUS NEW",
-    "price": "1869900",
+    "price": 2019900,
     "benefit": "",
     "link": "https://changanauto.ru/models/cs35plusnew/"
   },
@@ -115,7 +115,7 @@
     "id": "changan-cs75plusnew",
     "brand": "changan",
     "model": "CS75PLUS",
-    "price": "2540000",
+    "price": 2840000,
     "benefit": "",
     "link": "https://changanauto.ru/models/cs75plusnew/"
   },
@@ -123,7 +123,7 @@
     "id": "changan-cs95new",
     "brand": "changan",
     "model": "CS95",
-    "price": "3759900",
+    "price": 3929900,
     "benefit": "",
     "link": "https://changanauto.ru/models/cs95new/"
   },
@@ -131,15 +131,15 @@
     "id": "changan-eadoplus",
     "brand": "changan",
     "model": "EADOplus",
-    "price": "1829900",
+    "price": 2129900,
     "benefit": "",
     "link": "https://changanauto.ru/models/eadoplus/"
   },
   {
     "id": "changan-hunter",
     "brand": "changan",
-    "model": "HUNTERplus",
-    "price": "3129900",
+    "model": "HUNTER PLUS",
+    "price": 3129900,
     "benefit": "",
     "link": "https://changanauto.ru/models/hunter/"
   },
@@ -147,7 +147,7 @@
     "id": "changan-lamore",
     "brand": "changan",
     "model": "Lamore",
-    "price": "2349900",
+    "price": 2469900,
     "benefit": "",
     "link": "https://changanauto.ru/models/lamore/"
   },
@@ -155,7 +155,7 @@
     "id": "changan-star-truck",
     "brand": "changan",
     "model": "Star Truck",
-    "price": "1769000",
+    "price": 1769000,
     "benefit": "",
     "link": "https://changanauto.ru/models/star-truck/"
   },
@@ -163,7 +163,7 @@
     "id": "changan-uni-k",
     "brand": "changan",
     "model": "UNI-K",
-    "price": "3019900",
+    "price": 3369900,
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-k/"
   },
@@ -171,7 +171,7 @@
     "id": "changan-uni-k_idd",
     "brand": "changan",
     "model": "UNI-K iDD",
-    "price": "3769900",
+    "price": 3769900,
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-k_idd/"
   },
@@ -179,7 +179,7 @@
     "id": "changan-uni-s",
     "brand": "changan",
     "model": "UNI-S / CS55PLUS",
-    "price": "2249900",
+    "price": 2449900,
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-s/"
   },
@@ -187,7 +187,7 @@
     "id": "changan-uni-t",
     "brand": "changan",
     "model": "UNI-T",
-    "price": "2069900",
+    "price": 2269900,
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-t/"
   },
@@ -195,7 +195,7 @@
     "id": "changan-uni-v",
     "brand": "changan",
     "model": "UNI-V",
-    "price": "2379900",
+    "price": 2379900,
     "benefit": "",
     "link": "https://changanauto.ru/models/uni-v/"
   },
@@ -203,7 +203,7 @@
     "id": "chery-arrizo8",
     "brand": "chery",
     "model": "ARRIZO 8",
-    "price": "2710000",
+    "price": 2710000,
     "benefit": "",
     "link": "https://www.chery.ru/models/arrizo8/"
   },
@@ -211,7 +211,7 @@
     "id": "chery-newtiggo7promax",
     "brand": "chery",
     "model": "TIGGO 7 PRO MAX",
-    "price": "2470000",
+    "price": 2490000,
     "benefit": "",
     "link": "https://www.chery.ru/models/newtiggo7promax/"
   },
@@ -219,7 +219,7 @@
     "id": "chery-newtiggo8promax",
     "brand": "chery",
     "model": "TIGGO 8 PRO MAX",
-    "price": "2840000",
+    "price": 2840000,
     "benefit": "",
     "link": "https://www.chery.ru/models/newtiggo8promax/"
   },
@@ -227,7 +227,7 @@
     "id": "chery-tiggo4",
     "brand": "chery",
     "model": "TIGGO 4",
-    "price": "1949000",
+    "price": 1949000,
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo4/"
   },
@@ -235,7 +235,7 @@
     "id": "chery-tiggo4pro",
     "brand": "chery",
     "model": "TIGGO 4 PRO 18 years edition",
-    "price": "1730000",
+    "price": 1920000,
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo4pro/"
   },
@@ -243,7 +243,7 @@
     "id": "chery-tiggo7l",
     "brand": "chery",
     "model": "TIGGO 7L НОВИНКА",
-    "price": "2630000",
+    "price": 2630000,
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo7l/"
   },
@@ -251,7 +251,7 @@
     "id": "chery-tiggo7pro-plug-in-hybrid",
     "brand": "chery",
     "model": "TIGGO 7 PRO PLUG-IN HYBRID",
-    "price": "3309000",
+    "price": 3309000,
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo7pro-plug-in-hybrid/"
   },
@@ -259,7 +259,7 @@
     "id": "chery-tiggo8pro-plug-in-hybrid",
     "brand": "chery",
     "model": "TIGGO 8 PRO PLUG-IN HYBRID",
-    "price": "3699000",
+    "price": 3699000,
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo8pro-plug-in-hybrid/"
   },
@@ -267,7 +267,7 @@
     "id": "chery-tiggo9",
     "brand": "chery",
     "model": "TIGGO 9",
-    "price": "4150000",
+    "price": 4150000,
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo9/"
   },
@@ -323,7 +323,7 @@
     "id": "evolute-i-jet",
     "brand": "evolute",
     "model": "i‑JET",
-    "price": "4350000",
+    "price": 4350000,
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-jet"
   },
@@ -331,7 +331,7 @@
     "id": "evolute-i-joy",
     "brand": "evolute",
     "model": "i‑JOY",
-    "price": "1750000",
+    "price": 1850000,
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-joy"
   },
@@ -339,7 +339,7 @@
     "id": "evolute-i-pro",
     "brand": "evolute",
     "model": "i‑PRO",
-    "price": "1499000",
+    "price": 1499000,
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-pro"
   },
@@ -347,7 +347,7 @@
     "id": "evolute-i-sky",
     "brand": "evolute",
     "model": "i‑SKY",
-    "price": "2995000",
+    "price": 2995000,
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-sky"
   },
@@ -355,7 +355,7 @@
     "id": "evolute-i-space",
     "brand": "evolute",
     "model": "i‑SPACE",
-    "price": "2499000",
+    "price": 2499000,
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-space"
   },
@@ -363,7 +363,7 @@
     "id": "evolute-i-space-new",
     "brand": "evolute",
     "model": "Обновленный i‑SPACE",
-    "price": "",
+    "price": 0,
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-space-new"
   },
@@ -371,7 +371,7 @@
     "id": "evolute-i-van",
     "brand": "evolute",
     "model": "i‑VAN",
-    "price": "2695000",
+    "price": 2695000,
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-van"
   },
@@ -379,71 +379,71 @@
     "id": "geely-atlas-2024",
     "brand": "geely",
     "model": "ATLAS",
-    "price": "2999990",
+    "price": 2999990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-atlas-2024"
+    "link": "https://www.geely-motors.com/model/geely-atlas-2024/"
   },
   {
     "id": "geely-cityray",
     "brand": "geely",
     "model": "CITYRAY",
-    "price": "2499990",
+    "price": 2499990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/cityray"
+    "link": "https://www.geely-motors.com/model/cityray/"
   },
   {
     "id": "geely-coolray-2023",
     "brand": "geely",
     "model": "COOLRAY",
-    "price": "2414990",
+    "price": 2414990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-coolray-2023"
+    "link": "https://www.geely-motors.com/model/geely-coolray-2023/"
   },
   {
     "id": "geely-emgrand",
     "brand": "geely",
     "model": "EMGRAND",
-    "price": "1759990",
+    "price": 1684990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/emgrand"
+    "link": "https://www.geely-motors.com/model/emgrand/"
   },
   {
     "id": "geely-ex5",
     "brand": "geely",
-    "model": "Geely EX5",
-    "price": "3749990",
+    "model": "EX5",
+    "price": 3749990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-ex5"
+    "link": "https://www.geely-motors.com/model/geely-ex5/"
   },
   {
     "id": "geely-monjaro",
     "brand": "geely",
     "model": "MONJARO",
-    "price": "3839990",
+    "price": 3839990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/monjaro"
+    "link": "https://www.geely-motors.com/model/monjaro/"
   },
   {
     "id": "geely-okavango",
     "brand": "geely",
     "model": "OKAVANGO",
-    "price": "3269990",
+    "price": 3269990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-okavango"
+    "link": "https://www.geely-motors.com/model/geely-okavango/"
   },
   {
     "id": "geely-preface",
     "brand": "geely",
     "model": "PREFACE",
-    "price": "2899990",
+    "price": 2899990,
     "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-preface"
+    "link": "https://www.geely-motors.com/model/geely-preface/"
   },
   {
     "id": "haval-f7-new2024",
     "brand": "haval",
     "model": "F7",
-    "price": "2649000",
+    "price": 2649000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-f7-new2024/"
   },
@@ -451,7 +451,7 @@
     "id": "haval-h3",
     "brand": "haval",
     "model": "H3",
-    "price": "2249000",
+    "price": 2299000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-h3/"
   },
@@ -459,7 +459,7 @@
     "id": "haval-h5",
     "brand": "haval",
     "model": "H5",
-    "price": "3599000",
+    "price": 3599000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-h5/"
   },
@@ -467,7 +467,7 @@
     "id": "haval-h7",
     "brand": "haval",
     "model": "НОВЫЙ H7",
-    "price": "3299000",
+    "price": 3299000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-h7/"
   },
@@ -475,7 +475,7 @@
     "id": "haval-h9-new",
     "brand": "haval",
     "model": "H9",
-    "price": "4199000",
+    "price": 4199000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-h9-new/"
   },
@@ -483,7 +483,7 @@
     "id": "haval-jolion-new2024",
     "brand": "haval",
     "model": "JOLION",
-    "price": "1799000",
+    "price": 1799000,
     "benefit": "",
     "link": "https://haval.ru/models/haval-jolion-new2024/"
   },
@@ -491,7 +491,7 @@
     "id": "haval-new-dargo",
     "brand": "haval",
     "model": "DARGO",
-    "price": "2799000",
+    "price": 2799000,
     "benefit": "",
     "link": "https://haval.ru/models/new-haval-dargo/"
   },
@@ -499,7 +499,7 @@
     "id": "haval-new-dargo-x",
     "brand": "haval",
     "model": "DARGO X",
-    "price": "3099000",
+    "price": 3099000,
     "benefit": "",
     "link": "https://haval.ru/models/new-haval-dargo-x/"
   },
@@ -507,7 +507,7 @@
     "id": "haval-new-f7x",
     "brand": "haval",
     "model": "НОВЫЙ F7x",
-    "price": "3349000",
+    "price": 3349000,
     "benefit": "",
     "link": "https://haval.ru/models/new-haval-f7x/"
   },
@@ -515,7 +515,7 @@
     "id": "haval-new-m6",
     "brand": "haval",
     "model": "M6",
-    "price": "1979000",
+    "price": 1979000,
     "benefit": "",
     "link": "https://haval.ru/models/new-haval-m6/"
   },
@@ -523,7 +523,7 @@
     "id": "haval-new-poer",
     "brand": "haval",
     "model": "НОВЫЙ POER",
-    "price": "3599000",
+    "price": 3599000,
     "benefit": "",
     "link": "https://haval.ru/models/new-poer/"
   },
@@ -531,7 +531,7 @@
     "id": "haval-poer",
     "brand": "haval",
     "model": "POER",
-    "price": "3349000",
+    "price": 3349000,
     "benefit": "",
     "link": "https://haval.ru/models/poer/"
   },
@@ -539,7 +539,7 @@
     "id": "haval-poer-king-kong",
     "brand": "haval",
     "model": "KINGKONG POER",
-    "price": "2899000",
+    "price": 2899000,
     "benefit": "",
     "link": "https://haval.ru/models/poer-king-kong/"
   },
@@ -547,7 +547,7 @@
     "id": "jac-j7",
     "brand": "jac",
     "model": "J7",
-    "price": "1709000",
+    "price": 1709000,
     "benefit": "",
     "link": "https://jaccar.ru/models/j7/"
   },
@@ -555,7 +555,7 @@
     "id": "jac-js3",
     "brand": "jac",
     "model": "JS3",
-    "price": "1449000",
+    "price": 1589000,
     "benefit": "",
     "link": "https://jaccar.ru/models/js3/"
   },
@@ -563,7 +563,7 @@
     "id": "jac-js6",
     "brand": "jac",
     "model": "JS6",
-    "price": "1899000",
+    "price": 1899000,
     "benefit": "",
     "link": "https://jaccar.ru/models/js6/"
   },
@@ -571,7 +571,7 @@
     "id": "jac-t8",
     "brand": "jac",
     "model": "T8",
-    "price": "2449000",
+    "price": 2449000,
     "benefit": "",
     "link": "https://jaccar.ru/models/t8/"
   },
@@ -579,7 +579,7 @@
     "id": "jac-t8-pro",
     "brand": "jac",
     "model": "T8 PRO",
-    "price": "2699000",
+    "price": 2699000,
     "benefit": "",
     "link": "https://jaccar.ru/models/t8-pro/"
   },
@@ -587,7 +587,7 @@
     "id": "jac-t9",
     "brand": "jac",
     "model": "T9",
-    "price": "3449000",
+    "price": 3449000,
     "benefit": "",
     "link": "https://jaccar.ru/models/t9/"
   },
@@ -595,7 +595,7 @@
     "id": "jaecoo-modelj5",
     "brand": "jaecoo",
     "model": "J5",
-    "price": "",
+    "price": 0,
     "benefit": "",
     "link": "https://jaecoo.ru/models/modelj5/"
   },
@@ -603,7 +603,7 @@
     "id": "jaecoo-modelj7",
     "brand": "jaecoo",
     "model": "J7",
-    "price": "2529900",
+    "price": 2709900,
     "benefit": "",
     "link": "https://jaecoo.ru/models/modelj7/"
   },
@@ -611,23 +611,31 @@
     "id": "jaecoo-modelj8",
     "brand": "jaecoo",
     "model": "J8",
-    "price": "3949000",
+    "price": 3949000,
     "benefit": "",
     "link": "https://jaecoo.ru/models/modelj8/"
   },
   {
     "id": "jetour-dashing",
     "brand": "jetour",
-    "model": "Dashing",
-    "price": "1739900",
+    "model": "DASHING",
+    "price": 1739900,
     "benefit": "",
     "link": "https://jetour-ru.com/models/dashing"
+  },
+  {
+    "id": "jetour-t1",
+    "brand": "jetour",
+    "model": "T1",
+    "price": 0,
+    "benefit": "",
+    "link": "https://jetour-ru.com/models/t1"
   },
   {
     "id": "jetour-t2",
     "brand": "jetour",
     "model": "T2",
-    "price": "3159000",
+    "price": 3159000,
     "benefit": "",
     "link": "https://jetour-ru.com/models/t2"
   },
@@ -635,7 +643,7 @@
     "id": "jetour-x50",
     "brand": "jetour",
     "model": "X50",
-    "price": "1440000",
+    "price": 1440000,
     "benefit": "",
     "link": "https://jetour-ru.com/models/x50"
   },
@@ -643,23 +651,23 @@
     "id": "jetour-x70",
     "brand": "jetour",
     "model": "X70",
-    "price": "2049900",
+    "price": 2049000,
     "benefit": "",
     "link": "https://jetour-ru.com/models/x70"
   },
   {
     "id": "jetour-x70plus",
     "brand": "jetour",
-    "model": "X70 Plus",
-    "price": "1949900",
+    "model": "X70 PLUS",
+    "price": 1949900,
     "benefit": "",
     "link": "https://jetour-ru.com/models/x70plus"
   },
   {
     "id": "jetour-x90plus",
     "brand": "jetour",
-    "model": "X90 Plus",
-    "price": "2499900",
+    "model": "X90 PLUS",
+    "price": 2499900,
     "benefit": "",
     "link": "https://jetour-ru.com/models/x90plus"
   },
@@ -667,7 +675,7 @@
     "id": "knewstar-001",
     "brand": "knewstar",
     "model": "001",
-    "price": "3299990",
+    "price": 3359990,
     "benefit": "",
     "link": "https://knewstar.ru/model/knewstar-001"
   },
@@ -675,7 +683,7 @@
     "id": "livan-s6pro",
     "brand": "livan",
     "model": "S6PRO",
-    "price": "1654000",
+    "price": 1654000,
     "benefit": "",
     "link": "https://livan-motors.ru/model/s6pro/"
   },
@@ -683,7 +691,7 @@
     "id": "livan-x3pro",
     "brand": "livan",
     "model": "X3PRO",
-    "price": "1449900",
+    "price": 1449900,
     "benefit": "",
     "link": "https://livan-motors.ru/model/x3pro/"
   },
@@ -691,7 +699,7 @@
     "id": "livan-x6pro",
     "brand": "livan",
     "model": "X6PRO",
-    "price": "1889000",
+    "price": 1889000,
     "benefit": "",
     "link": "https://livan-motors.ru/model/x6pro/"
   },
@@ -699,7 +707,7 @@
     "id": "omoda-modelc5",
     "brand": "omoda",
     "model": "C5",
-    "price": "2169900",
+    "price": 2129900,
     "benefit": "",
     "link": "https://omoda.ru/models/modelc5/"
   },
@@ -707,7 +715,7 @@
     "id": "omoda-modelc7",
     "brand": "omoda",
     "model": "C7",
-    "price": "2799900",
+    "price": 2909900,
     "benefit": "",
     "link": "https://omoda.ru/models/modelc7/"
   },
@@ -715,7 +723,7 @@
     "id": "omoda-models5",
     "brand": "omoda",
     "model": "S5",
-    "price": "1839900",
+    "price": 1839900,
     "benefit": "",
     "link": "https://omoda.ru/models/models5/"
   },
@@ -723,7 +731,7 @@
     "id": "omoda-s5gt",
     "brand": "omoda",
     "model": "S5 GT",
-    "price": "2159900",
+    "price": 2159900,
     "benefit": "",
     "link": "https://omoda.ru/models/s5gt/"
   },
@@ -760,10 +768,18 @@
     "link": "https://solaris.auto/models/solaris-krx"
   },
   {
+    "id": "soueast-s06",
+    "brand": "soueast",
+    "model": "S06",
+    "price": 0,
+    "benefit": "",
+    "link": "https://soueast.ru/s06"
+  },
+  {
     "id": "soueast-s07",
     "brand": "soueast",
     "model": "S07",
-    "price": "2109000",
+    "price": 2109000,
     "benefit": "",
     "link": "https://soueast.ru/s07"
   },
@@ -771,7 +787,7 @@
     "id": "soueast-s09",
     "brand": "soueast",
     "model": "S09",
-    "price": "2449000",
+    "price": 2449000,
     "benefit": "",
     "link": "https://soueast.ru/s09"
   },
@@ -779,7 +795,7 @@
     "id": "tank-300",
     "brand": "tank",
     "model": "300",
-    "price": "3799000",
+    "price": 3799000,
     "benefit": "",
     "link": "https://tank.ru/models/tank-300"
   },
@@ -787,7 +803,7 @@
     "id": "tank-400",
     "brand": "tank",
     "model": "400",
-    "price": "4749000",
+    "price": 4749000,
     "benefit": "",
     "link": "https://tank.ru/models/tank-400"
   },
@@ -795,7 +811,7 @@
     "id": "tank-500",
     "brand": "tank",
     "model": "500",
-    "price": "6099000",
+    "price": 5999000,
     "benefit": "",
     "link": "https://tank.ru/models/tank-500"
   },
@@ -803,7 +819,7 @@
     "id": "tank-700",
     "brand": "tank",
     "model": "700",
-    "price": "7999000",
+    "price": 7999000,
     "benefit": "",
     "link": "https://tank.ru/models/tank-700"
   },
@@ -811,7 +827,7 @@
     "id": "vgv-u70-pro",
     "brand": "vgv",
     "model": "U70PRO",
-    "price": "1899900",
+    "price": 1949900,
     "benefit": "",
     "link": "https://vgvmotor.ru/models/u70-pro/"
   },
@@ -819,7 +835,7 @@
     "id": "vgv-u75-plus",
     "brand": "vgv",
     "model": "U75PLUS",
-    "price": "2349900",
+    "price": 2399900,
     "benefit": "",
     "link": "https://vgvmotor.ru/models/u75-plus/"
   },
@@ -827,7 +843,7 @@
     "id": "wey-05",
     "brand": "wey",
     "model": "05",
-    "price": "4900000",
+    "price": 4900000,
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-05"
   },
@@ -835,7 +851,7 @@
     "id": "wey-07",
     "brand": "wey",
     "model": "07",
-    "price": "6299000",
+    "price": 6299000,
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-07"
   },
@@ -843,7 +859,7 @@
     "id": "wey-80-business-lounge",
     "brand": "wey",
     "model": "80 Business Lounge",
-    "price": "7699000",
+    "price": 7699000,
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-business-lounge"
   },
@@ -851,7 +867,7 @@
     "id": "wey-80-premium",
     "brand": "wey",
     "model": "80 Premium",
-    "price": "6299000",
+    "price": 6299000,
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-80?variant_slug=wey-80-premium"
   }
