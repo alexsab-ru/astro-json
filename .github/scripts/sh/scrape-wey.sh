@@ -16,5 +16,6 @@ export WAIT_TIME=1
 export DEALERPRICE='dealer_price.json'
 export DEALERPRICEFIELD='Конечная цена'
 export DEALERBENEFITFIELD='Скидка'
+export DEBUG_SCREENSHOT='true'
 # python3 .github/scripts/scrape.py
 node .github/scripts/scrapejs/scrape.js
