@@ -9,19 +9,37 @@
     "children": "models"
   },
   {
-    "url": "/test-drive/",
-    "name": "Запись на тест-драйв"
+    "url": "javascript:void(0)", 
+    "name": "Покупателям", 
+    "children": [
+      {"url": "/special-offers/", "name": "Спецпредложения"},
+      {"url": "/cars/", "name": "Авто в наличии"},
+      {"url": "/test-drive/", "name": "Запись на тест-драйв"},
+      {"url": "/customers-credit/", "name": "Кредитование и страхование"}
+    ]
   },
   {
-    "url": "/service-request/",
-    "name": "Запись на сервис"
+    "url": "javascript:void(0)",
+    "name": "Владельцам",
+    "children": [
+      {"url": "/special-offers/", "name": "Спецпредложения"},
+      {"url": "/service-request/", "name": "Запись на сервис"},
+      {"url": "/kuzovnoi-remont/", "name": "Кузовной ремонт"},
+      {"url": "/owners-support/", "name": "Поддержка"},
+      {"url": "/o-j-app/", "name": "Мобильное приложение O&J"}
+    ]
+  },
+  {
+    "url": "javascript:void(0)",
+    "name": "Мир OMODA",
+    "children": [
+      {"url": "/about/", "name": "О бренде"},
+      {"url": "/news/", "name": "Новости"},
+      {"url": "/contacts/", "name": "Контакты"}
+    ]
   },
   {
     "url": "/#services",
     "name": "Услуги"
-  },
-  {
-    "url": "/contacts/",
-    "name": "Контакты"
   }
 ]
