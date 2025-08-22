@@ -1233,15 +1233,16 @@
                 "Crystal_white": "cs35plusnew_crystal_white.webp",
                 "Кристально белый": "cs35plusnew_crystal_white.webp",
                 "Белый": "cs35plusnew_crystal_white.webp",
-                "Ashen_grey": "cs35plusnew_ashen_grey.webp",
-                "Серебристый пепел": "cs35plusnew_ashen_grey.webp",
-                "Пепел": "cs35plusnew_ashen_grey.webp",
+                "Ashen_grey": "cs35plusnew_mountain_grey.webp",
+                "Серебряный": "cs35plusnew_mountain_grey.webp",
+                "Серебристый пепел": "cs35plusnew_mountain_grey.webp",
+                "Пепел": "cs35plusnew_mountain_grey.webp",
                 "Spark_red": "cs35plusnew_spark_red.webp",
                 "Искрящийся красный": "cs35plusnew_spark_red.webp",
                 "Красный": "cs35plusnew_spark_red.webp",
-                "Mountain_grey": "cs35plusnew_mountain_grey.webp",
-                "Горный серый": "cs35plusnew_mountain_grey.webp",
-                "Серый": "cs35plusnew_mountain_grey.webp"
+                "Mountain_grey": "cs35plusnew_ashen_grey.webp",
+                "Горный серый": "cs35plusnew_ashen_grey.webp",
+                "Серый": "cs35plusnew_ashen_grey.webp"
             }
         },
         "CS35 Plus, I Рестайлинг": {
@@ -1251,15 +1252,16 @@
                 "Crystal_white": "cs35plusnew_crystal_white.webp",
                 "Кристально белый": "cs35plusnew_crystal_white.webp",
                 "Белый": "cs35plusnew_crystal_white.webp",
-                "Ashen_grey": "cs35plusnew_ashen_grey.webp",
-                "Серебристый пепел": "cs35plusnew_ashen_grey.webp",
-                "Пепел": "cs35plusnew_ashen_grey.webp",
+                "Серебряный": "cs35plusnew_mountain_grey.webp",
+                "Ashen_grey": "cs35plusnew_mountain_grey.webp",
+                "Серебристый пепел": "cs35plusnew_mountain_grey.webp",
+                "Пепел": "cs35plusnew_mountain_grey.webp",
                 "Spark_red": "cs35plusnew_spark_red.webp",
                 "Искрящийся красный": "cs35plusnew_spark_red.webp",
                 "Красный": "cs35plusnew_spark_red.webp",
-                "Mountain_grey": "cs35plusnew_mountain_grey.webp",
-                "Горный серый": "cs35plusnew_mountain_grey.webp",
-                "Серый": "cs35plusnew_mountain_grey.webp"
+                "Mountain_grey": "cs35plusnew_ashen_grey.webp",
+                "Горный серый": "cs35plusnew_ashen_grey.webp",
+                "Серый": "cs35plusnew_ashen_grey.webp"
             }
         },
         "CS75PLUS": {

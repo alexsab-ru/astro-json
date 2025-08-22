@@ -1305,7 +1305,7 @@
             },
             {
                 "id": "ashen_grey",
-                "name": "Серебристый пепел",
+                "name": "Горный серый",
                 "carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/cs35plusnew_ashen_grey.webp",
                 "style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/ashen_grey.webp')"
             },
@@ -1317,7 +1317,7 @@
             },
             {
                 "id": "mountain_grey",
-                "name": "Горный серый",
+                "name": "Серебристый пепел",
                 "carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/cs35plusnew_mountain_grey.webp",
                 "style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/mountain_grey.webp')"
             }
