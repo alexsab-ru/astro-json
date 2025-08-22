@@ -1244,6 +1244,24 @@
                 "Серый": "cs35plusnew_mountain_grey.webp"
             }
         },
+        "CS35 Plus, I Рестайлинг": {
+            "short": "CS35PLUS NEW",
+            "folder": "cs35plusnew",
+            "color": {
+                "Crystal_white": "cs35plusnew_crystal_white.webp",
+                "Кристально белый": "cs35plusnew_crystal_white.webp",
+                "Белый": "cs35plusnew_crystal_white.webp",
+                "Ashen_grey": "cs35plusnew_ashen_grey.webp",
+                "Серебристый пепел": "cs35plusnew_ashen_grey.webp",
+                "Пепел": "cs35plusnew_ashen_grey.webp",
+                "Spark_red": "cs35plusnew_spark_red.webp",
+                "Искрящийся красный": "cs35plusnew_spark_red.webp",
+                "Красный": "cs35plusnew_spark_red.webp",
+                "Mountain_grey": "cs35plusnew_mountain_grey.webp",
+                "Горный серый": "cs35plusnew_mountain_grey.webp",
+                "Серый": "cs35plusnew_mountain_grey.webp"
+            }
+        },
         "CS75PLUS": {
             "short": "CS75PLUS",
             "folder": "cs75plus",
@@ -2198,7 +2216,7 @@
                 "Черный": "black.webp",
                 "Глубокий черный": "black.webp",
                 "Gray": "gray.webp",
-                "Серый": "gray.webp",
+                "Серый": "technological-gray.webp",
                 "Матовый серый": "matte-gray.webp",
                 "Технологичный серый": "technological-gray.webp",
                 "White": "white.webp",
