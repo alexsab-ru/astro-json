@@ -98,9 +98,17 @@ const getLink = async (element, selector, brand) => {
   return checkLink(linkHref, brand);
 };
 
+const validateEnv = (required) => {
+  const missing = required.filter(name => !process.env[name] || process.env[name].trim() === '');
+  if (missing.length) {
+    throw new Error(`Отсутствуют переменные окружения: ${missing.join(', ')}`);
+  }
+}
+
 module.exports = {
   getModel,
   getPrice,
   getLink,
-  getId
+  getId,
+  validateEnv
 };

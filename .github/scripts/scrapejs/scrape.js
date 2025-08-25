@@ -1,8 +1,12 @@
 // const puppeteer = require('puppeteer');
 require('dotenv').config();
+
 const { getElements } = require('./getElements');
 const { saveJson } = require('./saveJson');
 const { logError } = require('./logError');
+const { validateEnv } = require('./utils');
+
+validateEnv(['BRAND', 'URL', 'OUTPUT_PATHS', 'ITEM_CSS', 'MODEL_CSS', 'PRICE_CSS', 'LINK_CSS']);
 
 const MAX_RETRIES = 3;
 const TIMEOUT_BETWEEN_RETRIES = 2000;
