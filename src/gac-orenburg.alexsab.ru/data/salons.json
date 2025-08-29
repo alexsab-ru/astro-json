@@ -6,7 +6,7 @@
         "work_hours": "Ежедневно с&nbsp;09:00 до&nbsp;20:00",
         "map": {
             "zoom": 16,
-            "balloon": "/img/gac-locator.svg",
+            "balloon": "https://cdn.alexsab.ru/locator/gac-locator.svg",
             "coords": [51.842127, 55.159801],
             "ya_link": "https:\/\/yandex.ru\/maps\/48\/orenburg\/?ll=55.159801%2C51.842127&mode=routes&rtext=~51.842127%2C55.159801&rtt=auto&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DIgoNo6NcQhVWXk9C&z=17"
         }
