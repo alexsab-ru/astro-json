@@ -3,6 +3,52 @@
         "id": 2,
         "show": true,
         "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/promo_desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/solaris/promo_tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/promo_mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "20%"
+        },
+        "title": "Карелия ждёт <br/>везучих",
+        "descr": "Купите Solaris HC и получите шанс <br/>выиграть трофи-тур",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Карелия ждёт везучих",
+        "dataFormName": "Подробнее. Карелия ждёт везучих. Баннер",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/credit_desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/solaris/credit_tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/credit_mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "20%"
+        },
+        "title": "ВАШ НОВЫЙ АВТОМОБИЛЬ НА <br/>ВЫГОДНЫХ УСЛОВИЯХ",
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/credits/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/krs.webp",
@@ -10,7 +56,7 @@
         },
         "position": {
             "desktop": "bottom",
-            "mobile": "bottom"
+            "mobile": "20%"
         },
         "title": "SOLARIS KRS <br/>ДВИГАЙСЯ В РИТМЕ РИО!",
         "descr": "ЦЕНА ОТ {{priceb-solaris-krs}}",
@@ -32,7 +78,7 @@
         },
         "position": {
             "desktop": "bottom",
-            "mobile": "bottom"
+            "mobile": "20%"
         },
         "title": "SOLARIS KRX <br/>ДВИГАЙСЯ В РИТМЕ РИО!",
         "descr": "ЦЕНА ОТ {{priceb-solaris-krx}}",
@@ -51,10 +97,6 @@
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/KV_KRS-и-KRX_1920x1080.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/KV_KRS-и-KRX_1080x1080.webp"
-        },
-        "position": {
-            "desktop": "center",
-            "mobile": "center"
         },
         "title": "SOLARIS KRS и KRX <br/>ДВИГАЙСЯ В РИТМЕ РИО!",
         "descr": "",
@@ -75,8 +117,8 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hc-hero-mobile.webp"
         },
         "position": {
-            "desktop": "center",
-            "mobile": "center"
+            "desktop": "bottom",
+            "mobile": "30%"
         },
         "title": "SOLARIS HC  <br/>НАСТОЯЩИЙ БЕСТСЕЛЛЕР",
         "descr": "цена от {{priceb-solaris-hc}} <br/>В кредит от 0,01%",
@@ -93,7 +135,8 @@
         "type": "video",
         "view": "popup-link",
         "video": {
-            "desktop": "https://cdn.alexsab.ru/video/solaris/solaris-slide-desktop.mp4"
+            "desktop": "https://cdn.alexsab.ru/video/solaris/solaris-slide-desktop.mp4",
+            "mobile": "https://cdn.alexsab.ru/video/solaris/solaris-slide-mobile.mp4"
         },
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/posters/slide-poster.webp"
@@ -115,11 +158,11 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hs-1920x768.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hs-768x900.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/ARDMr9aJN137iExfdsqN44s0TeqiyvoIreZUp7zR.webp"
         },
         "position": {
             "desktop": "center",
-            "mobile": "center"
+            "mobile": "0%"
         },
         "title": "SOLARIS HS  <br/>ИМЕННО ОН",
         "descr": "цена от {{priceb-solaris-hs}} <br/>В кредит от 0,01%",

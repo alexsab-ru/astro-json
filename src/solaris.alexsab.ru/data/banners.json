@@ -11,7 +11,7 @@
         },
         "position": {
             "desktop": "center",
-            "mobile": "center"
+            "mobile": "20%"
         },
         "title": "Карелия ждёт <br/>везучих",
         "descr": "Купите Solaris HC и получите шанс <br/>выиграть трофи-тур",
@@ -34,7 +34,7 @@
         },
         "position": {
             "desktop": "center",
-            "mobile": "center"
+            "mobile": "20%"
         },
         "title": "ВАШ НОВЫЙ АВТОМОБИЛЬ НА <br/>ВЫГОДНЫХ УСЛОВИЯХ",
         "descr": "",
@@ -56,7 +56,7 @@
         },
         "position": {
             "desktop": "bottom",
-            "mobile": "top"
+            "mobile": "20%"
         },
         "title": "SOLARIS KRS <br/>ДВИГАЙСЯ В РИТМЕ РИО!",
         "descr": "ЦЕНА ОТ {{priceb-solaris-krs}}",
@@ -78,7 +78,7 @@
         },
         "position": {
             "desktop": "bottom",
-            "mobile": "top"
+            "mobile": "20%"
         },
         "title": "SOLARIS KRX <br/>ДВИГАЙСЯ В РИТМЕ РИО!",
         "descr": "ЦЕНА ОТ {{priceb-solaris-krx}}",
@@ -115,6 +115,10 @@
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hc-hero-1920x768.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hc-hero-mobile.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "30%"
         },
         "title": "SOLARIS HC  <br/>НАСТОЯЩИЙ БЕСТСЕЛЛЕР",
         "descr": "цена от {{priceb-solaris-hc}} <br/>В кредит от 0,01%",
@@ -154,10 +158,11 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hs-1920x768.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hs-768x900.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/ARDMr9aJN137iExfdsqN44s0TeqiyvoIreZUp7zR.webp"
         },
         "position": {
-            "mobile": "top"
+            "desktop": "center",
+            "mobile": "0%"
         },
         "title": "SOLARIS HS  <br/>ИМЕННО ОН",
         "descr": "цена от {{priceb-solaris-hs}} <br/>В кредит от 0,01%",
