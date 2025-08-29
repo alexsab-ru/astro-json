@@ -5,7 +5,7 @@ from pathlib import Path
 from collections import OrderedDict
 
 
-ROOT = Path("/workspace")
+ROOT = Path("./")
 
 
 def load_json(path: Path):
