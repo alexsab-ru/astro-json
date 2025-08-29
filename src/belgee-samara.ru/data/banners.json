@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/credit.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/credit.webp"
+        },
         "title": "Автокредит от 0,01%",
         "descr": "<ul class=\"text-xl list-disc pl-4 space-y-2\"><li>Низкие процентные ставки при поддержке от производителя</li><li>Авторассрочка</li><li>Минимальные ежемесячные платежи</li></ul>",
         "btn": "Подробнее",
@@ -20,8 +21,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp"
+        },
         "title": "Выгодное предложение на BELGEE X50",
         "descr": "Успей забронировать свой Белджи",
         "btn": "Подробнее",
@@ -36,8 +38,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp"
+        },
         "title": "Новый BELGEE X70",
         "descr": "Уже в продаже!",
         "btn": "Подробнее",
@@ -52,9 +55,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025-mobile.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -70,9 +74,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025-mobile.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -88,9 +93,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",

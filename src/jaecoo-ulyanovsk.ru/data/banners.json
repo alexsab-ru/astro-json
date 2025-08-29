@@ -4,9 +4,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/likvidaciya-sklada-j7-1920x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/likvidaciya-sklada-j7-640x900.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/likvidaciya-sklada-j7-1920x800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/likvidaciya-sklada-j7-640x900.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -22,8 +23,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-new-year-test-drive.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-new-year-test-drive.webp"
+        },
         "title": "<div>Новогодний драйв<br>стильных кроссоверов</div>",
         "descr": "Пройдите тест-драйв и участвуйте в розыгрыше ценных призов",
         "btn": "Участвовать",
@@ -38,8 +40,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-j8.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-j8.webp"
+        },
         "title": "JAECOO J8<br/> от&nbsp;3&nbsp;949&nbsp;000&nbsp;₽",
         "descr": "",
         "btn": "Подробнее",
@@ -54,8 +57,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-j7.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-j7.webp"
+        },
         "title": "Обновлённый JAECOO J7 <br/>от&nbsp;2&nbsp;339&nbsp;900&nbsp;₽",
         "descr": "",
         "btn": "Подробнее",
@@ -70,8 +74,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-jaecoo-club.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-jaecoo-club.webp"
+        },
         "title": "JAECOO CLUB",
         "descr": "Официальный клуб владельцев",
         "btn": "Вступить",
@@ -86,8 +91,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-lizing-programm.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jaecoo/ulyanovsk/banner-lizing-programm.webp"
+        },
         "title": "Специальная лизинговая <br/> программа JAECOO",
         "descr": "",
         "btn": "Подробнее",

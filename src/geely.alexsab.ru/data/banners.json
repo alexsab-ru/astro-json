@@ -1,117 +1,124 @@
 [
-  {
-    "id": 0,
-    "show": true,
-    "type": "",
-    "view": "link",
-    "videoUrl": "",
-    "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/cityray.webp",
-    "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Cityray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Cityray'><span class='uppercase block font-medium'>Энергия города</span>",
-    "descr": "Цена от {{priceb-geely-cityray}}",
-    "btn": "Подробнее",
-    "btnUrl": "/models/cityray/",
-    "dataTitle": "",
-    "dataFormName": "",
-    "badge": "",
-    "autoplay": 7000
-  },
-  {
-    "id": 0,
-    "show": true,
-    "type": "",
-    "view": "link",
-    "videoUrl": "",
-    "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/preface.webp",
-    "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Preface/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Preface'><span class='uppercase block font-medium text-4xl'>Предвкушение момента</span>",
-    "descr": "Цена от {{priceb-geely-preface}}",
-    "btn": "Подробнее",
-    "btnUrl": "/models/preface/",
-    "dataTitle": "Новый Geely Preface",
-    "dataFormName": "Подробнее. Новый Geely Preface. Баннер",
-    "badge": "",
-    "autoplay": 7000
-  },
-  {
-    "id": 0,
-    "show": true,
-    "type": "",
-    "view": "link",
-    "videoUrl": "",
-    "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/new_coolray.webp",
-    "title": "<span class='uppercase block font-medium'>Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Coolray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Coolray'><span class='uppercase block font-medium'>Живей!</span>",
-    "descr": "Цена от {{priceb-geely-coolray-2023}}",
-    "btn": "Подробнее",
-    "btnUrl": "/models/geely-coolray-2023/",
-    "dataTitle": "",
-    "dataFormName": "",
-    "badge": "",
-    "autoplay": 7000
-  },
-  {
-    "id": 0,
-    "show": true,
-    "type": "",
-    "view": "link",
-    "videoUrl": "",
-    "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/new_okavango.webp",
-    "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Okavango/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Okavango'>",
-    "descr": "Цена от {{priceb-geely-okavango}}",
-    "btn": "Подробнее",
-    "btnUrl": "/models/geely-okavango/",
-    "dataTitle": "",
-    "dataFormName": "",
-    "badge": "",
-    "autoplay": 7000
-  },
-  {
-    "id": 4,
-    "show": true,
-    "type": "",
-    "view": "link",
-    "videoUrl": "",
-    "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/monjaro.webp",
-    "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Monjaro/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Monjaro'><span class='uppercase block font-medium'>Это Космос</span>",
-    "descr": "Цена от {{priceb-geely-monjaro}}",
-    "btn": "Подробнее",
-    "btnUrl": "/models/monjaro/",
-    "dataTitle": "",
-    "dataFormName": "",
-    "badge": {
-      "image": "https://cdn.alexsab.ru/main-sliders/geely/Sticker_Monjaro_Caroftheyear.svg",
-      "position": "left"
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/cityray.webp"
+        },
+        "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Cityray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Cityray'><span class='uppercase block font-medium'>Энергия города</span>",
+        "descr": "Цена от {{priceb-geely-cityray}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/cityray/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
     },
-    "autoplay": 7000
-  },
-  {
-    "id": 0,
-    "show": true,
-    "type": "",
-    "view": "link",
-    "videoUrl": "",
-    "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/atlas-new.webp",
-    "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Atlas'><span class='uppercase block font-medium text-4xl'>Эстетика Прогресса</span>",
-    "descr": "Цена от {{priceb-geely-atlas-2024}}",
-    "btn": "Подробнее",
-    "btnUrl": "/models/geely-atlas-2024/",
-    "dataTitle": "",
-    "dataFormName": "",
-    "badge": "",
-    "autoplay": 7000
-  },
-  {
-    "id": 0,
-    "show": true,
-    "type": "",
-    "view": "link",
-    "videoUrl": "",
-    "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/emgrand.webp",
-    "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Emgrand/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Emgrand'><span class='uppercase block font-medium'>Невероятно мой</span>",
-    "descr": "Цена от {{priceb-geely-emgrand}}",
-    "btn": "Подробнее",
-    "btnUrl": "/models/emgrand/",
-    "dataTitle": "",
-    "dataFormName": "",
-    "badge": "",
-    "autoplay": 7000
-  }
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/preface.webp"
+        },
+        "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Preface/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Preface'><span class='uppercase block font-medium text-4xl'>Предвкушение момента</span>",
+        "descr": "Цена от {{priceb-geely-preface}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/preface/",
+        "dataTitle": "Новый Geely Preface",
+        "dataFormName": "Подробнее. Новый Geely Preface. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new_coolray.webp"
+        },
+        "title": "<span class='uppercase block font-medium'>Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Coolray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Coolray'><span class='uppercase block font-medium'>Живей!</span>",
+        "descr": "Цена от {{priceb-geely-coolray-2023}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/geely-coolray-2023/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new_okavango.webp"
+        },
+        "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Okavango/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Okavango'>",
+        "descr": "Цена от {{priceb-geely-okavango}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/geely-okavango/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 4,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/monjaro.webp"
+        },
+        "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Monjaro/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Monjaro'><span class='uppercase block font-medium'>Это Космос</span>",
+        "descr": "Цена от {{priceb-geely-monjaro}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/monjaro/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/main-sliders/geely/Sticker_Monjaro_Caroftheyear.svg",
+            "position": "left"
+        },
+        "autoplay": 7000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/atlas-new.webp"
+        },
+        "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Atlas'><span class='uppercase block font-medium text-4xl'>Эстетика Прогресса</span>",
+        "descr": "Цена от {{priceb-geely-atlas-2024}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/geely-atlas-2024/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/emgrand.webp"
+        },
+        "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Emgrand/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Emgrand'><span class='uppercase block font-medium'>Невероятно мой</span>",
+        "descr": "Цена от {{priceb-geely-emgrand}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/emgrand/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    }
 ]

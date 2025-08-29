@@ -4,9 +4,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-400-1920w.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-400-600w.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-400-1920w.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-400-600w.webp"
+        },
         "title": "<span class=\"text-xl font-light\">За пределы возможного</span><br/> TANK 400",
         "descr": "от&nbsp;5&nbsp;549&nbsp;000&nbsp;₽",
         "btn": "Подробнее",
@@ -21,9 +22,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-700-1920w.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-700-600w.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-700-1920w.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-700-600w.webp"
+        },
         "title": "<span class=\"text-xl font-light\">Сила признания</span><br/> TANK 700",
         "descr": "от&nbsp;9&nbsp;199&nbsp;000&nbsp;₽",
         "btn": "Подробнее",
@@ -38,9 +40,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-500-1920w.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-500-600w.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-500-1920w.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-500-600w.webp"
+        },
         "title": "<span class=\"text-xl font-light\">Веди за собой</span><br/> TANK 500",
         "descr": "от&nbsp;5&nbsp;599&nbsp;000&nbsp;₽",
         "btn": "Подробнее",
@@ -55,9 +58,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-300-1920w.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-300-600w.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-300-1920w.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-300-600w.webp"
+        },
         "title": "<span class=\"text-xl font-light\">Следуй за открытиями</span><br/> TANK 300",
         "descr": "от&nbsp;3&nbsp;649&nbsp;000&nbsp;₽",
         "btn": "Подробнее",

@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/toyota/toyota.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/toyota/toyota.webp"
+        },
         "title": "Официальный сервис TOYOTA",
         "descr": "Запишитесь на обслуживание к официальному дилеру",
         "btn": "Онлайн запись",

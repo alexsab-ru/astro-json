@@ -4,8 +4,12 @@
         "show": true,
         "type": "video",
         "view": "popup-link",
-        "videoUrl": "https://alexsab.ru/video/gac-gs8-onlycar-compress.mov",
-        "imageUrl": "/img/banners/1.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/gac-gs8-onlycar-compress.mov"
+        },
+        "image": {
+            "desktop": "/img/banners/1.webp"
+        },
         "title": "Новые автомобили GAC",
         "descr": "Уже доступны для бронирования в&nbsp;дилерском центре Эксперт Авто в&nbsp;Самаре!",
         "btn": "Узнать подробнее",

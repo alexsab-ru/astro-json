@@ -4,9 +4,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/j8-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/j8-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jaecoo/j8-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jaecoo/j8-mobile.webp"
+        },
         "title": "Jaecoo J8",
         "descr": "от 0.01% в кредит на 6 лет*",
         "btn": "Подробнее",
@@ -21,9 +22,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/j7-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/jaecoo/j7-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jaecoo/j7-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jaecoo/j7-mobile.webp"
+        },
         "title": "Jaecoo J7",
         "descr": "от 0.01% в кредит на 3 года*",
         "btn": "Подробнее",

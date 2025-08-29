@@ -4,8 +4,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/belgee/zimnie-shiny-v-podarok/belgee-winter-tires-1920x1080-notxt.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/belgee/zimnie-shiny-v-podarok/belgee-winter-tires-1920x1080-notxt.webp"
+        },
         "title": "Зимние шины в подарок",
         "descr": "На весь модельный ряд в Belgee Партнер-Авто",
         "btn": "Подробнее",
@@ -26,8 +27,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/belgee/skidka-30-na-uslugi-servisa-dlya-novyh-klientov/belgee-service30-1920x1080-notxt.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/belgee/skidka-30-na-uslugi-servisa-dlya-novyh-klientov/belgee-service30-1920x1080-notxt.webp"
+        },
         "title": "Получите скидку&nbsp;30% <br/>на&nbsp;услуги сервиса",
         "descr": "Только до {{lastDay}} {{monthGenitive}} {{year}} года!",
         "btn": "Подробнее",
@@ -42,8 +44,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp"
+        },
         "title": "Выгодное предложение на BELGEE X50",
         "descr": "Успей забронировать свой Белджи",
         "btn": "Подробнее",
@@ -58,8 +61,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp"
+        },
         "title": "Новый BELGEE X70",
         "descr": "Уже в продаже!",
         "btn": "Подробнее",
@@ -74,9 +78,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025-mobile.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -92,9 +97,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025-mobile.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -110,9 +116,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",

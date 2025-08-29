@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/x35red.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/x35red.webp"
+        },
         "title": "Распродажа в Автохолдинг Тургеневский <br/>до {{lastDay}} {{monthGenitive}} {{year}}!",
         "descr": "",
         "alt": "Распродажа в Автохолдинг Тургеневский",
@@ -21,8 +22,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/kaiyi/img/banners/kaiyi-x3-comfort.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/kaiyi/img/banners/kaiyi-x3-comfort.webp"
+        },
         "title": "Распродажа в Автохолдинг Тургеневский <br/>до {{lastDay}} {{monthGenitive}} {{year}}!",
         "descr": "",
         "alt": "Распродажа в Автохолдинг Тургеневский",
@@ -38,8 +40,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/u5plus.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/u5plus.webp"
+        },
         "title": "Рассрочка без переплат на все модели BAIC до конца {{monthGenitive}}!",
         "descr": "Еще никогда покупка нового автомобиля не была такой доступной и выгодной!",
         "alt": "0% первый взнос",
@@ -55,8 +58,12 @@
         "show": true,
         "type": "video",
         "view": "popup-link",
-        "videoUrl": "https://alexsab.ru/video/kaiyi-e5-compress.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/kaiyi/img/banners/banner.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/kaiyi-e5-compress.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/kaiyi/img/banners/banner.webp"
+        },
         "title": "Рассрочка без переплат на все модели KAIYI до конца {{monthGenitive}}!",
         "descr": "Еще никогда покупка нового автомобиля не была такой доступной и выгодной!",
         "btn": "Купить в рассрочку",
@@ -76,8 +83,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/x35.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/x35.webp"
+        },
         "title": "С&nbsp;заботой о&nbsp;Вашей безопасности!",
         "descr": "Комплект зимних шин в&nbsp;подарок",
         "alt": "Зимняя резина в подарок",
@@ -93,8 +101,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/kaiyi/img/banners/banner.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/kaiyi/img/banners/banner.webp"
+        },
         "title": "С&nbsp;заботой о&nbsp;Вашей безопасности!",
         "descr": "Комплект зимних шин в&nbsp;подарок",
         "btn": "Узнать подробнее",
@@ -109,8 +118,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/bj40wide.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/bj40wide.webp"
+        },
         "title": "Только честные условия без навязанных страховок",
         "descr": "",
         "alt": "Кредит без страховок",
@@ -126,8 +136,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/kaiyi/img/banners/e5.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/kaiyi/img/banners/e5.webp"
+        },
         "title": "Только честные условия без навязанных страховок",
         "descr": "",
         "btn": "Узнать подробнее",
@@ -147,9 +158,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/baic/img/main-sliders/vash-komfortnyj-sedan.webp",
-        "mobileImageUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/baic/img/main-sliders/vash-komfortnyj-sedan.webp"
+        },
         "title": "Ваш комфортный седан<br>Кредит от 0,01%*",
         "descr": "ПОЛНАЯ СТОИМОСТЬ КРЕДИТА ОТ 0,01% ДО 6,01% ГОДОВЫХ ОЦЕНИВАЙТЕ СВОИ ФИНАНСОВЫЕ ВОЗМОЖНОСТИ И РИСКИ",
         "btn": "Узнать подробнее",
@@ -164,9 +175,9 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/baic/img/main-sliders/baic-x7.webp",
-        "mobileImageUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/baic/img/main-sliders/baic-x7.webp"
+        },
         "title": "Успейте до конца {{monthGenitive}}!<br>BAIC X7",
         "descr": "От 1 940 000 ₽",
         "btn": "Узнать подробнее",
@@ -181,9 +192,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/baic/img/main-sliders/partner-sbornoj-po-hokkeyu.webp",
-        "mobileImageUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/baic/img/main-sliders/partner-sbornoj-po-hokkeyu.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",

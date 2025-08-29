@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "/img/specials/zolotaya-osen/banner-1920x1080.webp",
+        "image": {
+            "desktop": "/img/specials/zolotaya-osen/banner-1920x1080.webp"
+        },
         "title": "Золотая осень",
         "descr": "Время больших выгод до&nbsp;620&nbsp;000&nbsp;₽!",
         "btn": "Узнать подробнее",
@@ -20,8 +21,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "/img/specials/zharkoe-leto-s-jetour/banner__1920-1080.webp",
+        "image": {
+            "desktop": "/img/specials/zharkoe-leto-s-jetour/banner__1920-1080.webp"
+        },
         "title": "Жаркое лето с Jetour!",
         "descr": "Три повода для покупки в {{monthPrepositional}}",
         "btn": "Узнать подробнее",
@@ -36,8 +38,9 @@
         "show": true,
         "type": "",
         "view": "scroll-link",
-        "videoUrl": "",
-        "imageUrl": "/img/banners/17061964519572-dashing-300.webp",
+        "image": {
+            "desktop": "/img/banners/17061964519572-dashing-300.webp"
+        },
         "title": "БОЛЬШАЯ ВЫГОДА",
         "descr": "300 000 РУБЛЕЙ НА JETOUR DASHING",
         "btn": "Узнать подробнее",
@@ -52,8 +55,12 @@
         "show": true,
         "type": "video",
         "view": "scroll-link",
-        "videoUrl": "https://alexsab.ru/video/jetour-T2-tiny.mp4",
-        "imageUrl": "/img/banners/t2-kv.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/jetour-T2-tiny.mp4"
+        },
+        "image": {
+            "desktop": "/img/banners/t2-kv.webp"
+        },
         "title": "JETOUR T2",
         "descr": "Внедорожник для путешествий",
         "btn": "Узнать подробнее",
@@ -68,8 +75,12 @@
         "show": true,
         "type": "video",
         "view": "scroll-link",
-        "videoUrl": "https://alexsab.ru/video/jetour-x70plus-tiny.mp4",
-        "imageUrl": "/img/banners/16957462836399.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/jetour-x70plus-tiny.mp4"
+        },
+        "image": {
+            "desktop": "/img/banners/16957462836399.webp"
+        },
         "title": "JETOUR X70 PLUS",
         "descr": "Семейный кроссовер для совместных путешествий",
         "btn": "Узнать подробнее",
@@ -84,8 +95,12 @@
         "show": true,
         "type": "video",
         "view": "scroll-link",
-        "videoUrl": "https://alexsab.ru/video/jetour-x90_plus-tiny.mp4",
-        "imageUrl": "/img/banners/x90_plus.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/jetour-x90_plus-tiny.mp4"
+        },
+        "image": {
+            "desktop": "/img/banners/x90_plus.webp"
+        },
         "title": "JETOUR X90 PLUS",
         "descr": "Вместительный кроссовер на все случаи жизни",
         "btn": "Узнать подробнее",

@@ -4,9 +4,10 @@
         "show": true,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/happy-china-tour/1.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/specials/jetour/happy-china-tour/thumb.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/happy-china-tour/1.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/jetour/happy-china-tour/thumb.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -21,9 +22,10 @@
         "show": true,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/refer-a-friend-program/1.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/specials/jetour/refer-a-friend-program/thumb.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/refer-a-friend-program/1.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/jetour/refer-a-friend-program/thumb.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -38,10 +40,14 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-1920x700.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-640x800.webp",
-        "imagePosition": "top",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-1920x700.webp",
+            "mobile": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-640x800.webp"
+        },
+        "position": {
+            "desktop": "top",
+            "mobile": "top"
+        },
         "title": "<img src=\"https://cdn.alexsab.ru/b/jetour/img/models/dashing/dashing-logo.svg\" lass=\"h-7 sm:h-auto\" alt=\"Jetour Dashing Logo\"><div class=\"text-base sm:text-3xl sm:mt-5\">Городской кроссовер</div>",
         "descr": "<div class=\"sm:text-2xl font-normal\">Цена от&nbsp;{{priceb-jetour-dashing}}</div>",
         "btn": "Узнать подробнее",
@@ -56,10 +62,11 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1920x800-notxt.webp",
-        "tabletImageUrl": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1080x1080-notxt.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1080x1920-notxt.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1920x800-notxt.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1080x1080-notxt.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1080x1920-notxt.webp"
+        },
         "title": "<div class=\"xs:text-xl xs:!leading-none\">Встречаем весну <br/><span class=\"font-normal inline-block mb-3\">в Автохолдинг Тургеневский</span> <br/><span class=\"font-normal text-white bg-[#ff0520] normal-case\"><span class=\"uppercase\">5-31 марта</span><br/>Успейте! Мы&nbsp;продлеваем МЕГА распродажу, по&nbsp;вашим просьбам!</span></div>",
         "descr": "",
         "btn": "Смотреть авто",
@@ -77,10 +84,14 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/krasnodar/jetour-vigoda/jetour-t2-full.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/specials/jetour/krasnodar/jetour-vigoda/2ayezm__frame-1321315324.webp",
-        "imagePosition": "center",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/krasnodar/jetour-vigoda/jetour-t2-full.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/jetour/krasnodar/jetour-vigoda/2ayezm__frame-1321315324.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
         "title": "Путешествуйте с любимыми",
         "descr": "Специальные предложения на автомобили JETOUR",
         "btn": "Подробнее",
@@ -96,8 +107,9 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/17014202243826.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/17014202243826.webp"
+        },
         "title": "График работы ДЦ в новогодние праздники:",
         "descr": "31.12 - с 08:00 до 15:00 <br/>01.01 - 03.01 - Выходной<br/>04.01 - 05.01 - с 09:00 до 18:00<br/>06.01 - 07.01 - с 09:00 до 17:00",
         "alt": "График Работы",
@@ -113,8 +125,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/dashing-kv.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/dashing-kv.webp"
+        },
         "title": "Снегопад выгод",
         "descr": "Специальные предложения на автомобили Jetour",
         "btn": "Узнать подробнее",
@@ -129,8 +142,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/krasnodar/zharkoe-leto-s-jetour/banner__1920-1080.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/krasnodar/zharkoe-leto-s-jetour/banner__1920-1080.webp"
+        },
         "title": "Жаркое лето с Jetour!",
         "descr": "Три повода для покупки в {{monthPrepositional}}",
         "btn": "Узнать подробнее",
@@ -145,8 +159,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/t2-kv.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/t2-kv.webp"
+        },
         "title": "JETOUR T2",
         "descr": "Внедорожник для путешествий",
         "btn": "Узнать подробнее",
@@ -167,8 +182,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/dashing1.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/dashing1.webp"
+        },
         "title": "Рассрочка без переплат на все модели JETOUR до конца {{monthGenitive}}!",
         "descr": "Еще никогда покупка нового автомобиля не была такой доступной и выгодной!",
         "alt": "0% первый взнос",
@@ -190,8 +206,12 @@
         "show": true,
         "type": "video",
         "view": "popup-link",
-        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/banner.jpg",
+        "video": {
+            "desktop": "https://alexsab.ru/video/jetour-dashing-compress.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/banner.jpg"
+        },
         "title": "Успей получить свою скидку до <span class=\"text-2xl sm:text-4xl md:text-5xl lg:text-6xl\">500 000</span> руб <br class=\"hidden xl:inline-block\">и подарки от Автохолдинга до конца года.",
         "descr": "Забирай свой новый автомобиль с комплектом зимних шин и сигнализацией в подарок!",
         "btn": "Узнать подробнее",
@@ -212,8 +232,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/banner.jpg",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/banner.jpg"
+        },
         "title": "С&nbsp;заботой о&nbsp;Вашей безопасности!",
         "descr": "Комплект зимних шин в&nbsp;подарок",
         "alt": "Зимняя резина в подарок",
@@ -229,8 +250,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/x90_plus.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/krasnodar/x90_plus.webp"
+        },
         "title": "Только честные условия без навязанных страховок",
         "descr": "",
         "alt": "Кредит без страховок",

@@ -4,9 +4,10 @@
         "show": true,
         "type": "special",
         "view": "popup-link",
-        "videoUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/Ton-avto_haval_h3_1920х800.webp"
+        },
         "bannerUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/Ton-avto_haval_h3_1920х800.webp",
         "title": "HAVAL H3",
         "descr": "Рассрочка до 4 лет - 0.01%",
         "btn": "Подробнее",
@@ -21,10 +22,11 @@
         "show": false,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/HAVAL-H3-1920x800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/HAVAL-H3-640x800.webp"
+        },
         "bannerUrl": "/cars/?model=h9+ii%2Ch7+i%2Ch5+ii%2Ch3&sort_by=price_up",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/HAVAL-H3-1920x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/HAVAL-H3-640x800.webp",
         "title": "",
         "descr": "",
         "btn": "",
@@ -39,10 +41,11 @@
         "show": false,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/unique-collection-desktop-2.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/unique-collection-mobile-2.webp"
+        },
         "bannerUrl": "/unique-collection/",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/unique-collection-desktop-2.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/unique-collection-mobile-2.webp",
         "title": "",
         "descr": "",
         "btn": "",
@@ -57,10 +60,11 @@
         "show": false,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-1-1920x800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-1-640x800.webp"
+        },
         "bannerUrl": "/cars/?model=h9+ii%2Ch7+i%2Ch5+ii%2Ch3",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-1-1920x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-1-640x800.webp",
         "title": "",
         "descr": "",
         "btn": "",
@@ -75,10 +79,11 @@
         "show": true,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-city-1920x800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-city-640x800.webp"
+        },
         "bannerUrl": "/cars/?model=f7+ii%2Cjolion+i+рестайлинг%2Cm6+ii%2Cdargo%2Cpoer+king+kong%2Cpoer+i",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-city-1920x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-city-640x800.webp",
         "title": "",
         "descr": "",
         "btn": "",
@@ -93,10 +98,11 @@
         "show": false,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-1920x800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-640x800.webp"
+        },
         "bannerUrl": "/cars?model=h3%2Ch5+ii%2Ch9+ii",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-1920x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-640x800.webp",
         "title": "",
         "descr": "",
         "btn": "",
@@ -111,10 +117,11 @@
         "show": false,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-1920x800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-640x800.webp"
+        },
         "bannerUrl": "/cars/?model=jolion+i+рестайлинг",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-1920x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-640x800.webp",
         "title": "",
         "descr": "",
         "btn": "",
@@ -129,8 +136,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/f7.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/f7.webp"
+        },
         "title": "<span class=\"text-xl font-light\">Новое поколение</span><br/> HAVAL F7",
         "descr": "Цена&nbsp;от&nbsp;2&nbsp;699&nbsp;000&nbsp;₽",
         "btn": "Подробнее",
@@ -145,10 +153,11 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/H7-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/H7-mobile.webp"
+        },
         "bannerUrl": "/cars/?model=h7+i",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/H7-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/H7-mobile.webp",
         "title": "",
         "descr": "",
         "btn": "",
@@ -163,8 +172,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/h5.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/h5.webp"
+        },
         "title": "<span class=\"text-xl font-light\">Новый</span><br/> HAVAL H5",
         "descr": "Цена&nbsp;от&nbsp;3&nbsp;599&nbsp;000&nbsp;₽",
         "btn": "Подробнее",
@@ -179,8 +189,9 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/jolion.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/jolion.webp"
+        },
         "title": "HAVAL JOLION",
         "descr": "Цена&nbsp;от&nbsp;1&nbsp;949&nbsp;000&nbsp;₽",
         "btn": "Подробнее",
@@ -195,9 +206,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval_h9_ext_022-1920x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval_h9_ext_022-640x800.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval_h9_ext_022-1920x800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval_h9_ext_022-640x800.webp"
+        },
         "title": "<span class=\"text-xl font-light\">Новое поколение</span><br/> HAVAL H9",
         "descr": "Цена&nbsp;от&nbsp;4&nbsp;199&nbsp;000&nbsp;₽",
         "btn": "Подробнее",
@@ -212,8 +224,9 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/h3.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/h3.webp"
+        },
         "title": "HAVAL H3",
         "descr": "Выгода&nbsp;350&nbsp;000&nbsp;₽",
         "btn": "Подробнее",
@@ -228,8 +241,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/simple-h3.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/simple-h3.webp"
+        },
         "title": "HAVAL <span style=\"color: #00cabf; font-weight: 300\">SIMPLE</span>",
         "descr": "Ваш новый Haval H3 в кредит от&nbsp;20&nbsp;022&nbsp;руб/мес<span>*</span>",
         "btn": "Подробнее",
@@ -244,10 +258,11 @@
         "show": false,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-m6-1920800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-m6-640x800.webp"
+        },
         "bannerUrl": "/cars?model=m6+ii",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-m6-1920800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-m6-640x800.webp",
         "title": "",
         "descr": "",
         "btn": "Подробнее",

@@ -4,10 +4,14 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/gac-smr-5years-1920x768-notxt.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/gac/gac-smr-5years-768х900-notxt.webp",
-        "imagePosition": "center",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/gac-smr-5years-1920x768-notxt.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/gac-smr-5years-768х900-notxt.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
         "title": "5 лет без сервисных забот!",
         "descr": "",
         "btn": "Узнать подробнее",
@@ -25,10 +29,14 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models-mobile.webp",
-        "imagePosition": "bottom",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models.webp",
+            "mobile": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models-mobile.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "bottom"
+        },
         "title": "Специальные предложения",
         "descr": "Для моделей GS8, GS3 и M8",
         "btn": "Узнать подробнее",
@@ -43,9 +51,13 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs8-traveller-desktop.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs8-desk.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs8-mobile.webp",
+        "video": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs8-traveller-desktop.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs8-desk.webp",
+            "mobile": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs8-mobile.webp"
+        },
         "title": "GS8 TRAVELLER",
         "descr": "Ты решаешь",
         "btn": "Узнать подробнее",
@@ -63,9 +75,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs4-desktop.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs4.webp",
-        "mobileImageUrl": "",
+        "video": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs4-desktop.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs4.webp"
+        },
         "title": "Новый GS4",
         "descr": "Для самого ценного",
         "btn": "Узнать подробнее",
@@ -83,9 +98,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/empow-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/empow-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/empow-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/gac/img/main-sliders/empow-mobile.webp"
+        },
         "title": "Новый EMPOW",
         "descr": "Динамика твоей жизни",
         "btn": "Узнать подробнее",
@@ -103,9 +119,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/lavander-gs3-main-notext-1800x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/lavander-gs3-main-notext-1080x1920.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/lavander-gs3-main-notext-1800x800.webp",
+            "mobile": "https://cdn.alexsab.ru/b/gac/img/main-sliders/lavander-gs3-main-notext-1080x1920.webp"
+        },
         "title": "Лавандовый GS3:",
         "descr": "Станьте частью редкой истории",
         "btn": "Подробнее",
@@ -120,9 +137,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/m8-desktop.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/m8-new.webp",
-        "mobileImageUrl": "",
+        "video": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/m8-desktop.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/m8-new.webp"
+        },
         "title": "M8",
         "descr": "Место первых",
         "btn": "Узнать подробнее",
@@ -140,10 +160,13 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs3-leb-1920x1080-compress.mp4",
-        "mobileVideoUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs3-desktop.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs3-lebedev-1920h1080-nl-1.webp",
-        "mobileImageUrl": "",
+        "video": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs3-leb-1920x1080-compress.mp4",
+            "mobile": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs3-desktop.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gs3-lebedev-1920h1080-nl-1.webp"
+        },
         "title": "Новый GS3",
         "descr": "Дорогу молодым",
         "btn": "Узнать подробнее",
@@ -158,9 +181,10 @@
         "show": true,
         "type": "video",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein-mobild.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein.webp",
+            "mobile": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein-mobild.webp"
+        },
         "title": "Меняйтесь. Это выгодно",
         "descr": "Выгода до 300 000 рублей по программе трейд-ин",
         "btn": "Узнать подробнее",

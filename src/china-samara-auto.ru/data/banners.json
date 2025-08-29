@@ -4,8 +4,12 @@
         "show": true,
         "type": "video",
         "view": "popup-link",
-        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/jetour-dashing-compress.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/models/default-model-bg.webp"
+        },
         "title": "Заголовок баннера до 31.08.2024",
         "descr": "Подзаголовок баннера может быть длиннее или короче за 1 234 567 ₽",
         "btn": "Онлайн запись",
@@ -25,8 +29,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/models/default-model-bg.webp"
+        },
         "title": "Заголовок баннера 2 до 31.08.2024",
         "descr": "Подзаголовок баннера",
         "btn": "Онлайн запись",
@@ -41,8 +46,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/models/default-model-bg.webp"
+        },
         "title": "Заголовок баннера 2 до 31.08.2024",
         "descr": "Подзаголовок баннера",
         "btn": "Онлайн запись",
@@ -57,8 +63,9 @@
         "show": true,
         "type": "",
         "view": "",
-        "videoUrl": "",
-        "imageUrl": "https://jetour-alpha.ru/img/banners/t2-kv.webp",
+        "image": {
+            "desktop": "https://jetour-alpha.ru/img/banners/t2-kv.webp"
+        },
         "bannerUrl": "/special-offers/test/",
         "target": "_blank",
         "title": "",

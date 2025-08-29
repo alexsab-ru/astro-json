@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/samara/jac-t9.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/samara/jac-t9.webp"
+        },
         "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>T9</span></span>",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>Ему все по плечу</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-t9}}*</span>",
         "btn": "Получить предложение",
@@ -20,8 +21,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/samara/jac-j7.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/samara/jac-j7.webp"
+        },
         "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>J7</span></span>",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>­Яркий стиль. Умный выбор.</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-j7}}*</span>",
         "btn": "Получить предложение",
@@ -36,8 +38,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/samara/jac-js6.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/samara/jac-js6.webp"
+        },
         "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>JS6</span></span>",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>Технологии и стиль</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-js6}}*</span>",
         "btn": "Получить предложение",
@@ -52,8 +55,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/samara/jac-js3.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/samara/jac-js3.webp"
+        },
         "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>JS3</span></span>",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>­Ваш идеальный компаньон</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-js3}}*</span>",
         "btn": "Получить предложение",
@@ -68,8 +72,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/samara/banner-js3-1920x1080.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/samara/banner-js3-1920x1080.webp"
+        },
         "title": "JAC <span class='text-accent-500'>JS3</span> от&nbsp;{{priceb-jac-js3}}!",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl uppercase mb-4 block'>Авто в&nbsp;наличии</span>",
         "btn": "Выбрать автомобиль",
@@ -84,8 +89,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/samara/banner-pickap-1920x1080.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/samara/banner-pickap-1920x1080.webp"
+        },
         "title": "<span class='text-accent-500'>РАСПРОДАЖА</span> JAC T6, T8, T9<br/>от&nbsp;{{priceb-jac-t8}}!",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl lg:text-5xl uppercase mb-4 block'>Авто в&nbsp;наличии</span>",
         "btn": "Узнать подробнее",

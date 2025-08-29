@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/infiniti/samauto/banner-1920x1080.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/infiniti/samauto/banner-1920x1080.webp"
+        },
         "title": "Дилерское качество обслуживания",
         "descr": "",
         "btn": "Подробнее",

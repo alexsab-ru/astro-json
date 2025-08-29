@@ -4,9 +4,10 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/general/rejim-raboti-pasha-1920x1080.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/general/rejim-raboti-pasha-640x800.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/general/rejim-raboti-pasha-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/general/rejim-raboti-pasha-640x800.webp"
+        },
         "title": "График работы автосалона",
         "descr": "20 апреля <br/> 8:00-18:00",
         "btn": "Подробнее",
@@ -21,10 +22,14 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/alpha/rejim-raboti-8march-2592x1080-notxt.jpg",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/baic/alpha/rejim-raboti-8march-640x1350.webp",
-        "imagePosition": "center",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/alpha/rejim-raboti-8march-2592x1080-notxt.jpg",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/baic/alpha/rejim-raboti-8march-640x1350.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
         "title": "<span style=\"color:#6d01cc;\">График работы автосалона</span>",
         "descr": "<span style=\"color:#6d01cc;\" class=\"text-2xl sm:text-5xl\">8 марта<br>8:00-18-00</span>",
         "btn": "",
@@ -40,10 +45,14 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/alpha/rejim-raboti-23feb-notxt.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/baic/alpha/rejim-raboti-23feb-mobile-notxt.webp",
-        "imagePosition": "top",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/alpha/rejim-raboti-23feb-notxt.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/baic/alpha/rejim-raboti-23feb-mobile-notxt.webp"
+        },
+        "position": {
+            "desktop": "top",
+            "mobile": "top"
+        },
         "title": "График работы автосалона",
         "descr": "23 февраля<br>8:00-18-00",
         "btn": "",
@@ -58,8 +67,9 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/alpha/work-hours.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/alpha/work-hours.webp"
+        },
         "title": "График работы ДЦ в новогодние праздники:",
         "descr": "30.12 – с 08-00 до 18-00 <br/><span class='text-red-500'>31.12 – 02.01, 07.01 – выходной</span> <br/>03.01 – 06.01, 08.01 – с 09-00 до 17-00",
         "alt": "График работы",
@@ -75,8 +85,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/alpha/bj40.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/alpha/bj40.webp"
+        },
         "title": "<span class='text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase'>0%</span> первый взнос",
         "descr": "",
         "alt": "0% первый взнос",
@@ -92,9 +103,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/baic/img/main-sliders/vash-komfortnyj-sedan.webp",
-        "mobileImageUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/baic/img/main-sliders/vash-komfortnyj-sedan.webp"
+        },
         "title": "Ваш комфортный седан<br>Кредит от 0,01%*",
         "descr": "ПОЛНАЯ СТОИМОСТЬ КРЕДИТА ОТ 0,01% ДО 6,01% ГОДОВЫХ ОЦЕНИВАЙТЕ СВОИ ФИНАНСОВЫЕ ВОЗМОЖНОСТИ И РИСКИ",
         "btn": "Узнать подробнее",
@@ -109,15 +120,15 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/baic/img/main-sliders/baic-x7.webp",
-        "mobileImageUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/baic/img/main-sliders/baic-x7.webp"
+        },
         "title": "Успейте до конца {{monthGenitive}}!<br>BAIC X7",
         "descr": "От {{priceb-baic-x7}}",
         "btn": "Узнать подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Успейте до конца {{monthGenitive}}!<br>BAIC X7",
-        "dataFormName": "Успейте до конца {{monthGenitive}}! BAIC X7. Баннер", 
+        "dataFormName": "Успейте до конца {{monthGenitive}}! BAIC X7. Баннер",
         "badge": "",
         "autoplay": 7000
     },
@@ -126,9 +137,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/baic/img/main-sliders/partner-sbornoj-po-hokkeyu.webp",
-        "mobileImageUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/baic/img/main-sliders/partner-sbornoj-po-hokkeyu.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",

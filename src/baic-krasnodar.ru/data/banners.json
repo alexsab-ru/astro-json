@@ -4,10 +4,11 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1920x800-notxt.webp",
-        "tabletImageUrl": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1080x1080-notxt.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1080x1920-notxt.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1920x800-notxt.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1080x1080-notxt.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/baic/meet-spring-1080x1920-notxt.webp"
+        },
         "title": "<div class=\"xs:text-xl xs:!leading-none\">Встречаем весну <br/><span class=\"font-normal inline-block mb-3\">в Автохолдинг Тургеневский</span> <br/><span class=\"font-normal text-white bg-[#ff0520] normal-case\"><span class=\"uppercase\">5-31 марта</span><br/>Успейте! Мы&nbsp;продлеваем МЕГА распродажу, по&nbsp;вашим просьбам!</span></div>",
         "descr": "",
         "btn": "Смотреть авто",
@@ -25,8 +26,9 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/baic-tyres-winter-1920x1080-notxt-2.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/baic-tyres-winter-1920x1080-notxt-2.webp"
+        },
         "title": "График работы ДЦ в новогодние праздники:",
         "descr": "31.12 - с 08:00 до 15:00 <br/>01.01 - 03.01 - Выходной<br/>04.01 - 05.01 - с 09:00 до 18:00<br/>06.01 - 07.01 - с 09:00 до 17:00",
         "alt": "График Работы",
@@ -42,8 +44,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/x35red.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/x35red.webp"
+        },
         "title": "Распродажа в Автохолдинг Тургеневский <br/>до {{lastDay}} {{monthGenitive}} {{year}}!",
         "descr": "",
         "alt": "Распродажа в Автохолдинг Тургеневский",
@@ -59,8 +62,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/u5plus.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/u5plus.webp"
+        },
         "title": "Рассрочка без переплат на все модели BAIC до конца {{monthGenitive}}!",
         "descr": "Еще никогда покупка нового автомобиля не была такой доступной и выгодной!",
         "alt": "0% первый взнос",
@@ -76,8 +80,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/x35.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/x35.webp"
+        },
         "title": "С&nbsp;заботой о&nbsp;Вашей безопасности!",
         "descr": "Комплект зимних шин в&nbsp;подарок",
         "alt": "Зимняя резина в подарок",
@@ -93,8 +98,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/baic/bj40wide.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/baic/bj40wide.webp"
+        },
         "title": "Только честные условия без навязанных страховок",
         "descr": "",
         "alt": "Кредит без страховок",
@@ -110,9 +116,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/baic/img/main-sliders/vash-komfortnyj-sedan.webp",
-        "mobileImageUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/baic/img/main-sliders/vash-komfortnyj-sedan.webp"
+        },
         "title": "Ваш комфортный седан<br>Кредит от 0,01%*",
         "descr": "ПОЛНАЯ СТОИМОСТЬ КРЕДИТА ОТ 0,01% ДО 6,01% ГОДОВЫХ ОЦЕНИВАЙТЕ СВОИ ФИНАНСОВЫЕ ВОЗМОЖНОСТИ И РИСКИ",
         "btn": "Узнать подробнее",
@@ -127,9 +133,9 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/baic/img/main-sliders/baic-x7.webp",
-        "mobileImageUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/baic/img/main-sliders/baic-x7.webp"
+        },
         "title": "Успейте до конца мая!<br>BAIC X7",
         "descr": "От 1 940 000 ₽",
         "btn": "Узнать подробнее",
@@ -144,9 +150,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/baic/img/main-sliders/partner-sbornoj-po-hokkeyu.webp",
-        "mobileImageUrl": "",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/baic/img/main-sliders/partner-sbornoj-po-hokkeyu.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",

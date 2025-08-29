@@ -4,9 +4,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/SmkXzT__credit-main1920h1080.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/zsag68__credit-main-414h800.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/SmkXzT__credit-main1920h1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/zsag68__credit-main-414h800.webp"
+        },
         "title": "Заберите свой новый GAC",
         "descr": "с кредитом от банков — ставка всего от 0,01%!",
         "btn": "Узнать подробнее",
@@ -21,9 +22,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/LuPXUk__1920x1080.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/qdG5AW__gs8-traveller-767x1022.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/LuPXUk__1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/qdG5AW__gs8-traveller-767x1022.webp"
+        },
         "title": "GS8 <br/>Выгода до&nbsp;600&nbsp;000&nbsp;₽!",
         "descr": "Предложение действительно до {{lastDay}} {{monthGenitive}} {{year}} года!",
         "btn": "Узнать подробнее",
@@ -41,9 +43,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/KfRVEL__1920x1080-gs33.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/NuG54p__767h1022.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/KfRVEL__1920x1080-gs33.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/NuG54p__767h1022.webp"
+        },
         "title": "GS3 от&nbsp;1&nbsp;899&nbsp;000&nbsp;₽",
         "descr": "Предложение действительно до {{lastDay}} {{monthGenitive}} {{year}} года!",
         "btn": "Узнать подробнее",
@@ -61,8 +64,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://cdn.alexsab.ru/video/gac/gs8.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/poster-gs8.webp",
+        "video": {
+            "desktop": "https://cdn.alexsab.ru/video/gac/gs8.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/poster-gs8.webp"
+        },
         "title": "GS8 от от&nbsp;3&nbsp;699&nbsp;000&nbsp;₽",
         "descr": "Ты решаешь!",
         "btn": "Узнать подробнее",
@@ -80,8 +87,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://cdn.alexsab.ru/video/gac/gs3.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/poster-gs3.webp",
+        "video": {
+            "desktop": "https://cdn.alexsab.ru/video/gac/gs3.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/poster-gs3.webp"
+        },
         "title": "GS3 от&nbsp;1&nbsp;899&nbsp;000&nbsp;₽",
         "descr": "Дорогу молодым!",
         "btn": "Узнать подробнее",
@@ -99,8 +110,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://cdn.alexsab.ru/video/gac/gs4.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/poster-gs4.webp",
+        "video": {
+            "desktop": "https://cdn.alexsab.ru/video/gac/gs4.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/poster-gs4.webp"
+        },
         "title": "GS4 от&nbsp;2&nbsp;699&nbsp;000&nbsp;₽",
         "descr": "Для самого ценного!",
         "btn": "Узнать подробнее",
@@ -118,9 +133,10 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/empow-banner-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/empow-banner-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/empow-banner-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/empow-banner-mobile.webp"
+        },
         "title": "Новый EMPOW от {{priceb-gac-empow}}",
         "descr": "Динамика твоей жизни!",
         "btn": "Узнать подробнее",
@@ -138,8 +154,12 @@
         "show": false,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://cdn.alexsab.ru/video/gac/m8.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/poster-m8.webp",
+        "video": {
+            "desktop": "https://cdn.alexsab.ru/video/gac/m8.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/poster-m8.webp"
+        },
         "title": "M8 от {{priceb-gac-m8}}",
         "descr": "Место первых!",
         "btn": "Узнать подробнее",
@@ -157,9 +177,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein-mobild.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein.webp",
+            "mobile": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein-mobild.webp"
+        },
         "title": "Меняйтесь. Это выгодно",
         "descr": "Выгода до 300 000 рублей по программе трейд-ин",
         "btn": "Узнать подробнее",

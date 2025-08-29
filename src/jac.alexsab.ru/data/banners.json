@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/t9-desktop.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/t9-desktop.webp"
+        },
         "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>T9</span></span>",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>Ему все по плечу</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-t9}}*</span>",
         "btn": "Получить предложение",
@@ -20,9 +21,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/t8-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/jac/t8-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/t8-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jac/t8-mobile.webp"
+        },
         "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>T8</span></span>",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>Сила в работе, уверенность в каждом дне</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-t8}}*</span>",
         "btn": "Получить предложение",
@@ -37,9 +39,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/js3-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/jac/js3-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/js3-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jac/js3-mobile.webp"
+        },
         "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>JS3</span></span>",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>­Ваш идеальный компаньон</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-js3}}*</span>",
         "btn": "Получить предложение",
@@ -54,9 +57,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/js6-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/jac/js6-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/js6-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jac/js6-mobile.webp"
+        },
         "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>JS6</span></span>",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>Технологии и стиль</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-js6}}*</span>",
         "btn": "Получить предложение",
@@ -71,9 +75,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/jac/j7-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/jac/j7-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/j7-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jac/j7-mobile.webp"
+        },
         "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>J7</span></span>",
         "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>Яркий стиль. Умный выбор.</span><br/><span class='mb-4'>oт&nbsp;{{priceb-jac-j7}}*</span>",
         "btn": "Получить предложение",

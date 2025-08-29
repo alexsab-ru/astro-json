@@ -4,10 +4,14 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/partner-samara/5-let-bez-servisnyh-zabot/geely-smr-5years-1920x768-notxt.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/geely/partner-samara/5-let-bez-servisnyh-zabot/geely-smr-5years-768х900-notxt.webp",
-        "imagePosition": "center",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/partner-samara/5-let-bez-servisnyh-zabot/geely-smr-5years-1920x768-notxt.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/partner-samara/5-let-bez-servisnyh-zabot/geely-smr-5years-768х900-notxt.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
         "title": "<span class='uppercase block font-bold'>5 лет</span>",
         "descr": "без сервисных забот",
         "btn": "Узнать подробнее",
@@ -25,8 +29,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/geely/zimnie-shiny-v-podarok/geely-winter-tires-1920x1080-notxt.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/geely/zimnie-shiny-v-podarok/geely-winter-tires-1920x1080-notxt.webp"
+        },
         "title": "Зимние шины в подарок",
         "descr": "На весь модельный ряд в Geely Партнер-Авто",
         "btn": "Подробнее",
@@ -47,8 +52,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/IMG_9965w1920t.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/IMG_9965w1920t.webp"
+        },
         "title": "Специальные предложения на&nbsp;автомобили Geely",
         "descr": "Максимальная выгода до&nbsp;860&nbsp;000&nbsp;руб",
         "btn": "Подробнее",
@@ -63,8 +69,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/geely/skidka-30-na-uslugi-servisa-dlya-novyh-klientov/geely-service30-1920x1080-notxt.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/geely/skidka-30-na-uslugi-servisa-dlya-novyh-klientov/geely-service30-1920x1080-notxt.webp"
+        },
         "title": "Получите скидку&nbsp;30% <br/>на&nbsp;услуги сервиса",
         "descr": "Только до {{lastDay}} {{monthGenitive}} {{year}} года!",
         "btn": "Подробнее",
@@ -79,8 +86,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/cityray.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/cityray.webp"
+        },
         "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Cityray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Cityray'><span class='uppercase block font-medium'>Энергия города</span>",
         "descr": "",
         "btn": "Подробнее",
@@ -95,8 +103,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/preface.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/preface.webp"
+        },
         "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Preface/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Preface'><span class='uppercase block font-medium text-4xl'>Предвкушение момента</span>",
         "descr": "",
         "btn": "Подробнее",
@@ -111,8 +120,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/monjaro.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/monjaro.webp"
+        },
         "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Monjaro/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Monjaro'><span class='uppercase block font-medium'>Это Космос</span>",
         "descr": "",
         "btn": "Подробнее",
@@ -127,8 +137,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/new_okavango.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new_okavango.webp"
+        },
         "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Okavango/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Okavango'>",
         "descr": "",
         "btn": "Подробнее",
@@ -143,8 +154,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/atlas-new.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/atlas-new.webp"
+        },
         "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Atlas'><span class='uppercase block font-medium text-4xl'>Эстетика Прогресса</span>",
         "descr": "",
         "btn": "Подробнее",
@@ -159,8 +171,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/emgrand.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/emgrand.webp"
+        },
         "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Emgrand/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Emgrand'><span class='uppercase block font-medium'>Невероятно мой</span>",
         "descr": "",
         "btn": "Подробнее",
@@ -175,8 +188,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/new_coolray.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new_coolray.webp"
+        },
         "title": "<span class='uppercase block font-medium'>Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Coolray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Coolray'><span class='uppercase block font-medium'>Живей!</span>",
         "descr": "",
         "btn": "Подробнее",
@@ -191,8 +205,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/atlas-pro.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/atlas-pro.webp"
+        },
         "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Atlas%20Pro/logo.svg' class='w-full max-w-[540px] my-2 md:my-3.5' alt='Geely Atlas Pro'><span class='uppercase block font-medium'>Кроссовер <b>PRO</b> тебя</span>",
         "descr": "",
         "btn": "Подробнее",
@@ -207,9 +222,13 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/geely/4 Cars_OOH_011024/4 Cars_OOH_011024.webp",
-        "imagePosition": "bottom",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/4 Cars_OOH_011024/4 Cars_OOH_011024.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "bottom"
+        },
         "title": "Новичкам везет!",
         "descr": "На&nbsp;услуги по&nbsp;техническому обслуживанию <b class='uppercase font-bold'>выгода&nbsp;50%</b>",
         "btn": "Подробнее",

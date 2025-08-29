@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/auto-team/dc.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/auto-team/dc.webp"
+        },
         "title": "Специальные условия на весь модельный ряд",
         "descr": "в мультибрендовом автосалоне Балаково Авто Тим",
         "btn": "Подробнее",
@@ -20,9 +21,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/auto-team/lavander-gs3-main-notext-1800x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/auto-team/lavander-gs3-main-notext-1080x1920.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/auto-team/lavander-gs3-main-notext-1800x800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/auto-team/lavander-gs3-main-notext-1080x1920.webp"
+        },
         "title": "Лавандовый GS3:",
         "descr": "Станьте частью редкой истории",
         "btn": "Подробнее",
@@ -37,8 +39,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/auto-team/changan/cs55plus_banner.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/auto-team/changan/cs55plus_banner.webp"
+        },
         "title": "Changan CS55PLUS",
         "descr": "Симфония технологий",
         "btn": "Подробнее",
@@ -53,8 +56,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/auto-team/changan/cs35plus_new_city_tools.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/auto-team/changan/cs35plus_new_city_tools.webp"
+        },
         "title": "Changan CS35PLUS NEW",
         "descr": "Пульс города",
         "btn": "Подробнее",
@@ -69,8 +73,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/auto-team/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/auto-team/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp"
+        },
         "title": "Выгодное предложение на BELGEE X50",
         "descr": "Успей забронировать свой Белджи",
         "btn": "Подробнее",
@@ -85,8 +90,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/auto-team/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/auto-team/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp"
+        },
         "title": "Новый BELGEE X70",
         "descr": "Уже в продаже!",
         "btn": "Подробнее",
@@ -101,9 +107,10 @@
         "show": true,
         "type": "video",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein-mobild.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein.webp",
+            "mobile": "https://cdn.alexsab.ru/b/gac/img/main-sliders/tradein-mobild.webp"
+        },
         "title": "Меняйтесь. Это выгодно",
         "descr": "Выгода до 300 000 рублей по программе трейд-ин",
         "btn": "Узнать подробнее",
@@ -118,10 +125,14 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models-mobile.webp",
-        "imagePosition": "bottom",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models.webp",
+            "mobile": "https://cdn.alexsab.ru/b/gac/img/main-sliders/gac-models-mobile.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "bottom"
+        },
         "title": "Специальные предложения",
         "descr": "Для моделей GS8, GS3 и M8",
         "btn": "Узнать подробнее",

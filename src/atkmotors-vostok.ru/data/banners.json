@@ -4,9 +4,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-9-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-9-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-9-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-9-mobile.webp"
+        },
         "title": "Комфорт первого класса",
         "descr": "Chery Tiggo 9",
         "btn": "Узнать больше",
@@ -21,9 +22,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-4-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-4-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-4-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-4-mobile.webp"
+        },
         "title": "Привлекательный кредит от 0,01% *",
         "descr": "Начните... с Tiggo 4",
         "btn": "Узнать больше",
@@ -38,9 +40,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/19-year-chery-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/19-year-chery-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/chery/img/main-sliders/19-year-chery-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/chery/img/main-sliders/19-year-chery-mobile.webp"
+        },
         "title": "19 лет Chery",
         "descr": "Социальная выгода до 200 000 рублей в честь",
         "btn": "Спецпредложения",
@@ -55,9 +58,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-7-pro-max-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-7-pro-max-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-7-pro-max-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-7-pro-max-mobile.webp"
+        },
         "title": "Привлекательный кредит от 0,01% *",
         "descr": "Семейный кроссовер Chery Tiggo 7 Pro Max",
         "btn": "Узнать больше",
@@ -72,9 +76,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-8-pro-max-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-8-pro-max-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-8-pro-max-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/chery/img/main-sliders/tiggo-8-pro-max-mobile.webp"
+        },
         "title": "Привлекательный кредит от 0,01% *",
         "descr": "Chery Tiggo 8 Pro Max",
         "btn": "Узнать больше",
@@ -89,9 +94,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/arrizo-8-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/arrizo-8-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/chery/img/main-sliders/arrizo-8-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/chery/img/main-sliders/arrizo-8-mobile.webp"
+        },
         "title": "Привлекательный кредит от 0,01% *",
         "descr": "Chery Arrizo 8",
         "btn": "Узнать больше",
@@ -106,9 +112,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/x-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/x-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/chery/img/main-sliders/x-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/chery/img/main-sliders/x-mobile.webp"
+        },
         "title": "Chery X Смешарики",
         "descr": "",
         "btn": "Узнать подробнее",
@@ -123,9 +130,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/kantar-brandz-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/kantar-brandz-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/chery/img/main-sliders/kantar-brandz-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/chery/img/main-sliders/kantar-brandz-mobile.webp"
+        },
         "title": "Новые достижения Chery",
         "descr": "Chery – на шаг впереди",
         "btn": "О рейтинге Kantar Brandz",
@@ -140,9 +148,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/chery-vk-desktop.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/chery/img/main-sliders/chery-vk-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/chery/img/main-sliders/chery-vk-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/b/chery/img/main-sliders/chery-vk-mobile.webp"
+        },
         "title": "Добро пожаловать в мир Chery",
         "descr": "",
         "btn": "Chery в VK",
@@ -157,10 +166,11 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/desktop.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/mobile.webp"
+        },
         "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/tablet.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/mobile.webp",
         "title": "Цена от {{price-changan-cs75plusnew}}",
         "descr": "Changan CS75 Plus New<br />BLUE CORE 2.0Т / 232 Л.С. / 8АТ AISIN<br />&#9733&#9733&#9733&#9733&#9733 ПО БЕЗОПАСНОСТИ C-NCAP",
         "btn": "Подробнее",
@@ -175,11 +185,15 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/desktop.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/mobile.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "bottom"
+        },
         "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/tablet.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/mobile.webp",
-        "imagePosition": "bottom",
         "title": "Всем светит выгода",
         "descr": "Полная стоиомсть кредита – от 0.01 до 15%<br /><span class='bg-red-500 px-3'>0.01% на 8 лет</span>",
         "btn": "Подробнее",
@@ -194,11 +208,15 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/desktop.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/mobile.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "bottom"
+        },
         "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/tablet.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/mobile.webp",
-        "imagePosition": "bottom",
         "title": "Выгода на Changan CS35<br />до {{benefit-changan-cs35plusnew}}",
         "descr": "Почувствуй пульс города!",
         "btn": "Подробнее",
@@ -213,11 +231,15 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-s/desktop.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-s/desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-s/mobile.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "bottom"
+        },
         "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-s/tablet.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-s/mobile.webp",
-        "imagePosition": "bottom",
         "title": "Выгода на Changan UNI-S<br />до {{benefit-changan-uni-s}}",
         "descr": "Симфония технологий!",
         "btn": "Подробнее",
@@ -232,11 +254,15 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-k/desktop.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-k/desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-k/mobile.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "bottom"
+        },
         "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-k/tablet.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-k/mobile.webp",
-        "imagePosition": "bottom",
         "title": "Выгода на Changan UNI-K<br />до {{benefit-changan-uni-k}}",
         "descr": "Ощутите технологичность!",
         "btn": "Подробнее",
@@ -251,11 +277,15 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/changan/servisnoe-obsluzhivanie-k-letu/desktop.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/servisnoe-obsluzhivanie-k-letu/desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/servisnoe-obsluzhivanie-k-letu/mobile.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "bottom"
+        },
         "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/servisnoe-obsluzhivanie-k-letu/tablet.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/changan/servisnoe-obsluzhivanie-k-letu/mobile.webp",
-        "imagePosition": "bottom",
         "title": "Сервисное обслуживание к лету:",
         "descr": "подготовьте свой Changan к приключениям",
         "btn": "Подробнее",

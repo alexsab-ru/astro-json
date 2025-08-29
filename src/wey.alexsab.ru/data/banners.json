@@ -4,9 +4,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-07-multimedia.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-07-multimedia-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-07-multimedia.webp",
+            "mobile": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-07-multimedia-mobile.webp"
+        },
         "title": "WEY 07",
         "descr": "Встроенные цифровые сервисы",
         "btn": "Подробнее",
@@ -21,9 +22,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-07.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-07-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-07.webp",
+            "mobile": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-07-mobile.webp"
+        },
         "title": "WEY 07",
         "descr": "Расширяя границы комфорта",
         "btn": "О модели",
@@ -38,9 +40,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-80.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-80-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-80.webp",
+            "mobile": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-80-mobile.webp"
+        },
         "title": "WEY 80",
         "descr": "Масштаб возможностей",
         "btn": "О модели",
@@ -55,9 +58,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-05.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-05-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-05.webp",
+            "mobile": "https://cdn.alexsab.ru/b/wey/img/main-sliders/wey-05-mobile.webp"
+        },
         "title": "WEY 05",
         "descr": "Эстетика нового времени",
         "btn": "О модели",
@@ -72,9 +76,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/gibridnye-tekhnologii.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/wey/img/main-sliders/gibridnye-tekhnologii-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/wey/img/main-sliders/gibridnye-tekhnologii.webp",
+            "mobile": "https://cdn.alexsab.ru/b/wey/img/main-sliders/gibridnye-tekhnologii-mobile.webp"
+        },
         "title": "Гибридные технологии",
         "descr": "Автомобили WEY относятся к параллельным подзаряжаемым гибридам",
         "btn": "Подробнее",

@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/knewstar/001.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/knewstar/001.webp"
+        },
         "title": "KNEWSTAR 001",
         "descr": "РАССРОЧКА",
         "btn": "",

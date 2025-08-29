@@ -4,9 +4,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/likvidaciya-sklada-c5-1920x800.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/likvidaciya-sklada-c5-640x900.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/likvidaciya-sklada-c5-1920x800.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/likvidaciya-sklada-c5-640x900.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -22,8 +23,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-new-year-test-drive.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-new-year-test-drive.webp"
+        },
         "title": "<div class=\"font-light\">Новогодний драйв<br>стильных кроссоверов</div>",
         "descr": "Пройдите тест-драйв и участвуйте в розыгрыше ценных призов",
         "btn": "Участвовать",
@@ -38,9 +40,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c5.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c5-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c5.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c5-mobile.webp"
+        },
         "title": "<div class=\"font-light\">OMODA C5 <br/>от&nbsp;1&nbsp;889&nbsp;900&nbsp;₽</div>",
         "descr": "",
         "btn": "О модели",
@@ -55,9 +58,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c5-new.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c5-new-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c5-new.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c5-new-mobile.webp"
+        },
         "title": "<div class=\"font-light\">Обновленный OMODA C5</div>",
         "descr": "Уже в дилерских центрах",
         "btn": "Подробнее",
@@ -72,9 +76,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-programm.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-programm-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-programm.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-programm-mobile.webp"
+        },
         "title": "<div class=\"font-light\">Участвуй в программе лояльности</div>",
         "descr": "Для владельцев OMODA!",
         "btn": "Участвовать",
@@ -89,9 +94,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-s5.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-s5-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-s5.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-s5-mobile.webp"
+        },
         "title": "<div class=\"font-light\">OMODA S5 <br/>от&nbsp;1&nbsp;620&nbsp;000&nbsp;₽</div>",
         "descr": "Специальная стоимость для юридического лица <br/>при покупке от одного автомобиля",
         "btn": "О модели",
@@ -106,9 +112,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c7.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c7-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c7.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-c7-mobile.webp"
+        },
         "title": "<div class=\"font-light\">OMODA C7 <br/> Премьера в 2025 году!</div>",
         "descr": "",
         "btn": "Подробнее",
@@ -123,9 +130,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-omoda-club.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-omoda-club-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-omoda-club.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/omoda/ulyanovsk/banner-omoda-club-mobile.webp"
+        },
         "title": "<div class=\"font-light\">OMODA CLUB</div>",
         "descr": "Официальный клуб владельцев",
         "btn": "Подробнее",

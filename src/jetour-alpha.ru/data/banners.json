@@ -4,9 +4,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/news/alpha/letnie-vygody-jetour-prodlevaet-specialnye-predlozheniya-na-pokupku-avtomobilej-v-iyune/letnie-vygody-jetour_1920x1080.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/jetour/img/news/alpha/letnie-vygody-jetour-prodlevaet-specialnye-predlozheniya-na-pokupku-avtomobilej-v-iyune/thumb.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/news/alpha/letnie-vygody-jetour-prodlevaet-specialnye-predlozheniya-na-pokupku-avtomobilej-v-iyune/letnie-vygody-jetour_1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/b/jetour/img/news/alpha/letnie-vygody-jetour-prodlevaet-specialnye-predlozheniya-na-pokupku-avtomobilej-v-iyune/thumb.webp"
+        },
         "title": "Летние выгоды!",
         "descr": "JETOUR продлевает специальные предложения на покупку автомобилей.<br/>До {{lastDay}} {{monthGenitive}} {{year}}",
         "btn": "Подробнее",
@@ -21,9 +22,10 @@
         "show": false,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/happy-china-tour/1.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/specials/jetour/happy-china-tour/thumb.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/happy-china-tour/1.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/jetour/happy-china-tour/thumb.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -38,9 +40,10 @@
         "show": true,
         "type": "special",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/refer-a-friend-program/1.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/specials/jetour/refer-a-friend-program/thumb.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/refer-a-friend-program/1.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/jetour/refer-a-friend-program/thumb.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -55,10 +58,11 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/alpha/dashing-socpodderjka/banner_desktop.webp",
-        "tabletImageUrl": "https://cdn.alexsab.ru/specials/jetour/alpha/dashing-socpodderjka/banner_tablet.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/specials/jetour/alpha/dashing-socpodderjka/banner_mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/alpha/dashing-socpodderjka/banner_desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/specials/jetour/alpha/dashing-socpodderjka/banner_tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/jetour/alpha/dashing-socpodderjka/banner_mobile.webp"
+        },
         "title": "<div class=\"text-xl sm:text-2xl md:text-4xl lg:text-5xl\">Программа соц. поддержки<br/> госслужащих</div>",
         "descr": "<div class=\"space-y-1 sm:space-y-4\"><div class=\"sm:text-2xl font-bold\">Снижение цены<br/> до&nbsp;200&nbsp;000&nbsp;₽ для:</div><ul class=\"xs:text-sm list-disc pl-4\"><li>Военнослужащих</li><li>Сотрудников полиции</li><li>Мед. работников</li><li>Госслужащих</li><li>Семей с детьми до 10 лет</li></ul><div class=\"uppercase xs:text-xs\">Количество квот ограниченно</div></div><div class=\"bg-accent-500 px-4 py-2 text-2xl xs:text-sm w-fit mt-5 xs:mt-3\">DASHING от&nbsp;1&nbsp;689&nbsp;000&nbsp;₽</div>",
         "btn": "Подробнее",
@@ -71,9 +75,10 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/general/rejim-raboti-pasha-1920x1080.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/general/rejim-raboti-pasha-640x800.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/general/rejim-raboti-pasha-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/general/rejim-raboti-pasha-640x800.webp"
+        },
         "title": "График работы автосалона",
         "descr": "20 апреля <br/> 8:00-18:00",
         "btn": "Подробнее",
@@ -88,9 +93,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-1920x695.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-640x800.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-1920x695.webp",
+            "mobile": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-640x800.webp"
+        },
         "title": "DASHING с максимальной выгодой до {{benefitb-jetour-dashing}}",
         "descr": "",
         "btn": "Узнать подробнее",
@@ -105,9 +111,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/alpha-center/img/banners/conditioner-1920x720-notxt.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/alpha-center/img/banners/conditioner-640x800-notxt.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/alpha-center/img/banners/conditioner-1920x720-notxt.webp",
+            "mobile": "https://cdn.alexsab.ru/b/alpha-center/img/banners/conditioner-640x800-notxt.webp"
+        },
         "title": "Антибактериальная обработка<br/>системы вентиляции",
         "descr": "<strong class='inline-block rounded px-3 py-2 mt-4 md:px-8 md:py-6 bg-white text-black font-bold md:text-4xl'>1.500 руб.</strong>",
         "btn": "Подробнее",
@@ -122,8 +129,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://alexsab.ru/video/jetour-dashing-compress.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/banner.jpg",
+        "video": {
+            "desktop": "https://alexsab.ru/video/jetour-dashing-compress.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/banner.jpg"
+        },
         "title": "Скидка на DASHING до {{benefitb-jetour-dashing}}",
         "descr": "По программе Трейд-Ин<br>Каско в подарок",
         "btn": "Выбрать автомобиль",
@@ -144,8 +155,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/photo_2024-09-04-10-53-16.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/photo_2024-09-04-10-53-16.webp"
+        },
         "title": "Специальное предложение!<br/>JETOUR&nbsp;X90&nbsp;PLUS&nbsp;Elite&nbsp;2.0&nbsp;AMT&nbsp;(244л.с.)&nbsp;2023&nbsp;г.в.<br/>с выгодой до&nbsp;{{benefitb-jetour-x90plus}}!",
         "descr": "Осталось 2 автомобиля! <br/>Цена от&nbsp;{{priceb-jetour-x90plus}}.<br/>Честная цена, без скрытых условий! <br/>До {{lastDay}} {{monthGenitive}} {{year}}",
         "btn": "Успеть купить",
@@ -164,8 +176,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/alpha/snegopad-vygod-jetour-t2-so-skidkoy/banner-1920x1080.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/alpha/snegopad-vygod-jetour-t2-so-skidkoy/banner-1920x1080.webp"
+        },
         "title": "Обновленный прайс-лист <br/>на Jetour T2",
         "descr": "До {{lastDay}}&nbsp;{{monthGenitive}} выгода до&nbsp;{{benefitb-jetour-t2}}<br>Каско в подарок",
         "btn": "Подробнее",
@@ -186,8 +199,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/photo_2024-09-04-10-53-39.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/photo_2024-09-04-10-53-39.webp"
+        },
         "title": "Таких цен не будет.<br>Dashing от {{priceb-jetour-dashing}}.",
         "descr": "Выгодные условия по программам трейд-ин и кредит.<br>До {{lastDay}} {{monthGenitive}} {{year}} г.<br>Каско в подарок",
         "btn": "Успеть купить",
@@ -202,11 +216,15 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/jetour-dashing-green-1920w.webp",
-        "imagePosition": "bottom",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/jetour-dashing-green-1920w.webp"
+        },
+        "position": {
+            "desktop": "bottom",
+            "mobile": "bottom"
+        },
         "title": "Распродажа остатков 2023 года!",
-        "descr": "Остался 1 автомобиль Dashing,<br/>Честная выгода - 1 030 000 ₽ <br/>Без лишних условий. <br/>Кредит\/Наличный расчет",
+        "descr": "Остался 1 автомобиль Dashing,<br/>Честная выгода - 1 030 000 ₽ <br/>Без лишних условий. <br/>Кредит/Наличный расчет",
         "btn": "Успеть купить",
         "btnUrl": "/cars/?model=dashing+i&year=2023",
         "dataTitle": "",
@@ -219,10 +237,11 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/x90_plus.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/x90_plus.webp"
+        },
         "title": "Распродажа остатков 2023 года!",
-        "descr": "Осталось 5 автомобилей  X90PLUS <br/>Честная выгода - 1 000 000 ₽ <br/>Без лишних условий. <br/>Кредит\/Наличный расчет",
+        "descr": "Осталось 5 автомобилей  X90PLUS <br/>Честная выгода - 1 000 000 ₽ <br/>Без лишних условий. <br/>Кредит/Наличный расчет",
         "btn": "Выбрать автомобиль",
         "btnUrl": "/cars/?model=x90+plus&year=2023",
         "dataTitle": "",
@@ -241,8 +260,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://alexsab.ru/video/all-jetour.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/posters/all-jetour.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/all-jetour.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/posters/all-jetour.webp"
+        },
         "title": "Jetour",
         "descr": "Создан для путешествий",
         "btn": "Узнать больше",
@@ -254,8 +277,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://alexsab.ru/video/jetour-t2-cool.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/posters/jetour-t2-cool.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/jetour-t2-cool.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/posters/jetour-t2-cool.webp"
+        },
         "title": "JETOUT T2",
         "descr": "Внедорожник для путешествий",
         "btn": "Подробнее о модели",
@@ -274,10 +301,14 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/alpha/jetour-vigoda/jetour-t2-full.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/specials/jetour/alpha/jetour-vigoda/2ayezm__frame-1321315324.webp",
-        "imagePosition": "center",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/alpha/jetour-vigoda/jetour-t2-full.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/jetour/alpha/jetour-vigoda/2ayezm__frame-1321315324.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
         "title": "Путешествуйте с любимыми",
         "descr": "Специальные предложения на автомобили JETOUR",
         "btn": "Подробнее",
@@ -293,10 +324,14 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/rejim-raboti-8march-2592x1080-notxt.jpg",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/rejim-raboti-8march-640x1350.webp",
-        "imagePosition": "center",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/rejim-raboti-8march-2592x1080-notxt.jpg",
+            "mobile": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/rejim-raboti-8march-640x1350.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
         "title": "<span style=\"color:#6d01cc;\">График работы автосалона</span>",
         "descr": "<span style=\"color:#6d01cc;\" class=\"text-2xl sm:text-5xl\">8 марта<br>8:00-18-00</span>",
         "btn": "",
@@ -312,10 +347,14 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/rejim-raboti-23feb-notxt.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/rejim-raboti-23feb-mobile-notxt.webp",
-        "imagePosition": "top",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/rejim-raboti-23feb-notxt.webp",
+            "mobile": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/rejim-raboti-23feb-mobile-notxt.webp"
+        },
+        "position": {
+            "desktop": "top",
+            "mobile": "top"
+        },
         "title": "График работы автосалона",
         "descr": "23 февраля<br>8:00-18-00",
         "btn": "",
@@ -330,8 +369,9 @@
         "show": false,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/work-hours.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/work-hours.webp"
+        },
         "title": "График работы ДЦ в новогодние праздники:",
         "descr": "30.12 – с 08-00 до 18-00 <br/><span class='text-red-500'>31.12 – 02.01, 07.01 – выходной</span> <br/>03.01 – 06.01, 08.01 – с 09-00 до 17-00",
         "alt": "График работы",
@@ -347,8 +387,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://alexsab.ru/video/xWdK6a__jetour-h70-compress.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/K42ver__x70-plusbanner.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/xWdK6a__jetour-h70-compress.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/K42ver__x70-plusbanner.webp"
+        },
         "title": "X70",
         "descr": "Семейный кроссовер для совместных путешествий",
         "btn": "Подробнее",
@@ -363,8 +407,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/news/jetour/alpha/zapusk-prodazh-krossovera-jetour-x50-v-rossii/banner_1920x1080.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/news/jetour/alpha/zapusk-prodazh-krossovera-jetour-x50-v-rossii/banner_1920x1080.webp"
+        },
         "title": "Jetour X50: Новый компактный кроссовер <br/>с отличным соотношением цена/качество<br>Каско в подарок",
         "descr": "",
         "btn": "Узнать подробнее",
@@ -379,8 +424,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/news/jetour/alpha/jetour-x90-plus-nazvan-luchshim-bolshim-krossoverom-v-rossii/x90-plus-1920x1080.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/news/jetour/alpha/jetour-x90-plus-nazvan-luchshim-bolshim-krossoverom-v-rossii/x90-plus-1920x1080.webp"
+        },
         "title": "Jetour X90&nbsp;Plus: <br>Лучший большой кроссовер в&nbsp;России",
         "descr": "по версии ТОП-5 Авто<br>Каско в подарок",
         "btn": "Узнать подробнее",
@@ -401,8 +447,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/dashing-kv.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/dashing-kv.webp"
+        },
         "title": "Выгода до&nbsp;1 180 000 ₽",
         "descr": "Специальные предложения на автомобили Jetour<br>Каско в подарок",
         "btn": "Узнать подробнее",
@@ -417,8 +464,12 @@
         "show": true,
         "type": "video",
         "view": "link",
-        "videoUrl": "https://alexsab.ru/video/x50-compress.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/dla-glavnojh50.png",
+        "video": {
+            "desktop": "https://alexsab.ru/video/x50-compress.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/dla-glavnojh50.png"
+        },
         "title": "X50",
         "descr": "Компактный кроссовер<br>Каско в подарок",
         "btn": "Подробнее",
@@ -433,8 +484,9 @@
         "show": false,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/specials/jetour/alphazharkoe-leto-s-jetour/banner__1920-1080.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/alphazharkoe-leto-s-jetour/banner__1920-1080.webp"
+        },
         "title": "Жаркое лето с Jetour!",
         "descr": "Три повода для покупки в {{monthPrepositional}}<br>Каско в подарок",
         "btn": "Узнать подробнее",
@@ -449,8 +501,9 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t2-kv.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t2-kv.webp"
+        },
         "title": "JETOUR T2",
         "descr": "Внедорожник для путешествий<br>Каско в подарок",
         "btn": "Узнать подробнее",
@@ -471,8 +524,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/dashing1.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/dashing1.webp"
+        },
         "title": "до конца {{monthGenitive}} Jetour на выгодных условиях",
         "descr": "Подробности по телефону и в автосалоне<br>Каско в подарок",
         "btn": "Узнать подробнее",

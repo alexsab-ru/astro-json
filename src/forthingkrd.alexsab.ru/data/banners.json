@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/forthing/img/main-sliders/yacht.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/forthing/img/main-sliders/yacht.webp"
+        },
         "title": "MPV<br>Forthing Yacht",
         "descr": "Победитель премии \"Автомобиль года в России\"",
         "btn": "Подробнее",
@@ -20,8 +21,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/forthing/img/main-sliders/t5-evo.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/forthing/img/main-sliders/t5-evo.webp"
+        },
         "title": "Кроссовер<br>Forthing&nbsp;T5&nbsp;EVO",
         "descr": "Смотри в&nbsp;будущее",
         "btn": "Подробнее",
@@ -36,8 +38,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/b/forthing/img/main-sliders/d60-plus-min.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/forthing/img/main-sliders/d60-plus-min.webp"
+        },
         "title": "Седан<br>Venucia D60&nbsp;Plus",
         "descr": "Счастье там, где&nbsp;Venucia",
         "btn": "Подробнее",
@@ -52,8 +55,12 @@
         "show": true,
         "type": "video",
         "view": "popup-link",
-        "videoUrl": "https://alexsab.ru/video/forthing-compress.mp4",
-        "imageUrl": "https://cdn.alexsab.ru/b/forthing/img/banners/18h26m15s197.webp",
+        "video": {
+            "desktop": "https://alexsab.ru/video/forthing-compress.mp4"
+        },
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/forthing/img/banners/18h26m15s197.webp"
+        },
         "title": "Покоряй новые высоты<br>с&nbsp;Yacht",
         "descr": "",
         "alt": "",

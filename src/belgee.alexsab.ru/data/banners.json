@@ -4,9 +4,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025-mobile.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -22,9 +23,10 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025-mobile.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",
@@ -40,9 +42,10 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp"
+        },
         "title": "",
         "descr": "",
         "btn": "",

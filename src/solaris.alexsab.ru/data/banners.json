@@ -4,11 +4,15 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/solaris/promo_desktop.webp",
-        "tabletImageUrl": "https://cdn.alexsab.ru/main-sliders/solaris/promo_tablet.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/solaris/promo_mobile.webp",
-        "imagePosition": "center",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/promo_desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/solaris/promo_tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/promo_mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
         "title": "Карелия ждёт <br/>везучих",
         "descr": "Купите Solaris HC и получите шанс <br/>выиграть трофи-тур",
         "btn": "Подробнее",
@@ -23,11 +27,15 @@
         "show": true,
         "type": "",
         "view": "link",
-        "videoUrl": "",
-        "imageUrl": "https://cdn.alexsab.ru/main-sliders/solaris/credit_desktop.webp",
-        "tabletImageUrl": "https://cdn.alexsab.ru/main-sliders/solaris/credit_tablet.webp",
-        "mobileImageUrl": "https://cdn.alexsab.ru/main-sliders/solaris/credit_mobile.webp",
-        "imagePosition": "center",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/credit_desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/solaris/credit_tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/credit_mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
         "title": "ВАШ НОВЫЙ АВТОМОБИЛЬ НА <br/>ВЫГОДНЫХ УСЛОВИЯХ",
         "descr": "",
         "btn": "Подробнее",

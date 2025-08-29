@@ -4,8 +4,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/banners/livan-winter-1920x1080-notxt.webp",
+        "image": {
+            "desktop": "/img/banners/livan-winter-1920x1080-notxt.webp"
+        },
         "title": "Успей получить зимнюю резину в&nbsp;подарок!",
         "descr": "Рассрочка <b>11&nbsp;900&nbsp;₽</b> в месяц!",
         "btn": "Узнать подробнее",
@@ -20,8 +21,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/x3pro/x3pro-hero.jpg",
+        "image": {
+            "desktop": "/img/x3pro/x3pro-hero.jpg"
+        },
         "title": "Быть свободным",
         "descr": "LIVAN X3PRO от&nbsp;{{priceb-livan-x3pro}}",
         "btn": "Узнать подробнее",
@@ -36,8 +38,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/x6pro/x6pro-hero.jpg",
+        "image": {
+            "desktop": "/img/x6pro/x6pro-hero.jpg"
+        },
         "title": "Дайте Старт новому",
         "descr": "LIVAN X6PRO от&nbsp;{{priceb-livan-x6pro}}",
         "btn": "Узнать подробнее",
@@ -52,8 +55,9 @@
         "show": true,
         "type": "",
         "view": "popup-link",
-        "videoUrl": "",
-        "imageUrl": "/img/s6pro/s6pro.jpg",
+        "image": {
+            "desktop": "/img/s6pro/s6pro.jpg"
+        },
         "title": "Драйв в Вашем стиле",
         "descr": "LIVAN S6PRO от&nbsp;{{priceb-livan-s6pro}}",
         "btn": "Узнать подробнее",
