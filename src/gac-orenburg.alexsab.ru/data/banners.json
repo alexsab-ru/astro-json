@@ -5,7 +5,7 @@
         "type": "video",
         "view": "popup-link",
         "videoUrl": "",
-        "imageUrl": "/img/banners/tradein-desktop@2x.webp",
+        "imageUrl": "https://cdn.alexsab.ru/main-sliders/gac/tradein-desktop@2x.webp",
         "title": "Меняйтесь. Это выгодно",
         "descr": "Выгода до 300 000 рублей по программе трейд-ин",
         "btn": "Узнать подробнее",
