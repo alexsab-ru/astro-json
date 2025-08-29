@@ -23,7 +23,7 @@
     ]
   },
   {
-    "url": "/for-owners/",
+    "url": "javascript:void(0)",
     "name": "Владельцам",
     "children": [
       {
@@ -43,20 +43,6 @@
   {
     "url": "/#services",
     "name": "Услуги"
-  },
-  {
-    "url": "javascript:void(0)",
-    "name": "GAC",
-    "children": [
-      {
-        "url": "/about/",
-        "name": "О бренде"
-      },
-      {
-        "url": "/news/",
-        "name": "Новости"
-      }
-    ]
   },
   {
     "url": "/contacts/",
