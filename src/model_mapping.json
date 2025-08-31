@@ -1578,6 +1578,27 @@
                 "Рубиновый красный": "hunderplus-ruby-red.webp",
                 "Красный": "hunderplus-ruby-red.webp"
             }
+        },
+        "Hunter Plus, I": {
+            "short": "HUNTERplus",
+            "folder": "hunterplus",
+            "color": {
+                "Snowy-white": "hunderplus-snowy-white.webp",
+                "Снежный белый": "hunderplus-snowy-white.webp",
+                "Белый": "hunderplus-snowy-white.webp",
+                "Silver-grey": "hunderplus-silver-grey.webp",
+                "Серебристый серый": "hunderplus-silver-grey.webp",
+                "Серый": "hunderplus-silver-grey.webp",
+                "Mountain-grey": "hunderplus-mountain-grey.webp",
+                "Горный серый": "hunderplus-mountain-grey.webp",
+                "Серый": "hunderplus-mountain-grey.webp",
+                "Cobalt-blue": "hunderplus-cobalt-blue.webp",
+                "Кобальтовый синий": "hunderplus-cobalt-blue.webp",
+                "Синий": "hunderplus-cobalt-blue.webp",
+                "Ruby-red": "hunderplus-ruby-red.webp",
+                "Рубиновый красный": "hunderplus-ruby-red.webp",
+                "Красный": "hunderplus-ruby-red.webp"
+            }
         }
     },
     "Kia": {
