@@ -1,6 +1,6 @@
 [
     {"icon": "mdi:car-key", "title": "Заказ авто из KZ", "url": "/request-kz/" },
-    {"icon": "mdi:car-settings", "title": "Сервис", "url": "" },
+    {"icon": "mdi:car-settings", "title": "Сервис", "url": "/service-request/" },
     {"icon": "mdi:car-wash", "title": "Мойка", "url": "" },
     {"icon": "mdi:coffee", "title": "Кафе", "url": "" },
     {"icon": "mdi:car-wrench", "title": "Кузовной ремонт", "url": "" },
