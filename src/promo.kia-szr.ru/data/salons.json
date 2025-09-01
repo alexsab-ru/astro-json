@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Киа Центр в Сызрани",
+        "address": "г. Сызрань, пос. Новая Крымза, 4-ая промзона, участок 14",
+        "phone":  "8 (8464) 90-42-02",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "legal_entity": "ООО «Центр на Московском»",
+        "legal_inn": "6319214167",
+        "map": {
+            "zoom": 13,
+            "balloon": "https://cdn.alexsab.ru/locator/kia-locator.svg",
+            "coords": [53.201308, 48.508213],
+            "ya_link": "https://yandex.ru/maps/-/CLEv4LZf"
+        }
+    }
+]

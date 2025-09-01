@@ -1,0 +1,31 @@
+[
+  {
+    "url": "/request-kz/",
+    "name": "Заказ авто из KZ"
+  },
+  {
+    "url": "/cars/",
+    "name": "Авто в наличии"
+  },
+  {
+    "url": "/used_cars/",
+    "name": "Авто с пробегом"
+  },
+  {
+    "url": "/models/",
+    "name": "Модели",
+    "children": "models"
+  },
+  {
+    "url": "",
+    "name": "Запись на сервис"
+  },
+  {
+    "url": "/#services",
+    "name": "Услуги"
+  },
+  {
+    "url": "/contacts/",
+    "name": "Контакты"
+  }
+]

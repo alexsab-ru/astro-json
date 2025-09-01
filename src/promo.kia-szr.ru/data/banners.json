@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "show": false,
+        "type": "image",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/promo-kia-samara/kz-banner.webp"
+        },
+        "title": "Новые КИА 2025 года из&nbsp;Казахстана",
+        "descr": "- 18 лет дилерства в Самаре<br/>- Надежная сделка<br/>- Гарантия от партнеров для СВОИХ",
+        "btn": "Подобрать авто",
+        "btnUrl": "/request-kz/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    }
+]
