@@ -1,0 +1,32 @@
+{
+    "brand": "Kia",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
+    "site_name": "Киа в Энгельсе",
+    "site_description": "Официальный дилер автомобилей Киа в Энгельсе",
+    "legal_entity": "",
+    "legal_inn": "",
+    "legal_city": "Энгельс",
+    "legal_city_where": "Энгельсе",
+    "phone_common": "",
+    "yandex_widget_orgnization": "",
+    "header_top_line": "",
+    "connectforms_link": "https://alexsab.ru/lead/kia/",
+    "grecaptcha_open": "",
+    "favicon": "https://cdn.alexsab.ru/b/kia/favicon.svg",
+    "logo_header": "https://cdn.alexsab.ru/b/kia/img/logo/logo.svg",
+    "logo_map_info": "https://cdn.alexsab.ru/b/kia/img/logo/logo.svg",
+    "logo_footer": "https://cdn.alexsab.ru/b/kia/img/logo/logo-white.svg",
+    "logo_dealer_header": "",
+    "logo_dealer_map_info": "",
+    "logo_dealer_footer": "",
+    "siteType": "",
+    "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
+    "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
+    "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+    "improve_offer_background": "https://cdn.alexsab.ru/b/kia/img/konkurenty.webp"
+}

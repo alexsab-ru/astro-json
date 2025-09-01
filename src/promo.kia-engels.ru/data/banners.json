@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "show": true,
+        "type": "image",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/promo-kia-samara/kz-banner.webp"
+        },
+        "title": "Новые КИА 2025 года из&nbsp;Казахстана",
+        "descr": "- 18 лет дилерства в Энгельсе<br/>- Надежная сделка<br/>- Гарантия от партнеров для СВОИХ",
+        "btn": "Подобрать авто",
+        "btnUrl": "/request-kz/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
+        "show": false,
+        "type": "image",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/promo-kia-samara/sorento-2024-1920x695.webp"
+        },
+        "title": "Рассрочка от 0,01% годовых",
+        "descr": "на 12 месяцев",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Рассрочка от 0,01% годовых. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "image",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/promo-kia-samara/kia-1920x1080.webp"
+        },
+        "title": "Выгода до 550 000 рублей!",
+        "descr": "При покупке в кредит и трейд-ин",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Выгода до 550 000 рублей!. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 3,
+        "show": true,
+        "type": "image",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/promo-kia-samara/3cars_1920x610.webp"
+        },
+        "title": "2 года гарантии на автомобили Киа",
+        "descr": "от партнеров (страховых компаний) для наших клиентов",
+        "btn": "Узнать подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. 2 года гарантии на автомобили Киа. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    }
+]

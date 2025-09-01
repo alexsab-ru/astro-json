@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Киа Центр в Энгельсе",
+        "address": "г. Энгельс, Волжский проспект, д. 75",
+        "phone":  "8 (8453) 52-83-83",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "legal_entity": "ООО «АЦ ЮГО-ЗАПАД»",
+        "legal_inn": "7729671401",
+        "map": {
+            "zoom": 13,
+            "balloon": "https://cdn.alexsab.ru/locator/kia-locator.svg",
+            "coords": [51.442434, 46.071582],
+            "ya_link": "https://yandex.ru/maps/-/CLEzvApN"
+        }
+    }
+]

@@ -1,0 +1,93 @@
+{
+    "site": "promo.kia-engels.ru",
+    "gtm": {
+        "value": "",
+        "fn": "_gtm",
+        "prod": true
+    },
+    "metrika": {
+        "value": [
+            {
+                "id": "56034940",
+                "clickmap": true,
+                "trackLinks": true,
+                "accurateTrackBounce": true,
+                "webvisor": true
+            },
+            {
+                "id": "156741",
+                "clickmap": true,
+                "trackLinks": true,
+                "accurateTrackBounce": true,
+                "webvisor": true
+            }
+        ],
+        "fn": "_ym", 
+        "prod": false
+    },
+    "ga4": {
+        "value": [
+            {
+                "id": ""
+            }
+        ],
+        "fn": "_ga",
+        "prod": true
+    },
+    "re": {
+        "value": "",
+        "fn": "_re",
+        "prod": true
+    },
+    "vk-rtrg": {
+        "value": [
+            {
+                "id": "VK-RTRG-456219-a8jpe"
+            }
+        ],
+        "fn": "_vk",
+        "prod": true
+    },
+    "top.mail.ru": {
+        "value": [
+            {
+                "id": "3413778"
+            }
+        ],
+        "fn": "_tm",
+        "prod": true
+    },
+    "calltouch": {
+        "value": {
+            "mod_id": "aoehjvqc",
+            "site_id": "47086"
+        },
+        "fn": "_ct",
+        "prod": false
+    },
+    "konget": {
+        "value": "",
+        "fn": "_kg",
+        "prod": true
+    },
+    "smartpoint": {
+        "value": "",
+        "fn": "_sp",
+        "prod": true
+    },
+    "streamwood": {
+        "value": {
+            "swKey": "",
+            "swDomainKey": ""
+        },
+        "fn": "_sw",
+        "prod": true
+    },
+    "widgets": {
+        "value": [
+            ""
+        ],
+        "fn": "_wd",
+        "prod": true
+    }
+}

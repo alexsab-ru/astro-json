@@ -1,0 +1,1428 @@
+[
+    {
+        "mark_id": "Kia",
+        "id": "sportage",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Инновации, расширяющие твои возможности",
+        "name": "Sportage",
+        "price": 2849900,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Kia Sportage",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Kia Sportage",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/sportage/thumb.webp",
+        "colors": [
+            {
+                "id": "clear-white",
+                "name": "Clear White (UD)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/clear-white.webp",
+                "style": "background-color: #e8e9e7;"
+            },
+            {
+                "id": "snow-white",
+                "name": "Snow White Pearl (SWP)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/snow-white.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "gravity-gray",
+                "name": "Gravity Gray (KDG)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/gravity-gray.webp",
+                "style": "background-color: #3f434b;"
+            },
+            {
+                "id": "steel-gray",
+                "name": "Steel Gray (KLG)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/steel-gray.webp",
+                "style": "background-color: #585856;"
+            },
+            {
+                "id": "modern-black",
+                "name": "Modern Black (FSB)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/modern-black.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "dawning-red",
+                "name": "Dawning Red (DWR)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/dawning-red.webp",
+                "style": "background-color: #b02418;"
+            },
+            {
+                "id": "deep-blue",
+                "name": "Deep Blue (BB2)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/deep-blue.webp",
+                "style": "background-color: #276181;"
+            },
+            {
+                "id": "jungle-wood-green",
+                "name": "Jungle Wood Green (JUG)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/jungle-wood-green.webp",
+                "style": "background-color: #a0a392;"
+            }
+        ],
+        "feed_names": [
+            "Sportage, V"
+        ],
+        "complectations": [
+            {
+                "name": "Classic 6MT",
+                "price": 2849900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Classic 6AT",
+                "price": 2949900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 6AT",
+                "price": 3029900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 6MT",
+                "price": 3069900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6MT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe",
+                "price": 3124900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 6AT 4x4",
+                "price": 3129900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 6AT 4x4",
+                "price": 3224900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige",
+                "price": 3414900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.5",
+                "price": 3464900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style",
+                "price": 3609900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.5 8AT",
+                "price": 3654900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 2.5 8AT",
+                "price": 3849900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "X-Line",
+                "price": 3939900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "X-Line+",
+                "price": 4039900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "190",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/6AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2755",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4660",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1865",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "192",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний/Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Kia",
+        "id": "k5",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Сверхчеловеческие возможности",
+        "name": "K5",
+        "price": 2734900,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Kia K5",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Kia K5",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/k5/thumb.webp",
+        "colors": [
+            {
+                "id": "clear-white",
+                "name": "Clear White (UD)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/clear-white.webp",
+                "style": "background-color: #e8e9e7;"
+            },
+            {
+                "id": "snow-white",
+                "name": "Snow White Pearl (SWP)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/snow-white.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "interstellar-gray",
+                "name": "Interstellar Gray (AGT)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/interstellar-gray.webp",
+                "style": "background-color: #393939;"
+            },
+            {
+                "id": "steel-gray",
+                "name": "Steel Gray (KLG)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/steel-gray.webp",
+                "style": "background-color: #636363;"
+            },
+            {
+                "id": "aurora-black-pearl",
+                "name": "Aurora Black Pearl (ABP)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/aurora-black-pearl.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "gravity-blue",
+                "name": "Gravity Blue (B4U)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/gravity-blue.webp",
+                "style": "background-color: #313642;"
+            },
+            {
+                "id": "runway-red",
+                "name": "Runway Red (CR5)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/runway-red.webp",
+                "style": "background-color: #942a25;"
+            },
+            {
+                "id": "yacht-blue",
+                "name": "Yacht Blue (DU3)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/yacht-blue.webp",
+                "style": "background-color: #2b489e;"
+            }
+        ],
+        "feed_names": [
+            "K5, III"
+        ],
+        "complectations": [
+            {
+                "name": "Classic 2.0 6AT",
+                "price": 2734900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 2.0 6AT",
+                "price": 2839900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.0 6AT",
+                "price": 2924900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 2.0 6AT",
+                "price": 3054900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.0 6AT",
+                "price": 3094900,
+                "bodytype": "Седан",
+                "engine": "2.0 м3",
+                "engine_power": "150",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.5 8AT",
+                "price": 3194900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 2.5 8AT",
+                "price": 3324900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.5 8AT",
+                "price": 3364900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "GT Line 2.5 8AT",
+                "price": 3469900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "GT Line Red 2.5 8AT",
+                "price": 3469900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "GT Line+ 2.5 8AT",
+                "price": 3569900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "GT Line+ Red 2.5 8AT",
+                "price": 3569900,
+                "bodytype": "Седан",
+                "engine": "2.5 м3",
+                "engine_power": "194",
+                "gear_rus": "8AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT/8AT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2850",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4905",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1860",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "192",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Kia",
+        "id": "sorento",
+        "show": false,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Играя главную роль",
+        "name": "Sorento",
+        "price": 3789900,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Kia Sorento",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Kia Sorento",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/sorento/thumb.webp",
+        "colors": [
+            {
+                "id": "clear-white",
+                "name": "Clear White (UD)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/clear-white.webp",
+                "style": "background-color: #e8e9e7;"
+            },
+            {
+                "id": "snow-white",
+                "name": "Snow White Pearl (SWP)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/snow-white.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "essence-brown",
+                "name": "Essence Brown (BE2)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/essence-brown.webp",
+                "style": "background-color: #4f4443;"
+            },
+            {
+                "id": "steel-gray",
+                "name": "Steel Gray (KLG)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/steel-gray.webp",
+                "style": "background-color: #636363;"
+            },
+            {
+                "id": "aurora-black-pearl",
+                "name": "Aurora Black Pearl (ABP)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/aurora-black-pearl.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "gravity-blue",
+                "name": "Gravity Blue (B4U)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/gravity-blue.webp",
+                "style": "background-color: #313642;"
+            },
+            {
+                "id": "runway-red",
+                "name": "Runway Red (CR5)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/runway-red.webp",
+                "style": "background-color: #942a25;"
+            },
+            {
+                "id": "mineral-blue",
+                "name": "Mineral Blue (M4B)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/mineral-blue.webp",
+                "style": "background-color: #5b819d;"
+            },
+            {
+                "id": "platinum-graphite",
+                "name": "Platinum Graphite (ABT)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/platinum-graphite.webp",
+                "style": "background-color: #6c6c6e;"
+            },
+            {
+                "id": "silky-silver",
+                "name": "Silky Silver (4SS)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/silky-silver.webp",
+                "style": "background-color: #c1c2c6;"
+            }
+        ],
+        "feed_names": [
+        ],
+        "complectations": [
+            {
+                "name": "Classic 2.5 6AT",
+                "price": 3789900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 2.5 6AT",
+                "price": 3949900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.5 6AT",
+                "price": 4079900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.2 8DCT",
+                "price": 4269900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "179",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Prestige 2.5 6AT",
+                "price": 4329900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 3.5 8AT",
+                "price": 4329900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.2 8DCT",
+                "price": 4519900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium 2.5 6AT",
+                "price": 4549900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Black Edition",
+                "price": 4629900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 3.5 8AT",
+                "price": 4659900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "179",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium 2.2 8DCT",
+                "price": 4739900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium+ 2.2 8DCT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium+ (Brown) 2.2 8DCT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium 3.5 8AT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium+ (Brown) 3.5 8AT",
+                "price": 5009900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium+ 3.5 8AT",
+                "price": 5009900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "6AT/8AT/8DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2815",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4810",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1900",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.2-3.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "225-440",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний/Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Kia",
+        "id": "sorento2024",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Играя главную роль",
+        "name": "Новый Sorento",
+        "price": 3789900,
+        "benefit": 250000,
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Kia Новый Sorento",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Kia Новый Sorento",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/sorento2024/thumb.webp",
+        "colors": [
+            {
+                "id": "gray",
+                "name": "Gray",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento2024/colors/gray.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Clear White (UD)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento2024/colors/white.webp",
+                "style": "background-color: #e8e9e7;"
+            },
+            {
+                "id": "black",
+                "name": "Aurora Black Pearl (ABP)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento2024/colors/black.webp",
+                "style": "background-color: #000000;"
+            }
+        ],
+        "feed_names": [
+            "Sorento, IV Рестайлинг"
+        ],
+        "complectations": [
+            {
+                "name": "Classic 2.5 6AT",
+                "price": 3789900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 2.5 6AT",
+                "price": 3949900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.5 6AT",
+                "price": 4079900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.2 8DCT",
+                "price": 4269900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "179",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Prestige 2.5 6AT",
+                "price": 4329900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 3.5 8AT",
+                "price": 4329900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.2 8DCT",
+                "price": 4519900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium 2.5 6AT",
+                "price": 4549900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Black Edition",
+                "price": 4629900,
+                "bodytype": "Кроссовер",
+                "engine": "2.5 м3",
+                "engine_power": "179",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 3.5 8AT",
+                "price": 4659900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "179",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium 2.2 8DCT",
+                "price": 4739900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium+ 2.2 8DCT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium+ (Brown) 2.2 8DCT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "2.2 м3",
+                "engine_power": "199",
+                "gear_rus": "8DCT",
+                "drive": "Полный",
+                "fuel": "Дизель"
+            },
+            {
+                "name": "Premium 3.5 8AT",
+                "price": 4869900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium+ (Brown) 3.5 8AT",
+                "price": 5009900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium+ 3.5 8AT",
+                "price": 5009900,
+                "bodytype": "Кроссовер",
+                "engine": "3.5 м3",
+                "engine_power": "249",
+                "gear_rus": "8AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "6AT/8AT/8DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2815",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4810",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1900",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2.2-3.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "225-440",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Полный",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Kia",
+        "id": "seltos",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "Смелей!",
+        "name": "Seltos",
+        "price": 2064900,
+        "benefit": "",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Kia Seltos",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Kia Seltos",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/b/kia/img/models/seltos/thumb.webp",
+        "colors": [
+            {
+                "id": "clear-white",
+                "name": "Clear White (UD)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/clear-white.webp",
+                "style": "background-color: #e8e9e7;"
+            },
+            {
+                "id": "snow-white",
+                "name": "Snow White Pearl (SWP)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/snow-white.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "silky-silver",
+                "name": "Silky Silver (4SS)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/silky-silver.webp",
+                "style": "background-color: #898a91;"
+            },
+            {
+                "id": "neptune-blue",
+                "name": "Neptune Blue (B3A)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/neptune-blue.webp",
+                "style": "background-color: #3345ac;"
+            },
+            {
+                "id": "runway-red",
+                "name": "Runway Red (CR5)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/runway-red.webp",
+                "style": "background-color: #a72f2c;"
+            },
+            {
+                "id": "gravity-blue",
+                "name": "Gravity Blue (B4U)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/gravity-blue.webp",
+                "style": "background-color: #252b39;"
+            },
+            {
+                "id": "glittering-metal",
+                "name": "Glittering Metal (K3G)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/glittering-metal.webp",
+                "style": "background-color: #383a3e;"
+            },
+            {
+                "id": "aurora-black-pearl",
+                "name": "Aurora Black Pearl (ABP)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/aurora-black-pearl.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "clear-white-aurora-black-pearl",
+                "name": "Clear White / Aurora Black Pearl (GB1)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/clear-white-aurora-black-pearl.webp",
+                "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #000000 51%);"
+            },
+            {
+                "id": "neptune-blue-clear-white",
+                "name": "Neptune Blue / Clear White (GB6)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/neptune-blue-clear-white.webp",
+                "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #3345ac 51%);"
+            },
+            {
+                "id": "gravity-blue-clear-white",
+                "name": "Gravity Blue / Сlear White (GB4)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/gravity-blue-clear-white.webp",
+                "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #182453 51%);"
+            },
+            {
+                "id": "gravity-blue-aurora-black-pearl",
+                "name": "Gravity Blue / Aurora Black Pearl (GB5)",
+                "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/gravity-blue-aurora-black-pearl.webp",
+                "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #000000 51%);"
+            }
+        ],
+        "feed_names": [
+            "Seltos, I",
+            "Seltos, I Рестайлинг"
+        ],
+        "complectations": [
+            {
+                "name": "Classic 1.6 6МТ",
+                "price": 2064900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "123",
+                "gear_rus": "6МТ",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Classic 1.6 6AТ",
+                "price": 2104900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "123",
+                "gear_rus": "6AТ",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 1.6 6МТ",
+                "price": 2134900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "123",
+                "gear_rus": "6МТ",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 1.6 6AТ",
+                "price": 2174900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "123",
+                "gear_rus": "6AТ",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 1.6 6МТ 4WD",
+                "price": 2204900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "121",
+                "gear_rus": "6MТ",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Comfort 1.6 6AТ 4WD",
+                "price": 2254900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "121",
+                "gear_rus": "6AТ",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 1.6 6AT",
+                "price": 2289900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "123",
+                "gear_rus": "6AТ",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 1.6 6AT",
+                "price": 2329900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "123",
+                "gear_rus": "6AТ",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 1.6 6МТ 4WD",
+                "price": 2329900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "121",
+                "gear_rus": "6MТ",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 2.0 IVT",
+                "price": 2359900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "149",
+                "gear_rus": "Вариатор, IVT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Luxe 1.6 6AT 4WD",
+                "price": 2369900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "121",
+                "gear_rus": "6AТ",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 2.0 IVT",
+                "price": 2399900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "149",
+                "gear_rus": "Вариатор, IVT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 1.6 6AT 4WD",
+                "price": 2409900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "121",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style 2.0 IVT 4WD",
+                "price": 2479900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "149",
+                "gear_rus": "Вариатор, IVT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 1.6 6AT 4WD",
+                "price": 2539900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "121",
+                "gear_rus": "6AT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 2.0 IVT 4WD",
+                "price": 2609900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "149",
+                "gear_rus": "Вариатор, IVT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige 1.6 7DCT 4WD",
+                "price": 2799900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "177",
+                "gear_rus": "Робот, 7DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium 2.0 IVT 4WD",
+                "price": 2819900,
+                "bodytype": "Кроссовер",
+                "engine": "2.0 м3",
+                "engine_power": "149",
+                "gear_rus": "Вариатор, IVT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium 1.6 7DCT 4WD",
+                "price": 3009900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "177",
+                "gear_rus": "Робот, 7DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Premium+ 1.6 7DCT 4WD",
+                "price": 3029900,
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "177",
+                "gear_rus": "Робот, 7DCT",
+                "drive": "Полный",
+                "fuel": "Бензин"
+            }
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/6AT/IVT/7DCT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2630",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4370",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1800",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.6-2.0",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "148-265",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний/Полный",
+                "measure": ""
+            }
+        ]
+    }
+]
