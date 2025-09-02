@@ -1,5 +1,5 @@
 {
-    "site": "infiniti-samauto.ru",
+    "site": "service.kia-samara.ru",
     "gtm": {
         "value": "",
         "fn": "_gtm",
@@ -8,7 +8,7 @@
     "metrika": {
         "value": [
             {
-                "id": "37709570",
+                "id": "",
                 "clickmap": true,
                 "trackLinks": true,
                 "accurateTrackBounce": true,

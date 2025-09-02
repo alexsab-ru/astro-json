@@ -4,7 +4,7 @@
     {"icon": "mdi:coffee", "title": "Кафе", "url": "" },
     {"icon": "mdi:car-wrench", "title": "Кузовной ремонт", "url": "" },
     {"icon": "mdi:shield-check-outline","title": "Постгарантийный ремонт", "url": "" },
-    {"icon": "mdi:car-3-plus", "title": "Автомобили с пробегом", "url": "https://probegcentr.ru/?utm_source=infiniti-samauto.ru", "target": "_blank"},
+    {"icon": "mdi:car-3-plus", "title": "Автомобили с пробегом", "url": ""},
     {"icon": "mdi:circle-arrows", "title": "Trade-in", "url": "" },
     {"icon": "mdi:car-battery", "title": "Продажа запасных частей", "url": "" },
     {"icon": "mdi:cash-100", "title": "Выкуп автомобилей", "url": "" },

@@ -3,14 +3,150 @@
         "id": 1,
         "show": true,
         "type": "",
-        "view": "popup-link",
+        "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/infiniti/samauto/banner-1920x1080.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/service.kia-samara/imgi_17_air-conditioner-1920x610.webp"
         },
-        "title": "Дилерское качество обслуживания",
-        "descr": "",
+        "title": "Акция «КОМФОРТНЫЙ КЛИМАТ (Макс)»",
+        "descr": "Обслуживание системы кондиционирования<br>+ мойка радиатора 5000 р.",
         "btn": "Подробнее",
-        "btnUrl": "#common-modal",
+        "btnUrl": "/special-offers/fresh-max/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/service.kia-samara/imgi_16_shinka-szr-1920x610.webp"
+        },
+        "title": "Комплексный шиномонтаж от 2 420 ₽",
+        "descr": "Шинный отель — 2 500 ₽ за сезон",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/tire-service/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/service.kia-samara/imgi_21_credit49-1920x610.webp"
+        },
+        "title": "БУДЬ УВЕРЕН!",
+        "descr": "Специальные условия для клиентов, планирующих покупку подержанного автомобиля Киа.",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/be-sure/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/service.kia-samara/imgi_20_1920x610_Fresh.webp"
+        },
+        "title": "Акция «КОМФОРТНЫЙ КЛИМАТ (Лайт)»",
+        "descr": " Обслуживание системы кондиционирования 2500 р. ",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/fresh/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/service.kia-samara/imgi_15_welcome-to-family-1920x610.webp"
+        },
+        "title": "Добро пожаловать в семью",
+        "descr": "Для новых владельцев автомобилей Киа",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/welcome/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/service.kia-samara/imgi_19_lucky55-1920x610.webp"
+        },
+        "title": "СЧАСТЛИВЫЕ 55",
+        "descr": "Специальные условия для обслуживания клиентов, достигших 55 лет",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/lucky55/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/service.kia-samara/imgi_22_ezhegodnoe-obsluzhivanie-1920x610.webp"
+        },
+        "title": "«Ежегодное обслуживание автомобиля» для автомобилей старше 5 лет или с пробегом больше 150 000 км",
+        "descr": "Специальное предложение официального дилера Киа в Самаре ",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/ezhegodnoe-obsluzhivanie/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/service.kia-samara/imgi_18_osmotr-1k-1920x610.webp"
+        },
+        "title": "Акция «Осмотр за 999»",
+        "descr": "Комплексная оперативная диагностика а/м от дилера Киа в Самаре",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/osmotr1k/",
+        "dataTitle": "Узнать подробнее",
+        "dataFormName": "Узнать подробнее. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kia/service.kia-samara/imgi_14_tyres-hotel-1920x610.webp"
+        },
+        "title": "Шинный отель",
+        "descr": "Специальное предложение официального дилера Киа в Самаре.",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/hotel/",
         "dataTitle": "Узнать подробнее",
         "dataFormName": "Узнать подробнее. Баннер",
         "badge": {},
