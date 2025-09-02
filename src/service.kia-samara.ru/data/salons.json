@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Сервисный центр Infiniti",
+        "address": "443085, Самара, Южное шоссе, 12, строение 2",
+        "phone":  "8 (846) 993-66-00",
+        "work_hours": "пн - пт: с 08:30 до 20:00; <br />сб - вс: с 08:30 до 18:00",
+        "map": {
+            "zoom": 18,
+            "balloon": "https://cdn.alexsab.ru/locator/infiniti-locator.svg",
+            "coords": [53.139328, 50.179065],
+            "ya_link": "https://yandex.ru/maps/51/samara/?ll=50.179022%2C53.139358&mode=routes&rtext=~53.139328%2C50.179065&rtt=pd&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D44555645251&z=18"
+        }
+    }
+]

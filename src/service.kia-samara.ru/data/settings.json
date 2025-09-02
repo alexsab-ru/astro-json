@@ -1,0 +1,32 @@
+{
+    "brand": "INFINITI",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
+    "site_name": "Самарские автомобили",
+    "site_description": "INFINITI Самарские автомобили",
+    "legal_entity": "ООО «Самарские автомобили Юг-Н»",
+    "legal_inn": "6314042605",
+    "legal_city": "Самара",
+    "legal_city_where": "Самаре",
+    "phone_common": "8 (846) 993-66-00",
+    "yandex_widget_orgnization": "CDbG4Tlz",
+    "header_top_line": "",
+    "connectforms_link": "https://alexsab.ru/lead/infiniti/samara/",
+    "grecaptcha_open": "",
+    "favicon": "https://cdn.alexsab.ru/b/infiniti/img/favicon.png",
+    "logo_header": "https://cdn.alexsab.ru/b/infiniti/img/logo/logo.svg",
+    "logo_map_info": "https://cdn.alexsab.ru/b/infiniti/img/logo/logo.svg",
+    "logo_footer": "https://cdn.alexsab.ru/b/infiniti/img/logo/logo.svg",
+    "logo_dealer_header": "",
+    "logo_dealer_map_info": "",
+    "logo_dealer_footer": "",
+    "siteType": "site-infiniti-samauto",
+    "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
+    "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
+    "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+    "improve_offer_background": "https://cdn.alexsab.ru/b/infiniti/img/main-sliders/qx55.webp"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "/special-offers/",
+    "name": "Спецпредложения"
+  },
+  {
+    "url": "/service-request/",
+    "name": "Запись на сервис"
+  },
+  {
+    "url": "/#services",
+    "name": "Услуги"
+  },
+  {
+    "url": "/contacts/",
+    "name": "Контакты"
+  }
+]
