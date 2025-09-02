@@ -1100,7 +1100,9 @@
                 "style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/crystal_white.webp')"
             }
         ],
-        "feed_names": [],
+        "feed_names": [
+            "CS75 Plus, III"
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",

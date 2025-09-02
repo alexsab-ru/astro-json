@@ -1306,6 +1306,27 @@
                 "Синий": "cs75plus_crystal_blue.webp"
             }
         },
+        "CS75 Plus, III": {
+            "short": "CS75PLUS",
+            "folder": "cs75plus",
+            "color": {
+                "Atomic_grey": "cs75plus_atomic_grey.webp",
+                "Атомный серый": "cs75plus_atomic_grey.webp",
+                "Серый": "cs75plus_atomic_grey.webp",
+                "Deep_black": "cs75plus_deep_black.webp",
+                "Глубокий черный": "cs75plus_deep_black.webp",
+                "Черный": "cs75plus_deep_black.webp",
+                "Mountain_grey": "cs75plus_mountain_grey.webp",
+                "Горный серый": "cs75plus_mountain_grey.webp",
+                "Серый": "cs75plus_mountain_grey.webp",
+                "Crystal_white": "cs75plus_crystal_white.webp",
+                "Кристальный белый": "cs75plus_crystal_white.webp",
+                "Белый": "cs75plus_crystal_white.webp",
+                "Crystal_blue": "cs75plus_crystal_blue.webp",
+                "Кристальный синий": "cs75plus_crystal_blue.webp",
+                "Синий": "cs75plus_crystal_blue.webp"
+            }
+        },
         "CS85COUPE": {
             "short": "CS85COUPE",
             "folder": "cs85coupe",
