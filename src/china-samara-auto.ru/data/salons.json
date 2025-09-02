@@ -5,9 +5,9 @@
         "phone":  "8 (846) 321-09-09",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/omoda-locator.svg",
-            "coords": [53.1865, 50.1193]
+            "coords": [53.138386, 50.178526]
         }
     },
     {
@@ -16,7 +16,7 @@
         "phone": "8 (846) 222-11-11",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/exeed-locator.svg",
             "coords": [53.275197, 50.227754]
         }
@@ -27,7 +27,7 @@
         "phone": "8 (846) 977-77-79",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/soueast-locator.svg",
             "coords": [53.184192, 50.152080]
         }
@@ -38,7 +38,7 @@
         "phone": "8 (846) 977-77-07",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/jac-locator.svg",
             "coords": [53.184192, 50.152080]
         }
@@ -49,7 +49,7 @@
         "phone": "8 (846) 377-73-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/belgee-locator.svg",
             "coords": [53.248659, 50.215510]
         }
@@ -60,7 +60,7 @@
         "phone": "8 (846) 321-09-09",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/jaecoo-locator.svg",
             "coords": [53.138386, 50.178526]
         }
@@ -71,7 +71,7 @@
         "phone": "8 (846) 993-68-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/gac-locator.svg",
             "coords": [53.137754, 50.178041]
         }
@@ -82,7 +82,7 @@
         "phone": "8 (846) 279-00-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/baic-locator.svg",
             "coords": [53.291962, 50.285704]
         }
@@ -93,7 +93,7 @@
         "phone": "8 (846) 977-77-10",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/baic-locator.svg",
             "coords": [53.184192, 50.152080]
         }
@@ -104,7 +104,7 @@
         "phone": "8 (846) 279-00-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/kaiyi-locator.svg",
             "coords": [53.291962, 50.285704]
         }
@@ -115,7 +115,7 @@
         "phone": "8 (846) 977-77-79",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/jetour-locator.svg",
             "coords": [53.184192, 50.152080]
         }
@@ -126,7 +126,7 @@
         "phone": "8 (846) 205-99-98",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/dongfeng-locator.svg",
             "coords": [53.248659, 50.215510]
         }
@@ -137,7 +137,7 @@
         "phone": "8 (846) 977-77-72",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/livan-locator.svg",
             "coords": [53.184192, 50.152080]
         }
@@ -148,7 +148,7 @@
         "phone": "8 (846) 979-70-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/geely-locator.svg",
             "coords": [53.137754, 50.178041]
         }
@@ -159,7 +159,7 @@
         "phone": "8 (846) 212-01-01",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/chery-locator.svg",
             "coords": [53.213170, 50.218654]
         }
@@ -170,7 +170,7 @@
         "phone": "8 (846) 977-77-75",
         "work_hours": "пн — вс: 8:00 — 20:00",
         "map": {
-            "zoom": 5,
+            "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/kaiyi-locator.svg",
             "coords": [53.184192, 50.152080]
         }
