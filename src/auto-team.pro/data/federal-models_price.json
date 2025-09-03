@@ -133,23 +133,31 @@
     "model": "ALSVIN",
     "price": "1400000",
     "benefit": "",
-    "link": "https://changanauto.ru/models/alsvin/"
+    "link": "https://changanauto.ru/model/alsvin"
   },
   {
-    "id": "changan-cs35plusnew",
+    "id": "changan-cs35plus-new",
     "brand": "changan",
     "model": "CS35PLUS NEW",
-    "price": "2019900",
+    "price": "2119900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/cs35plusnew/"
+    "link": "https://changanauto.ru/model/cs35plus-new"
   },
   {
-    "id": "changan-cs75plusnew",
+    "id": "changan-cs55plus",
+    "brand": "changan",
+    "model": "CS55 PLUS",
+    "price": "2799900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/cs55plus"
+  },
+  {
+    "id": "changan-cs75plus-new",
     "brand": "changan",
     "model": "CS75PLUS",
-    "price": "2840000",
+    "price": "3290000",
     "benefit": "",
-    "link": "https://changanauto.ru/models/cs75plusnew/"
+    "link": "https://changanauto.ru/model/cs75plus-new"
   },
   {
     "id": "changan-cs95new",
@@ -157,23 +165,23 @@
     "model": "CS95",
     "price": "3929900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/cs95new/"
+    "link": "https://changanauto.ru/model/cs95new"
   },
   {
     "id": "changan-eadoplus",
     "brand": "changan",
     "model": "EADOplus",
-    "price": "2129900",
+    "price": "2329900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/eadoplus/"
+    "link": "https://changanauto.ru/model/eadoplus"
   },
   {
-    "id": "changan-hunter",
+    "id": "changan-hunterplus",
     "brand": "changan",
-    "model": "HUNTERplus",
+    "model": "HUNTER PLUS",
     "price": "3129900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/hunter/"
+    "link": "https://changanauto.ru/model/hunterplus"
   },
   {
     "id": "changan-lamore",
@@ -181,39 +189,47 @@
     "model": "Lamore",
     "price": "2469900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/lamore/"
+    "link": "https://changanauto.ru/model/lamore"
   },
   {
     "id": "changan-star-truck",
     "brand": "changan",
     "model": "Star Truck",
-    "price": "1769000",
+    "price": "2069000",
     "benefit": "",
-    "link": "https://changanauto.ru/models/star-truck/"
+    "link": "https://changanauto.ru/model/star-truck"
   },
   {
     "id": "changan-uni-k",
     "brand": "changan",
     "model": "UNI-K",
-    "price": "3369900",
+    "price": "3869900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/uni-k/"
+    "link": "https://uni-motors.ru/model/uni-k"
   },
   {
-    "id": "changan-uni-k_idd",
+    "id": "changan-uni-k-idd",
     "brand": "changan",
-    "model": "UNI-K iDD",
-    "price": "3769900",
+    "model": "UNI-K-IDD",
+    "price": "5119900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/uni-k_idd/"
+    "link": "https://uni-motors.ru/model/uni-k-idd"
+  },
+  {
+    "id": "changan-uni-l",
+    "brand": "changan",
+    "model": "UNI-L",
+    "price": "2469900",
+    "benefit": "",
+    "link": "https://uni-motors.ru/model/uni-l"
   },
   {
     "id": "changan-uni-s",
     "brand": "changan",
-    "model": "UNI-S / CS55PLUS",
-    "price": "2449900",
+    "model": "UNI-S",
+    "price": "2799900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/uni-s/"
+    "link": "https://uni-motors.ru/model/uni-s"
   },
   {
     "id": "changan-uni-t",
@@ -221,7 +237,7 @@
     "model": "UNI-T",
     "price": "2269900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/uni-t/"
+    "link": "https://uni-motors.ru/model/uni-t"
   },
   {
     "id": "changan-uni-v",
@@ -229,14 +245,14 @@
     "model": "UNI-V",
     "price": "2379900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/uni-v/"
+    "link": "https://uni-motors.ru/model/uni-v"
   },
   {
-    "id": "knewstar-001",
+    "id": "knewstar001",
     "brand": "knewstar",
     "model": "001",
     "price": "3359990",
     "benefit": "",
-    "link": "https://knewstar.ru/model/knewstar-001"
+    "link": "https://knewstar.ru/models/knewstar001/"
   }
 ]

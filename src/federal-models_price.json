@@ -48,6 +48,14 @@
     "link": "/models/bj40/"
   },
   {
+    "id": "baic-bj60",
+    "brand": "baic",
+    "model": "BJ60",
+    "price": 5300000,
+    "benefit": 0,
+    "link": "/models/bj60/"
+  },
+  {
     "id": "kaiyi-e5",
     "brand": "kaiyi",
     "model": "E5",
@@ -101,23 +109,31 @@
     "model": "ALSVIN",
     "price": "1400000",
     "benefit": "",
-    "link": "https://changanauto.ru/models/alsvin/"
+    "link": "https://changanauto.ru/model/alsvin"
   },
   {
-    "id": "changan-cs35plusnew",
+    "id": "changan-cs35plus-new",
     "brand": "changan",
     "model": "CS35PLUS NEW",
-    "price": "2019900",
+    "price": "2119900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/cs35plusnew/"
+    "link": "https://changanauto.ru/model/cs35plus-new"
   },
   {
-    "id": "changan-cs75plusnew",
+    "id": "changan-cs55plus",
+    "brand": "changan",
+    "model": "CS55 PLUS",
+    "price": "2799900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/cs55plus"
+  },
+  {
+    "id": "changan-cs75plus-new",
     "brand": "changan",
     "model": "CS75PLUS",
-    "price": "2840000",
+    "price": "3290000",
     "benefit": "",
-    "link": "https://changanauto.ru/models/cs75plusnew/"
+    "link": "https://changanauto.ru/model/cs75plus-new"
   },
   {
     "id": "changan-cs95new",
@@ -125,23 +141,23 @@
     "model": "CS95",
     "price": "3929900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/cs95new/"
+    "link": "https://changanauto.ru/model/cs95new"
   },
   {
     "id": "changan-eadoplus",
     "brand": "changan",
     "model": "EADOplus",
-    "price": "2129900",
+    "price": "2329900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/eadoplus/"
+    "link": "https://changanauto.ru/model/eadoplus"
   },
   {
-    "id": "changan-hunter",
+    "id": "changan-hunterplus",
     "brand": "changan",
-    "model": "HUNTERplus",
+    "model": "HUNTER PLUS",
     "price": "3129900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/hunter/"
+    "link": "https://changanauto.ru/model/hunterplus"
   },
   {
     "id": "changan-lamore",
@@ -149,55 +165,15 @@
     "model": "Lamore",
     "price": "2469900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/lamore/"
+    "link": "https://changanauto.ru/model/lamore"
   },
   {
     "id": "changan-star-truck",
     "brand": "changan",
     "model": "Star Truck",
-    "price": "1769000",
+    "price": "2069000",
     "benefit": "",
-    "link": "https://changanauto.ru/models/star-truck/"
-  },
-  {
-    "id": "changan-uni-k",
-    "brand": "changan",
-    "model": "UNI-K",
-    "price": "3369900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-k/"
-  },
-  {
-    "id": "changan-uni-k_idd",
-    "brand": "changan",
-    "model": "UNI-K iDD",
-    "price": "3769900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-k_idd/"
-  },
-  {
-    "id": "changan-uni-s",
-    "brand": "changan",
-    "model": "UNI-S / CS55PLUS",
-    "price": "2449900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-s/"
-  },
-  {
-    "id": "changan-uni-t",
-    "brand": "changan",
-    "model": "UNI-T",
-    "price": "2269900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-t/"
-  },
-  {
-    "id": "changan-uni-v",
-    "brand": "changan",
-    "model": "UNI-V",
-    "price": "2379900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-v/"
+    "link": "https://changanauto.ru/model/star-truck"
   },
   {
     "id": "chery-arrizo8",
@@ -211,7 +187,7 @@
     "id": "chery-newtiggo7promax",
     "brand": "chery",
     "model": "TIGGO 7 PRO MAX",
-    "price": "2490000",
+    "price": "2560000",
     "benefit": "",
     "link": "https://www.chery.ru/models/newtiggo7promax/"
   },
@@ -219,7 +195,7 @@
     "id": "chery-newtiggo8promax",
     "brand": "chery",
     "model": "TIGGO 8 PRO MAX",
-    "price": "2840000",
+    "price": "2940000",
     "benefit": "",
     "link": "https://www.chery.ru/models/newtiggo8promax/"
   },
@@ -267,7 +243,7 @@
     "id": "chery-tiggo9",
     "brand": "chery",
     "model": "TIGGO 9",
-    "price": "4150000",
+    "price": "3750000",
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo9/"
   },
@@ -323,7 +299,7 @@
     "id": "evolute-i-jet",
     "brand": "evolute",
     "model": "i‑JET",
-    "price": "4350000",
+    "price": "3990000",
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-jet"
   },
@@ -467,7 +443,7 @@
     "id": "haval-h7",
     "brand": "haval",
     "model": "НОВЫЙ H7",
-    "price": "3299000",
+    "price": "3199000",
     "benefit": "",
     "link": "https://haval.ru/models/haval-h7/"
   },
@@ -539,7 +515,7 @@
     "id": "haval-poer-king-kong",
     "brand": "haval",
     "model": "KINGKONG POER",
-    "price": "2899000",
+    "price": "3099000",
     "benefit": "",
     "link": "https://haval.ru/models/poer-king-kong/"
   },
@@ -555,7 +531,7 @@
     "id": "jac-js3",
     "brand": "jac",
     "model": "JS3",
-    "price": "1589000",
+    "price": "1449000",
     "benefit": "",
     "link": "https://jaccar.ru/models/js3/"
   },
@@ -608,6 +584,14 @@
     "link": "https://jaecoo.ru/models/modelj7/"
   },
   {
+    "id": "jaecoo-modelj7-limited-edition",
+    "brand": "jaecoo",
+    "model": "J7 LE",
+    "price": "2559900",
+    "benefit": "",
+    "link": "https://jaecoo.ru/models/modelj7-limited-edition/"
+  },
+  {
     "id": "jaecoo-modelj8",
     "brand": "jaecoo",
     "model": "J8",
@@ -619,7 +603,7 @@
     "id": "jetour-dashing",
     "brand": "jetour",
     "model": "Dashing",
-    "price": "1739900",
+    "price": "1829900",
     "benefit": "",
     "link": "https://jetour-ru.com/models/dashing"
   },
@@ -635,7 +619,7 @@
     "id": "jetour-t2",
     "brand": "jetour",
     "model": "T2",
-    "price": "3159000",
+    "price": "3379000",
     "benefit": "",
     "link": "https://jetour-ru.com/models/t2"
   },
@@ -643,7 +627,7 @@
     "id": "jetour-x50",
     "brand": "jetour",
     "model": "X50",
-    "price": "1440000",
+    "price": "1990000",
     "benefit": "",
     "link": "https://jetour-ru.com/models/x50"
   },
@@ -651,7 +635,7 @@
     "id": "jetour-x70",
     "brand": "jetour",
     "model": "X70",
-    "price": "2049000",
+    "price": "2649000",
     "benefit": "",
     "link": "https://jetour-ru.com/models/x70"
   },
@@ -659,7 +643,7 @@
     "id": "jetour-x70plus",
     "brand": "jetour",
     "model": "X70 Plus",
-    "price": "1949900",
+    "price": "2139900",
     "benefit": "",
     "link": "https://jetour-ru.com/models/x70plus"
   },
@@ -667,17 +651,17 @@
     "id": "jetour-x90plus",
     "brand": "jetour",
     "model": "X90 Plus",
-    "price": "2499900",
+    "price": "2669900",
     "benefit": "",
     "link": "https://jetour-ru.com/models/x90plus"
   },
   {
-    "id": "knewstar-001",
+    "id": "knewstar001",
     "brand": "knewstar",
     "model": "001",
     "price": "3359990",
     "benefit": "",
-    "link": "https://knewstar.ru/model/knewstar-001"
+    "link": "https://knewstar.ru/models/knewstar001/"
   },
   {
     "id": "livan-s6pro",
@@ -739,7 +723,7 @@
     "id": "solaris-hc",
     "brand": "solaris",
     "model": "HC",
-    "price": "1819000",
+    "price": "1979000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-hc"
   },
@@ -755,7 +739,7 @@
     "id": "solaris-krs",
     "brand": "solaris",
     "model": "KRS",
-    "price": "1750000",
+    "price": "1960000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krs"
   },
@@ -763,7 +747,7 @@
     "id": "solaris-krx",
     "brand": "solaris",
     "model": "KRX",
-    "price": "1750000",
+    "price": "1960000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krx"
   },
@@ -771,7 +755,7 @@
     "id": "soueast-s07",
     "brand": "soueast",
     "model": "S07",
-    "price": "2109000",
+    "price": "3099000",
     "benefit": "",
     "link": "https://soueast.ru/s07"
   },
@@ -779,7 +763,7 @@
     "id": "soueast-s09",
     "brand": "soueast",
     "model": "S09",
-    "price": "2449000",
+    "price": "3899000",
     "benefit": "",
     "link": "https://soueast.ru/s09"
   },
@@ -816,10 +800,58 @@
     "link": "https://tank.ru/models/tank-700"
   },
   {
+    "id": "changan-uni-k",
+    "brand": "changan",
+    "model": "UNI-K",
+    "price": "3869900",
+    "benefit": "",
+    "link": "https://uni-motors.ru/model/uni-k"
+  },
+  {
+    "id": "changan-uni-k-idd",
+    "brand": "changan",
+    "model": "UNI-K-IDD",
+    "price": "5119900",
+    "benefit": "",
+    "link": "https://uni-motors.ru/model/uni-k-idd"
+  },
+  {
+    "id": "changan-uni-l",
+    "brand": "changan",
+    "model": "UNI-L",
+    "price": "2469900",
+    "benefit": "",
+    "link": "https://uni-motors.ru/model/uni-l"
+  },
+  {
+    "id": "changan-uni-s",
+    "brand": "changan",
+    "model": "UNI-S",
+    "price": "2799900",
+    "benefit": "",
+    "link": "https://uni-motors.ru/model/uni-s"
+  },
+  {
+    "id": "changan-uni-t",
+    "brand": "changan",
+    "model": "UNI-T",
+    "price": "2269900",
+    "benefit": "",
+    "link": "https://uni-motors.ru/model/uni-t"
+  },
+  {
+    "id": "changan-uni-v",
+    "brand": "changan",
+    "model": "UNI-V",
+    "price": "2379900",
+    "benefit": "",
+    "link": "https://uni-motors.ru/model/uni-v"
+  },
+  {
     "id": "vgv-u70-pro",
     "brand": "vgv",
     "model": "U70PRO",
-    "price": "1899900",
+    "price": "1949900",
     "benefit": "",
     "link": "https://vgvmotor.ru/models/u70-pro/"
   },
@@ -827,7 +859,7 @@
     "id": "vgv-u75-plus",
     "brand": "vgv",
     "model": "U75PLUS",
-    "price": "2349900",
+    "price": "2449900",
     "benefit": "",
     "link": "https://vgvmotor.ru/models/u75-plus/"
   },
@@ -843,7 +875,7 @@
     "id": "wey-07",
     "brand": "wey",
     "model": "07",
-    "price": "6299000",
+    "price": "5999000",
     "benefit": "",
     "link": "https://gwm-wey.ru/models/wey-07"
   },
