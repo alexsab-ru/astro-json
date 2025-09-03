@@ -2767,7 +2767,7 @@
         "slogan": "Начните… с TIGGO 4 !",
         "name": "TIGGO 4",
         "price": "{{price-chery-tiggo4}}",
-        "benefit": 300000,
+        "benefit": "{{benefit-chery-tiggo4}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -2906,7 +2906,7 @@
         "slogan": "18 years edition*",
         "name": "TIGGO 4 PRO",
         "price": "{{price-chery-tiggo4pro}}",
-        "benefit": 250000,
+        "benefit": "{{benefit-chery-tiggo4pro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -3053,7 +3053,7 @@
         "slogan": "ЛЮБИМЫЙ СЕМЕЙНЫЙ КРОССОВЕР №1",
         "name": "TIGGO 7 PRO MAX",
         "price": "{{price-chery-newtiggo7promax}}",
-        "benefit": 300000,
+        "benefit": "{{benefit-chery-newtiggo7promax}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -3452,7 +3452,7 @@
         "slogan": "Лидер продаж среди 7-местных кроссоверов",
         "name": "TIGGO  8 PRO MAX",
         "price": "{{price-chery-newtiggo8promax}}",
-        "benefit": 600000,
+        "benefit": "{{benefit-chery-newtiggo8promax}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -3738,7 +3738,7 @@
         "slogan": "",
         "name": "ARRIZO 8",
         "price": "{{price-chery-arrizo8}}",
-        "benefit": 220000,
+        "benefit": "{{benefit-chery-arrizo8}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -3879,7 +3879,7 @@
         "slogan": "Участник программы «Семейный автомобиль»",
         "name": "TIGGO 7 PRO PLUG-IN HYBRID",
         "price": "{{price-chery-tiggo7pro-plug-in-hybrid}}",
-        "benefit": 1151000,
+        "benefit": "{{benefit-chery-tiggo7pro-plug-in-hybrid}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -4002,7 +4002,7 @@
         "slogan": "Участник программы «Семейный автомобиль»",
         "name": "TIGGO 8 PRO PLUG-IN HYBRID",
         "price": "{{price-chery-tiggo8pro-plug-in-hybrid}}",
-        "benefit": 1151000,
+        "benefit": "{{benefit-chery-tiggo8pro-plug-in-hybrid}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -6535,8 +6535,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Coolray",
-        "price": 2024990,
-        "benefit": 410000,
+        "price": "{{price-geely-coolray}}",
+        "benefit": "{{benefit-geely-coolray}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -6794,7 +6794,7 @@
         "slogan": "",
         "name": "Tugella",
         "price": "{{price-geely-newtugella}}",
-        "benefit": 680000,
+        "benefit": "{{benefit-geely-newtugella}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -7165,7 +7165,7 @@
         "slogan": "Добавь эмоциям оборотов",
         "name": "F7x",
         "price": "{{price-haval-new-f7x}}",
-        "benefit": 150000,
+        "benefit": "{{benefit-haval-new-f7x}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -7289,7 +7289,7 @@
         "slogan": "ИНСТИНКТ ПОБЕДИТЕЛЯ",
         "name": "H9",
         "price": "{{price-haval-h9-new}}",
-        "benefit": 300000,
+        "benefit": "{{benefit-haval-h9-new}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -7557,7 +7557,7 @@
         "slogan": "Для независимых и уверенных",
         "name": "H3",
         "price": "{{price-haval-h3}}",
-        "benefit": 400000,
+        "benefit": "{{benefit-haval-h3}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -7697,7 +7697,7 @@
         "slogan": "ЛЮБАЯ ЗАДАЧА ПО РАЗМЕРУ",
         "name": "H5",
         "price": "{{price-haval-h5}}",
-        "benefit": 200000,
+        "benefit": "{{benefit-haval-h5}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -7841,7 +7841,7 @@
         "slogan": "НА УРОВЕНЬ ВЫШЕ",
         "name": "F7",
         "price": "{{price-haval-f7-new2024}}",
-        "benefit": 200000,
+        "benefit": "{{benefit-haval-f7-new2024}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -7995,7 +7995,7 @@
         "slogan": "Добавь динамики!",
         "name": "JOLION",
         "price": "{{price-haval-jolion-new2024}}",
-        "benefit": 200000,
+        "benefit": "{{benefit-haval-jolion-new2024}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -8170,8 +8170,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "M6",
-        "price": "{{price-haval-m6}}",
-        "benefit": 250000,
+        "price": "{{price-haval-new-m6}}",
+        "benefit": "{{benefit-haval-new-m6}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -8214,7 +8214,7 @@
         "complectations": [
             {
                 "name": "1,5 MT",
-                "price": 1929000,
+                "price": "{{price-haval-new-m6}}",
                 "bodytype": "5-дверный универсал",
                 "engine": "1.5 м3",
                 "engine_power": "143",
@@ -8288,8 +8288,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ПОВОД ПРОЯВИТЬ ХАРАКТЕР",
         "name": "DARGO X",
-        "price": "{{price-haval-dargo-x}}",
-        "benefit": 200000,
+        "price": "{{price-haval-new-dargo-x}}",
+        "benefit": "{{benefit-haval-new-dargo-x}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -8338,7 +8338,7 @@
         "complectations": [
             {
                 "name": "ELITE 2.0T 4WD",
-                "price": "{{price-haval-dargo-x}}",
+                "price": "{{price-haval-new-dargo-x}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "192",
@@ -8411,8 +8411,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ПОВОД ПРОЯВИТЬ ХАРАКТЕР",
         "name": "DARGO",
-        "price": "{{price-haval-dargo}}",
-        "benefit": 200000,
+        "price": "{{price-haval-new-dargo}}",
+        "benefit": "{{benefit-haval-new-dargo}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -8461,7 +8461,7 @@
         "complectations": [
             {
                 "name": "COMFORT 2.0T",
-                "price": "{{price-haval-dargo}}",
+                "price": "{{price-haval-new-dargo}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "192",
@@ -8555,7 +8555,7 @@
         "slogan": "Современный, практичный, готовый ко всему",
         "name": "POER KINGKONG",
         "price": "{{price-haval-poer-king-kong}}",
-        "benefit": 200000,
+        "benefit": "{{benefit-haval-poer-king-kong}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -8711,7 +8711,7 @@
         "slogan": "КОМФОРТ ВНЕ ЗОНЫ КОМФОРТА",
         "name": "POER",
         "price": "{{price-haval-poer}}",
-        "benefit": 100000,
+        "benefit": "{{benefit-haval-poer}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -10273,7 +10273,7 @@
         "slogan": "Следуй за открытиями",
         "name": "J5",
         "price": "{{price-jaecoo-modelj5}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-jaecoo-modelj5}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -15171,7 +15171,7 @@
         "slogan": "Следуй за открытиями",
         "name": "300",
         "price": "{{price-tank-300}}",
-        "benefit": 700000,
+        "benefit": "{{benefit-tank-300}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -15320,7 +15320,7 @@
         "slogan": "За пределы возможного",
         "name": "400",
         "price": "{{price-tank-400}}",
-        "benefit": 600000,
+        "benefit": "{{benefit-tank-400}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -15443,7 +15443,7 @@
         "slogan": "Веди за собой",
         "name": "500",
         "price": "{{price-tank-500}}",
-        "benefit": 700000,
+        "benefit": "{{benefit-tank-500}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -15586,7 +15586,7 @@
         "slogan": "Сила признания",
         "name": "700",
         "price": "{{price-tank-700}}",
-        "benefit": 900000,
+        "benefit": "{{benefit-tank-700}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -15928,7 +15928,7 @@
         "slogan": "Командный игрок",
         "name": "U70PRO",
         "price": "{{price-vgv-u70-pro}}",
-        "benefit": 500000,
+        "benefit": "{{benefit-vgv-u70-pro}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -16093,7 +16093,7 @@
         "slogan": "Большое будущее",
         "name": "U75PLUS",
         "price": "{{price-vgv-u75-plus}}",
-        "benefit": 450000,
+        "benefit": "{{benefit-vgv-u75-plus}}",
         "benefits": [
             {
                 "url": "#common-modal",
