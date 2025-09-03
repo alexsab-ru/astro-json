@@ -5,23 +5,31 @@
     "model": "ALSVIN",
     "price": "1400000",
     "benefit": "",
-    "link": "https://changanauto.ru/models/alsvin/"
+    "link": "https://changanauto.ru/model/alsvin"
   },
   {
-    "id": "changan-cs35plusnew",
+    "id": "changan-cs35plus-new",
     "brand": "changan",
     "model": "CS35PLUS NEW",
-    "price": "2019900",
+    "price": "2119900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/cs35plusnew/"
+    "link": "https://changanauto.ru/model/cs35plus-new"
   },
   {
-    "id": "changan-cs75plusnew",
+    "id": "changan-cs55plus",
+    "brand": "changan",
+    "model": "CS55 PLUS",
+    "price": "2799900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/cs55plus"
+  },
+  {
+    "id": "changan-cs75plus-new",
     "brand": "changan",
     "model": "CS75PLUS",
-    "price": "2840000",
+    "price": "3290000",
     "benefit": "",
-    "link": "https://changanauto.ru/models/cs75plusnew/"
+    "link": "https://changanauto.ru/model/cs75plus-new"
   },
   {
     "id": "changan-cs95new",
@@ -29,23 +37,23 @@
     "model": "CS95",
     "price": "3929900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/cs95new/"
+    "link": "https://changanauto.ru/model/cs95new"
   },
   {
     "id": "changan-eadoplus",
     "brand": "changan",
     "model": "EADOplus",
-    "price": "2129900",
+    "price": "2329900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/eadoplus/"
+    "link": "https://changanauto.ru/model/eadoplus"
   },
   {
-    "id": "changan-hunter",
+    "id": "changan-hunterplus",
     "brand": "changan",
-    "model": "HUNTERplus",
+    "model": "HUNTER PLUS",
     "price": "3129900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/hunter/"
+    "link": "https://changanauto.ru/model/hunterplus"
   },
   {
     "id": "changan-lamore",
@@ -53,54 +61,14 @@
     "model": "Lamore",
     "price": "2469900",
     "benefit": "",
-    "link": "https://changanauto.ru/models/lamore/"
+    "link": "https://changanauto.ru/model/lamore"
   },
   {
     "id": "changan-star-truck",
     "brand": "changan",
     "model": "Star Truck",
-    "price": "1769000",
+    "price": "2069000",
     "benefit": "",
-    "link": "https://changanauto.ru/models/star-truck/"
-  },
-  {
-    "id": "changan-uni-k",
-    "brand": "changan",
-    "model": "UNI-K",
-    "price": "3369900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-k/"
-  },
-  {
-    "id": "changan-uni-k_idd",
-    "brand": "changan",
-    "model": "UNI-K iDD",
-    "price": "3769900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-k_idd/"
-  },
-  {
-    "id": "changan-uni-s",
-    "brand": "changan",
-    "model": "UNI-S / CS55PLUS",
-    "price": "2449900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-s/"
-  },
-  {
-    "id": "changan-uni-t",
-    "brand": "changan",
-    "model": "UNI-T",
-    "price": "2269900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-t/"
-  },
-  {
-    "id": "changan-uni-v",
-    "brand": "changan",
-    "model": "UNI-V",
-    "price": "2379900",
-    "benefit": "",
-    "link": "https://changanauto.ru/models/uni-v/"
+    "link": "https://changanauto.ru/model/star-truck"
   }
 ]
