@@ -304,7 +304,7 @@ jobs:
         run: |
             git config --local user.email "support+actions@github.com"
             git config --local user.name "github-actions-bot"
-            if [[ $(find ./src -type f -name "*.json") ]]; then git add $(find ./src -type f -name "*.json"); fi
+            find ./src -type f -name "*.json" -print0 | xargs -0 -r git add
             git commit -m "Update all cars data" -a || echo "No changes to commit"
             git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
             git push origin $GITHUB_REF_NAME
