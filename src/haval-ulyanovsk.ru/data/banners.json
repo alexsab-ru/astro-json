@@ -140,7 +140,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/haval/f7.webp"
         },
         "title": "<span class=\"text-xl font-light\">Новое поколение</span><br/> HAVAL F7",
-        "descr": "Цена&nbsp;от&nbsp;2&nbsp;699&nbsp;000&nbsp;₽",
+        "descr": "Цена&nbsp;от&nbsp;{{priceb-haval-f7-new2024}}<sup>*</sup>",
         "btn": "Подробнее",
         "btnUrl": "/cars/?model=f7+ii",
         "dataTitle": "Подробнее HAVAL F7",
@@ -176,7 +176,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/haval/h5.webp"
         },
         "title": "<span class=\"text-xl font-light\">Новый</span><br/> HAVAL H5",
-        "descr": "Цена&nbsp;от&nbsp;3&nbsp;599&nbsp;000&nbsp;₽",
+        "descr": "Цена&nbsp;от&nbsp;{{priceb-haval-h5}}<sup>*</sup>",
         "btn": "Подробнее",
         "btnUrl": "/cars/?model=h5+ii",
         "dataTitle": "Подробнее HAVAL H5",
@@ -193,7 +193,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/haval/jolion.webp"
         },
         "title": "HAVAL JOLION",
-        "descr": "Цена&nbsp;от&nbsp;1&nbsp;949&nbsp;000&nbsp;₽",
+        "descr": "Цена&nbsp;от&nbsp;{{priceb-haval-jolion-new2024}}<sup>*</sup>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Подробнее HAVAL JOLION",
@@ -211,7 +211,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval_h9_ext_022-640x800.webp"
         },
         "title": "<span class=\"text-xl font-light\">Новое поколение</span><br/> HAVAL H9",
-        "descr": "Цена&nbsp;от&nbsp;4&nbsp;199&nbsp;000&nbsp;₽",
+        "descr": "Цена&nbsp;от&nbsp;{{priceb-haval-h9-new}}<sup>*</sup>",
         "btn": "Подробнее",
         "btnUrl": "/cars/?model=h9+ii",
         "dataTitle": "Подробнее HAVAL H9",
@@ -228,7 +228,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/haval/h3.webp"
         },
         "title": "HAVAL H3",
-        "descr": "Выгода&nbsp;350&nbsp;000&nbsp;₽",
+        "descr": "Выгода&nbsp;{{benefitb-haval-h3}}<sup>*</sup>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Подробнее HAVAL H3",
