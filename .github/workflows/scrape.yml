@@ -19,26 +19,27 @@ on:
         required: true
         options:
           - all
-          - geely
+          - baic
           - belgee
-          - jac
-          - jetour
-          - livan
-          - gac
           - changan
-          - vgv
-          - tank
-          - haval
-          - omoda
-          - jaecoo
           - chery
           - evolute
+          - gac
+          - geely
+          - haval
+          - jac
+          - jaecoo
+          - jetour
           - kaiyi
-          - baic
-          - soueast
           - knewstar
-          - wey
+          - livan
+          - omoda
           - solaris
+          - soueast
+          - tank
+          - uni
+          - vgv
+          - wey
       commit_changes:
         description: 'Commit changes to repository'
         type: boolean
@@ -141,6 +142,8 @@ jobs:
               echo "brand=wey" >> $GITHUB_OUTPUT
             elif [[ "${{ github.event.path }}" == *"solaris"* ]]; then
               echo "brand=solaris" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.path }}" == *"uni"* ]]; then
+              echo "brand=uni" >> $GITHUB_OUTPUT
             else
               echo "brand=all" >> $GITHUB_OUTPUT
             fi
@@ -246,6 +249,11 @@ jobs:
       - name: Scrape Solaris
         if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'solaris' }}
         run: pnpm run scrape-solaris
+        continue-on-error: true
+
+      - name: Scrape Uni
+        if: ${{ steps.set_brand.outputs.brand == 'all' || steps.set_brand.outputs.brand == 'uni' }}
+        run: pnpm run scrape-uni
         continue-on-error: true
       
       - name: Scrape kaiyi-auto.ru
