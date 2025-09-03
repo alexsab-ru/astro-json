@@ -24,6 +24,7 @@
     "scrape-solaris": "sh ./.github/scripts/sh/scrape-solaris.sh",
     "scrape-soueast": "sh ./.github/scripts/sh/scrape-soueast.sh",
     "scrape-tank": "sh ./.github/scripts/sh/scrape-tank.sh",
+    "scrape-uni": "sh ./.github/scripts/sh/scrape-uni.sh",
     "scrape-vgv": "sh ./.github/scripts/sh/scrape-vgv.sh",
     "scrape-wey": "sh ./.github/scripts/sh/scrape-wey.sh",
     "scrape-wey-js": "sh ./.github/scripts/sh/scrape-wey-js.sh",
