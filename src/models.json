@@ -7164,7 +7164,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Добавь эмоциям оборотов",
         "name": "F7x",
-        "price": "{{price-haval-f7x}}",
+        "price": "{{price-haval-new-f7x}}",
         "benefit": 150000,
         "benefits": [
             {
@@ -7214,7 +7214,7 @@
         "complectations": [
             {
                 "name": "4WD Premium",
-                "price": "{{price-haval-f7x}}",
+                "price": "{{price-haval-new-f7x}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "192",
