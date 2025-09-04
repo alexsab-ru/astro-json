@@ -9,7 +9,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/mobile.webp"
         },
         "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/tablet.webp",
-        "title": "Цена от {{price-changan-cs75plusnew}}",
+        "title": "Цена от {{price-changan-cs75plus-new}}",
         "descr": "Changan CS75 Plus New<br />BLUE CORE 2.0Т / 232 Л.С. / 8АТ AISIN<br />&#9733&#9733&#9733&#9733&#9733 ПО БЕЗОПАСНОСТИ C-NCAP",
         "btn": "Подробнее",
         "btnUrl": "/models/cs75plusnew/",
@@ -55,7 +55,7 @@
             "mobile": "bottom"
         },
         "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/tablet.webp",
-        "title": "Выгода на Changan CS35<br />до {{benefit-changan-cs35plusnew}}",
+        "title": "Выгода на Changan CS35<br />до {{benefit-changan-cs35plus-new}}",
         "descr": "Почувствуй пульс города!",
         "btn": "Подробнее",
         "btnUrl": "/models/cs35plusnew/",

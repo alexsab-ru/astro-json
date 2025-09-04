@@ -50,7 +50,7 @@
         "complectations": [
             {
                 "name": "Premium",
-                "price": "{{price-wey-wey-05}}",
+                "price": "{{price-wey-05}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "150",
@@ -150,7 +150,7 @@
         "complectations": [
             {
                 "name": "Premium",
-                "price": "{{price-wey-wey-07}}",
+                "price": "{{price-wey-07}}",
                 "bodytype": "5-дверный универсал",
                 "engine": "1.5 м3",
                 "engine_power": "150",
@@ -251,7 +251,7 @@
         "complectations": [
             {
                 "name": "Premium",
-                "price": "{{price-wey-wey-80-premium}}",
+                "price": "{{price-wey-80-premium}}",
                 "bodytype": "5-дверный минивэн",
                 "engine": "1.5 м3",
                 "engine_power": "152",
@@ -345,7 +345,7 @@
         "complectations": [
             {
                 "name": "Business Lounge",
-                "price": "{{price-wey-wey-80-business-lounge}}",
+                "price": "{{price-wey-80-business-lounge}}",
                 "bodytype": "5-дверный минивэн",
                 "engine": "1.5 м3",
                 "engine_power": "152",

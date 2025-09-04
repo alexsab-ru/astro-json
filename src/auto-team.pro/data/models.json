@@ -6,8 +6,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вдохновлен путешествиями",
         "name": "CS75PLUS NEW",
-        "price": "{{price-changan-cs75plusnew}}",
-        "benefit": "{{benefit-changan-cs75plusnew}}",
+        "price": "{{price-changan-cs75plus-new}}",
+        "benefit": "{{benefit-changan-cs75plus-new}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -228,8 +228,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Пульс города",
         "name": "CS35PLUS NEW",
-        "price": "{{price-changan-cs35plusnew}}",
-        "benefit": "{{benefit-changan-cs35plusnew}}",
+        "price": "{{price-changan-cs35plus-new}}",
+        "benefit": "{{benefit-changan-cs35plus-new}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -685,8 +685,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вдохновлен путешествиями",
         "name": "CS75plus",
-        "price": "{{price-changan-cs75plus}}",
-        "benefit": "{{benefit-changan-cs75plus}}",
+        "price": "{{price-changan-cs75plus-new}}",
+        "benefit": "{{benefit-changan-cs75plus-new}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -919,8 +919,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Новые горизонты",
         "name": "CS95",
-        "price": "{{price-changan-cs95}}",
-        "benefit": "{{benefit-changan-cs95}}",
+        "price": "{{price-changan-cs95new}}",
+        "benefit": "{{benefit-changan-cs95new}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1486,8 +1486,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Свобода приключений",
         "name": "HUNTERplus",
-        "price": "{{price-changan-hunter}}",
-        "benefit": "{{benefit-changan-hunter}}",
+        "price": "{{price-changan-hunterplus}}",
+        "benefit": "{{benefit-changan-hunterplus}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1601,8 +1601,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Притяжение индивидуальности",
         "name": "UNI-K iDD",
-        "price": "{{price-changan-uni-k_idd}}",
-        "benefit": "{{benefit-changan-uni-k_idd}}",
+        "price": "{{price-changan-uni-k-idd}}",
+        "benefit": "{{benefit-changan-uni-k-idd}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1715,8 +1715,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Современные технологии",
         "name": "Новый 001",
-        "price": "{{price-knewstar-001}}",
-        "benefit": "{{benefit-knewstar-001}}",
+        "price": "{{price-knewstar001}}",
+        "benefit": "{{benefit-knewstar001}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1765,7 +1765,7 @@
         "complectations": [
             {
                 "name": "Luxury",
-                "price": "{{price-knewstar-001}}",
+                "price": "{{price-knewstar001}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -2290,8 +2290,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Atlas Pro",
-        "price": "{{price-geely-atlaspro}}",
-        "benefit": "{{benefit-geely-atlaspro}}",
+        "price": "{{price-geely-atlas-2024}}",
+        "benefit": "{{benefit-geely-atlas-2024}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -3044,8 +3044,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Belgee X50",
-        "price": "{{price-geely-belgee-x50}}",
-        "benefit": "{{benefit-geely-belgee-x50}}",
+        "price": "{{price-belgee-x50}}",
+        "benefit": "{{benefit-belgee-x50}}",
         "benefits": [
             {
                 "url": "#common-modal",

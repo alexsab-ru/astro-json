@@ -6,7 +6,7 @@
         "homeImg": "https://tank.alexsab.ru/img/model-bg.webp",
         "slogan": "Практичность и комфорт",
         "name": "U5 Plus",
-        "price": "{{price-u5-plus}}",
+        "price": "{{price-baic-u5_plus}}",
         "benefit": 750000,
         "benefits": [
             {

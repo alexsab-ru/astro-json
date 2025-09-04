@@ -6,7 +6,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Добавь эмоциям оборотов",
         "name": "НОВЫЙ F7x",
-        "price": "{{price-haval-new-haval-f7x}}",
+        "price": "{{price-haval-new-f7x}}",
         "benefit": 150000,
         "benefits": [
             {
@@ -56,7 +56,7 @@
         "complectations": [
             {
                 "name": "4WD Premium",
-                "price": "{{price-haval-new-haval-f7x}}",
+                "price": "{{price-haval-new-f7x}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "192",
@@ -130,7 +130,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ИНСТИНКТ ПОБЕДИТЕЛЯ",
         "name": "H9",
-        "price": "{{price-haval-haval-h9-new}}",
+        "price": "{{price-haval-h9-new}}",
         "benefit": 300000,
         "benefits": [
             {
@@ -274,7 +274,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Для независимых и уверенных",
         "name": "H3",
-        "price": "{{price-haval-haval-h3}}",
+        "price": "{{price-haval-h3}}",
         "benefit": 400000,
         "benefits": [
             {
@@ -414,7 +414,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ЛЮБАЯ ЗАДАЧА ПО РАЗМЕРУ",
         "name": "H5",
-        "price": "{{price-haval-haval-h5}}",
+        "price": "{{price-haval-h5}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -558,7 +558,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "НА УРОВЕНЬ ВЫШЕ",
         "name": "F7",
-        "price": "{{price-haval-haval-f7-new2024}}",
+        "price": "{{price-haval-f7-new2024}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -712,7 +712,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Добавь динамики!",
         "name": "JOLION",
-        "price": "{{price-haval-haval-jolion-new2024}}",
+        "price": "{{price-haval-jolion-new2024}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -888,7 +888,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "M6",
-        "price": "{{price-haval-new-haval-m6}}",
+        "price": "{{price-haval-new-m6}}",
         "benefit": 250000,
         "benefits": [
             {
@@ -1006,7 +1006,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ПОВОД ПРОЯВИТЬ ХАРАКТЕР",
         "name": "DARGO X",
-        "price": "{{price-haval-new-haval-dargo-x}}",
+        "price": "{{price-haval-new-dargo-x}}",
         "benefit": 200000,
         "benefits": [
             {
@@ -1129,7 +1129,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ПОВОД ПРОЯВИТЬ ХАРАКТЕР",
         "name": "DARGO",
-        "price": "{{price-haval-new-haval-dargo}}",
+        "price": "{{price-haval-new-dargo}}",
         "benefit": 200000,
         "benefits": [
             {

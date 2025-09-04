@@ -1572,8 +1572,8 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Современные технологии",
         "name": "Новый 001",
-        "price": "{{price-knewstar-001}}",
-        "benefit": "{{benefit-knewstar-001}}",
+        "price": "{{price-knewstar001}}",
+        "benefit": "{{benefit-knewstar001}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -1616,7 +1616,7 @@
         "complectations": [
             {
                 "name": "Luxury",
-                "price": "{{price-knewstar-001}}",
+                "price": "{{price-knewstar001}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -2163,7 +2163,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Atlas Pro",
-        "price": "{{price-geely-atlaspro}}",
+        "price": "{{price-geely-atlas-2024}}",
         "benefit": 600000,
         "benefits": [
             {
@@ -2917,7 +2917,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "Belgee X50",
-        "price": "{{price-geely-belgee-x50}}",
+        "price": "{{price-belgee-x50}}",
         "benefit": 320000,
         "benefits": [
             {
