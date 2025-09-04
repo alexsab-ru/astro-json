@@ -5,5 +5,12 @@ export ID_XPATH="concat('changan-', substring-after(./a[contains(@href,'https://
 export MODEL_XPATH="translate(substring-after(./a[contains(@href,'https://uni-motors.ru/model/')]/@href, '/model/'),'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')"
 export PRICE_XPATH=".//meta[@itemprop='price']/@content"
 export LINK_XPATH=".//a[contains(@href,'https://uni-motors.ru/model/')]/@href"
+
+export ITEM_CSS="a[href^='https://uni-motors.ru'][class^='group']"
+export MODEL_CSS="img"
+export PRICE_CSS="img+span"
+export LINK_CSS="a[data-learn-more-model-catalog]"
 export OUTPUT_PATHS="./src/uni.alexsab.ru/data/cars.json"
-node .github/scripts/scrape.js
+
+# node .github/scripts/scrape.js
+node .github/scripts/scrapejs/scrape.js
