@@ -1,5 +1,6 @@
 const Selector = {
   IMG: 'img',
+  META: 'meta'
 };
 
 const Brand = {
@@ -42,7 +43,7 @@ const getId = (brand, url) => {
  * Если модель не обнаружена — бросается ошибка с пояснением и брендом.
  */
 const getModel = async (element, selector, brand, url) => {
-  // Вариант, когда модель берём из ссылки на картинку/страницу
+  // Вариант, когда модель берём из ссылки на страницу. В selector (MODEL_CSS) можно просто указать тег img. Пример scrape-uni.sh
   if (selector === Selector.IMG) {
     let modelText = checkLink(url, brand);
     modelText = modelText.replace(/\/$/, '').split('/').pop();
