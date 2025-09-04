@@ -3,6 +3,24 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-767x767.webp"
+        },
+        "title": "Встречайте совершенно новый <br/><img src=\"https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/logo-t1.png\" class=\"mt-5 max-w-[400px]\" alt=\"Jetour T1\" />",
+        "descr": "Скоро анонс!",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Подробнее про новый JETOUR&nbsp;T1",
+        "dataFormName": "Подробнее про JETOUR T1. Баннер",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/b/jetour/img/news/alpha/letnie-vygody-jetour-prodlevaet-specialnye-predlozheniya-na-pokupku-avtomobilej-v-iyune/letnie-vygody-jetour_1920x1080.webp",
