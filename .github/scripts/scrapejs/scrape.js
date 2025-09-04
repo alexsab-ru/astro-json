@@ -22,7 +22,7 @@ const url = process.env.URL;
   let data;
   let retryCount = 0;
 
-  console.log(`Сайт ${brand.toUpperCase()} ${url}`);
+  console.log(`Бренд ${brand.toUpperCase()}, сайт ${url}`);
   while (retryCount <= MAX_RETRIES) {
     console.log(`Попытка получения данных ${retryCount + 1} из ${MAX_RETRIES} ...`);
     try {
