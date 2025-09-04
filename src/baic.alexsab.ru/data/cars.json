@@ -46,5 +46,13 @@
     "price": 3025000,
     "benefit": 0,
     "link": "/models/bj40/"
+  },
+  {
+    "id": "baic-bj60",
+    "brand": "baic",
+    "model": "BJ60",
+    "price": 5300000,
+    "benefit": 0,
+    "link": "/models/bj60/"
   }
 ]
