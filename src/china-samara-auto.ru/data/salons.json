@@ -4,6 +4,7 @@
         "address": "г. Самара, Южное ш., 12, стр.3",
         "phone":  "8 (846) 321-09-09",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/omoda-locator.svg",
@@ -15,6 +16,7 @@
         "address": "г. Самара, Демократическая ул., 55, оф.2",
         "phone": "8 (846) 222-11-11",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/exeed-locator.svg",
@@ -26,6 +28,7 @@
         "address": "г. Самара, ул. Ново-Урицкая, д. 22",
         "phone": "8 (846) 977-77-79",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/soueast-locator.svg",
@@ -37,6 +40,7 @@
         "address": "г. Самара, Ново-Урицкая, 22",
         "phone": "8 (846) 977-77-07",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/jac-locator.svg",
@@ -48,6 +52,7 @@
         "address": "г. Самара, Московское шоссе, 262 А",
         "phone": "8 (846) 377-73-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/belgee-locator.svg",
@@ -59,6 +64,7 @@
         "address": "г. Самара, Южное ш., 12, стр.3",
         "phone": "8 (846) 321-09-09",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/jaecoo-locator.svg",
@@ -70,6 +76,7 @@
         "address": "г. Самара, Южное шоссе, д. 12, стр. 4",
         "phone": "8 (846) 993-68-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/gac-locator.svg",
@@ -81,6 +88,7 @@
         "address": "г. Самара, Московское шоссе, 19-й километр, 7",
         "phone": "8 (846) 279-00-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/baic-locator.svg",
@@ -92,6 +100,7 @@
         "address": "г. Самара, ул. Ново-Урицкая, д. 22",
         "phone": "8 (846) 977-77-10",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/baic-locator.svg",
@@ -103,6 +112,7 @@
         "address": "г. Самара, Московское шоссе, 19-й километр, 7",
         "phone": "8 (846) 279-00-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/kaiyi-locator.svg",
@@ -114,6 +124,7 @@
         "address": "г. Самара, ул. Ново-Урицкая, д. 22",
         "phone": "8 (846) 977-77-79",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/jetour-locator.svg",
@@ -125,6 +136,7 @@
         "address": "г. Самара, Московское шоссе, 262 А",
         "phone": "8 (846) 205-99-98",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/dongfeng-locator.svg",
@@ -136,6 +148,7 @@
         "address": "г. Самара, ул. Ново-Урицкая, д. 22",
         "phone": "8 (846) 977-77-72",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/livan-locator.svg",
@@ -147,6 +160,7 @@
         "address": "г. Самара, Южное шоссе, 12, стр.4",
         "phone": "8 (846) 979-70-00",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/geely-locator.svg",
@@ -158,6 +172,7 @@
         "address": "г. Самара, Антонова-Овсеенко ул., 46",
         "phone": "8 (846) 212-01-01",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/chery-locator.svg",
@@ -169,6 +184,7 @@
         "address": "г. Самара, ул. Ново-Урицкая, д. 22",
         "phone": "8 (846) 977-77-75",
         "work_hours": "пн — вс: 8:00 — 20:00",
+        "hidden_in": ["footer"],
         "map": {
             "zoom": 13,
             "balloon": "https://cdn.alexsab.ru/locator/kaiyi-locator.svg",
