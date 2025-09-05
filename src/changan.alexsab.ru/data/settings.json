@@ -28,5 +28,6 @@
     "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
     "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
     "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
-    "improve_offer_background": "https://cdn.alexsab.ru/b/changan/img/konkurenty.webp"
+    "improve_offer_background": "https://cdn.alexsab.ru/b/changan/img/konkurenty.webp",
+    "footer_disclaimer": ""
 }
