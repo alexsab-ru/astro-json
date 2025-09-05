@@ -810,6 +810,30 @@
             }}
     },
     "Jetour": {
+        "T1": {
+            "short": "T1",
+            "folder": "t1",
+            "cyrillic": "Т1",
+            "color": {
+                "Black": "black.webp",
+                "Черный": "black.webp",
+                "Чёрный": "black.webp",
+                "Silver": "silver.webp",
+                "Lightgray": "silver.webp",
+                "Серебряный": "silver.webp",
+                "Светло-серый": "silver.webp",
+                "Золотой": "gold.webp",
+                "Gold": "gold.webp",
+                "Белый": "white.webp",
+                "White": "white.webp",
+                "Зеленый": "green.webp",
+                "Зелёный": "green.webp",
+                "Green": "green.webp",
+                "Blue": "light-blue.webp",
+                "Light Blue": "light-blue.webp",
+                "Голубой": "light-blue.webp"
+            }
+        },
         "Dashing, I": {
             "short": "Dashing",
             "folder": "dashing",
