@@ -2,79 +2,161 @@
     {
         "id": 1,
         "show": true,
-        "type": "video",
-        "view": "popup-link",
-        "video": {
-            "desktop": "https://alexsab.ru/video/jetour-dashing-compress.mp4"
-        },
+        "type": "",
+        "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/models/default-model-bg.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/bj40wide.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/bj40wide.webp"
         },
-        "title": "Заголовок баннера до 31.08.2024",
-        "descr": "Подзаголовок баннера может быть длиннее или короче за 1 234 567 ₽",
-        "btn": "Онлайн запись",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Онлайн запись",
-        "dataFormName": "Онлайн запись. Баннер",
-        "badge": {
-            "autoname": "Jetour Dashing",
-            "title": "Ежегодная национальная премия",
-            "descr": "Победитель номинации <br>«новинка в&nbsp;массовом сегменте»",
-            "image": "https://jetour-alpha.ru/img/badge-4x4-2024.png"
-        },
+        "title": "Выгода до 500 000 ₽ на BAIC",
+        "descr": "Кредит без первоначального взноса.",
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=BAIC",
+        "badge": {},
         "autoplay": 6000
     },
     {
         "id": 2,
         "show": true,
         "type": "",
-        "view": "popup-link",
+        "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/models/default-model-bg.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/kaiyi-x3-comfort.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/kaiyi-x3-comfort.webp"
         },
-        "title": "Заголовок баннера 2 до 31.08.2024",
-        "descr": "Подзаголовок баннера",
-        "btn": "Онлайн запись",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Онлайн запись",
-        "dataFormName": "Онлайн запись. Баннер",
-        "badge": "",
-        "autoplay": 5000
+        "title": "Выгода до 500 000 ₽ на KAIYI",
+        "descr": "Кредит без первоначального взноса.",
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=KAIYI",
+        "badge": {},
+        "autoplay": 6000
     },
     {
         "id": 3,
         "show": true,
         "type": "",
-        "view": "popup-link",
+        "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/models/default-model-bg.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/banner.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/banner.webp"
         },
-        "title": "Заголовок баннера 2 до 31.08.2024",
-        "descr": "Подзаголовок баннера",
-        "btn": "Онлайн запись",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Онлайн запись",
-        "dataFormName": "Онлайн запись. Баннер",
-        "badge": "",
-        "autoplay": 5000
+        "title": "Выгода до 550 000 ₽ на LIVAN",
+        "descr": "Кредит без первоначального взноса.",
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=LIVAN",
+        "badge": {},
+        "autoplay": 6000
     },
     {
         "id": 4,
         "show": true,
         "type": "",
-        "view": "",
+        "view": "link",
         "image": {
-            "desktop": "https://jetour-alpha.ru/img/banners/t2-kv.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/jetour-spring-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/jetour-spring-1920x1080.webp"
         },
-        "bannerUrl": "/special-offers/test/",
-        "target": "_blank",
-        "title": "",
+        "title": "Выгода до 800 000 ₽ на JETOUR",
         "descr": "",
-        "btn": "",
-        "btnUrl": "",
-        "dataTitle": "",
-        "dataFormName": "",
-        "badge": "",
-        "autoplay": 5000
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=JETOUR",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 5,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/1st_banner_3000x2000_5089880001841022436_hudceef0397239b0fb4a82735210cec0df_0_3840x0_resize_q80_lanczos.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/1st_banner_3000x2000_5089880001841022436_hudceef0397239b0fb4a82735210cec0df_0_3840x0_resize_q80_lanczos.webp"
+        },
+        "title": "Выгода до 750 000 ₽ на CHERY",
+        "descr": "В кредит без первоначального взноса до 96 месяцев.",
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=CHERY",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 6,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/Exeed_VX_KV_15298609357129122852_hua57b7b22fbf7b239f2d8305252c92eff_0_4c4e5b53d407ff92eb719c76b9ff8dc6.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/Exeed_VX_KV_15298609357129122852_hua57b7b22fbf7b239f2d8305252c92eff_0_4c4e5b53d407ff92eb719c76b9ff8dc6.webp"
+        },
+        "title": "Выгода до 1 010 000 ₽ на EXEED",
+        "descr": "В кредит без первоначального взноса до 96 месяцев.",
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=EXEED",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 7,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/warranty_18116927669910882480_hudf58709a98c33e465dcf47870bd8bd82_0_1920x0_resize_q80_lanczos_3.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/warranty_18116927669910882480_hudf58709a98c33e465dcf47870bd8bd82_0_1920x0_resize_q80_lanczos_3.webp"
+        },
+        "title": "Выгода до 540 000 ₽ на OMODA",
+        "descr": "Рассрочка 0% до 78 месяцев. <br>Кредит без первоначального взноса!",
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=OMODA",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 8,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/sl1-d_6472875274644720561_hu0146f0c9b876ff1ccc2a625836ee9795_0_3840x0_resize_q80_lanczos-1920.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/snapedit_1698668533461.webp"
+        },
+        "title": "Выгода до 640 000 ₽ на JAECOO",
+        "descr": "Рассрочка 0% до 78 месяцев. <br>Кредит без первоначального взноса!",
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=JAECOO",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 9,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/GS8-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/GS8-1920x1080.webp"
+        },
+        "title": "Выгода до 600 000 ₽ на GAC",
+        "descr": "5 лет гарантии",
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=GAC",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 10,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/Monjaro-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/china-samara-auto/Monjaro-1920x1080.webp"
+        },
+        "title": "Выгода до 980 000 ₽ на GEELY",
+        "descr": "5 лет гарантии",
+        "btn": "Подробнее",
+        "btnUrl": "/cars?brand=GEELY",
+        "badge": {},
+        "autoplay": 6000
     }
 ]
