@@ -2033,6 +2033,31 @@
                 "Белый": "white.webp"
             }
         },
+        "J7 LE": {
+            "short": "J7-le",
+            "folder": "j7-limited-edition",
+            "cyrillic": "Джей 7 Эл Е",
+            "color": {
+                "Black": "black.webp",
+                "Черный": "black.webp",
+                "Gray-blue-black": "gray-blue-black.webp",
+                "Серо-голубой-черный": "gray-blue-black.webp",
+                "Gray-blue": "gray-blue.webp",
+                "Серо-голубой": "gray-blue.webp",
+                "Green-black": "green-black.webp",
+                "Зеленый-черный": "green-black.webp",
+                "Green": "green.webp",
+                "Зеленый": "green.webp",
+                "Silver-black": "silver-black.webp",
+                "Серебристо-черный": "silver-black.webp",
+                "Silver": "silver.webp",
+                "Серебряный": "silver.webp",
+                "Серебристый": "silver.webp",
+                "Серый": "silver.webp",
+                "White": "white.webp",
+                "Белый": "white.webp"
+            }
+        },
         "J8": {
             "short": "J8",
             "folder": "j8",
