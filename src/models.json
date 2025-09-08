@@ -10379,8 +10379,8 @@
       "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/t1/bg.jpg",
       "slogan": "Совершенно новый",
       "name": "T1",
-      "price": "",
-      "benefit": "",
+      "price": "{{price-jetour-t1}}",
+      "benefit": "{{benefit-jetour-t1}}",
       "badge": {},
       "benefits": [
         {
