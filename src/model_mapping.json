@@ -40,6 +40,21 @@
                 "Белый": "white.png"
             }
         },
+        "BJ60": {
+            "short": "BJ60",
+            "folder": "bj60",
+            "cyrillic": "БДЖ60",
+            "color": {
+                "Black": "black.png",
+                "Blue": "blue.png",
+                "Green": "green.png",
+                "White": "white.png",
+                "Черный": "black.png",
+                "Синий": "blue.png",
+                "Зеленый": "green.png",
+                "Белый": "white.png"
+            }
+        },
         "U5 Plus": {
             "short": "U5 Plus",
             "folder": "u5-plus",

@@ -734,6 +734,108 @@
         ]
     },
     {
+      "mark_id": "Baic",
+      "id": "bj60",
+      "show": true,
+      "homeImg": "https://cdn.alexsab.ru/models/baic/bj40/bg.webp",
+      "slogan": "От наследия к инновациям!",
+      "name": "BJ60",
+      "price": "{{price-baic-bj60}}",
+      "benefit": "{{benefit-baic-bj60}}",
+      "benefits": [
+            {
+            "url": "#common-modal",
+            "label": "Выгодный трейд-ин",
+            "icon_name": "mdi:credit-card-check-outline",
+            "data_title": "Выгодный трейд-ин",
+            "data_form_name": "Выгодный трейд-ин. BJ60",
+            "view": "popup-link"
+            },
+            {
+            "url": "#common-modal",
+            "label": "Выгодный кредит",
+            "icon_name": "mdi:gift-outline",
+            "data_title": "Выгодный кредит",
+            "data_form_name": "Выгодный кредит. BJ60",
+            "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/models/baic/bj60/thumb.png",
+        "colors": [
+            {
+            "id": "black",
+            "name": "Чёрный",
+            "carImage": "https://cdn.alexsab.ru/models/baic/bj60/colors/black.webp",
+            "style": "background-color: #000000"
+            },
+            {
+            "id": "white",
+            "name": "Белый",
+            "carImage": "https://cdn.alexsab.ru/models/baic/bj60/colors/white.webp",
+            "style": "background-color: #f4f8f8"
+            },
+            {
+            "id": "green",
+            "name": "Зеленый",
+            "carImage": "https://cdn.alexsab.ru/models/baic/bj60/colors/green.webp",
+            "style": "background-color: #49574a"
+            },
+            {
+            "id": "blue",
+            "name": "Синий",
+            "carImage": "https://cdn.alexsab.ru/models/baic/bj60/colors/blue.webp",
+            "style": "background-color: #233f54"
+            }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Дизель",
+            "gearbox": "8AT"
+        },
+        "globalChars": [
+            {
+            "id": "wheelbase",
+            "title": "Колёсная база",
+            "value": "2820",
+            "measure": "мм"
+            },
+            {
+            "id": "length",
+            "title": "Длина",
+            "value": "5040",
+            "measure": "мм"
+            },
+            {
+            "id": "width",
+            "title": "Ширина",
+            "value": "1955",
+            "measure": "мм"
+            },
+            {
+            "id": "engine",
+            "title": "Объем двигателя",
+            "value": "2.0",
+            "measure": "л."
+            },
+            {
+            "id": "torque",
+            "title": "Крутящий момент",
+            "value": "400",
+            "measure": "н.м."
+            },
+            {
+            "id": "transmission",
+            "title": "Привод",
+            "value": "Полный",
+            "measure": ""
+            }
+        ],
+        "priceDisclaimer": "",
+        "benefitDisclaimer": ""
+    },
+    {
         "mark_id": "Belgee",
         "id": "x50",
         "show": true,
