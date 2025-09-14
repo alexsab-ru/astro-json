@@ -34,7 +34,6 @@
     "name": "Мир OMODA",
     "children": [
       {"url": "/about/", "name": "О бренде"},
-      {"url": "/news/", "name": "Новости"},
       {"url": "/contacts/", "name": "Контакты"}
     ]
   },
