@@ -1,5 +1,5 @@
 [
-	{
+    {
         "url": "/cars/", 
         "name": "Авто в наличии"
     },
@@ -16,7 +16,7 @@
         "name": "Модели", 
         "children": "models"
     },
-	{
+    {
         "url": "javascript:void(0)", 
         "name": "Покупателям",
         "children": [
@@ -34,7 +34,7 @@
             }
         ]
     },
-	{
+    {
         "url": "javascript:void(0)", 
         "name": "Владельцам",
         "children": {
