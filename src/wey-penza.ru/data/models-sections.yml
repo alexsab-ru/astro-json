@@ -200,7 +200,7 @@
       sectionClass: ""
       title: Документация
       suptitle: "Может пригодиться"
-      text: "<p><span><a href='https://gwm-wey.ru/uploads/docs/price_list_WEY_07.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://gwm-wey.ru/uploads/files/915bc9845763dad3a373c105bd87c051.pdf' class='underline' target='_blank'>Каталог</a></span></p>"
+      text: "<p><span><a href='https://gwm-wey.ru/uploads/docs/price_list_WEY_07.pdf' class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://gwm-wey.ru/download/document/brochure_wey_07' class='underline' target='_blank'>Каталог</a></span></p>"
 - id: "wey-80-premium"
   sections:
     - id: description
