@@ -11,7 +11,7 @@
             "desktop": "https://cdn.alexsab.ru/models/default-model-bg.webp"
         },
         "title": "Заголовок баннера до 31.08.2024",
-        "descr": "Подзаголовок баннера может быть длиннее или короче за 1 234 567 ₽",
+        "descr": "Подзаголовок баннера может быть длиннее или короче.<br>Актуальная цена от {{priceb-solaris-hc}}",
         "btn": "Онлайн запись",
         "btnUrl": "#common-modal",
         "dataTitle": "Онлайн запись",
