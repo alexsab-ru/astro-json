@@ -5,6 +5,33 @@
         "type": "",
         "view": "link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/atlas-100k/atlas-100k-1920x800.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/geely/atlas-100k/atlas-100k-1200x1200.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/atlas-100k/atlas-100k-640х900-2.webp",
+        },
+        "title": "",
+        "gradient": false,
+        "descr": "",
+        "btn": "",
+        "btnUrl": "",
+        "bannerUrl": "https://www.geely-motors.com/about-geely/news/over-100-000-geely-atlas-crossovers-sold-in-russia/?utm_source=geely-partner-orsk&utm_medium=banner",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/geely/partner-vostok/geely-orsk-4Cars-1920x800.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/geely/partner-vostok/geely-orsk-4Cars-640x900.webp"
         },
