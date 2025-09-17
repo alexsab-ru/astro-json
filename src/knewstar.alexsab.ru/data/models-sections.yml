@@ -97,8 +97,3 @@
         - url: https://cdn.alexsab.ru/b/knewstar/img/models/001/sections/functionality/4.webp
           title: "Система автоматического управления дальним светом"
           description: "Интеллектуальная система управления дальним светом анализирует множество факторов и автоматически переключает дальний свет на ближний и обратно, обеспечивая более безопасное вождение в тёмное время суток на загородных шоссе. Свет фар автоматически переключается не только при приближении к встречному или попутному автомобилю, но и в зависимости от освещённости дороги и скорости движения KNEWSTAR 001."
-    - id: description
-      sectionClass: ""
-      suptitle: "Может пригодиться"
-      title: Руководства
-      text: "<p><span><a href='https://knewstar.ru/upload/iblock/fdd/2hcxy0496rmc7mg5k4j617yqvyue55bz/Rukovodstvo-po-ekspluatatsii-KS-001.pdf' class='underline' target='_blank'>Руководство по эксплуатации KS 001</a><br><a href='https://knewstar.ru/upload/iblock/3b8/mr811cf5rt6i30f3q9zhv0rki2qmq855/Rukovodstvo-po-multimediynoy-sisteme-KS-001.pdf' class='underline' target='_blank'>Руководство по мультимедийной системе KS 001</a></span></p>"
