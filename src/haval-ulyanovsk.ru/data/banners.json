@@ -2,58 +2,27 @@
     {
         "id": 1,
         "show": true,
-        "type": "special",
-        "view": "popup-link",
+        "type": "",
+        "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/Ton-avto_haval_h3_1920х800.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/h7-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/haval/h7-mobile.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/h7-mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "top"
         },
         "bannerUrl": "",
-        "title": "HAVAL H3",
-        "descr": "Рассрочка до 4 лет - 0.01%",
+        "title": "Новый<br>HAVAL H7",
+        "descr": "Цена от {{priceb-haval-h7}}*",
         "btn": "Подробнее",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Рассрочка до 4 лет. HAVAL H3",
-        "dataFormName": "Подробнее. Рассрочка до 4 лет. HAVAL H3. Баннер",
-        "badge": {},
-        "autoplay": 10000
-    },
-    {
-        "id": 1,
-        "show": false,
-        "type": "special",
-        "view": "link",
-        "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/HAVAL-H3-1920x800.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/HAVAL-H3-640x800.webp"
-        },
-        "bannerUrl": "/cars/?model=h9+ii%2Ch7+i%2Ch5+ii%2Ch3&sort_by=price_up",
-        "title": "",
-        "descr": "",
-        "btn": "",
-        "btnUrl": "",
+        "btnUrl": "/models/h7",
         "dataTitle": "",
         "dataFormName": "",
         "badge": {},
-        "autoplay": 10000
-    },
-    {
-        "id": 1,
-        "show": false,
-        "type": "special",
-        "view": "link",
-        "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/unique-collection-desktop-2.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/unique-collection-mobile-2.webp"
-        },
-        "bannerUrl": "/unique-collection/",
-        "title": "",
-        "descr": "",
-        "btn": "",
-        "btnUrl": "",
-        "dataTitle": "",
-        "dataFormName": "",
-        "badge": {},
-        "autoplay": 10000
+        "autoplay": 6000
     },
     {
         "id": 1,
@@ -92,80 +61,6 @@
         "dataFormName": "",
         "badge": {},
         "autoplay": 10000
-    },
-    {
-        "id": 1,
-        "show": false,
-        "type": "special",
-        "view": "link",
-        "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-1920x800.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-pro-640x800.webp"
-        },
-        "bannerUrl": "/cars?model=h3%2Ch5+ii%2Ch9+ii",
-        "title": "",
-        "descr": "",
-        "btn": "",
-        "btnUrl": "",
-        "dataTitle": "",
-        "dataFormName": "",
-        "badge": {},
-        "autoplay": 10000
-    },
-    {
-        "id": 1,
-        "show": false,
-        "type": "special",
-        "view": "link",
-        "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-1920x800.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-640x800.webp"
-        },
-        "bannerUrl": "/cars/?model=jolion+i+рестайлинг",
-        "title": "",
-        "descr": "",
-        "btn": "",
-        "btnUrl": "",
-        "dataTitle": "",
-        "dataFormName": "",
-        "badge": {},
-        "autoplay": 10000
-    },
-    {
-        "id": 1,
-        "show": false,
-        "type": "",
-        "view": "link",
-        "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/f7.webp"
-        },
-        "title": "<span class=\"text-xl font-light\">Новое поколение</span><br/> HAVAL F7",
-        "descr": "Цена&nbsp;от&nbsp;{{priceb-haval-f7-new2024}}<sup>*</sup>",
-        "btn": "Подробнее",
-        "btnUrl": "/cars/?model=f7+ii",
-        "dataTitle": "Подробнее HAVAL F7",
-        "dataFormName": "Подробнее. HAVAL F7. Баннер",
-        "badge": {},
-        "autoplay": 6000
-    },
-    {
-        "id": 1,
-        "show": true,
-        "type": "",
-        "view": "link",
-        "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/H7-desktop.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/H7-mobile.webp"
-        },
-        "bannerUrl": "/cars/?model=h7+i",
-        "title": "",
-        "descr": "",
-        "btn": "",
-        "btnUrl": "",
-        "dataTitle": "Подробнее HAVAL F7",
-        "dataFormName": "Подробнее. HAVAL F7. Баннер",
-        "badge": {},
-        "autoplay": 6000
     },
     {
         "id": 1,
@@ -269,6 +164,42 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Подробнее HAVAL M6",
         "dataFormName": "Подробнее. HAVAL M6. Баннер",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/f7x-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/f7x-mobile.webp"
+        },
+        "title": "Новое поколение<br>HAVAL F7X",
+        "descr": "Цена от {{priceb-haval-new-f7x}}*",
+        "btn": "Подробнее",
+        "btnUrl": "/cars/?model=f7+ii%2Cf7x+i%2Cf7x+ii",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {},
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/f7-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/f7-mobile.webp"
+        },
+        "title": "HAVAL F7",
+        "descr": "Цена от {{priceb-haval-f7-new2024}}*",
+        "btn": "Подробнее",
+        "btnUrl": "/cars/?model=f7+ii%2Cf7x+i%2Cf7x+ii",
+        "dataTitle": "",
+        "dataFormName": "",
         "badge": {},
         "autoplay": 6000
     }
