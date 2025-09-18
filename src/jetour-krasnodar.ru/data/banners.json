@@ -1,6 +1,42 @@
 [
     {
         "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-767x767.webp"
+        },
+        "title": "Встречайте совершенно новый <br/><img src=\"https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/logo-t1.png\" class=\"mt-5 max-w-[400px]\" alt=\"Jetour T1\" />",
+        "descr": "Скоро анонс!",
+        "btn": "Подробнее",
+        "btnUrl": "/models/t1/",
+        "dataTitle": "Подробнее про новый JETOUR&nbsp;T1",
+        "dataFormName": "Подробнее про JETOUR T1. Баннер",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/jetour/first-owners-of-t1/imgi_46_JTGoBo__1920-1080-first-t1.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/jetour/first-owners-of-t1/imgi_79_UbrFHy__767-767-new-t1-mob.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/special-offers/first-owners-of-t1/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {},
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
         "show": false,
         "type": "special",
         "view": "link",
