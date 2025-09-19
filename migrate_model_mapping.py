@@ -242,7 +242,7 @@ def migrate() -> int:
             folder = str(details.get("folder", "")).strip()
             if not folder:
                 # Без folder невозможно сопоставить с models.json
-                print(f"Пропущен вариант модели {model_variant_name} без folder: {details}")
+                print(f"Пропущен вариант модели {brand_l} {model_variant_name} без folder: {details}")
                 continue
 
             cyrillic = details.get("cyrillic")
@@ -252,7 +252,7 @@ def migrate() -> int:
             model_obj = model_index.get(key)
             if not model_obj:
                 # Соответствующая модель в models.json не найдена — пропускаем.
-                print(f"Пропущен вариант модели {model_variant_name} без модели в models.json: {details}")
+                print(f"Пропущен вариант модели {brand_l} {model_variant_name} без модели в models.json: {details}")
                 continue
 
             # 1) feed_names: добавляем вариант названия модели из 1С (ключ из mapping)
