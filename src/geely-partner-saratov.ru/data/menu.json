@@ -1,35 +1,22 @@
 [
   {
-    "url": "/cars/",
-    "name": "Авто в наличии"
-  },
-  {
-    "url": "/models/",
-    "name": "Модели",
-    "children": "models"
-  },
-  {
-    "url": "/for-owners/",
-    "name": "Владельцам"
-  },
-  {
-    "url": "/special-offers/",
+    "url": "/#specials",
     "name": "Спецпредложения"
   },
   {
-    "url": "/test-drive/",
+    "url": "/#models",
+    "name": "Модели"
+  },
+  {
+    "url": "/#test-drive",
     "name": "Запись на тест-драйв"
   },
   {
-    "url": "/service-request/",
-    "name": "Запись на сервис"
+    "url": "/#cars",
+    "name": "Авто в наличии"
   },
   {
-    "url": "/#services",
-    "name": "Услуги"
-  },
-  {
-    "url": "/contacts/",
+    "url": "/#contacts",
     "name": "Контакты"
   }
 ]
