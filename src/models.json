@@ -20422,5 +20422,212 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "Lexus",
+        "id": "ux",
+        "centered": true,
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/lexus/ux/bg.webp",
+        "slogan": "Испытайте невероятное",
+        "name": "UX",
+        "cyrillic": "Юэкс",
+        "price": "{{price-lexus-ux}}",
+        "benefit": "{{benefit-lexus-ux}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. UX",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. UX",
+                "view": "popup-link"
+            },
+            {
+              "url": "#common-modal",
+              "label": "Страхование",
+              "icon_name": "mdi:shield-check",
+              "data_title": "Страхование",
+              "data_form_name": "Страхование. UX",
+              "view": "popup-link"
+            },
+            {
+              "url": "#common-modal",
+              "label": "Лизинг",
+              "icon_name": "mdi:calendar-clock",
+              "data_title": "Лизинг",
+              "data_form_name": "Лизинг. UX",
+              "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/models/lexus/ux/thumb.webp",
+        "colors": [
+            {
+                "id": "white-metallic",
+                "name": "Белый металлик",
+                "names": [
+                    "White Metallic",
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/white-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/white-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "sparkling-white-special-metallic",
+                "name": "Искрящийся белый специальный металлик",
+                "names": [
+                    "Sparkling White Special Metallic",
+                    "Искрящийся белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/sparkling-white-special-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/sparkling-white-special-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "gray-metallic",
+                "name": "Серый металлик",
+                "names": [
+                    "Gray Metallic",
+                    "Серый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/gray-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/gray-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "gray-chrome-metallic",
+                "name": "Серый хром металлик",
+                "names": [
+                    "Gray Chrome Metallic",
+                    "Серый хром"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/gray-chrome-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/gray-chrome-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "light-gray-metallic",
+                "name": "Светло-серый металлик",
+                "names": [
+                    "Light Gray Metallic",
+                    "Светло-серый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/light-gray-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/light-gray-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "black-non-metallic",
+                "name": "Чёрный неметаллик",
+                "names": [
+                    "Black Non-Metallic",
+                    "Чёрный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/black-non-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/black-non-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "black-metallic",
+                "name": "Чёрный металлик",
+                "names": [
+                    "Black Metallic",
+                    "Чёрный металлик"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/black-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/black-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "light-red-non-metallic",
+                "name": "Светло-красный неметаллик",
+                "names": [
+                    "Light Red Non-Metallic",
+                    "Светло-красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/light-red-non-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/light-red-non-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "dark-orange-metallic",
+                "name": "Тёмно-оранжевый металлик",
+                "names": [
+                    "Dark Orange Metallic",
+                    "Тёмно-оранжевый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/dark-orange-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/dark-orange-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "dark-green-metallic",
+                "name": "Тёмно-зелёный металлик",
+                "names": [
+                    "Dark Green Metallic",
+                    "Тёмно-зелёный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/dark-green-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/dark-green-metallic-preview.webp') right center no-repeat"
+            },
+            {
+                "id": "light-blue-metallic",
+                "name": "Голубой металлик",
+                "names": [
+                    "Light Blue Metallic",
+                    "Голубой"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/ux/colors/light-blue-metallic.webp",
+                "style": "background: url('https://cdn.alexsab.ru/models/lexus/ux/colors/light-blue-metallic-preview.webp') right center no-repeat"
+            }
+        ],
+        "feed_names": [
+            "UX"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "Бесступенчатый вариатор D-CVT"
+        },
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2640",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4495",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1840",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "2",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "202",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
     }
 ]
