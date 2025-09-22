@@ -1,6 +1,46 @@
 [
     {
         "id": 2,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hc_desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hc_mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "20%"
+        },
+        "title": "Solaris HC",
+        "descr": "Этой осенью от 1 819 000 р.<br>Программа господдержки <span class=\"tooltip-icon\" data-text=\"Цена достигается за счет выгоды 160 000 рублей по трейд-ин на автомобиль Solaris HC комплектации Prime с двигателем 1.6л, 123 л.с., 6MT, 2025 года производства в дилерских центрах Solaris по данным ООО «АГР». Выгода представляется при сдаче в трейд-ин автомобилей любых марок. Сдаваемый автомобиль должен состоять на учете в ГИБДД, находиться в собственности не менее 6 (шести) месяцев на момент использования его в качестве оплаты за новый. Комплектации автомобилей в наличии могут отличаться от изображения, представленного в данной рекламе. Некоторое из указанного оборудования не входит в базовую комплектацию и устанавливается за дополнительную плату. Не оферта. Реклама. ООО \"АГР\". ИНН 5042059767. Юридический адрес: 248926, Калужская обл., г. Калуга, ул.Автомобильная, д.1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z\" /></svg></span>",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/credits/",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/gosprogramma_desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/gosprogramma_mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "20%"
+        },
+        "title": "Выгода до 25% *",
+        "descr": "По госпрограмме автокредитования",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/gosprogramma/",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 2,
         "show": false,
         "type": "",
         "view": "popup-link",
