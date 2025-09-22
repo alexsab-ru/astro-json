@@ -1,0 +1,279 @@
+- id: "300"
+  sections:
+    - id: hero
+      sectionClass: "!bg-gray-100"
+      title: "Сочетает несочетаемое"
+      text: '<p class="mb-10">Неукротимый внешний вид образует единое целое с впечатляющим комфортным интерьером. А простое на первый взгляд управление — результат множества интеллектуальных функций.</p><video class="block w-full aspect-video object-cover" preload="metadata" autoplay loop playsinline muted poster="https://cdn.alexsab.ru/b/tank/img/models/300/hero.webp"><source src="https://tank.ru/uploads/blocks/b5927b3b8330a9e9ca742ce1c47247fb.mp4" type="video/mp4"></video>'
+
+    - id: features
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/megapolis.webp
+          title: "В ритме мегаполиса"
+          description: "Новая комплектация CITY для городской жизни."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/adventure.webp
+          title: "В духе приключений"
+          description: "Найди эмоции в путешествии с TANK 300."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/ease.webp
+          title: "Легкость управления"
+          description: "Простое управление для максимального комфорта."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/comfort.webp
+          title: "Постоянство комфорта"
+          description: "Чувствуй себя как дома в пути."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/safety.webp
+          title: "Продуманная безопасность"
+          description: "Современные системы безопасности для защиты на дороге."
+
+    - id: megapolis
+      title: "В ритме мегаполиса"
+      suptitle: ""
+      text: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/megapolis/1.webp
+          title: "Интеллектуальный полный привод"
+          description: "Когда вокруг все стремительно меняется, ты остаешься непоколебимым. Благодаря системе интеллектуального полного привода TANK 300 CITY автоматически меняет режим привода в зависимости от дорожных условий."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/megapolis/2.webp
+          title: "Движение в пробке и мониторинг слепых зон"
+          description: "Когда вокруг все стремительно меняется, ты остаешься непоколебимым. Благодаря системе интеллектуального полного привода TANK 300 CITY автоматически меняет режим привода в зависимости от дорожных условий."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/megapolis/3.webp
+          title: "Беспроводная зарядка"
+          description: "Когда вокруг все стремительно меняется, ты остаешься непоколебимым. Благодаря системе интеллектуального полного привода TANK 300 CITY автоматически меняет режим привода в зависимости от дорожных условий."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/megapolis/4.webp
+          title: "Продвинутая система мониторинга слепых зон"
+          description: "Гораздо легче держать все под контролем, когда есть внимательный помощник. С продвинутой системой мониторинга слепых зон TANK 300 CITY ничто не исчезнет из поля твоего зрения."
+
+    - id: adventure
+      title: "В духе приключений"
+      text: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/adventure/1.webp
+          title: "Прочная рама"
+          description: "Как бы окружающий мир ни проверял тебя на прочность, рамный кузов TANK выдержит самую экстремальную нагрузку."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/adventure/2.webp
+          title: "Блокировка всех дифференциалов"
+          description: "С TANK, можно не искать легких путей. С блокировкой переднего и заднего дифференциала ты не ищешь проторенную дорогу, а просто двигаешься туда, куда нужно, не боясь увязнуть."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/adventure/3.webp
+          title: "Всегда найдет выход"
+          description: "Чтобы смело идти вперед, нужна уверенность, что всегда можно повернуть назад. При включении функции «Разворот на месте» TANK снизит вращение внутреннего заднего колеса и выполнит разворот по малому радиусу."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/adventure/4.webp
+          title: "Брутальная внешность"
+          description: "Грациозный и мощный. Простой и яркий. Внешний вид TANK везде  громко заявляет о своем присутствии."
+
+    - id: easeOfDriving
+      title: "Легкость управления"
+      text: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/ease/1.webp
+          title: "Выбор режима движения"
+          description: "Что бы ни оказалось под колесами, это не станет сюрпризом для TANK. Выбери тип поверхности, по которой двигаешься, а TANK обеспечит наилучший контроль за дорогой."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/ease/2.webp
+          title: "Обзор 360°"
+          description: "Широкий обзор — характерная черта TANK. Данные со всех камер объединяются в единую панораму, будто ты наблюдаешь за поездкой откуда-то сверху."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/ease/3.webp
+          title: "Функция «Прозрачный капот»"
+          description: "Ничто не скроется от твоих глаз даже под автомобилем. Фронтальная камера TANK записывает изображение дороги и в нужный момент воссоздает ее на дисплее."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/ease/4.webp
+          title: "Ассистент спуска и подъема"
+          description: "На спусках и подъемах нагрузка возрастает не только на автомобиль, но и на внимание водителя. В сложных условиях нужно следить за скоростью и блокировкой колес. Умный ассистент возьмет это на себя, чтобы ты концентрировался на самой дороге."
+
+    - id: constantComfort
+      title: "Постоянство комфорта"
+      text: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/comfort/1.webp
+          title: "Электропривод сидений"
+          description: "TANK не угадывает, а знает, как тебе будет наиболее комфортно. Электрическая регулировка сидений делает автомобиль удобным именно для тебя."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/comfort/2.webp
+          title: "Сиденья с вентиляцией и массажем"
+          description: "TANK для тех, чья цель — изучить всю полноту мира. Специально созданные для долгих поездок кресла поддержат твой настрой на свершения и не дадут переутомиться."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/comfort/3.webp
+          title: "Аудиосистема 8.1"
+          description: "С премиальным звуком TANK ты почувствуешь все музыкальные нюансы в любой точке внутреннего пространства благодаря 8 динамикам и сабвуферу."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/comfort/4.webp
+          title: "Сервисы TANK Connection"
+          description: "Настраивай время запуска двигателя, меняй температуру в салоне, уточняй геолокацию и многое другое с помощью сервисов TANK Connection."
+
+    - id: smartSafety
+      title: "Продуманная безопасность"
+      text: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/safety/1.webp
+          title: "Функция «умного уклонения»"
+          description: "Обгонять крупногабаритный транспорт не всегда безопасно. TANK помогает совершать маневр на комфортном расстоянии*.<br><br>*Функция «умного уклонения» работает при включенном круиз-контроле."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/safety/2.webp
+          title: "Распознавание дорожных знаков"
+          description: "Какие бы знаки ни посылал тебе мир, важно их вовремя заметить. Камера TANK распознает дорожные знаки, отображает их на панели и выводит подсказки по управлению."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/safety/3.webp
+          title: "Распознавание полосы движения"
+          description: "TANK всегда на своем месте на дороге. Система определит полосу движения, обратит твое внимание при выходе из нее и удержит движение по ее центру*.<br><br>*Функция распознавания полосы движения работает при включенном круиз-контроле."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/safety/4.webp
+          title: "Автоматическое торможение на малой скорости"
+          description: "Любые препятствия можно обойти, но сначала их нужно заметить. На малой скорости TANK следит за потенциальными угрозами столкновения, чтобы осуществить экстренное торможение."
+
+    - id: variants
+      title: "Варианты TANK 300"
+      text: >
+        Выберите свою конфигурацию: ADVENTURE, CITY ADVENTURE, PREMIUM и CITY PREMIUM.
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/variants/adventure.webp
+          title: "ADVENTURE"
+          description: "Основное оборудование: система подключаемого полного привода (Part-Time), блокировка заднего межколёсного дифференциала, отделка сидений искусственной кожей."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/variants/city_adventure.webp
+          title: "CITY ADVENTURE"
+          description: "Основное оборудование: система интеллектуального полного привода (Torque-On-Demand), блокировка заднего межколёсного дифференциала, адаптивный круиз-контроль (ACC)."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/variants/premium.webp
+          title: "PREMIUM"
+          description: "Основное оборудование: система подключаемого полного привода (Part-Time), блокировка заднего и переднего межколёсных дифференциалов, отделка сидений кожей NAPPA."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/300/variants/city_premium.webp
+          title: "CITY PREMIUM"
+          description: "Основное оборудование: система интеллектуального полного привода (Torque-On-Demand), блокировка заднего и переднего межколёсных дифференциалов, адаптивный круиз-контроль с функцией ICA и ассистентом движения в пробке (TJA)."
+
+- id: "500"
+  sections:
+    - id: hero
+      sectionClass: "!bg-gray-100"
+      title: "Расширяет зону комфорта"
+      text: '<p class="mb-10">Где бы ты ни оказался, вместе с TANK ты ощущаешь уверенность в своих силах благодаря убедительному дизайну и техническому преимуществу.</p><video class="block w-full aspect-video object-cover" preload="metadata" autoplay loop playsinline muted poster="https://cdn.alexsab.ru/b/tank/img/models/500/hero.webp"><source src="https://tank.ru/uploads/blocks/4e535a9df30648319e18cbe2e27770d1.mp4" type="video/mp4"></video>'
+
+    - id: features
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/features/blacktrail.webp
+          title: "Возьми все и сразу"
+          description: "Комплектация BLACKTRAIL"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/features/urban.webp
+          title: "Гибрид мощности и эффективности"
+          description: "Комплектация URBAN с гибридной силовой установкой"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/features/comfort.webp
+          title: "Продуманное удобство"
+          description: "Наслаждайся новым уровнем комфорта"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/features/status.webp
+          title: "Неоспоримый статус"
+          description: "Ощущай превосходство в каждой детали"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/features/trust.webp
+          title: "Абсолютное доверие"
+          description: "Замечай угрозы заранее"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/features/confidence.webp
+          title: "Уверенность на любой дороге"
+          description: "Получай только позитив от поездок"
+
+    - id: blacktrail_details
+      title: "Возьми все и сразу"
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/blacktrail_details/black.webp
+          title: "Чёрный в абсолюте"
+          description: "Ваш TANK 500 в комплектации BLACKTRAIL будет бесконечно притягивать взгляды. Его брутальный облик в элегантном чёрном цвете смело заявляет о том, что у обладателя такого автомобиля есть чувство стиля и харизма. Чёрные элементы отделки, чёрный салон, чёрные диски и затемненные фары делают это лучше любых слов."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/blacktrail_details/power.webp
+          title: "Мощнее. Сильнее. Выносливее"
+          description: "Стремительный, выносливый, безотказный! Самый мощный двигатель в линейке TANK 500 — внушительный V6 на 354 л.с. — идеальный помощник в любой ситуации."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/blacktrail_details/volume.webp
+          title: "На все 133 литра"
+          description: "В комплектации BLACKTRAIL вам доступен дополнительный топливный бак на 53 литра. Теперь в вашем распоряжении более 1000 км запаса хода! Стройте маршруты без оглядки на заправки."
+
+    - id: hybrid_efficiency
+      title: "Гибрид мощности и эффективности"
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/hybrid_efficiency/qualities.webp
+          title: "Совмещает лучшие качества"
+          description: "Мощный бензиновый и высокоэффективный электродвигатель, а еще стильный дизайн городского внедорожника и экономичный расход топлива. Да, это TANK 500 Urban с гибридной силовой установкой"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/hybrid_efficiency/seats.webp
+          title: "Места хватит всем"
+          description: "Просторный салон с семью комфортными креслами для всей семьи или для большой компании. Пристегнитесь и вместе отправляйтесь навстречу приключениям!"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/hybrid_efficiency/design.webp
+          title: "Блестяще смотрится"
+          description: "В дизайн-пакете Performance обновленные решетка радиатора, диски и запасное колесо на задней двери выглядят совсем иначе. Еще брутальнее, еще элегантнее, еще больше TANK."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/hybrid_efficiency/folding.webp
+          title: "Все складывается отлично"
+          description: "По отдельности или все сразу сидения третьего ряда с помощью электропривода складываются в соотношении 50:50, нужно просто нажать на кнопку. А сидения второго ряда можно сдвинуть вперед, освобождая еще больше пространства для багажа."
+
+    - id: thoughtful_convenience
+      title: "Продуманное удобство"
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/thoughtful_convenience/salon.webp
+          title: "Премиальный салон"
+          description: "Двигаясь вместе с TANK, ты наслаждаешься чувствами и ощущениями. Для этого в отделке салона используется кожа наппа и оригинальная итальянская алькантара."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/thoughtful_convenience/roof.webp
+          title: "Панорамная крыша"
+          description: "TANK создан, чтобы ты максимально расширял свои возможности, поэтому открывает беспрепятственный обзор даже на небо."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/thoughtful_convenience/massage_seats.webp
+          title: "Сиденья с вентиляцией и массажем"
+          description: "TANK для тех, чья цель — изучить всю полноту мира. Специально созданные для долгих поездок кресла поддержат твой настрой на свершения и не дадут переутомиться."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/thoughtful_convenience/connection.webp
+          title: "Сервисы TANK Connection"
+          description: "Управляй климатом, вентиляцией и многим другим c помощью сервисов TANK Connection."
+
+    - id: undeniable_status
+      title: "Неоспоримый статус"
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/undeniable_status/lines.webp
+          title: "Изящные линии"
+          description: "Дизайн TANK говорит сам за себя — в нем читается бескомпромиссное желание покорить любую дорогу, и ничто не сможет этому помешать."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/undeniable_status/side_steps.webp
+          title: "Боковые подножки с электроприводом"
+          description: "Путешествие на сотни километров начинается с одного шага. И TANK уже продумал этот шаг вместе с тобой."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/undeniable_status/smart_light.webp
+          title: "Умный свет"
+          description: "Светодиодные фары TANK не просто мощные. Их интеллектуальная система реагирует на свет фар встречного движения и переключает режим работы с дальнего света на ближний."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/undeniable_status/outlet.webp
+          title: "Розетка 220В"
+          description: "Для TANK не существует мелочей в создании домашней обстановки для тебя всюду, где бы ты ни находился. Поэтому он предусмотрел полноценную электрическую розетку в багажнике."
+
+    - id: absolute_trust
+      title: "Абсолютное доверие"
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/absolute_trust/turbo_v6.webp
+          title: "Двигатель Turbo V6"
+          description: "Мощный двигатель для внедорожника — это ультимативное требование. А 299 лошадиных сил в TANK — это ничто иное, как синоним достижения поставленной цели."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/absolute_trust/transmission.webp
+          title: "Передаваемая мощность"
+          description: "Коробка с 9 передачами с возможностью понижения разработана, чтобы ты мог переосмыслить границы пространства. Путешествуй по таким местам, куда не рискнул бы поехать раньше."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/absolute_trust/offroad.webp
+          title: "Яркие внедорожные качества"
+          description: "Все встречают трудности на своем пути, но преодолевают их только те, кто к ним готов. Рамная конструкция, дорожный просвет 224 мм, блокировка заднего и переднего диференциала в TANK — это символы твоего непрерывного движения к цели."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/absolute_trust/drive_mode.webp
+          title: "Выбор режима движения"
+          description: "Что бы ни оказалось под колесами, это не станет сюрпризом для TANK. Выбери тип поверхности, по которой двигаешься, а TANK обеспечит наилучший контроль за дорогой."
+
+    - id: road_confidence
+      title: "Уверенность на любой дороге"
+      text: "С помощью множества электронных ассистентов TANK заранее распознает возможные угрозы, подаст тебе сигнал и поможет справиться с управлением."
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/road_confidence/door.webp
+          title: "Безопасное открытие двери"
+          description: "Автоматизированное открытие дверей для повышенной безопасности."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/road_confidence/cruise.webp
+          title: "Интеллектуальный круиз-контроль"
+          description: "Адаптивный круиз-контроль для комфортного движения в плотном трафике."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/road_confidence/auto_brake.webp
+          title: "Автоматическое торможение"
+          description: "Система автоматического торможения снижает риск столкновений."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/road_confidence/signs.webp
+          title: "Распознавание дорожных знаков"
+          description: "Интеллектуальное распознавание дорожных знаков для своевременного информирования водителя."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/road_confidence/pedestrians.webp
+          title: "Торможение перед пешеходами"
+          description: "Система торможения активируется при приближении пешеходов."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/road_confidence/intersections.webp
+          title: "Защита от столкновений на перекрестках"
+          description: "Умная система предотвращает столкновения на перекрестках."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/road_confidence/rear_warning.webp
+          title: "Предупреждение об опасности наезде сзади"
+          description: "Сигналы предупреждения об опасном приближении сзади."
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/road_confidence/low_speed_brake.webp
+          title: "Автоматическое торможение на малой скорости"
+          description: "Эффективное торможение при медленном движении для аварийных ситуаций."
+
+    - id: variants
+      title: "Варианты TANK 500"
+      text: "Выберите свою конфигурацию"
+      images:
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/variants/adventure.webp
+          title: "ADVENTURE"
+          description: "от 6 449 000 ₽<br>Основное оборудование: Блокировка заднего межколёсного дифференциала, Отделка сидений искусственной кожей, Фиксированные боковые подножки"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/variants/urban.webp
+          title: "URBAN"
+          description: "от 6 499 000 ₽<br>Основное оборудование: 7 мест в салоне, включая водительское, Блокировка заднего и переднего межколёсных дифференциалов, Отделка сидений кожей NAPPA"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/variants/premium.webp
+          title: "PREMIUM"
+          description: "от 7 049 000 ₽<br>Основное оборудование: Блокировка заднего и переднего межколёсных дифференциалов, Отделка сидений кожей NAPPA, Боковые подножки с электроприводом"
+        - url: https://cdn.alexsab.ru/b/tank/img/models/500/variants/blacktrail.webp
+          title: "BLACKTRAIL"
+          description: "от 7 649 000 ₽<br>Основное оборудование: Дизайн пакет Performance «антихром» с запасным колесом на задней двери, Дополнительный топливный бак 53 л, Увеличенная мощность двигателя"
