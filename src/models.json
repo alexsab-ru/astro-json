@@ -834,30 +834,45 @@
             {
                 "id": "matte-red-metallic",
                 "name": "Матовый красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-red-metallic.webp",
                 "style": "background-color: #ad0f0f"
             },
             {
                 "id": "matte-black-metallic",
                 "name": "Матовый чёрный металлик",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-black-metallic.webp",
                 "style": "background-color: #222222"
             },
             {
                 "id": "matte-green",
                 "name": "Матовый зелёный",
+                "names": [
+                    "зеленый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-green.webp",
                 "style": "background-color: #5f6545"
             },
             {
                 "id": "matte-white",
                 "name": "Матовый белый",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-white.webp",
                 "style": "background-color: #f8f8f8"
             },
             {
                 "id": "matte-grey",
                 "name": "Матовый серый",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/models/baic/bj40/colors/matte-grey.webp",
                 "style": "background-color: #aaaaaa"
             }
@@ -1134,6 +1149,15 @@
                 "style": "background-color: #1d449b;"
             }
         ],
+        "feed_names": [
+            "X50"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "Active",
@@ -1166,15 +1190,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "X50"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -1313,6 +1328,15 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+            "X70"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT/7DCT"
+        },
         "complectations": [
             {
                 "name": "Active",
@@ -1365,15 +1389,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "X70"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6AT/7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -1420,6 +1435,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вдохновлен путешествиями",
         "name": "CS75PLUS",
+        "cyrillic": "Си Эс 75 Плюс",
         "price": "{{price-changan-cs75plus-new}}",
         "benefit": "{{benefit-changan-cs75plus-new}}",
         "benefits": [
@@ -1446,24 +1462,36 @@
             {
                 "id": "atomic_grey",
                 "name": "Атомный серый",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_atomic_grey.webp",
                 "style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/atomic_grey.webp')"
             },
             {
                 "id": "deep_black",
                 "name": "Глубокий черный",
+                "names": [
+                    "синий с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_deep_black.webp",
                 "style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/deep_black.webp')"
             },
             {
                 "id": "mountain_grey",
                 "name": "Горный серый",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_mountain_grey.webp",
                 "style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/mountain_grey.webp')"
             },
             {
                 "id": "crystal_white",
                 "name": "Кристальный белый",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_crystal_white.webp",
                 "style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/crystal_white.webp')"
             }
@@ -1529,6 +1557,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Симфония технологий",
         "name": "CS55PLUS",
+        "cyrillic": "Си Эс 55 Плюс",
         "price": "{{price-changan-cs55plus}}",
         "benefit": "{{benefit-changan-cs55plus}}",
         "benefits": [
@@ -1670,6 +1699,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Пульс города",
         "name": "CS35PLUS NEW",
+        "cyrillic": "Си Эс 35 Плюс Нью",
         "price": "{{price-changan-cs35plus-new}}",
         "benefit": "{{benefit-changan-cs35plus-new}}",
         "benefits": [
@@ -1801,6 +1831,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Воплощение уверенности",
         "name": "ALSVIN",
+        "cyrillic": "Алсвин",
         "price": "{{price-changan-alsvin}}",
         "benefit": "{{benefit-changan-alsvin}}",
         "benefits": [
@@ -1945,6 +1976,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Единство формы и содержания",
         "name": "EADOplus",
+        "cyrillic": "Иадо Плюс",
         "price": "{{price-changan-eadoplus}}",
         "benefit": "{{benefit-changan-eadoplus}}",
         "benefits": [
@@ -2086,6 +2118,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Символ элегантности",
         "name": "Lamore",
+        "cyrillic": "Ламоре",
         "price": "{{price-changan-lamore}}",
         "benefit": "{{benefit-changan-lamore}}",
         "benefits": [
@@ -2226,6 +2259,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вдохновлен путешествиями",
         "name": "CS75plus",
+        "cyrillic": "Си Эс 75 Плюс",
         "price": "{{price-changan-cs75plus-new}}",
         "benefit": "{{benefit-changan-cs75plus-new}}",
         "benefits": [
@@ -2366,6 +2400,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Стиль жизни",
         "name": "CS85COUPE",
+        "cyrillic": "Си Эс 85 Купе",
         "price": "{{price-changan-cs85coupe}}",
         "benefit": "{{benefit-changan-cs85coupe}}",
         "benefits": [
@@ -2517,6 +2552,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Новые горизонты",
         "name": "CS95",
+        "cyrillic": "Си Эс 95",
         "price": "{{price-changan-cs95new}}",
         "benefit": "{{benefit-changan-cs95new}}",
         "benefits": [
@@ -2636,6 +2672,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Новые горизонты",
         "name": "CS95NEW",
+        "cyrillic": "Си Эс 95 Нью",
         "price": "{{price-changan-cs95new}}",
         "benefit": "{{benefit-changan-cs95new}}",
         "benefits": [
@@ -2754,6 +2791,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Искусство самовыражения",
         "name": "UNI-T",
+        "cyrillic": "Уни Т",
         "price": "{{price-changan-uni-t}}",
         "benefit": "{{benefit-changan-uni-t}}",
         "benefits": [
@@ -2906,6 +2944,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Эстетика в динамике",
         "name": "UNI-V",
+        "cyrillic": "Уни В",
         "price": "{{price-changan-uni-v}}",
         "benefit": "{{benefit-changan-uni-v}}",
         "benefits": [
@@ -3056,6 +3095,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "",
         "name": "UNI-K",
+        "cyrillic": "Уни К",
         "price": "{{price-changan-uni-k}}",
         "benefit": "{{benefit-changan-uni-k}}",
         "benefits": [
@@ -3207,6 +3247,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Свобода приключений",
         "name": "HUNTERplus",
+        "cyrillic": "Хантер Плюс",
         "price": "{{price-changan-hunterplus}}",
         "benefit": "{{benefit-changan-hunterplus}}",
         "benefits": [
@@ -3347,6 +3388,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Притяжение индивидуальности",
         "name": "UNI-K iDD",
+        "cyrillic": "Уни К Ай Ди Ди",
         "price": "{{price-changan-uni-k-idd}}",
         "benefit": "{{benefit-changan-uni-k-idd}}",
         "benefits": [
@@ -3561,6 +3603,16 @@
                 "style": "background-color: #000000;"
             }
         ],
+        "feed_names": [
+            "Tiggo 4",
+            "Tiggo 4, I Рестайлинг 2"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT6"
+        },
         "complectations": [
             {
                 "name": "Active",
@@ -3593,16 +3645,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Tiggo 4",
-            "Tiggo 4, I Рестайлинг 2"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "DCT6"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -3728,6 +3770,16 @@
                 "style": "background-color: #2E5CAA;"
             }
         ],
+        "feed_names": [
+            "Tiggo 4 Pro",
+            "Tiggo 4 Pro, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT9"
+        },
         "complectations": [
             {
                 "name": "Action MT",
@@ -3770,16 +3822,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Tiggo 4 Pro",
-            "Tiggo 4 Pro, I Рестайлинг"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "CVT9"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -3844,18 +3886,27 @@
             {
                 "id": "black",
                 "name": "Глубокий черный",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/deep-black.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "red",
                 "name": "Огненно-красный",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/fiery-red.webp",
                 "style": "background-color: #d10808;"
             },
             {
                 "id": "red-black",
                 "name": "Огненно-красный (черная крыша)",
+                "names": [
+                    "красный с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/fiery-red-black.webp",
                 "style": "background: linear-gradient(180deg,rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 1) 50%, rgba(209, 8, 8, 1) 50%, rgba(209, 8, 8, 1) 100%);"
             },
@@ -3871,28 +3922,49 @@
             {
                 "id": "silvery",
                 "name": "Серебристый",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/silvery.webp",
                 "style": "background-color: #bcbfc1;"
             },
             {
                 "id": "white",
                 "name": "Искрящийся белый",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/sparkling-white.webp",
                 "style": "background-color: #dcdfe2;"
             },
             {
                 "id": "white-black",
                 "name": "Искрящийся белый (черная крыша)",
+                "names": [
+                    "белый с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/sparkling-white-black.webp",
                 "style": "background: linear-gradient(180deg,rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 1) 50%, rgba(221, 224, 226, 1) 50%, rgba(221, 224, 226, 1) 100%);"
             },
             {
                 "id": "blue",
                 "name": "Небесно-голубой",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/chery/img/models/newtiggo7promax/colors/sky-blue.webp",
                 "style": "background-color: #6c91b9;"
             }
         ],
+        "feed_names": [
+            "Tiggo 7 Pro Max"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT7"
+        },
         "complectations": [
             {
                 "name": "Active FWD",
@@ -4015,15 +4087,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Tiggo 7 Pro Max"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "DCT7"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -4159,6 +4222,15 @@
                 "style": "background: linear-gradient(180deg,rgba(31, 31, 31, 1) 0%, rgba(31, 31, 31, 1) 50%, rgba(221, 224, 226, 1) 50%, rgba(221, 224, 226, 1) 100%);"
             }
         ],
+        "feed_names": [
+            "Tiggo 7L, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT7"
+        },
         "complectations": [
             {
                 "name": "Active",
@@ -4211,15 +4283,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Tiggo 7L, I"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "DCT7"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -4364,6 +4427,15 @@
                 "style": "background-color: #582a5a;"
             }
         ],
+        "feed_names": [
+            "Tiggo 8 Pro Max"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT7"
+        },
         "complectations": [
             {
                 "name": "Elite FWD",
@@ -4406,15 +4478,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Tiggo 8 Pro Max"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "DCT7"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -4541,6 +4604,16 @@
                 "style": "background-color: #0a3639;"
             }
         ],
+        "feed_names": [
+            "Tiggo 9",
+            "Tiggo 9, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "AT8"
+        },
         "complectations": [
             {
                 "name": "Prime",
@@ -4563,16 +4636,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Tiggo 9",
-            "Tiggo 9, I"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "AT8"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -4688,6 +4751,15 @@
                 "style": "background-color: #0a3639;"
             }
         ],
+        "feed_names": [
+            "Arrizo 8"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT7"
+        },
         "complectations": [
             {
                 "name": "Active 24 PY",
@@ -4730,15 +4802,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Arrizo 8"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "DCT7"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -4873,6 +4936,15 @@
                 "style": "background-color: #224968;"
             }
         ],
+        "feed_names": [
+            "Tiggo 7 Pro Plug-in Hybrid"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "DHT"
+        },
         "complectations": [
             {
                 "name": "Ultimate",
@@ -4885,15 +4957,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Tiggo 7 Pro Plug-in Hybrid"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "DHT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -5039,6 +5102,15 @@
                 "style": "background-color: #582a5a;"
             }
         ],
+        "feed_names": [
+            "Tiggo 8 Pro Plug-in Hybrid"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "DHT"
+        },
         "complectations": [
             {
                 "name": "Ultimate",
@@ -5051,15 +5123,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Tiggo 8 Pro Plug-in Hybrid"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "DHT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -5106,6 +5169,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вот это космос!",
         "name": "i-SPACE",
+        "cyrillic": "Ай Спейс",
         "price": "{{price-evolute-i-space}}",
         "benefit": "{{benefit-evolute-i-space}}",
         "benefits": [
@@ -5131,41 +5195,65 @@
             {
                 "id": "black",
                 "name": "Звездная ночь",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/black.webp",
                 "style": "background-color: #000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "white",
                 "name": "Белый",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/white.webp",
                 "style": "background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "green",
                 "name": "Галактический зеленый",
+                "names": [
+                    "зеленый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/green.webp",
                 "style": "background-color: #234232; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "gray",
                 "name": "Лунный серый",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/gray.webp",
                 "style": "background-color: #ececec; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "sand",
                 "name": "Латте космос",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/sand.webp",
                 "style": "background-color: #ebe2dc; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             },
             {
                 "id": "silver",
                 "name": "Астероидный графит",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/evolute/img/models/i-space/colors/silver.webp",
                 "style": "background-color: #36424d; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%, hsla(0, 0%, 100%, .7) 0, hsla(0, 50%, 97%, 0) 100%);"
             }
         ],
         "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Электро",
+            "gearbox": "HDT300"
+        },
         "complectations": [
             {
                 "name": "Комфорт",
@@ -5184,12 +5272,6 @@
                 "drive": "Передний"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Электро",
-            "gearbox": "HDT300"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -5239,10 +5321,6 @@
         "cyrillic": "Тэ 5 Эво",
         "price": "2600000",
         "benefit": "",
-        "badge": {
-            "img": "",
-            "alt": ""
-        },
         "benefits": [],
         "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/gray.png",
         "colors": [
@@ -5302,10 +5380,26 @@
             {
                 "id": "t5evo_anthracite",
                 "name": "Космический антрацит",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/gray-dark.png",
                 "style": "background-color: #525252;"
             }
         ],
+        "feed_names": [
+            "T5 EVO"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7 DCT Magna"
+        },
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
         "complectations": [
             {
                 "name": "1.5TD/7DTC IXEN",
@@ -5338,15 +5432,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "T5 EVO"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5/7 мест",
-            "fuel": "Бензин",
-            "gearbox": "7 DCT Magna"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -5396,10 +5481,6 @@
         "cyrillic": "Яхт",
         "price": "3400000",
         "benefit": "",
-        "badge": {
-            "img": "",
-            "alt": ""
-        },
         "benefits": [],
         "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/yacht/colors/white.png",
         "colors": [
@@ -5427,6 +5508,20 @@
                 "style": "background-color: #131313;"
             }
         ],
+        "feed_names": [
+            "Yacht",
+            "M4 Yacht"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7 DCT Magna"
+        },
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
         "complectations": [
             {
                 "name": "YACHT PREMIUM",
@@ -5449,16 +5544,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Yacht",
-            "M4 Yacht"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "7 DCT Magna"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -5508,10 +5593,6 @@
         "cyrillic": "Вэ-Онлайн",
         "price": "2780000",
         "benefit": "",
-        "badge": {
-            "img": "",
-            "alt": ""
-        },
         "benefits": [],
         "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/v-online/colors/gray.png",
         "colors": [
@@ -5549,6 +5630,20 @@
                 "style": "background-color: #000000;"
             }
         ],
+        "feed_names": [
+            "V-Online",
+            "V-Online, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7 DCT КПП"
+        },
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
         "complectations": [
             {
                 "name": "Standart",
@@ -5571,16 +5666,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "V-Online",
-            "V-Online, I"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7 DCT КПП"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -5630,10 +5715,6 @@
         "cyrillic": "Дэ 60 Плюс",
         "price": "2140000",
         "benefit": "",
-        "badge": {
-            "img": "",
-            "alt": ""
-        },
         "benefits": [],
         "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/colors/black.png",
         "colors": [
@@ -5660,6 +5741,19 @@
                 "style": "background-color: #fff;"
             }
         ],
+        "feed_names": [
+            "D60 Plus"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "XTRONIC CVT вариатор"
+        },
+        "badge": {
+            "img": "",
+            "alt": ""
+        },
         "complectations": [
             {
                 "name": "Standard 1.6 XE CVT",
@@ -5702,15 +5796,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "D60 Plus"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "XTRONIC CVT вариатор"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -5830,6 +5915,16 @@
                 "style": "background-color: #000000"
             }
         ],
+        "feed_names": [
+            "GS3",
+            "GS3, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7 WDCT"
+        },
         "complectations": [
             {
                 "name": "GS",
@@ -5882,16 +5977,6 @@
                 "fuel": "Бензин АИ-92 и выше"
             }
         ],
-        "feed_names": [
-            "GS3",
-            "GS3, I"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7 WDCT"
-        },
         "globalChars": [
             {
                 "id": "length",
@@ -5966,6 +6051,16 @@
                 "style": "background-color: #B7A38A;"
             }
         ],
+        "feed_names": [
+            "M8",
+            "M8, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
         "complectations": [
             {
                 "name": "GL",
@@ -6008,16 +6103,6 @@
                 "fuel": "Бензин АИ-95 и выше"
             }
         ],
-        "feed_names": [
-            "M8",
-            "M8, I"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -6118,6 +6203,17 @@
                 "style": "background-color: #e0e0e0;"
             }
         ],
+        "feed_names": [
+            "GS8, I поколение",
+            "GS8",
+            "GS8, II"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
         "complectations": [
             {
                 "name": "GL",
@@ -6170,17 +6266,6 @@
                 "fuel": "Бензин АИ-95 и выше"
             }
         ],
-        "feed_names": [
-            "GS8, I поколение",
-            "GS8",
-            "GS8, II"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -6230,7 +6315,6 @@
         "cyrillic": "ГС8",
         "price": "{{price-gac-new-gs8}}",
         "benefit": "",
-        "profit": 300000,
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/gray.webp",
         "colors": [
             {
@@ -6298,6 +6382,7 @@
             "fuel": "Бензин",
             "gearbox": "AT"
         },
+        "profit": 300000,
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -6347,7 +6432,6 @@
         "cyrillic": "ГС5",
         "price": "{{price-gac-gs5}}",
         "benefit": "{{benefit-gac-gs5}}",
-        "profit": 200000,
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs5/colors/gray.webp",
         "colors": [
             {
@@ -6416,6 +6500,7 @@
             "fuel": "Бензин",
             "gearbox": "MT/AT"
         },
+        "profit": 200000,
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -6465,7 +6550,6 @@
         "cyrillic": "ГН8",
         "price": "{{price-gac-gn8}}",
         "benefit": "{{benefit-gac-gn8}}",
-        "profit": "",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gn8/colors/blue.webp",
         "colors": [
             {
@@ -6515,6 +6599,7 @@
             "fuel": "Бензин",
             "gearbox": "AT"
         },
+        "profit": "",
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -6604,6 +6689,16 @@
                 "style": "background-color: #959595"
             }
         ],
+        "feed_names": [
+            "GS4",
+            "GS4, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7WDCT"
+        },
         "complectations": [
             {
                 "name": "GB",
@@ -6616,16 +6711,6 @@
                 "fuel": "Бензин АИ-95 и выше"
             }
         ],
-        "feed_names": [
-            "GS4",
-            "GS4, I"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7WDCT"
-        },
         "globalChars": [
             {
                 "id": "length",
@@ -6720,6 +6805,15 @@
                 "style": "background-color: #d9d8da"
             }
         ],
+        "feed_names": [
+            "EMPOW"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7WDCT"
+        },
         "complectations": [
             {
                 "name": "GS",
@@ -6742,15 +6836,6 @@
                 "fuel": "Бензин АИ-92 и выше"
             }
         ],
-        "feed_names": [
-            "EMPOW"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7WDCT"
-        },
         "globalChars": [
             {
                 "id": "length",
@@ -6803,6 +6888,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Продвинутые технологии",
         "name": "EX5",
+        "cyrillic": "Экс 5",
         "price": "{{price-geely-ex5}}",
         "benefit": "{{benefit-geely-ex5}}",
         "benefits": [
@@ -6828,34 +6914,56 @@
             {
                 "id": "gray-metallic",
                 "name": "Серый металлик",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/gray-metallic.webp",
                 "style": "background-color: #838789;"
             },
             {
                 "id": "green-blue-metallic",
                 "name": "Бирюзово-синий металлик",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/green-blue-metallic.webp",
                 "style": "background-color: #3f888f;"
             },
             {
                 "id": "silver-metallic",
                 "name": "Серебристый металлик",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/silver-metallic.webp",
                 "style": "background-color: #d3d8d8;"
             },
             {
                 "id": "black-metallic",
                 "name": "Чёрный металлик",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/black-metallic.webp",
                 "style": "background-color: #2C2C2B;"
             },
             {
                 "id": "white",
                 "name": "Белый",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/ex5/colors/white.webp",
                 "style": ""
             }
         ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Электро",
+            "gearbox": "AT"
+        },
         "complectations": [
             {
                 "name": "Pro",
@@ -6876,13 +6984,6 @@
                 "fuel": "Электро"
             }
         ],
-        "feed_names": [],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Электро",
-            "gearbox": "AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -6994,6 +7095,15 @@
                 "style": "background-color: #b6c2cc;"
             }
         ],
+        "feed_names": [
+            "Cityray"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "Comfort",
@@ -7036,15 +7146,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Cityray"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -7176,6 +7277,16 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+            "Preface, I Рестайлинг 2",
+            "Preface"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCV"
+        },
         "complectations": [
             {
                 "name": "Luxury",
@@ -7198,16 +7309,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Preface, I Рестайлинг 2",
-            "Preface"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCV"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -7416,6 +7517,17 @@
                 "style": "background-color: #487f76;"
             }
         ],
+        "feed_names": [
+            "Atlas, II",
+            "Atlas, I",
+            "Atlas"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT/8AT"
+        },
         "complectations": [
             {
                 "name": "Luxury",
@@ -7478,17 +7590,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Atlas, II",
-            "Atlas, I",
-            "Atlas"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT/8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -7743,6 +7844,17 @@
                 "style": "background-color: #bdc9d5;"
             }
         ],
+        "feed_names": [
+            "Emgrand, II",
+            "Emgrand L",
+            "Emgrand"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "5MT/6AT"
+        },
         "complectations": [
             {
                 "name": "Standard",
@@ -7795,17 +7907,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Emgrand, II",
-            "Emgrand L",
-            "Emgrand"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "5MT/6AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -8051,6 +8152,16 @@
                 "style": "background-color: #ff0000;"
             }
         ],
+        "feed_names": [
+            "Coolray, I",
+            "Coolray, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "Comfort",
@@ -8093,16 +8204,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Coolray, I",
-            "Coolray, I Рестайлинг"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -8330,6 +8431,16 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+            "Okavango",
+            "Okavango, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "Luxury",
@@ -8352,16 +8463,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Okavango",
-            "Okavango, I Рестайлинг"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -8483,10 +8584,22 @@
             {
                 "id": "lomo-gray",
                 "name": "Серый матовый",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/geely/img/models/Monjaro/colors/lomo-gray.webp",
                 "style": "background-color: #5e6775;"
             }
         ],
+        "feed_names": [
+            "Monjaro"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
         "complectations": [
             {
                 "name": "Luxury",
@@ -8519,15 +8632,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Monjaro"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -8635,6 +8739,16 @@
                 "style": "background-color: #666464;"
             }
         ],
+        "feed_names": [
+            "F7x, II",
+            "F7x, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "4WD Premium",
@@ -8657,16 +8771,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "F7x, II",
-            "F7x, I"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -8774,6 +8878,15 @@
                 "style": "background-color: rgba(0, 0, 0, 1);"
             }
         ],
+        "feed_names": [
+            "H9, II"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "8AT/9AT"
+        },
         "complectations": [
             {
                 "name": "Elite 2.0T",
@@ -8816,15 +8929,6 @@
                 "fuel": "Дизель"
             }
         ],
-        "feed_names": [
-            "H9, II"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин/Дизель",
-            "gearbox": "8AT/9AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -8925,6 +9029,15 @@
                 "style": "background-color: #c85e49;"
             }
         ],
+        "feed_names": [
+            "H7, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "роботизированная, с двойным сцеплением «мокрого» типа"
+        },
         "complectations": [
             {
                 "name": "4WD Elite",
@@ -8957,15 +9070,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "H7, I"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин/Дизель",
-            "gearbox": "роботизированная, с двойным сцеплением «мокрого» типа"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -9083,6 +9187,16 @@
                 "style": "background-color: rgba(241, 110, 14, 1);"
             }
         ],
+        "feed_names": [
+            "H3",
+            "H3, I"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "Premium, 2WD",
@@ -9115,16 +9229,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "H3",
-            "H3, I"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -9232,6 +9336,15 @@
                 "style": "background-color:rgba(130, 130, 148, 1);"
             }
         ],
+        "feed_names": [
+            "H5, II"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "8AT"
+        },
         "complectations": [
             {
                 "name": "ELITE 2.0T",
@@ -9274,15 +9387,6 @@
                 "fuel": "Дизель"
             }
         ],
-        "feed_names": [
-            "H5, II"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин/Дизель",
-            "gearbox": "8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -9390,6 +9494,15 @@
                 "style": "background-color:rgba(102, 100, 100, 1);"
             }
         ],
+        "feed_names": [
+            "F7, II"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "ELITE 1,5T",
@@ -9442,15 +9555,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "F7, II"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -9578,6 +9682,15 @@
                 "style": "background-color:rgba(102, 100, 100, 1);"
             }
         ],
+        "feed_names": [
+            "Jolion, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "MT/7DCT"
+        },
         "complectations": [
             {
                 "name": "COMFORT 1,5T MT",
@@ -9640,15 +9753,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Jolion, I Рестайлинг"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "MT/7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -9747,6 +9851,15 @@
                 "style": "background-color: #e5e5e5;"
             }
         ],
+        "feed_names": [
+            "M6, II"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/7DCT"
+        },
         "complectations": [
             {
                 "name": "1,5 MT",
@@ -9769,15 +9882,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "M6, II"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6MT/7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -9885,6 +9989,16 @@
                 "style": "background-color:rgba(176, 176, 169, 1);"
             }
         ],
+        "feed_names": [
+            "DARGO X",
+            "DARGO"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "ELITE 2.0T 4WD",
@@ -9907,16 +10021,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "DARGO X",
-            "DARGO"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -9963,6 +10067,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "ПОВОД ПРОЯВИТЬ ХАРАКТЕР",
         "name": "DARGO",
+        "cyrillic": "Дарго",
         "price": "{{price-haval-new-dargo}}",
         "benefit": "{{benefit-haval-new-dargo}}",
         "benefits": [
@@ -9988,28 +10093,47 @@
             {
                 "id": "graphite-quartz",
                 "name": "Графитовый кварц",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/graphite-quartz.webp",
                 "style": "background-color:rgba(81, 72, 79, 1);"
             },
             {
                 "id": "terracotta-sapphire",
                 "name": "Терракотовый сапфир",
+                "names": [
+                    "коричневый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/terracotta-sapphire.webp",
                 "style": "background-color:rgba(201, 100, 59, 1);"
             },
             {
                 "id": "noble-agate",
                 "name": "Благородный агат",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/noble-agate.webp",
                 "style": "background-color:rgba(176, 176, 169, 1);"
             },
             {
                 "id": "galactic-black",
                 "name": "Галактический черный / Черный нефрит",
+                "names": [
+                    "серый с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/galactic-black.webp",
                 "style": "background-color: #000000;"
             }
         ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "COMFORT 2.0T",
@@ -10052,13 +10176,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -10184,6 +10301,15 @@
                 "style": "background-color:rgba(232, 232, 230, 1);"
             }
         ],
+        "feed_names": [
+            "Poer King Kong"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "6MT"
+        },
         "complectations": [
             {
                 "name": "COMFORT 2.0 (190 л.с.)",
@@ -10226,15 +10352,6 @@
                 "fuel": "Дизель"
             }
         ],
-        "feed_names": [
-            "Poer King Kong"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин/Дизель",
-            "gearbox": "6MT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -10360,6 +10477,16 @@
                 "style": "background-color:rgba(232, 232, 230, 1);"
             }
         ],
+        "feed_names": [
+            "Poer, I",
+            "Poer, I Рестайлинг"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Дизель",
+            "gearbox": "6MT/8AT"
+        },
         "complectations": [
             {
                 "name": "COMFORT 6MT",
@@ -10392,16 +10519,6 @@
                 "fuel": "Дизель"
             }
         ],
-        "feed_names": [
-            "Poer, I",
-            "Poer, I Рестайлинг"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Дизель",
-            "gearbox": "6MT/8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -10444,72 +10561,87 @@
     {
         "mark_id": "Infiniti",
         "id": "qx50",
-        "name": "QX50",
         "show": true,
-        "chars": {},
+        "name": "QX50",
+        "cyrillic": "Кью Икс 50",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
-        ]
+        ],
+        "chars": {}
     },
     {
         "mark_id": "Infiniti",
         "id": "qx55",
-        "name": "QX55",
         "show": true,
-        "chars": {},
+        "name": "QX55",
+        "cyrillic": "Кью Икс 55",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
-        ]
+        ],
+        "chars": {}
     },
     {
         "mark_id": "Infiniti",
         "id": "qx60",
-        "name": "QX60",
         "show": true,
-        "chars": {},
+        "name": "QX60",
+        "cyrillic": "Кью Икс 60",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
-        ]
+        ],
+        "chars": {}
     },
     {
         "mark_id": "Infiniti",
         "id": "qx80",
-        "name": "QX80",
         "show": true,
-        "chars": {},
+        "name": "QX80",
+        "cyrillic": "Кью Икс 80",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
-        ]
+        ],
+        "chars": {}
     },
     {
         "mark_id": "JAC",
         "id": "t9",
         "show": true,
-        "testDrive": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Рождённый для приключений",
         "name": "T9",
@@ -10611,6 +10743,7 @@
             "fuel": "Дизель",
             "gearbox": "A8R50"
         },
+        "testDrive": true,
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -10657,6 +10790,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Вдохновленный мегаполисом",
         "name": "S3",
+        "cyrillic": "Эс 3",
         "price": "",
         "benefit": "",
         "benefits": [
@@ -10682,42 +10816,63 @@
             {
                 "id": "white",
                 "name": "Белый глянец",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый фантом",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/silver.webp",
                 "style": "background-color: #dddddd;"
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "brown",
                 "name": "Коричневый каштан",
+                "names": [
+                    "коричневый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/brown.webp",
                 "style": "background-color: #613302;"
             },
             {
                 "id": "red",
                 "name": "Спелая вишня",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/red.webp",
                 "style": ""
             },
             {
                 "id": "blue",
                 "name": "Синий сапфир",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/s3/colors/blue.webp",
                 "style": ""
             }
@@ -10775,6 +10930,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Управляй будущим",
         "name": "IEV7S",
+        "cyrillic": "И Е В 7 Эс",
         "price": "",
         "benefit": "",
         "benefits": [
@@ -10800,6 +10956,9 @@
             {
                 "id": "white",
                 "name": "Белый глянец",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/iev7s/colors/white.webp",
                 "style": ""
             }
@@ -10854,7 +11013,6 @@
         "mark_id": "JAC",
         "id": "js3",
         "show": true,
-        "testDrive": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Семейный кроссовер для всех",
         "name": "JS3",
@@ -10931,6 +11089,7 @@
             "fuel": "Бензин",
             "gearbox": "6MT/CVT"
         },
+        "testDrive": true,
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -10974,7 +11133,6 @@
         "mark_id": "JAC",
         "id": "j7",
         "show": true,
-        "testDrive": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Дизайн от Кутюр",
         "name": "J7",
@@ -11059,6 +11217,7 @@
             "fuel": "Бензин",
             "gearbox": "6MT/CVT"
         },
+        "testDrive": true,
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -11102,7 +11261,6 @@
         "mark_id": "JAC",
         "id": "js6",
         "show": true,
-        "testDrive": true,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Автомобиль с уважением!",
         "name": "JS6",
@@ -11185,6 +11343,7 @@
             "fuel": "Бензин",
             "gearbox": "DCT6"
         },
+        "testDrive": true,
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -11356,6 +11515,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Тысячи возможностей!",
         "name": "T8",
+        "cyrillic": "Ти 8",
         "price": "{{price-jac-t8}}",
         "benefit": "{{benefit-jac-t8}}",
         "benefits": [
@@ -11381,24 +11541,36 @@
             {
                 "id": "white",
                 "name": "Белый глянец",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/white.webp",
                 "style": ""
             },
             {
                 "id": "gray",
                 "name": "Серая платина",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/gray.webp",
                 "style": ""
             },
             {
                 "id": "black",
                 "name": "Чёрный жемчуг",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "silver",
                 "name": "Серебристый фантом",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t8/colors/silver.webp",
                 "style": "background-color: #cdd5de;"
             }
@@ -11698,6 +11870,12 @@
         "feed_names": [
             "J7"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT7"
+        },
         "complectations": [
             {
                 "name": "Urban",
@@ -11800,12 +11978,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "DCT7"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -11961,6 +12133,12 @@
         "feed_names": [
             "J7 LE"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT6"
+        },
         "complectations": [
             {
                 "name": "Limited Edition",
@@ -11983,12 +12161,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "DCT6"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -12153,6 +12325,12 @@
         "feed_names": [
             "J8"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT7"
+        },
         "complectations": [
             {
                 "name": "Active",
@@ -12185,12 +12363,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "DCT7"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -12237,6 +12409,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Следуй за открытиями",
         "name": "J5",
+        "cyrillic": "Джей 5",
         "price": "{{price-jaecoo-modelj5}}",
         "benefit": "{{benefit-jaecoo-modelj5}}",
         "benefits": [
@@ -12262,30 +12435,45 @@
             {
                 "id": "red",
                 "name": "Красный Эльтон, металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://tank.ru/uploads/car_variant_color_sequence/5a4450455f9de0c0f3dd6fd6aa029ae7.png",
                 "style": "background-color: #ef2929;"
             },
             {
                 "id": "orange",
                 "name": "Чарский Оранжевый, металлик",
+                "names": [
+                    "оранжевый"
+                ],
                 "carImage": "https://tank.ru/uploads/car_variant_color_sequence/61aab46d6fccaf0d2a047925cf8f0684.png",
                 "style": "background-color: #df4c30;"
             },
             {
                 "id": "gray",
                 "name": "Серый Шантар",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://tank.ru/uploads/car_variant_color_sequence/db5a358aa9c6471a4f23ffd84270da78.png",
                 "style": "background-color: #c6c9ce;"
             },
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://tank.ru/uploads/car_variant_color_sequence/2c18b43a8d5223f07af8e4dcace56b77.png",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "white",
                 "name": "Белый Ольхон, металлик",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://tank.ru/uploads/car_variant_color_sequence/0d372feb159f387bec68136ee77e6058.png",
                 "style": "background-color: #e6e7e8;"
             }
@@ -12346,7 +12534,6 @@
         "cyrillic": "Т1",
         "price": "{{price-jetour-t1}}",
         "benefit": "{{benefit-jetour-t1}}",
-        "badge": {},
         "benefits": [
             {
                 "url": "#common-modal",
@@ -12433,7 +12620,6 @@
                 "style": "background-color: #87ceeb; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
-        "complectations": [],
         "feed_names": [
             "T1"
         ],
@@ -12443,6 +12629,8 @@
             "fuel": "Бензин",
             "gearbox": "7DCT/8AT"
         },
+        "badge": {},
+        "complectations": [],
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -12494,10 +12682,6 @@
         "cyrillic": "Икс 90 Плюс",
         "price": "{{price-jetour-x90plus}}",
         "benefit": "{{benefit-jetour-x90plus}}",
-        "badge": {
-            "img": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
-            "alt": "Внедорожник года"
-        },
         "benefits": [
             {
                 "url": "#common-modal",
@@ -12569,6 +12753,19 @@
                 "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c3bkm.png);"
             }
         ],
+        "feed_names": [
+            "X90 PLUS"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "badge": {
+            "img": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
+            "alt": "Внедорожник года"
+        },
         "complectations": [
             {
                 "name": "Comfort",
@@ -12621,15 +12818,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "X90 PLUS"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5/7 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -12679,10 +12867,6 @@
         "cyrillic": "Т2",
         "price": "{{price-jetour-t2}}",
         "benefit": "{{benefit-jetour-t2}}",
-        "badge": {
-            "img": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
-            "alt": "Внедорожник года"
-        },
         "benefits": [
             {
                 "url": "#common-modal",
@@ -12770,6 +12954,19 @@
                 "style": "background-color: #f5f5f5; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
+        "feed_names": [
+            "T2"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
+        "badge": {
+            "img": "https://cdn.alexsab.ru/b/jetour/img/badge-4x4-2024.png",
+            "alt": "Внедорожник года"
+        },
         "complectations": [
             {
                 "name": "Voyage",
@@ -12802,15 +12999,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "T2"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -12860,11 +13048,6 @@
         "cyrillic": "Дашинг",
         "price": "{{price-jetour-dashing}}",
         "benefit": "{{benefit-jetour-dashing}}",
-        "badge": {
-            "img": "https://cdn.alexsab.ru/b/jetour/img/badge-2024-with-text.png",
-            "imgModelPage": "https://cdn.alexsab.ru/b/jetour/img/badge-2024-with-text-white.png",
-            "alt": "Автомобиль года"
-        },
         "benefits": [
             {
                 "url": "#common-modal",
@@ -12961,6 +13144,21 @@
                 "style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c7bkm.png);"
             }
         ],
+        "feed_names": [
+            "Dashing, I",
+            "Dashing"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/6-7DCT"
+        },
+        "badge": {
+            "img": "https://cdn.alexsab.ru/b/jetour/img/badge-2024-with-text.png",
+            "imgModelPage": "https://cdn.alexsab.ru/b/jetour/img/badge-2024-with-text-white.png",
+            "alt": "Автомобиль года"
+        },
         "complectations": [
             {
                 "name": "Comfort Plus",
@@ -13033,16 +13231,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Dashing, I",
-            "Dashing"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6MT/6-7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -13089,6 +13277,7 @@
         "homeImg": "https://cdn.alexsab.ru/b/jetour/img/models/x70/bg.webp",
         "slogan": "Семейный кроссовер",
         "name": "X70",
+        "cyrillic": "Икс 70",
         "price": "{{price-jetour-x70}}",
         "benefit": "{{benefit-jetour-x70}}",
         "benefits": [
@@ -13114,22 +13303,38 @@
             {
                 "id": "black",
                 "name": "Черный",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70/colors/black.webp",
                 "style": "background-color: #060A0F;"
             },
             {
                 "id": "white",
                 "name": "Белый",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70/colors/white.webp",
                 "style": "background-color: #E0E0E0;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70/colors/silver.webp",
                 "style": "background-color: #c9c9c9;"
             }
         ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6 DCT"
+        },
         "complectations": [
             {
                 "name": "Luxury",
@@ -13142,13 +13347,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6 DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -13304,6 +13502,19 @@
                 "style": "background-color: #013030;"
             }
         ],
+        "feed_names": [
+            "X70 PLUS, I",
+            "X70 PLUS, I Рестайлинг",
+            "X70 Plus",
+            "X70",
+            "X70, I Рестайлинг 2"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT"
+        },
         "complectations": [
             {
                 "name": "Comfort",
@@ -13326,19 +13537,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "X70 PLUS, I",
-            "X70 PLUS, I Рестайлинг",
-            "X70 Plus",
-            "X70",
-            "X70, I Рестайлинг 2"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -13450,6 +13648,15 @@
                 "style": "background-color: #E0E0E0; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
             }
         ],
+        "feed_names": [
+            "X50"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6 DCT"
+        },
         "complectations": [
             {
                 "name": "Comfort",
@@ -13482,15 +13689,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "X50"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6 DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -14151,6 +14349,15 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+            "001"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
         "complectations": [
             {
                 "name": "Luxury",
@@ -14183,15 +14390,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "001"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -14500,11 +14698,6 @@
         "cyrillic": "С6 Про",
         "price": "{{price-livan-s6pro}}",
         "benefit": "{{benefit-livan-s6pro}}",
-        "badge": {
-            "img": "https://cdn.alexsab.ru/b/livan/img/badge-2024-with-text.png",
-            "imgModelPage": "https://cdn.alexsab.ru/b/livan/img/badge-2024-with-text-white.png",
-            "alt": "Автомобиль года"
-        },
         "benefits": [
             {
                 "url": "#common-modal",
@@ -14551,6 +14744,9 @@
             {
                 "id": "light-blue",
                 "name": "Голубой металлик",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/livan/img/models/s6pro/colors/light-blue.webp",
                 "style": ""
             }
@@ -14563,6 +14759,11 @@
             "seats": "5 мест",
             "fuel": "Бензин",
             "gearbox": "7DCT"
+        },
+        "badge": {
+            "img": "https://cdn.alexsab.ru/b/livan/img/badge-2024-with-text.png",
+            "imgModelPage": "https://cdn.alexsab.ru/b/livan/img/badge-2024-with-text-white.png",
+            "alt": "Автомобиль года"
         },
         "globalChars": [
             {
@@ -14717,6 +14918,12 @@
         "feed_names": [
             "C5, I Рестайлинг"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT9/DCT7"
+        },
         "complectations": [
             {
                 "name": "Fun",
@@ -14779,12 +14986,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "CVT9/DCT7"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -14940,6 +15141,12 @@
         "feed_names": [
             "C5, I"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT9/DCT7"
+        },
         "complectations": [
             {
                 "name": "Fun",
@@ -14992,12 +15199,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "CVT9/DCT7"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -15131,6 +15332,12 @@
         "feed_names": [
             "S5"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT18"
+        },
         "complectations": [
             {
                 "name": "Classic",
@@ -15143,12 +15350,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "CVT18"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -15292,6 +15493,12 @@
         "feed_names": [
             "S5 GT"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "CVT25"
+        },
         "complectations": [
             {
                 "name": "Tech",
@@ -15304,12 +15511,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "CVT25"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -15382,6 +15583,9 @@
             {
                 "id": "clear-white",
                 "name": "Clear White (UD)",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/clear-white.webp",
                 "style": "background-color: #e8e9e7;"
             },
@@ -15426,18 +15630,27 @@
             {
                 "id": "dawning-red",
                 "name": "Dawning Red (DWR)",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/dawning-red.webp",
                 "style": "background-color: #b02418;"
             },
             {
                 "id": "deep-blue",
                 "name": "Deep Blue (BB2)",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/deep-blue.webp",
                 "style": "background-color: #276181;"
             },
             {
                 "id": "jungle-wood-green",
                 "name": "Jungle Wood Green (JUG)",
+                "names": [
+                    "зеленый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sportage/colors/jungle-wood-green.webp",
                 "style": "background-color: #a0a392;"
             }
@@ -15445,6 +15658,12 @@
         "feed_names": [
             "Sportage, V"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/6AT"
+        },
         "complectations": [
             {
                 "name": "Classic 6MT",
@@ -15587,12 +15806,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6MT/6AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -15665,24 +15878,36 @@
             {
                 "id": "clear-white",
                 "name": "Clear White (UD)",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/clear-white.webp",
                 "style": "background-color: #e8e9e7;"
             },
             {
                 "id": "snow-white",
                 "name": "Snow White Pearl (SWP)",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/snow-white.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "interstellar-gray",
                 "name": "Interstellar Gray (AGT)",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/interstellar-gray.webp",
                 "style": "background-color: #393939;"
             },
             {
                 "id": "steel-gray",
                 "name": "Steel Gray (KLG)",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/steel-gray.webp",
                 "style": "background-color: #636363;"
             },
@@ -15698,18 +15923,27 @@
             {
                 "id": "gravity-blue",
                 "name": "Gravity Blue (B4U)",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/gravity-blue.webp",
                 "style": "background-color: #313642;"
             },
             {
                 "id": "runway-red",
                 "name": "Runway Red (CR5)",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/runway-red.webp",
                 "style": "background-color: #942a25;"
             },
             {
                 "id": "yacht-blue",
                 "name": "Yacht Blue (DU3)",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/k5/colors/yacht-blue.webp",
                 "style": "background-color: #2b489e;"
             }
@@ -15717,6 +15951,12 @@
         "feed_names": [
             "K5, III"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT/8AT"
+        },
         "complectations": [
             {
                 "name": "Classic 2.0 6AT",
@@ -15839,12 +16079,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6AT/8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -15891,6 +16125,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Играя главную роль",
         "name": "Sorento",
+        "cyrillic": "Соренто",
         "price": 3789900,
         "benefit": "",
         "benefits": [
@@ -15916,65 +16151,101 @@
             {
                 "id": "clear-white",
                 "name": "Clear White (UD)",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/clear-white.webp",
                 "style": "background-color: #e8e9e7;"
             },
             {
                 "id": "snow-white",
                 "name": "Snow White Pearl (SWP)",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/snow-white.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "essence-brown",
                 "name": "Essence Brown (BE2)",
+                "names": [
+                    "коричневый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/essence-brown.webp",
                 "style": "background-color: #4f4443;"
             },
             {
                 "id": "steel-gray",
                 "name": "Steel Gray (KLG)",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/steel-gray.webp",
                 "style": "background-color: #636363;"
             },
             {
                 "id": "aurora-black-pearl",
                 "name": "Aurora Black Pearl (ABP)",
+                "names": [
+                    "белый с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/aurora-black-pearl.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "gravity-blue",
                 "name": "Gravity Blue (B4U)",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/gravity-blue.webp",
                 "style": "background-color: #313642;"
             },
             {
                 "id": "runway-red",
                 "name": "Runway Red (CR5)",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/runway-red.webp",
                 "style": "background-color: #942a25;"
             },
             {
                 "id": "mineral-blue",
                 "name": "Mineral Blue (M4B)",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/mineral-blue.webp",
                 "style": "background-color: #5b819d;"
             },
             {
                 "id": "platinum-graphite",
                 "name": "Platinum Graphite (ABT)",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/platinum-graphite.webp",
                 "style": "background-color: #6c6c6e;"
             },
             {
                 "id": "silky-silver",
                 "name": "Silky Silver (4SS)",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/sorento/colors/silky-silver.webp",
                 "style": "background-color: #c1c2c6;"
             }
         ],
         "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "6AT/8AT/8DCT"
+        },
         "complectations": [
             {
                 "name": "Classic 2.5 6AT",
@@ -16137,12 +16408,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5/7 мест",
-            "fuel": "Бензин/Дизель",
-            "gearbox": "6AT/8AT/8DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -16245,6 +16510,12 @@
         "feed_names": [
             "Sorento, IV Рестайлинг"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин/Дизель",
+            "gearbox": "6AT/8AT/8DCT"
+        },
         "complectations": [
             {
                 "name": "Classic 2.5 6AT",
@@ -16407,12 +16678,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин/Дизель",
-            "gearbox": "6AT/8AT/8DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -16485,6 +16750,9 @@
             {
                 "id": "clear-white",
                 "name": "Clear White (UD)",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/clear-white.webp",
                 "style": "background-color: #e8e9e7;"
             },
@@ -16509,18 +16777,27 @@
             {
                 "id": "neptune-blue",
                 "name": "Neptune Blue (B3A)",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/neptune-blue.webp",
                 "style": "background-color: #3345ac;"
             },
             {
                 "id": "runway-red",
                 "name": "Runway Red (CR5)",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/runway-red.webp",
                 "style": "background-color: #a72f2c;"
             },
             {
                 "id": "gravity-blue",
                 "name": "Gravity Blue (B4U)",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/gravity-blue.webp",
                 "style": "background-color: #252b39;"
             },
@@ -16536,30 +16813,45 @@
             {
                 "id": "aurora-black-pearl",
                 "name": "Aurora Black Pearl (ABP)",
+                "names": [
+                    "белый с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/aurora-black-pearl.webp",
                 "style": "background-color: #000000;"
             },
             {
                 "id": "clear-white-aurora-black-pearl",
                 "name": "Clear White / Aurora Black Pearl (GB1)",
+                "names": [
+                    "белый с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/clear-white-aurora-black-pearl.webp",
                 "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #000000 51%);"
             },
             {
                 "id": "neptune-blue-clear-white",
                 "name": "Neptune Blue / Clear White (GB6)",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/neptune-blue-clear-white.webp",
                 "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #3345ac 51%);"
             },
             {
                 "id": "gravity-blue-clear-white",
                 "name": "Gravity Blue / Сlear White (GB4)",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/gravity-blue-clear-white.webp",
                 "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #182453 51%);"
             },
             {
                 "id": "gravity-blue-aurora-black-pearl",
                 "name": "Gravity Blue / Aurora Black Pearl (GB5)",
+                "names": [
+                    "белый с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/kia/img/models/seltos/colors/gravity-blue-aurora-black-pearl.webp",
                 "style": "background-image: linear-gradient(180deg, #f1f1f1 49%, #000000 51%);"
             }
@@ -16568,6 +16860,12 @@
             "Seltos, I",
             "Seltos, I Рестайлинг"
         ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/6AT/IVT/7DCT"
+        },
         "complectations": [
             {
                 "name": "Classic 1.6 6МТ",
@@ -16770,12 +17068,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6MT/6AT/IVT/7DCT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -16932,6 +17224,15 @@
                 "style": "background-color: rgb(82, 72, 72);"
             }
         ],
+        "feed_names": [
+            "KRS"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/6AT"
+        },
         "complectations": [
             {
                 "name": "Comfort 6MT",
@@ -17004,15 +17305,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "KRS"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6MT/6AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -17170,6 +17462,15 @@
                 "style": "background-color: rgb(82, 72, 72);"
             }
         ],
+        "feed_names": [
+            "KRX"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "6MT/6AT"
+        },
         "complectations": [
             {
                 "name": "Comfort 6MT",
@@ -17242,15 +17543,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "KRX"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "6MT/6AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -17632,7 +17924,6 @@
         "cyrillic": "Эс-09",
         "price": "{{price-soueast-s09}}",
         "benefit": "550000",
-        "badge": {},
         "benefits": [
             {
                 "url": "#common-modal",
@@ -17686,6 +17977,9 @@
             {
                 "id": "gray-light",
                 "name": "Светло-серый",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s09/colors/gray-light.webp",
                 "style": "background-color: #d7d7d7;"
             },
@@ -17711,6 +18005,16 @@
                 "style": ""
             }
         ],
+        "feed_names": [
+            "S09"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT/8AT"
+        },
+        "badge": {},
         "complectations": [
             {
                 "name": "Comfort",
@@ -17743,15 +18047,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "S09"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT/8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -17801,7 +18096,6 @@
         "cyrillic": "Эс-07",
         "price": "{{price-soueast-s07}}",
         "benefit": "400000",
-        "badge": {},
         "benefits": [
             {
                 "url": "#common-modal",
@@ -17825,6 +18119,9 @@
             {
                 "id": "pearl-white",
                 "name": "Жемчужно-белый",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s07/colors/pearl-white.webp",
                 "style": "background-color: #f0f0f0;"
             },
@@ -17872,6 +18169,9 @@
             {
                 "id": "blue-light",
                 "name": "Светло-синий",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s07/colors/blue-light.webp",
                 "style": "background-color: #90a9c2;"
             },
@@ -17887,6 +18187,16 @@
                 "style": "background-color: #e5e5e5;"
             }
         ],
+        "feed_names": [
+            "S07"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT/8AT"
+        },
+        "badge": {},
         "complectations": [
             {
                 "name": "Comfort 2WD",
@@ -17919,15 +18229,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "S07"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT/8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -17977,7 +18278,6 @@
         "cyrillic": "Эс-06",
         "price": "{{price-soueast-s06}}",
         "benefit": "400000",
-        "badge": {},
         "benefits": [
             {
                 "url": "#common-modal",
@@ -18001,6 +18301,9 @@
             {
                 "id": "pearl-white",
                 "name": "Жемчужно-белый",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s06/colors/pearl-white.webp",
                 "style": "background-color: #f0f0f0;"
             },
@@ -18048,6 +18351,9 @@
             {
                 "id": "blue-light",
                 "name": "Светло-синий",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/soueast/img/models/s06/colors/blue-light.webp",
                 "style": "background-color: #90a9c2;"
             },
@@ -18063,6 +18369,16 @@
                 "style": "background-color: #e5e5e5;"
             }
         ],
+        "feed_names": [
+            "S06"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "7DCT/8AT"
+        },
+        "badge": {},
         "complectations": [
             {
                 "name": "Comfort 2WD",
@@ -18095,15 +18411,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "S06"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "7DCT/8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -18150,6 +18457,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Следуй за открытиями",
         "name": "300",
+        "cyrillic": "Триста",
         "price": "{{price-tank-300}}",
         "benefit": "{{benefit-tank-300}}",
         "benefits": [
@@ -18175,35 +18483,56 @@
             {
                 "id": "red",
                 "name": "Красный Эльтон, металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/red.webp",
                 "style": "background-color: #ef2929;"
             },
             {
                 "id": "orange",
                 "name": "Чарский Оранжевый, металлик",
+                "names": [
+                    "оранжевый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/orange.webp",
                 "style": "background-color: #df4c30;"
             },
             {
                 "id": "gray",
                 "name": "Серый Шантар",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/gray.webp",
                 "style": "background-color: #c6c9ce;"
             },
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "white",
                 "name": "Белый Ольхон, металлик",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300/colors/white.webp",
                 "style": "background-color: #e6e7e8;"
             }
         ],
         "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
         "complectations": [
             {
                 "name": "Adventure",
@@ -18246,12 +18575,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -18298,6 +18621,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "За пределы возможного",
         "name": "400",
+        "cyrillic": "Четыреста",
         "price": "{{price-tank-400}}",
         "benefit": "{{benefit-tank-400}}",
         "benefits": [
@@ -18323,29 +18647,47 @@
             {
                 "id": "green",
                 "name": "Зеленый Ольхон, металлик",
+                "names": [
+                    "зеленый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/400/colors/green.webp",
                 "style": "background-color: #505d5d;"
             },
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/400/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый Сихоте, металлик.",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/400/colors/silver.webp",
                 "style": "background-color: #a2a4ab;"
             },
             {
                 "id": "gray",
                 "name": "Серый Куштау, металлик",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/400/colors/gray.webp",
                 "style": "background-color: #4f5664;"
             }
         ],
         "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "9AT"
+        },
         "complectations": [
             {
                 "name": "ADVENTURE",
@@ -18368,12 +18710,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "9AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -18420,6 +18756,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Веди за собой",
         "name": "500",
+        "cyrillic": "Пятьсот",
         "price": "{{price-tank-500}}",
         "benefit": "{{benefit-tank-500}}",
         "benefits": [
@@ -18445,29 +18782,47 @@
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/500/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "silver",
                 "name": "Серебристый Сихоте, металлик",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/500/colors/silver.webp",
                 "style": "background-color: #a2a4ab;"
             },
             {
                 "id": "gold",
                 "name": "Золото Рускеала, металлик",
+                "names": [
+                    "золотой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/500/colors/gold.webp",
                 "style": "background-color: #b0a798;"
             },
             {
                 "id": "white",
                 "name": "Снежная Иремель, металлик",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/500/colors/white.webp",
                 "style": "background-color: #e6e7e8;"
             }
         ],
         "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5-7 мест",
+            "fuel": "Бензин",
+            "gearbox": "9AT"
+        },
         "complectations": [
             {
                 "name": "Adventure",
@@ -18510,12 +18865,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5-7 мест",
-            "fuel": "Бензин",
-            "gearbox": "9AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -18562,6 +18911,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Сила признания",
         "name": "700",
+        "cyrillic": "Семьсот",
         "price": "{{price-tank-700}}",
         "benefit": "{{benefit-tank-700}}",
         "benefits": [
@@ -18587,17 +18937,29 @@
             {
                 "id": "black",
                 "name": "Черный Богдо, металлик",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/700/colors/black.webp",
                 "style": "background-color: #212329;"
             },
             {
                 "id": "gray",
                 "name": "Мультинский Серый, металлик",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/tank/img/models/700/colors/gray.webp",
                 "style": "background-color: #4f5664;"
             }
         ],
         "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "9AT"
+        },
         "complectations": [
             {
                 "name": "Premium",
@@ -18630,12 +18992,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "9AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -18678,223 +19034,275 @@
     {
         "mark_id": "Toyota",
         "id": "Camry",
-        "name": "Camry",
         "show": true,
-        "chars": {},
+        "name": "Camry",
+        "cyrillic": "Камри",
+        "price": "4844500",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "4844500"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Corolla",
-        "name": "Corolla",
         "show": true,
-        "chars": {},
+        "name": "Corolla",
+        "cyrillic": "Королла",
+        "price": "1955000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "1955000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Hiace",
-        "name": "Hiace",
         "show": true,
-        "chars": {},
+        "name": "Hiace",
+        "cyrillic": "Хайас",
+        "price": "2586000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "2586000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Toyota C-HR",
-        "name": "Toyota C-HR",
         "show": true,
-        "chars": {},
+        "name": "Toyota C-HR",
+        "cyrillic": "Тойота Си Эйч Ар",
+        "price": "2614000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "2614000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Land Cruiser Prado",
-        "name": "Land Cruiser Prado",
         "show": true,
-        "chars": {},
+        "name": "Land Cruiser Prado",
+        "cyrillic": "Ленд Крузер Прадо",
+        "price": "7400000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "7400000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Highlander",
-        "name": "Highlander",
         "show": true,
-        "chars": {},
+        "name": "Highlander",
+        "cyrillic": "Хайлендер",
+        "price": "3955000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "3955000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Hilux",
-        "name": "Hilux",
         "show": true,
-        "chars": {},
+        "name": "Hilux",
+        "cyrillic": "Хайлакс",
+        "price": "5105000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "5105000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "RAV4",
-        "name": "RAV4",
         "show": true,
-        "chars": {},
+        "name": "RAV4",
+        "cyrillic": "Рав 4",
+        "price": "4649000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "4649000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Fortuner",
-        "name": "Fortuner",
         "show": true,
-        "chars": {},
+        "name": "Fortuner",
+        "cyrillic": "Фортунер",
+        "price": "3764000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "3764000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Land Cruiser 300",
-        "name": "Land Cruiser 300",
         "show": true,
-        "chars": {},
+        "name": "Land Cruiser 300",
+        "cyrillic": "Ленд Крузер 300",
+        "price": "12999000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "12999000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Alphard",
-        "name": "Alphard",
         "show": true,
-        "chars": {},
+        "name": "Alphard",
+        "cyrillic": "Альфард",
+        "price": "7759000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "7759000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Coaster",
-        "name": "Coaster",
         "show": true,
-        "chars": {},
+        "name": "Coaster",
+        "cyrillic": "Коастер",
+        "price": "5500000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "5500000"
+        "chars": {}
     },
     {
         "mark_id": "Toyota",
         "id": "Crown",
-        "name": "Crown",
         "show": true,
-        "chars": {},
+        "name": "Crown",
+        "cyrillic": "Краун",
+        "price": "3000000",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
                 "id": "red",
                 "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
-        "price": "3000000"
+        "chars": {}
     },
     {
         "mark_id": "VGV",
@@ -18903,6 +19311,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Командный игрок",
         "name": "U70PRO",
+        "cyrillic": "Ю 70 Про",
         "price": "{{price-vgv-u70-pro}}",
         "benefit": "{{benefit-vgv-u70-pro}}",
         "benefits": [
@@ -18928,40 +19337,65 @@
             {
                 "id": "white-rose",
                 "name": "Белая роза",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/white-rose.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "gray-lounge",
                 "name": "Серый лаунж",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/gray-lounge.webp",
                 "style": "background-color: #D9D9D9;"
             },
             {
                 "id": "silver-rain",
                 "name": "Серебряный дождь",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/silver-rain.webp",
                 "style": "background:linear-gradient(90deg, #979797 0%, #ffffff 50%, #979797 100%);"
             },
             {
                 "id": "royal-blue",
                 "name": "Синий королевский",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/royal-blue.webp",
                 "style": "background:#004BBD;"
             },
             {
                 "id": "red-jam",
                 "name": "Красный джем",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/red-jam.webp",
                 "style": "background:#951212;"
             },
             {
                 "id": "black-knight",
                 "name": "Черный рыцарь",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/colors/black-knight.webp",
                 "style": "background:#000000;"
             }
         ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "6AT/6MT"
+        },
         "complectations": [
             {
                 "name": "Comfort (5 мест)",
@@ -19014,13 +19448,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [],
-        "photos": "",
-        "chars": {
-            "seats": "5/7 мест",
-            "fuel": "Бензин",
-            "gearbox": "6AT/6MT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -19067,6 +19494,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Большое будущее",
         "name": "U75PLUS",
+        "cyrillic": "Ю 75 Плюс",
         "price": "{{price-vgv-u75-plus}}",
         "benefit": "{{benefit-vgv-u75-plus}}",
         "benefits": [
@@ -19092,40 +19520,65 @@
             {
                 "id": "white-rose",
                 "name": "Белая роза",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/white-rose.webp",
                 "style": "background-color: #f1f1f1;"
             },
             {
                 "id": "gray-lounge",
                 "name": "Серый лаунж",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/gray-lounge.webp",
                 "style": "background-color: #D9D9D9;"
             },
             {
                 "id": "silver-rain",
                 "name": "Серебряный дождь",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/silver-rain.webp",
                 "style": "background:linear-gradient(90deg, #979797 0%, #ffffff 50%, #979797 100%);"
             },
             {
                 "id": "royal-blue",
                 "name": "Синий королевский",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/royal-blue.webp",
                 "style": "background:#004BBD;"
             },
             {
                 "id": "red-jam",
                 "name": "Красный джем",
+                "names": [
+                    "красный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/red-jam.webp",
                 "style": "background:#951212;"
             },
             {
                 "id": "black-knight",
                 "name": "Черный рыцарь",
+                "names": [
+                    "черный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/vgv/img/models/u75-plus/colors/black-knight.webp",
                 "style": "background:#000000;"
             }
         ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+            "seats": "5/7 мест",
+            "fuel": "Бензин",
+            "gearbox": "8AT"
+        },
         "complectations": [
             {
                 "name": "Executive (5 мест)",
@@ -19158,13 +19611,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [],
-        "photos": "",
-        "chars": {
-            "seats": "5/7 мест",
-            "fuel": "Бензин",
-            "gearbox": "8AT"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -19277,6 +19723,15 @@
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #494C52 9.68%, #6D6E71 54.56%, #838486 65%, #A1A2A5 74.68%, #595B5E 100%);"
             }
         ],
+        "feed_names": [
+            "Wey 05"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "DCT9"
+        },
         "complectations": [
             {
                 "name": "Premium",
@@ -19289,15 +19744,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Wey 05"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "5 мест",
-            "fuel": "Бензин",
-            "gearbox": "DCT9"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -19400,6 +19846,15 @@
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(8, 39, 66) 9.68%, rgb(7, 57, 94) 54.56%, rgb(33, 73, 114) 65%, rgb(62, 95, 134) 74.68%, rgb(8, 39, 66) 100%);"
             }
         ],
+        "feed_names": [
+            "Wey 07"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "6 мест",
+            "fuel": "Бензин",
+            "gearbox": "Автомат"
+        },
         "complectations": [
             {
                 "name": "Premium",
@@ -19412,15 +19867,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Wey 07"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "6 мест",
-            "fuel": "Бензин",
-            "gearbox": "Автомат"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -19522,6 +19968,15 @@
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #494C52 9.68%, #6D6E71 54.56%, #838486 65%, #A1A2A5 74.68%, #595B5E 100%);"
             }
         ],
+        "feed_names": [
+            "Wey 80"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "7 мест",
+            "fuel": "Бензин",
+            "gearbox": "Автомат"
+        },
         "complectations": [
             {
                 "name": "Premium",
@@ -19534,15 +19989,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Wey 80"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "7 мест",
-            "fuel": "Бензин",
-            "gearbox": "Автомат"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -19635,6 +20081,15 @@
                 "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, #494C52 9.68%, #6D6E71 54.56%, #838486 65%, #A1A2A5 74.68%, #595B5E 100%);"
             }
         ],
+        "feed_names": [
+            "Wey 80 Lounge"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "6 мест",
+            "fuel": "Бензин",
+            "gearbox": "Автомат"
+        },
         "complectations": [
             {
                 "name": "Business Lounge",
@@ -19647,15 +20102,6 @@
                 "fuel": "Бензин"
             }
         ],
-        "feed_names": [
-            "Wey 80 Lounge"
-        ],
-        "photos": "",
-        "chars": {
-            "seats": "6 мест",
-            "fuel": "Бензин",
-            "gearbox": "Автомат"
-        },
         "globalChars": [
             {
                 "id": "wheelbase",
@@ -19703,6 +20149,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Благородное происхождение",
         "name": "CX-50",
+        "cyrillic": "Си Икс 50",
         "price": "{{price-mazda-cx-50}}",
         "benefit": "{{benefit-mazda-cx-50}}",
         "benefits": [
@@ -19728,42 +20175,63 @@
             {
                 "id": "arctic-gray",
                 "name": "Arctic Gray",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/arctic-gray.webp",
                 "style": "background-color: #242a31;"
             },
             {
                 "id": "extreme-night-black",
                 "name": "Extreme Night Black",
+                "names": [
+                    "серый с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/extreme-night-black.webp",
                 "style": "background-color: #0d0c0f;"
             },
             {
                 "id": "pearlescent-white",
                 "name": "Pearlescent White",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/pearlescent-white.webp",
                 "style": "background-color: #d1d1d1;"
             },
             {
                 "id": "platinum-steel-gray",
                 "name": "Platinum Steel Gray",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/platinum-steel-gray.webp",
                 "style": "background-color: #4f4f51;"
             },
             {
                 "id": "silent-blue",
                 "name": "Silent Blue",
+                "names": [
+                    "голубой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/silent-blue.webp",
                 "style": "background-color: #364d71;"
             },
             {
                 "id": "soul-red-crystal",
                 "name": "Soul Red Crystal",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/soul-red-crystal.webp",
                 "style": "background-color: #c32637;"
             },
             {
                 "id": "zircon-sand",
                 "name": "Zircon sand",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-50/colors/zircon-sand.webp",
                 "style": "background-color: #7e745f;"
             }
@@ -19822,6 +20290,7 @@
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Премиальное качество",
         "name": "CX-5",
+        "cyrillic": "Си Икс 5",
         "price": "{{price-mazda-cx-5}}",
         "benefit": "{{benefit-mazda-cx-5}}",
         "benefits": [
@@ -19847,42 +20316,63 @@
             {
                 "id": "arctic-gray",
                 "name": "Arctic Gray",
+                "names": [
+                    "серый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-5/colors/arctic-gray.webp",
                 "style": "background-color: #242a31;"
             },
             {
                 "id": "extreme-night-black",
                 "name": "Extreme Night Black",
+                "names": [
+                    "серый с черным"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-5/colors/extreme-night-black.webp",
                 "style": "background-color: #0d0c0f;"
             },
             {
                 "id": "pearlescent-white",
                 "name": "Pearlescent White",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-5/colors/pearlescent-white.webp",
                 "style": "background-color: #d1d1d1;"
             },
             {
                 "id": "platinum-steel-gray",
                 "name": "Platinum Steel Gray",
+                "names": [
+                    "серебряный"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-5/colors/platinum-steel-gray.webp",
                 "style": "background-color: #4f4f51;"
             },
             {
                 "id": "deep-crystal-blue",
                 "name": "Deep Crystal Blue",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-5/colors/deep-crystal-blue.webp",
                 "style": "background-color: #252c39;"
             },
             {
                 "id": "soul-red-crystal",
                 "name": "Soul Red Crystal",
+                "names": [
+                    "белый"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-5/colors/soul-red-crystal.webp",
                 "style": "background-color: #c32637;"
             },
             {
                 "id": "platinum-gold",
                 "name": "Platinum Gold",
+                "names": [
+                    "золотой"
+                ],
                 "carImage": "https://cdn.alexsab.ru/b/mazda/img/models/cx-5/colors/platinum-gold.webp",
                 "style": "background-color: #b0aaa5;"
             }
