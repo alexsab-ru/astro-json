@@ -8879,6 +8879,7 @@
             }
         ],
         "feed_names": [
+            "H9",
             "H9, II"
         ],
         "photos": "",
@@ -9030,6 +9031,7 @@
             }
         ],
         "feed_names": [
+            "H7",
             "H7, I"
         ],
         "photos": "",
@@ -9337,6 +9339,7 @@
             }
         ],
         "feed_names": [
+            "H5",
             "H5, II"
         ],
         "photos": "",
@@ -11209,6 +11212,7 @@
             }
         ],
         "feed_names": [
+            "J7",
             "J7, I"
         ],
         "photos": "",
@@ -19196,6 +19200,10 @@
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
+            "RAV4",
+            "RAV_4"
         ],
         "chars": {}
     },
