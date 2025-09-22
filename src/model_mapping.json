@@ -165,24 +165,9 @@
         }
     },
     "Geely": {
-        "001": {
-            "short": "001",
-            "folder": "001",
-            "cyrillic": "001",
-            "color": {
-                "Black": "black.webp",
-                "Gray": "gray.webp",
-                "White": "white.webp",
-                "Red": "red.webp",
-                "Красный": "red.webp",
-                "Черный": "black.webp",
-                "Серый": "gray.webp",
-                "Белый": "white.webp"
-            }
-        },
         "Atlas Pro": {
             "short": "Atlas Pro",
-            "folder": "Atlas Pro",
+            "folder": "atlaspro",
             "cyrillic": "Атлас Про",
             "color": {
                 "Черный": "black-metallic.webp",
@@ -196,7 +181,7 @@
         },
         "Atlas, I": {
             "short": "Atlas",
-            "folder": "Atlas Pro",
+            "folder": "geely-atlas-2024",
             "cyrillic": "Атлас Про",
             "color": {
 
@@ -204,7 +189,7 @@
         },
         "Atlas": {
             "short": "Atlas",
-            "folder": "Atlas-2024",
+            "folder": "geely-atlas-2024",
             "cyrillic": "Атлас",
             "color": {
                 "Черный": "black-metallic.webp",
@@ -220,7 +205,7 @@
         },
         "Atlas, II": {
             "short": "Atlas",
-            "folder": "Atlas-2024",
+            "folder": "geely-atlas-2024",
             "cyrillic": "Атлас",
             "color": {
                 "Черный": "black-metallic.webp",
@@ -237,7 +222,7 @@
         },
         "Coolray": {
             "short": "Coolray",
-            "folder": "New Coolray",
+            "folder": "coolray",
             "cyrillic": "Кулрей",
             "color": {
                 "Красный": "bright-vermilion.webp",
@@ -251,7 +236,7 @@
         },
         "Coolray, I Рестайлинг": {
             "short": "Coolray",
-            "folder": "New Coolray",
+            "folder": "geely-coolray-2023",
             "cyrillic": "Кулрей",
             "color": {
                 "Красный": "bright-vermilion.webp",
@@ -268,7 +253,7 @@
         },
         "Coolray, I": {
             "short": "Coolray",
-            "folder": "Coolray",
+            "folder": "geely-coolray-2023",
             "cyrillic": "Кулрей",
             "color": {
                 "Синий": "blue-metallic.webp",
@@ -280,7 +265,7 @@
         },
         "Emgrand L": {
             "short": "Emgrand",
-            "folder": "Emgrand",
+            "folder": "emgrand",
             "cyrillic": "Эмгранд",
             "color": {
                 "Черный": "black-metallic.webp",
@@ -292,7 +277,7 @@
         },
         "Emgrand": {
             "short": "Emgrand",
-            "folder": "Emgrand",
+            "folder": "emgrand",
             "cyrillic": "Эмгранд",
             "color": {
                 "Черный": "black-metallic.webp",
@@ -309,7 +294,7 @@
         },
         "Emgrand, II": {
             "short": "Emgrand",
-            "folder": "Emgrand",
+            "folder": "emgrand",
             "cyrillic": "Эмгранд",
             "color": {
                 "Черный": "black-metallic.webp",
@@ -326,7 +311,7 @@
         },
         "Geometry G6": {
             "short": "Geometry G6",
-            "folder": "Geometry G6",
+            "folder": "geometry-g6",
             "cyrillic": "Геометрия Г6",
             "color": {
                 "Серый": "gray.webp"
@@ -334,7 +319,7 @@
         },
         "Monjaro": {
             "short": "Monjaro",
-            "folder": "Monjaro",
+            "folder": "monjaro",
             "cyrillic": "Монджаро",
             "color": {
                 "Черный": "black-metallic.webp",
@@ -350,7 +335,7 @@
         },
         "Okavango": {
             "short": "Okavango",
-            "folder": "Okavango",
+            "folder": "geely-okavango",
             "cyrillic": "Окаванго",
             "color": {
                 "Синий": "indigo-blue.webp",
@@ -365,7 +350,7 @@
         },
         "Okavango, I Рестайлинг": {
             "short": "Okavango",
-            "folder": "Okavango",
+            "folder": "geely-okavango",
             "cyrillic": "Окаванго",
             "color": {
                 "Синий": "indigo-blue.webp",
@@ -380,7 +365,7 @@
         },
         "Tugella, I Рестайлинг": {
             "short": "Tugella",
-            "folder": "Tugella",
+            "folder": "newtugella",
             "cyrillic": "Тугелла",
             "color": {
                 "Черный": "black-metallic.webp",
@@ -393,7 +378,7 @@
         },
         "Preface": {
             "short": "Preface",
-            "folder": "Preface",
+            "folder": "preface",
             "cyrillic": "Префейс",
             "color": {
                 "Black": "black.webp",
@@ -413,7 +398,7 @@
         },
         "Preface, I Рестайлинг 2": {
             "short": "Preface",
-            "folder": "Preface",
+            "folder": "preface",
             "cyrillic": "Префейс",
             "color": {
                 "Black": "black.webp",
@@ -431,46 +416,9 @@
                 "Белый": "white.webp"
             }
         },
-        "X50": {
-            "short": "X50",
-            "folder": "Belgee X50",
-            "cyrillic": "Белджи Х50",
-            "color": {
-                "Черный": "black.webp",
-                "Черный/черный": "black.webp",
-                "Серый": "gray.webp",
-                "Красный": "red.webp",
-                "Синий": "blue.webp",
-                "Синий металлик": "blue.webp",
-                "Серебристый": "silver.webp",
-                "Серебряный": "silver.webp",
-                "Белый": "white.webp"
-            }
-        },
-        "X70": {
-            "short": "X70",
-            "folder": "Belgee X70",
-            "cyrillic": "Белджи Х70",
-            "color": {
-                "Black": "black.webp",
-                "Черный": "black.webp",
-                "Черный/черный": "black.webp",
-                "Blue": "blue.webp",
-                "Синий": "blue.webp",
-                "Gray": "gray.webp",
-                "Серый": "gray.webp",
-                "Red": "red.webp",
-                "Красный": "red.webp",
-                "Silver": "silver.webp",
-                "Серебристый": "silver.webp",
-                "Серебряный": "silver.webp",
-                "White": "white.webp",
-                "Белый": "white.webp"
-            }
-        },
         "Cityray": {
             "short": "Cityray",
-            "folder": "Cityray",
+            "folder": "cityray",
             "cyrillic": "Ситирей",
             "color": {
                 "Gray": "gray.webp",
@@ -486,21 +434,6 @@
         }
     },
     "Belgee": {
-        "001": {
-            "short": "001",
-            "folder": "001",
-            "cyrillic": "001",
-            "color": {
-                "Black": "black.webp",
-                "Gray": "gray.webp",
-                "White": "white.webp",
-                "Red": "red.webp",
-                "Красный": "red.webp",
-                "Черный": "black.webp",
-                "Серый": "gray.webp",
-                "Белый": "white.webp"
-            }
-        },
         "X50": {
             "short": "X50",
             "folder": "x50",
@@ -645,7 +578,7 @@
         },
         "GS8, I поколение": {
             "short": "GS8",
-            "folder": "gs8",
+            "folder": "gs8-ii",
             "cyrillic": "ГС8",
             "color": {
                 "Черный": "black.webp",
@@ -659,7 +592,7 @@
         },
         "GS8": {
             "short": "GS8",
-            "folder": "gs8ii",
+            "folder": "gs8-ii",
             "cyrillic": "ГС8",
             "color": {
                 "Черный": "black.webp",
@@ -674,7 +607,7 @@
         },
         "GS8, II": {
             "short": "GS8",
-            "folder": "gs8ii",
+            "folder": "gs8-ii",
             "cyrillic": "ГС8",
             "color": {
                 "Черный": "black.webp",
@@ -2104,7 +2037,7 @@
     "Wey": {
         "Wey 07": {
             "short": "07",
-            "folder": "wey07",
+            "folder": "wey-07",
             "cyrillic": "ВЕЙ 07",
             "color": {
                 "Black": "black.webp",
@@ -2121,7 +2054,7 @@
         },
         "Wey 05": {
             "short": "05",
-           "folder": "wey05",
+           "folder": "wey-05",
             "cyrillic": "ВЕЙ 05",
             "color": {
                 "Black": "black.webp",
@@ -2140,7 +2073,7 @@
         },
         "Wey 80": {
             "short": "80 Premium",
-           "folder": "wey80",
+           "folder": "wey-80-premium",
             "cyrillic": "ВЕЙ 80",
             "color": {
                 "Black": "black.webp",
@@ -2157,7 +2090,7 @@
         },
         "Wey 80 Lounge": {
             "short": "80 Business Lounge",
-           "folder": "wey80lounge",
+           "folder": "wey-80-business-lounge",
             "cyrillic": "ВЕЙ 80 лаундж",
             "color": {
                 "Black": "black.webp",
@@ -2615,7 +2548,7 @@
     "Forthing": {
         "T5 EVO": {
             "short": "T5 EVO",
-            "folder": "t5-evo",
+            "folder": "t5evo",
             "cyrillic": "Тэ 5 Эво",
             "color": {
                 "Black": "black.webp",
