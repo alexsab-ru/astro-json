@@ -19783,35 +19783,200 @@
         "id": "RAV4",
         "show": true,
         "name": "RAV4",
+        "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/bg.webp",
         "cyrillic": "Рав 4",
-        "price": "4649000",
-        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "price": "{{price-toyota-rav4}}",
+        "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/thumb.webp",
         "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "names": [
-                    "красный"
-                ],
-                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
-                "style": ""
-            },
-            {
-                "id": "black",
-                "name": "Черный",
-                "names": [
-                    "Черный",
-                    "Чёрный"
-                ],
-                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
-                "style": "background-color: #000000;"
-            }
+          {
+            "id": "white",
+            "name": "Белый",
+            "names": [
+              "белый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/colors/white.webp",
+            "style": "background-color: white;"
+          },
+          {
+            "id": "white-pearl",
+            "name": "Белый перламутр",
+            "names": [
+              "белый перламутр"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/colors/white-pearl.webp",
+            "style": "background-color: rgb(243 245 243);"
+          },
+          {
+            "id": "silver-metallic",
+            "name": "Серебристый металлик",
+            "names": [
+              "серебристый металлик",
+              "серебристый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/colors/silver-metallic.webp",
+            "style": "background-color: rgb(147 156 151);"
+          },
+          {
+            "id": "gray-brown-metallic",
+            "name": "Серо-коричневый металлик",
+            "names": [
+              "серо-коричневый металлик",
+              "серо коричневый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/colors/gray-brown-metallic.webp",
+            "style": "background-color: rgb(81 76 73);"
+          },
+          {
+            "id": "black-metallic",
+            "name": "Черный металлик",
+            "names": [
+              "черный металлик",
+              "чёрный металлик",
+              "черный",
+              "чёрный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/colors/black-metallic.webp",
+            "style": "background-color: #000000;"
+          },
+          {
+            "id": "red-special-metallic",
+            "name": "Красный специальный металлик",
+            "names": [
+              "красный специальный металлик",
+              "красный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/colors/red-special-metallic.webp",
+            "style": "background-color: rgb(145 36 52);"
+          },
+          {
+            "id": "blue-metallic",
+            "name": "Синий металлик",
+            "names": [
+              "синий металлик",
+              "синий"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/colors/blue-metallic.webp",
+            "style": "background-color: rgb(8 59 126);"
+          },
+          {
+            "id": "red-special-metallic-black-roof",
+            "name": "Красный специальный металлик с черной крышей",
+            "names": [
+              "красный специальный металлик с черной крышей",
+              "красный с черной крышей"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/colors/red-special-metallic-black-roof.webp",
+            "style": "background-image: linear-gradient(to right, rgb(145 36 52) 0% 50%, #000 50% 100%);"
+          },
+          {
+            "id": "white-pearl-black-roof",
+            "name": "Белый перламутр с черной крышей",
+            "names": [
+              "белый перламутр с черной крышей"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/colors/white-pearl-black-roof.webp",
+            "style": "background-image: linear-gradient(to right, rgb(243 245 243) 0% 50%, #000 50% 100%);"
+          }
         ],
         "feed_names": [
-            "RAV4",
-            "RAV_4"
+          "RAV4",
+          "RAV_4"
         ],
-        "chars": {}
+        "chars": {
+          "seats": "5 мест",
+          "fuel": "Бензин",
+          "gearbox": "6 МКП"
+        },
+        "complectations": [
+          {
+            "name": "Стандарт",
+            "price": "",
+            "bodytype": "Кроссовер",
+            "engine": "2 м3",
+            "engine_power": "149",
+            "gear_rus": "6 МКП",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Комфорт",
+            "price": "",
+            "bodytype": "Кроссовер",
+            "engine": "2 м3",
+            "engine_power": "149",
+            "gear_rus": "CVT",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Style",
+            "price": "",
+            "bodytype": "Седан",
+            "engine": "2 м3",
+            "engine_power": "149",
+            "gear_rus": "CVT",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Престиж",
+            "price": "",
+            "bodytype": "Седан",
+            "engine": "2 м3",
+            "engine_power": "200",
+            "gear_rus": "CVT",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Престиж Safety",
+            "price": "",
+            "bodytype": "Седан",
+            "engine": "2,5 м3",
+            "engine_power": "199",
+            "gear_rus": "8 АКП",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          }
+        ],
+        "globalChars": [
+          {
+              "id": "wheelbase",
+              "title": "Колёсная база",
+              "value": "2690",
+              "measure": "мм"
+          },
+          {
+              "id": "length",
+              "title": "Длина",
+              "value": "4600",
+              "measure": "мм"
+          },
+          {
+              "id": "width",
+              "title": "Ширина",
+              "value": "1855",
+              "measure": "мм"
+          },
+          {
+              "id": "engine",
+              "title": "Объем двигателя",
+              "value": "2",
+              "measure": "л."
+          },
+          {
+              "id": "torque",
+              "title": "Крутящий момент",
+              "value": "243",
+              "measure": "н.м."
+          },
+          {
+              "id": "transmission",
+              "title": "Привод",
+              "value": "Полный",
+              "measure": ""
+          }
+        ]
     },
     {
         "mark_id": "Toyota",
