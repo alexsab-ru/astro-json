@@ -20531,6 +20531,24 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Чёрный",
+                "names": [
+                    "Чёрный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
             }
         ],
         "feed_names": [
@@ -20555,6 +20573,24 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "names": [
+                    "Коричневый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
             }
         ],
         "feed_names": [
@@ -20562,6 +20598,54 @@
             "Santa Fe, II",
             "Santa Fe, II Рестайлинг",
             "Santa Fe, III"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Hyundai",
+        "id": "Tucson",
+        "show": true,
+        "name": "Tucson",
+        "cyrillic": "Тюсан",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Tucson, III Рестайлинг"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Hyundai",
+        "id": "Solaris",
+        "show": true,
+        "name": "Solaris",
+        "cyrillic": "Солярис",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Solaris, I Рестайлинг"
         ],
         "chars": {}
     },
@@ -20579,6 +20663,15 @@
                 "name": "Красный металлик",
                 "names": [
                     "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "Белый"
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
@@ -20654,11 +20747,45 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
             }
         ],
         "feed_names": [
             "Juke",
             "Juke, I"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Nissan",
+        "id": "Qashqai",
+        "show": true,
+        "name": "Qashqai",
+        "cyrillic": "Кашкай",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Qashqai",
+            "Qashqai, I"
         ],
         "chars": {}
     },
@@ -20676,6 +20803,15 @@
                 "name": "Красный металлик",
                 "names": [
                     "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "names": [
+                    "Синий"
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
@@ -20701,6 +20837,15 @@
                 "name": "Красный металлик",
                 "names": [
                     "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Черный"
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
