@@ -19563,24 +19563,157 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Toyota C-HR",
+        "id": "C-HR",
         "show": true,
-        "name": "Toyota C-HR",
-        "cyrillic": "Тойота Си Эйч Ар",
-        "price": "2614000",
-        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/bg.webp",
+        "name": "C-HR",
+        "cyrillic": "Си Эйч Ар",
+        "price": "{{price-toyota-c-hr}}",
+        "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/thumb.webp",
         "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "names": [
-                    "красный"
-                ],
-                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
-                "style": ""
-            }
+          {
+            "id": "white",
+            "name": "Белый",
+            "names": [
+              "белый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/colors/white.webp",
+            "style": "background-color: white;"
+          },
+          {
+            "id": "gray-blue",
+            "name": "Серо-голубой",
+            "names": [
+              "серо-голубой",
+              "серо голубой"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/colors/gray-blue.webp",
+            "style": "background-color: rgb(92 111 118);"
+          },
+          {
+            "id": "silver",
+            "name": "Серебристый",
+            "names": [
+              "серебристый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/colors/silver.webp",
+            "style": "background-color: rgb(147 156 151);"
+          },
+          {
+            "id": "black",
+            "name": "Черный",
+            "names": [
+              "Черный",
+              "Чёрный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/colors/black.webp",
+            "style": "background-color: #000000;"
+          },
+          {
+            "id": "dark-gray",
+            "name": "Темно-серый",
+            "names": [
+              "темно-серый",
+              "тёмно-серый",
+              "темно серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/colors/dark-gray.webp",
+            "style": "background-color: rgb(96 96 96);"
+          },
+          {
+            "id": "red",
+            "name": "Красный",
+            "names": [
+              "красный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/colors/red.webp",
+            "style": "background-color: rgb(145 36 52);"
+          },
+          {
+            "id": "purple",
+            "name": "Фиолетовый",
+            "names": [
+              "фиолетовый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/colors/purple.webp",
+            "style": "background-color: rgb(71 57 71);"
+          }
         ],
-        "chars": {}
+        "chars": {
+          "seats": "5 мест",
+          "fuel": "Бензин",
+          "gearbox": "Вариатор"
+        },
+        "complectations": [
+          {
+            "name": "Cool",
+            "price": "",
+            "bodytype": "Кроссовер",
+            "engine": "1.2 м3",
+            "engine_power": "116",
+            "gear_rus": "Вариатор",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "GR Sport",
+            "price": "",
+            "bodytype": "Кроссовер",
+            "engine": "2 м3",
+            "engine_power": "148",
+            "gear_rus": "Вариатор",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "HOT",
+            "price": "",
+            "bodytype": "Кроссовер",
+            "engine": "2 м3",
+            "engine_power": "148",
+            "gear_rus": "Вариатор",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          }
+        ],
+        "globalChars": [
+          {
+              "id": "wheelbase",
+              "title": "Колёсная база",
+              "value": "2640",
+              "measure": "мм"
+          },
+          {
+              "id": "length",
+              "title": "Длина",
+              "value": "4360",
+              "measure": "мм"
+          },
+          {
+              "id": "width",
+              "title": "Ширина",
+              "value": "1795",
+              "measure": "мм"
+          },
+          {
+              "id": "engine",
+              "title": "Объем двигателя",
+              "value": "2",
+              "measure": "л."
+          },
+          {
+              "id": "torque",
+              "title": "Крутящий момент",
+              "value": "189",
+              "measure": "н.м."
+          },
+          {
+              "id": "transmission",
+              "title": "Привод",
+              "value": "Передний",
+              "measure": ""
+          }
+        ]
     },
     {
         "mark_id": "Toyota",
