@@ -17135,6 +17135,15 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебряный",
+                "names": [
+                    "Серебряный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
             }
         ],
         "feed_names": [
@@ -17151,7 +17160,7 @@
         "slogan": "",
         "name": "Soul",
         "cyrillic": "Соул",
-        "price": "0",
+        "price": "",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
@@ -17159,6 +17168,15 @@
                 "name": "Красный металлик",
                 "names": [
                     "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "names": [
+                    "Коричневый"
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
@@ -20618,6 +20636,15 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "names": [
+                    "Серый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
             }
         ],
         "feed_names": [
@@ -20642,10 +20669,43 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
             }
         ],
         "feed_names": [
             "Solaris, I Рестайлинг"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Datsun",
+        "id": "on-DO",
+        "show": true,
+        "name": "on-DO",
+        "cyrillic": "Он до",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "names": [
+                    "коричневый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "on-DO, i"
         ],
         "chars": {}
     },
@@ -20707,6 +20767,147 @@
         "chars": {}
     },
     {
+        "mark_id": "LADA (ВАЗ)",
+        "id": "2121",
+        "show": true,
+        "name": "2121 (4x4)",
+        "cyrillic": "2121",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "2121 (4x4), I Рестайлинг"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "LADA (ВАЗ)",
+        "id": "Granta",
+        "show": true,
+        "name": "Granta",
+        "cyrillic": "Гранта",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "names": [
+                    "Серый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "beige",
+                "name": "Бежевый",
+                "names": [
+                    "Бежевый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Granta, I Рестайлинг"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "LADA (ВАЗ)",
+        "id": "XRAY",
+        "show": true,
+        "name": "XRAY",
+        "cyrillic": "Иксрей",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "XRAY, I"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "LADA (ВАЗ)",
+        "id": "Vesta",
+        "show": true,
+        "name": "Vesta",
+        "cyrillic": "Веста",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный",
+                "names": [
+                    "Красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Vesta, I"
+        ],
+        "chars": {}
+    },
+    {
         "mark_id": "Opel",
         "id": "NIVA",
         "show": true,
@@ -20727,6 +20928,39 @@
         ],
         "feed_names": [
             "NIVA"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Opel",
+        "id": "Astra",
+        "show": true,
+        "name": "Astra",
+        "cyrillic": "Астра",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебряный",
+                "names": [
+                    "Серебряный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Astra, H Рестайлинг"
         ],
         "chars": {}
     },
@@ -20778,6 +21012,15 @@
                 "name": "Красный металлик",
                 "names": [
                     "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "gray",
+                "name": "Серый",
+                "names": [
+                    "Серый"
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
