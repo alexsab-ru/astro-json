@@ -19151,22 +19151,198 @@
         "mark_id": "Toyota",
         "id": "Corolla",
         "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/bg.webp",
         "name": "Corolla",
         "cyrillic": "Королла",
-        "price": "1955000",
-        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "price": "{{price-toyota-corolla}}",
+        "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/thumb.webp",
         "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "names": [
-                    "красный"
-                ],
-                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
-                "style": ""
-            }
+          {
+            "id": "white",
+            "name": "Белый",
+            "names": [
+              "белый",
+              "white"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/colors/white.webp",
+            "style": "background-color: white;"
+          },
+          {
+            "id": "white-pearl",
+            "name": "Белый перламутр",
+            "names": [
+              "белый перламутр"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/colors/white-pearl.webp",
+            "style": "background-color: rgb(243 245 243);"
+          },
+          {
+            "id": "silver-metallic",
+            "name": "Серебристый металлик",
+            "names": [
+              "серебристый металлик",
+              "серебристый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/colors/silver-metallic.webp",
+            "style": "background-color: rgb(147 156 151);"
+          },
+          {
+            "id": "gray-blue-metallic",
+            "name": "Серо-голубой металлик",
+            "names": [
+              "серо-голубой металлик",
+              "серо голубой"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/colors/gray-blue-metallic.webp",
+            "style": "background-color: rgb(92 111 118);"
+          },
+          {
+            "id": "black-metallic",
+            "name": "Черный металлик",
+            "names": [
+              "черный металлик",
+              "чёрный металлик",
+              "черный",
+              "чёрный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/colors/black-metallic.webp",
+            "style": "background-color: #000000;"
+          },
+          {
+            "id": "bronze-metallic",
+            "name": "Бронзовый металлик",
+            "names": [
+              "бронзовый металлик",
+              "бронзовый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/colors/bronze-metallic.webp",
+            "style": "background-color: rgb(92 111 118);"
+          },
+          {
+            "id": "ash-gray-metallic-black-roof",
+            "name": "Пепельно-серый металлик с черной крышей",
+            "names": [
+              "пепельно-серый металлик с черной крышей",
+              "пепельно серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/colors/ash-gray-metallic-black-roof.webp",
+            "style": "background-color: rgb(187 191 186);"
+          },
+          {
+            "id": "white-pearl-black-roof",
+            "name": "Белый перламутр с черной крышей",
+            "names": [
+              "белый перламутр с черной крышей"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/colors/white-pearl-black-roof.webp",
+            "style": "background-color: rgb(187 191 186);"
+          }
         ],
-        "chars": {}
+        "chars": {
+          "seats": "5 мест",
+          "fuel": "Бензин",
+          "gearbox": "6 МКП"
+        },
+        "complectations": [
+          {
+            "name": "Стандарт",
+            "price": "",
+            "bodytype": "Седан",
+            "engine": "1.6 м3",
+            "engine_power": "122",
+            "gear_rus": "6 МКП",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Классик",
+            "price": "",
+            "bodytype": "Седан",
+            "engine": "1.6 м3",
+            "engine_power": "122",
+            "gear_rus": "Вариатор",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Комфорт",
+            "price": "",
+            "bodytype": "Седан",
+            "engine": "1.6 м3",
+            "engine_power": "122",
+            "gear_rus": "Вариатор",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "GR Sport",
+            "price": "",
+            "bodytype": "Седан",
+            "engine": "1.6 м3",
+            "engine_power": "122",
+            "gear_rus": "Вариатор",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Престиж",
+            "price": "",
+            "bodytype": "Седан",
+            "engine": "1.6 м3",
+            "engine_power": "122",
+            "gear_rus": "Вариатор",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Престиж Safety",
+            "price": "",
+            "bodytype": "Седан",
+            "engine": "1.6 м3",
+            "engine_power": "122",
+            "gear_rus": "Вариатор",
+            "drive": "Передний",
+            "fuel": "Бензин"
+          }
+        ],
+        "globalChars": [
+          {
+              "id": "wheelbase",
+              "title": "Колёсная база",
+              "value": "2700",
+              "measure": "мм"
+          },
+          {
+              "id": "length",
+              "title": "Длина",
+              "value": "4630",
+              "measure": "мм"
+          },
+          {
+              "id": "width",
+              "title": "Ширина",
+              "value": "1780",
+              "measure": "мм"
+          },
+          {
+              "id": "engine",
+              "title": "Объем двигателя",
+              "value": "1.6",
+              "measure": "л."
+          },
+          {
+              "id": "torque",
+              "title": "Крутящий момент",
+              "value": "153",
+              "measure": "н.м."
+          },
+          {
+              "id": "transmission",
+              "title": "Привод",
+              "value": "Передний",
+              "measure": ""
+          }
+        ]
     },
     {
         "mark_id": "Toyota",
