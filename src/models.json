@@ -10703,6 +10703,7 @@
                 "id": "black",
                 "name": "Черный",
                 "names": [
+                    "Чёрный",
                     "Черный"
                 ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/black.webp",
@@ -11055,6 +11056,7 @@
                 "id": "silver",
                 "name": "Серебристый фантом",
                 "names": [
+                    "Серебряный",
                     "Серебристый"
                 ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/silver.webp",
@@ -11077,6 +11079,7 @@
                 "name": "Чёрный жемчуг",
                 "names": [
                     "Черный",
+                    "Чёрный",
                     "Черный/черный"
                 ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js3/colors/black.webp",
@@ -11187,6 +11190,7 @@
                 "name": "Чёрный жемчуг",
                 "names": [
                     "Черный",
+                    "Чёрный",
                     "Черный/черный"
                 ],
                 "carImage": "https://cdn.alexsab.ru/b/jac/img/models/j7/colors/black.webp",
@@ -13109,6 +13113,7 @@
                 "names": [
                     "Azure",
                     "Лазурный",
+                    "Blue",
                     "Синий"
                 ],
                 "carImage": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c4b.png",
@@ -17112,6 +17117,60 @@
         ]
     },
     {
+        "mark_id": "Kia",
+        "id": "rio",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "",
+        "name": "Rio",
+        "cyrillic": "Рио",
+        "price": "0",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Rio",
+            "Rio, III Рестайлинг"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Kia",
+        "id": "soul",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+        "slogan": "",
+        "name": "Soul",
+        "cyrillic": "Соул",
+        "price": "0",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Soul",
+            "Soul, I"
+        ],
+        "chars": {}
+    },
+    {
         "mark_id": "Solaris",
         "id": "krs",
         "show": true,
@@ -19052,7 +19111,21 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Черный",
+                    "Чёрный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": "background-color: #000000;"
             }
+        ],
+        "feed_names": [
+            "Camry",
+            "Camry, VI (XV40)"
         ],
         "chars": {}
     },
@@ -19199,6 +19272,16 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Черный",
+                    "Чёрный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": "background-color: #000000;"
             }
         ],
         "feed_names": [
@@ -20430,6 +20513,204 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "Dongfeng",
+        "id": "dfsk-ix5",
+        "show": true,
+        "name": "DFSK iX5",
+        "cyrillic": "ДФСК их5",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "DFSK iX5"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Hyundai",
+        "id": "Santa Fe",
+        "show": true,
+        "name": "Santa Fe",
+        "cyrillic": "Санта Фе",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Santa Fe",
+            "Santa Fe, II",
+            "Santa Fe, II Рестайлинг",
+            "Santa Fe, III"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "ВАЗ (LADA)",
+        "id": "NIVA",
+        "show": true,
+        "name": "NIVA",
+        "cyrillic": "Нива",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "NIVA"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "LADA (ВАЗ)",
+        "id": "NIVA",
+        "show": true,
+        "name": "NIVA",
+        "cyrillic": "Нива",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "NIVA"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Opel",
+        "id": "NIVA",
+        "show": true,
+        "name": "NIVA",
+        "cyrillic": "Нива",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "NIVA"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Nissan",
+        "id": "Juke",
+        "show": true,
+        "name": "Juke",
+        "cyrillic": "Жук",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Juke",
+            "Juke, I"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Renault",
+        "id": "Sandero",
+        "show": true,
+        "name": "Sandero",
+        "cyrillic": "Сандеро",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Sandero",
+            "Sandero, I"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Chevrolet",
+        "id": "Niva",
+        "show": true,
+        "name": "Niva",
+        "cyrillic": "Нива",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Niva",
+            "Niva, I Рестайлинг"
+        ],
+        "chars": {}
     },
     {
         "mark_id": "Lexus",
