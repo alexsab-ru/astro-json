@@ -1,0 +1,31 @@
+[
+	{
+		"name": "special-offers",
+		"title": "Спецпредложения",
+		"description": "Спецпредложения официального дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	},
+	{	"name": "services",
+		"title": "Услуги",
+		"description": "Услуги официального дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	},
+	{	"name": "remont",
+		"title": "Сервисный центр",
+		"description": "Сервисный центр официального дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	},
+	{	"name": "autoservice",
+		"title": "Сервис и запчасти",
+		"description": "Сервис и запчасти официального дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	},
+	{	"name": "about",
+		"title": "О компании",
+		"description": "О компании официального дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	},
+	{	"name": "corporate_clients",
+		"title": "Корпоративным клиентам",
+		"description": "Корпоративным клиентам официального дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	},
+	{	"name": "actions",
+		"title": "Акции",
+		"description": "Акции официального дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	}
+]

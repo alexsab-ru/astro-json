@@ -1,0 +1,22 @@
+[
+	{
+		"name": "special-offers",
+		"title": "Спецпредложения",
+		"description": "Спецпредложения официального дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	},
+	{
+		"name": "news",
+		"title": "Новости",
+		"description": "Новости и акции дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	},
+	{
+		"name": "customers-credit",
+		"title": "Кредитование и страхование",
+		"description": "Кредитование и страхование для покупателей {{brand}} в {{legal_city_where}}"
+	},
+	{
+		"name": "owners-support",
+		"title": "Поддержка",
+		"description": "Поддержка для владельцев {{brand}} в {{legal_city_where}}"
+	}
+]
