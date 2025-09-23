@@ -1,28 +1,54 @@
 [
   {
-    "url": "/cars/",
-    "name": "Авто в наличии"
-  },
-  {
     "url": "/models/",
     "name": "Модели",
     "children": "models"
+  },
+  {
+    "url": "/cars/",
+    "name": "Новые автомобили"
+  },
+  {
+    "url": "/used_cars/",
+    "name": "Автомобили с пробегом"
+  },
+  {
+    "url": "/sell-car/",
+    "name": "Оценка авто"
   },
   {
     "url": "/special-offers/",
     "name": "Спецпредложения"
   },
   {
-    "url": "/test-drive/",
-    "name": "Запись на тест-драйв"
+    "url": "/rukovodstvo-po-ekspluatatsii/",
+    "name": "Руководства по эксплуатации"
   },
   {
-    "url": "/service-request/",
-    "name": "Запись на сервис"
-  },
-  {
-    "url": "/#services",
-    "name": "Услуги"
+    "url": "javascript:void(0)",
+    "name": "Дополнительное оборудование",
+    "children": [
+      {
+        "url": "/originalnye-aksessuary/",
+        "name": "Оригинальные аксессуары"
+      },
+      {
+        "url": "/aerodinamichnye-komplekty-khann/",
+        "name": "Аэродинамичные комплекты KHANN"
+      },
+      {
+        "url": "/legkosplavnye-diski-khann/",
+        "name": "Легкосплавные диски KHANN"
+      },
+      {
+        "url": "/aksessuary-khann/",
+        "name": "Аксессуары KHANN"
+      },
+      {
+        "url": "/zimnie-shiny-aktsiia/",
+        "name": "Зимние шины - АКЦИЯ!"
+      }
+    ]
   },
   {
     "url": "/contacts/",
