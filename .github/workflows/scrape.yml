@@ -270,39 +270,40 @@ jobs:
         if: ${{ steps.set_brand.outputs.brand == 'all' }}
         run: pnpm run mergeJson
 
-      - name: Check for changes
-        id: check_changes
+      - name: Detect changes and prepare update notification
+        id: detect_changes
         run: |
-          if git diff --exit-code; then
-            echo "changes=true" >> $GITHUB_ENV
-            echo "changes=true" >> $GITHUB_OUTPUT
-            BRAND_NAME="${{ steps.set_brand.outputs.brand }}"
-            if [[ "$BRAND_NAME" == "all" ]]; then
-              echo "<blockquote>Updated all brands data</blockquote>" >> output_wrapped.txt
-            else
-              echo "<blockquote>Updated $BRAND_NAME data</blockquote>" >> output_wrapped.txt
-            fi
-          elif git status -s; then
-            echo "changes=true" >> $GITHUB_ENV
-            echo "changes=true" >> $GITHUB_OUTPUT
-            BRAND_NAME="${{ steps.set_brand.outputs.brand }}"
-            if [[ "$BRAND_NAME" == "all" ]]; then
-              echo "<blockquote>Updated all brands data</blockquote>" >> output_wrapped.txt
-            else
-              echo "<blockquote>Updated $BRAND_NAME data</blockquote>" >> output_wrapped.txt
-            fi
-          else
+          BRAND_NAME="${{ steps.set_brand.outputs.brand }}"
+          # Проверяем изменения: если есть изменения, git diff --quiet вернет код 1
+          if git diff --quiet; then
+            # Изменений нет
             echo "changes=false" >> $GITHUB_ENV
             echo "changes=false" >> $GITHUB_OUTPUT
-            echo "<blockquote>Nothing changes</blockquote>" >> output_wrapped.txt
+            echo "notification_output=" >> $GITHUB_OUTPUT
+          else
+            # Есть изменения
+            echo "changes=true" >> $GITHUB_ENV
+            echo "changes=true" >> $GITHUB_OUTPUT
+            if [[ "$BRAND_NAME" == "all" ]]; then
+              echo "<blockquote>Updated all brands data</blockquote>" > update_message.txt
+            else
+              echo "<blockquote>Updated $BRAND_NAME data</blockquote>" > update_message.txt
+            fi
+            # Кодируем уведомление в base64
+            encoded_update=$(base64 -w 0 update_message.txt)
+            echo "notification_output=$encoded_update" >> $GITHUB_OUTPUT
           fi
+        continue-on-error: true
+
+      - name: Prepare error messages from output.txt
+        id: prepare_errors
+        run: |
           if [ -s output.txt ]; then
-            echo "$(cat output.txt)" >> output_wrapped.txt
+            encoded_errors=$(base64 -w 0 output.txt)
+            echo "error_output=$encoded_errors" >> $GITHUB_OUTPUT
+          else
+            echo "error_output=" >> $GITHUB_OUTPUT
           fi
-          # Кодируем содержимое файла в base64
-          encoded_output=$(base64 -w 0 output_wrapped.txt)
-          # Передаем закодированное значение
-          echo "script_output=$encoded_output" >> $GITHUB_OUTPUT
         continue-on-error: true
       
       - name: Commit files
@@ -320,18 +321,30 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
     outputs:
-      changes: ${{ steps.check_changes.outputs.changes }}
-      script_output: ${{ steps.check_changes.outputs.script_output }}
+      changes: ${{ steps.detect_changes.outputs.changes }}
+      notification_output: ${{ steps.detect_changes.outputs.notification_output }}
+      error_output: ${{ steps.prepare_errors.outputs.error_output }}
   
-  notify_telegram:
+  notify_telegram_error:
     needs: scrape_all
     if: |
-      needs.scrape_all.outputs.script_output != '' && 
+      needs.scrape_all.outputs.error_output != '' && 
       (github.event_name == 'push' || github.event_name == 'schedule' || github.event.inputs.send_notification == 'true')
     uses: ./.github/workflows/github-telegram.yml
     with:
       additional-text: |
-        ${{ needs.scrape_all.outputs.script_output }}
+        ${{ needs.scrape_all.outputs.error_output }}
     secrets:
       TELEGRAM_TO: ${{ secrets.TELEGRAM_TO_ERROR }}
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+
+  notify_telegram_about_notification:
+    needs: [scrape_all]
+    if: needs.scrape_all.outputs.changes == 'true'
+    uses: ./.github/workflows/github-telegram.yml
+    with:
+      additional-text: |
+        ${{ needs.scrape_all.outputs.notification_output }}
+    secrets:
+      TELEGRAM_TO: ${{ secrets.TELEGRAM_TO_SPECIAL }}
       TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
