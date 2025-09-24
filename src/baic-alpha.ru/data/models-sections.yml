@@ -19,12 +19,12 @@
       title: "Экстерьер"
       text: "Преемственность и инновации. Смелое сочетание величественной брутальности и локаничного дизайна. Основная идея характерной и узнаваемой стилистики BAIC BJ60 проходит лейтмотивом в оформлении экстерьера автомобиля."
       images:
+        - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/3.webp
+          title: "Светодиодная оптика и подсветка решетки радиатора"
         - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/1.webp
           title: "Панорамная крыша"
         - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/2.webp
           title: "Боковые подножки с электроприводом"
-        - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/3.webp
-          title: "Светодиодная оптика и подсветка решетки радиатора"
         - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/4.webp
           title: "Полноразмерное запасное колесо"
         - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/5.webp
