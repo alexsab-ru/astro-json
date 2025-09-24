@@ -20117,21 +20117,198 @@
         "id": "Fortuner",
         "show": true,
         "name": "Fortuner",
+        "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/bg.webp",
         "cyrillic": "Фортунер",
-        "price": "3764000",
-        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "price": "{{price-toyota-fortuner}}",
+        "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/thumb.webp",
         "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "names": [
-                    "красный"
-                ],
-                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
-                "style": ""
-            }
+          {
+            "id": "white",
+            "name": "Белый",
+            "names": [
+              "белый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/colors/white.webp",
+            "style": "background-color: white;"
+          },
+          {
+            "id": "white-pearl",
+            "name": "Белый перламутр",
+            "names": [
+              "белый перламутр"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/colors/white-pearl.webp",
+            "style": "background-color: rgb(243 245 243);"
+          },
+          {
+            "id": "silver-metallic",
+            "name": "Серебристый металлик",
+            "names": [
+              "серебристый металлик",
+              "серебристый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/colors/silver-metallic.webp",
+            "style": "background-color: rgb(147 156 151);"
+          },
+          {
+            "id": "dark-gray-metallic",
+            "name": "Темно-серый металлик",
+            "names": [
+              "темно-серый металлик",
+              "тёмно-серый металлик",
+              "темно серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/colors/dark-gray-metallic.webp",
+            "style": "background-color: rgb(96 96 96);"
+          },
+          {
+            "id": "black-metallic",
+            "name": "Черный металлик",
+            "names": [
+              "черный металлик",
+              "чёрный металлик",
+              "черный",
+              "чёрный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/colors/black-metallic.webp",
+            "style": "background-color: #000000;"
+          },
+          {
+            "id": "dark-blue-metallic",
+            "name": "Темно-синий металлик",
+            "names": [
+              "темно-синий металлик",
+              "тёмно-синий металлик",
+              "темно синий"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/colors/dark-blue-metallic.webp",
+            "style": "background-color: rgb(8 36 90);"
+          },
+          {
+            "id": "brown-metallic",
+            "name": "Коричневый металлик",
+            "names": [
+              "коричневый металлик",
+              "коричневый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/colors/brown-metallic.webp",
+            "style": "background-color: rgb(81 76 73);"
+          },
+          {
+            "id": "white-pearl-black-roof",
+            "name": "Белый перламутр с черной крышей",
+            "names": [
+              "белый перламутр с черной крышей"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/colors/white-pearl-black-roof.webp",
+            "style": "background-image: linear-gradient(to right, rgb(243 245 243) 0% 50%, #000 50% 100%);"
+          },
+          {
+            "id": "bright-red-special-metallic-black-roof",
+            "name": "Ярко-красный специальный металлик с черной крышей",
+            "names": [
+              "ярко-красный специальный металлик с черной крышей",
+              "ярко красный с черной крышей"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/colors/bright-red-special-metallic-black-roof.webp",
+            "style": "background-image: linear-gradient(to right, rgb(180 20 40) 0% 50%, #000 50% 100%);"
+          }
         ],
-        "chars": {}
+        "chars": {
+          "seats": "7 мест",
+          "fuel": "Бензин",
+          "gearbox": "6 АКП"
+        },
+        "complectations": [
+          {
+            "name": "Стандарт",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.7 м3",
+            "engine_power": "166",
+            "gear_rus": "5 МКП",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Комфорт",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.7 м3",
+            "engine_power": "166",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Элеганс",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.8 м3",
+            "engine_power": "200",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Дизель"
+          },
+          {
+            "name": "Престиж",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.8 м3",
+            "engine_power": "200",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Дизель"
+          },
+          {
+            "name": "Black Onyx",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.8 м3",
+            "engine_power": "200",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Дизель"
+          }
+        ],
+        "globalChars": [
+          {
+            "id": "wheelbase",
+            "title": "Колёсная база",
+            "value": "2745",
+            "measure": "мм"
+          },
+          {
+            "id": "length",
+            "title": "Длина",
+            "value": "4795",
+            "measure": "мм"
+          },
+          {
+            "id": "width",
+            "title": "Ширина",
+            "value": "1855",
+            "measure": "мм"
+          },
+          {
+            "id": "engine",
+            "title": "Объем двигателя",
+            "value": "2.7",
+            "measure": "л."
+          },
+          {
+            "id": "torque",
+            "title": "Крутящий момент",
+            "value": "245",
+            "measure": "н.м."
+          },
+          {
+            "id": "transmission",
+            "title": "Привод",
+            "value": "Полный",
+            "measure": ""
+          }
+        ]
     },
     {
         "mark_id": "Toyota",
