@@ -17,12 +17,36 @@
     "name": "Оценка авто"
   },
   {
-    "url": "/special-offers/",
-    "name": "Спецпредложения"
+    "url": "javascript:void(0)",
+    "name": "Покупателям",
+    "children": [
+      {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/test-drive/",
+        "name": "Тест-драйв"
+      }
+    ]
   },
   {
-    "url": "/rukovodstvo-po-ekspluatatsii/",
-    "name": "Руководства по эксплуатации"
+    "url": "javascript:void(0)",
+    "name": "Владельцам",
+    "children": [
+      {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/service-request/",
+        "name": "Запись на сервис"
+      },
+      {
+        "url": "/rukovodstvo-po-ekspluatatsii/",
+        "name": "Руководства по эксплуатации"
+      }
+    ]
   },
   {
     "url": "javascript:void(0)",
