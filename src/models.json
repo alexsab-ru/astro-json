@@ -19346,7 +19346,7 @@
     {
         "mark_id": "Toyota",
         "id": "corolla",
-        "show": true,
+        "show": false,
         "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/bg.webp",
         "name": "Corolla",
         "cyrillic": "Королла",
@@ -19543,7 +19543,7 @@
     {
         "mark_id": "Toyota",
         "id": "hiace",
-        "show": true,
+        "show": false,
         "name": "Hiace",
         "cyrillic": "Хайас",
         "price": "2586000",
@@ -19564,7 +19564,7 @@
     {
         "mark_id": "Toyota",
         "id": "c-hr",
-        "show": true,
+        "show": false,
         "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/bg.webp",
         "name": "C-HR",
         "cyrillic": "Си Эйч Ар",
@@ -19719,22 +19719,209 @@
         "mark_id": "Toyota",
         "id": "land-cruiser-prado",
         "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/bg.webp",
         "name": "Land Cruiser Prado",
         "cyrillic": "Ленд Крузер Прадо",
-        "price": "7400000",
-        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "price": "{{price-toyota-land-cruiser-prado}}",
+        "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/thumb.webp",
         "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "names": [
-                    "красный"
-                ],
-                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
-                "style": ""
-            }
+          {
+            "id": "white",
+            "name": "Белый",
+            "names": [
+              "белый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/toyota/img/models/land-cruiser-prado/colors/white.webp",
+            "style": "background-color: white;"
+          },
+          {
+            "id": "white-pearl",
+            "name": "Белый перламутр",
+            "names": [
+              "белый перламутр"
+            ],
+            "carImage": "https://cdn.alexsab.ru/toyota/img/models/land-cruiser-prado/colors/white-pearl.webp",
+            "style": "background-color: rgb(243 245 243);"
+          },
+          {
+            "id": "black-metallic",
+            "name": "Черный металлик",
+            "names": [
+              "черный металлик",
+              "чёрный металлик",
+              "черный",
+              "чёрный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/toyota/img/models/land-cruiser-prado/colors/black-metallic.webp",
+            "style": "background-color: #000000;"
+          },
+          {
+            "id": "brown-pearl",
+            "name": "Коричневый перламутр",
+            "names": [
+              "коричневый перламутр",
+              "коричневый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/toyota/img/models/land-cruiser-prado/colors/brown-pearl.webp",
+            "style": "background-color: rgb(81 65 57);"
+          },
+          {
+            "id": "dark-blue-pearl",
+            "name": "Темно-синий перламутр",
+            "names": [
+              "темно-синий перламутр",
+              "тёмно-синий перламутр",
+              "темно синий"
+            ],
+            "carImage": "https://cdn.alexsab.ru/toyota/img/models/land-cruiser-prado/colors/dark-blue-pearl.webp",
+            "style": "background-color: rgb(8 36 90);"
+          },
+          {
+            "id": "gray-brown-metallic",
+            "name": "Серо-коричневый металлик",
+            "names": [
+              "серо-коричневый металлик",
+              "серо коричневый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/toyota/img/models/land-cruiser-prado/colors/gray-brown-metallic.webp",
+            "style": "background-color: rgb(81 76 73);"
+          },
+          {
+            "id": "silver-metallic",
+            "name": "Серебристый металлик",
+            "names": [
+              "серебристый металлик",
+              "серебристый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/toyota/img/models/land-cruiser-prado/colors/silver-metallic.webp",
+            "style": "background-color: rgb(147 156 151);"
+          },
+          {
+            "id": "ash-gray-metallic",
+            "name": "Пепельно-серый металлик",
+            "names": [
+              "пепельно-серый металлик",
+              "пепельно серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/toyota/img/models/land-cruiser-prado/colors/ash-gray-metallic.webp",
+            "style": "background-color: rgb(187 191 186);"
+          }
         ],
-        "chars": {}
+        "chars": {
+          "seats": "7 мест",
+          "fuel": "Бензин",
+          "gearbox": "6АКП"
+        },
+        "complectations": [
+          {
+            "name": "Классик",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.7 м3",
+            "engine_power": "163",
+            "gear_rus": "5 МКП",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Стандарт",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.7 м3",
+            "engine_power": "163",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Комфорт",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.8 м3",
+            "engine_power": "200",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Дизель"
+          },
+          {
+            "name": "Элеганс",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.8/4 м3",
+            "engine_power": "200/249",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Дизель/Бензин"
+          },
+          {
+            "name": "Элеганс Плюс",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.8/4 м3",
+            "engine_power": "200/249",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Дизель/Бензин"
+          },
+          {
+            "name": "70-th Anniversary",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.8/4 м3",
+            "engine_power": "200/249",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Дизель/Бензин"
+          },
+          {
+            "name": "Black Onyx",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "2.8/4 м3",
+            "engine_power": "200/249",
+            "gear_rus": "6 АКП",
+            "drive": "Полный",
+            "fuel": "Дизель/Бензин"
+          }
+        ],
+        "globalChars": [
+          {
+            "id": "wheelbase",
+            "title": "Колёсная база",
+            "value": "2790",
+            "measure": "мм"
+          },
+          {
+            "id": "length",
+            "title": "Длина",
+            "value": "4840-4857",
+            "measure": "мм"
+          },
+          {
+            "id": "width",
+            "title": "Ширина",
+            "value": "1885",
+            "measure": "мм"
+          },
+          {
+            "id": "engine",
+            "title": "Объем двигателя",
+            "value": "2.7",
+            "measure": "л."
+          },
+          {
+            "id": "torque",
+            "title": "Крутящий момент",
+            "value": "246-500",
+            "measure": "н.м."
+          },
+          {
+            "id": "transmission",
+            "title": "Привод",
+            "value": "Полный",
+            "measure": ""
+          }
+        ]
     },
     {
         "mark_id": "Toyota",
@@ -19894,7 +20081,7 @@
     {
         "mark_id": "Toyota",
         "id": "hilux",
-        "show": true,
+        "show": false,
         "name": "Hilux",
         "cyrillic": "Хайлакс",
         "price": "5105000",
@@ -20115,7 +20302,7 @@
     {
         "mark_id": "Toyota",
         "id": "fortuner",
-        "show": true,
+        "show": false,
         "name": "Fortuner",
         "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/bg.webp",
         "cyrillic": "Фортунер",
@@ -20313,7 +20500,7 @@
     {
         "mark_id": "Toyota",
         "id": "land-cruiser-300",
-        "show": true,
+        "show": false,
         "name": "Land Cruiser 300",
         "cyrillic": "Ленд Крузер 300",
         "price": "12999000",
@@ -20334,7 +20521,7 @@
     {
         "mark_id": "Toyota",
         "id": "alphard",
-        "show": true,
+        "show": false,
         "name": "Alphard",
         "cyrillic": "Альфард",
         "price": "7759000",
@@ -20355,7 +20542,7 @@
     {
         "mark_id": "Toyota",
         "id": "coaster",
-        "show": true,
+        "show": false,
         "name": "Coaster",
         "cyrillic": "Коастер",
         "price": "5500000",
@@ -20376,7 +20563,7 @@
     {
         "mark_id": "Toyota",
         "id": "crown",
-        "show": true,
+        "show": false,
         "name": "Crown",
         "cyrillic": "Краун",
         "price": "3000000",
@@ -20397,7 +20584,7 @@
     {
         "mark_id": "VGV",
         "id": "u70-pro",
-        "show": true,
+        "show": false,
         "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
         "slogan": "Командный игрок",
         "name": "U70PRO",
