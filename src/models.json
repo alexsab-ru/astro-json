@@ -19114,7 +19114,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Camry",
+        "id": "camry",
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/camry/bg.webp",
         "name": "Camry",
@@ -19345,7 +19345,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Corolla",
+        "id": "corolla",
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/bg.webp",
         "name": "Corolla",
@@ -19542,7 +19542,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Hiace",
+        "id": "hiace",
         "show": true,
         "name": "Hiace",
         "cyrillic": "Хайас",
@@ -19563,7 +19563,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "C-HR",
+        "id": "c-hr",
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/c-hr/bg.webp",
         "name": "C-HR",
@@ -19717,7 +19717,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Land Cruiser Prado",
+        "id": "land-cruiser-prado",
         "show": true,
         "name": "Land Cruiser Prado",
         "cyrillic": "Ленд Крузер Прадо",
@@ -19738,7 +19738,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Highlander",
+        "id": "highlander",
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/bg.webp",
         "name": "Highlander",
@@ -19893,7 +19893,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Hilux",
+        "id": "hilux",
         "show": true,
         "name": "Hilux",
         "cyrillic": "Хайлакс",
@@ -19914,7 +19914,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "RAV4",
+        "id": "rav4",
         "show": true,
         "name": "RAV4",
         "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/rav4/bg.webp",
@@ -20114,7 +20114,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Fortuner",
+        "id": "fortuner",
         "show": true,
         "name": "Fortuner",
         "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/fortuner/bg.webp",
@@ -20312,7 +20312,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Land Cruiser 300",
+        "id": "land-cruiser-300",
         "show": true,
         "name": "Land Cruiser 300",
         "cyrillic": "Ленд Крузер 300",
@@ -20333,7 +20333,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Alphard",
+        "id": "alphard",
         "show": true,
         "name": "Alphard",
         "cyrillic": "Альфард",
@@ -20354,7 +20354,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Coaster",
+        "id": "coaster",
         "show": true,
         "name": "Coaster",
         "cyrillic": "Коастер",
@@ -20375,7 +20375,7 @@
     },
     {
         "mark_id": "Toyota",
-        "id": "Crown",
+        "id": "crown",
         "show": true,
         "name": "Crown",
         "cyrillic": "Краун",
