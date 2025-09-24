@@ -19740,22 +19740,156 @@
         "mark_id": "Toyota",
         "id": "Highlander",
         "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/bg.webp",
         "name": "Highlander",
         "cyrillic": "Хайлендер",
-        "price": "3955000",
-        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "price": "{{price-toyota-highlander}}",
+        "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/thumb.webp",
         "colors": [
-            {
-                "id": "red",
-                "name": "Красный металлик",
-                "names": [
-                    "красный"
-                ],
-                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
-                "style": ""
-            }
+          {
+            "id": "white",
+            "name": "Белый",
+            "names": [
+              "белый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/white.webp",
+            "style": "background-color: white;"
+          },
+          {
+            "id": "gray",
+            "name": "Серый",
+            "names": [
+              "серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/gray.webp",
+            "style": "background-color: rgb(128 128 128);"
+          },
+          {
+            "id": "silver",
+            "name": "Серебристый",
+            "names": [
+              "серебристый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/silver.webp",
+            "style": "background-color: rgb(147 156 151);"
+          },
+          {
+            "id": "black",
+            "name": "Черный",
+            "names": [
+              "Черный",
+              "Чёрный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/black.webp",
+            "style": "background-color: #000000;"
+          },
+          {
+            "id": "dark-brown",
+            "name": "Темно-коричневый",
+            "names": [
+              "темно-коричневый",
+              "тёмно-коричневый",
+              "темно коричневый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/dark-brown.webp",
+            "style": "background-color: rgb(67 54 45);"
+          },
+          {
+            "id": "dark-blue",
+            "name": "Темно-синий",
+            "names": [
+              "темно-синий",
+              "тёмно-синий",
+              "темно синий"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/dark-blue.webp",
+            "style": "background-color: rgb(8 36 90);"
+          },
+          {
+            "id": "gray-blue",
+            "name": "Серо-голубой",
+            "names": [
+              "серо-голубой",
+              "серо голубой"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/gray-blue.webp",
+            "style": "background-color: rgb(92 111 118);"
+          },
+          {
+            "id": "red",
+            "name": "Красный",
+            "names": [
+              "красный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/red.webp",
+            "style": "background-color: rgb(145 36 52);"
+          }
         ],
-        "chars": {}
+        "chars": {
+          "seats": "7 мест",
+          "fuel": "Бензин",
+          "gearbox": "8 АКП"
+        },
+        "complectations": [
+          {
+            "name": "Престиж",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "3.5 м3",
+            "engine_power": "249",
+            "gear_rus": "8 АКП",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          },
+          {
+            "name": "Люкс Safety",
+            "price": "",
+            "bodytype": "Универсал",
+            "engine": "3.5 м3",
+            "engine_power": "249",
+            "gear_rus": "8 АКП",
+            "drive": "Полный",
+            "fuel": "Бензин"
+          }
+        ],
+        "globalChars": [
+          {
+              "id": "wheelbase",
+              "title": "Колёсная база",
+              "value": "2890",
+              "measure": "мм"
+          },
+          {
+              "id": "length",
+              "title": "Длина",
+              "value": "4966",
+              "measure": "мм"
+          },
+          {
+              "id": "width",
+              "title": "Ширина",
+              "value": "1930",
+              "measure": "мм"
+          },
+          {
+              "id": "engine",
+              "title": "Объем двигателя",
+              "value": "3.5",
+              "measure": "л."
+          },
+          {
+              "id": "torque",
+              "title": "Крутящий момент",
+              "value": "356",
+              "measure": "н.м."
+          },
+          {
+              "id": "transmission",
+              "title": "Привод",
+              "value": "Полный",
+              "measure": ""
+          }
+        ]
     },
     {
         "mark_id": "Toyota",
