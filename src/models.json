@@ -10094,15 +10094,6 @@
         "thumb": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/terracotta-sapphire.webp",
         "colors": [
             {
-                "id": "white",
-                "name": "Белый",
-                "names": [
-                    "белый"
-                ],
-                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/white.webp",
-                "style": "background-color: white;"
-            },
-            {
                 "id": "graphite-quartz",
                 "name": "Графитовый кварц",
                 "names": [
@@ -10138,6 +10129,15 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/galactic-black.webp",
                 "style": "background-color: #000000;"
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/white.webp",
+                "style": "background-color: white;"
             }
         ],
         "feed_names": [],
