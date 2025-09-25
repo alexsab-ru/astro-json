@@ -22281,12 +22281,12 @@
     {
         "mark_id": "Lexus",
         "id": "ux",
-        "centered": true,
+        "centered": false,
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/lexus/ux/bg.webp",
         "slogan": "Испытайте невероятное",
         "name": "UX",
-        "cyrillic": "Юэкс",
+        "cyrillic": "Ю Икс",
         "price": "{{price-lexus-ux}}",
         "benefit": "{{benefit-lexus-ux}}",
         "benefits": [
