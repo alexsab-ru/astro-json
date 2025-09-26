@@ -22282,7 +22282,7 @@
         "mark_id": "Lexus",
         "id": "rx-350",
         "centered": true,
-        "show": false,
+        "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/lexus/rx-350/bg.webp",
         "slogan": "Испытайте невероятное",
         "name": "RX 350",
