@@ -22492,5 +22492,163 @@
                 "measure": ""
             }
         ]
+    },
+    {
+        "mark_id": "Lexus",
+        "id": "lx-600",
+        "centered": true,
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/lexus/lx-600/bg.webp",
+        "slogan": "",
+        "name": "LX 600",
+        "cyrillic": "Эл Икс 600",
+        "price": "{{price-lexus-lx-600}}",
+        "benefit": "{{benefit-lexus-lx-600}}",
+        "benefits": [
+          {
+            "url": "#common-modal",
+            "label": "Выгодный трейд-ин",
+            "icon_name": "mdi:credit-card-check-outline",
+            "data_title": "Выгодный трейд-ин",
+            "data_form_name": "Выгодный трейд-ин. RX",
+            "view": "popup-link"
+          },
+          {
+            "url": "#common-modal",
+            "label": "Выгодный кредит",
+            "icon_name": "mdi:gift-outline",
+            "data_title": "Выгодный кредит",
+            "data_form_name": "Выгодный кредит. RX",
+            "view": "popup-link"
+          },
+          {
+            "url": "#common-modal",
+            "label": "Страхование",
+            "icon_name": "mdi:shield-check",
+            "data_title": "Страхование",
+            "data_form_name": "Страхование. RX",
+            "view": "popup-link"
+          },
+          {
+            "url": "#common-modal",
+            "label": "Лизинг",
+            "icon_name": "mdi:calendar-clock",
+            "data_title": "Лизинг",
+            "data_form_name": "Лизинг. RX",
+            "view": "popup-link"
+          }
+        ],
+        "thumb": "https://cdn.alexsab.ru/models/lexus/lx-600/thumb.webp",
+        "colors": [
+          {
+            "id": "sparkling-white-special-metallic",
+            "name": "Искрящийся белый специальный металлик",
+            "names": [
+              "Sparkling White Special Metallic",
+              "Искрящийся белый",
+              "Белый",
+              "белый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/models/lexus/lx-600/colors/sparkling-white-special-metallic.webp",
+            "style": "background-color: rgb(224 229 233);"
+          },
+          {
+            "id": "black-metallic",
+            "name": "Черный металлик",
+            "names": [
+              "Black Metallic",
+              "Черный металлик"
+            ],
+            "carImage": "https://cdn.alexsab.ru/models/lexus/lx-600/colors/black-metallic.webp",
+            "style": "background-color: rgb(45 45 45);"
+          },
+          {
+            "id": "black",
+            "name": "Черный неметаллик",
+            "names": [
+              "Black Non-Metallic",
+              "Черный неметаллик",
+              "Черный",
+              "черный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/models/lexus/lx-600/colors/black-non-metallic.webp",
+            "style": "background-color: rgb(35 35 35);"
+          },
+          {
+            "id": "dark-green-metallic",
+            "name": "Темно-зеленый металлик",
+            "names": [
+              "Dark Green Metallic",
+              "Темно-зеленый металлик"
+            ],
+            "carImage": "https://cdn.alexsab.ru/models/lexus/lx-600/colors/dark-green-metallic.webp",
+            "style": "background-color: rgb(34 64 47);"
+          },
+          {
+            "id": "light-gray-metallic",
+            "name": "Светло-серый металлик",
+            "names": [
+              "Light Gray Metallic",
+              "Светло-серый металлик"
+            ],
+            "carImage": "https://cdn.alexsab.ru/models/lexus/lx-600/colors/light-gray-metallic.webp",
+            "style": "background-color: rgb(169 169 169);"
+          },
+          {
+            "id": "dark-gray-metallic",
+            "name": "Темно-серый металлик",
+            "names": [
+              "Dark Gray Metallic",
+              "Темно-серый металлик"
+            ],
+            "carImage": "https://cdn.alexsab.ru/models/lexus/lx-600/colors/dark-gray-metallic.webp",
+            "style": "background-color: rgb(70 70 70);"
+          }
+        ],
+        "feed_names": [],
+        "photos": "",
+        "chars": {
+          "seats": "7 мест",
+          "fuel": "Бензин",
+          "gearbox": "АКПП"
+        },
+        "globalChars": [
+          {
+            "id": "wheelbase",
+            "title": "Колёсная база",
+            "value": "2850",
+            "measure": "мм"
+          },
+          {
+            "id": "length",
+            "title": "Длина",
+            "value": "5090",
+            "measure": "мм"
+          },
+          {
+            "id": "width",
+            "title": "Ширина",
+            "value": "5100",
+            "measure": "мм"
+          },
+          {
+            "id": "engine",
+            "title": "Объем двигателя",
+            "value": "3.5",
+            "measure": "л."
+          },
+          {
+            "id": "torque",
+            "title": "Крутящий момент",
+            "value": "650",
+            "measure": "н.м."
+          },
+          {
+            "id": "transmission",
+            "title": "Привод",
+            "value": "Полный",
+            "measure": ""
+          }
+        ]
     }
 ]
