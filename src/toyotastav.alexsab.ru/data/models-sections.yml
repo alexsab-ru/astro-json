@@ -1,0 +1,299 @@
+- id: "camry"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ЭТАЛОН БИЗНЕС-СЕДАНА"
+      title: Toyota Camry
+      text: "<p>Обновленная Toyota Camry — это качественно новое воплощение самых передовых технологий и премиального комфорта. Стильный дизайн с динамичными линиями кузова, модульная архитектура TNGA * и современное техническое оснащение — обновленная Toyota Camry вдохновит вас на успех как на дороге, так и в жизни.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 150-249 л.с.
+        - icon: mdi:speedometer-medium
+          text: Разгон 0–100 км/ч - 7.7с
+        - icon: mdi:speedometer
+          text: Максимальная скорость 220 км/ч
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      text: "Обновленную Toyota Camry отличает стильный дизайн с динамичными линиями кузова. Дизайн, который узнаваем даже издалека! Обновленная, более выразительная форма переднего бампера, решетка радиатора с боковой хромированной окантовкой, новый дизайн дисков, увеличенные колесные арки — все это подчеркивает выразительный стиль легендарного бизнес-седана."
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/exterior/1.webp
+          title: "Новая форма превосходства"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/exterior/2.webp
+          title: "Яркие преимущества"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/exterior/3.webp
+          title: "Массивная решетка радиатора"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/exterior/4.webp
+          title: "Новый дизайн дисков"
+          description: ""
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: 
+      text: "Благодаря модульной архитектуре TNGA * в салоне обновленной Toyota Camry много пространства для ног и над головой, что поможет с еще большим комфортом разместиться водителю и пассажирам. Удобная высота сидений, комфортная посадка, вентиляция передних сидений, электрорегулировка положения сидений с функцией памяти — все это позволит вам раствориться в комфорте и наслаждаться каждой минутой своего пути.Обновленный рисунок перфорации сидений Toyota Camry и новые вставки выглядят еще более впечатляюще и при этом гармонично сочетаются с остальными элементами декора"
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/1.webp
+          title: "Премиальный комфорт"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/2.webp
+          title: "Обновленный рисунок перфорации сидений"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/3.webp
+          title: "Кожаная обивка центральной консоли со стороны пассажира "
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/4.webp
+          title: "Место для хранения очков"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/5.webp
+          title: "Держатели для бутылок в двери"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/6.webp
+          title: "Солнцезащитные шторки"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/7.webp
+          title: "Сенсорная панель управления"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/8.webp
+          title: "Вместительный багажник"
+          description: ""
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: 
+      text: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/technology/1.webp
+          title: "Изысканная атмосфера"
+          description: "Обновленная мульгимедийная система с поддержкой Apple CarplayиAndroid Auto® влечатлит даже самых искушениных пользователей! Вы можете прокладывать маршруты, слушать музыку, совершать звонки и отвечать на сообщения, не отвлекаясь от вождения. А9-дюймовый зкран системы расположен так, что его хорошо видно даже когда вы сосредоточены на дороге."
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/technology/2.webp
+          title: "Передовое оснащение"
+          description: "Передовове оснащение сделает управление обновленной Toyota Camry незабываемым. Седан оснащен 7-дюймовым многхфункциональным дисплеем на панели приборов, который обеслечивает более наглядное отображение всех данных. На лобовом стекле разместился цветной 10-дюймовый дисплей, куда проецируется информация с мульгимедийной системы, важные сообщения, данные круиз-контроля и спидометра, благодаря чему прямо во время движения вы видите на уровне глаз всю необходимую информацию, не отвлекаясь от вождения. Обновленная Toyotaa Camгу С оснащена аудиосистемой JBL премиум-класса с9 динамиками и технологией Clari-FI™, которая позволяет восстанавливать качество звука и делеать его максимально близким коригинальной версии."
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/technology/3.webp
+          title: "Абсолютный контроль"
+          description: "В любом месте и в любой ситуации вы смоожете прочувствовать бескомпромиссный комфорт и уверенность за рулем обновленной Toyota Camry. Для комфортного передвижения даже в ограниченных пространствах есть 4 камеры панорамного обзора, которые дают полное изображение вокруг автомобиля. А камера заднего вида с динамической разметкой поможет с легкостью припарковаться даже в самых стесненных условиях Беспроводное зарядное устройство и система бесключевого доступа в салон с запуском двигателя скнопки Smart Entry & Push Start подарят дополнительное удобство и позволят сакономить драгоценное время."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/docs/camry.pdf' class='underline' target='_blank'>Брошюра</a><br><a href='https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/docs/camry-complectations.pdf' class='underline' target='_blank'>Комплектации</a></span></p>"
+- id: "land-cruiser-prado"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "Легенда нашего времени"
+      title: Toyota Land Cruiser Prado
+      text: "Легендарный внедорожник Toyota Land Cruiser Prado в брутальном дизайне снова подтверждает свое право на лидерство, став обладателем престижной российской автомобильной премии «Внедорожник года — 2020» в номинации «Среднеразмерные внедорожники»."
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 163-200 л.с.
+        - icon: mdi:speedometer-medium
+          text: Разгон 0–100 км/ч - 9.9с
+        - icon: mdi:speedometer
+          text: Максимальная скорость 175 км/ч
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      text: "В каждой детали Toyota Land Cruiser Prado демонстрирует статус и потенциал легендарного рамного внедорожника в полном объеме. "
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/exterior/1.webp
+          title: "Светодиодные фары ближнего и дальнего света"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/exterior/2.webp
+          title: "Решетка радиатора черного глянцевого цвета"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/exterior/3.webp
+          title: "Боковые подножки с подсветкой"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/exterior/4.webp
+          title: "Новый дизайн задних фонарей"
+          description: ""
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: 
+      text: "Просторный и функциональный салон Toyota Land Cruiser Prado легко трансформируется с помощью электропривода складывания и позволяет вместить даже крупногабаритные вещи. Люк с электроприводом, доступный в специальной серии Black Onyx, дарит еще больше комфорта и ощущения пространства."
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/interior/1.webp
+          title: ""
+          description: ""
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: 
+      text: "Toyota Land Cruiser Prado обеспечивает высочайший комфорт при вождении. Для максимального удобства блоки управляющих элементов сгруппированы на центральной консоли. С мультимедийной системой нового поколения с сенсорным дисплеем 9’’, навигационной системой на русском языке, поддержкой Apple CarPlay© и Android Auto© вы можете совершать важные звонки и наслаждаться музыкой, не отрываясь от движения к новым свершениям."
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/technology/1.webp
+          title: "Мультимедийная система нового поколения с сенсорным дисплеем 9”, поддержкой Apple CarPlay© и Android Auto©"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/technology/2.webp
+          title: "Трехзонный климат-контроль"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/technology/3.webp
+          title: "Система выбора режима движения"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/technology/4.webp
+          title: "Функция «Вид сквозь капот»"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/technology/5.webp
+          title: "Камера заднего вида"
+          description: ""
+    - id: qualities
+      sectionClass: ""
+      title: Внедорожные качества
+      text: "<p>Toyota Land Cruiser Prado обладает силой, способной преодолеть любые бездорожье и препятствия. Система Multi-Terrain Select с пятью специальными режимами движения и режимом «АВТО» позволит достичь максимального сцепления с любым типом покрытия на вашем пути к цели.</p><p>Потрясающие ходовые качества Toyota Land Cruiser Prado позволят вам уверенно пройти испытания на любых дорогах и решительно проложить свой собственный путь там, где их нет.</p>"
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/qualities/1.webp
+          title: "Единая консоль управления внедорожными системами Multi-Terrain Select, Crawl Control и A-TRC обстоятельства."
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/qualities/2.webp
+          title: "Угол опрокидывания 42°"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/qualities/3.webp
+          title: "Угол въезда, рампы и съезда - 32°, 22°, 25°"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/qualities/4.webp
+          title: "Глубина преодолеваемого брода 700мм"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/qualities/5.webp
+          title: "Угол преодолеваемого уклона 42°"
+          description: ""
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/docs/land-cruiser-prado.pdf' class='underline' target='_blank'>Брошюра</a><br><a href='https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/sections/docs/land-cruiser-prado-complectations.pdf' class='underline' target='_blank'>Комплектации</a></span></p>"
+- id: "highlander"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "Воплощение современного автомобиля"
+      title: Toyota Highlander
+      text: "Абсолютно новый Toyota Highlander — семейный автомобиль, созданный для комфортных поездок как в городе, так и за его пределами. Его отличает элегантный дизайн, вместительный семиместный салон и бескомпромиссный уровень безопасности."
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 249 л.с.
+        - icon: mdi:piston
+          text: Кол-во и тип расположения цилиндров - 6, V-образный
+        - icon: mdi:speedometer
+          text: Максимальная скорость 180 км/ч
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      text: "Переход на глобальную модульную архитектуру TNGA (Toyota New Global Architecture) позволил усовершенствовать абсолютно все характеристики Toyota Highlander. Благодаря ей полноразмерный кроссовер получил отличную управляемость, улучшенную динамику и стабильность поведения на дороге. "
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/exterior/1.webp
+          title: "Bi-LED-оптика"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/exterior/2.webp
+          title: "Диски 20”"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/exterior/3.webp
+          title: "Глобальная модульная архитектура TNGA (Toyota New Global Architecture)"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/exterior/4.webp
+          title: "Изысканность и аристократичность"
+          description: ""
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: 
+      text: "Благодаря внушительному размеру и многофункциональности в салоне с комфортом расположится вся ваша семья. Высококачественные материалы отделки, мягкая атмосферная подсветка и множество удобных мест для хранения — каждый нюанс призван сделать любую поездку незабываемой."
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/1.webp
+          title: "Вместительный салон на 7 посадочных мест"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/2.webp
+          title: "Вентиляция передних сидений"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/3.webp
+          title: "Прозрачная панорамная крыша"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/4.webp
+          title: "Аудиосистема премиум-класса JBL"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/5.webp
+          title: "Вместительный багажник"
+          description: ""
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: 
+      text: "Подарите себе свободу движения с новым Toyota Highlander. Мощный и экономичный атмосферный двигатель с полным приводом и 8-ступенчатой автоматической коробкой передач наделяет ваш Toyota Highlander впечатляющей динамикой и отличной управляемостью. "
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/technology/1.webp
+          title: ""
+          description: ""
+    - id: safety
+      sectionClass: ""
+      title: Безопасность
+      text: Дороги, как и ваши планы, могут быть непредсказуемы. Инновационные технологии Тоyota обеспечат высочайший уровень безопасности движения, куда бы вы ни напревились. Интеллектуальные системы активной безопасности предупредят вас, если ситуация будет выходить из-под контроля.
+      images: 
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/safety/1.webp
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/docs/highlander.pdf' class='underline' target='_blank'>Брошюра</a><br><a href='https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/docs/highlander-complectations.pdf' class='underline' target='_blank'>Комплектации</a></span></p>"
+- id: "rav4"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: ""
+      title: Toyota RAV4
+      text: "Вырезительный, смелый, функциональный и продвинутый Toyota RAV4 обеспечит вам высочайший уровень комфорта и безопасности движения как в городе так и на баздорожье."
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 199 л.с.
+        - icon: mdi:speedometer-medium
+          text: Время разгона от 0 до 100 км/ч - 9.8с
+        - icon: mdi:speedometer
+          text: Максимальная скорость 190 км/ч
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      text: "В динамичном дизайне Toyota RAV4 органично соединились передовые технологии, брутальный характер и самые актуальные тренды. "
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/exterior/1.webp
+          title: ""
+          description: ""
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: 
+      text: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/interior/1.webp
+          title: ""
+          description: "Совершенно новая форма эргономичных сидений, высококачественные материалы отделки интерьера, обновленная мультимедийная система с 8-дюймовым экраном, камеры панорамного обзора на 360° и просторный впечатляющий салон превращают Toyota RAV4 в вашу личную зону комфорта. "
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/interior/2.webp
+          title: ""
+          description: "Просторный и вместительный багажник объемом 580л с раскладывающимися сидениями, электроприводом и функцией памяти подарит вам необходимое пространство для путешествий и впечатлений."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: 
+      text: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/technology/1.webp
+          title: ""
+          description: "Новый полный привод с адаптивной системой распределения крутящего момента на задние колеса снижает вероятность пробуксовки и повышает проходимость"
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/technology/2.webp
+          title: ""
+          description: "В Toyota RAV4 впервые была применена система выбора режима движения по бездорожью Multi-Terrain Select, позволяющая автомобилю адаптироваться под тип дорожного покрытия."
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/technology/3.webp
+          title: ""
+          description: "Toyota RAV4 построен на уникальной модульной архитектуре TNGA. В активе автомобиля принципиально новые бензиновые двигатели 2 и 2,5 литра и продвинутая 8-ступенчатая автоматическая коробка передач"
+    - id: safety
+      sectionClass: ""
+      title: Безопасность
+      text: Дороги, как и ваши планы, могут быть непредсказуемы. Инновационные технологии Тоyota обеспечат высочайший уровень безопасности движения, куда бы вы ни напревились. Интеллектуальные системы активной безопасности предупредят вас, если ситуация будет выходить из-под контроля.
+      images: 
+        - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/safety/1.webp
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: Может пригодиться
+      text: "<p><span><a href='https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/docs/rav4.pdf' class='underline' target='_blank'>Брошюра</a><br><a href='https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/docs/rav4-complectations.pdf' class='underline' target='_blank'>Комплектации</a></span></p>"
