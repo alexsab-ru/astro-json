@@ -3,16 +3,14 @@
         "id": 2,
         "show": true,
         "type": "",
-        "view": "popup-link",
+        "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/toyota/toyota.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/toyota/toyotastav/1.webp"
         },
-        "title": "Официальный сервис TOYOTA",
-        "descr": "Запишитесь на обслуживание к официальному дилеру",
-        "btn": "Онлайн запись",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Онлайн запись",
-        "dataFormName": "Онлайн запись. Баннер",
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/cars/",
         "badge": "",
         "autoplay": 5000
     }
