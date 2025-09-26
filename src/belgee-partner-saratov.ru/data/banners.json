@@ -1,6 +1,25 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/skidka-director-belgee-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/skidka-director-belgee-1080x1920.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Урвать халяву!",
+        "dataFormName": "Урвать халяву от директора. Баннер",
+        "badge": {},
+        "autoplay": 10000
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "link",
