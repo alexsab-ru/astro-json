@@ -6307,6 +6307,160 @@
     },
     {
         "mark_id": "GAC",
+        "id": "new-gs8",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/newgs8/bg.webp",
+        "slogan": "Ты решаешь",
+        "name": "Обновленный GS8",
+        "cyrillic": "ГС8",
+        "price": "{{price-gac-new-gs8}}",
+        "benefit": "",
+        "thumb": "https://cdn.alexsab.ru/b/gac/img/models/newgs8/colors/black.webp",
+        "colors": [
+          {
+            "id": "white",
+            "name": "Белый",
+            "names": [
+              "Белый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/gac/img/models/newgs8/colors/white.webp",
+            "style": ""
+          },
+          {
+            "id": "black",
+            "name": "Чёрный",
+            "names": [
+              "Черный",
+              "Чёрный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/gac/img/models/newgs8/colors/black.webp",
+            "style": ""
+          },
+          {
+            "id": "gray",
+            "name": "Серый",
+            "names": [
+              "Серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/gac/img/models/newgs8/colors/gray.webp",
+            "style": ""
+          },
+          {
+            "id": "silver",
+            "name": "Серебристый",
+            "names": [
+              "Серебристый",
+              "Серебряный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/gac/img/models/newgs8/colors/silver.webp",
+            "style": "background-color: #e0e0e0;"
+          }
+        ],
+        "feed_names": [
+          "Обновленный GS8",
+          "GS8"
+        ],
+        "photos": "",
+        "chars": {
+          "seats": "7 мест",
+          "fuel": "Бензин",
+          "gearbox": "8AT"
+        },
+        "complectations": [
+          {
+            "name": "GL",
+            "price": "3399000",
+            "bodytype": "Кроссовер",
+            "engine": "2.0",
+            "engine_power": "231",
+            "gear_rus": "Aisin 8AT",
+            "drive": "Полный",
+            "fuel": "Бензин АИ-95 и выше"
+          },
+          {
+            "name": "GT",
+            "price": "3799000",
+            "bodytype": "Кроссовер",
+            "engine": "2.0",
+            "engine_power": "231",
+            "gear_rus": "Aisin 8AT",
+            "drive": "Полный",
+            "fuel": "Бензин АИ-95 и выше"
+          },
+          {
+            "name": "GX Premium",
+            "price": "4099000",
+            "bodytype": "Кроссовер",
+            "engine": "2.0",
+            "engine_power": "231",
+            "gear_rus": "Aisin 8AT",
+            "drive": "Полный",
+            "fuel": "Бензин АИ-95 и выше"
+          },
+          {
+            "name": "GX Traveller",
+            "price": "4199000",
+            "bodytype": "Кроссовер",
+            "engine": "2.0",
+            "engine_power": "231",
+            "gear_rus": "Aisin 8AT",
+            "drive": "Полный",
+            "fuel": "Бензин АИ-95 и выше"
+          },
+          {
+            "name": "Lounge HEV",
+            "price": "4599000",
+            "bodytype": "Кроссовер",
+            "engine": "2.0",
+            "engine_power": "231",
+            "gear_rus": "Aisin 8AT",
+            "drive": "Полный",
+            "fuel": "Бензин АИ-95 и выше"
+          }
+        ],
+        "globalChars": [
+          {
+            "id": "wheelbase",
+            "title": "Колёсная база",
+            "value": "2920",
+            "measure": "мм"
+          },
+          {
+            "id": "length",
+            "title": "Длина",
+            "value": "5015",
+            "measure": "мм"
+          },
+          {
+            "id": "width",
+            "title": "Ширина",
+            "value": "1950",
+            "measure": "мм"
+          },
+          {
+            "id": "engine",
+            "title": "Объем двигателя",
+            "value": "2.0",
+            "measure": "л."
+          },
+          {
+            "id": "torque",
+            "title": "Крутящий момент",
+            "value": "380",
+            "measure": "н.м."
+          },
+          {
+            "id": "transmission",
+            "title": "Привод",
+            "value": "Полный (4WD)",
+            "measure": ""
+          }
+        ],
+        "priceDisclaimer": "",
+        "benefitDisclaimer": ""
+    },
+    {
+        "mark_id": "GAC",
         "id": "gs8",
         "show": false,
         "homeImg": "https://cdn.alexsab.ru/b/gac/img/models/gs8/bg.webp",
