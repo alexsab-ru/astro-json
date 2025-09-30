@@ -1,5 +1,13 @@
 [
   {
+    "id": "belgee-s50",
+    "brand": "belgee",
+    "model": "Новый S50",
+    "price": "1649990",
+    "benefit": "",
+    "link": "https://belgee.ru/model/belgee-s50/"
+  },
+  {
     "id": "belgee-x50",
     "brand": "belgee",
     "model": "X50",
