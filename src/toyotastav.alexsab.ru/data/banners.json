@@ -5,12 +5,14 @@
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/toyota/toyotastav/1.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/toyota/toyotastav/delo/delo-1920x1080.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/toyota/toyotastav/delo/delo-1080x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/toyota/toyotastav/delo/delo-1080x1920-2.webp"
         },
         "title": "",
         "descr": "",
         "btn": "",
-        "bannerUrl": "/cars/",
+        "bannerUrl": "/special-offers/delo-kulakova/",
         "badge": "",
         "autoplay": 5000
     }
