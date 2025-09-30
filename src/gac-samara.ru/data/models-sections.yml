@@ -161,7 +161,7 @@
         - icon: mdi:gas-station-outline
           text: Расход топлива 10.1 л / 100 км
       images:
-        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/1.webp
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/1.webp?2
     - id: gallery
       sectionClass: "bg-gray-100"
       title: Дизайн
