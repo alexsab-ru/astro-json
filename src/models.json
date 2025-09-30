@@ -22602,7 +22602,9 @@
                 "style": "background-color: rgb(245 245 220);"
             }
         ],
-        "feed_names": [],
+        "feed_names": [
+            "RX, V"
+        ],
         "photos": "",
         "chars": {
             "seats": "5 мест",
@@ -22760,7 +22762,9 @@
             "style": "background-color: rgb(70 70 70);"
           }
         ],
-        "feed_names": [],
+        "feed_names": [
+            "LX, IV"
+        ],
         "photos": "",
         "chars": {
           "seats": "7 мест",
