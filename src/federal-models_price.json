@@ -51,7 +51,7 @@
     "id": "baic-bj60",
     "brand": "baic",
     "model": "BJ60",
-    "price": 5300000,
+    "price": 5500000,
     "benefit": 0,
     "link": "/models/bj60/"
   },
@@ -355,7 +355,7 @@
     "id": "geely-atlas-2024",
     "brand": "geely",
     "model": "ATLAS",
-    "price": "2999990",
+    "price": "3354190",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-atlas-2024/"
   },
@@ -379,7 +379,7 @@
     "id": "geely-emgrand",
     "brand": "geely",
     "model": "EMGRAND",
-    "price": "1584990",
+    "price": "1594990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/emgrand/"
   },
@@ -691,7 +691,7 @@
     "id": "omoda-modelc5",
     "brand": "omoda",
     "model": "C5",
-    "price": "2129900",
+    "price": "2279900",
     "benefit": "",
     "link": "https://omoda.ru/models/modelc5/"
   },
@@ -771,7 +771,7 @@
     "id": "tank-300",
     "brand": "tank",
     "model": "300",
-    "price": "3799000",
+    "price": "3749000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-300"
   },
