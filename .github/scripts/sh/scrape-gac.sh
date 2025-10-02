@@ -8,7 +8,7 @@ export URL="https://gac.ru/models"
 # export PRICE_XPATH="translate(string(.//span[@class='price']/text()[1]), translate(string(.//span[@class='price']/text()[1]), '0123456789', ''), '')"
 # export LINK_XPATH=".//a[starts-with(@href, '/models/')]/@href"
 
-export ITEM_XPATH="//div[@class='td-models-menu__about-model']"
+export ITEM_XPATH="//div[contains(@class, 'td-models-menu__about-model')]"
 export ID_XPATH="concat('gac-', substring-after(.//a[starts-with(@href, '/models/')]/@href, '/models/'))"
 export MODEL_XPATH="./@id"
 export PRICE_XPATH="translate(string(.//div[@class='td-about-model__price']/text()), translate(string(.//div[@class='td-about-model__price']/text()), '0123456789', ''), '')"
