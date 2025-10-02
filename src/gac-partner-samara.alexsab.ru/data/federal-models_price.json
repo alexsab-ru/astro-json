@@ -1,16 +1,8 @@
 [
   {
-    "id": "gac-empow",
-    "brand": "gac",
-    "model": "empow",
-    "price": "2499000",
-    "benefit": "",
-    "link": "https://gac.ru/models/empow"
-  },
-  {
     "id": "gac-gs3",
     "brand": "gac",
-    "model": "gs3",
+    "model": "GS3",
     "price": "2099000",
     "benefit": "",
     "link": "https://gac.ru/models/gs3"
@@ -18,7 +10,7 @@
   {
     "id": "gac-gs4",
     "brand": "gac",
-    "model": "gs4",
+    "model": "GS4",
     "price": "2699000",
     "benefit": "",
     "link": "https://gac.ru/models/gs4"
@@ -26,15 +18,23 @@
   {
     "id": "gac-gs8-ii",
     "brand": "gac",
-    "model": "gs8-ii",
+    "model": "GS8II",
     "price": "3099000",
+    "benefit": "",
+    "link": "https://gac.ru/models/gs8-ii"
+  },
+  {
+    "id": "gac-gs8-ii",
+    "brand": "gac",
+    "model": "GS8Traveller",
+    "price": null,
     "benefit": "",
     "link": "https://gac.ru/models/gs8-ii"
   },
   {
     "id": "gac-m8",
     "brand": "gac",
-    "model": "m8",
+    "model": "M8",
     "price": "5149999",
     "benefit": "",
     "link": "https://gac.ru/models/m8"
@@ -42,8 +42,16 @@
   {
     "id": "gac-new-gs8",
     "brand": "gac",
-    "model": "new-gs8",
+    "model": "GS8Dragon",
     "price": "3399000",
+    "benefit": "",
+    "link": "https://gac.ru/models/new-gs8"
+  },
+  {
+    "id": "gac-new-gs8",
+    "brand": "gac",
+    "model": "GS8DragonHEV",
+    "price": "5099000",
     "benefit": "",
     "link": "https://gac.ru/models/new-gs8"
   }
