@@ -1050,6 +1050,244 @@
     },
     {
         "mark_id": "Belgee",
+        "id": "s50",
+        "show": true,
+        "homeImg": "https://cdn.alexsab.ru/models/belgee/x50/model-bg.webp",
+        "slogan": "Элегантный и практичный седан",
+        "name": "S50",
+        "cyrillic": "Эс 50",
+        "price": "{{price-belgee-s50}}",
+        "benefit": "{{benefit-belgee-s50}}",
+        "benefits": [
+            {
+                "url": "#common-modal",
+                "label": "Выгодный трейд-ин",
+                "icon_name": "mdi:credit-card-check-outline",
+                "data_title": "Выгодный трейд-ин",
+                "data_form_name": "Выгодный трейд-ин. Belgee S50",
+                "view": "popup-link"
+            },
+            {
+                "url": "#common-modal",
+                "label": "Выгодный кредит",
+                "icon_name": "mdi:gift-outline",
+                "data_title": "Выгодный кредит",
+                "data_form_name": "Выгодный кредит. Belgee S50",
+                "view": "popup-link"
+            }
+        ],
+        "thumb": "https://cdn.alexsab.ru/models/belgee/s50/thumb.png",
+        "image": "https://cdn.alexsab.ru/models/belgee/s50/s50-hero-desktop-250925.jpg",
+        "colors": [
+            {
+                "id": "crystal-white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый",
+                    "Белый (crystal white)",
+                    "Crystal White"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/crystal-white.webp",
+                "style": "background-color: #f1f1f1;"
+            },
+            {
+                "id": "pearl-silver",
+                "name": "Серебристый металлик",
+                "names": [
+                    "Silver",
+                    "Серебряный",
+                    "Серебристый",
+                    "Серебристый (pearl silver)",
+                    "Pearl Silver"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/pearl-silver.webp",
+                "style": "background-color: #c0c0c0;"
+            },
+            {
+                "id": "red",
+                "name": "Красный металлик",
+                "names": [
+                    "Red",
+                    "Красный",
+                    "Ярко-алый, красный (bright vermilion)"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/red.webp",
+                "style": ""
+            },
+            {
+                "id": "magnetic-grey",
+                "name": "Серый металлик",
+                "names": [
+                    "Gray",
+                    "Серый",
+                    "Серый (magnetic grey)",
+                    "Серый металлик"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/magnetic-grey.webp",
+                "style": "background-color: #545454;"
+            },
+            {
+                "id": "basalt-grey",
+                "name": "Серый металлик",
+                "names": [
+                    "Gray",
+                    "Серый",
+                    "Серый (basalt gray)",
+                    "Серый металлик"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/basalt-grey.webp",
+                "style": "background-color: #3e434c;"
+            },
+            {
+                "id": "ink-black",
+                "name": "Черный металлик",
+                "names": [
+                    "Black",
+                    "Черный",
+                    "Чёрный (ink black)"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/ink-black.webp",
+                "style": "background-color: #000000;"
+            },
+            {
+                "id": "amber-gold",
+                "name": "Бежевый металлик",
+                "names": [
+                    "Бежевый",
+                    "Бежевый металлик",
+                    "Бежевый (amber gold)"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/amber-gold.webp",
+                "style": "background-color: #a89686;"
+            },
+            {
+                "id": "star-grey",
+                "name": "Серо-голубой металлик",
+                "names": [
+                    "Серо-голубой металлик",
+                    "Серо-голубой",
+                    "Серо-голубой (star grey)"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/star-grey.webp",
+                "style": "background-color: #96a7b1;"
+            },
+            {
+                "id": "dark-blue",
+                "name": "Темно-синий металлик",
+                "names": [
+                    "Темно-синий металлик",
+                    "Темно-синий",
+                    "Темно-синий (serenity blue)"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/dark-blue.webp",
+                "style": "background-color: #212a35;"
+            },
+            {
+                "id": "starnight-blue",
+                "name": "Синий металлик",
+                "names": [
+                    "Blue",
+                    "Синий металлик",
+                    "Синий",
+                    "Синий (blue)"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/starnight-blue.webp",
+                "style": "background-color: #1e3884;"
+            }
+        ],
+        "feed_names": [
+            "S50"
+        ],
+        "photos": "",
+        "chars": {
+            "seats": "5 мест",
+            "fuel": "Бензин",
+            "gearbox": "5MT/6AT"
+        },
+        "complectations": [
+            {
+                "name": "Active 5MT",
+                "price": "{{price-belgee-s50}}",
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "5MT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Active 6AT",
+                "price": 1849990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "5MT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Style",
+                "price": 1939990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "5MT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "Prestige",
+                "price": 2119990,
+                "bodytype": "Седан",
+                "engine": "1.5 м3",
+                "engine_power": "122",
+                "gear_rus": "5MT",
+                "drive": "Передний (2WD)",
+                "fuel": "Бензин"
+            }
+        ],
+        "globalChars": [
+            {
+                "id": "wheelbase",
+                "title": "Колёсная база",
+                "value": "2650",
+                "measure": "мм"
+            },
+            {
+                "id": "length",
+                "title": "Длина",
+                "value": "4638",
+                "measure": "мм"
+            },
+            {
+                "id": "width",
+                "title": "Ширина",
+                "value": "1822",
+                "measure": "мм"
+            },
+            {
+                "id": "engine",
+                "title": "Объем двигателя",
+                "value": "1.5",
+                "measure": "л."
+            },
+            {
+                "id": "torque",
+                "title": "Крутящий момент",
+                "value": "152",
+                "measure": "н.м."
+            },
+            {
+                "id": "transmission",
+                "title": "Привод",
+                "value": "Передний",
+                "measure": ""
+            }
+        ]
+    },
+    {
+        "mark_id": "Belgee",
         "id": "x50",
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/belgee/x50/model-bg.webp",
