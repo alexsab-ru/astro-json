@@ -1,5 +1,9 @@
 [
   {
+    "url": "/cars/",
+    "name": "Авто в наличии"
+  },
+  {
     "url": "/models/",
     "name": "Модели",
     "children": "models"
