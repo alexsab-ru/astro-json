@@ -1,5 +1,5 @@
 {
-    "site": "toyotastav.ru",
+    "site": "cars.toyotastav.ru",
     "gtm": {
         "value": "",
         "fn": "_gtm",
@@ -8,10 +8,11 @@
     "metrika": {
         "value": [
             {
-                "id": 48905003,
+                "id": 82673437,
                 "clickmap": true,
                 "trackLinks": true,
                 "accurateTrackBounce": true,
+                "ecommerce": "dataLayer",
                 "webvisor": true
             }
         ],
@@ -52,8 +53,8 @@
     },
     "calltouch": {
         "value": {
-            "mod_id": "",
-            "site_id": ""
+            "mod_id": "slcicztk",
+            "site_id": "46028"
         },
         "fn": "_ct",
         "prod": false
