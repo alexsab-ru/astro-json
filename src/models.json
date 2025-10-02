@@ -5319,8 +5319,8 @@
         "slogan": "Смотри в будущее",
         "name": "T5 EVO",
         "cyrillic": "Тэ 5 Эво",
-        "price": "2600000",
-        "benefit": "",
+        "price": "{{price-forthing-t5evo}}",
+        "benefit": "{{benefit-forthing-t5evo}}",
         "benefits": [],
         "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/gray.png",
         "colors": [
@@ -5479,8 +5479,8 @@
         "slogan": "Победитель премии \"Автомобиль года в России\"",
         "name": "YACHT",
         "cyrillic": "Яхт",
-        "price": "3400000",
-        "benefit": "",
+        "price": "{{price-forthing-yacht}}",
+        "benefit": "{{benefit-forthing-yacht}}",
         "benefits": [],
         "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/yacht/colors/white.png",
         "colors": [
@@ -5591,8 +5591,8 @@
         "slogan": "Стиль и брутальность",
         "name": "V-Online",
         "cyrillic": "Вэ-Онлайн",
-        "price": "2780000",
-        "benefit": "",
+        "price": "{{price-venucia-v-online}}",
+        "benefit": "{{benefit-venucia-v-online}}",
         "benefits": [],
         "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/v-online/colors/gray.png",
         "colors": [
@@ -5713,8 +5713,8 @@
         "slogan": "Спокойная решительность",
         "name": "D60 Plus",
         "cyrillic": "Дэ 60 Плюс",
-        "price": "2140000",
-        "benefit": "",
+        "price": "{{price-venucia-d60-plus}}",
+        "benefit": "{{benefit-venucia-d60-plus}}",
         "benefits": [],
         "thumb": "https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/colors/black.png",
         "colors": [
@@ -6151,7 +6151,7 @@
         "name": "GS8",
         "cyrillic": "ГС8",
         "price": "{{price-gac-gs8-ii}}",
-        "benefit": "",
+        "benefit": "{{benefit-gac-gs8-ii}}",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs8ii/colors/green.webp",
         "colors": [
             {
@@ -6314,7 +6314,7 @@
         "name": "Обновленный GS8",
         "cyrillic": "ГС8",
         "price": "{{price-gac-new-gs8}}",
-        "benefit": "",
+        "benefit": "{{benefit-gac-new-gs8}}",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/newgs8/colors/black.webp",
         "colors": [
           {
@@ -6467,8 +6467,8 @@
         "slogan": "Стремись к большему",
         "name": "GS8",
         "cyrillic": "ГС8",
-        "price": "{{price-gac-new-gs8}}",
-        "benefit": "",
+        "price": "{{price-gac-gs8}}",
+        "benefit": "{{benefit-gac-gs8}}",
         "thumb": "https://cdn.alexsab.ru/b/gac/img/models/gs8/colors/gray.webp",
         "colors": [
             {
@@ -7511,8 +7511,8 @@
         "slogan": "",
         "name": "Geometry G6",
         "cyrillic": "Геометрия Г6",
-        "price": 2139990,
-        "benefit": "",
+        "price": "{{price-geely-geometry-g6}}",
+        "benefit": "{{benefit-geely-geometry-g6}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -10960,8 +10960,8 @@
         "slogan": "Вдохновленный мегаполисом",
         "name": "S3",
         "cyrillic": "Эс 3",
-        "price": "",
-        "benefit": "",
+        "price": "{{price-jac-s3}}",
+        "benefit": "{{benefit-jac-s3}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -11100,8 +11100,8 @@
         "slogan": "Управляй будущим",
         "name": "IEV7S",
         "cyrillic": "И Е В 7 Эс",
-        "price": "",
-        "benefit": "",
+        "price": "{{price-jac-iev7s}}",
+        "benefit": "{{benefit-jac-iev7s}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -11936,7 +11936,7 @@
         "name": "J7",
         "cyrillic": "Джей 7",
         "price": "{{price-jaecoo-modelj7}}",
-        "benefit": "",
+        "benefit": "{{benefit-jaecoo-modelj7}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -12199,7 +12199,7 @@
         "name": "J7 LE",
         "cyrillic": "Джей 7 Эл Е",
         "price": "{{price-jaecoo-modelj7-limited-edition}}",
-        "benefit": "",
+        "benefit": "{{benefit-jaecoo-modelj7-limited-edition}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -12382,7 +12382,7 @@
         "name": "J8",
         "cyrillic": "Джей 8",
         "price": "{{price-jaecoo-modelj8}}",
-        "benefit": "",
+        "benefit": "{{benefit-jaecoo-modelj8}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -14987,7 +14987,7 @@
         "name": "C5 New",
         "cyrillic": "ЦЕ 5 ЭФ ЭЛ",
         "price": "{{price-omoda-modelc5}}",
-        "benefit": "",
+        "benefit": "{{benefit-omoda-modelc5}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -15208,7 +15208,7 @@
         "name": "C5",
         "cyrillic": "ЦЕ 5",
         "price": "{{price-omoda-modelc5}}",
-        "benefit": "",
+        "benefit": "{{benefit-omoda-modelc5}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -15421,7 +15421,7 @@
         "name": "S5",
         "cyrillic": "ЭС 5",
         "price": "{{price-omoda-models5}}",
-        "benefit": "",
+        "benefit": "{{benefit-omoda-models5}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -15572,7 +15572,7 @@
         "name": "S5 GT",
         "cyrillic": "ЭС 5 ДЖЕЙ ТИ",
         "price": "{{price-omoda-s5gt}}",
-        "benefit": "",
+        "benefit": "{{benefit-omoda-s5gt}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -15732,8 +15732,8 @@
         "slogan": "Инновации, расширяющие твои возможности",
         "name": "Sportage",
         "cyrillic": "Спортаж",
-        "price": 2849900,
-        "benefit": "",
+        "price": "{{price-kia-sportage}}",
+        "benefit": "{{benefit-kia-sportage}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -16027,8 +16027,8 @@
         "slogan": "Сверхчеловеческие возможности",
         "name": "K5",
         "cyrillic": "К5",
-        "price": 2734900,
-        "benefit": "",
+        "price": "{{price-kia-k5}}",
+        "benefit": "{{benefit-kia-k5}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -16300,8 +16300,8 @@
         "slogan": "Играя главную роль",
         "name": "Sorento",
         "cyrillic": "Соренто",
-        "price": 3789900,
-        "benefit": "",
+        "price": "{{price-kia-sorento}}",
+        "benefit": "{{benefit-kia-sorento}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -16899,8 +16899,8 @@
         "slogan": "Смелей!",
         "name": "Seltos",
         "cyrillic": "Селтос",
-        "price": 2064900,
-        "benefit": "",
+        "price": "{{price-kia-seltos}}",
+        "benefit": "{{benefit-kia-seltos}}",
         "benefits": [
             {
                 "url": "#common-modal",
@@ -17325,7 +17325,8 @@
         "slogan": "",
         "name": "Soul",
         "cyrillic": "Соул",
-        "price": "",
+        "price": "{{price-kia-soul}}",
+        "benefit": "{{benefit-kia-soul}}",
         "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
         "colors": [
             {
@@ -19285,6 +19286,7 @@
         "name": "Camry",
         "cyrillic": "Камри",
         "price": "{{price-toyota-camry}}",
+        "benefit": "{{benefit-toyota-camry}}",
         "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/camry/thumb.webp",
         "colors": [
           {
