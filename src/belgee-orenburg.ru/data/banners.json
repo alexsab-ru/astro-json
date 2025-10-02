@@ -3,7 +3,7 @@
         "id": 0,
         "show": true,
         "type": "",
-        "view": "popup-link",
+        "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/s50-desktop.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/s50-mobile.webp"
@@ -14,7 +14,7 @@
         "title": "Новый <span class=\"text-5xl sm:text-7xl\">S50</span> <br/>Элегантный и <br/>практичный седан",
         "descr": "от {{priceb-belgee-s50}}",
         "btn": "Подробнее",
-        "btnUrl": "#common-modal",
+        "btnUrl": "/models/s50/",
         "dataTitle": "Узнать подробнее. <br/>BELGEE S50",
         "dataFormName": "Подробнее. BELGEE S50. Баннер",
         "badge": "",
