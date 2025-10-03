@@ -1,1 +1,535 @@
-- id: empty
+- id: "gs4"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ДЛЯ САМОГО ЦЕННОГО"
+      title: GAC GS4
+      text: "<p>GAC GS4 - семейный кроссовер, воплощающий в себе комфорт, надежность и современные технологии. Автомобиль предлагает оптимальное сочетание стиля, функциональности и безопасности для всей семьи.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 170 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 250 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 7.2 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/1.webp
+    - id: gallery
+      sectionClass: ""
+      title: "Дизайн"
+      suptitle: "Уверенность в основе стиля"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/gallery/1.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/gallery/2.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/gallery/3.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/gallery/4.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/gallery/5.webp
+          title: ""
+          description: ""
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/exterior/1.webp
+          title: "Эффектная оптика"
+          description: "Четкие линии светодиодных задних фонарей по всей ширине кузова эффектно выделяют GS4 на дороге, притягивая взгляды."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/exterior/2.webp
+          title: "Единое целое"
+          description: "Ручки интегрированы в панель двери, что делает образ автомобиля более органичным и аккуратным."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/exterior/3.webp
+          title: "Увидеть больше"
+          description: "Увеличенные боковые зеркала обеспечивают отличный обзор, уменьшая слепые зоны, позволяя лучше контролировать обстановку на дороге."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/exterior/4.webp
+          title: "Выразительный взгляд"
+          description: "Светодиодные фары с регулировкой высоты, сигнализацией о включенных фарах и функцией «Проводи меня домой» создают неповторимый образ."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/exterior/5.webp
+          title: "Классика сдержанности"
+          description: "Интегрированные дверные ручки и плавные линии кузова создают элегантный и современный образ автомобиля."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/exterior/6.webp
+          title: "Надежность и динамика"
+          description: "Высокопрочная конструкция кузова и аэродинамический дизайн обеспечивают отличную управляемость и безопасность."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: "Функциональный салон"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/interior/1.webp
+          title: "Комфортный салон"
+          description: "Удобные регулируемые кресла анатомической формы, обшитые качественной перфорированной кожей обеспечивают комфорт водителя и пассажиров."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/interior/2.webp
+          title: "Безопасность"
+          description: "8 подушек безопасности защищают водителя и пассажиров со всех сторон, значительно смягчая столкновение."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/technology/1.webp
+          title: "Удалённый доступ"
+          description: "Управляйте автомобилем в любой точке мира с мобильным приложением GAC. Отслеживайте запасы топлива, проверяйте состояние окон, регулируйте микроклимат в салоне и производите запуск двигателя в один клик!"
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/technology/2.webp
+          title: "Защита на 360°"
+          description: "Высокий уровень защиты на случай столкновения за счет усиленного корпуса GS4."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/technology/3.webp
+          title: "Передовые решения"
+          description: "Интеллектуальные системы помощи водителю: система управления с дополненной реальностью, система помощи на парковке и другие."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs4/sections/technology/4.webp
+          title: "Эффективность и производительность"
+          description: "Надежность и долговечность силовой установки доказана 21 000 часов испытаний и тестов."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://gac.ru/media-link/gs4-pricelist' class='underline' target='_blank'>Технические характеристики, комплектации и цены</a></span></p>"
+- id: "empow"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ДИНАМИКА ТВОЕЙ ЖИЗНИ"
+      title: GAC Empow
+      text: "<p>GAC Empow - спортивный седан, созданный для тех, кто ценит динамику и стиль. Автомобиль сочетает в себе мощный двигатель, современные технологии и агрессивный дизайн.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 170 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 250 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 5.9 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/1.webp
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/exterior/1.webp
+          title: "Эксклюзивные диски"
+          description: "18-дюймовые колесные диски с низкопрофильной резиной подчеркивают дерзкий характер Empow."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/exterior/2.webp
+          title: "Спортивный дизайн"
+          description: "Спойлер на крышке багажника увеличивает прижимную силу и управляемость на высоких скоростях."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/exterior/3.webp
+          title: "Светодиодные фары"
+          description: "Светодиодные фары обеспечивают яркий и эффективный свет, улучшая видимость и безопасность."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: "Комфортное управление"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/interior/1.webp
+          title: "Комфортное управление"
+          description: "Проработанное рулевое колесо и эргономичная приборная панель обеспечивают полный контроль над движением и дарят водителю ощущение уверенности и комфорта."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/interior/2.webp
+          title: "Регулировка сидений"
+          description: "Водительское сиденье регулируется в 6 направлениях, а пассажирское — в 4, что обеспечивает фиксацию кресел в максимально удобном положении."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/interior/3.webp
+          title: "Аудиосистема Yamaha"
+          description: "Аудиосистема с четырехканальным усилителем мощностью 80 Ватт обеспечивает премиальное звучание."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/technology/1.webp
+          title: "Мощный двигатель"
+          description: "1,5-литровый турбированный двигатель с непосредственным впрыском обеспечивает отличную динамику."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/technology/2.webp
+          title: "Трансмиссия 7WDCT"
+          description: "Семиступенчатая преселективная коробка передач с двумя сцеплениями обеспечивает быстрое переключение."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/empow/sections/technology/3.webp
+          title: "Антикоррозийная защита"
+          description: "Цинковое покрытие кузовных панелей обеспечивает защиту от коррозии на 10 лет эксплуатации."
+- id: "gs8-ii"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ТЫ РЕШАЕШЬ"
+      title: GAC GS8
+      text: "<p>GAC GS8 — это премиальный семиместный кроссовер, сочетающий в себе элегантный дизайн, передовые технологии и высокий уровень комфорта. Автомобиль создан для тех, кто ценит роскошь, пространство и инновации.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 231 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 380 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 10.1 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/1.webp?2
+    - id: gallery
+      sectionClass: "bg-gray-100"
+      title: Дизайн
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/1.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/2.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/3.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/4.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/5.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/6.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/7.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/8.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/9.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/10.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/11.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/12.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/13.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/gallery/14.webp
+          title: ""
+          description: ""
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/exterior/1.webp
+          title: "Впечатляющая решетка радиатора"
+          description: "Широкая передняя панель с хромированной решеткой радиатора в симметричном v-образном дизайне."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/exterior/2.webp
+          title: "Фары «Взгляд победителя»"
+          description: "Матричные светодиодные фары, с подвижными заслонками, создающими завораживающее зрелище при включении."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/exterior/3.webp
+          title: "Задние фары «Рубиновый бриллиант»"
+          description: "Вертикальное расположение, кристальная текстура, красота и практичность."
+    - id: interior
+      sectionClass: "bg-gray-100"
+      title: Интерьер
+      suptitle: "Премиальный комфорт"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/interior/1.webp
+          title: "Вентиляция сидений"
+          description: "Передние сиденья оснащены системой вентиляции, обеспечивающей комфортную температуру даже в жаркие дни."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/interior/2.webp
+          title: "Просторный салон"
+          description: "Семиместный салон с премиальной отделкой и возможностью трансформации для максимального комфорта."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/interior/3.webp
+          title: "Панорамная крыша"
+          description: "Большая панорамная крыша создает ощущение простора и наполняет салон естественным светом."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/technology/1.webp
+          title: "Раскройте воображение и загляните в будущее"
+          description: "Передовые технологии и новый интерфейс открывают безграничные возможности."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/technology/2.webp
+          title: "Передовые решения"
+          description: "Интерактивные технологии помощи водителю: система управления с дополненной реальностью, система помощи при парковке и другие."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs8ii/sections/technology/3.webp
+          title: "Всесторонняя защита"
+          description: "Высокий уровень защиты от столкновений."
+    - id: documentation
+      sectionClass: "bg-gray-100"
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://gac.ru/media-link/gs8-pricelist' class='underline' target='_blank'>Прайс-лист</a><br><a href='https://gac.ru/media/download/docs/queT3u__gs8-catalogue.pdf' class='underline' target='_blank'>Каталог</a></span></p>"
+- id: "new-gs8"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ТЫ РЕШАЕШЬ"
+      title: Обновленный GAC GS8
+      text: "<p>Обновленный GS8 в экстерьерном пакете Dragon и новый GS8 с гибридным двигателем - уже доступны у официальных дилеров в России.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 231 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 380 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 10.4 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/1.webp
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/exterior/1.webp
+          title: "Обновленный экстерьер"
+          description: "Словно чешуя дракона, величественное обрамление радиатора демонстрирует силу и характер."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/exterior/2.webp
+          title: "Матричные фары"
+          description: "Адаптивный свет, матричные светодиодные фары с функцией приветствия."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/exterior/3.webp
+          title: "20″ диски с плавающим логотипом"
+          description: "Символ превосходства, покоряющий дороги."
+    - id: interior
+      sectionClass: "bg-gray-100"
+      title: Интерьер
+      suptitle: ""
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/1.webp
+          title: "Многофункциональный салон на 6 или 7 полноценных мест"
+          description: "Безграничная власть над планировкой: создавайте идеальную конфигурацию для каждой поездки."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/2.webp
+          title: "Премиальная аудиосистема Alpine"
+          description: "Симфония совершенства — каждая нота рождена для наслаждения."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/3.webp
+          title: "Мультимедиа с голосовым управлением"
+          description: "Мультимедиа система с диагональю экрана 14.7, голосовым управлением и онлайн сервисами** Яндекс Карты, Музыка и Книги, а также VK Музыка."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/4.webp
+          title: "Трансформируемый салон"
+          description: "7 полноценных мест (2+3+2) для комфортного путешествия семьи и друзей."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/5.webp
+          title: "Панорамная крыша"
+          description: "Единение с природой — откройте люк и почувствуйте свободу в пути."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/1.webp
+          title: "Премиальная аудиосистема Alpine"
+          description: "Всегда идеальный саундтрек для ваших приключений."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/2.webp
+          title: "Системы помощи водителю уровня L2"
+          description: "Круиз-контроль, контроль полосы и чтение знаков для вашей безопасности на всем пути."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/3.webp
+          title: "Проекционный дисплей"
+          description: "Вся важная информация перед глазами — контролируйте поездку не отвлекаясь от дороги."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/4.webp
+          title: "Toyota Hybrid System"
+          description: "THS снижает расход топлива и выбросы CO2 за счёт интеллектуального управления бензиновым двигателем и электромоторами. Бесшумный старт на электротяге делает городские поездки ещё комфортнее."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/5.webp
+          title: "Батарея"
+          description: "Система эффективно подзаряжает одну высоковольтную аккумуляторную батарею во время быстрого вождения, торможения или рекуперативного движения, что позволяет вам постоянно получать впечатляющий запас хода на электрической энергии."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/6.webp
+          title: "Удаленное управление"
+          description: "Контроль состояния автомобиля, управление функциями автомобиля, отображение местоположения, настройка времени запуска, управление климат-контролем и подогревами."
+    - id: documentation
+      sectionClass: "bg-gray-100"
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://gac.ru/media-link/gs8-new-pricelist' class='underline' target='_blank'>Прайс-лист</a><br><a href='https://gac.ru/media-link/new-gs8-brochure' class='underline' target='_blank'>Каталог</a></span></p>"
+- id: "m8"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "МЕСТО ПЕРВЫХ"
+      title: GAC M8
+      text: "<p>GAC M8 — это премиальный минивэн, созданный для тех, кто ценит комфорт, пространство и статус. Автомобиль сочетает в себе элегантный дизайн, передовые технологии и высочайший уровень комфорта для водителя и пассажиров.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 231 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 380 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 8.8 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/1.webp
+    - id: gallery
+      sectionClass: "bg-gray-100"
+      title: Дизайн
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/1.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/2.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/3.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/4.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/5.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/6.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/7.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/8.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/9.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/10.webp
+          title: ""
+          description: ""
+    - id: exterior
+      sectionClass: ""
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/exterior/1.webp
+          title: "Нескрываемый львиный характер"
+          description: "Реализованные амбиции на лицо. Дерзкий и неповторимый дизайн решетки радиатора в «львином» стиле. Внушает уважение с первого взгляда. Вертикальные ребра решетки радиатора, отражая свет, создают эффект парения над землей."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/exterior/2.webp
+          title: "Широкий угол внимания"
+          description: "Филигранный дизайн дополняется инновационными оптическими решениями. Светодиодные передние фары Awakening Eye и задние фонари Time Gate освещают не только дорогу, но и внушительный вид минивэна GAC M8."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/exterior/3.webp
+          title: "Мастерство на поворотах"
+          description: "Неповторимый дизайн скрытый в деталях. Специальные 18-дюймовые легкосплавные колесные диски Master в премиальной комплектации «Классика» GX и GX Premium."
+    - id: interior
+      sectionClass: "bg-gray-100"
+      title: Интерьер
+      suptitle: "Премиальный комфорт"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/interior/1.webp
+          title: "Семь мест, но главных только два"
+          description: "Высококачественные капитанские кресла второго ряда созданы, чтобы дарить комфорт в дороге, даже в длительных поездках. Интеллектуальные решения на тактильном уровне: кожаный салон, электропривод регулировки положения в четырех направлениях, вентиляция и обогрев сиденья."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/interior/2.webp
+          title: "Делайте бизнес, пока ваше кресло дарит вам расслабление"
+          description: "Кресла второго ряда оснащены функцией массажа: массаж всего тела, снижение давления на поясницу и снятие усталости. Комфортабельные сидения третьего ряда с регулировкой положения в 4 направлениях дают возможность разместить еще трех пассажиров. Ощущение невероятного простора и масштаба салона нового минивэна GAC M8."
+    - id: technology
+      sectionClass: ""
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/technology/1.webp
+          title: "Широкие мультимедийные возможности"
+          description: "12,3-дюймовый ЖК-экран в передней панели и 14,6-дюймовый экран в центральной консоли для воспроизведения музыки, просмотра фильмов и телепередач."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/technology/2.webp
+          title: "Виртуальный концерт прямо в салоне"
+          description: "Премиальная аудиосистема Dual Sound сочетает новейшие звуковые алгоритмы и систему виртуального объемного звучания ADiGO."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/technology/3.webp
+          title: "Плавное и комфортное движение в любых дорожных условиях"
+          description: "Электромагнитная подвеска SDC в режиме реального времени повышает управляемость и технологичность автомобиля благодаря снижению количества боковых колебаний, повышенному уровню виброизоляции и минимизации ощущения подъема."
+    - id: security
+      sectionClass: "bg-gray-100"
+      title: Безопасность
+      suptitle: "Интеллектуальная система безопасности высочайшего уровня"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/security/1.webp
+          title: "Система автоматического управления L2"
+          description: "Не думайте о дороге, думайте о делах. Главный интеллектуальный центр автомобиля возьмет на себя все аспекты безопасного вождения: Система адаптивного круиз-контроля, Интегрированная система круиз-контроля, Система предупреждения об угрозе фронтального столкновения, Активная система помощи при торможении, Система удержания в полосе движения, Система предупреждения о приближении сзади, Система оповещения и торможения при выезде задним ходом."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/security/2.webp
+          title: "Новый уровень защиты 360°"
+          description: "Первая в мире продуманная схема расположения из 7 подушек для всесторонней защиты пассажиров: задние подушки безопасности для защиты третьего ряда, самые длинные боковые шторки безопасности и стандартные подушки безопасности."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/security/3.webp
+          title: "Система предупреждения при открывании двери"
+          description: "Заботится о вас, даже вне салона. Система оперативного реагирования на объекты, приближающиеся сзади, чтобы максимально обезопасить пространство для пассажиров, выходящих из автомобиля."
+    - id: documentation
+      sectionClass: ""
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://gac.ru/media-link/m8-pricelist' class='underline' target='_blank'>Прайс-лист</a><br><a href='https://gac.ru/media/download/docs/1BXn2N__m8-catalogue-57x21-290224-prewiew.pdf' class='underline' target='_blank'>Каталог</a></span></p>"
+- id: "gs3"
+  sections:
+    - id: description
+      sectionClass: ""
+      suptitle: "ДОРОГУ МОЛОДЫМ"
+      title: GAC GS3
+      text: "<p>GAC GS3 — субкомпактный кроссовер, созданный для городской среды и активного отдыха. Эта модель сочетает современный дизайн, эргономичный интерьер и эффективные технические решения. Новый GAC GS3 подходит для ежедневных поездок и путешествий, предлагая удобство и экономичность.</p>"
+      items:
+        - icon: mdi:engine-outline
+          text: Мощность 170 л.с.
+        - icon: mdi:speedometer
+          text: Крутящий момент 250 Нм
+        - icon: mdi:gas-station-outline
+          text: Расход топлива 5.9 л / 100 км
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/1.webp
+    - id: gallery
+      sectionClass: ""
+      title: Дизайн
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/gallery/1.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/gallery/2.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/gallery/3.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/gallery/4.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/gallery/5.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/gallery/6.webp
+          title: ""
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/gallery/7.webp
+          title: ""
+          description: ""
+    - id: exterior
+      sectionClass: "bg-gray-100"
+      title: Экстерьер
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/exterior/1.webp
+          title: "Провоцирует на движение"
+          description: ""
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/exterior/2.webp
+          title: "На движение со скоростью света"
+          description: "Полностью светодиодные фары с широким лучом гарантируют яркость и заметность автомобиля в ночное время."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/exterior/3.webp
+          title: "На движение со скоростью реактивного самолёта"
+          description: "Уникальная аэродинамика помогает развить впечатляющую скорость."
+    - id: interior
+      sectionClass: ""
+      title: Интерьер
+      suptitle: "Комфортный салон"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/interior/1.webp
+          title: "Совершенство дизайна"
+          description: "Салон автомобиля отличается современным дизайном и высоким качеством материалов. Просторное внутреннее пространство обеспечивает комфорт как для водителя, так и для пассажиров, а эргономичная приборная панель и современные технологии, делают поездку удобной и приятной."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/interior/2.webp
+          title: "Стильный салон GS3 объединяет в себе эстетику интерьера, современные технологии и эргономику — чтобы каждая поездка была комфортной."
+          description: "Сиденья адаптированы для людей ростом выше 1,8 метров, а кресло водителя дополнительно оборудовано системой вентиляции.<br>Для удобства размещения личных вещей салон оснащен 21 отсеком для хранения, а также встроенной беспроводной зарядкой для телефона. Сенсорный мультимедийный экран поддерживает систему Carplay и обеспечивает удобное управление опциями GS3."
+    - id: technology
+      sectionClass: "bg-gray-100"
+      title: Технологии
+      suptitle: "Системы и сервисы"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/technology/1.webp
+          title: "Мощный и надежный двигатель 1.5TG"
+          description: "Мощность 170 л.с., и крутящий момент 250 Н/м."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/technology/2.webp
+          title: "Расход 5,9 л / 100 км"
+          description: "В сочетании с автоматической коробкой передач с двойным сцеплением WDCT — это настоящий прорыв технологий. Тепловой КПД двигателя достигает 40,48%."
+    - id: security
+      sectionClass: ""
+      title: Безопасность
+      suptitle: "Интеллектуальная система безопасности высочайшего уровня"
+      images:
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/security/1.webp
+          title: "Система автоматического управления L2"
+          description: "Не думайте о дороге, думайте о делах. Главный интеллектуальный центр автомобиля возьмет на себя все аспекты безопасного вождения: Система адаптивного круиз-контроля Интегрированная система круиз-контроля Система предупреждения об угрозе фронтального столкновения"
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/security/2.webp
+          title: "Новый уровень защиты 360°"
+          description: "Первая в мире продуманная схема расположения из 7 подушек для всесторонней защиты пассажиров: задние подушки безопасности для защиты третьего ряда, самые длинные боковые шторки безопасности и стандартные подушки безопасности."
+        - url: https://cdn.alexsab.ru/b/gac/img/models/gs3/sections/security/3.webp
+          title: "Система предупреждения при открывании двери"
+          description: "Заботится о вас, даже вне салона. Система оперативного реагирования на объекты, приближающиеся сзади, чтобы максимально обезопасить пространство для пассажиров, выходящих из автомобиля."
+    - id: documentation
+      sectionClass: "bg-gray-100"
+      title: Документация
+      suptitle: "Может пригодиться"
+      text: "<p><span><a href='https://gac.ru/media-link/gs3-pricelist' class='underline' target='_blank'>Прайс-лист</a><br><a href='https://gac.ru/media-link/gs3-brochure' class='underline' target='_blank'>Каталог</a></span></p>"
