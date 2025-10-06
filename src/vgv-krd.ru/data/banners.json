@@ -42,14 +42,14 @@
         "id": 2,
         "show": true,
         "type": "",
-        "view": "link",
+        "view": "popup-link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/vgv/krd/banner-u70pro.webp"
         },
         "title": "<span class=\"font-light\">VGV U70PRO</span><br/> Выгода до&nbsp;200&nbsp;000&nbsp;руб.",
         "descr": "от&nbsp;2&nbsp;199&nbsp;900&nbsp;₽",
         "btn": "Подробнее",
-        "btnUrl": "/models/u70-pro/",
+        "btnUrl": "#common-modal",
         "dataTitle": "",
         "dataFormName": "",
         "badge": {},

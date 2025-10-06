@@ -21,7 +21,7 @@
         "id": 1,
         "show": true,
         "type": "",
-        "view": "link",
+        "view": "popup-link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/vgv/u70pro-desktop.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/vgv/u70pro-mobile.webp"
@@ -29,7 +29,7 @@
         "title": "VGV U70 PRO",
         "descr": "Выгода до 650 000 руб.<br>Рассрочка или 7643 руб. в месяц!<br>Цена от <span class='text-accent-400'>{{priceb-vgv-u70-pro}}</span>",
         "btn": "Подробнее",
-        "btnUrl": "/models/u70-pro/",
+        "btnUrl": "#common-modal",
         "dataTitle": "",
         "dataFormName": "",
         "badge": {},
