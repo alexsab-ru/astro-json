@@ -1567,7 +1567,8 @@
             }
         ],
         "feed_names": [
-            "X70"
+            "X70",
+            "X70, I Рестайлинг"
         ],
         "photos": "",
         "chars": {
@@ -3525,7 +3526,8 @@
                 "name": "Серебристый серый",
                 "names": [
                     "Silver-grey",
-                    "Серебристый серый"
+                    "Серебристый серый",
+                    "Серебряный"
                 ],
                 "carImage": "https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/hunderplus-silver-grey.webp",
                 "style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/hunterplus/colors/silver-grey.webp')"
@@ -19562,7 +19564,8 @@
               "черный металлик",
               "чёрный металлик",
               "черный",
-              "чёрный"
+              "чёрный",
+              "Black"
             ],
             "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/black-metallic.webp",
             "style": "background-color: #000000;"
@@ -20327,6 +20330,10 @@
             "value": "Полный",
             "measure": ""
           }
+        ],
+        "feed_names": [
+          "Land Cruiser Prado",
+          "Land Cruiser"
         ]
     },
     {
@@ -20921,6 +20928,10 @@
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
+        ],
+        "feed_names": [
+            "Land Cruiser 300",
+            "Land Cruiser"
         ],
         "chars": {}
     },
@@ -22845,6 +22856,16 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/models/lexus/rx-350/colors/light-beige-metallic.webp",
                 "style": "background-color: rgb(245 245 220);"
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "names": [
+                    "Brown",
+                    "Коричневый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/models/lexus/rx-350/colors/brown.webp",
+                "style": "background-color: rgb(139 69 19);"
             }
         ],
         "feed_names": [
@@ -23058,5 +23079,239 @@
             "measure": ""
           }
         ]
+    },
+    {
+        "mark_id": "Lexus",
+        "id": "nx",
+        "show": true,
+        "name": "NX",
+        "cyrillic": "НХ",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "NX"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Lexus",
+        "id": "gx",
+        "show": true,
+        "name": "GX",
+        "cyrillic": "ДжиИкс",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "grey",
+                "name": "Серый",
+                "names": [
+                    "Grey",
+                    "Gray",
+                    "Серый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "GX"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Toyota",
+        "id": "avalon",
+        "show": true,
+        "name": "Avalon",
+        "cyrillic": "Авалон",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Avalon"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Subaru",
+        "id": "impreza",
+        "show": true,
+        "name": "Impreza",
+        "cyrillic": "Импреза",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "default",
+                "name": "Базовый",
+                "names": [
+                    "Базовый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Impreza",
+            "impreza"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Jaguar",
+        "id": "f-pace",
+        "show": true,
+        "name": "F-Pace",
+        "cyrillic": "Ф-Пейс",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "default",
+                "name": "Базовый",
+                "names": [
+                    "Базовый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "F-Pace",
+            "f-pace"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "BMW",
+        "id": "8-series",
+        "show": true,
+        "name": "8 серии",
+        "cyrillic": "8 серии",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "default",
+                "name": "Базовый",
+                "names": [
+                    "Базовый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "8 серии"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Mercedes-Benz",
+        "id": "c-class",
+        "show": true,
+        "name": "C-класс",
+        "cyrillic": "Си-класс",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "default",
+                "name": "Базовый",
+                "names": [
+                    "Базовый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "C-класс",
+            "c-класс"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Lada (ВАЗ)",
+        "id": "largus",
+        "show": true,
+        "name": "Largus",
+        "cyrillic": "Ларгус",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Largus"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Hyundai",
+        "id": "creta",
+        "show": true,
+        "name": "Creta",
+        "cyrillic": "Крета",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "default",
+                "name": "Базовый",
+                "names": [
+                    "Базовый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "names": [
+                    "Blue",
+                    "Синий"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Creta"
+        ],
+        "chars": {}
     }
 ]
