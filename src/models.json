@@ -20184,86 +20184,115 @@
         "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/thumb.webp",
         "colors": [
           {
-            "id": "white",
+            "id": "ice-cap",
             "name": "Белый",
             "names": [
+              "White",
+              "Ice Cap",
+              "Ледяная шапка",
+              "Белый",
               "белый"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/white.webp",
-            "style": "background-color: white;"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/ice_cap.webp",
+            "style": "background-color: rgb(245 245 245);"
           },
           {
-            "id": "white-pearl",
-            "name": "Белый перламутр",
+            "id": "wind-chill-pearl",
+            "name": "Серебристый перламутр",
             "names": [
-              "белый перламутр"
+              "Silver",
+              "Silver Pearl",
+              "Wind Chill Pearl",
+              "Жемчуг ледяного ветра",
+              "Серебристый перламутр",
+              "Серебристый",
+              "серебристый"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/white-pearl.webp",
-            "style": "background-color: rgb(243 245 243);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/wind_chill_pearl.webp",
+            "style": "background-color: rgb(220 220 220);"
           },
           {
-            "id": "black-metallic",
+            "id": "meteor-shower",
+            "name": "Серый металлик",
+            "names": [
+              "Gray",
+              "Meteor Shower",
+              "Метеоритный дождь",
+              "Серый металлик",
+              "Серый",
+              "серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/meteor_shower.webp",
+            "style": "background-color: rgb(110 110 115);"
+          },
+          {
+            "id": "black",
+            "name": "Черный",
+            "names": [
+              "Black",
+              "Черный",
+              "черный",
+              "Чёрный",
+              "чёрный"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/black.webp",
+            "style": "background-color: rgb(15 15 15);"
+          },
+          {
+            "id": "underground",
             "name": "Черный металлик",
             "names": [
               "Black",
-              "черный металлик",
-              "чёрный металлик",
+              "Underground",
+              "Подземный",
+              "Черный металлик",
+              "Черный",
               "черный",
+              "Чёрный",
               "чёрный"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/black-metallic.webp",
-            "style": "background-color: #000000;"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/underground.webp",
+            "style": "background-color: rgb(28 28 28);"
           },
           {
-            "id": "brown-pearl",
-            "name": "Коричневый перламутр",
+            "id": "heritage-blue",
+            "name": "Синий металлик",
             "names": [
-              "коричневый перламутр",
-              "коричневый"
+              "Blue",
+              "Heritage Blue",
+              "Синий наследия",
+              "Синий металлик",
+              "Синий",
+              "синий"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/brown-pearl.webp",
-            "style": "background-color: rgb(81 65 57);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/heritage_blue.webp",
+            "style": "background-color: rgb(40 75 120);"
           },
           {
-            "id": "dark-blue-pearl",
-            "name": "Темно-синий перламутр",
+            "id": "heritage-blue-grayscape",
+            "name": "Синий металлик с серой крышей",
             "names": [
-              "темно-синий перламутр",
-              "тёмно-синий перламутр",
-              "темно синий"
+              "Blue with Gray Roof",
+              "Heritage Blue Grayscape",
+              "Синий наследия с серой крышей",
+              "Синий металлик с серой крышей",
+              "Синий с серой крышей"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/dark-blue-pearl.webp",
-            "style": "background-color: rgb(8 36 90);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/heritage_blue_grayscape.webp",
+            "style": "background-image: linear-gradient(to right, rgb(40 75 120) 0% 50%, rgb(90 90 90) 50% 100%);"
           },
           {
-            "id": "gray-brown-metallic",
-            "name": "Серо-коричневый металлик",
+            "id": "trail-dust-grayscape",
+            "name": "Бежевый с серой крышей",
             "names": [
-              "серо-коричневый металлик",
-              "серо коричневый"
+              "Beige with Gray Roof",
+              "Trail Dust Grayscape",
+              "Пыль дороги с серой крышей",
+              "Бежевый с серой крышей",
+              "Бежевый с серым"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/gray-brown-metallic.webp",
-            "style": "background-color: rgb(81 76 73);"
-          },
-          {
-            "id": "silver-metallic",
-            "name": "Серебристый металлик",
-            "names": [
-              "серебристый металлик",
-              "серебристый"
-            ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/silver-metallic.webp",
-            "style": "background-color: rgb(147 156 151);"
-          },
-          {
-            "id": "ash-gray-metallic",
-            "name": "Пепельно-серый металлик",
-            "names": [
-              "пепельно-серый металлик",
-              "пепельно серый"
-            ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/ash-gray-metallic.webp",
-            "style": "background-color: rgb(187 191 186);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/land-cruiser-prado/colors/trail_dust_grayscape.webp",
+            "style": "background-image: linear-gradient(to right, rgb(145 130 110) 0% 50%, rgb(90 90 90) 50% 100%);"
           }
         ],
         "chars": {
