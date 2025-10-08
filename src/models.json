@@ -7201,7 +7201,9 @@
             }
         ],
         "feed_names": [
-            "EMPOW"
+            "EMPOW",
+            "Empow",
+            "Empow, I"
         ],
         "photos": "",
         "chars": {
@@ -21062,6 +21064,17 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный",
+                    "черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": "background-color: rgb(0 0 0);"
             }
         ],
         "feed_names": [
@@ -22972,7 +22985,9 @@
                 "names": [
                     "Copper Crest",
                     "Медный гребень",
-                    "Медный"
+                    "Медный",
+                    "Brown",
+                    "Коричневый"
                 ],
                 "carImage": "https://cdn.alexsab.ru/models/lexus/rx-350/colors/copper_crest.webp",
                 "style": "background-color: rgb(184 115 51);"
@@ -23288,6 +23303,19 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "grey",
+                "name": "Серый",
+                "names": [
+                    "Grey",
+                    "Gray",
+                    "gray",
+                    "grey",
+                    "Серый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": "background-color: rgb(128 128 128);"
             }
         ],
         "feed_names": [
@@ -23313,6 +23341,16 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": "background-color: rgb(0 0 0);"
             }
         ],
         "feed_names": [
@@ -23338,6 +23376,16 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": "background-color: rgb(255 255 255);"
             }
         ],
         "feed_names": [
@@ -23362,6 +23410,16 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "red",
+                "name": "Красный",
+                "names": [
+                    "Red",
+                    "Красный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": "background-color: rgb(255 0 0);"
             }
         ],
         "feed_names": [
@@ -23384,14 +23442,16 @@
                 "name": "Белый",
                 "names": [
                     "White",
-                    "Белый"
+                    "Белый",
+                    "white"
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
             }
         ],
         "feed_names": [
-            "Largus"
+            "Largus",
+            "largus"
         ],
         "chars": {}
     },
