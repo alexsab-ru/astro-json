@@ -22840,7 +22840,6 @@
     {
         "mark_id": "Lexus",
         "id": "rx-350",
-        "centered": true,
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/lexus/rx-350/bg.webp",
         "slogan": "Испытайте невероятное",
@@ -23046,7 +23045,6 @@
     {
         "mark_id": "Lexus",
         "id": "lx-600",
-        "centered": true,
         "show": true,
         "homeImg": "https://cdn.alexsab.ru/models/lexus/lx-600/bg.webp",
         "slogan": "",
