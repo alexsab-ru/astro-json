@@ -11,8 +11,7 @@
                 "id": "95826307",
                 "clickmap": true,
                 "trackLinks": true,
-                "accurateTrackBounce": true,
-                "webvisor": true
+                "accurateTrackBounce": true
             },
             {
                 "id": "103615900",
@@ -20,6 +19,14 @@
                 "ecommerce": "dataLayer",
                 "accurateTrackBounce": true,
                 "trackLinks": true
+            },
+            {
+                "id": "104539254",
+                "clickmap": true,
+                "ecommerce": "dataLayer",
+                "accurateTrackBounce": true,
+                "trackLinks": true,
+                "webvisor": true
             }
         ],
         "fn": "_ym", 
