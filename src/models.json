@@ -6102,7 +6102,8 @@
                 "id": "white",
                 "name": "Белый",
                 "names": [
-                    "Белый"
+                    "Белый",
+                    "Белый/Песочный"
                 ],
                 "carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/white.webp",
                 "style": ""
