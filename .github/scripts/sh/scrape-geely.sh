@@ -5,5 +5,5 @@ export ID_XPATH="concat('geely-', substring-before(substring(substring-after(./a
 export MODEL_XPATH=".//div[contains(concat(' ', normalize-space(@class), ' '), ' menu__models-item-title ')]/text()"
 export PRICE_XPATH="translate(string(.//div[contains(concat(' ', normalize-space(@class), ' '), ' menu__models-item-price ')]/text()), translate(string(.//div[contains(concat(' ', normalize-space(@class), ' '), ' menu__models-item-price ')]/text()), '0123456789', ''), '')"
 export LINK_XPATH="./a/@href"
-export OUTPUT_PATHS="./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-samara.ru/data/cars.json,./src/geely-partner-saratov.ru/data/cars.json,./src/geely-partner-orsk.ru/data/cars.json,./src/geely.alexsab.ru/data/cars.json"
+export OUTPUT_PATHS="./src/geely-partner-orenburg.ru/data/cars.json,./src/geely-partner-samara.ru/data/cars.json,./src/geely-partner-saratov.ru/data/cars.json,./src/geely-orsk.ru/data/cars.json,./src/geely.alexsab.ru/data/cars.json"
 node .github/scripts/scrape.js
