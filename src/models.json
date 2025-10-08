@@ -19531,95 +19531,144 @@
         "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/camry/thumb.webp",
         "colors": [
           {
-            "id": "white",
+            "id": "ice-cap",
             "name": "Белый",
             "names": [
+              "White",
+              "Ice Cap",
+              "Ледяная шапка",
+              "Белый",
               "белый"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/white.webp",
-            "style": "background-color: white;"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/ice_cap.webp",
+            "style": "background-color: rgb(245 245 245);"
           },
           {
-            "id": "white-pearl",
-            "name": "Белый перламутр",
+            "id": "wind-chill-pearl",
+            "name": "Серебристый перламутр",
             "names": [
-              "белый перламутр"
-            ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/white-pearl.webp",
-            "style": "background-color: rgb(243 245 243);"
-          },
-          {
-            "id": "silver-metallic",
-            "name": "Серебристый металлик",
-            "names": [
-              "серебристый металлик",
+              "Silver",
+              "Silver Pearl",
+              "Wind Chill Pearl",
+              "Жемчуг ледяного ветра",
+              "Серебристый перламутр",
+              "Серебристый",
               "серебристый"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/silver-metallic.webp",
-            "style": "background-color: rgb(147 156 151);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/wind_chill_pearl.webp",
+            "style": "background-color: rgb(220 220 220);"
           },
           {
-            "id": "black-metallic",
+            "id": "heavy-metal",
+            "name": "Серый металлик",
+            "names": [
+              "Gray",
+              "Heavy Metal",
+              "Хэви металл",
+              "Серый металлик",
+              "Серый",
+              "серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/heavy_metal.webp",
+            "style": "background-color: rgb(105 105 105);"
+          },
+          {
+            "id": "underground",
             "name": "Черный металлик",
             "names": [
-              "черный металлик",
-              "чёрный металлик",
+              "Black",
+              "Underground",
+              "Подземный",
+              "Черный металлик",
+              "Черный",
               "черный",
-              "чёрный",
-              "Black"
+              "Чёрный",
+              "чёрный"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/black-metallic.webp",
-            "style": "background-color: #000000;"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/underground.webp",
+            "style": "background-color: rgb(28 28 28);"
           },
           {
-            "id": "red-special-metallic",
-            "name": "Красный специальный металлик",
+            "id": "dark-cosmos",
+            "name": "Темный космос",
             "names": [
-              "красный специальный металлик",
+              "Dark Cosmos",
+              "Темный космос",
+              "Темно-синий",
+              "темно-синий"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/dark_cosmos.webp",
+            "style": "background-color: rgb(20 25 40);"
+          },
+          {
+            "id": "supersonic-red",
+            "name": "Красный металлик",
+            "names": [
+              "Red",
+              "Supersonic Red",
+              "Сверхзвуковой красный",
+              "Красный металлик",
+              "Красный",
               "красный"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/red-special-metallic.webp",
-            "style": "background-color: rgb(145 36 52);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/supersonic_red.webp",
+            "style": "background-color: rgb(190 30 45);"
           },
           {
-            "id": "gray-brown-metallic",
-            "name": "Серо-коричневый металлик",
-            "names": [
-              "серо-коричневый металлик",
-              "серо коричневый"
-            ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/gray-brown-metallic.webp",
-            "style": "background-color: rgb(81 76 73);"
-          },
-          {
-            "id": "blue-metallic",
+            "id": "ocean-gem",
             "name": "Синий металлик",
             "names": [
-              "синий металлик",
+              "Blue",
+              "Ocean Gem",
+              "Океанский самоцвет",
+              "Синий металлик",
+              "Синий",
               "синий"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/blue-metallic.webp",
-            "style": "background-color: rgb(8 59 126);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/ocean_gem.webp",
+            "style": "background-color: rgb(30 80 140);"
           },
           {
-            "id": "red-special-metallic-black-roof",
-            "name": "Красный специальный металлик с крышей черного цвета",
+            "id": "supersonic-red-with-black-roof",
+            "name": "Красный металлик с черной крышей",
             "names": [
-              "красный специальный металлик с крышей черного цвета",
+              "Red with Black Roof",
+              "Supersonic Red with Black Roof",
+              "Сверхзвуковой красный с черной крышей",
+              "Красный металлик с черной крышей",
+              "Красный с черной крышей",
               "красный с черной крышей"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/red-special-metallic-black-roof.webp",
-            "style": "background-image: linear-gradient(to right, rgb(145 36 52) 0% 50%, #000 50% 100%);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/supersonic_red_with_black_roof.webp",
+            "style": "background-image: linear-gradient(to right, rgb(190 30 45) 0% 50%, #000 50% 100%);"
           },
           {
-            "id": "white-pearl-black-roof",
-            "name": "Белый перламутр с крышей черного цвета",
+            "id": "ocean-gem-with-black-roof",
+            "name": "Синий металлик с черной крышей",
             "names": [
-              "белый перламутр с крышей черного цвета",
-              "белый перламутр с черной крышей"
+              "Blue with Black Roof",
+              "Ocean Gem with Black Roof",
+              "Океанский самоцвет с черной крышей",
+              "Синий металлик с черной крышей",
+              "Синий с черной крышей",
+              "синий с черной крышей"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/white-pearl-black-roof.webp",
-            "style": "background-image: linear-gradient(to right, rgb(243 245 243) 0% 50%, #000 50% 100%);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/ocean_gem_with_black_roof.webp",
+            "style": "background-image: linear-gradient(to right, rgb(30 80 140) 0% 50%, #000 50% 100%);"
+          },
+          {
+            "id": "heavy-metal-with-black-roof",
+            "name": "Серый металлик с черной крышей",
+            "names": [
+              "Gray with Black Roof",
+              "Heavy Metal with Black Roof",
+              "Хэви металл с черной крышей",
+              "Серый металлик с черной крышей",
+              "Серый с черной крышей",
+              "серый с черной крышей"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/camry/colors/heavy_metal_with_black_roof.webp",
+            "style": "background-image: linear-gradient(to right, rgb(105 105 105) 0% 50%, #000 50% 100%);"
           }
         ],
         "feed_names": [
