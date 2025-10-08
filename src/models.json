@@ -20397,82 +20397,138 @@
         "thumb": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/thumb.webp",
         "colors": [
           {
-            "id": "white",
-            "name": "Белый",
+            "id": "wind-chill-pearl",
+            "name": "Серебристый перламутр",
             "names": [
+              "White",
+              "Silver",
+              "Silver Pearl",
+              "Wind Chill Pearl",
+              "Жемчуг ледяного ветра",
+              "Серебристый перламутр",
+              "Серебристый",
+              "серебристый",
+              "Белый",
               "белый"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/white.webp",
-            "style": "background-color: white;"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/wind_chill_pearl.webp",
+            "style": "background-color: rgb(220 220 220);"
           },
           {
-            "id": "gray",
-            "name": "Серый",
+            "id": "celestial-silver-metallic",
+            "name": "Серебристый металлик",
             "names": [
-              "серый"
-            ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/gray.webp",
-            "style": "background-color: rgb(128 128 128);"
-          },
-          {
-            "id": "silver",
-            "name": "Серебристый",
-            "names": [
+              "Silver",
+              "Celestial Silver Metallic",
+              "Небесное серебро",
+              "Серебристый металлик",
+              "Серебристый",
               "серебристый"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/silver.webp",
-            "style": "background-color: rgb(147 156 151);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/celestial_silver_metallic.webp",
+            "style": "background-color: rgb(192 192 192);"
           },
           {
-            "id": "black",
-            "name": "Черный",
+            "id": "cement",
+            "name": "Серый",
             "names": [
+              "Gray",
+              "Cement",
+              "Цемент",
+              "Серый",
+              "серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/cement.webp",
+            "style": "background-color: rgb(130 130 130);"
+          },
+          {
+            "id": "magnetic-gray-metallic",
+            "name": "Серый металлик",
+            "names": [
+              "Gray",
+              "Magnetic Gray Metallic",
+              "Магнитный серый",
+              "Серый металлик",
+              "Серый",
+              "серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/heavy_metal.webp",
+            "style": "background-color: rgb(92 95 98);"
+          },
+          {
+            "id": "heavy-metal",
+            "name": "Темно-серый металлик",
+            "names": [
+              "Gray",
+              "Dark Gray",
+              "Heavy Metal",
+              "Хэви металл",
+              "Темно-серый металлик",
+              "Темно-серый",
+              "темно-серый"
+            ],
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/magnetic_gray_metallic.webp",
+            "style": "background-color: rgb(75 75 75);"
+          },
+          {
+            "id": "midnight-black-metallic",
+            "name": "Черный металлик",
+            "names": [
+              "Black",
+              "Midnight Black Metallic",
+              "Полночный черный",
+              "Черный металлик",
               "Черный",
-              "Чёрный"
+              "черный",
+              "Чёрный",
+              "чёрный"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/black.webp",
-            "style": "background-color: #000000;"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/midnight_black_metallic.webp",
+            "style": "background-color: rgb(28 28 28);"
           },
           {
-            "id": "dark-brown",
-            "name": "Темно-коричневый",
-            "names": [
-              "темно-коричневый",
-              "тёмно-коричневый",
-              "темно коричневый"
-            ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/dark-brown.webp",
-            "style": "background-color: rgb(67 54 45);"
-          },
-          {
-            "id": "dark-blue",
+            "id": "blueprint",
             "name": "Темно-синий",
             "names": [
+              "Blue",
+              "Blueprint",
+              "Синий чертёж",
+              "Темно-синий",
               "темно-синий",
-              "тёмно-синий",
-              "темно синий"
+              "Синий",
+              "синий"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/dark-blue.webp",
-            "style": "background-color: rgb(8 36 90);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/blueprint.webp",
+            "style": "background-color: rgb(30 50 80);"
           },
           {
-            "id": "gray-blue",
-            "name": "Серо-голубой",
+            "id": "cypress",
+            "name": "Зеленый металлик",
             "names": [
-              "серо-голубой",
-              "серо голубой"
+              "Green",
+              "Cypress",
+              "Кипарис",
+              "Зеленый металлик",
+              "Зеленый",
+              "зеленый",
+              "Зелёный"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/gray-blue.webp",
-            "style": "background-color: rgb(92 111 118);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/cypress.webp",
+            "style": "background-color: rgb(50 70 55);"
           },
           {
-            "id": "red",
-            "name": "Красный",
+            "id": "ruby-flare-pearl",
+            "name": "Красный перламутр",
             "names": [
+              "Red",
+              "Ruby Flare Pearl",
+              "Рубиновая вспышка",
+              "Красный перламутр",
+              "Красный",
               "красный"
             ],
-            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/red.webp",
-            "style": "background-color: rgb(145 36 52);"
+            "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/highlander/colors/ruby_flare_pearl.webp",
+            "style": "background-color: rgb(165 35 50);"
           }
         ],
         "chars": {
