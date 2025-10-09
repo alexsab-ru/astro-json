@@ -10505,7 +10505,8 @@
                 "id": "terracotta-sapphire",
                 "name": "Терракотовый сапфир",
                 "names": [
-                    "коричневый"
+                    "коричневый",
+                    "Оранжевый"
                 ],
                 "carImage": "https://cdn.alexsab.ru/models/haval/dargo-x/colors/terracotta-sapphire.webp",
                 "style": "background-color:rgba(201, 100, 59, 1);"
