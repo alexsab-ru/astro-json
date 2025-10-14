@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Belgee Партнер-Авто Пенза",
+        "address": "Пенза, ул. Ульяновская, д. 85",
+        "phone":  "8 (8412) 50-41-46",
+        "work_hours": "пн — пт: 9:00 — 10:00<br />сб: 09:00 - 18:00<br />вс: 09:00 - 16:00",
+        "map": {
+            "zoom": 5,
+            "balloon": "https://cdn.alexsab.ru/b/belgee/img/belgee-locator.svg",
+            "coords": [53.234029, 44.905192],
+            "ya_link": "https://yandex.ru/maps/-/CLRwjDN2"
+        }
+    }
+]

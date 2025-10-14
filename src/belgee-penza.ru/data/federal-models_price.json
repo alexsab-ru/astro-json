@@ -1,0 +1,34 @@
+[
+  {
+    "id": "belgee-s50",
+    "brand": "belgee",
+    "model": "Новый S50",
+    "price": "1649990",
+    "benefit": "",
+    "link": "https://belgee.ru/model/belgee-s50/"
+  },
+  {
+    "id": "belgee-x50",
+    "brand": "belgee",
+    "model": "X50",
+    "price": "1939990",
+    "benefit": "",
+    "link": "https://belgee.ru/model/belgee-x50/"
+  },
+  {
+    "id": "belgee-x70",
+    "brand": "belgee",
+    "model": "X70",
+    "price": "2275990",
+    "benefit": "",
+    "link": "https://belgee.ru/model/belgee-x70/"
+  },
+  {
+    "id": "belgee-x70-facelift",
+    "brand": "belgee",
+    "model": "Обновленный X70",
+    "price": "2275990",
+    "benefit": "",
+    "link": "https://belgee.ru/model/belgee-x70-facelift/"
+  }
+]

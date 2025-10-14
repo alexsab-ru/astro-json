@@ -1,0 +1,81 @@
+[
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/s50-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/s50-mobile.webp"
+        },
+        "position": {
+            "mobile": "top"
+        },
+        "title": "Новый <span class=\"text-5xl sm:text-7xl\">S50</span> <br/>Элегантный и <br/>практичный седан",
+        "descr": "от {{priceb-belgee-s50}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/s50/",
+        "dataTitle": "Узнать подробнее. <br/>BELGEE S50",
+        "dataFormName": "Подробнее. BELGEE S50. Баннер",
+        "badge": "",
+        "autoplay": 10000,
+        "gradient": true
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025-mobile.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/models/x50/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 6000,
+        "gradient": false
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025-mobile.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/models/x70/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 6000,
+        "gradient": false
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Рассрочка",
+        "dataFormName": "Рассрочка. Баннер",
+        "badge": "",
+        "autoplay": 6000,
+        "gradient": false
+    }
+]
