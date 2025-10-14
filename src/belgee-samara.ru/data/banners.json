@@ -52,7 +52,10 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Выгодное предложение на BELGEE X50",
         "dataFormName": "Подробнее. Выгодное предложение на BELGEE X50. Баннер",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025.svg",
+            "position": "left"
+        },
         "autoplay": 6000
     },
     {
@@ -69,12 +72,59 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Новый BELGEE X70",
         "dataFormName": "Подробнее. Новый BELGEE X70. Баннер",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025.svg",
+            "position": "left"
+        },
         "autoplay": 6000
     },
     {
         "id": 0,
         "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/x50-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x50-mobile.webp"
+        },
+        "title": "<img src=\"https://cdn.alexsab.ru/logo/belgee/x50-logo.svg\" alt=\"BELGEE X50\" class=\"w-[180px]\"/><br/>Лучший компактный кроссовер",
+        "descr": "от {{priceb-belgee-x50}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/x50/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025.svg",
+            "position": "left"
+        },
+        "autoplay": 6000,
+        "gradient": true
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/x70-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x70-mobile.webp"
+        },
+        "title": "<img src=\"https://cdn.alexsab.ru/logo/belgee/x70-logo.svg\" alt=\"BELGEE X70\" class=\"w-[180px]\"/><br/>Разумный выбор",
+        "descr": "от {{priceb-belgee-x70}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/x70/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025.svg",
+            "position": "left"
+        },
+        "autoplay": 6000,
+        "gradient": true
+    },
+    {
+        "id": 0,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -87,13 +137,16 @@
         "bannerUrl": "/models/x50/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025.svg",
+            "position": "left"
+        },
         "autoplay": 6000,
         "gradient": false
     },
     {
         "id": 0,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -106,7 +159,10 @@
         "bannerUrl": "/models/x70/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025.svg",
+            "position": "left"
+        },
         "autoplay": 6000,
         "gradient": false
     },
