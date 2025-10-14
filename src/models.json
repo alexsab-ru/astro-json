@@ -1314,6 +1314,10 @@
                 "view": "popup-link"
             }
         ],
+        "badge": {
+            "img": "https://cdn.alexsab.ru/badges/car-year-2025.svg",
+            "alt": "Автомобиль года 2025"
+        },
         "thumb": "https://cdn.alexsab.ru/models/belgee/x50/black_500px.webp",
         "image": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
         "colors": [
@@ -1495,6 +1499,10 @@
                 "view": "popup-link"
             }
         ],
+        "badge": {
+            "img": "https://cdn.alexsab.ru/badges/car-year-2025.svg",
+            "alt": "Автомобиль года 2025"
+        },
         "thumb": "https://cdn.alexsab.ru/models/belgee/x70/red_500px.webp",
         "image": "https://cdn.alexsab.ru/main-sliders/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp",
         "colors": [
