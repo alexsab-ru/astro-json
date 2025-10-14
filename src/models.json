@@ -9261,7 +9261,8 @@
                 "id": "snow-onyx",
                 "name": "Снежный оникс",
                 "names": [
-                    "Белый"
+                    "Белый",
+                    "Бежевый"
                 ],
                 "carImage": "https://cdn.alexsab.ru/models/haval/h9/colors/snow-onyx.webp",
                 "style": "background-color: rgba(231, 231, 233, 1);"
