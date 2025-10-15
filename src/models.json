@@ -1295,7 +1295,7 @@
       "name": "Обновленный X70",
       "cyrillic": "Обновленный Икс 70",
       "price": "{{priceb-belgee-x70-facelift}}",
-      "benefit": "{{benfitb-belgee-x70-facelift}}",
+      "benefit": "{{benefitb-belgee-x70-facelift}}",
       "benefits": [
         {
           "url": "#common-modal",
