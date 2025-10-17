@@ -25,6 +25,109 @@
         "id": 0,
         "show": true,
         "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp"
+        },
+        "title": "Выгодное предложение на BELGEE X50",
+        "descr": "Успей забронировать свой Белджи",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Выгодное предложение на BELGEE X50",
+        "dataFormName": "Подробнее. Выгодное предложение на BELGEE X50. Баннер",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025-horisontal-compact-crossover.png",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 1,
+        "show": false,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp"
+        },
+        "title": "Новый BELGEE X70",
+        "descr": "Уже в продаже!",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Новый BELGEE X70",
+        "dataFormName": "Подробнее. Новый BELGEE X70. Баннер",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025-horisontal-smart-choice.png",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/x70-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x70-mobile.webp"
+        },
+        "title": "<br/>Обновленный кроссовер<img src=\"https://cdn.alexsab.ru/logo/belgee/x70-logo.svg\" alt=\"BELGEE X70\" class=\"w-[180px]\"/>",
+        "descr": "от {{priceb-belgee-x70-facelift}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/x70-facelift/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 6000,
+        "gradient": true
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/x70-desktop-old.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x70-mobile-old.webp"
+        },
+        "title": "Семейный кроссовер<br/><img src=\"https://cdn.alexsab.ru/logo/belgee/x70-logo.svg\" alt=\"BELGEE X70\" class=\"w-[180px]\"/>",
+        "descr": "от {{priceb-belgee-x70}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/x70/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025-horisontal-smart-choice.png",
+            "position": "left"
+        },
+        "autoplay": 6000,
+        "gradient": true
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/x50-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x50-mobile.webp"
+        },
+        "title": "<br/>Динамичный кроссовер<img src=\"https://cdn.alexsab.ru/logo/belgee/x50-logo.svg\" alt=\"BELGEE X50\" class=\"w-[180px]\"/>",
+        "descr": "от {{priceb-belgee-x50}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/x50/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025-horisontal-compact-crossover.png",
+            "position": "left"
+        },
+        "autoplay": 6000,
+        "gradient": true
+    },
+    {
+        "id": 0,
+        "show": false,
+        "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025.webp",
@@ -36,13 +139,16 @@
         "bannerUrl": "/models/x50/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025-horisontal-compact-crossover.png",
+            "position": "left"
+        },
         "autoplay": 6000,
         "gradient": false
     },
     {
         "id": 0,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -55,7 +161,10 @@
         "bannerUrl": "/models/x70/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025-horisontal-compact-crossover.png",
+            "position": "left"
+        },
         "autoplay": 6000,
         "gradient": false
     },
