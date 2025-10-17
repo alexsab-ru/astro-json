@@ -3,6 +3,21 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-lising-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-lising-mobile.webp"
+        },
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее про лизинг GAC",
+        "dataFormName": "Узнать подробнее про лизинг GAC. Баннер",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/SmkXzT__credit-main1920h1080.webp",
