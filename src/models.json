@@ -1165,9 +1165,11 @@
                 "id": "star-grey",
                 "name": "Серо-голубой металлик",
                 "names": [
-                    "Серо-голубой металлик",
                     "Серо-голубой",
-                    "Серо-голубой (star grey)"
+                    "Серо-голубой металлик",
+                    "Серо-голубой (star grey)",
+                    "голубой",
+                    "Голубой"
                 ],
                 "carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/star-grey.webp",
                 "style": "background-color: #96a7b1;"
