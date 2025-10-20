@@ -8,11 +8,17 @@
     "metrika": {
         "value": [
             {
-                "id": "48905003",
+                "id": "100702326",
                 "clickmap": true,
                 "trackLinks": true,
                 "accurateTrackBounce": true,
                 "webvisor": true
+            },
+            {
+                "id": "98077715",
+                "clickmap": true,
+                "trackLinks": true,
+                "accurateTrackBounce": true
             }
         ],
         "fn": "_ym", 
@@ -52,8 +58,8 @@
     },
     "calltouch": {
         "value": {
-            "mod_id": "",
-            "site_id": ""
+            "mod_id": "mzwte2wo",
+            "site_id": "69295"
         },
         "fn": "_ct",
         "prod": false
