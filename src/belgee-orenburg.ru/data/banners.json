@@ -5,6 +5,25 @@
         "type": "",
         "view": "link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/orenburg/s50-presentation-desktop-notxt.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/orenburg/s50-presentation-mobile-notxt.webp"
+        },
+        "position": {
+            "mobile": "top"
+        },
+        "title": "25 октября <br/>Презентация нового Belgee S50",
+        "descr": "Ликвидация склада <sup>*</sup>",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/prezentaciya-novogo-belgee-s50/",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/s50-desktop.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/s50-mobile.webp"
         },
