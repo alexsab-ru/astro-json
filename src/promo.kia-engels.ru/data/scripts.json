@@ -8,14 +8,7 @@
     "metrika": {
         "value": [
             {
-                "id": "56034940",
-                "clickmap": true,
-                "trackLinks": true,
-                "accurateTrackBounce": true,
-                "webvisor": true
-            },
-            {
-                "id": "156741",
+                "id": "75614236",
                 "clickmap": true,
                 "trackLinks": true,
                 "accurateTrackBounce": true,
@@ -42,7 +35,7 @@
     "vk-rtrg": {
         "value": [
             {
-                "id": "VK-RTRG-456219-a8jpe"
+                "id": ""
             }
         ],
         "fn": "_vk",
@@ -51,7 +44,7 @@
     "top.mail.ru": {
         "value": [
             {
-                "id": "3413778"
+                "id": ""
             }
         ],
         "fn": "_tm",
@@ -59,8 +52,8 @@
     },
     "calltouch": {
         "value": {
-            "mod_id": "aoehjvqc",
-            "site_id": "47086"
+            "mod_id": "r2j6xthw",
+            "site_id": "46641"
         },
         "fn": "_ct",
         "prod": false
