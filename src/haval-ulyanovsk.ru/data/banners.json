@@ -18,7 +18,7 @@
         "title": "Новый<br>HAVAL H7",
         "descr": "Цена от {{priceb-haval-h7}}*",
         "btn": "Подробнее",
-        "btnUrl": "/?model=h7+i",
+        "btnUrl": "/cars/?model=h7+i#cars",
         "dataTitle": "",
         "dataFormName": "",
         "badge": {},
