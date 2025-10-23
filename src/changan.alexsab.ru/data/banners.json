@@ -6,9 +6,9 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/tablet.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/mobile.webp"
         },
-        "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/tablet.webp",
         "title": "Цена от {{price-changan-cs75plus-new}}",
         "descr": "Changan CS75 Plus New<br />BLUE CORE 2.0Т / 232 Л.С. / 8АТ AISIN<br />&#9733&#9733&#9733&#9733&#9733 ПО БЕЗОПАСНОСТИ C-NCAP",
         "btn": "Подробнее",
@@ -25,13 +25,13 @@
         "view": "popup-link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/tablet.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/mobile.webp"
         },
         "position": {
             "desktop": "bottom",
             "mobile": "bottom"
         },
-        "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/tablet.webp",
         "title": "Всем светит выгода",
         "descr": "Полная стоиомсть кредита – от 0.01 до 15%<br /><span class='bg-red-500 px-3'>0.01% на 8 лет</span>",
         "btn": "Подробнее",
@@ -48,13 +48,13 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/tablet.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/mobile.webp"
         },
         "position": {
             "desktop": "bottom",
             "mobile": "bottom"
         },
-        "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-cs35/tablet.webp",
         "title": "Выгода на Changan CS35<br />до {{benefit-changan-cs35plus-new}}",
         "descr": "Почувствуй пульс города!",
         "btn": "Подробнее",
@@ -71,13 +71,13 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-s/desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-s/tablet.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-s/mobile.webp"
         },
         "position": {
             "desktop": "bottom",
             "mobile": "bottom"
         },
-        "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-s/tablet.webp",
         "title": "Выгода на Changan UNI-S<br />до {{benefit-changan-uni-s}}",
         "descr": "Симфония технологий!",
         "btn": "Подробнее",
@@ -94,13 +94,13 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-k/desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-k/tablet.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-k/mobile.webp"
         },
         "position": {
             "desktop": "bottom",
             "mobile": "bottom"
         },
-        "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/vigoda-uni-k/tablet.webp",
         "title": "Выгода на Changan UNI-K<br />до {{benefit-changan-uni-k}}",
         "descr": "Ощутите технологичность!",
         "btn": "Подробнее",
@@ -117,13 +117,13 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/changan/servisnoe-obsluzhivanie-k-letu/desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/servisnoe-obsluzhivanie-k-letu/tablet.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/changan/servisnoe-obsluzhivanie-k-letu/mobile.webp"
         },
         "position": {
             "desktop": "bottom",
             "mobile": "bottom"
         },
-        "tabletUrl": "https://cdn.alexsab.ru/main-sliders/changan/servisnoe-obsluzhivanie-k-letu/tablet.webp",
         "title": "Сервисное обслуживание к лету:",
         "descr": "подготовьте свой Changan к приключениям",
         "btn": "Подробнее",
