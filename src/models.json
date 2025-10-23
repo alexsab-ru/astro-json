@@ -19745,6 +19745,7 @@
             "name": "Серый металлик",
             "names": [
               "Gray",
+              "Grey",
               "Heavy Metal",
               "Хэви металл",
               "Серый металлик",
@@ -20017,7 +20018,8 @@
             "name": "Серебристый металлик",
             "names": [
               "серебристый металлик",
-              "серебристый"
+              "серебристый",
+              "Silver"
             ],
             "carImage": "https://cdn.alexsab.ru/b/toyota/img/models/corolla/colors/silver-metallic.webp",
             "style": "background-color: rgb(147 156 151);"
@@ -23406,6 +23408,16 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
             }
         ],
         "feed_names": [
@@ -23664,6 +23676,510 @@
         ],
         "feed_names": [
             "Creta"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Suzuki",
+        "id": "grand-vitara",
+        "show": true,
+        "name": "Grand Vitara",
+        "cyrillic": "Гранд Витара",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Grand Vitara",
+            "grand vitara"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Land Rover",
+        "id": "defender",
+        "show": true,
+        "name": "Defender",
+        "cyrillic": "Дефендер",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Defender",
+            "defender"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Audi",
+        "id": "a6",
+        "show": true,
+        "name": "A6",
+        "cyrillic": "А6",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "A6",
+            "a6"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Volkswagen",
+        "id": "jetta",
+        "show": true,
+        "name": "Jetta",
+        "cyrillic": "Джетта",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Jetta",
+            "jetta"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "ГАЗ",
+        "id": "sobol-2752",
+        "show": true,
+        "name": "Соболь (2752)",
+        "cyrillic": "Соболь (2752)",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Соболь (2752)",
+            "соболь (2752)",
+            "Соболь",
+            "соболь"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Skoda",
+        "id": "fabia",
+        "show": true,
+        "name": "Fabia",
+        "cyrillic": "Фабия",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Fabia",
+            "fabia"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Ford",
+        "id": "focus",
+        "show": true,
+        "name": "Focus",
+        "cyrillic": "Фокус",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Focus",
+            "focus"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Lexus",
+        "id": "es",
+        "show": true,
+        "name": "ES",
+        "cyrillic": "ЕС",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "ES"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Lada (ВАЗ)",
+        "id": "xray",
+        "show": true,
+        "name": "XRAY",
+        "cyrillic": "Икс Рей",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "orange",
+                "name": "Оранжевый",
+                "names": [
+                    "Orange",
+                    "Оранжевый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "XRAY"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Lada (ВАЗ)",
+        "id": "vesta",
+        "show": true,
+        "name": "Vesta",
+        "cyrillic": "Веста",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Vesta"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Hyundai",
+        "id": "i40",
+        "show": true,
+        "name": "i40",
+        "cyrillic": "Ай40",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "i40"
         ],
         "chars": {}
     }
