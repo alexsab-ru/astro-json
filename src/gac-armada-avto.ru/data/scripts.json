@@ -2,8 +2,8 @@
     "site": "gac-armada-avto.ru",
     "gtm": {
         "value": "",
-        "fn": "_gtm",
-        "prod": true
+        "prod": true,
+        "fn": "_gtm"
     },
     "metrika": {
         "value": [
@@ -12,11 +12,12 @@
                 "clickmap": true,
                 "trackLinks": true,
                 "accurateTrackBounce": true,
-                "webvisor": true
+                "webvisor": true,
+                "trackHash": false
             }
         ],
-        "fn": "_ym", 
-        "prod": false
+        "prod": false,
+        "fn": "_ym"
     },
     "ga4": {
         "value": [
@@ -24,13 +25,13 @@
                 "id": ""
             }
         ],
-        "fn": "_ga",
-        "prod": true
+        "prod": true,
+        "fn": "_ga"
     },
     "re": {
         "value": "",
-        "fn": "_re",
-        "prod": true
+        "prod": true,
+        "fn": "_re"
     },
     "vk-rtrg": {
         "value": [
@@ -38,8 +39,8 @@
                 "id": ""
             }
         ],
-        "fn": "_vk",
-        "prod": true
+        "prod": true,
+        "fn": "_vk"
     },
     "top.mail.ru": {
         "value": [
@@ -47,40 +48,41 @@
                 "id": ""
             }
         ],
-        "fn": "_tm",
-        "prod": true
+        "prod": true,
+        "fn": "_tm"
     },
     "calltouch": {
         "value": {
             "mod_id": "7jcoom3s",
             "site_id": "70588"
         },
-        "fn": "_ct",
-        "prod": false
+        "prod": false,
+        "fn": "_ct"
     },
     "konget": {
         "value": "",
-        "fn": "_kg",
-        "prod": true
+        "prod": true,
+        "fn": "_kg"
     },
     "smartpoint": {
         "value": "",
-        "fn": "_sp",
-        "prod": true
+        "prod": true,
+        "fn": "_sp"
     },
     "streamwood": {
         "value": {
             "swKey": "",
             "swDomainKey": ""
         },
-        "fn": "_sw",
-        "prod": true
+        "prod": true,
+        "fn": "_sw"
     },
     "widgets": {
         "value": [
-            ""
+            "<script>\n    (function(){(function c(d,w,m,i) {\n        window.supportAPIMethod = m;\n        var s = d.createElement('script');\n        s.id = 'supportScript'; \n        var id = 'ff181817a8206059bbc606c69f876a95';\n        s.src = (!i ? 'https://zcdn.ru/support/support.js' : 'https://static.site-chat.me/support/support.int.js') + '?h=' + id;\n        s.onerror = i ? undefined : function(){c(d,w,m,true)};\n        w[m] = w[m] ? w[m] : function(){(w[m].q = w[m].q ? w[m].q : []).push(arguments);};\n        (d.head ? d.head : d.body).appendChild(s);\n    })(document,window,'OnlineChat')})();\n</script>",
+            "<meta name=\"yandex-verification\" content=\"e7a62cc674b297fb\" />"
         ],
-        "fn": "_wd",
-        "prod": true
+        "prod": true,
+        "fn": "_wd"
     }
 }
