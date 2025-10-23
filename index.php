@@ -347,8 +347,8 @@ $allFileNames = collectAllFilenames($catalog);
 $filterSites = isset($_GET['sites']) && is_array($_GET['sites']) ? array_values(array_intersect($allSites, array_map('strval', $_GET['sites']))) : [];
 $filterFiles = isset($_GET['files']) && is_array($_GET['files']) ? array_values(array_intersect($allFileNames, array_map('strval', $_GET['files']))) : [];
 
-// Действие
-$action = $_GET['action'] ?? 'list';
+// Действие: учитываем POST (формы) и затем GET
+$action = $_POST['action'] ?? ($_GET['action'] ?? 'list');
 
 // CSRF: генерируем токен если нет
 if (empty($_SESSION['csrf_token'])) {
