@@ -38,7 +38,7 @@
         "dataFormName": "",
         "badge": "",
         "gradient": false,
-        "color": "#6d01cc",
+        "btnColor": "#6d01cc",
         "autoplay": 7000
     },
     {
