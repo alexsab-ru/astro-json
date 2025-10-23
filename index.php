@@ -390,27 +390,26 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
         echo '<div class="obj">';
         echo '<details open><summary>Объект</summary>';
         echo '<div class="object-fields">';
-        foreach ($value as $k => $v) {
+        // Для banners: на уровне элемента (path: [index]) применим порядок полей
+        $keysToIterate = array_keys($value);
+        if ($isBanners && count($path) === 1) {
+            $desired = ['id','show','type','view','image','position','video','alt','title','descr','btn','btnColor','btnUrl','bannerUrl','target','dataTitle','dataFormName','badge','autoplay','gradient'];
+            $ordered = [];
+            foreach ($desired as $dk) { if (array_key_exists($dk, $value)) { $ordered[] = $dk; } }
+            foreach ($value as $kExisting => $_) { if (!in_array($kExisting, $ordered, true)) { $ordered[] = $kExisting; } }
+            $keysToIterate = $ordered;
+        }
+        foreach ($keysToIterate as $k) {
+            $v = $value[$k];
             echo '<div class="field-row">';
             echo '<label>' . h((string)$k) . '</label>';
             $childName = $name . '[' . h((string)$k) . ']';
             $childCtx = $ctx; $childCtx['pathParts'] = array_merge($path, [(string)$k]);
             $childDisabled = $disabled || ($isScripts && (string)$k === 'fn');
             renderJsonFields($childName, $v, $childDisabled, $childCtx);
-            // В scripts.json запрещаем удалять ключи
-            if (!($isScripts)) {
-                echo '<button type="button" class="btn btn-danger" onclick="removeParentField(this)" ' . ($disabled ? 'disabled' : '') . '>Удалить поле</button>';
-            }
             echo '</div>';
         }
         echo '</div>';
-        // Добавление ключей в scripts.json запрещено
-        if (!($isScripts)) {
-            echo '<div class="add-kv">';
-            echo '<input type="text" class="new-key" placeholder="новый ключ" ' . ($disabled ? 'disabled' : '') . '>'; 
-            echo '<button type="button" class="btn" onclick="addObjectField(this, ' . "'" . h($name) . "'" . ')" ' . ($disabled ? 'disabled' : '') . '>+ Добавить поле</button>';
-            echo '</div>';
-        }
         echo '</details>';
         echo '</div>';
         return;
@@ -429,6 +428,9 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
         }
         if ($isBanners && count($path) >= 1 && $path[0] === 'image') {
             $dataAttrs .= ' data-banners-context="image"';
+        }
+        if ($isBanners && count($path) === 0) {
+            $dataAttrs .= ' data-banners-context="banners-root"';
         }
         echo '<div class="array-items"' . $dataAttrs . '>';
         foreach ($value as $idx => $v) {
@@ -507,7 +509,16 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
                 break;
             }
             // Большие строки или с переводами строк рендерим textarea
-            if ($forceTextarea || strlen($str) > 120 || strpos($str, "\n") !== false) {
+            // Требуется экранировать HTML в: title, descr, dataTitle, dataFormName, badge.autoname, badge.title, badge.descr
+            $shouldTextarea = $forceTextarea || strlen($str) > 120 || strpos($str, "\n") !== false;
+            $needsHtml = false;
+            if ($isBanners) {
+                $p = $path;
+                // баннерные поля
+                if (in_array($p[0] ?? '', ['title','descr','dataTitle','dataFormName'], true)) $needsHtml = true;
+                if (($p[0] ?? '') === 'badge' && in_array($p[1] ?? '', ['autoname','title','descr'], true)) $needsHtml = true;
+            }
+            if ($shouldTextarea || $needsHtml) {
                 echo '<textarea name="' . h($inputName) . '" rows="4" class="textarea"' . $common . '>' . h($str) . '</textarea>';
             } else {
                 echo '<input type="text" name="' . h($inputName) . '" value="' . h($str) . '"' . $common . ' class="input">';
@@ -617,9 +628,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
             }
             // Если массивы value стали полностью пустыми и это единственный элемент был удалён — оставляем [] (ничего не добавляем), форма останется с кнопкой «Добавить элемент»
         }
-        // Спец-правила для banners.json — нормализация структуры
+        // Спец-правила для banners.json — нормализация структуры и сортировка
         if ($file === 'banners.json') {
             $normalized = normalizeBannersData($normalized);
+            // Перенумерация ID по требованию и сортировка
+            if (is_array($normalized) && !isAssoc($normalized)) {
+                if (!empty($_POST['banners_reassign_ids'])) {
+                    // Проставить ID от большего к меньшему по позиции (с конца к началу)
+                    $id = 1;
+                    for ($i = count($normalized) - 1; $i >= 0; $i--) {
+                        $normalized[$i]['id'] = $id++;
+                    }
+                } else {
+                    // Обычное сохранение — сортировать по id убыванию
+                    usort($normalized, function($a, $b) {
+                        return ((int)($b['id'] ?? 0)) <=> ((int)($a['id'] ?? 0));
+                    });
+                }
+            }
         }
 
         // Нормализуем переводы строк (CRLF/CR -> LF) перед сохранением
@@ -681,6 +707,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
         summary{cursor:pointer;color:var(--muted)}
         .array-item{border:1px solid var(--border);border-radius:6px;padding:8px;margin:8px 0}
         .object-fields{display:flex;flex-direction:column}
+        .obj{width: 100%}
         .add-kv{display:flex;gap:8px;align-items:center;margin-top:6px}
         .top-actions{display:flex;gap:8px;align-items:center}
         .readonly-note{color:#ffdf9b}
@@ -706,6 +733,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
             const name = container.getAttribute('data-name');
             const idx = container.querySelectorAll(':scope > .array-item').length;
             const ctx = container.getAttribute('data-scripts-context');
+            const bctx = container.getAttribute('data-banners-context');
             // По умолчанию добавляем строковое поле, но для metrika.value добавляем с ключом trackHash:false
             const div = document.createElement('div');
             div.className = 'array-item';
@@ -717,6 +745,68 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
                 // widgets.value — textarea для HTML
                 div.innerHTML = `<textarea name="${name}[${idx}]" rows="4" class="textarea"></textarea>` +
                     `<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)">Удалить элемент</button>`;
+            } else if (bctx === 'banners-root') {
+                // Создаём пустой объект баннера с основными ключами
+                const base = `${name}[${idx}]`;
+                div.innerHTML = `
+                    <div class="field-row"><label>id</label><input type="number" step="1" name="${base}[id]" value="0" class="input"></div>
+                    <div class="field-row"><label>show</label><input type="hidden" name="${base}[show]" value="0"><input type="checkbox" name="${base}[show]" value="1"></div>
+                    <div class="field-row"><label>type</label><input type="text" name="${base}[type]" value="" class="input"></div>
+                    <div class="field-row"><label>view</label><input type="text" name="${base}[view]" value="link" class="input"></div>
+                    <div class="field-row"><label>image</label>
+                        <div class="obj">
+                            <div class="object-fields">
+                                <div class="field-row"><label>desktop</label><input type="text" name="${base}[image][desktop]" value="" class="input"></div>
+                                <div class="field-row"><label>tablet</label><input type="text" name="${base}[image][tablet]" value="" class="input"></div>
+                                <div class="field-row"><label>mobile</label><input type="text" name="${base}[image][mobile]" value="" class="input"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field-row"><label>position</label>
+                        <div class="obj">
+                            <div class="object-fields">
+                                <div class="field-row"><label>desktop</label><input type="text" name="${base}[position][desktop]" value="center" class="input"></div>
+                                <div class="field-row"><label>tablet</label><input type="text" name="${base}[position][tablet]" value="center" class="input"></div>
+                                <div class="field-row"><label>mobile</label><input type="text" name="${base}[position][mobile]" value="center" class="input"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field-row"><label>video</label>
+                        <div class="obj">
+                            <div class="object-fields">
+                                <div class="field-row"><label>desktop</label><input type="text" name="${base}[video][desktop]" value="" class="input"></div>
+                                <div class="field-row"><label>tablet</label><input type="text" name="${base}[video][tablet]" value="" class="input"></div>
+                                <div class="field-row"><label>mobile</label><input type="text" name="${base}[video][mobile]" value="" class="input"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field-row"><label>alt</label><input type="text" name="${base}[alt]" value="" class="input"></div>
+                    <div class="field-row"><label>title</label><textarea name="${base}[title]" rows="2" class="textarea"></textarea></div>
+                    <div class="field-row"><label>descr</label><textarea name="${base}[descr]" rows="3" class="textarea"></textarea></div>
+                    <div class="field-row"><label>btn</label><input type="text" name="${base}[btn]" value="" class="input"></div>
+                    <div class="field-row"><label>btnColor</label><input type="text" name="${base}[btnColor]" value="" class="input"></div>
+                    <div class="field-row"><label>btnUrl</label><input type="text" name="${base}[btnUrl]" value="" class="input"></div>
+                    <div class="field-row"><label>bannerUrl</label><input type="text" name="${base}[bannerUrl]" value="" class="input"></div>
+                    <div class="field-row"><label>target</label><input type="text" name="${base}[target]" value="" class="input"></div>
+                    <div class="field-row"><label>dataTitle</label><textarea name="${base}[dataTitle]" rows="2" class="textarea"></textarea></div>
+                    <div class="field-row"><label>dataFormName</label><textarea name="${base}[dataFormName]" rows="2" class="textarea"></textarea></div>
+                    <div class="field-row"><label>badge</label>
+                        <div class="obj">
+                            <div class="object-fields">
+                                <div class="field-row"><label>autoname</label><textarea name="${base}[badge][autoname]" rows="1" class="textarea"></textarea></div>
+                                <div class="field-row"><label>title</label><textarea name="${base}[badge][title]" rows="1" class="textarea"></textarea></div>
+                                <div class="field-row"><label>descr</label><textarea name="${base}[badge][descr]" rows="2" class="textarea"></textarea></div>
+                                <div class="field-row"><label>image</label><input type="text" name="${base}[badge][image]" value="" class="input"></div>
+                                <div class="field-row"><label>position</label><select name="${base}[badge][position]" class="input"><option value="left">left</option><option value="center" selected>center</option><option value="right">right</option></select></div>
+                                <div class="field-row"><label>colorText</label><input type="text" name="${base}[badge][colorText]" value="" class="input"></div>
+                                <div class="field-row"><label>bg</label><input type="hidden" name="${base}[badge][bg]" value="0"><input type="checkbox" name="${base}[badge][bg]" value="1"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field-row"><label>autoplay</label><input type="number" step="1" name="${base}[autoplay]" value="0" class="input"></div>
+                    <div class="field-row"><label>gradient</label><input type="hidden" name="${base}[gradient]" value="0"><input type="checkbox" name="${base}[gradient]" value="1"></div>
+                    <button type="button" class="btn btn-danger" onclick="removeArrayItem(this)">Удалить элемент</button>
+                `;
             } else {
                 div.innerHTML = `<input type="text" name="${name}[${idx}]" value="" class="input">` +
                     `<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)">Удалить элемент</button>`;
@@ -827,6 +917,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
                         <a class="btn" href="?action=edit&amp;site=<?= h($site) ?>&amp;file=<?= h($file) ?>">Сбросить изменения</a>
                         <?php if (!$readonly): ?>
                             <button type="submit" class="btn btn-primary">Сохранить</button>
+                            <?php if ($file === 'banners.json'): ?>
+                                <button type="submit" name="banners_reassign_ids" value="1" class="btn">Проставить ID от Большего к Меньшему</button>
+                            <?php endif; ?>
                         <?php endif; ?>
                     </div>
                 </form>
