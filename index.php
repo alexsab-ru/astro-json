@@ -24,12 +24,43 @@ declare(strict_types=1);
 session_start();
 
 // ----------------------- Константы/настройки -------------------------------
+$APP_VERSION = '1.1.0';                    // Текущая версия инструмента (SemVer)
 $SRC_ROOT = __DIR__ . '/src';                 // Корень с сайтами
 $DATA_DIR_NAME = 'data';                      // Внутренняя папка с данными
 $READ_ONLY_BASENAMES = [                      // Имена файлов только для чтения
     'cars.json',
     'federal-models_price.json',
     'models.json',
+];
+
+// ChangeLog (Keep a Changelog): краткая история изменений
+// Формат: https://keepachangelog.com/en/1.1.0/
+$CHANGELOG = [
+    'Unreleased' => [
+        // Здесь можно добавлять будущие изменения перед релизом
+    ],
+    '1.1.0' => [
+        'date' => '2025-10-23',
+        'Added' => [
+            'Спец-правила для scripts.json: запрет удаления/добавления ключей объектов, защита ключа fn от редактирования.',
+            'Автодобавление trackHash:false для каждого объекта в metrika.value.',
+            'widgets.value редактируется в textarea с экранированием HTML.',
+        ],
+        'Changed' => [
+            'Нормализация переводов строк (CRLF/CR → LF) перед сохранением.',
+            'Внедрён Post/Redirect/Get после сохранения, чтобы F5 не пересылал форму.',
+        ],
+        'Fixed' => [
+            'Обработка кнопки “Сохранить”: action теперь читается из POST (исправлена невозможность сохранения).',
+        ],
+    ],
+    '1.0.0' => [
+        'date' => '2025-10-23',
+        'Added' => [
+            'Первый выпуск: список файлов src/*/data, фильтры, просмотр/редактирование JSON, бэкап .bak.YmdHis, CSRF и защита путей.',
+            'Режим только для чтения для cars.json, federal-models_price.json, models.json.',
+        ],
+    ],
 ];
 
 // ----------------------- Утилиты -------------------------------------------
@@ -142,6 +173,24 @@ function saveJsonWithBackup(string $path, $data): void {
     if (@file_put_contents($path, $json) === false) {
         throw new RuntimeException('Не удалось записать обновлённый JSON в файл');
     }
+}
+
+/** Нормализовать переводы строк: CRLF/CR -> LF ("\n") рекурсивно по всему JSON */
+function normalizeNewlines($value) {
+    // Если это массив (объект или список) — обрабатываем рекурсивно
+    if (is_array($value)) {
+        $normalized = [];
+        foreach ($value as $k => $v) {
+            $normalized[$k] = normalizeNewlines($v);
+        }
+        return $normalized;
+    }
+    // Строки: заменяем \r\n и одиночные \r на \n
+    if (is_string($value)) {
+        return str_replace(["\r\n", "\r"], "\n", $value);
+    }
+    // Остальные типы возвращаем как есть
+    return $value;
 }
 
 /** Рекурсивное преобразование $postedData по карте типов $types */
@@ -259,8 +308,10 @@ function getTypesMapFromPost(): ?array {
 }
 
 /** Рекурсивный рендер формы для редактирования JSON */
-function renderJsonFields(string $name, $value, bool $disabled = false): void {
+function renderJsonFields(string $name, $value, bool $disabled = false, array $ctx = []): void {
     $type = jsonTypeOf($value);
+    $isScripts = (bool)($ctx['isScripts'] ?? false);
+    $path = $ctx['pathParts'] ?? [];
 
     if ($type === 'object') {
         echo '<div class="obj">';
@@ -270,16 +321,23 @@ function renderJsonFields(string $name, $value, bool $disabled = false): void {
             echo '<div class="field-row">';
             echo '<label>' . h((string)$k) . '</label>';
             $childName = $name . '[' . h((string)$k) . ']';
-            renderJsonFields($childName, $v, $disabled);
-            echo '<button type="button" class="btn btn-danger" onclick="removeParentField(this)" ' . ($disabled ? 'disabled' : '') . '>Удалить поле</button>';
+            $childCtx = $ctx; $childCtx['pathParts'] = array_merge($path, [(string)$k]);
+            $childDisabled = $disabled || ($isScripts && (string)$k === 'fn');
+            renderJsonFields($childName, $v, $childDisabled, $childCtx);
+            // В scripts.json запрещаем удалять ключи
+            if (!($isScripts)) {
+                echo '<button type="button" class="btn btn-danger" onclick="removeParentField(this)" ' . ($disabled ? 'disabled' : '') . '>Удалить поле</button>';
+            }
             echo '</div>';
         }
         echo '</div>';
-        // Добавить новое поле (ключ/значение строка по умолчанию)
-        echo '<div class="add-kv">';
-        echo '<input type="text" class="new-key" placeholder="новый ключ" ' . ($disabled ? 'disabled' : '') . '>'; 
-        echo '<button type="button" class="btn" onclick="addObjectField(this, ' . "'" . h($name) . "'" . ')" ' . ($disabled ? 'disabled' : '') . '>+ Добавить поле</button>';
-        echo '</div>';
+        // Добавление ключей в scripts.json запрещено
+        if (!($isScripts)) {
+            echo '<div class="add-kv">';
+            echo '<input type="text" class="new-key" placeholder="новый ключ" ' . ($disabled ? 'disabled' : '') . '>'; 
+            echo '<button type="button" class="btn" onclick="addObjectField(this, ' . "'" . h($name) . "'" . ')" ' . ($disabled ? 'disabled' : '') . '>+ Добавить поле</button>';
+            echo '</div>';
+        }
         echo '</details>';
         echo '</div>';
         return;
@@ -288,11 +346,20 @@ function renderJsonFields(string $name, $value, bool $disabled = false): void {
     if ($type === 'array') {
         echo '<div class="arr">';
         echo '<details open><summary>Массив</summary>';
-        echo '<div class="array-items" data-name="' . h($name) . '">';
+        $dataAttrs = ' data-name="' . h($name) . '"';
+        // Пометим специальные контейнеры scripts.json
+        if ($isScripts && count($path) >= 2 && $path[0] === 'metrika' && $path[1] === 'value') {
+            $dataAttrs .= ' data-scripts-context="metrika-value"';
+        }
+        if ($isScripts && count($path) >= 1 && $path[0] === 'widgets' && $path[1] === 'value') {
+            $dataAttrs .= ' data-scripts-context="widgets-value"';
+        }
+        echo '<div class="array-items"' . $dataAttrs . '>';
         foreach ($value as $idx => $v) {
             $childName = $name . '[' . h((string)$idx) . ']';
             echo '<div class="array-item">';
-            renderJsonFields($childName, $v, $disabled);
+            $childCtx = $ctx; $childCtx['pathParts'] = array_merge($path, [(string)$idx]);
+            renderJsonFields($childName, $v, $disabled, $childCtx);
             echo '<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)" ' . ($disabled ? 'disabled' : '') . '>Удалить элемент</button>';
             echo '</div>';
         }
@@ -307,6 +374,12 @@ function renderJsonFields(string $name, $value, bool $disabled = false): void {
     $inputName = $name;
     $val = $value;
     $common = $disabled ? ' disabled' : '';
+
+    // Спец: для scripts.json -> widgets.value всегда textarea и экранирование
+    $forceTextarea = false;
+    if ($isScripts && count($path) >= 2 && $path[0] === 'widgets' && $path[1] === 'value') {
+        $forceTextarea = true;
+    }
 
     switch ($type) {
         case 'bool':
@@ -327,7 +400,7 @@ function renderJsonFields(string $name, $value, bool $disabled = false): void {
         default:
             $str = (string)$val;
             // Большие строки или с переводами строк рендерим textarea
-            if (strlen($str) > 120 || strpos($str, "\n") !== false) {
+            if ($forceTextarea || strlen($str) > 120 || strpos($str, "\n") !== false) {
                 echo '<textarea name="' . h($inputName) . '" rows="4" class="textarea"' . $common . '>' . h($str) . '</textarea>';
             } else {
                 echo '<input type="text" name="' . h($inputName) . '" value="' . h($str) . '"' . $common . ' class="input">';
@@ -359,6 +432,11 @@ $csrfToken = $_SESSION['csrf_token'];
 // Сообщения пользователю
 $notice = '';
 $error = '';
+// Отложенные уведомления после редиректа (PRG)
+if (!empty($_SESSION['notice'])) {
+    $notice = (string)$_SESSION['notice'];
+    unset($_SESSION['notice']);
+}
 
 // Обработка сохранения
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
@@ -391,14 +469,56 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
         // Приводим типы
         $normalized = castByTypes($posted, $typesMap);
 
+        // Спец-правила для scripts.json
+        if ($file === 'scripts.json') {
+            // 1) Нельзя удалять ключи верхнего уровня и добавлять новые —
+            //    мы приводим структуру к исходным ключам файла:
+            $original = loadJson($path);
+            if (is_array($original) && is_array($normalized)) {
+                $fixed = [];
+                foreach ($original as $key => $origVal) {
+                    if (array_key_exists($key, $normalized)) {
+                        $fixed[$key] = $normalized[$key];
+                    } else {
+                        // если ключ удалили — вернём пустое значение того же типа
+                        $t = jsonTypeOf($origVal);
+                        $fixed[$key] = ($t==='object')?[]:(($t==='array')?[]:(($t==='bool')?false:(($t==='number')?0:(($t==='null')?null:''))));
+                    }
+                }
+                $normalized = $fixed;
+            }
+            // 2) Нельзя менять значения ключей "fn" — вернём оригинальные
+            $restoreFnRec = function (&$dst, $src) use (&$restoreFnRec) {
+                if (!is_array($dst) || !is_array($src)) return;
+                foreach ($src as $k => $v) {
+                    if ($k === 'fn') { $dst[$k] = $v; continue; }
+                    if (is_array($v) && isset($dst[$k]) && is_array($dst[$k])) {
+                        $restoreFnRec($dst[$k], $v);
+                    }
+                }
+            };
+            $orig = loadJson($path);
+            $restoreFnRec($normalized, $orig);
+
+            // 3) В метрике внутри каждого объекта value добавить trackHash:false по умолчанию
+            if (isset($normalized['metrika']['value']) && is_array($normalized['metrika']['value'])) {
+                foreach ($normalized['metrika']['value'] as $i => $obj) {
+                    if (is_array($obj) && !array_key_exists('trackHash', $obj)) {
+                        $normalized['metrika']['value'][$i]['trackHash'] = false;
+                    }
+                }
+            }
+            // Если массивы value стали полностью пустыми и это единственный элемент был удалён — оставляем [] (ничего не добавляем), форма останется с кнопкой «Добавить элемент»
+        }
+
+        // Нормализуем переводы строк (CRLF/CR -> LF) перед сохранением
+        $normalized = normalizeNewlines($normalized);
         // Сохраняем с бэкапом
         saveJsonWithBackup($path, $normalized);
-        $notice = 'Файл успешно сохранён: ' . h($site . '/' . $DATA_DIR_NAME . '/' . $file);
-
-        // После сохранения остаёмся на экране редактирования
-        $action = 'edit';
-        $_GET['site'] = $site;
-        $_GET['file'] = $file;
+        $_SESSION['notice'] = 'Файл успешно сохранён: ' . $site . '/' . $DATA_DIR_NAME . '/' . $file;
+        // PRG: перенаправляем на GET, чтобы F5 не пересылал форму
+        header('Location: ?action=edit&site=' . rawurlencode($site) . '&file=' . rawurlencode($file), true, 303);
+        exit;
     } catch (Throwable $e) {
         $error = $e->getMessage();
         // Остаёмся на форме редактирования для показа ошибки, если параметры есть
@@ -460,18 +580,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
         function removeArrayItem(btn){
             const item = btn.closest('.array-item');
             if (item) item.remove();
-            renumberArrayIndexes(btn.closest('.array-items'));
+            const container = btn.closest('.array-items');
+            renumberArrayIndexes(container);
+            // Если остался 0 элементов, оставим пустой массив, чтобы была кнопка «Добавить элемент»
+            if (container && container.querySelectorAll(':scope > .array-item').length === 0) {
+                const name = container.getAttribute('data-name');
+                // Для текстового массива — добавим пустой placeholder только визуально?
+                // Проще оставить пусто: сервер воспримет как []
+            }
         }
         function addArrayItem(btn){
             const container = btn.previousElementSibling; // .array-items
             if (!container) return;
             const name = container.getAttribute('data-name');
             const idx = container.querySelectorAll(':scope > .array-item').length;
-            // По умолчанию добавляем строковое поле
+            const ctx = container.getAttribute('data-scripts-context');
+            // По умолчанию добавляем строковое поле, но для metrika.value добавляем с ключом trackHash:false
             const div = document.createElement('div');
             div.className = 'array-item';
-            div.innerHTML = `<input type="text" name="${name}[${idx}]" value="" class="input">` +
-                `<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)">Удалить элемент</button>`;
+            if (ctx === 'metrika-value') {
+                const base = `${name}[${idx}]`;
+                div.innerHTML = `<div class="field-row"><label>trackHash</label><input type="checkbox" name="${base}[trackHash]" value="1"></div>` +
+                    `<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)">Удалить элемент</button>`;
+            } else if (ctx === 'widgets-value') {
+                // widgets.value — textarea для HTML
+                div.innerHTML = `<textarea name="${name}[${idx}]" rows="4" class="textarea"></textarea>` +
+                    `<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)">Удалить элемент</button>`;
+            } else {
+                div.innerHTML = `<input type="text" name="${name}[${idx}]" value="" class="input">` +
+                    `<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)">Удалить элемент</button>`;
+            }
             container.appendChild(div);
             renumberArrayIndexes(container);
         }
@@ -481,7 +619,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
             const items = container.querySelectorAll(':scope > .array-item');
             items.forEach((item, i) => {
                 // Перенумеровываем только плоские инпуты верхнего уровня внутри элемента
-                item.querySelectorAll('input, textarea, select').forEach(el => {
+                item.querySelectorAll(':scope > input, :scope > textarea, :scope > select, :scope > .field-row input, :scope > .field-row textarea, :scope > .field-row select').forEach(el => {
                     const old = el.getAttribute('name');
                     if (!old) return;
                     // Заменяем последний индекс в скобках на i
@@ -501,6 +639,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
             if (!keyInput) return;
             const key = keyInput.value.trim();
             if (!key) return;
+            // В scripts.json добавление ключей запрещено — кнопки нет.
             const fields = wrap.querySelector('.object-fields');
             const row = document.createElement('div');
             row.className = 'field-row';
@@ -568,7 +707,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
                         // Встраиваем карту типов в скрытом JSON-поле
                         renderTypesForValue('types', $jsonData);
                         // Рендерим поля данных (корневое имя — data)
-                        renderJsonFields('data', $jsonData, $readonly);
+                        $ctx = [];
+                        if ($file === 'scripts.json') { $ctx['isScripts'] = true; $ctx['pathParts'] = []; }
+                        renderJsonFields('data', $jsonData, $readonly, $ctx);
                     ?>
                     <div class="top-actions">
                         <a class="btn" href="?action=edit&amp;site=<?= h($site) ?>&amp;file=<?= h($file) ?>">Сбросить изменения</a>
@@ -658,7 +799,38 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
     </div>
 
     <div class="panel muted">
-        <div>Версия: 1.0.0</div>
+        <div>Версия: <?= h($APP_VERSION) ?></div>
+    </div>
+
+    <div class="panel">
+        <h1 style="font-size:16px;margin:0 0 8px">ChangeLog</h1>
+        <div class="muted">Формат по <a href="https://keepachangelog.com/en/1.1.0/" target="_blank" rel="noopener">Keep a Changelog</a>. Версии следуют <a href="https://semver.org/spec/v2.0.0.html" target="_blank" rel="noopener">Semantic Versioning</a>.</div>
+        <div style="margin-top:10px"></div>
+        <?php
+        $renderList = function(array $items) {
+            if (empty($items)) return;
+            echo '<ul style="margin:6px 0 12px 18px">';
+            foreach ($items as $it) echo '<li>' . h($it) . '</li>';
+            echo '</ul>';
+        };
+        // Unreleased
+        if (isset($CHANGELOG['Unreleased'])) {
+            echo '<div style="margin:8px 0"><span class="kbd">[Unreleased]</span></div>';
+            $unrel = $CHANGELOG['Unreleased'];
+            foreach (['Added','Changed','Deprecated','Removed','Fixed','Security'] as $sec) {
+                if (!empty($unrel[$sec])) { echo '<div><b>' . h($sec) . '</b></div>'; $renderList($unrel[$sec]); }
+            }
+        }
+        // Остальные версии (последняя — первая)
+        foreach ($CHANGELOG as $ver => $info) {
+            if ($ver === 'Unreleased') continue;
+            $date = isset($info['date']) ? $info['date'] : '';
+            echo '<div style="margin:12px 0"><span class="kbd">[' . h($ver) . ']</span>' . ($date ? ' - ' . h($date) : '') . '</div>';
+            foreach (['Added','Changed','Deprecated','Removed','Fixed','Security'] as $sec) {
+                if (!empty($info[$sec])) { echo '<div><b>' . h($sec) . '</b></div>'; $renderList($info[$sec]); }
+            }
+        }
+        ?>
     </div>
 
 <?php /* Конец контейнера */ ?>
