@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "python": "echo \"Copy and run:\" && echo \"\\033[30;43mpython3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt\\033[0m\n\"",
+    "php": "APP_ENV=development php -S 127.0.0.1:5134 -t ./",
     "extract-baic": "sh ./.github/scripts/sh/extract-baic.sh",
     "extract-kaiyi": "sh ./.github/scripts/sh/extract-kaiyi.sh",
     "mergeJson": "sh ./.github/scripts/sh/mergeJson.sh",
