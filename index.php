@@ -193,6 +193,78 @@ function normalizeNewlines($value) {
     return $value;
 }
 
+/** Нормализация структуры banners.json: добавление недостающих ключей и дефолтов */
+function normalizeBannersData($data) {
+    $normalizeItem = function ($item) {
+        if (!is_array($item)) $item = [];
+
+        $defImage = ['desktop' => '', 'tablet' => '', 'mobile' => ''];
+        $defVideo = ['desktop' => '', 'tablet' => '', 'mobile' => ''];
+        $defPosition = ['desktop' => 'center', 'tablet' => 'center', 'mobile' => 'center'];
+        $defBadge = [
+            'autoname' => '',
+            'title' => '',
+            'descr' => '',
+            'image' => '',
+            'position' => 'right',
+            'colorText' => '',
+            'bg' => false,
+        ];
+
+        $ensureObj = function ($value, $defaults) {
+            $res = is_array($value) ? $value : [];
+            foreach ($defaults as $k => $v) {
+                if (!array_key_exists($k, $res)) $res[$k] = $v;
+            }
+            return $res;
+        };
+
+        $badge = $ensureObj($item['badge'] ?? null, $defBadge);
+        // Ограничим позицию бейджа допустимыми значениями
+        if (!in_array($badge['position'], ['left','center','right'], true)) {
+            $badge['position'] = 'right';
+        }
+
+        // Собираем объект баннера в фиксированном порядке ключей
+        $res = [];
+        $res['id'] = isset($item['id']) ? (int)$item['id'] : 0;
+        $res['show'] = isset($item['show']) ? (bool)$item['show'] : false;
+        $res['type'] = isset($item['type']) ? (string)$item['type'] : '';
+        $res['view'] = isset($item['view']) ? (string)$item['view'] : 'link';
+        $res['image'] = $ensureObj($item['image'] ?? null, $defImage);
+        $res['position'] = $ensureObj($item['position'] ?? null, $defPosition);
+        $res['title'] = isset($item['title']) ? (string)$item['title'] : '';
+        $res['descr'] = isset($item['descr']) ? (string)$item['descr'] : '';
+        $res['btn'] = isset($item['btn']) ? (string)$item['btn'] : '';
+        $res['btnUrl'] = isset($item['btnUrl']) ? (string)$item['btnUrl'] : '';
+        $res['dataTitle'] = isset($item['dataTitle']) ? (string)$item['dataTitle'] : '';
+        $res['dataFormName'] = isset($item['dataFormName']) ? (string)$item['dataFormName'] : '';
+        $res['badge'] = $badge;
+        $res['autoplay'] = isset($item['autoplay']) ? (int)$item['autoplay'] : 0;
+        $res['gradient'] = isset($item['gradient']) ? (bool)$item['gradient'] : false;
+        $res['alt'] = isset($item['alt']) ? (string)$item['alt'] : '';
+        $res['video'] = $ensureObj($item['video'] ?? null, $defVideo);
+        $res['bannerUrl'] = isset($item['bannerUrl']) ? (string)$item['bannerUrl'] : '';
+        $res['target'] = isset($item['target']) ? (string)$item['target'] : '';
+        $res['btnColor'] = isset($item['btnColor']) ? (string)$item['btnColor'] : '';
+
+        return $res;
+    };
+
+    if (is_array($data)) {
+        // Если это массив элементов баннеров
+        if (!isAssoc($data)) {
+            $out = [];
+            foreach ($data as $item) { $out[] = $normalizeItem($item); }
+            return $out;
+        }
+        // Если это один объект, нормализуем его
+        return $normalizeItem($data);
+    }
+    // Иное — вернём пустой массив
+    return [];
+}
+
 /** Рекурсивное преобразование $postedData по карте типов $types */
 function castByTypes($postedData, $types) {
     // Если типов нет — возвращаем как есть (fallback)
@@ -311,6 +383,7 @@ function getTypesMapFromPost(): ?array {
 function renderJsonFields(string $name, $value, bool $disabled = false, array $ctx = []): void {
     $type = jsonTypeOf($value);
     $isScripts = (bool)($ctx['isScripts'] ?? false);
+    $isBanners = (bool)($ctx['isBanners'] ?? false);
     $path = $ctx['pathParts'] ?? [];
 
     if ($type === 'object') {
@@ -351,8 +424,11 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
         if ($isScripts && count($path) >= 2 && $path[0] === 'metrika' && $path[1] === 'value') {
             $dataAttrs .= ' data-scripts-context="metrika-value"';
         }
-        if ($isScripts && count($path) >= 1 && $path[0] === 'widgets' && $path[1] === 'value') {
+        if ($isScripts && count($path) >= 2 && $path[0] === 'widgets' && $path[1] === 'value') {
             $dataAttrs .= ' data-scripts-context="widgets-value"';
+        }
+        if ($isBanners && count($path) >= 1 && $path[0] === 'image') {
+            $dataAttrs .= ' data-banners-context="image"';
         }
         echo '<div class="array-items"' . $dataAttrs . '>';
         foreach ($value as $idx => $v) {
@@ -380,6 +456,9 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
     if ($isScripts && count($path) >= 2 && $path[0] === 'widgets' && $path[1] === 'value') {
         $forceTextarea = true;
     }
+    // Для banners.json — position.* (desktop/tablet/mobile) и badge.position — отдельные контролы
+    $isBannerPosition = ($isBanners && count($path) >= 1 && in_array($path[0], ['position'], true));
+    $isBadgePosition = ($isBanners && count($path) >= 2 && $path[0] === 'badge' && $path[1] === 'position');
 
     switch ($type) {
         case 'bool':
@@ -399,6 +478,34 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
         case 'string':
         default:
             $str = (string)$val;
+            // select для badge.position
+            if ($isBadgePosition) {
+                $opts = ['left','center','right'];
+                echo '<select name="' . h($inputName) . '"' . $common . ' class="input">';
+                foreach ($opts as $opt) {
+                    $sel = ($str === $opt) ? ' selected' : '';
+                    echo '<option value="' . h($opt) . '"' . $sel . '>' . h($opt) . '</option>';
+                }
+                echo '</select>';
+                break;
+            }
+            // select/text гибрид для position.desktop/tablet/mobile
+            if ($isBannerPosition && count($path) >= 2) {
+                // Предопределённые опции и свободный ввод процента
+                $presets = ['top','center','bottom'];
+                $isPreset = in_array($str, $presets, true);
+                echo '<div style="display:flex;gap:6px;align-items:center">';
+                echo '<select onchange="if(this.value===\'custom\'){this.nextElementSibling.style.display=\'block\'}else{this.nextElementSibling.style.display=\'none\';this.nextElementSibling.value=this.value}" class="input">';
+                foreach ($presets as $opt) {
+                    $sel = ($str === $opt) ? ' selected' : '';
+                    echo '<option value="' . h($opt) . '"' . $sel . '>' . h($opt) . '</option>';
+                }
+                echo '<option value="custom"' . ($isPreset ? '' : ' selected') . '>custom %</option>';
+                echo '</select>';
+                echo '<input type="text" name="' . h($inputName) . '" value="' . h($str) . '"' . ($isPreset ? ' style=\"display:none\"' : '') . ' class="input" placeholder="например 25%">';
+                echo '</div>';
+                break;
+            }
             // Большие строки или с переводами строк рендерим textarea
             if ($forceTextarea || strlen($str) > 120 || strpos($str, "\n") !== false) {
                 echo '<textarea name="' . h($inputName) . '" rows="4" class="textarea"' . $common . '>' . h($str) . '</textarea>';
@@ -509,6 +616,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
                 }
             }
             // Если массивы value стали полностью пустыми и это единственный элемент был удалён — оставляем [] (ничего не добавляем), форма останется с кнопкой «Добавить элемент»
+        }
+        // Спец-правила для banners.json — нормализация структуры
+        if ($file === 'banners.json') {
+            $normalized = normalizeBannersData($normalized);
         }
 
         // Нормализуем переводы строк (CRLF/CR -> LF) перед сохранением
@@ -709,6 +820,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
                         // Рендерим поля данных (корневое имя — data)
                         $ctx = [];
                         if ($file === 'scripts.json') { $ctx['isScripts'] = true; $ctx['pathParts'] = []; }
+                        if ($file === 'banners.json') { $ctx['isBanners'] = true; $ctx['pathParts'] = []; }
                         renderJsonFields('data', $jsonData, $readonly, $ctx);
                     ?>
                     <div class="top-actions">
