@@ -23921,6 +23921,16 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "grey",
+                "name": "Серый",
+                "names": [
+                    "Grey",
+                    "Серый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
             }
         ],
         "feed_names": [
