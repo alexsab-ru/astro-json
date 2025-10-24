@@ -3,6 +3,21 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/weekend-vigoda-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/weekend-vigoda-mobile.webp"
+        },
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Только в эти выходные увеличенные выгоды на GAC",
+        "dataFormName": "Только в эти выходные увеличенные выгоды на GAC. Баннер",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/specials/gac/gac-armada-avto/vstrechajte-gac-gs4-awd-uzhe-v-gac-armada-avto/gs4-awd-1920x720.webp",
