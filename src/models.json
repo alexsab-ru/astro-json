@@ -23971,6 +23971,16 @@
                 "style": ""
             },
             {
+                "id": "blue",
+                "name": "Синий",
+                "names": [
+                    "Blue",
+                    "Синий"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
                 "id": "black",
                 "name": "Черный",
                 "names": [
