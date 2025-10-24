@@ -23773,6 +23773,16 @@
                 ],
                 "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
                 "style": ""
+            },
+            {
+                "id": "brown",
+                "name": "Коричневый",
+                "names": [
+                    "Brown",
+                    "Коричневый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
             }
         ],
         "feed_names": [
