@@ -3,6 +3,56 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/gac/gac-armada-avto/vstrechajte-gac-gs4-awd-uzhe-v-gac-armada-avto/gs4-awd-1920x720.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/gac/gac-armada-avto/vstrechajte-gac-gs4-awd-uzhe-v-gac-armada-avto/gs4-awd-640x900.webp"
+        },
+        "btnUrl": "/special-offers/vstrechajte-gac-gs4-awd-uzhe-v-gac-armada-avto/",
+        "btn": "Узнать подробнее",
+        "title": "Встречайте:<br />GAC GS4 AWD уже в GAC Армада-Авто!",
+        "descr": "Полный привод- высокий уровень комфорта и безопасности.",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/gac/gac-armada-avto/spetsialnye-predlozhenie-dlya-biznesa/gs8-ii-blue-1920x720.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/gac/gac-armada-avto/spetsialnye-predlozhenie-dlya-biznesa/gs8-ii-blue-640x900.webp"
+        },
+        "btnUrl": "/special-offers/spetsialnye-predlozhenie-dlya-biznesa/",
+        "btn": "Узнать подробнее",
+        "title": "Специальные предложение для Бизнеса!",
+        "descr": "Цена в лизинг от:<br />GAC GS8 комплектация GT - от 4 009 000₽<br />GAC GS8 комплектация GPX - от 4 315 000₽",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/gac/gac-armada-avto/osennie-vygody-na-avtomobili-gac/gs8-ii-white-1920x720.webp",
+            "mobile": "https://cdn.alexsab.ru/specials/gac/gac-armada-avto/osennie-vygody-na-avtomobili-gac/gs8-ii-white-640x900.webp"
+        },
+        "btnUrl": "/special-offers/osennie-vygody-na-avtomobili-gac/",
+        "btn": "Узнать подробнее",
+        "title": "Осенние выгоды до 450 000 рублей на автомобили GAC!",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
         "view": "popup-link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-lising-desktop.webp",
