@@ -23699,6 +23699,16 @@
                 "style": ""
             },
             {
+                "id": "beige",
+                "name": "Бежевый",
+                "names": [
+                    "Beige",
+                    "Бежевый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
                 "id": "silver",
                 "name": "Серебристый",
                 "names": [
