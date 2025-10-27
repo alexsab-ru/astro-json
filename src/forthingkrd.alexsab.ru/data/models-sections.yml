@@ -108,7 +108,7 @@
       sectionClass: ""
       title: "Документация для YACHT"
       suptitle: "Может пригодиться"
-      text: "<p><span><a href='https://ixenmotors-perm.ru/wp-content/uploads/2023/06/forthing_yacht.pdf' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://forthing-avto-start.ru/assets/userfiles/files/price%20new/Forthing_Yacht_price_октябрь_24.pdf' class='underline' target='_blank'>Комплектации и цены</a></span></p>"
+      text: "<p><span><a href='https://ixenmotors-perm.ru/wp-content/uploads/2023/06/forthing_yacht.pdf' class='underline' target='_blank'>Технические характеристики</a><br><a href='https://ixenmotors.ru/assets/userfiles/files/price%20new/Forthing_Yacht_price_%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C_24.pdf' class='underline' target='_blank'>Комплектации и цены</a></span></p>"
 - id: "v-online"
   sections:
     - id: description
