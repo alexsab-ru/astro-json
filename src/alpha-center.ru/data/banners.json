@@ -5,6 +5,60 @@
         "type": "",
         "view": "popup-link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_Card_1920x720.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_Card_640x800.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Получите карту Nissan Assistance Plus в подарок",
+        "dataFormName": "Получите карту Nissan Assistance Plus в подарок. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_Diagnostics_1920x720.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_Diagnostics_640x800.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Пройдите комплексную диагностику по 30 пунктам за 999 рублей",
+        "dataFormName": "Пройдите комплексную диагностику по 30 пунктам за 999 рублей. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_oil_1920x720.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_oil_640x800.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Замена масла с заботой об автомобиле! Диагностика ходовой в подарок!",
+        "dataFormName": "Замена масла с заботой об автомобиле! Диагностика ходовой в подарок!. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/b/alpha-center/img/banners/wash-bottom-1920x720-notxt.webp",
             "mobile": "https://cdn.alexsab.ru/b/alpha-center/img/banners/wash-bottom-640x800-notxt.webp"
         },
