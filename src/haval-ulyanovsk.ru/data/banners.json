@@ -5,6 +5,24 @@
         "type": "",
         "view": "link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/new_haval_h3_1920x800_ntx.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/new_haval_h3_900x640_ntx.webp"
+        },
+        "position": {
+            "mobile": "top"
+        },
+        "btnUrl": "?brand=haval&model=h3+i#cars",
+        "title": "Новый <br/> HAVAL H3",
+        "descr": "<div class=\"grid gap-4 *:bg-green-accent *:text-sm xs:*:text-xs sm:*:text-xl *:uppercase py-3 sm:py-5\"><p class=\"substrate-skew substrate-skew-right text-black\">Полный привод стал доступнее</p><p class=\"substrate-skew substrate-skew-right text-black\">Сервисы &laquo;Яндекс. Авто&raquo;</p><p class=\"substrate-skew substrate-skew-right text-black\">Голосовой помощник</p></div><div class=\"font-bold xs:text-2xl text-3xl mt-6\">от&nbsp;2&nbsp;400&nbsp;000&nbsp;₽</div>",
+        "btn": "Подробнее",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/haval/h7-desktop.webp",
             "tablet": "https://cdn.alexsab.ru/main-sliders/haval/h7-mobile.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/haval/h7-mobile.webp"
