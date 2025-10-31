@@ -3,6 +3,25 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/alpha-center/day_narodnogo-edinstva-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/alpha-center/day_narodnogo-edinstva-768x1365.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "#common-modal",
+        "dataTitle": "День народного единства",
+        "dataFormName": "День народного единства. Баннер",
+        "badge": "",
+        "autoplay": 7000,
+        "gradient": false
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-1920x1080.webp",

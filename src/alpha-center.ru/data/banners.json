@@ -5,6 +5,25 @@
         "type": "",
         "view": "popup-link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/alpha-center/day_narodnogo-edinstva-1920x1080.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/alpha-center/day_narodnogo-edinstva-768x1365.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "#common-modal",
+        "dataTitle": "День народного единства",
+        "dataFormName": "День народного единства. Баннер",
+        "badge": "",
+        "autoplay": 7000,
+        "gradient": false
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_Card_1920x720-notxt.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_Card_640x800-notxt.webp"
         },
