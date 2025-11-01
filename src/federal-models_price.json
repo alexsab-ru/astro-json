@@ -251,7 +251,7 @@
     "id": "gac-empow",
     "brand": "gac",
     "model": "Empow",
-    "price": "2499000",
+    "price": "2549000",
     "benefit": "",
     "link": "https://gac.ru/models/empow"
   },
@@ -259,7 +259,7 @@
     "id": "gac-gs3",
     "brand": "gac",
     "model": "GS3",
-    "price": "2099000",
+    "price": "2149000",
     "benefit": "",
     "link": "https://gac.ru/models/gs3"
   },
@@ -267,7 +267,7 @@
     "id": "gac-gs4",
     "brand": "gac",
     "model": "GS4",
-    "price": "2699000",
+    "price": "2749000",
     "benefit": "",
     "link": "https://gac.ru/models/gs4"
   },
@@ -275,7 +275,7 @@
     "id": "gac-gs8-ii",
     "brand": "gac",
     "model": "GS8",
-    "price": "3099000",
+    "price": "3499000",
     "benefit": "",
     "link": "https://gac.ru/models/gs8-ii"
   },
@@ -283,7 +283,7 @@
     "id": "gac-gs8-ii",
     "brand": "gac",
     "model": "GS8II",
-    "price": "3099000",
+    "price": "3499000",
     "benefit": "",
     "link": "https://gac.ru/models/gs8-ii"
   },
@@ -299,7 +299,7 @@
     "id": "gac-m8",
     "brand": "gac",
     "model": "M8",
-    "price": "5149999",
+    "price": "5299999",
     "benefit": "",
     "link": "https://gac.ru/models/m8"
   },
@@ -307,7 +307,7 @@
     "id": "gac-new-gs8",
     "brand": "gac",
     "model": "GS8Dragon",
-    "price": "3399000",
+    "price": "3599000",
     "benefit": "",
     "link": "https://gac.ru/models/new-gs8"
   },
@@ -387,7 +387,7 @@
     "id": "geely-atlas-2024",
     "brand": "geely",
     "model": "ATLAS",
-    "price": "3354190",
+    "price": "3434190",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-atlas-2024/"
   },
@@ -395,23 +395,15 @@
     "id": "geely-cityray",
     "brand": "geely",
     "model": "CITYRAY",
-    "price": "2499990",
+    "price": "2709990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/cityray/"
-  },
-  {
-    "id": "geely-coolray-2023",
-    "brand": "geely",
-    "model": "COOLRAY",
-    "price": "2414990",
-    "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-coolray-2023/"
   },
   {
     "id": "geely-emgrand",
     "brand": "geely",
     "model": "EMGRAND",
-    "price": "1594990",
+    "price": "1843990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/emgrand/"
   },
@@ -435,7 +427,7 @@
     "id": "geely-monjaro",
     "brand": "geely",
     "model": "MONJARO",
-    "price": "3839990",
+    "price": "3999990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/monjaro/"
   },
@@ -443,7 +435,7 @@
     "id": "geely-okavango",
     "brand": "geely",
     "model": "OKAVANGO",
-    "price": "3269990",
+    "price": "3524190",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-okavango/"
   },
@@ -451,7 +443,7 @@
     "id": "geely-preface",
     "brand": "geely",
     "model": "PREFACE",
-    "price": "2899990",
+    "price": "2934990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-preface/"
   },
@@ -643,7 +635,7 @@
     "id": "jetour-dashing",
     "brand": "jetour",
     "model": "Dashing",
-    "price": "1939900",
+    "price": "1989900",
     "benefit": "",
     "link": "https://jetour-ru.com/models/dashing"
   },
@@ -659,7 +651,7 @@
     "id": "jetour-t2",
     "brand": "jetour",
     "model": "T2",
-    "price": "3529000",
+    "price": "3659000",
     "benefit": "",
     "link": "https://jetour-ru.com/models/t2"
   },
@@ -683,7 +675,7 @@
     "id": "jetour-x70plus",
     "brand": "jetour",
     "model": "X70 Plus",
-    "price": "2349900",
+    "price": "2479900",
     "benefit": "",
     "link": "https://jetour-ru.com/models/x70plus"
   },
@@ -691,7 +683,7 @@
     "id": "jetour-x90plus",
     "brand": "jetour",
     "model": "X90 Plus",
-    "price": "2759900",
+    "price": "3109900",
     "benefit": "",
     "link": "https://jetour-ru.com/models/x90plus"
   },
@@ -731,7 +723,7 @@
     "id": "omoda-modelc5",
     "brand": "omoda",
     "model": "C5",
-    "price": "2379900",
+    "price": "2429900",
     "benefit": "",
     "link": "https://omoda.ru/models/modelc5/"
   },
@@ -819,7 +811,7 @@
     "id": "tank-400",
     "brand": "tank",
     "model": "400",
-    "price": "4749000",
+    "price": "5049000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-400"
   },

@@ -3,7 +3,7 @@
     "id": "geely-atlas-2024",
     "brand": "geely",
     "model": "ATLAS",
-    "price": "3354190",
+    "price": "3434190",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-atlas-2024/"
   },
@@ -11,23 +11,15 @@
     "id": "geely-cityray",
     "brand": "geely",
     "model": "CITYRAY",
-    "price": "2499990",
+    "price": "2709990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/cityray/"
-  },
-  {
-    "id": "geely-coolray-2023",
-    "brand": "geely",
-    "model": "COOLRAY",
-    "price": "2414990",
-    "benefit": "",
-    "link": "https://www.geely-motors.com/model/geely-coolray-2023/"
   },
   {
     "id": "geely-emgrand",
     "brand": "geely",
     "model": "EMGRAND",
-    "price": "1594990",
+    "price": "1843990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/emgrand/"
   },
@@ -51,7 +43,7 @@
     "id": "geely-monjaro",
     "brand": "geely",
     "model": "MONJARO",
-    "price": "3839990",
+    "price": "3999990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/monjaro/"
   },
@@ -59,7 +51,7 @@
     "id": "geely-okavango",
     "brand": "geely",
     "model": "OKAVANGO",
-    "price": "3269990",
+    "price": "3524190",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-okavango/"
   },
@@ -67,7 +59,7 @@
     "id": "geely-preface",
     "brand": "geely",
     "model": "PREFACE",
-    "price": "2899990",
+    "price": "2934990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-preface/"
   }
