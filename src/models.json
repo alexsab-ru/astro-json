@@ -4036,7 +4036,7 @@
         "complectations": [
             {
                 "name": "Active",
-                "price": 2240000,
+                "price": "{{price-chery-tiggo4}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5",
                 "engine_power": "147",
@@ -4203,7 +4203,7 @@
         "complectations": [
             {
                 "name": "Action MT",
-                "price": 1700000,
+                "price": "{{price-chery-tiggo4pro}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5",
                 "engine_power": "113",
@@ -4388,7 +4388,7 @@
         "complectations": [
             {
                 "name": "Active FWD",
-                "price": 2430000,
+                "price": "{{price-chery-newtiggo7promax}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6",
                 "engine_power": "150",
@@ -4860,7 +4860,7 @@
         "complectations": [
             {
                 "name": "Elite FWD",
-                "price": 3020000,
+                "price": "{{price-chery-newtiggo8promax}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6",
                 "engine_power": "186",
@@ -5038,7 +5038,7 @@
         "complectations": [
             {
                 "name": "Prime",
-                "price": 4150000,
+                "price": "{{price-chery-tiggo9}}",
                 "bodytype": "Кроссовер",
                 "engine": "2",
                 "engine_power": "245",
@@ -5185,7 +5185,7 @@
         "complectations": [
             {
                 "name": "Active 24 PY",
-                "price": 2680000,
+                "price": "{{price-chery-arrizo8}}",
                 "bodytype": "Седан",
                 "engine": "1.6",
                 "engine_power": "150",
@@ -5370,7 +5370,7 @@
         "complectations": [
             {
                 "name": "Ultimate",
-                "price": 3309000,
+                "price": "{{price-chery-tiggo7pro-plug-in-hybrid}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5",
                 "engine_power": "180",
@@ -5536,7 +5536,7 @@
         "complectations": [
             {
                 "name": "Ultimate",
-                "price": 3699000,
+                "price": "{{price-chery-tiggo8pro-plug-in-hybrid}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5",
                 "engine_power": "180",
@@ -5679,7 +5679,7 @@
         "complectations": [
             {
                 "name": "Комфорт",
-                "price": 2499000,
+                "price": "{{price-evolute-i-space}}",
                 "bodytype": "Кроссовер",
                 "engine_power": "177",
                 "gear_rus": "HDT300",
@@ -5825,7 +5825,7 @@
         "complectations": [
             {
                 "name": "1.5TD/7DTC IXEN",
-                "price": 2600000,
+                "price": "{{price-forthing-t5evo}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "190",
@@ -5947,7 +5947,7 @@
         "complectations": [
             {
                 "name": "YACHT PREMIUM",
-                "price": 3400000,
+                "price": "{{price-forthing-yacht}}",
                 "bodytype": "Минивэн",
                 "engine": "1.5 м3",
                 "engine_power": "197",
@@ -6069,7 +6069,7 @@
         "complectations": [
             {
                 "name": "Standart",
-                "price": 2780000,
+                "price": "{{price-venucia-v-online}}",
                 "bodytype": "Фастбэк",
                 "engine": "1.5 м3",
                 "engine_power": "93.3",
@@ -6179,7 +6179,7 @@
         "complectations": [
             {
                 "name": "Standard 1.6 XE CVT",
-                "price": 2140000,
+                "price": "{{price-venucia-d60-plus}}",
                 "bodytype": "Седан",
                 "engine": "1.6",
                 "engine_power": "90/6000",
@@ -6640,7 +6640,7 @@
         "complectations": [
             {
                 "name": "GL",
-                "price": "3799000",
+                "price": "{{price-gac-gs8-ii}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0",
                 "engine_power": "231",
@@ -9625,7 +9625,7 @@
         "complectations": [
             {
                 "name": "4WD Elite",
-                "price": 3499000,
+                "price": "{{price-haval-h7}}",
                 "bodytype": "5-дверный универсал",
                 "engine": "2.0 м3",
                 "engine_power": "192",
@@ -9784,7 +9784,7 @@
         "complectations": [
             {
                 "name": "Premium, 2WD",
-                "price": 2299000,
+                "price": "{{price-haval-h3}}",
                 "bodytype": "5-дверный универсал",
                 "engine": "1.5 м3",
                 "engine_power": "143",
@@ -12480,7 +12480,7 @@
         "complectations": [
             {
                 "name": "Urban",
-                "price": 2339900,
+                "price": "{{price-jaecoo-modelj7}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "150",
@@ -12935,7 +12935,7 @@
         "complectations": [
             {
                 "name": "Active",
-                "price": 3799000,
+                "price": "{{price-jaecoo-modelj8}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "249",
@@ -13370,7 +13370,7 @@
         "complectations": [
             {
                 "name": "Comfort",
-                "price": 2599900,
+                "price": "{{price-jetour-x90plus}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "190",
@@ -13571,7 +13571,7 @@
         "complectations": [
             {
                 "name": "Voyage",
-                "price": 3859000,
+                "price": "{{price-jetour-t2}}",
                 "bodytype": "Внедорожник",
                 "engine": "2.0 м3",
                 "engine_power": "245",
@@ -13764,7 +13764,7 @@
         "complectations": [
             {
                 "name": "Comfort Plus",
-                "price": 1919900,
+                "price": "{{price-jetour-dashing}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -13940,7 +13940,7 @@
         "complectations": [
             {
                 "name": "Luxury",
-                "price": 2649000,
+                "price": "{{price-jetour-x70}}",
                 "bodytype": "Внедорожник 5 дв.",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -14120,7 +14120,7 @@
         "complectations": [
             {
                 "name": "Comfort",
-                "price": 2379900,
+                "price": "{{price-jetour-x70plus}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "190",
@@ -14262,7 +14262,7 @@
         "complectations": [
             {
                 "name": "Comfort",
-                "price": 1990000,
+                "price": "{{price-jetour-x50}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "113",
@@ -15529,7 +15529,7 @@
         "complectations": [
             {
                 "name": "Fun",
-                "price": 2019900,
+                "price": "{{price-omoda-modelc5}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -15752,7 +15752,7 @@
         "complectations": [
             {
                 "name": "Fun",
-                "price": 1889900,
+                "price": "{{price-omoda-modelc5}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -15943,7 +15943,7 @@
         "complectations": [
             {
                 "name": "Classic",
-                "price": 1809900,
+                "price": "{{price-omoda-models5}}",
                 "bodytype": "Седан",
                 "engine": "1.5 м3",
                 "engine_power": "113",
@@ -16104,7 +16104,7 @@
         "complectations": [
             {
                 "name": "Tech",
-                "price": 2129900,
+                "price": "{{price-omoda-s5gt}}",
                 "bodytype": "Седан",
                 "engine": "1.5 м3",
                 "engine_power": "147",
@@ -16269,7 +16269,7 @@
         "complectations": [
             {
                 "name": "Classic 6MT",
-                "price": 2849900,
+                "price": "{{price-kia-sportage}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "150",
@@ -16562,7 +16562,7 @@
         "complectations": [
             {
                 "name": "Classic 2.0 6AT",
-                "price": 2734900,
+                "price": "{{price-kia-k5}}",
                 "bodytype": "Седан",
                 "engine": "2.0 м3",
                 "engine_power": "150",
@@ -16851,7 +16851,7 @@
         "complectations": [
             {
                 "name": "Classic 2.5 6AT",
-                "price": 3789900,
+                "price": "{{price-kia-sorento}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.5 м3",
                 "engine_power": "179",
@@ -17471,7 +17471,7 @@
         "complectations": [
             {
                 "name": "Classic 1.6 6МТ",
-                "price": 2064900,
+                "price": "{{price-kia-seltos}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
                 "engine_power": "123",
