@@ -5,6 +5,23 @@
         "type": "",
         "view": "link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/IMG_9965w1920t.webp"
+        },
+        "title": "Специальные предложения на&nbsp;автомобили Geely",
+        "descr": "Максимальная выгода до&nbsp;650&nbsp;000&nbsp;руб",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/specialnye-predlozheniya-na-avtomobili-geely/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/geely/cityray.webp"
         },
         "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Cityray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Cityray'><span class='uppercase block font-medium'>Энергия города</span>",
