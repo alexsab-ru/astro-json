@@ -20,7 +20,7 @@
     },
     {
         "id": 0,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -249,7 +249,7 @@
     },
     {
         "id": 0,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -266,7 +266,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
