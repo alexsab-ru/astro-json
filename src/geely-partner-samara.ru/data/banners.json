@@ -73,7 +73,7 @@
     },
     {
         "id": 0,
-        "show": false,
+        "show": true,
         "type": "",
         "view": "link",
         "image": {
