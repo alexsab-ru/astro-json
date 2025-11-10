@@ -5,6 +5,21 @@
         "type": "",
         "view": "popup-link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/sale_to_2025_11_11_desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/sale_to_2025_11_11_mobile.webp"
+        },
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Получить супер выгоду на&nbsp;GAC! Только до&nbsp;11.11",
+        "dataFormName": "Супер выгода на GAC! До 11.11. Баннер",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": false,
+        "type": "",
+        "view": "popup-link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/weekend-vigoda-desktop.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/weekend-vigoda-mobile.webp"
         },
@@ -67,7 +82,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "image": {
