@@ -1,6 +1,36 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/geely-fall/geely-fall-1920x720.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/geely-fall/geely-fall-640x900.webp"
+        },
+        "position": {
+            "desktop": "top",
+            "mobile": "top"
+        },
+        "title": "<b>Успей в рассрочку 0,01% до конца ноября</b>",
+        "gradient": true,
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "bannerUrl": "",
+        "dataTitle": "Успей в рассрочку 0,01% до конца ноября!",
+        "dataFormName": "Успей в рассрочку 0,01% до конца ноября. Баннер",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "popup-link",
@@ -73,7 +103,7 @@
     },
     {
         "id": 0,
-        "show": false,
+        "show": true,
         "type": "",
         "view": "link",
         "image": {
@@ -89,7 +119,7 @@
             "autoname": "",
             "title": "",
             "descr": "",
-            "image": "https://cdn.alexsab.ru/specials/geely/zimnie-shiny-v-podarok/plashka-winter-tires-geely-orsk-H.png",
+            "image": "https://cdn.alexsab.ru/specials/geely/zimnie-shiny-v-podarok/plashka-winter-tires-geely-orsk-H.webp",
             "position": "left"
         },
         "autoplay": 6000
