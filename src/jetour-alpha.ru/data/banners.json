@@ -84,6 +84,24 @@
         "type": "",
         "view": "link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/dashing-new-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/dashing-new-mobile.webp"
+        },
+        "title": "JETOUR DASHING",
+        "descr": "Городской кроссовер<br /> Цена от {{priceb-jetour-dashing}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/dashing/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/specials/jetour/first-owners-of-t1/imgi_46_JTGoBo__1920-1080-first-t1.webp",
             "mobile": "https://cdn.alexsab.ru/specials/jetour/first-owners-of-t1/imgi_79_UbrFHy__767-767-new-t1-mob.webp"
         },
