@@ -98,6 +98,24 @@
     },
     {
         "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/x70plus-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/x70plus-mobile.webp"
+        },
+        "title": "JETOUR X70 PLUS",
+        "descr": "Семейный кроссовер для совместных путешествий<br /> Цена от {{priceb-jetour-x70plus}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/x70plus/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
         "show": false,
         "type": "",
         "view": "link",
