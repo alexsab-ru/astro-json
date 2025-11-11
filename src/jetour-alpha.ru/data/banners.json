@@ -42,16 +42,40 @@
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-1920x1080.webp",
-            "mobile": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-767x767.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/t1-new-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/t1-new-mobile.webp"
         },
-        "title": "Встречайте совершенно новый <br/><img src=\"https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/logo-t1.png\" class=\"mt-5 max-w-[400px]\" alt=\"Jetour T1\" />",
-        "descr": "Скоро анонс!",
+        "title": "JETOUR T1",
+        "descr": "Встречайте совершенно новый<br /> Цена от {{priceb-jetour-t1}}",
         "btn": "Подробнее",
         "btnUrl": "/models/t1/",
         "dataTitle": "Подробнее про новый JETOUR&nbsp;T1",
         "dataFormName": "Подробнее про JETOUR T1. Баннер",
         "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/t2-new-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/t2-new-mobile.webp"
+        },
+        "title": "JETOUR T2",
+        "descr": "Внедорожный кроссовер для путешествий<br /> Цена от {{priceb-jetour-t2}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/t2/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "https://cdn.alexsab.ru/badges/vnedorozhnik-goda-2025.webp,https://cdn.alexsab.ru/badges/za-rulem-shield.svg,https://cdn.alexsab.ru/badges/auto-ru-2024.webp",
+            "position": "left"
+        },
         "autoplay": 10000
     },
     {
