@@ -5,12 +5,15 @@
         "type": "",
         "view": "popup-link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/sale_to_2025_11_11_desktop.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/sale_to_2025_11_11_mobile.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/vygoda-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/vygoda-mobile.webp"
         },
-        "bannerUrl": "#common-modal",
-        "dataTitle": "Получить супер выгоду на&nbsp;GAC! Только до&nbsp;11.11",
-        "dataFormName": "Супер выгода на GAC! До 11.11. Баннер",
+        "title": "<div class=\"bg-white text-black py-4 px-4 sm:px-10 rounded-lg w-fit !leading-[1.3] shadow-2xl shadow-accent-500 text-lg sm:text-2xl md:text-3xl lg:text-4xl\">Выгода <span class=\"bg-accent-500 text-white px-2\">до&nbsp;300&nbsp;000&nbsp;₽</span> для мед.работников, <br class=\"hidden lg:block\" /> учителей и&nbsp;работников заводов</div>",
+        "description": "",
+        "btnUrl": "#common-modal",
+        "btn": "Подробнее",
+        "dataTitle": "Получить выгоду до&nbsp;300&nbsp;000&nbsp;₽",
+        "dataFormName": "Выгода до 300 000 ₽ для мед.работников, учителей и работников заводов. Баннер",
         "badge": "",
         "autoplay": 10000
     },
