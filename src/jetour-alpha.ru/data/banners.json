@@ -170,7 +170,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "special",
         "view": "link",
         "image": {
