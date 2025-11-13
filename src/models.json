@@ -16258,6 +16258,7 @@
             }
         ],
         "feed_names": [
+            "Sportage",
             "Sportage, V"
         ],
         "photos": "",
@@ -22958,6 +22959,52 @@
     },
     {
         "mark_id": "Renault",
+        "id": "kaptur",
+        "show": true,
+        "name": "Kaptur",
+        "cyrillic": "Каптюр",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "orange",
+                "name": "Оранжевый",
+                "names": [
+                    "Orange",
+                    "Оранжевый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Kaptur",
+            "kaptur"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Renault",
         "id": "Sandero",
         "show": true,
         "name": "Sandero",
@@ -22987,6 +23034,52 @@
         "feed_names": [
             "Sandero",
             "Sandero, I"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Daewoo",
+        "id": "nexia",
+        "show": true,
+        "name": "Nexia",
+        "cyrillic": "Нексия",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "blue",
+                "name": "Синий",
+                "names": [
+                    "Blue",
+                    "Синий"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "Nexia",
+            "nexia"
         ],
         "chars": {}
     },
@@ -23585,6 +23678,88 @@
         ],
         "feed_names": [
             "8 серии"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Mercedes-Benz",
+        "id": "gla",
+        "show": true,
+        "name": "GLA",
+        "cyrillic": "ГЛА",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "GLA",
+            "gla"
+        ],
+        "chars": {}
+    },
+    {
+        "mark_id": "Mercedes-Benz",
+        "id": "e-class",
+        "show": true,
+        "name": "E-Класс",
+        "cyrillic": "Е-Класс",
+        "price": "",
+        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
+        "colors": [
+            {
+                "id": "white",
+                "name": "Белый",
+                "names": [
+                    "White",
+                    "Белый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "silver",
+                "name": "Серебристый",
+                "names": [
+                    "Silver",
+                    "Серебристый"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            },
+            {
+                "id": "black",
+                "name": "Черный",
+                "names": [
+                    "Black",
+                    "Черный"
+                ],
+                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+                "style": ""
+            }
+        ],
+        "feed_names": [
+            "E-Класс",
+            "E-класс"
         ],
         "chars": {}
     },
