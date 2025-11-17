@@ -3,6 +3,27 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jac/rf8-hero-desktop-061125.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jac/rf8-hero-mobile-061125.webp"
+        },
+        "position": {
+            "mobile": "top"
+        },
+        "title": "<span class='text-5xl sm:text-6xl md:text-8xl '>JAC <span class='text-accent-500'>RF8</span></span>",
+        "descr": "<span class='text-lg sm:text-3xl md:text-4xl block'>Минивэн для любого <br class=\"hidden md:block\" />момента вашей жизни</span>",
+        "btn": "Предзаказ",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Предзаказ. JAC RF8",
+        "dataFormName": "Предзаказ. JAC RF8. Баннер",
+        "badge": {},
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/jac/t9-desktop.webp"
