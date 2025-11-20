@@ -11312,26 +11312,28 @@
         "chars": {}
     },
     {
-        "mark_id": "JAC",
-        "id": "rf8",
-        "show": false,
-        "status": "preorder",
-        "name": "RF8",
-        "cyrillic": "Эр Эф 8",
-        "thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
-        "colors": [
-            {
-                "id": "black",
-                "name": "Черный металлик",
-                "names": [
-                    "черный",
-                    "чёрный"
-                ],
-                "carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
-                "style": ""
-            }
-        ],
-        "chars": {}
+      "mark_id": "JAC",
+      "id": "rf8",
+      "show": false,
+      "status": "preorder",
+      "homeImg": "https://cdn.alexsab.ru/b/jac/img/models/rf8/bg.webp",
+      "slogan": "Минивэн для любого момента вашей жизни",
+      "name": "RF8",
+      "cyrillic": "Эр Эф 8",
+      "thumb": "https://cdn.alexsab.ru/b/jac/img/models/rf8/thumb.webp",
+      "colors": [
+        {
+          "id": "black",
+          "name": "Черный",
+          "names": [
+            "черный",
+            "чёрный"
+          ],
+          "carImage": "https://cdn.alexsab.ru/b/jac/img/models/rf8/colors/black.webp",
+          "style": ""
+        }
+      ],
+      "chars": {}
     },
     {
         "mark_id": "JAC",
