@@ -1,7 +1,7 @@
 [
     {
         "name": "OMODA",
-        "brand": "omoda",
+        "brands": "omoda",
         "legal_entity": "ООО «Вип Авто Самара»",
         "legal_inn": "6312214182",
         "legal_city": "Самара",
@@ -17,7 +17,7 @@
     },
     {
         "name": "EXEED",
-        "brand": "exeed",
+        "brands": "exeed",
         "legal_entity": "ООО «Вип Авто Самара»",
         "legal_inn": "6312214182",
         "legal_city": "Самара",
@@ -33,7 +33,7 @@
     },
     {
         "name": "SOUEAST",
-        "brand": "soueast",
+        "brands": "soueast",
         "legal_entity": "ООО «ЭКСПЕРТ САМАРА»",
         "legal_inn": "7325117822",
         "legal_city": "Самара",
@@ -49,7 +49,7 @@
     },
     {
         "name": "JAC",
-        "brand": "jac",
+        "brands": "jac",
         "legal_entity": "ООО «Центр Самара»",
         "legal_inn": "6311098600",
         "legal_city": "Самара",
@@ -65,7 +65,7 @@
     },
     {
         "name": "BELGEE на Московском",
-        "brand": "belgee",
+        "brands": "belgee",
         "legal_entity": "ООО «Центр на Московском»",
         "legal_inn": "6319214167",
         "legal_city": "Самара",
@@ -81,7 +81,7 @@
     },
     {
         "name": "JAECOO",
-        "brand": "jaecoo",
+        "brands": "jaecoo",
         "legal_entity": "ООО «Вип Авто Самара»",
         "legal_inn": "6312214182",
         "legal_city": "Самара",
@@ -97,7 +97,7 @@
     },
     {
         "name": "GAC",
-        "brand": "gac",
+        "brands": "gac",
         "legal_entity": "ООО «САВ»",
         "legal_inn": "6314034107",
         "legal_city": "Самара",
@@ -113,7 +113,7 @@
     },
     {
         "name": "BAIC Мега",
-        "brand": "baic",
+        "brands": "baic",
         "legal_entity": "ООО «Мега Авто Центр»",
         "legal_inn": "6311178975",
         "legal_city": "Самара",
@@ -130,7 +130,7 @@
     },
     {
         "name": "BAIC Альфа",
-        "brand": "baic",
+        "brands": "baic",
         "legal_entity": "ООО «Автоцентр Альфа»",
         "legal_inn": "6324066475",
         "legal_city": "Самара",
@@ -146,7 +146,7 @@
     },
     {
         "name": "KAIYI Мега",
-        "brand": "kaiyi",
+        "brands": "kaiyi",
         "legal_entity": "ООО «Мега Авто Центр»",
         "legal_inn": "6311178975",
         "legal_city": "Самара",
@@ -162,7 +162,7 @@
     },
     {
         "name": "JETOUR",
-        "brand": "jetour",
+        "brands": "jetour",
         "legal_entity": "ООО «ЭКСПЕРТ САМАРА»",
         "legal_inn": "7325117822",
         "legal_city": "Самара",
@@ -178,7 +178,7 @@
     },
     {
         "name": "DONGFENG на Московском",
-        "brand": "dongfeng",
+        "brands": "dongfeng",
         "legal_entity": "ООО «Центр на Московском»",
         "legal_inn": "6319214167",
         "legal_city": "Самара",
@@ -195,7 +195,7 @@
     },
     {
         "name": "LIVAN",
-        "brand": "livan",
+        "brands": "livan",
         "legal_entity": "ООО «Автоцентр Альфа»",
         "legal_inn": "6324066475",
         "legal_city": "Самара",
@@ -211,7 +211,7 @@
     },
     {
         "name": "GEELY",
-        "brand": "geely",
+        "brands": "geely",
         "legal_entity": "ООО «ЭКСПЕРТ АВТО САМАРА»",
         "legal_inn": "6312147970",
         "legal_city": "Самара",
@@ -227,7 +227,7 @@
     },
     {
         "name": "CHERY",
-        "brand": "chery",
+        "brands": "chery",
         "legal_entity": "ООО «Вип Авто Самара»",
         "legal_inn": "6312214182",
         "legal_city": "Самара",
@@ -243,7 +243,7 @@
     },
     {
         "name": "KAIYI Альфа",
-        "brand": "kaiyi",
+        "brands": "kaiyi",
         "legal_entity": "ООО «Автоцентр Альфа»",
         "legal_inn": "6324066475",
         "legal_city": "Самара",

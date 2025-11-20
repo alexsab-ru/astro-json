@@ -1,7 +1,7 @@
 [
     {
         "name": "HAVAL CITY Тон-Авто",
-        "brand": "haval, great wall",
+        "brands": "haval, great wall",
         "legal_entity": "ООО «АвтоДом»",
         "legal_inn": "7325074262",
         "address": "Ульяновск, пр-т Нариманова, 128",
@@ -16,7 +16,7 @@
     },
     {
         "name": "HAVAL PRO Тон-Авто",
-        "brand": "haval",
+        "brands": "haval",
         "legal_entity": "ООО «АвтоДом»",
         "legal_inn": "7325074262",
         "address": "Ульяновск, ул. Урицкого, 45",
