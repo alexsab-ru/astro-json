@@ -4,3 +4,82 @@
       sectionClass: "!bg-gray-100"
       title: "JAC ОТКРЫВАЕТ ПРЕДЗАКАЗЫ НА НОВЫЙ МИНИВЭН RF8"
       text: '<img src="https://cdn.alexsab.ru/b/jac/img/models/rf8/sections/news-1-desktop.webp" alt="JAC RF8" fetchpriority="auto"><div class="mt-10 lg:text-xl space-y-5"><p>JAC объявляет о старте сбора заказов на ожидаемую новинку – минивэн RF8.</p><p>Модель создана для различных задач: бизнеса, комфортных путешествий, а также для повседневных семейных поездок с детьми.</p><p>Многофункциональный семиместный салон предлагает много вариантов трансформации в зависимости от потребностей клиента. Сиденья третьего ряда оснащены системой продольного перемещения до 240 мм, что позволяет гибко перераспределять пространство между пассажирской зоной и багажным отделением. Багажное отделение объемом 700-2500 л предоставляет широкие возможности для размещения груза.</p><p>Безопасность является одним из ключевых приоритетов модели. JAC RF8 оснащается полным комплексом лучших в своем классе систем активной безопасности, включая: систему распознавания дорожных знаков, систему предупреждения об открытии двери, систему помощи при движении в пробках, систему кругового обзора 540° с функцией «прозрачное шасси».</p><p>Высокий уровень комфорта в салоне обеспечен и водителю, и пассажирам всех трех рядов: от электрического привода сдвижных дверей и панорамного люка до трехзонного климат-контроля, вентиляции, массажа и подогрева кресел. Салон дополняет многофункциональная медиасистема с художественным оформлением интерфейса, настраиваемая панель приборов, а также 64-цветная подсветка и премиальная аудиосистема с 12 динамиками.</p><p>Забронировать новый JAC RF8 можно уже сейчас по <a class="popup-link text-accent-500 underline hover:no-underline" href="#common-modal" data-title="Предзаказ JAC RF8" data-form_name="Предзаказ. JAC RF8"><span>ссылке</span></a>. Комплектации и цены будут объявлены позже. Ожидается, что RF8 будет одним из самых привлекательных предложений в сегменте.</p></div>'
+- id: t9
+  sections:
+    - id: hero
+      sectionClass: "!bg-gray-100"
+      title: "JAC T9: НАШ ФЛАГМАН"
+      text: 'Брутальный дизайн, мощный мотор, комфортный и технологичный салон, просторный кузов — все это о JAC T9, флагманском пикапе марки. Он взял лучшее от легкового седана, внедорожника и грузовика.'
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/hero/ancap.webp
+          description: '5-ти звездочный рейтинг C-ANCAP*'
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/hero/ancap.webp
+          description: '5-ти звездочный рейтинг ANCAP*'
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/hero/vnedorozhnik-goda.webp
+          description: 'Внедорожник года 2024 и Внедорожник года 2025*'
+    - id: items
+      sectionClass: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Бензин / дизель, 2.0 л
+        - icon: mdi:car-shift-pattern
+          text: Новая платформа для пикапов<br /><small class="gray-300">3-го поколения</small>
+        - icon: mdi:shield-car
+          text: Технологии безопасности<br />Камера 360°, ABS, EBD, HHC и др.
+    - id: video
+      sectionClass: ""
+      title: Брутальная внешность
+      text: |
+        <video class="mt-10 aspect-video" muted playsinline autoplay loop preload="metadata"><source src="https://cdn.alexsab.ru/models/jac/t9/sections/video/t9.mp4" type="video/mp4"></video>
+        <div class="mb-10">Внешний облик пикапа JAC T9 впечатляет своим смелым дизайном и динамичными линиями кузова. Пикап выделяется в потоке благодаря узнаваемой решетке радиатора с крупным логотипом, фирменному «прищуру» оптики и выразительному переднему бамперу.</div>
+        <div>Массивные колесные арки, высокий клиренс и отделка экстерьера пластиковыми элементами делают модель практичным решением – теперь не нужно выбирать между комфортом, стилем, проходимостью и функционалом, ведь все это сочетает в себе наш флагман T9.</div>
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/6.webp
+    - id: gallery1
+      text: |
+        <picture>
+          <source media="(min-width: 942px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/1.webp" />
+          <source media="(min-width: 320px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/1-mobile.webp" />
+          <img src="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/1.webp" class="w-full" alt="На фото: НОВИНКА пикап с дизельным турбодвигателем JAC T9 / 2.0 TDi EXPLORE 4WD." />
+        </picture>
+        <picture>
+          <source media="(min-width: 942px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/2.webp" />
+          <source media="(min-width: 320px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/2-mobile.webp" />
+          <img src="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/2.webp" class="w-full" alt="" />
+        </picture>
+        <p class="mt-10">Откройте мир безграничных возможностей и новых высот вместе с пикапом JAC T9!</p>
+        <p class="mb-4">Хотите убедиться во всех преимуществах лично?</p>
+        <p class="font-bold">Запишитесь на тест-драйв к официальному дилеру ниже или получите особое предложение на покупку JAC T9!</p>
+    - id: comfort
+      title: Когда комфорт встречается с функциональностью
+      text: |
+        По уровню комфорта JAC T9 не уступает легковому автомобилю. Кожаный салон, информационно-развлекательная система с 10,4-дюймовым сенсорным экраном с поддержкой Apple CarPlay и Android Auto, климат-контроль, система кругового обзора 360°, бесключевой доступ, датчик дождя и многие другие системы позволят полностью сосредоточиться на работе и выборе направления движения, все остальное T9 сделает за вас!
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/6.webp
+    - id: tech
+      text: |
+        <div class="mb-10">
+          <picture>
+            <source media="(min-width: 942px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/tech/1.webp" />
+            <source media="(min-width: 320px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/tech/1-mobile.webp" />
+            <img src="https://cdn.alexsab.ru/models/jac/t9/sections/tech/1.webp" class="w-full" alt="" />
+          </picture>
+        </div>
+        <picture>
+          <source media="(min-width: 942px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/tech/2.webp" />
+          <source media="(min-width: 320px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/tech/2-mobile.webp" />
+          <img src="https://cdn.alexsab.ru/models/jac/t9/sections/tech/2.webp" class="w-full" alt="" />
+        </picture>
+    - id: vkVideo
+      text: <iframe src="https://vk.com/video_ext.php?oid=-226331383&id=456239176" class="w-full h-[300px] md:h-[500px] block" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+
