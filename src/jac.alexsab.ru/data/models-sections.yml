@@ -4,6 +4,63 @@
       sectionClass: "!bg-gray-100"
       title: "JAC ОТКРЫВАЕТ ПРЕДЗАКАЗЫ НА НОВЫЙ МИНИВЭН RF8"
       text: '<img src="https://cdn.alexsab.ru/b/jac/img/models/rf8/sections/news-1-desktop.webp" alt="JAC RF8" fetchpriority="auto"><div class="mt-10 lg:text-xl space-y-5"><p>JAC объявляет о старте сбора заказов на ожидаемую новинку – минивэн RF8.</p><p>Модель создана для различных задач: бизнеса, комфортных путешествий, а также для повседневных семейных поездок с детьми.</p><p>Многофункциональный семиместный салон предлагает много вариантов трансформации в зависимости от потребностей клиента. Сиденья третьего ряда оснащены системой продольного перемещения до 240 мм, что позволяет гибко перераспределять пространство между пассажирской зоной и багажным отделением. Багажное отделение объемом 700-2500 л предоставляет широкие возможности для размещения груза.</p><p>Безопасность является одним из ключевых приоритетов модели. JAC RF8 оснащается полным комплексом лучших в своем классе систем активной безопасности, включая: систему распознавания дорожных знаков, систему предупреждения об открытии двери, систему помощи при движении в пробках, систему кругового обзора 540° с функцией «прозрачное шасси».</p><p>Высокий уровень комфорта в салоне обеспечен и водителю, и пассажирам всех трех рядов: от электрического привода сдвижных дверей и панорамного люка до трехзонного климат-контроля, вентиляции, массажа и подогрева кресел. Салон дополняет многофункциональная медиасистема с художественным оформлением интерфейса, настраиваемая панель приборов, а также 64-цветная подсветка и премиальная аудиосистема с 12 динамиками.</p><p>Забронировать новый JAC RF8 можно уже сейчас по <a class="popup-link text-accent-500 underline hover:no-underline" href="#common-modal" data-title="Предзаказ JAC RF8" data-form_name="Предзаказ. JAC RF8"><span>ссылке</span></a>. Комплектации и цены будут объявлены позже. Ожидается, что RF8 будет одним из самых привлекательных предложений в сегменте.</p></div>'
+- id: js3
+  sections:
+    - id: items
+      sectionClass: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Двигатель 1.6 л
+        - icon: mdi:lightning-bolt
+          text: Мощность 109 л.с.
+        - icon: mdi:speedometer
+          text: Объем багажника 600 л
+    - id: description
+      sectionClass: ""
+      title: Компактный снаружи, просторный внутри
+      text: |
+        JAC JS3 идеально подходит для ежедневной эксплуатации как в городской среде, так и за городом. Просторный технологичный интерьер и вместительный багажник, узнаваемые детали экстерьера и современное технологическое оснащение - все это про JS3!
+    - id: exterior
+      sectionClass: ""
+      title: Узнаваемый на дороге
+      text: |
+        Оригинальный дизайн с двухуровневой оптикой и матовой решеткой радиатора выделяет JS3 в потоке машин. Матовые элементы, расположенные на нижней части кузова - практичное решение, которое позволяет не бояться мелких царапин и сколов.
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/4.webp
+    - id: interior
+      title: Добро пожаловать на борт
+      text: |
+        Просторный интерьер точно придется по вкусу любителям современных технологий. Лаконичная и хорошо читаемая приборная панель, продуманная эргономика, удобные сиденья, мультимедийная система с сенсорным дисплеем и широким рядом опций сделают вождение легким и приятным.
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/4.webp
+    - id: gallery
+      title: Фотогалерея
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/6.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/7.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/8.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/9.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/10.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/11.webp
+    - id: video
+      text: |
+        <video class="mt-10 aspect-video" muted playsinline autoplay loop preload="metadata"><source src="https://cdn.alexsab.ru/models/jac/js3/sections/video/js3.mp4" type="video/mp4"></video>
+    - id: description
+      sectionClass: ""
+      title: Комплектации и цены
+      text: |
+        <p><span><a href='https://jaccar.ru/JS3-price_web-011125_8404874682295398606.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: t9
   sections:
     - id: hero
@@ -82,4 +139,9 @@
         </picture>
     - id: vkVideo
       text: <iframe src="https://vk.com/video_ext.php?oid=-226331383&id=456239176" class="w-full h-[300px] md:h-[500px] block" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+    - id: description
+      sectionClass: ""
+      title: Комплектации и цены
+      text: |
+        <p><span><a href='https://jaccar.ru/T9-and-T9-TDi-price_web-011125_10820704734417994300.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 
