@@ -11815,6 +11815,28 @@
             "fuel": "Бензин",
             "gearbox": "6MT/CVT"
         },
+        "complectations": [
+            {
+                "name": "LUXURY MT",
+                "price": "{{price-jac-t9}}",
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "109",
+                "gear_rus": "6 MT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "LUXURY CVT",
+                "price": "1549000",
+                "bodytype": "Кроссовер",
+                "engine": "1.6 м3",
+                "engine_power": "109",
+                "gear_rus": "CVT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
         "testDrive": true,
         "globalChars": [
             {
