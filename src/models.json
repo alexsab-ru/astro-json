@@ -11977,6 +11977,38 @@
             "fuel": "Бензин",
             "gearbox": "6MT/CVT"
         },
+        "complectations": [
+            {
+                "name": "COMFORT",
+                "price": "{{price-jac-j7}}",
+                "bodytype": "Лифтбек",
+                "engine": "1.5 м3",
+                "engine_power": "136",
+                "gear_rus": "CVT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "LUXURY",
+                "price": "1779000",
+                "bodytype": "Лифтбек",
+                "engine": "1.5 м3",
+                "engine_power": "136",
+                "gear_rus": "CVT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "TECH",
+                "price": "1829000",
+                "bodytype": "Лифтбек",
+                "engine": "1.5 м3",
+                "engine_power": "136",
+                "gear_rus": "CVT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
         "testDrive": true,
         "globalChars": [
             {
