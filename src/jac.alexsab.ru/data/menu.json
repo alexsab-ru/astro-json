@@ -9,6 +9,10 @@
     "children": "models"
   },
   {
+    "url": "/news",
+    "name": "Новости"
+  },
+  {
     "url": "/test-drive/",
     "name": "Запись на тест-драйв"
   },
