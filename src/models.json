@@ -11455,13 +11455,13 @@
             },
             {
                 "name": "2.0TDi EXPLORE 4WD",
-                "price": "3749000",
+                "price": "3649000",
                 "bodytype": "Пикап",
                 "engine": "2.0 м3",
                 "engine_power": "224",
                 "gear_rus": "AT",
                 "drive": "Полный (4WD)",
-                "fuel": "Бензин"
+                "fuel": "Дизель"
             }
         ],
         "testDrive": true,
