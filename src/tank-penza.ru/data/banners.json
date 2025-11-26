@@ -3,6 +3,22 @@
         "id": 3,
         "show": true,
         "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/tank/penza/300mmc-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/tank/penza/300mmc-mobile.webp"
+        },
+        "title": "<span class=\"text-xl font-light\">Следуй за открытиями</span><br/> Обновленный TANK 300",
+        "descr": "от&nbsp;3&nbsp;999&nbsp;000&nbsp;₽",
+        "btn": "Подробнее",
+        "btnUrl": "/models/300mmc/",
+        "badge": {},
+        "autoplay": 10000
+    },
+    {
+        "id": 3,
+        "show": true,
+        "type": "",
         "view": "popup-link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/tank/penza/tank-400-1920w.webp",
