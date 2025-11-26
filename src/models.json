@@ -19391,6 +19391,173 @@
         ]
     },
     {
+      "mark_id": "Tank",
+      "id": "300mmc",
+      "show": true,
+      "status": "enable",
+      "homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+      "slogan": "Следуй за открытиями",
+      "name": "Обновленный 300",
+      "cyrillic": "Триста",
+      "price": 3999000,
+      "benefit": 300000,
+      "benefits": [
+        {
+          "url": "#common-modal",
+          "label": "Выгодный трейд-ин",
+          "icon_name": "mdi:credit-card-check-outline",
+          "data_title": "Выгодный трейд-ин",
+          "data_form_name": "Выгодный трейд-ин. Обновленный TANK 300",
+          "view": "popup-link"
+        },
+        {
+          "url": "#common-modal",
+          "label": "Выгодный кредит",
+          "icon_name": "mdi:gift-outline",
+          "data_title": "Выгодный кредит",
+          "data_form_name": "Выгодный кредит. Обновленный TANK 300",
+          "view": "popup-link"
+        }
+      ],
+      "thumb": "https://cdn.alexsab.ru/b/tank/img/models/300mmc/thumb_2.webp",
+      "colors": [
+        {
+          "id": "gray",
+          "name": "Серый Шантар",
+          "names": [
+            "серый"
+          ],
+          "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300mmc/colors/gray.webp",
+          "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(104, 114, 124) 9.68%, rgb(136, 149, 164) 54.56%, rgb(164, 178, 196) 65%, rgb(209, 220, 238) 74.68%, rgb(113, 124, 136) 100%);"
+        },
+        {
+          "id": "red",
+          "name": "Красный Эльтон, металлик",
+          "names": [
+            "красный"
+          ],
+          "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300mmc/colors/red.webp",
+          "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(87, 10, 20) 9.68%, rgb(142, 18, 36) 54.56%, rgb(176, 27, 35) 65%, rgb(215, 84, 98) 74.68%, rgb(116, 16, 30) 100%);"
+        },
+        {
+          "id": "orange",
+          "name": "Чарский Оранжевый, металлик",
+          "names": [
+            "оранжевый"
+          ],
+          "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300mmc/colors/orange.webp",
+          "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(114, 43, 0) 9.68%, rgb(167, 63, 0) 54.56%, rgb(186, 75, 6) 65%, rgb(233, 132, 72) 74.68%, rgb(115, 43, 1) 100%);"
+        },
+        {
+          "id": "black",
+          "name": "Черный Богдо, металлик",
+          "names": [
+            "черный"
+          ],
+          "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300mmc/colors/black.webp",
+          "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(16, 15, 17) 9.68%, rgb(23, 24, 25) 54.56%, rgb(25, 25, 27) 65%, rgb(59, 61, 62) 74.68%, rgb(16, 15, 18) 100%);"
+        },
+        {
+          "id": "white",
+          "name": "Белый Ольхон, металлик",
+          "names": [
+            "белый"
+          ],
+          "carImage": "https://cdn.alexsab.ru/b/tank/img/models/300mmc/colors/white.webp",
+          "style": "background: radial-gradient(101.55% 92.57% at 76.99% 100%, rgb(122, 125, 128) 9.68%, rgb(186, 191, 198) 54.56%, rgb(199, 204, 211) 65%, rgb(235, 240, 244) 74.68%, rgb(119, 123, 126) 100%);"
+        }
+      ],
+      "feed_names": [],
+      "photos": "",
+      "chars": {
+        "seats": "5 мест",
+        "fuel": "Бензин",
+        "gearbox": "8AT"
+      },
+      "complectations": [
+        {
+          "name": "Adventure",
+          "price": 3999000,
+          "bodytype": "Универсал",
+          "engine": "2.0 м3",
+          "engine_power": "220",
+          "gear_rus": "8AT",
+          "drive": "Полный",
+          "fuel": "Бензин"
+        },
+        {
+          "name": "City Adventure",
+          "price": 4299000,
+          "bodytype": "Универсал",
+          "engine": "2.0 м3",
+          "engine_power": "220",
+          "gear_rus": "8AT",
+          "drive": "Полный",
+          "fuel": "Бензин"
+        },
+        {
+          "name": "Premium",
+          "price": 4399000,
+          "bodytype": "Универсал",
+          "engine": "2.0 м3",
+          "engine_power": "220",
+          "gear_rus": "8AT",
+          "drive": "Полный",
+          "fuel": "Бензин"
+        },
+        {
+          "name": "City Premium",
+          "price": 4749000,
+          "bodytype": "Универсал",
+          "engine": "2.0 м3",
+          "engine_power": "220",
+          "gear_rus": "8AT",
+          "drive": "Полный",
+          "fuel": "Бензин"
+        }
+      ],
+      "globalChars": [
+        {
+          "id": "wheelbase",
+          "title": "Колёсная база",
+          "value": "2750",
+          "measure": "мм"
+        },
+        {
+          "id": "length",
+          "title": "Длина",
+          "value": "4760",
+          "measure": "мм"
+        },
+        {
+          "id": "width",
+          "title": "Ширина",
+          "value": "1930",
+          "measure": "мм"
+        },
+        {
+          "id": "engine",
+          "title": "Объем двигателя",
+          "value": "2.0",
+          "measure": "л."
+        },
+        {
+          "id": "torque",
+          "title": "Крутящий момент",
+          "value": "380",
+          "measure": "н.м."
+        },
+        {
+          "id": "transmission",
+          "title": "Привод",
+          "value": "Полный",
+          "measure": ""
+        }
+      ],
+      "priceDisclaimer": "",
+      "benefitDisclaimer": ""
+    },
+    {
         "mark_id": "Tank",
         "id": "300",
         "show": true,
