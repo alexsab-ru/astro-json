@@ -12136,6 +12136,38 @@
             "fuel": "Бензин",
             "gearbox": "DCT6"
         },
+        "complectations": [
+            {
+                "name": "1.5T DCT Comfort",
+                "price": "{{price-jac-js6}}",
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "174",
+                "gear_rus": "DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "1.5T DCT Luxury",
+                "price": "2199000",
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "174",
+                "gear_rus": "DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            },
+            {
+                "name": "1.5T DCT Flagship",
+                "price": "2299000",
+                "bodytype": "Кроссовер",
+                "engine": "1.5 м3",
+                "engine_power": "174",
+                "gear_rus": "DCT",
+                "drive": "Передний",
+                "fuel": "Бензин"
+            }
+        ],
         "testDrive": true,
         "globalChars": [
             {
