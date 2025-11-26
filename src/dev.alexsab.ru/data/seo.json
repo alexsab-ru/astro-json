@@ -1,7 +1,7 @@
 {
     "/": {
-        "title": "{{minprice}}, {{minprice-from}}, {{minpriceb}}, {{minpriceb-from}}",
-        "description": "{{maxbenefit}}, {{maxbenefit-to}}, {{maxbenefitb}}, {{maxbenefitb-to}}",
+        "title": "{{min-price}}, {{min-price-from}}, {{min-priceb}}, {{min-priceb-from}}",
+        "description": "{{max-benefit}}, {{max-benefit-to}}, {{max-benefitb}}, {{max-benefitb-to}}",
         "h1": ""
     }
 }
