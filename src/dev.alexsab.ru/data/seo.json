@@ -1,7 +1,7 @@
 {
-    "": {
-        "title": "",
-        "description": "",
+    "/": {
+        "title": "{{minprice}}, {{minprice-from}}, {{minpriceb}}, {{minpriceb-from}}",
+        "description": "{{maxbenefit}}, {{maxbenefit-to}}, {{maxbenefitb}}, {{maxbenefitb-to}}",
         "h1": ""
     }
 }
