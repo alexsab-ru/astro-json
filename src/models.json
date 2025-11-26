@@ -12078,7 +12078,7 @@
                 "view": "popup-link"
             }
         ],
-        "thumb": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/black.webp",
+        "thumb": "https://cdn.alexsab.ru/models/jac/js6/colors/black.webp",
         "colors": [
             {
                 "id": "white",
@@ -12086,7 +12086,7 @@
                 "names": [
                     "Белый"
                 ],
-                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/white.webp",
+                "carImage": "https://cdn.alexsab.ru/models/jac/js6/colors/white.webp",
                 "style": ""
             },
             {
@@ -12096,7 +12096,7 @@
                     "Серый",
                     "Темно-серый"
                 ],
-                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/gray.webp",
+                "carImage": "https://cdn.alexsab.ru/models/jac/js6/colors/gray.webp",
                 "style": ""
             },
             {
@@ -12105,17 +12105,17 @@
                 "names": [
                     "Черный"
                 ],
-                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/black.webp",
+                "carImage": "https://cdn.alexsab.ru/models/jac/js6/colors/black.webp",
                 "style": ""
             },
             {
                 "id": "brown",
-                "name": "Коричневый каштан",
+                "name": "Небесно-голубой",
                 "names": [
-                    "Коричневый"
+                    "Голубой"
                 ],
-                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/brown.webp",
-                "style": "background-color: #613302;"
+                "carImage": "https://cdn.alexsab.ru/models/jac/js6/colors/blue.webp",
+                "style": "background-color: #b6c3d3;"
             },
             {
                 "id": "red",
@@ -12123,7 +12123,7 @@
                 "names": [
                     "Красный"
                 ],
-                "carImage": "https://cdn.alexsab.ru/b/jac/img/models/js6/colors/red.webp",
+                "carImage": "https://cdn.alexsab.ru/models/jac/js6/colors/red.webp",
                 "style": ""
             }
         ],
