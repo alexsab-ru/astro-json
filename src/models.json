@@ -9394,7 +9394,7 @@
         },
         "complectations": [
             {
-                "name": "4WD Premium",
+                "name": "Premium",
                 "price": "{{price-haval-new-f7x}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
@@ -9404,7 +9404,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "4WD Tech Plus",
+                "name": "Tech Plus",
                 "price": 3549000,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
@@ -9848,7 +9848,7 @@
         },
         "complectations": [
             {
-                "name": "Premium, 2WD",
+                "name": "Premium 2WD",
                 "price": "{{price-haval-h3}}",
                 "bodytype": "5-дверный универсал",
                 "engine": "1.5 м3",
@@ -9858,7 +9858,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Tech+, 2WD",
+                "name": "Tech+ 2WD",
                 "price": 2549000,
                 "bodytype": "5-дверный универсал",
                 "engine": "1.5 м3",
@@ -9868,7 +9868,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Tech+, 4WD",
+                "name": "Tech+ 4WD",
                 "price": 2799000,
                 "bodytype": "5-дверный универсал",
                 "engine": "1.5 м3",
@@ -10516,7 +10516,7 @@
         },
         "complectations": [
             {
-                "name": "1,5 MT",
+                "name": "FWD MT 143",
                 "price": "{{price-haval-new-m6}}",
                 "bodytype": "5-дверный универсал",
                 "engine": "1.5 м3",
@@ -10526,7 +10526,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "1,5 DCT",
+                "name": "FWD DCT 143",
                 "price": 2049000,
                 "bodytype": "5-дверный универсал",
                 "engine": "1.5 м3",
@@ -10803,7 +10803,7 @@
         },
         "complectations": [
             {
-                "name": "COMFORT 2.0T",
+                "name": "COMFORT 2.0T 2WD",
                 "price": "{{price-haval-new-dargo}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
