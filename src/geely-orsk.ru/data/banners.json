@@ -31,6 +31,33 @@
     },
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/geely/geely-service-new-years-miracles/geely-service-new-years-miracles-1920x800.jpg",
+            "tablet": "https://cdn.alexsab.ru/specials/geely/geely-service-new-years-miracles/geely-service-new-years-miracles-700x875.jpg",
+            "mobile": "https://cdn.alexsab.ru/specials/geely/geely-service-new-years-miracles/geely-service-new-years-miracles-657x900.jpg"
+        },
+        "title": "",
+        "gradient": false,
+        "descr": "",
+        "btn": "",
+        "btnUrl": "",
+        "bannerUrl": "/special-offers/geely-service-new-years-miracles/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "left"
+        },
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "popup-link",
