@@ -11,23 +11,15 @@
     "id": "belgee-x50",
     "brand": "belgee",
     "model": "X50",
-    "price": "1999990",
+    "price": "2019990",
     "benefit": "",
     "link": "https://belgee.ru/model/belgee-x50/"
-  },
-  {
-    "id": "belgee-x70",
-    "brand": "belgee",
-    "model": "X70",
-    "price": "2506190",
-    "benefit": "",
-    "link": "https://belgee.ru/model/belgee-x70/"
   },
   {
     "id": "belgee-x70-facelift",
     "brand": "belgee",
     "model": "Обновленный X70",
-    "price": "2365990",
+    "price": "2425990",
     "benefit": "",
     "link": "https://belgee.ru/model/belgee-x70-facelift/"
   },
