@@ -9074,16 +9074,6 @@
         },
         "complectations": [
             {
-                "name": "Luxury",
-                "price": "{{price-geely-okavango}}",
-                "bodytype": "Кроссовер",
-                "engine": "2.0 м3",
-                "engine_power": "200",
-                "gear_rus": "7DCT",
-                "drive": "Передний (2WD)",
-                "fuel": "Бензин"
-            },
-            {
                 "name": "Flagship",
                 "price": 3474190,
                 "bodytype": "Кроссовер",
