@@ -20278,6 +20278,7 @@
         ],
         "feed_names": [
           "Camry",
+          "Camry, XV80",
           "Camry, VI (XV40)"
         ],
         "chars": {
@@ -21022,6 +21023,7 @@
         ],
         "feed_names": [
           "Land Cruiser Prado",
+          "Land Cruiser Prado, 250",
           "Land Cruiser"
         ]
     },
@@ -21176,6 +21178,10 @@
           "fuel": "Бензин",
           "gearbox": "8 АКП"
         },
+        "feed_names": [
+          "Highlander",
+          "Highlander, IV"
+        ],
         "complectations": [
           {
             "name": "Престиж",
@@ -21362,6 +21368,7 @@
         ],
         "feed_names": [
           "RAV4",
+          "RAV4, V",
           "RAV_4"
         ],
         "chars": {
@@ -23898,6 +23905,7 @@
         "feed_names": [
             "LX",
             "LX 600",
+            "LX, J300",
             "LX, IV"
         ],
         "photos": "",
