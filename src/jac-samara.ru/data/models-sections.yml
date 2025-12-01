@@ -4,3 +4,280 @@
       sectionClass: "!bg-gray-100"
       title: "JAC ОТКРЫВАЕТ ПРЕДЗАКАЗЫ НА НОВЫЙ МИНИВЭН RF8"
       text: '<img src="https://cdn.alexsab.ru/b/jac/img/models/rf8/sections/news-1-desktop.webp" alt="JAC RF8" fetchpriority="auto"><div class="mt-10 lg:text-xl space-y-5"><p>JAC объявляет о старте сбора заказов на ожидаемую новинку – минивэн RF8.</p><p>Модель создана для различных задач: бизнеса, комфортных путешествий, а также для повседневных семейных поездок с детьми.</p><p>Многофункциональный семиместный салон предлагает много вариантов трансформации в зависимости от потребностей клиента. Сиденья третьего ряда оснащены системой продольного перемещения до 240 мм, что позволяет гибко перераспределять пространство между пассажирской зоной и багажным отделением. Багажное отделение объемом 700-2500 л предоставляет широкие возможности для размещения груза.</p><p>Безопасность является одним из ключевых приоритетов модели. JAC RF8 оснащается полным комплексом лучших в своем классе систем активной безопасности, включая: систему распознавания дорожных знаков, систему предупреждения об открытии двери, систему помощи при движении в пробках, систему кругового обзора 540° с функцией «прозрачное шасси».</p><p>Высокий уровень комфорта в салоне обеспечен и водителю, и пассажирам всех трех рядов: от электрического привода сдвижных дверей и панорамного люка до трехзонного климат-контроля, вентиляции, массажа и подогрева кресел. Салон дополняет многофункциональная медиасистема с художественным оформлением интерфейса, настраиваемая панель приборов, а также 64-цветная подсветка и премиальная аудиосистема с 12 динамиками.</p><p>Забронировать новый JAC RF8 можно уже сейчас по <a class="popup-link text-accent-500 underline hover:no-underline" href="#common-modal" data-title="Предзаказ JAC RF8" data-form_name="Предзаказ. JAC RF8"><span>ссылке</span></a>. Комплектации и цены будут объявлены позже. Ожидается, что RF8 будет одним из самых привлекательных предложений в сегменте.</p></div>'
+- id: js3
+  sections:
+    - id: items
+      sectionClass: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Двигатель 1.6 л
+        - icon: mdi:lightning-bolt
+          text: Мощность 109 л.с.
+        - icon: mdi:speedometer
+          text: Объем багажника 600 л
+    - id: description
+      sectionClass: ""
+      title: Компактный снаружи, просторный внутри
+      text: |
+        JAC JS3 идеально подходит для ежедневной эксплуатации как в городской среде, так и за городом. Просторный технологичный интерьер и вместительный багажник, узнаваемые детали экстерьера и современное технологическое оснащение - все это про JS3!
+    - id: exterior
+      sectionClass: ""
+      title: Узнаваемый на дороге
+      text: |
+        Оригинальный дизайн с двухуровневой оптикой и матовой решеткой радиатора выделяет JS3 в потоке машин. Матовые элементы, расположенные на нижней части кузова - практичное решение, которое позволяет не бояться мелких царапин и сколов.
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/4.webp
+    - id: interior
+      title: Добро пожаловать на борт
+      text: |
+        Просторный интерьер точно придется по вкусу любителям современных технологий. Лаконичная и хорошо читаемая приборная панель, продуманная эргономика, удобные сиденья, мультимедийная система с сенсорным дисплеем и широким рядом опций сделают вождение легким и приятным.
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/4.webp
+    - id: gallery
+      title: Фотогалерея
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/6.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/7.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/8.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/9.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/10.webp
+        - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/11.webp
+    - id: video
+      text: |
+        <video class="mt-10 aspect-video" muted playsinline autoplay loop preload="metadata"><source src="https://cdn.alexsab.ru/models/jac/js3/sections/video/js3.mp4" type="video/mp4"></video>
+    - id: description
+      sectionClass: ""
+      title: Комплектации и цены
+      text: |
+        <p><span><a href='https://jaccar.ru/JS3-price_web-011125_8404874682295398606.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
+- id: t9
+  sections:
+    - id: hero
+      sectionClass: "!bg-gray-100"
+      title: "JAC T9: НАШ ФЛАГМАН"
+      text: 'Брутальный дизайн, мощный мотор, комфортный и технологичный салон, просторный кузов — все это о JAC T9, флагманском пикапе марки. Он взял лучшее от легкового седана, внедорожника и грузовика.'
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/hero/ancap.webp
+          description: '5-ти звездочный рейтинг C-ANCAP*'
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/hero/ancap.webp
+          description: '5-ти звездочный рейтинг ANCAP*'
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/hero/vnedorozhnik-goda.webp
+          description: 'Внедорожник года 2024 и Внедорожник года 2025*'
+    - id: items
+      sectionClass: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Бензин / дизель, 2.0 л
+        - icon: mdi:car-shift-pattern
+          text: Новая платформа для пикапов<br /><small class="gray-300">3-го поколения</small>
+        - icon: mdi:shield-car
+          text: Технологии безопасности<br />Камера 360°, ABS, EBD, HHC и др.
+    - id: video
+      sectionClass: ""
+      title: Брутальная внешность
+      text: |
+        <video class="mt-10 aspect-video" muted playsinline autoplay loop preload="metadata"><source src="https://cdn.alexsab.ru/models/jac/t9/sections/video/t9.mp4" type="video/mp4"></video>
+        <div class="mb-10">Внешний облик пикапа JAC T9 впечатляет своим смелым дизайном и динамичными линиями кузова. Пикап выделяется в потоке благодаря узнаваемой решетке радиатора с крупным логотипом, фирменному «прищуру» оптики и выразительному переднему бамперу.</div>
+        <div>Массивные колесные арки, высокий клиренс и отделка экстерьера пластиковыми элементами делают модель практичным решением – теперь не нужно выбирать между комфортом, стилем, проходимостью и функционалом, ведь все это сочетает в себе наш флагман T9.</div>
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/video/6.webp
+    - id: gallery1
+      text: |
+        <picture>
+          <source media="(min-width: 942px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/1.webp" />
+          <source media="(min-width: 320px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/1-mobile.webp" />
+          <img src="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/1.webp" class="w-full" alt="На фото: НОВИНКА пикап с дизельным турбодвигателем JAC T9 / 2.0 TDi EXPLORE 4WD." />
+        </picture>
+        <picture>
+          <source media="(min-width: 942px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/2.webp" />
+          <source media="(min-width: 320px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/2-mobile.webp" />
+          <img src="https://cdn.alexsab.ru/models/jac/t9/sections/gallery1/2.webp" class="w-full" alt="" />
+        </picture>
+        <p class="mt-10">Откройте мир безграничных возможностей и новых высот вместе с пикапом JAC T9!</p>
+        <p class="mb-4">Хотите убедиться во всех преимуществах лично?</p>
+        <p class="font-bold">Запишитесь на тест-драйв к официальному дилеру ниже или получите особое предложение на покупку JAC T9!</p>
+    - id: comfort
+      title: Когда комфорт встречается с функциональностью
+      text: |
+        По уровню комфорта JAC T9 не уступает легковому автомобилю. Кожаный салон, информационно-развлекательная система с 10,4-дюймовым сенсорным экраном с поддержкой Apple CarPlay и Android Auto, климат-контроль, система кругового обзора 360°, бесключевой доступ, датчик дождя и многие другие системы позволят полностью сосредоточиться на работе и выборе направления движения, все остальное T9 сделает за вас!
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/t9/sections/comfort/6.webp
+    - id: tech
+      text: |
+        <div class="mb-10">
+          <picture>
+            <source media="(min-width: 942px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/tech/1.webp" />
+            <source media="(min-width: 320px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/tech/1-mobile.webp" />
+            <img src="https://cdn.alexsab.ru/models/jac/t9/sections/tech/1.webp" class="w-full" alt="" />
+          </picture>
+        </div>
+        <picture>
+          <source media="(min-width: 942px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/tech/2.webp" />
+          <source media="(min-width: 320px)" srcset="https://cdn.alexsab.ru/models/jac/t9/sections/tech/2-mobile.webp" />
+          <img src="https://cdn.alexsab.ru/models/jac/t9/sections/tech/2.webp" class="w-full" alt="" />
+        </picture>
+    - id: vkVideo
+      text: <iframe src="https://vk.com/video_ext.php?oid=-226331383&id=456239176" class="w-full h-[300px] md:h-[500px] block" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+    - id: description
+      sectionClass: ""
+      title: Комплектации и цены
+      text: |
+        <p><span><a href='https://jaccar.ru/T9-and-T9-TDi-price_web-011125_10820704734417994300.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
+- id: j7
+  sections:
+    - id: hero
+      sectionClass: ""
+      title: "Бескомпромиссный выбор"
+      text: |
+        <p>Яркий дизайн — не повод для компромиссов. JAC J7 сочетает стильную внешность с практичностью и удобством в повседневной жизни. Динамичный силуэт напоминает спорткары, а кузов лифтбек с широким проемом пятой двери увеличивает полезное пространство в багажнике. JAC J7 обладает одним из самых низких коэффициентов аэродинамического сопротивления в классе, что обеспечивает отличную экономичность и высокий уровень акустического комфорта.</p>
+        <p>«Самый красивый JAC», по признанию многих авторитетных автоэкспертов, своим эффектным обликом обязан интернациональной команде стилистов во главе с итальянским дизайнером Даниэлем Гальоне. J7 демонстрирует безупречное чувство стиля и отточенные манеры в сочетании с современными технологиями.</p>
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/hero/1.webp
+    - id: items
+      sectionClass: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Двигатель 1.5 л
+        - icon: mdi:lightning-bolt-outline
+          text: Мощность 136 л.с.
+        - icon: mdi:car
+          text: Кузов лифтбек
+    - id: interior
+      sectionClass: ""
+      title: Задавая тренды
+      text: |
+        Салон JAC J7 – это не только комфорт и эргономика, но и внушительный внутренний объем. Благодаря большому проему пятой двери, доступ в багажник становится легким. Современные технологии воплотились в цифровые решения – традиционные кнопки уступили место сенсорным панелям. Подключайте смартфон, настраивайте «планшет» мультимедийной системы, и в путь!
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/6.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/7.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/8.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/9.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/10.webp
+    - id: tech
+      text: |
+        В движении JAC J7 приятно удивляет. Турбированный двигатель и полностью независимая подвеска делают автомобиль динамичным и предсказуемым в управлении. И это неудивительно, ведь в настройке ходовой части принимали участие инженеры совместного предприятия JAC Volkswagen.
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/tech/1.webp
+    - id: gallery
+      title: Фотогалерея
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/6.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/7.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/8.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/9.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/10.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/11.webp
+        - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/12.webp
+    - id: video
+      text: |
+        <video class="aspect-video" muted playsinline autoplay loop preload="metadata"><source src="https://cdn.alexsab.ru/models/jac/j7/sections/video/j7.mp4" type="video/mp4"></video>
+    - id: description
+      sectionClass: ""
+      title: Комплектации и цены
+      text: |
+        <p><span><a href='https://jaccar.ru/J7-price_web-011125_851282525247875401.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
+- id: js6
+  sections:
+    - id: hero
+      sectionClass: "!bg-gray-100"
+      title: JAC JS6 — Ваш идеальный кроссовер
+      text: |
+        <p>Откройте для себя новый уровень стиля, комфорта и безопасности вместе с семейным автомобилем JAC JS6!</p>
+        <ul class="list-disc pl-5">
+          <li class="mt-4">Неповторимый дизайн создан в концепции звездолёта. Он сочетает в себе многолетний опыт разработок JAC, современные технологии и уникальную дизайнерскую мысль от кутюрье из итальянского дизайн-центра бренда во главе с Даниэлем Гальоне.</li>
+          <li class="mt-4">Вместительность: полноценный 5-ти местный семейный кроссовер с большим багажником.</li>
+          <li class="mt-4">Безопасность и надежность: подтверждены премиями и сертификатами, а также многочисленными положительными отзывами владельцев.</li>
+          <li class="mt-4">Отличное оснащение: даже в стартовой комплектации кроссовер оснащен премиальными опциями.</li>
+          <li class="mt-4">Оптимальная цена: идеальный выбор для тех, кто ценит качество и надежность и дизайн.</li>
+        </ul>
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/hero/diamond.webp
+          title: Изысканный дизайн
+          description: от итальянских кутюрье
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/hero/ancap.webp
+          title: Безопасный семейный кроссовер
+          description: '5-ти звездочный рейтинг C-ANCAP*'
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/hero/resource_test_2024.webp
+          title: Ресурсный тест 2024
+          description: Победитель премии*
+    - id: items
+      sectionClass: ""
+      items:
+        - icon: mdi:engine-outline
+          text: Турбодвигатель <strong>1.5 л</strong>
+        - icon: mdi:lightning-bolt
+          text: Мощность <strong>174 л.с.</strong>
+        - icon: mdi:brain
+          text: Интеллектуальная платформа <strong>MIS</strong>
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/hero/hero.webp
+    - id: exterior
+      title: Притягательная внешность
+      text: |
+        Он точно не останется незамеченным в потоке машин! JS6 - яркий и стильный кроссовер, вобравший в себя основные ноу-хау JAC.
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/5.webp
+    - id: technologies
+      title: Технологии
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/technologies/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/technologies/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/technologies/3.webp
+    - id: interior
+      title: Интерьер
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/6.webp
+    - id: comfort
+      title: Идеален для семьи
+      text: |
+        <p>JAC JS6 — идеальный выбор семейного автомобиля, созданный специально для комфорта всей вашей семьи. Просторный салон позволяет свободно разместиться пассажирам любого роста, обеспечивая каждому максимум удобства во время длительных поездок.</p>
+        <p class="mt-4">Особое внимание уделено пассажирам заднего ряда: просторная посадка, оптимальная высота потолка и обволакивающие сиденья позволяют избежать усталости даже после долгих путешествий.</p>
+        <p class="mt-4">Просторный багажник с отсеками для хранения делает автомобиль отличным решением для перевозки детских колясок, спортивного инвентаря или покупок. Это идеальное сочетание практичности и функциональности, которое обеспечит вашим семейным поездкам полный комфорт!</p>
+      images: 
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/comfort/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/comfort/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/js6/sections/comfort/3.webp
+    - id: description
+      sectionClass: ""
+      title: Комплектации и цены
+      text: |
+        <p><span><a href='https://jaccar.ru/JS6-price_web-011125_3439441695384258582.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
