@@ -12687,7 +12687,7 @@
         },
         "complectations": [
             {
-                "name": "Urban",
+                "name": "Urban 150",
                 "price": "{{price-jaecoo-modelj7}}",
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
@@ -12707,7 +12707,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Lifestyle 186",
+                "name": "Lifestyle",
                 "price": 2689900,
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
@@ -12727,7 +12727,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Ultimate 186",
+                "name": "Ultimate",
                 "price": 2889900,
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
@@ -12737,7 +12737,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Active 150 4WD",
+                "name": "Active 150",
                 "price": 2639900,
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
@@ -12747,7 +12747,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Active 186 4WD",
+                "name": "Active",
                 "price": 2839900,
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
@@ -12757,7 +12757,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Supreme 150 4WD",
+                "name": "Supreme 150",
                 "price": 2989900,
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
@@ -12767,7 +12767,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Supreme 186 4WD",
+                "name": "Supreme",
                 "price": 3039900,
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
@@ -12777,7 +12777,7 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Supreme-V 4WD",
+                "name": "Supreme-V",
                 "price": 3269900,
                 "bodytype": "Кроссовер",
                 "engine": "1.6 м3",
