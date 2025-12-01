@@ -8165,7 +8165,7 @@
         },
         "complectations": [
             {
-                "name": "Luxury",
+                "name": "Flagship 2WD",
                 "price": "{{price-geely-atlas-2024}}",
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
@@ -8175,18 +8175,8 @@
                 "fuel": "Бензин"
             },
             {
-                "name": "Flagship",
+                "name": "Flagship Sport 2WD",
                 "price": 3304190,
-                "bodytype": "Кроссовер",
-                "engine": "2.0 м3",
-                "engine_power": "200",
-                "gear_rus": "7DCT",
-                "drive": "Передний (2WD)",
-                "fuel": "Бензин"
-            },
-            {
-                "name": "Flagship Sport",
-                "price": 3404190,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -8196,7 +8186,7 @@
             },
             {
                 "name": "Luxury 4WD",
-                "price": 3304190,
+                "price": 3404190,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "200",
@@ -8206,7 +8196,7 @@
             },
             {
                 "name": "Flagship 4WD",
-                "price": 3504190,
+                "price": 3304190,
                 "bodytype": "Кроссовер",
                 "engine": "2.0 м3",
                 "engine_power": "200",
