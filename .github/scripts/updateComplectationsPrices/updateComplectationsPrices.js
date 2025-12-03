@@ -28,14 +28,34 @@ const writeJson = (filePath, data) => {
   }
 };
 
-// Функция для поиска модели по ID с возвратом бренда
-const findModelWithBrandById = (modelId, complectationsPrices) => {
-  for (const [brand, brandModels] of Object.entries(complectationsPrices)) {
-    const model = brandModels.find(m => m.model_id === modelId);
-    if (model) {
-      return { brand, model };
+// Функция для поиска модели по бренду и ID (регистронезависимо)
+const findModelByBrandAndId = (markId, modelId, complectationsPrices) => {
+  // Приводим mark_id к нижнему регистру для поиска
+  const markIdLower = markId.toLowerCase();
+  
+  // Ищем бренд по mark_id (без учета регистра)
+  let brandKey = null;
+  let brandModels = null;
+  
+  for (const [key, models] of Object.entries(complectationsPrices)) {
+    if (key.toLowerCase() === markIdLower) {
+      brandKey = key;
+      brandModels = models;
+      break;
     }
   }
+  
+  if (!brandModels || !Array.isArray(brandModels)) {
+    return null;
+  }
+  
+  // Ищем модель внутри бренда по model_id
+  const model = brandModels.find(m => m.model_id === modelId);
+  
+  if (model) {
+    return { brand: brandKey, model };
+  }
+  
   return null;
 };
 
@@ -77,7 +97,12 @@ const updateComplectationsPrices = () => {
   // Группируем модели по брендам и логируем блоки
   const groups = {};
   for (const model of models) {
-    const match = findModelWithBrandById(model.id, complectationsPrices);
+    // Проверяем наличие mark_id у модели
+    if (!model.mark_id) {
+      continue;
+    }
+    
+    const match = findModelByBrandAndId(model.mark_id, model.id, complectationsPrices);
     if (!match || !model.complectations || model.complectations.length === 0) {
       continue;
     }
@@ -98,7 +123,7 @@ const updateComplectationsPrices = () => {
         totalComplectations++;
 
         const priceComplectation = priceModel.complectations.find(
-          pc => pc.name === complectation.name
+          pc => pc.name?.toLowerCase() === complectation.name?.toLowerCase()
         );
 
         if (priceComplectation && priceComplectation.price) {
@@ -130,12 +155,18 @@ const updateComplectationsPrices = () => {
         return complectation;
       });
 
-      updatesMap.set(model.id, { ...model, complectations: updatedComplectations });
+      // Используем комбинацию mark_id и id для уникальности ключа (в нижнем регистре)
+      const key = `${model.mark_id.toLowerCase()}__${model.id}`;
+      updatesMap.set(key, { ...model, complectations: updatedComplectations });
     }
   }
 
   // Собираем обновленный список моделей, сохраняя исходный порядок
-  const updatedModels = models.map(m => updatesMap.get(m.id) || m);
+  const updatedModels = models.map(m => {
+    // Используем нижний регистр для mark_id в ключе
+    const key = m.mark_id ? `${m.mark_id.toLowerCase()}__${m.id}` : null;
+    return key ? (updatesMap.get(key) || m) : m;
+  });
   
   // Сохраняем обновленные данные
   const updatedModelsData = isArrayRoot
