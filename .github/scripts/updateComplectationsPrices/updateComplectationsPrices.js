@@ -20,7 +20,7 @@ const readJson = (filePath) => {
 // Утилита для записи JSON
 const writeJson = (filePath, data) => {
   try {
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+    fs.writeFileSync(filePath, JSON.stringify(data, null, "\t"), 'utf8');
     return true;
   } catch (err) {
     logWarning(`⚠ Ошибка записи JSON файла: ${err.message}`);
