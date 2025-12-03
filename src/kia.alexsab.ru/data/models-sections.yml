@@ -151,7 +151,7 @@
         - url: https://cdn.alexsab.ru/b/kia/img/models/sportage/sections/tehnology/7.webp
           title: Уведомление о срабатывании штатной сигнализации
           description: При срабатывании штатной сигнализации автомобиль автоматически вышлет вам уведомление.
-      button: '<a href="https://cdn.kia.ru/master-data/brochures/Kia_Connect_Sportage_NQ.pdf" class="btn btn black btn-o !px-4 whitespace-nowrap" target="_blank">Обзор функций (PDF)</a>'
+      button: '<a href="https://cdn.kia.ru/master-data/brochures/Kia_Connect_Sportage_NQ.pdf" class="btn btn black btn-o px-4! whitespace-nowrap" target="_blank">Обзор функций (PDF)</a>'
     - id: security
       sectionClass: ""
       suptitle: Безопасность
