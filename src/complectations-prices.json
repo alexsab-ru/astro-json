@@ -1,0 +1,2850 @@
+{
+  "Baic": [
+    {
+      "model_name": "X75",
+      "model_id": "x75",
+      "complectations": []
+    },
+    {
+      "model_name": "U5 Plus",
+      "model_id": "u5-plus",
+      "complectations": []
+    },
+    {
+      "model_name": "X35",
+      "model_id": "x35",
+      "complectations": []
+    },
+    {
+      "model_name": "X55",
+      "model_id": "x55",
+      "complectations": []
+    },
+    {
+      "model_name": "X7",
+      "model_id": "x7",
+      "complectations": []
+    },
+    {
+      "model_name": "BJ40",
+      "model_id": "bj40",
+      "complectations": []
+    },
+    {
+      "model_name": "BJ60",
+      "model_id": "bj60",
+      "complectations": []
+    }
+  ],
+  "Belgee": [
+    {
+      "model_name": "S50",
+      "model_id": "s50",
+      "complectations": [
+        {
+          "name": "Active 5MT",
+          "price": "1849990",
+          "benefit": "200000"
+        },
+        {
+          "name": "Active 6AT",
+          "price": "1999990",
+          "benefit": "120000"
+        },
+        {
+          "name": "Style",
+          "price": "2089990",
+          "benefit": "120000"
+        },
+        {
+          "name": "Prestige",
+          "price": "2269990",
+          "benefit": "120000"
+        }
+      ]
+    },
+    {
+      "model_name": "Обновленный X70",
+      "model_id": "x70-facelift",
+      "complectations": [
+        {
+          "name": "Active",
+          "price": "2575990",
+          "benefit": "210000"
+        },
+        {
+          "name": "Style",
+          "price": "2595990",
+          "benefit": "80000"
+        },
+        {
+          "name": "Style 4WD 7DCT",
+          "price": "2670990",
+          "benefit": "80000"
+        },
+        {
+          "name": "Prestige",
+          "price": "2870990",
+          "benefit": "80000"
+        },
+        {
+          "name": "Prestige+",
+          "price": "2945990",
+          "benefit": "80000"
+        }
+      ]
+    },
+    {
+      "model_name": "X50",
+      "model_id": "x50",
+      "complectations": [
+        {
+          "name": "Active",
+          "price": "2479990",
+          "benefit": "480000"
+        },
+        {
+          "name": "Style",
+          "price": "2590190",
+          "benefit": "350000"
+        },
+        {
+          "name": "Prestige",
+          "price": "2690190",
+          "benefit": "350000"
+        }
+      ]
+    },
+    {
+      "model_name": "X70",
+      "model_id": "x70",
+      "complectations": [
+        {
+          "name": "Active",
+          "price": "",
+          "benefit": ""
+        },
+        {
+          "name": "Style 2WD",
+          "price": "2946190",
+          "benefit": "440000"
+        },
+        {
+          "name": "Style 4WD",
+          "price": "3121990",
+          "benefit": "500000"
+        },
+        {
+          "name": "Prestige",
+          "price": "3321190",
+          "benefit": "630000"
+        },
+        {
+          "name": "Prestige+",
+          "price": "3426190",
+          "benefit": "660000"
+        }
+      ]
+    }
+  ],
+  "Changan": [
+    {
+      "model_name": "CS75PLUS",
+      "model_id": "cs75plusnew",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "3590000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Luxe",
+          "price": "3790000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Tech",
+          "price": "3949900",
+          "benefit": "100000"
+        }
+      ]
+    },
+    {
+      "model_name": "CS55PLUS",
+      "model_id": "cs55plus",
+      "complectations": [
+        {
+          "name": "Luxe",
+          "price": "2939900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech",
+          "price": "2999900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech Plus",
+          "price": "3034900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "CS35PLUS NEW",
+      "model_id": "cs35plusnew",
+      "complectations": [
+        {
+          "name": "Advance",
+          "price": "2589900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech",
+          "price": "2649900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "ALSVIN",
+      "model_id": "alsvin",
+      "complectations": [
+        {
+          "name": "LX",
+          "price": "1850000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe",
+          "price": "1870000",
+          "benefit": ""
+        },
+        {
+          "name": "DLX",
+          "price": "1899900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech",
+          "price": "1919900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "EADOplus",
+      "model_id": "eadoplus",
+      "complectations": [
+        {
+          "name": "LX",
+          "price": "2329900",
+          "benefit": ""
+        },
+        {
+          "name": "DLX",
+          "price": "2399900",
+          "benefit": ""
+        },
+        {
+          "name": "LX",
+          "price": "2329900",
+          "benefit": ""
+        },
+        {
+          "name": "DLX",
+          "price": "2399900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Lamore",
+      "model_id": "lamore",
+      "complectations": [
+        {
+          "name": "Tech",
+          "price": "2869900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "CS85COUPE",
+      "model_id": "cs85coupe",
+      "complectations": []
+    },
+    {
+      "model_name": "CS95",
+      "model_id": "cs95new",
+      "complectations": [
+        {
+          "name": "DLX",
+          "price": "4529900",
+          "benefit": ""
+        },
+        {
+          "name": "Black edition",
+          "price": "4599900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech",
+          "price": "4609900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "HUNTERplus",
+      "model_id": "hunterplus",
+      "complectations": [
+        {
+          "name": "Luxe",
+          "price": "3739900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Star Truck",
+      "model_id": "star-truck",
+      "complectations": [
+        {
+          "name": "Star Truck Plus",
+          "price": "2069000",
+          "benefit": ""
+        },
+        {
+          "name": "New Star Truck",
+          "price": "2129000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "UNI-S",
+      "model_id": "uni-s",
+      "complectations": [
+        {
+          "name": "Luxe",
+          "price": "2939900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech",
+          "price": "2999900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech Plus",
+          "price": "3034900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "UNI-T",
+      "model_id": "uni-t",
+      "complectations": [
+        {
+          "name": "Luxe",
+          "price": "3069900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech",
+          "price": "3169900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "UNI-V",
+      "model_id": "uni-v",
+      "complectations": [
+        {
+          "name": "DLX",
+          "price": "3189900",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe",
+          "price": "3189900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech",
+          "price": "3259900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "UNI-K",
+      "model_id": "uni-k",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "4019900",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe AWD",
+          "price": "4449900",
+          "benefit": ""
+        },
+        {
+          "name": "Tech AWD",
+          "price": "4599900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "UNI-L",
+      "model_id": "uni-l",
+      "complectations": [
+        {
+          "name": "Tech",
+          "price": "2869900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "UNI-K iDD",
+      "model_id": "uni-k idd",
+      "complectations": [
+        {
+          "name": "Tech",
+          "price": "5219900",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "Chery": [
+    {
+      "model_name": "TIGGO 4",
+      "model_id": "tiggo4",
+      "complectations": [
+        {
+          "name": "MT Line",
+          "price": "1999000",
+          "benefit": ""
+        },
+        {
+          "name": "CVT Line",
+          "price": "2099000",
+          "benefit": ""
+        },
+        {
+          "name": "Active",
+          "price": "2220000",
+          "benefit": ""
+        },
+        {
+          "name": "Prime",
+          "price": "2350000",
+          "benefit": ""
+        },
+        {
+          "name": "Ultra",
+          "price": "2620000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "TIGGO 4 PRO",
+      "model_id": "tiggo4pro",
+      "complectations": [
+        {
+          "name": "Action",
+          "price": "2100000",
+          "benefit": "130000"
+        }
+      ]
+    },
+    {
+      "model_name": "TIGGO 7 PRO MAX",
+      "model_id": "newtiggo7promax",
+      "complectations": [
+        {
+          "name": "Active FWD",
+          "price": "2560000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Prime, FWD",
+          "price": "2710000",
+          "benefit": "100000"
+        }
+      ]
+    },
+    {
+      "model_name": "TIGGO 7L",
+      "model_id": "tiggo7l",
+      "complectations": [
+        {
+          "name": "Active 2WD",
+          "price": "2680000",
+          "benefit": "50000"
+        },
+        {
+          "name": "Prime 2WD",
+          "price": "2880000",
+          "benefit": "50000"
+        },
+        {
+          "name": "Ultra 2WD",
+          "price": "3000000",
+          "benefit": "50000"
+        }
+      ]
+    },
+    {
+      "model_name": "TIGGO 8 PRO MAX",
+      "model_id": "newtiggo8promax",
+      "complectations": [
+        {
+          "name": "Elite",
+          "price": "3040000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Dreamline",
+          "price": "3240000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Dreamline AWD",
+          "price": "3590000",
+          "benefit": "250000"
+        },
+        {
+          "name": "Ultimate AWD",
+          "price": "3720000",
+          "benefit": "250000"
+        }
+      ]
+    },
+    {
+      "model_name": "TIGGO 9",
+      "model_id": "tiggo9",
+      "complectations": [
+        {
+          "name": "Prime",
+          "price": "4150000",
+          "benefit": "350000"
+        },
+        {
+          "name": "Ultra",
+          "price": "4450000",
+          "benefit": "350000"
+        }
+      ]
+    },
+    {
+      "model_name": "ARRIZO 8",
+      "model_id": "arrizo8",
+      "complectations": [
+        {
+          "name": "Active",
+          "price": "2810000",
+          "benefit": "50000"
+        },
+        {
+          "name": "Prime",
+          "price": "3000000",
+          "benefit": "50000"
+        },
+        {
+          "name": "Ultra Black",
+          "price": "3210000",
+          "benefit": "50000"
+        }
+      ]
+    },
+    {
+      "model_name": "TIGGO 7 PRO PLUG-IN HYBRID",
+      "model_id": "tiggo7pro-plug-in-hybrid",
+      "complectations": [
+        {
+          "name": "Ultimate",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "TIGGO 8 PRO PLUG-IN HYBRID",
+      "model_id": "tiggo8pro-plug-in-hybrid",
+      "complectations": [
+        {
+          "name": "Ultimate",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "EVOLUTE": [
+    {
+      "model_name": "i-SPACE",
+      "model_id": "i-space",
+      "complectations": [
+        {
+          "name": "Комфорт",
+          "price": "2499000",
+          "benefit": ""
+        },
+        {
+          "name": "Премиум",
+          "price": "2940000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "i-PRO",
+      "model_id": "i-pro",
+      "complectations": []
+    },
+    {
+      "model_name": "i-JOY",
+      "model_id": "i-joy",
+      "complectations": []
+    },
+    {
+      "model_name": "Новый i-JOY",
+      "model_id": "i-joy-new",
+      "complectations": []
+    },
+    {
+      "model_name": "Обновленный i-SPACE",
+      "model_id": "i-space-new",
+      "complectations": [
+        {
+          "name": "5-местная версия",
+          "price": "3415000",
+          "benefit": "925000"
+        },
+        {
+          "name": "7-местная версия",
+          "price": "3515000",
+          "benefit": "925000"
+        }
+      ]
+    },
+    {
+      "model_name": "i-SKY",
+      "model_id": "i-sky",
+      "complectations": []
+    },
+    {
+      "model_name": "i-JET",
+      "model_id": "i-jet",
+      "complectations": []
+    },
+    {
+      "model_name": "i-VAN",
+      "model_id": "i-van",
+      "complectations": []
+    }
+  ],
+  "Forthing": [
+    {
+      "model_name": "T5 EVO",
+      "model_id": "t5evo",
+      "complectations": [
+        {
+          "name": "1.5TD/7DTC IXEN",
+          "price": "2600000",
+          "benefit": ""
+        },
+        {
+          "name": "1.5 HEV Elite",
+          "price": "3800000",
+          "benefit": ""
+        },
+        {
+          "name": "1.5 HEV Premium",
+          "price": "3850000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "T5",
+      "model_id": "t5",
+      "complectations": [
+        {
+          "name": "T5 IXEN",
+          "price": "2050000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "M7",
+      "model_id": "m7",
+      "complectations": []
+    },
+    {
+      "model_name": "YACHT",
+      "model_id": "yacht",
+      "complectations": [
+        {
+          "name": "YACHT PREMIUM",
+          "price": "3400000",
+          "benefit": ""
+        },
+        {
+          "name": "YACHT IXEN",
+          "price": "3400000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "Venucia": [
+    {
+      "model_name": "V-Online",
+      "model_id": "v-online",
+      "complectations": [
+        {
+          "name": "Standart",
+          "price": "3180000",
+          "benefit": ""
+        },
+        {
+          "name": "Elite",
+          "price": "3390000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "D60 Plus",
+      "model_id": "d60-plus",
+      "complectations": [
+        {
+          "name": "Standard 1.6 XE CVT",
+          "price": "2540000",
+          "benefit": ""
+        },
+        {
+          "name": "Comfort 1.6 CVT",
+          "price": "2720000",
+          "benefit": ""
+        },
+        {
+          "name": "Elite 1.6 CVT",
+          "price": "2850000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxury 1.6 CVT",
+          "price": "2950000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "Dongfeng": [
+    {
+      "model_name": "DFSK iХ5 Fengon",
+      "model_id": "fengon-ix5",
+      "complectations": [
+        {
+          "name": "Fengon iX5",
+          "price": "2050000",
+          "benefit": "100000"
+        }
+      ]
+    }
+  ],
+  "GAC": [
+    {
+      "model_name": "GS3",
+      "model_id": "gs3",
+      "complectations": [
+        {
+          "name": "GS",
+          "price": "2449000",
+          "benefit": "300000"
+        },
+        {
+          "name": "GB",
+          "price": "2599000",
+          "benefit": "300000"
+        },
+        {
+          "name": "GB-R",
+          "price": "2649000",
+          "benefit": "300000"
+        },
+        {
+          "name": "GL",
+          "price": "2799000",
+          "benefit": "300000"
+        },
+        {
+          "name": "GL-R",
+          "price": "2849000",
+          "benefit": "300000"
+        }
+      ]
+    },
+    {
+      "model_name": "M8",
+      "model_id": "m8",
+      "complectations": [
+        {
+          "name": "GT",
+          "price": "5999999",
+          "benefit": "700000"
+        },
+        {
+          "name": "GX",
+          "price": "6299999",
+          "benefit": "700000"
+        },
+        {
+          "name": "GX PREMIUM",
+          "price": "6499999",
+          "benefit": "700000"
+        },
+        {
+          "name": "LOUNGE (4 места)",
+          "price": "7499999",
+          "benefit": "700000"
+        }
+      ]
+    },
+    {
+      "model_name": "GS8",
+      "model_id": "gs8-ii",
+      "complectations": [
+        {
+          "name": "GL",
+          "price": "4199000",
+          "benefit": "700000"
+        },
+        {
+          "name": "GT",
+          "price": "4599000",
+          "benefit": "700000"
+        },
+        {
+          "name": "GX PREMIUM",
+          "price": "4949000",
+          "benefit": "700000"
+        }
+      ]
+    },
+    {
+      "model_name": "Обновленный GS8",
+      "model_id": "new-gs8",
+      "complectations": [
+        {
+          "name": "GL (5 мест)",
+          "price": "4299000",
+          "benefit": "700000"
+        },
+        {
+          "name": "GT",
+          "price": "4699000",
+          "benefit": "700000"
+        },
+        {
+          "name": "GX PREMIUM",
+          "price": "5099000",
+          "benefit": "700000"
+        },
+        {
+          "name": "GX TRAVELLER",
+          "price": "5099000",
+          "benefit": "700000"
+        },
+        {
+          "name": "LOUNGE HEV",
+          "price": "5399000",
+          "benefit": "700000"
+        }
+      ]
+    },
+    {
+      "model_name": "GS8",
+      "model_id": "gs8",
+      "complectations": [
+        {
+          "name": "GT",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "GS5",
+      "model_id": "gs5",
+      "complectations": [
+        {
+          "name": "GX Premium",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "GN8",
+      "model_id": "gn8",
+      "complectations": [
+        {
+          "name": "GX Traveller",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "GS4",
+      "model_id": "gs4",
+      "complectations": [
+        {
+          "name": "GB",
+          "price": "3199000",
+          "benefit": "450000"
+        },
+        {
+          "name": "GB AWD",
+          "price": "3599000",
+          "benefit": "450000"
+        },
+        {
+          "name": "GL AWD",
+          "price": "3749000",
+          "benefit": "450000"
+        }
+      ]
+    },
+    {
+      "model_name": "Empow",
+      "model_id": "empow",
+      "complectations": [
+        {
+          "name": "GS",
+          "price": "2999000",
+          "benefit": "450000"
+        },
+        {
+          "name": "GL (S-Style) 2024 г.в.",
+          "price": "2999000",
+          "benefit": "450000"
+        },
+        {
+          "name": "GL (S-Style) 2025 г.в.",
+          "price": "3219000",
+          "benefit": "450000"
+        }
+      ]
+    }
+  ],
+  "Geely": [
+    {
+      "model_name": "EX5",
+      "model_id": "ex5",
+      "complectations": [
+        {
+          "name": "Pro",
+          "price": "4099990",
+          "benefit": "350000"
+        },
+        {
+          "name": "Max",
+          "price": "4399990",
+          "benefit": "350000"
+        }
+      ]
+    },
+    {
+      "model_name": "EX5 EM-i",
+      "model_id": "ex5-em-i",
+      "complectations": [
+        {
+          "name": "Pro",
+          "price": "3569990",
+          "benefit": "250000"
+        },
+        {
+          "name": "Max",
+          "price": "3869990",
+          "benefit": "250000"
+        }
+      ]
+    },
+    {
+      "model_name": "Cityray",
+      "model_id": "cityray",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "2849990",
+          "benefit": "140000"
+        },
+        {
+          "name": "Luxury",
+          "price": "3094190",
+          "benefit": "140000"
+        },
+        {
+          "name": "Flagship",
+          "price": "3214190",
+          "benefit": "140000"
+        },
+        {
+          "name": "Flagship Sport",
+          "price": "3254190",
+          "benefit": "140000"
+        }
+      ]
+    },
+    {
+      "model_name": "Preface",
+      "model_id": "preface",
+      "complectations": [
+        {
+          "name": "Luxury",
+          "price": "3357990",
+          "benefit": "423000"
+        },
+        {
+          "name": "Flagship",
+          "price": "3567190",
+          "benefit": "533000"
+        }
+      ]
+    },
+    {
+      "model_name": "Geometry G6",
+      "model_id": "geometry-g6",
+      "complectations": [
+        {
+          "name": "Flagship",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Atlas",
+      "model_id": "geely-atlas-2024",
+      "complectations": [
+        {
+          "name": "Flagship 2WD",
+          "price": "3717190",
+          "benefit": "283000"
+        },
+        {
+          "name": "Flagship Sport 2WD",
+          "price": "3817190",
+          "benefit": "333000"
+        },
+        {
+          "name": "Luxury 4WD",
+          "price": "3717190",
+          "benefit": "283000"
+        },
+        {
+          "name": "Flagship 4WD",
+          "price": "3917190",
+          "benefit": "283000"
+        },
+        {
+          "name": "Flagship Sport 4WD",
+          "price": "4017190",
+          "benefit": "333000"
+        }
+      ]
+    },
+    {
+      "model_name": "Atlas Pro",
+      "model_id": "atlaspro",
+      "complectations": [
+        {
+          "name": "Flagship",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Emgrand",
+      "model_id": "emgrand",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "2393990",
+          "benefit": "550000"
+        },
+        {
+          "name": "Luxury",
+          "price": "2483990",
+          "benefit": "550000"
+        },
+        {
+          "name": "Flagship",
+          "price": "2663990",
+          "benefit": "550000"
+        }
+      ]
+    },
+    {
+      "model_name": "Coolray",
+      "model_id": "coolray",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Coolray",
+      "model_id": "geely-coolray-2023",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Tugella",
+      "model_id": "newtugella",
+      "complectations": [
+        {
+          "name": "Luxury",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "OKAVANGO",
+      "model_id": "geely-okavango",
+      "complectations": [
+        {
+          "name": "Flagship",
+          "price": "3897190",
+          "benefit": "373000"
+        }
+      ]
+    },
+    {
+      "model_name": "Monjaro",
+      "model_id": "monjaro",
+      "complectations": [
+        {
+          "name": "Luxury",
+          "price": "4549990",
+          "benefit": "550000"
+        },
+        {
+          "name": "Flagship",
+          "price": "4852190",
+          "benefit": "550000"
+        },
+        {
+          "name": "Exclusive",
+          "price": "5052190",
+          "benefit": "650000"
+        }
+      ]
+    }
+  ],
+  "HAVAL": [
+    {
+      "model_name": "F7x",
+      "model_id": "new-haval-f7x",
+      "complectations": [
+        {
+          "name": "Premium",
+          "price": "3399000",
+          "benefit": ""
+        },
+        {
+          "name": "Tech Plus",
+          "price": "3599000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "H9",
+      "model_id": "h9",
+      "complectations": [
+        {
+          "name": "Elite 2.0T",
+          "price": "4399000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Premium 2.0T",
+          "price": "4899000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Elite 2.4D",
+          "price": "4499000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Premium 2.4D",
+          "price": "4999000",
+          "benefit": "100000"
+        }
+      ]
+    },
+    {
+      "model_name": "НОВЫЙ H7",
+      "model_id": "h7",
+      "complectations": [
+        {
+          "name": "4WD Elite",
+          "price": "3549000",
+          "benefit": "300000"
+        },
+        {
+          "name": "4WD Premium",
+          "price": "3699000",
+          "benefit": "200000"
+        },
+        {
+          "name": "4WD Tech Plus",
+          "price": "3849000",
+          "benefit": "200000"
+        }
+      ]
+    },
+    {
+      "model_name": "H3",
+      "model_id": "h3",
+      "complectations": [
+        {
+          "name": "PREMIUM 2WD",
+          "price": "2649000",
+          "benefit": "300000"
+        },
+        {
+          "name": "TECH+ 2WD",
+          "price": "2899000",
+          "benefit": "200000"
+        },
+        {
+          "name": "TECH+ 4WD",
+          "price": "3199000",
+          "benefit": "200000"
+        }
+      ]
+    },
+    {
+      "model_name": "H5",
+      "model_id": "h5",
+      "complectations": [
+        {
+          "name": "Elite 2.0T",
+          "price": "3699000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Premium 2.0T",
+          "price": "3999000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Elite 2.0D",
+          "price": "3649000",
+          "benefit": "50000"
+        },
+        {
+          "name": "Premium 2.0D",
+          "price": "3949000",
+          "benefit": "50000"
+        }
+      ]
+    },
+    {
+      "model_name": "F7",
+      "model_id": "f7",
+      "complectations": [
+        {
+          "name": "ELITE 1,5T",
+          "price": "2649000",
+          "benefit": ""
+        },
+        {
+          "name": "PREMIUM 1,5T",
+          "price": "2849000",
+          "benefit": ""
+        },
+        {
+          "name": "ELITE 2,0T",
+          "price": "3049000",
+          "benefit": ""
+        },
+        {
+          "name": "PREMIUM 2,0T",
+          "price": "3249000",
+          "benefit": ""
+        },
+        {
+          "name": "TECH+ 2,0T",
+          "price": "3449000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "JOLION",
+      "model_id": "jolion",
+      "complectations": [
+        {
+          "name": "COMFORT 1,5T MT",
+          "price": "1799000",
+          "benefit": ""
+        },
+        {
+          "name": "ELITE 1,5T",
+          "price": "2149000",
+          "benefit": ""
+        },
+        {
+          "name": "PREMIUM 1,5T",
+          "price": "2349000",
+          "benefit": ""
+        },
+        {
+          "name": "ELITE 1,5T 4WD",
+          "price": "2299000",
+          "benefit": ""
+        },
+        {
+          "name": "PREMIUM 1,5T 4WD",
+          "price": "2499000",
+          "benefit": ""
+        },
+        {
+          "name": "TECH+ 1,5T 4WD",
+          "price": "2599000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "M6",
+      "model_id": "m6",
+      "complectations": [
+        {
+          "name": "FWD MT 143",
+          "price": "1979000",
+          "benefit": ""
+        },
+        {
+          "name": "FWD DCT 143",
+          "price": "2149000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "DARGO X",
+      "model_id": "dargo-x",
+      "complectations": [
+        {
+          "name": "ELITE 2.0T 4WD",
+          "price": "3099000",
+          "benefit": ""
+        },
+        {
+          "name": "PREMIUM 2.0T 4WD",
+          "price": "3299000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "DARGO",
+      "model_id": "dargo",
+      "complectations": [
+        {
+          "name": "COMFORT 2.0T 2WD",
+          "price": "2799000",
+          "benefit": ""
+        },
+        {
+          "name": "ELITE 2.0T 4WD",
+          "price": "2999000",
+          "benefit": ""
+        },
+        {
+          "name": "PREMIUM 2.0T 4WD",
+          "price": "3199000",
+          "benefit": ""
+        },
+        {
+          "name": "TECH PLUS 2.0T 4WD",
+          "price": "3349000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "Great Wall": [
+    {
+      "model_name": "НОВЫЙ GWM POER",
+      "model_id": "new-poer",
+      "complectations": [
+        {
+          "name": "Elite 2.0T",
+          "price": "3699000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Premium 2.0T",
+          "price": "3899000",
+          "benefit": ""
+        },
+        {
+          "name": "Premium 2.4D",
+          "price": "3999000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "POER KINGKONG",
+      "model_id": "poer-king-kong",
+      "complectations": [
+        {
+          "name": "COMFORT 2.0 (190 л.с.) 4WD",
+          "price": "3299000",
+          "benefit": "200000"
+        },
+        {
+          "name": "COMFORT 2.0D (150 л.с.) 4WD",
+          "price": "3299000",
+          "benefit": "200000"
+        },
+        {
+          "name": "ELITE 2.0 (190 л.с.) 4WD",
+          "price": "3499000",
+          "benefit": "200000"
+        },
+        {
+          "name": "ELITE 2.0D (150 л.с.) 4WD",
+          "price": "3499000",
+          "benefit": "200000"
+        }
+      ]
+    },
+    {
+      "model_name": "POER",
+      "model_id": "poer",
+      "complectations": [
+        {
+          "name": "COMFORT (150 л.с.) 4WD",
+          "price": "3549000",
+          "benefit": "200000"
+        },
+        {
+          "name": "COMFORT (150 л.с.) 4WD",
+          "price": "3699000",
+          "benefit": "200000"
+        },
+        {
+          "name": "PREMIUM (150 л.с.) 4WD",
+          "price": "3849000",
+          "benefit": "200000"
+        }
+      ]
+    }
+  ],
+  "Infiniti": [
+    {
+      "model_name": "QX50",
+      "model_id": "qx50",
+      "complectations": []
+    },
+    {
+      "model_name": "QX55",
+      "model_id": "qx55",
+      "complectations": []
+    },
+    {
+      "model_name": "QX60",
+      "model_id": "qx60",
+      "complectations": []
+    },
+    {
+      "model_name": "QX80",
+      "model_id": "qx80",
+      "complectations": []
+    }
+  ],
+  "JAC": [
+    {
+      "model_name": "T9",
+      "model_id": "t9",
+      "complectations": [
+        {
+          "name": "2.0T AT EXPLORE 4WD",
+          "price": "3599000",
+          "benefit": "150000"
+        },
+        {
+          "name": "2.0TDi EXPLORE 4WD",
+          "price": "3749000",
+          "benefit": "100000"
+        }
+      ]
+    },
+    {
+      "model_name": "S3",
+      "model_id": "s3",
+      "complectations": []
+    },
+    {
+      "model_name": "IEV7S",
+      "model_id": "iev7s",
+      "complectations": []
+    },
+    {
+      "model_name": "JS3",
+      "model_id": "js3",
+      "complectations": [
+        {
+          "name": "Luxury MT",
+          "price": "1799000",
+          "benefit": "350000"
+        },
+        {
+          "name": "Luxury CVT",
+          "price": "1899000",
+          "benefit": "350000"
+        }
+      ]
+    },
+    {
+      "model_name": "J7",
+      "model_id": "j7",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "2049000",
+          "benefit": "240000"
+        },
+        {
+          "name": "Luxury",
+          "price": "2149000",
+          "benefit": "370000"
+        },
+        {
+          "name": "Tech",
+          "price": "2199000",
+          "benefit": "370000"
+        }
+      ]
+    },
+    {
+      "model_name": "JS6",
+      "model_id": "js6",
+      "complectations": [
+        {
+          "name": "1.5T DCT Comfort",
+          "price": "2399000",
+          "benefit": "500000"
+        },
+        {
+          "name": "1.5T DCT Luxury",
+          "price": "2699000",
+          "benefit": "500000"
+        },
+        {
+          "name": "1.5T DCT Flagship",
+          "price": "2799000",
+          "benefit": "500000"
+        }
+      ]
+    },
+    {
+      "model_name": "T6",
+      "model_id": "t6",
+      "complectations": []
+    },
+    {
+      "model_name": "T8",
+      "model_id": "t8",
+      "complectations": [
+        {
+          "name": "T8 2.0T Full Extra",
+          "price": "2849000",
+          "benefit": "400000"
+        },
+        {
+          "name": "T8 2.0TDi Full Extra",
+          "price": "3049000",
+          "benefit": "400000"
+        }
+      ]
+    },
+    {
+      "model_name": "T8 Pro",
+      "model_id": "t8-pro",
+      "complectations": [
+        {
+          "name": "2.4T 4WD Full Extra",
+          "price": "3049000",
+          "benefit": "350000"
+        }
+      ]
+    }
+  ],
+  "JAECOO": [
+    {
+      "model_name": "J7",
+      "model_id": "j7",
+      "complectations": [
+        {
+          "name": "Urban 150",
+          "price": "2909000",
+          "benefit": "100000"
+        },
+        {
+          "name": "Lifestyle 150",
+          "price": "3059900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Lifestyle",
+          "price": "3109900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Ultimate 150",
+          "price": "3259900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Ultimate",
+          "price": "3309900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Active 150",
+          "price": "3259900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Active",
+          "price": "3309900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Supreme 150",
+          "price": "3459900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Supreme",
+          "price": "3509900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Supreme-V",
+          "price": "3689900",
+          "benefit": "100000"
+        }
+      ]
+    },
+    {
+      "model_name": "J7 LE",
+      "model_id": "j7-limited-edition",
+      "complectations": [
+        {
+          "name": "Limited Edition",
+          "price": "2759900",
+          "benefit": ""
+        },
+        {
+          "name": "Limited Edition TOP",
+          "price": "3059900",
+          "benefit": "100000"
+        }
+      ]
+    },
+    {
+      "model_name": "J8",
+      "model_id": "j8",
+      "complectations": [
+        {
+          "name": "Active",
+          "price": "4274000",
+          "benefit": "225000"
+        },
+        {
+          "name": "Supreme",
+          "price": "4724000",
+          "benefit": "225000"
+        },
+        {
+          "name": "Supreme-V",
+          "price": "5024000",
+          "benefit": "225000"
+        }
+      ]
+    },
+    {
+      "model_name": "J5",
+      "model_id": "j5",
+      "complectations": []
+    },
+    {
+      "model_name": "J6",
+      "model_id": "j6",
+      "complectations": []
+    }
+  ],
+  "Jetour": [
+    {
+      "model_name": "T1",
+      "model_id": "t1",
+      "complectations": [
+        {
+          "name": "COMFORT 2.0T (245 л.с.) 8AT полный привод",
+          "price": "3770000",
+          "benefit": "400000"
+        },
+        {
+          "name": "LUXURY 2.0T (245 л.с.) 8AT полный привод",
+          "price": "3950000",
+          "benefit": "400000"
+        }
+      ]
+    },
+    {
+      "model_name": "X90 Plus",
+      "model_id": "x90plus",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "3479900",
+          "benefit": "370000"
+        },
+        {
+          "name": "Luxury",
+          "price": "3599900",
+          "benefit": "370000"
+        },
+        {
+          "name": "Elite",
+          "price": "3799900",
+          "benefit": "370000"
+        },
+        {
+          "name": "Luxury 2.0",
+          "price": "3919900",
+          "benefit": "370000"
+        },
+        {
+          "name": "Luxury 2.0 (7 мест)",
+          "price": "3969900",
+          "benefit": "370000"
+        }
+      ]
+    },
+    {
+      "model_name": "T2",
+      "model_id": "t2",
+      "complectations": [
+        {
+          "name": "Voyage",
+          "price": "3959000",
+          "benefit": "300000"
+        },
+        {
+          "name": "Expedition",
+          "price": "4249000",
+          "benefit": "300000"
+        },
+        {
+          "name": "Discovery",
+          "price": "4449000",
+          "benefit": "300000"
+        }
+      ]
+    },
+    {
+      "model_name": "Dashing",
+      "model_id": "dashing",
+      "complectations": [
+        {
+          "name": "Comfort Plus",
+          "price": "2489900",
+          "benefit": "500000"
+        },
+        {
+          "name": "Comfort",
+          "price": "2709900",
+          "benefit": "500000"
+        },
+        {
+          "name": "Elite",
+          "price": "2839900",
+          "benefit": "500000"
+        },
+        {
+          "name": "Luxury",
+          "price": "2979900",
+          "benefit": "500000"
+        },
+        {
+          "name": "Luxury 1.6T",
+          "price": "3189900",
+          "benefit": "500000"
+        }
+      ]
+    },
+    {
+      "model_name": "X70",
+      "model_id": "x70",
+      "complectations": [
+        {
+          "name": "Luxury",
+          "price": "2649000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "X70 Plus",
+      "model_id": "x70plus",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "2999900",
+          "benefit": ""
+        },
+        {
+          "name": "Luxury",
+          "price": "3299900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "X50",
+      "model_id": "x50",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "1990000",
+          "benefit": ""
+        },
+        {
+          "name": "Elite",
+          "price": "2290000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxury",
+          "price": "2490000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "Kaiyi": [
+    {
+      "model_name": "E5",
+      "model_id": "e5",
+      "complectations": []
+    },
+    {
+      "model_name": "X3",
+      "model_id": "x3",
+      "complectations": []
+    },
+    {
+      "model_name": "X3 Pro",
+      "model_id": "x3pro",
+      "complectations": []
+    },
+    {
+      "model_name": "X7 Kunlun",
+      "model_id": "x7-kunlun",
+      "complectations": []
+    }
+  ],
+  "Knewstar": [
+    {
+      "model_name": "001",
+      "model_id": "001",
+      "complectations": [
+        {
+          "name": "Luxury",
+          "price": "4162990",
+          "benefit": "740000"
+        },
+        {
+          "name": "Flagship",
+          "price": "4393190",
+          "benefit": "740000"
+        },
+        {
+          "name": "Flagship Sport",
+          "price": "4493190",
+          "benefit": "740000"
+        }
+      ]
+    }
+  ],
+  "Livan": [
+    {
+      "model_name": "X3PRO",
+      "model_id": "x3pro",
+      "complectations": [
+        {
+          "name": "Luxury",
+          "price": "1669900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "X6PRO",
+      "model_id": "x6pro",
+      "complectations": [
+        {
+          "name": "Luxury",
+          "price": "2044000",
+          "benefit": ""
+        },
+        {
+          "name": "Premium",
+          "price": "2154000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "S6PRO",
+      "model_id": "s6pro",
+      "complectations": [
+        {
+          "name": "Luxury",
+          "price": "1884000",
+          "benefit": ""
+        },
+        {
+          "name": "Premium",
+          "price": "1974000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "Mazda": [
+    {
+      "model_name": "CX-5",
+      "model_id": "cx-5",
+      "complectations": [
+        {
+          "name": "Active",
+          "price": "3700000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "CX-50",
+      "model_id": "cx-50",
+      "complectations": [
+        {
+          "name": "Supreme",
+          "price": "4640000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "OMODA": [
+    {
+      "model_name": "C5 New",
+      "model_id": "c5fl",
+      "complectations": [
+        {
+          "name": "Fun",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "C5",
+      "model_id": "c5",
+      "complectations": [
+        {
+          "name": "Fun",
+          "price": "2429900",
+          "benefit": ""
+        },
+        {
+          "name": "Lifestyle",
+          "price": "2579900",
+          "benefit": ""
+        },
+        {
+          "name": "Ultimate",
+          "price": "2779900",
+          "benefit": ""
+        },
+        {
+          "name": "Drive",
+          "price": "2679900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Active",
+          "price": "2829900",
+          "benefit": ""
+        },
+        {
+          "name": "Active2025",
+          "price": "2879900",
+          "benefit": ""
+        },
+        {
+          "name": "Supreme",
+          "price": "3029900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "C7",
+      "model_id": "c7",
+      "complectations": [
+        {
+          "name": "Joy",
+          "price": "3109900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Lifestyle",
+          "price": "3259900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Drive",
+          "price": "3309900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Active",
+          "price": "3459900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Supreme",
+          "price": "3659900",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "S5",
+      "model_id": "s5",
+      "complectations": [
+        {
+          "name": "Classic",
+          "price": "2129900",
+          "benefit": "290000"
+        }
+      ]
+    },
+    {
+      "model_name": "S5 GT",
+      "model_id": "s5gt",
+      "complectations": [
+        {
+          "name": "Tech",
+          "price": "2479900",
+          "benefit": "320000"
+        }
+      ]
+    }
+  ],
+  "Kia": [
+    {
+      "model_name": "Sportage",
+      "model_id": "sportage",
+      "complectations": [
+        {
+          "name": "Classic 2.0 MPI / 150 л.с. / Бензин Автомат / Передний",
+          "price": "15790000",
+          "benefit": ""
+        },
+        {
+          "name": "Comfort  2.0 MPI / 150 л.с. / Бензин Автомат / Передний",
+          "price": "16690000",
+          "benefit": ""
+        },
+        {
+          "name": "Comfort  2.0 MPI / 150 л.с. / Бензин Автомат / Полный",
+          "price": "17390000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe  2.0 MPI / 150 л.с. / Бензин Автомат / Передний",
+          "price": "17490000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe  2.0 MPI / 150 л.с. / Бензин Автомат / Полный",
+          "price": "18190000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe  2.5 GDI / 190 л.с. / Бензин Автомат / Полный",
+          "price": "18790000",
+          "benefit": ""
+        },
+        {
+          "name": "Prestige 2.0 MPI / 150 л.с. / Бензин Автомат / Полный",
+          "price": "19090000",
+          "benefit": ""
+        },
+        {
+          "name": "Prestige 2.5 GDI / 190 л.с. / Бензин Автомат / Полный",
+          "price": "19690000",
+          "benefit": ""
+        },
+        {
+          "name": "Style 2.0 MPI / 150 л.с. / Бензин Автомат / Полный",
+          "price": "19590000",
+          "benefit": ""
+        },
+        {
+          "name": "Style 2.5 GDI / 190 л.с. / Бензин Автомат / Полный",
+          "price": "20190000",
+          "benefit": ""
+        },
+        {
+          "name": "X-Line 2.5 GDI / 190 л.с. / Бензин Автомат / Полный",
+          "price": "21590000",
+          "benefit": ""
+        },
+        {
+          "name": "X-Line+ 2.5 GDI / 190 л.с. / Бензин Автомат / Полный",
+          "price": "21990000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "K5",
+      "model_id": "k5",
+      "complectations": [
+        {
+          "name": "Comfort",
+          "price": "15790000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe",
+          "price": "18090000",
+          "benefit": ""
+        },
+        {
+          "name": "Tulpar 2.5 / 179 л.с.",
+          "price": "18990000",
+          "benefit": ""
+        },
+        {
+          "name": "Prestige",
+          "price": "19690000",
+          "benefit": ""
+        },
+        {
+          "name": "Premium",
+          "price": "20990000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Sorento",
+      "model_id": "sorento",
+      "complectations": [
+        {
+          "name": "Comfort 5 мест",
+          "price": "21690000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe 5 мест",
+          "price": "22690000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe 7 мест",
+          "price": "22990000",
+          "benefit": ""
+        },
+        {
+          "name": "Tulpar",
+          "price": "24190000",
+          "benefit": ""
+        },
+        {
+          "name": "Style 5 мест",
+          "price": "24890000",
+          "benefit": ""
+        },
+        {
+          "name": "Style 7 мест",
+          "price": "25190000",
+          "benefit": ""
+        },
+        {
+          "name": "Tulpar 3.5 MPI / 249 л.с.",
+          "price": "25890000",
+          "benefit": ""
+        },
+        {
+          "name": "Premium+ 2.5 / 179 л.с.",
+          "price": "27190000",
+          "benefit": ""
+        },
+        {
+          "name": "Premium+ 3.5 / 249 л.с.",
+          "price": "28690000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Seltos",
+      "model_id": "seltos",
+      "complectations": [
+        {
+          "name": "Classic 2.0 / 149 л.с. / Бензин Вариатор / Передний",
+          "price": "13990000",
+          "benefit": ""
+        },
+        {
+          "name": "Comfort 2.0 / 149 л.с. / Бензин Вариатор / Передний",
+          "price": "14590000",
+          "benefit": ""
+        },
+        {
+          "name": "Classic 2.0 / 149 л.с. / Бензин Вариатор / Полный",
+          "price": "14690000",
+          "benefit": ""
+        },
+        {
+          "name": "Comfort 2.0 / 149 л.с. / Бензин Вариатор / Полный",
+          "price": "15290000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe 2.0 / 149 л.с. / Бензин Вариатор / Передний",
+          "price": "15390000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe 2.0 / 149 л.с. / Бензин Вариатор / Полный",
+          "price": "16090000",
+          "benefit": ""
+        },
+        {
+          "name": "Style 2.0 / 149 л.с. / Бензин Вариатор / Полный",
+          "price": "17690000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Rio",
+      "model_id": "rio",
+      "complectations": [
+        {
+          "name": "Classic 1.6 6AТ",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Soul",
+      "model_id": "soul",
+      "complectations": [
+        {
+          "name": "Comfort 1.6 6МТ",
+          "price": "",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "Solaris": [
+    {
+      "model_name": "KRS",
+      "model_id": "krs",
+      "complectations": [
+        {
+          "name": "Comfort 6MT",
+          "price": "1960000",
+          "benefit": "160000"
+        },
+        {
+          "name": "Comfort 6AT",
+          "price": "2386000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe AV 6MТ",
+          "price": "1980000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe AV 6AТ",
+          "price": "2496000",
+          "benefit": ""
+        },
+        {
+          "name": "Style 6AT",
+          "price": "2566000",
+          "benefit": ""
+        },
+        {
+          "name": "Prestige 6AT",
+          "price": "2656000",
+          "benefit": ""
+        },
+        {
+          "name": "Premium 6AT",
+          "price": "2796000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "KRX",
+      "model_id": "krx",
+      "complectations": [
+        {
+          "name": "Comfort 6MT",
+          "price": "1960000",
+          "benefit": "110000"
+        },
+        {
+          "name": "Comfort 6AT",
+          "price": "2481000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe AV 6MT",
+          "price": "1980000",
+          "benefit": ""
+        },
+        {
+          "name": "Luxe AV 6AT",
+          "price": "2595000",
+          "benefit": ""
+        },
+        {
+          "name": "Slyle 6AT",
+          "price": "2668000",
+          "benefit": ""
+        },
+        {
+          "name": "Prestige 6AT",
+          "price": "2758000",
+          "benefit": ""
+        },
+        {
+          "name": "Premium 6AT",
+          "price": "2904000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "HS",
+      "model_id": "hs",
+      "complectations": [
+        {
+          "name": "Active Plus 6МТ 1.4 MPI (100 л.с.)",
+          "price": "1930000",
+          "benefit": ""
+        },
+        {
+          "name": "Active Plus 6МТ 1.6 MPI (123 л.с.)",
+          "price": "1950000",
+          "benefit": ""
+        },
+        {
+          "name": "Active Plus 6AТ 1.4 MPI (100 л.с.)",
+          "price": "2120000",
+          "benefit": ""
+        },
+        {
+          "name": "Active Plus 6AТ 1.6 MPI (123 л.с.)",
+          "price": "2140000",
+          "benefit": ""
+        },
+        {
+          "name": "Comfort 6МТ",
+          "price": "1970000",
+          "benefit": ""
+        },
+        {
+          "name": "Comfort 6AТ",
+          "price": "2190000",
+          "benefit": ""
+        },
+        {
+          "name": "Elegance 6MT",
+          "price": "2170000",
+          "benefit": ""
+        },
+        {
+          "name": "Elegance 6AT",
+          "price": "2365000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "HС",
+      "model_id": "hс",
+      "complectations": [
+        {
+          "name": "Prime 6MT",
+          "price": "1979000",
+          "benefit": "110000"
+        },
+        {
+          "name": "Prime 6AT",
+          "price": "2458000",
+          "benefit": ""
+        },
+        {
+          "name": "Classic 6MT",
+          "price": "1999000",
+          "benefit": ""
+        },
+        {
+          "name": "Classic 6AT",
+          "price": "2568000",
+          "benefit": ""
+        },
+        {
+          "name": "Family 6MT",
+          "price": "2758000",
+          "benefit": ""
+        },
+        {
+          "name": "Family 6AT",
+          "price": "2728000",
+          "benefit": ""
+        },
+        {
+          "name": "Lifestyle 6AT 2WD",
+          "price": "2898000",
+          "benefit": ""
+        },
+        {
+          "name": "Lifestyle 6AT 4WD",
+          "price": "3028000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "SOUEAST": [
+    {
+      "model_name": "S09",
+      "model_id": "s09",
+      "complectations": [
+        {
+          "name": "Comfort Plus",
+          "price": "3899000",
+          "benefit": "890000"
+        },
+        {
+          "name": "Premium",
+          "price": "4099000",
+          "benefit": "400000"
+        }
+      ]
+    },
+    {
+      "model_name": "S07",
+      "model_id": "s07",
+      "complectations": [
+        {
+          "name": "Comfort 1.6T 7DCT 2WD",
+          "price": "3099000",
+          "benefit": "400000"
+        },
+        {
+          "name": "Comfort 1.6T 8AT 4WD",
+          "price": "3299000",
+          "benefit": "400000"
+        },
+        {
+          "name": "Premium",
+          "price": "3449000",
+          "benefit": "300000"
+        }
+      ]
+    },
+    {
+      "model_name": "S06",
+      "model_id": "s06",
+      "complectations": []
+    }
+  ],
+  "Tank": [
+    {
+      "model_name": "300",
+      "model_id": "300",
+      "complectations": [
+        {
+          "name": "Adventure",
+          "price": "4199000",
+          "benefit": "450000"
+        },
+        {
+          "name": "Premium",
+          "price": "4599000",
+          "benefit": "450000"
+        },
+        {
+          "name": "City Adventure",
+          "price": "4499000",
+          "benefit": "450000"
+        },
+        {
+          "name": "City Premium",
+          "price": "4949000",
+          "benefit": "450000"
+        }
+      ]
+    },
+    {
+      "model_name": "400",
+      "model_id": "400",
+      "complectations": [
+        {
+          "name": "Adventure",
+          "price": "5399000",
+          "benefit": "350000"
+        },
+        {
+          "name": "Premium",
+          "price": "5899000",
+          "benefit": "350000"
+        }
+      ]
+    },
+    {
+      "model_name": "500",
+      "model_id": "500",
+      "complectations": [
+        {
+          "name": "Urban",
+          "price": "6799000",
+          "benefit": "800000"
+        },
+        {
+          "name": "Adventure",
+          "price": "7049000",
+          "benefit": "700000"
+        },
+        {
+          "name": "Premim",
+          "price": "7649000",
+          "benefit": "700000"
+        },
+        {
+          "name": "Blacktrail",
+          "price": "8249000",
+          "benefit": "700000"
+        }
+      ]
+    },
+    {
+      "model_name": "700",
+      "model_id": "700",
+      "complectations": [
+        {
+          "name": "Premium",
+          "price": "8899000",
+          "benefit": "900000"
+        },
+        {
+          "name": "Superior",
+          "price": "9899000",
+          "benefit": "900000"
+        },
+        {
+          "name": "Edition One",
+          "price": "12199000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "Toyota": [
+    {
+      "model_name": "Camry",
+      "model_id": "camry",
+      "complectations": [
+        {
+          "name": "КОМФОРТ",
+          "price": "13890000",
+          "benefit": ""
+        },
+        {
+          "name": "СТИЛЬ",
+          "price": "15590000",
+          "benefit": ""
+        },
+        {
+          "name": "ЭЛЕГАНС",
+          "price": "15990000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "Land Cruiser Prado",
+      "model_id": "land-cruiser-prado",
+      "complectations": []
+    },
+    {
+      "model_name": "Highlander",
+      "model_id": "highlander",
+      "complectations": [
+        {
+          "name": "ПРЕСТИЖ",
+          "price": "36390000",
+          "benefit": ""
+        },
+        {
+          "name": "ЛЮКС",
+          "price": "43790000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "RAV4",
+      "model_id": "rav4",
+      "complectations": [
+        {
+          "name": "ПРЕСТИЖ",
+          "price": "20990000",
+          "benefit": ""
+        },
+        {
+          "name": "ПРЕСТИЖ+",
+          "price": "21390000",
+          "benefit": ""
+        },
+        {
+          "name": "ЛЮКС",
+          "price": "23990000",
+          "benefit": ""
+        },
+        {
+          "name": "ЛЮКС+",
+          "price": "25690000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "Lexus": [
+    {
+      "model_name": "RX 350",
+      "model_id": "rx-350",
+      "complectations": [
+        {
+          "name": "EXECUTIVE",
+          "price": "42390000",
+          "benefit": ""
+        },
+        {
+          "name": "EXECUTIVE+",
+          "price": "45690000",
+          "benefit": ""
+        },
+        {
+          "name": "F SPORT +",
+          "price": "47290000",
+          "benefit": ""
+        },
+        {
+          "name": "LUXURY",
+          "price": "49490000",
+          "benefit": ""
+        }
+      ]
+    },
+    {
+      "model_name": "LX 600",
+      "model_id": "lx-600",
+      "complectations": [
+        {
+          "name": "F SPORT",
+          "price": "84790000",
+          "benefit": ""
+        },
+        {
+          "name": "LUXURY",
+          "price": "84990000",
+          "benefit": ""
+        },
+        {
+          "name": "OVERTRAIL",
+          "price": "85390000",
+          "benefit": ""
+        },
+        {
+          "name": "LUXURY 7S",
+          "price": "85690000",
+          "benefit": ""
+        },
+        {
+          "name": "LUXURY+",
+          "price": "87390000",
+          "benefit": ""
+        },
+        {
+          "name": "VIP",
+          "price": "94890000",
+          "benefit": ""
+        },
+        {
+          "name": "VIP BLACK EDITION",
+          "price": "95390000",
+          "benefit": ""
+        }
+      ]
+    }
+  ],
+  "VGV": [
+    {
+      "model_name": "U70PRO",
+      "model_id": "u70-pro",
+      "complectations": [
+        {
+          "name": "Comfort (5 мест)",
+          "price": "",
+          "benefit": ""
+        },
+        {
+          "name": "Comfort (7 мест)",
+          "price": "",
+          "benefit": ""
+        },
+        {
+          "name": "Lifestyle (5 мест)",
+          "price": "2549900",
+          "benefit": "150000"
+        },
+        {
+          "name": "Lifestyle (7 мест)",
+          "price": "2599900",
+          "benefit": "300000"
+        },
+        {
+          "name": "Executive (7 мест)",
+          "price": "2749900",
+          "benefit": "350000"
+        }
+      ]
+    },
+    {
+      "model_name": "U75PLUS",
+      "model_id": "u75-plus",
+      "complectations": [
+        {
+          "name": "Executive (5 мест)",
+          "price": "2949900",
+          "benefit": "350000"
+        },
+        {
+          "name": "Executive (7 мест)",
+          "price": "2999900",
+          "benefit": "350000"
+        }
+      ]
+    }
+  ],
+  "WEY": [
+    {
+      "model_name": "05",
+      "model_id": "wey-05",
+      "complectations": [
+        {
+          "name": "Premium",
+          "price": "5899000",
+          "benefit": "999000"
+        }
+      ]
+    },
+    {
+      "model_name": "07",
+      "model_id": "wey-07",
+      "complectations": [
+        {
+          "name": "Premium",
+          "price": "6599000",
+          "benefit": "600000"
+        }
+      ]
+    },
+    {
+      "model_name": "80 Premium",
+      "model_id": "wey-80-premium",
+      "complectations": [
+        {
+          "name": "Premium",
+          "price": "6899000",
+          "benefit": "600000"
+        }
+      ]
+    },
+    {
+      "model_name": "80 Business Lounge",
+      "model_id": "wey-80-business-lounge",
+      "complectations": [
+        {
+          "name": "Business Lounge",
+          "price": "7999000",
+          "benefit": "300000"
+        }
+      ]
+    }
+  ]
+}
