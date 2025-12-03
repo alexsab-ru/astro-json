@@ -121,16 +121,16 @@
       "complectations": [
         {
           "name": "Active",
-          "price": "2825990",
-          "benefit": "550000"
+          "price": "",
+          "benefit": ""
         },
         {
-          "name": "Style",
+          "name": "Style 2WD",
           "price": "2946190",
           "benefit": "440000"
         },
         {
-          "name": "Style 4WD 7DCT (177 л.с.)",
+          "name": "Style 4WD",
           "price": "3121990",
           "benefit": "500000"
         },
@@ -1043,27 +1043,27 @@
       "model_id": "geely-atlas-2024",
       "complectations": [
         {
-          "name": "Flagship 2.0T 7DCT 2WD",
+          "name": "Flagship 2WD",
           "price": "3717190",
           "benefit": "283000"
         },
         {
-          "name": "Flagship Sport 2.0T 7DCT 2WD",
+          "name": "Flagship Sport 2WD",
           "price": "3817190",
           "benefit": "333000"
         },
         {
-          "name": "Luxury 2.0T 8AT 4WD",
+          "name": "Luxury 4WD",
           "price": "3717190",
           "benefit": "283000"
         },
         {
-          "name": "Flagship 2.0T 8AT 4WD",
+          "name": "Flagship 4WD",
           "price": "3917190",
           "benefit": "283000"
         },
         {
-          "name": "Flagship 2.0T Sport 8AT 4WD",
+          "name": "Flagship Sport 4WD",
           "price": "4017190",
           "benefit": "333000"
         }
@@ -1236,17 +1236,17 @@
       "model_id": "h3",
       "complectations": [
         {
-          "name": "PREMIUM 1,5T 2WD DCT",
+          "name": "PREMIUM 2WD",
           "price": "2649000",
           "benefit": "300000"
         },
         {
-          "name": "TECH+ 1,5T 2WD DCT",
+          "name": "TECH+ 2WD",
           "price": "2899000",
           "benefit": "200000"
         },
         {
-          "name": "TECH+ 1.5T 4WD DCT",
+          "name": "TECH+ 4WD",
           "price": "3199000",
           "benefit": "200000"
         }
@@ -1257,22 +1257,22 @@
       "model_id": "h5",
       "complectations": [
         {
-          "name": "2.0T Elite",
+          "name": "Elite 2.0T",
           "price": "3699000",
           "benefit": "100000"
         },
         {
-          "name": "2.0T Premium",
+          "name": "Premium 2.0T",
           "price": "3999000",
           "benefit": "100000"
         },
         {
-          "name": "2.0D Elite",
+          "name": "Elite 2.0D",
           "price": "3649000",
           "benefit": "50000"
         },
         {
-          "name": "2.0D Premium",
+          "name": "Premium 2.0D",
           "price": "3949000",
           "benefit": "50000"
         }
@@ -1283,27 +1283,27 @@
       "model_id": "f7",
       "complectations": [
         {
-          "name": "ELITE 1,5T DCT7 2WD",
+          "name": "ELITE 1,5T",
           "price": "2649000",
           "benefit": ""
         },
         {
-          "name": "PREMIUM 1,5T DCT7 2WD",
+          "name": "PREMIUM 1,5T",
           "price": "2849000",
           "benefit": ""
         },
         {
-          "name": "ELITE 2,0T DCT7 4WD",
+          "name": "ELITE 2,0T",
           "price": "3049000",
           "benefit": ""
         },
         {
-          "name": "PREMIUM 2,0T DCT7 4WD",
+          "name": "PREMIUM 2,0T",
           "price": "3249000",
           "benefit": ""
         },
         {
-          "name": "TECH+ 2,0T DCT7 4WD",
+          "name": "TECH+ 2,0T",
           "price": "3449000",
           "benefit": ""
         }
@@ -1314,32 +1314,32 @@
       "model_id": "jolion",
       "complectations": [
         {
-          "name": "COMFORT 1,5T 2WD MT",
+          "name": "COMFORT 1,5T MT",
           "price": "1799000",
           "benefit": ""
         },
         {
-          "name": "ELITE 1,5T 2WD DCT",
+          "name": "ELITE 1,5T",
           "price": "2149000",
           "benefit": ""
         },
         {
-          "name": "PREMIUM 1,5T 2WD DCT",
+          "name": "PREMIUM 1,5T",
           "price": "2349000",
           "benefit": ""
         },
         {
-          "name": "ELITE 1,5T 4WD DCT",
+          "name": "ELITE 1,5T 4WD",
           "price": "2299000",
           "benefit": ""
         },
         {
-          "name": "PREMIUM 1,5T 4WD DCT",
+          "name": "PREMIUM 1,5T 4WD",
           "price": "2499000",
           "benefit": ""
         },
         {
-          "name": "TECH+ 1,5T 4WD DCT",
+          "name": "TECH+ 1,5T 4WD",
           "price": "2599000",
           "benefit": ""
         }
@@ -1387,17 +1387,17 @@
           "benefit": ""
         },
         {
-          "name": "ELITE 2.0T 2WD",
+          "name": "ELITE 2.0T 4WD",
           "price": "2999000",
           "benefit": ""
         },
         {
-          "name": "PREMIUM 2.0T 2WD",
+          "name": "PREMIUM 2.0T 4WD",
           "price": "3199000",
           "benefit": ""
         },
         {
-          "name": "TECH PLUS 2.0T 2WD",
+          "name": "TECH PLUS 2.0T 4WD",
           "price": "3349000",
           "benefit": ""
         }
@@ -1643,6 +1643,31 @@
           "name": "Ultimate",
           "price": "3309900",
           "benefit": "100000"
+        },
+        {
+          "name": "Active 150",
+          "price": "3259900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Active",
+          "price": "3309900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Supreme 150",
+          "price": "3459900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Supreme",
+          "price": "3509900",
+          "benefit": "100000"
+        },
+        {
+          "name": "Supreme-V",
+          "price": "3689900",
+          "benefit": "100000"
         }
       ]
     },
@@ -1687,6 +1712,11 @@
       "model_name": "J5",
       "model_id": "j5",
       "complectations": []
+    },
+    {
+      "model_name": "J6",
+      "model_id": "j6",
+      "complectations": []
     }
   ],
   "Jetour": [
@@ -1711,27 +1741,27 @@
       "model_id": "x90plus",
       "complectations": [
         {
-          "name": "Comfort 1.6T 7DCT 190 л.с. 5 мест",
+          "name": "Comfort",
           "price": "3479900",
           "benefit": "370000"
         },
         {
-          "name": "Luxury 1.6T 7DCT 190 л.с. 5 мест",
+          "name": "Luxury",
           "price": "3599900",
           "benefit": "370000"
         },
         {
-          "name": "Elite 2.0T 7DCT 245 л.с. 5 мест",
+          "name": "Elite",
           "price": "3799900",
           "benefit": "370000"
         },
         {
-          "name": "Luxury 2.0T 7DCT 245 л.с. 5 мест",
+          "name": "Luxury 2.0",
           "price": "3919900",
           "benefit": "370000"
         },
         {
-          "name": "Luxury 2.0T 7DCT 245 л.с. 7 мест",
+          "name": "Luxury 2.0 (7 мест)",
           "price": "3969900",
           "benefit": "370000"
         }
@@ -1742,17 +1772,17 @@
       "model_id": "t2",
       "complectations": [
         {
-          "name": "Voyage 2.0T (245 л.с.) 7DCT полный привод",
+          "name": "Voyage",
           "price": "3959000",
           "benefit": "300000"
         },
         {
-          "name": "Expedition 2.0T (245 л.с.) 7DCT полный привод",
+          "name": "Expedition",
           "price": "4249000",
           "benefit": "300000"
         },
         {
-          "name": "Discovery 2.0T (245 л.с.) 8AT полный привод",
+          "name": "Discovery",
           "price": "4449000",
           "benefit": "300000"
         }
@@ -1763,27 +1793,27 @@
       "model_id": "dashing",
       "complectations": [
         {
-          "name": "Comfort Plus 1.5T 6MT 147 л.с.(передний привод)",
+          "name": "Comfort Plus",
           "price": "2489900",
           "benefit": "500000"
         },
         {
-          "name": "Comfort 1.5T 6DCT 147 л.с. (передний привод)",
+          "name": "Comfort",
           "price": "2709900",
           "benefit": "500000"
         },
         {
-          "name": "Elite 1.5T 6DCT 147 л.с. (передний привод)",
+          "name": "Elite",
           "price": "2839900",
           "benefit": "500000"
         },
         {
-          "name": "Luxury 1.5T 6DCT 147 л.с. (передний привод)",
+          "name": "Luxury",
           "price": "2979900",
           "benefit": "500000"
         },
         {
-          "name": "Luxury 1.6T 7DCT 190 л.с. (передний привод)",
+          "name": "Luxury 1.6T",
           "price": "3189900",
           "benefit": "500000"
         }
@@ -1794,7 +1824,7 @@
       "model_id": "x70",
       "complectations": [
         {
-          "name": "Luxury 1.5T 6DCT 147 л.с. (передний привод)",
+          "name": "Luxury",
           "price": "2649000",
           "benefit": ""
         }
@@ -1805,12 +1835,12 @@
       "model_id": "x70plus",
       "complectations": [
         {
-          "name": "Comfort 1.6T 7DCT 190 л.с. (передний привод)",
+          "name": "Comfort",
           "price": "2999900",
           "benefit": ""
         },
         {
-          "name": "Luxury 1.6T 7DCT 190 л.с. (передний привод)",
+          "name": "Luxury",
           "price": "3299900",
           "benefit": ""
         }
@@ -1821,17 +1851,17 @@
       "model_id": "x50",
       "complectations": [
         {
-          "name": "Comfort 1.5 MPI 5MT 113 л.с. (передний привод)",
+          "name": "Comfort",
           "price": "1990000",
           "benefit": ""
         },
         {
-          "name": "Elite 1.5T 6DCT 147 л.с. (передний привод)",
+          "name": "Elite",
           "price": "2290000",
           "benefit": ""
         },
         {
-          "name": "Luxury 1.5T 6DCT 147 л.с. (передний привод)",
+          "name": "Luxury",
           "price": "2490000",
           "benefit": ""
         }
