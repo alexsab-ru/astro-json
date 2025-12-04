@@ -5,6 +5,25 @@
         "type": "",
         "view": "link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/1920-1080-ng-dzetur.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/ng-dzetur-mobile.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/jetour-connect/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000,
+        "gradient": false
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/za-rul-s-vygodoy-desktop.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/za-rul-s-vygodoy-mobile.webp"
         },
