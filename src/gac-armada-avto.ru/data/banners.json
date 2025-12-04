@@ -3,6 +3,22 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-gs8-hero-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-gs8-hero-mobile.webp"
+        },
+        "title": "GAC GS8: <br/><span class=\"font-normal uppercase\">Ваш главный <br/>новогодний <br/>подарок!</span>",
+        "descr": "<div class=\"font-normal uppercase !leading-none xs:mt-20 mt-24 sm:mt-0\"><small>В наличии <br/>С выгодой</small><div class=\"font-bold text-3xl\">{{max-benefitb-to}}</div></div>",
+        "btnUrl": "/cars/?model=gs8+ii",
+        "btn": "Подробнее",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": false,
+        "type": "",
         "view": "popup-link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/vygoda-desktop.webp",
@@ -34,7 +50,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -51,7 +67,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -68,7 +84,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -100,7 +116,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -118,7 +134,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "image": {
@@ -139,7 +155,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "image": {
@@ -160,7 +176,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "video",
         "view": "link",
         "video": {
@@ -183,7 +199,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "video",
         "view": "link",
         "video": {
@@ -206,7 +222,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "video",
         "view": "link",
         "video": {
