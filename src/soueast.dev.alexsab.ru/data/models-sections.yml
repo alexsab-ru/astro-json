@@ -97,7 +97,7 @@
     - id: engine
       title: "Технологичность, <br/>которая превосходит ожидания"
       suptitle: "Двигатель и трансмиссия"
-      text: '<picture><source media="(max-width: 767px)" srcset="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/1-mob.webp"><img src="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/1.webp" width="1496"  class="block mb-10" alt=""></picture><a class="btn !px-4 xl:!px-10" href="/test-drive/">Тест-драйв</a>'
+      text: '<picture><source media="(max-width: 767px)" srcset="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/1-mob.webp"><img src="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/1.webp" width="1496"  class="block mb-10" alt=""></picture><a class="btn px-4! xl:px-10!" href="/test-drive/">Тест-драйв</a>'
       images:
         - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/2.webp
           title: ""
@@ -170,7 +170,7 @@
     - id: aesthetics
       title: "Вдохновлен <br/>эстетикой города"
       suptitle: ""
-      text: '<video class="block w-full aspect-video object-cover mb-10" autoplay="" loop="" muted="" playsinline="" src="https://cdn.trx.tradedealer.ru/456/media/download/K7mhNj__pic-video-01.mp4" isvisible="true"></video><a class="btn !px-4 xl:!px-10" href="/cars/?model=s07">Авто в наличии</a>'
+      text: '<video class="block w-full aspect-video object-cover mb-10" autoplay="" loop="" muted="" playsinline="" src="https://cdn.trx.tradedealer.ru/456/media/download/K7mhNj__pic-video-01.mp4" isvisible="true"></video><a class="btn px-4! xl:px-10!" href="/cars/?model=s07">Авто в наличии</a>'
       images:
         - url: https://cdn.alexsab.ru/b/soueast/img/models/s07/sections/aesthetics/1.webp
           title: "Звездная решетка радиатора"
@@ -225,7 +225,7 @@
     - id: tehnology
       title: "Вдохновляет <br/>возможностями управления"
       suptitle: "Технологии"
-      text: '<picture><source media="(max-width: 767px)" type="image/webp" srcset="https://cdn.alexsab.ru/b/soueast/img/models/s07/sections/tehnology/1-mob.webp" width="414" height="733"><img src="https://cdn.alexsab.ru/b/soueast/img/models/s07/sections/tehnology/1.webp" width="3840" height="2160" class="block mb-10" alt="изображение"></picture><a class="btn !px-4 xl:!px-10" href="/test-drive/">Тест-драйв</a>'
+      text: '<picture><source media="(max-width: 767px)" type="image/webp" srcset="https://cdn.alexsab.ru/b/soueast/img/models/s07/sections/tehnology/1-mob.webp" width="414" height="733"><img src="https://cdn.alexsab.ru/b/soueast/img/models/s07/sections/tehnology/1.webp" width="3840" height="2160" class="block mb-10" alt="изображение"></picture><a class="btn px-4! xl:px-10!" href="/test-drive/">Тест-драйв</a>'
       images:
         - url: https://cdn.alexsab.ru/b/soueast/img/models/s07/sections/tehnology/2.webp
           title: "Процессор Snapdragon 8155"
