@@ -106,7 +106,7 @@
     },
     "/special-offers/specialnye-predlozheniya-na-avtomobili-geely/": {
         "title": "Специальные предложения на автомобили Geely",
-        "description": "С 01.{{month}}.{{year}} г. до {{lastDay}}.{{month}}.{{year}} г. на автомобили Geely действует выгода {{max-benefitb-to}}."
+        "description": "С 01.{{month}}.{{year}} г. до {{lastDay}}.{{month}}.{{year}} г. на автомобили Geely действует выгода до 650 000 ₽."
     },
     "/special-offers/vto/": {
         "title": "«Выгодное Техническое Обслуживание» для вашего автомобиля Geely",
