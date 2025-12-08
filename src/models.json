@@ -1651,7 +1651,7 @@
 		"mark_id": "Belgee",
 		"id": "x70",
 		"show": false,
-		"status": "enable",
+		"status": "disable",
 		"homeImg": "https://cdn.alexsab.ru/models/belgee/x70/model-bg.webp",
 		"slogan": "",
 		"name": "X70",
