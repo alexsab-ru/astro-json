@@ -4,6 +4,28 @@
     "name": "Авто в наличии"
   },
   {
+    "url": "/parts/",
+    "name": "Запчасти и аксессуары"
+  },
+  {
+    "url": "/clients/",
+    "name": "Корпоративным клиентам",
+    "children": [
+      {
+        "url": "/livan-assistance/",
+        "name": "Livan Assistance"
+      },
+      {
+        "url": "/manuals/",
+        "name": "Руководства"
+      },
+      {
+        "url": "/warranty",
+        "name": "Гарантии"
+      }
+    ]
+  },
+  {
     "url": "/models/",
     "name": "Модели",
     "children": "models"
@@ -11,6 +33,10 @@
   {
     "url": "/special-offers/",
     "name": "Спецпредложения"
+  },
+  {
+    "url": "/news/",
+    "name": "Новости"
   },
   {
     "url": "/test-drive/",
