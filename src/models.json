@@ -13396,7 +13396,8 @@
 					"Silver",
 					"Lightgray",
 					"Серебряный",
-					"Светло-серый"
+					"Светло-серый",
+					"Серый"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/jetour/img/models/t1/colors/silver.webp",
 				"style": "background-color: #a7b2bf; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
