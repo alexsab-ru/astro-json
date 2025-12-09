@@ -3,6 +3,11 @@
 		"name": "special-offers",
 		"title": "Спецпредложения",
 		"description": "Спецпредложения официального дилерского центра {{site_name}} {{brand}} {{legal_city}}"
+	},
+	{
+		"name": "news",
+		"title": "Новости",
+		"description": "Новости официального дилерского центра Альфа Livan Самара"
 	}
 ]
 
