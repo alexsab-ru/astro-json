@@ -8,8 +8,8 @@
     "name": "Запчасти и аксессуары"
   },
   {
-    "url": "/clients/",
-    "name": "Корпоративным клиентам",
+    "url": "javascript:void(0)",
+    "name": "Владельцам",
     "children": [
       {
         "url": "/livan-assistance/",
@@ -24,6 +24,10 @@
         "name": "Гарантии"
       }
     ]
+  },
+  {
+    "url": "/clients/",
+    "name": "Корпоративным клиентам"
   },
   {
     "url": "/models/",
