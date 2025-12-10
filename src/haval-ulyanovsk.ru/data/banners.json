@@ -12,14 +12,14 @@
             "mobile": "top"
         },
         "bannerUrl": "",
-        "title": "Новый <br/> JOLION",
+        "title": "<div class=\"xs:mb-28 mb-[60%] sm:mb-[70%] md:mb-[50%] lg:mb-0\"></div><div>Новый <br/> JOLION</div>",
         "descr": "<div class=\"font-bold xs:text-2xl text-3xl mt-6\">Добавь динамики <br/>в Новом году</div><div class=\"grid gap-4 *:bg-green-accent *:text-sm xs:*:text-xs sm:*:text-xl *:uppercase py-3 sm:py-5\"><p class=\"substrate-skew substrate-skew-right text-black\">3 года сервисного обслуживания<sup>*</sup></p></div>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Узнать подробнее",
         "dataFormName": "Новый Haval Jolion. Добавь динамики в Новом году. Баннер на главной",
         "badge": {
-            "descr": "<span class=\"bg-black/70 block w-fit p-2 text-left\"><sup>*</sup> Акция действительна до 31.12.2025 при покупке<br/>HAVAL JOLION, HAVAL F7, HAVAL F7x 2025года.</span>",
+            "descr": "<span class=\"bg-black/70 block w-fit p-2 text-left\"><sup>*</sup> Акция действительна до 31.12.2025 при покупке <br class=\"hidden lg:block\" />HAVAL JOLION, HAVAL F7, HAVAL F7x 2025 года.</span>",
             "position": "left"
         },
         "autoplay": 10000,
