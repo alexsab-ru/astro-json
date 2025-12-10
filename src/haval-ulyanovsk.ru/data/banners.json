@@ -5,21 +5,44 @@
         "type": "",
         "view": "popup-link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-NG-1920x800.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-NG-640x900.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-NG-1920x800-notxt.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/haval-jolion-NG-640x900-notxt.webp"
         },
         "position": {
             "mobile": "top"
         },
-        "bannerUrl": "#common-modal",
-        "title": "",
-        "descr": "",
-        "btn": "",
+        "bannerUrl": "",
+        "title": "Новый <br/> JOLION",
+        "descr": "<div class=\"font-bold xs:text-2xl text-3xl mt-6\">Добавь динамики <br/>в Новом году</div><div class=\"grid gap-4 *:bg-green-accent *:text-sm xs:*:text-xs sm:*:text-xl *:uppercase py-3 sm:py-5\"><p class=\"substrate-skew substrate-skew-right text-black\">3 года сервисного обслуживания<sup>*</sup></p></div>",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
         "dataTitle": "Узнать подробнее",
-        "dataFormName": "Новый Haval H7. 3 года сервисного обслуживания. Баннер на главной",
+        "dataFormName": "Новый Haval Jolion. Добавь динамики в Новом году. Баннер на главной",
+        "badge": {
+            "descr": "<span class=\"bg-black/70 block w-fit p-2 text-left\"><sup>*</sup> Акция действительна до 31.12.2025 при покупке<br/>HAVAL JOLION, HAVAL F7, HAVAL F7x 2025года.</span>",
+            "position": "left"
+        },
         "autoplay": 10000,
         "gradient": false
     },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/new_haval_h3_1920x800_ntx.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/haval/ulyanovsk/new_haval_h3_900x640_ntx.webp"
+        },
+        "position": {
+            "mobile": "top"
+        },
+        "btnUrl": "?brand=haval&model=h3+i#cars",
+        "title": "Новый <br/> HAVAL H3",
+        "descr": "<div class=\"grid gap-4 *:bg-green-accent *:text-sm xs:*:text-xs sm:*:text-xl *:uppercase py-3 sm:py-5\"><p class=\"substrate-skew substrate-skew-right text-black\">Зимние шины в подарок</p><p class=\"substrate-skew substrate-skew-right text-black\">З года ТО бесплатно</p><p class=\"substrate-skew substrate-skew-right text-black\">Двойной бонус от дилера до 30 декабря!</p></div><div class=\"font-bold xs:text-2xl text-3xl mt-6\">от&nbsp;{{priceb-haval-h3}}</div>",
+        "btn": "Подробнее",
+        "autoplay": 10000
+    }
     {
         "id": 1,
         "show": true,
