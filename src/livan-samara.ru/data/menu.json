@@ -4,13 +4,44 @@
     "name": "Авто в наличии"
   },
   {
-    "url": "/parts/",
-    "name": "Запчасти и аксессуары"
+    "url": "/models/",
+    "name": "Модели",
+    "children": "models"
+  },
+  {
+    "url": "javascript:void(0)",
+    "name": "Покупателям",
+    "children": [
+      {
+        "url": "/clients/",
+        "name": "Корпоративным клиентам"
+      },
+      {
+        "url": "/test-drive/",
+        "name": "Запись на тест-драйв"
+      }
+    ]
   },
   {
     "url": "javascript:void(0)",
     "name": "Владельцам",
     "children": [
+      {
+        "url": "/warranty",
+        "name": "Гарантии"
+      },
+      {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/service-request/",
+        "name": "Запись на сервис"
+      },
+      {
+        "url": "/parts/",
+        "name": "Запчасти и аксессуары"
+      },
       {
         "url": "/livan-assistance/",
         "name": "Livan Assistance"
@@ -18,45 +49,26 @@
       {
         "url": "/manuals/",
         "name": "Руководства"
-      },
-      {
-        "url": "/warranty",
-        "name": "Гарантии"
       }
     ]
   },
   {
-    "url": "/clients/",
-    "name": "Корпоративным клиентам"
-  },
-  {
-    "url": "/models/",
-    "name": "Модели",
-    "children": "models"
-  },
-  {
-    "url": "/special-offers/",
-    "name": "Спецпредложения"
-  },
-  {
-    "url": "/news/",
-    "name": "Новости"
-  },
-  {
-    "url": "/test-drive/",
-    "name": "Запись на тест-драйв"
-  },
-  {
-    "url": "/service-request/",
-    "name": "Запись на сервис"
+    "url": "javascript:void(0)",
+    "name": "Мир LIVAN",
+    "children": [
+      {
+        "url": "/news/",
+        "name": "Новости"
+      },
+      {
+        "url": "/brand-history/",
+        "name": "История бренда"
+      }
+    ]
   },
   {
     "url": "/#services",
     "name": "Услуги"
-  },
-  {
-    "url": "/brand-history/",
-    "name": "История бренда"
   },
   {
     "url": "/contacts/",
