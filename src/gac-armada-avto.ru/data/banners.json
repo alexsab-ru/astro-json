@@ -3,6 +3,26 @@
         "id": 1,
         "show": true,
         "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/gac-leasing-1920x720.jpg",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/gac/gac-leasing-1024x1024.jpg",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/gac-leasing-640x900.jpg",
+            "special": "https://cdn.alexsab.ru/main-sliders/gac/gac-leasing-600x340.jpg"
+        },
+        "title": "<span class=\"font-normal uppercase xs:text-lg text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-tight sm:leading-normal\">Специальные условия <br class=\"hidden sm:block\"/>на&nbsp;GAC в&nbsp;лизинг!</span>",
+        "descr": "<div class=\"font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl uppercase !leading-tight sm:!leading-none mt-4 sm:mt-6 md:mt-8\">Выгода до -11%</div><div class=\"font-bold text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-2 sm:mt-3\">Только до конца декабря!</div>",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Специальные условия на GAC в&nbsp;лизинг!",
+        "dataFormName": "Узнать подробнее. GAC в лизинг. Выгода до -11%. Баннер",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-gs8-hero-desktop.webp",
