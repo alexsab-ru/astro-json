@@ -1,9 +1,5 @@
 [
   {
-    "url": "/used_cars/",
-    "name": "Авто с пробегом"
-  },
-  {
     "url": "/models/",
     "name": "Модели",
     "children": "models"
