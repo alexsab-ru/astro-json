@@ -11301,6 +11301,18 @@
 		"name": "RF8",
 		"cyrillic": "Эр Эф 8",
 		"thumb": "https://cdn.alexsab.ru/b/jac/img/models/rf8/thumb.webp",
+		"price": "{{price-jac-rf8}}",
+		"benefit": "{{benefit-jac-rf8}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": " Выгодный кредит",
+				"icon_name": "mdi:gift-outline",
+				"data_title": " Выгодный кредит",
+				"data_form_name": " Выгодный кредит. Jac RF8",
+				"view": "popup-link"
+			}
+		],
 		"colors": [
 			{
 				"id": "white",
