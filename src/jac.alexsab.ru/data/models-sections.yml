@@ -2,8 +2,68 @@
   sections:
     - id: hero
       sectionClass: "!bg-gray-100"
-      title: "JAC ОТКРЫВАЕТ ПРЕДЗАКАЗЫ НА НОВЫЙ МИНИВЭН RF8"
-      text: '<img src="https://cdn.alexsab.ru/b/jac/img/models/rf8/sections/news-1-desktop.webp" alt="JAC RF8" fetchpriority="auto"><div class="mt-10 lg:text-xl space-y-5"><p>JAC объявляет о старте сбора заказов на ожидаемую новинку – минивэн RF8.</p><p>Модель создана для различных задач: бизнеса, комфортных путешествий, а также для повседневных семейных поездок с детьми.</p><p>Многофункциональный семиместный салон предлагает много вариантов трансформации в зависимости от потребностей клиента. Сиденья третьего ряда оснащены системой продольного перемещения до 240 мм, что позволяет гибко перераспределять пространство между пассажирской зоной и багажным отделением. Багажное отделение объемом 700-2500 л предоставляет широкие возможности для размещения груза.</p><p>Безопасность является одним из ключевых приоритетов модели. JAC RF8 оснащается полным комплексом лучших в своем классе систем активной безопасности, включая: систему распознавания дорожных знаков, систему предупреждения об открытии двери, систему помощи при движении в пробках, систему кругового обзора 540° с функцией «прозрачное шасси».</p><p>Высокий уровень комфорта в салоне обеспечен и водителю, и пассажирам всех трех рядов: от электрического привода сдвижных дверей и панорамного люка до трехзонного климат-контроля, вентиляции, массажа и подогрева кресел. Салон дополняет многофункциональная медиасистема с художественным оформлением интерфейса, настраиваемая панель приборов, а также 64-цветная подсветка и премиальная аудиосистема с 12 динамиками.</p><p>Забронировать новый JAC RF8 можно уже сейчас по <a class="popup-link text-accent-500 underline hover:no-underline" href="#common-modal" data-title="Предзаказ JAC RF8" data-form_name="Предзаказ. JAC RF8"><span>ссылке</span></a>. Комплектации и цены будут объявлены позже. Ожидается, что RF8 будет одним из самых привлекательных предложений в сегменте.</p></div>'
+      title: "Минивэн для любого момента вашей жизни"
+      text: 'Бизнес, путешествия, поездки с детьми, активные виды спорта: на все случаи жизни один автомобиль – JAC RF8. Его сбалансированные габариты, мощный двигатель, автоматическая коробка передач и богатое оснащение салона точно порадуют вас, вашу семью, коллег и партнеров.'
+      items:
+        - icon: mdi:engine-outline
+          text: 2.0 л, 236 л.с. (<small>при 5500 об./мин</small>)<br />бензиновый двигатель
+        - icon: mdi:car-shift-pattern
+          text: 8-ступенчатая<br />АКПП
+        - icon: mdi:car-estate
+          text: 7 мест<br />трансформируемый салон
+    - id: video
+      text: |
+        <video class="mt-10 aspect-video" muted playsinline autoplay loop preload="metadata"><source src="https://cdn.alexsab.ru/models/jac/rf8/sections/video/rf8.mp4" type="video/mp4"></video>
+    - id: gallery
+      title: Привлекательная внешность. Для любого момента вашей жизни
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/6.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/7.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/8.webp
+    - id: interior
+      title: Универсальный салон. Для любого момента вашей жизни.
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/interior/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/interior/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/interior/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/interior/4.webp
+    - id: safety
+      title: Ваша безопасность – его приоритет
+      text: JAC RF8 создан с учётом новейших технологий и строгих стандартов безопасности, чтобы обеспечить надёжную защиту водителя и пассажиров на дороге.
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/safety/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/safety/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/safety/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/safety/4.webp
+    - id: technologies
+      title: Технические характеристики
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/technologies/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/technologies/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/technologies/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/technologies/4.webp
+    - id: gallery2
+      title: Эффектный дебют JAC RF8 на премии журнала ОК! «Больше чем звезды»
+      text: |
+        Минивэн JAC RF8 впервые появился на российских дорогах во время церемонии вручения премии журнала ОК! «Больше чем звезды».
+        Он выполнял роль шаттлов для долгожданных гостей мероприятия, которые смогли одними из первых протестировать модель в роли пассажиров. RF8 с комфортом и простором доставил номинантов к назначенному времени.
+      images:
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/1.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/2.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/3.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/4.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/5.webp
+        - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/6.webp
+    - id: prices
+      sectionClass: ""
+      title: Комплектации и цены
+      text: |
+        <p><span><a href='https://jaccar.ru/JAC_RF8_price_2025-2026_model_year-081225_9739920547919182782.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: js3
   sections:
     - id: items
