@@ -11294,26 +11294,123 @@
 	{
 		"mark_id": "JAC",
 		"id": "rf8",
-		"show": false,
-		"status": "preorder",
-		"homeImg": "https://cdn.alexsab.ru/b/jac/img/models/rf8/bg.webp",
+		"show": true,
+		"status": "enable",
+		"homeImg": "https://cdn.alexsab.ru/models/jac/rf8/rf8.webp",
 		"slogan": "Минивэн для любого момента вашей жизни",
 		"name": "RF8",
 		"cyrillic": "Эр Эф 8",
 		"thumb": "https://cdn.alexsab.ru/b/jac/img/models/rf8/thumb.webp",
 		"colors": [
 			{
+				"id": "white",
+				"name": "Белый глянец",
+				"names": [
+					"белый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/jac/rf8/colors/white.webp",
+				"style": "background-color: #fefefe"
+			},
+			{
+				"id": "light-grey",
+				"name": "Светло-серый",
+				"names": [
+					"светло-серый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/jac/rf8/colors/light-grey.webp",
+				"style": "background-image: linear-gradient(180deg, #b8b8b8, #c6c6c6 50%, #b8b8b8 50%);"
+			},
+			{
+				"id": "grey-platinum",
+				"name": "Серая платина",
+				"names": [
+					"серый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/jac/rf8/colors/grey-platinum.webp",
+				"style": "background-image: linear-gradient(180deg, #a1a1a1, #b3b3b3 50%, #a1a1a1 50%);"
+			},
+			{
+				"id": "blue",
+				"name": "Чернильно-синий",
+				"names": [
+					"синий"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/jac/rf8/colors/blue.webp",
+				"style": "background-image: linear-gradient(180deg, #313e55, #586274 50%, #313e55 50%);"
+			},
+			{
 				"id": "black",
-				"name": "Черный",
+				"name": "Черный жемчуг",
 				"names": [
 					"черный",
 					"чёрный"
 				],
-				"carImage": "https://cdn.alexsab.ru/b/jac/img/models/rf8/colors/black.webp",
-				"style": ""
+				"carImage": "https://cdn.alexsab.ru/models/jac/rf8/colors/black.webp",
+				"style": "background-image: linear-gradient(180deg, #060606, #303030 50%, #000000 50%);"
 			}
 		],
-		"chars": {}
+		"feed_names": [
+			"RF8"
+		],
+		"photos": "",
+		"chars": {
+			"seats": "7 мест",
+			"fuel": "Бензин",
+			"gearbox": "8AT"
+		},
+		"complectations": [
+			{
+				"name": "FLAGSHIP",
+				"price": "4700000",
+				"bodytype": "Минивэн",
+				"engine": "2.0 м3",
+				"engine_power": "236",
+				"gear_rus": "AT",
+				"drive": "Передний",
+				"fuel": "Бензин"
+			}
+		],
+		"testDrive": true,
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "3100",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "5215",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1895",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "2.0",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "390",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Передний",
+				"measure": ""
+			}
+		],
+		"priceDisclaimer": "",
+		"benefitDisclaimer": ""
 	},
 	{
 		"mark_id": "JAC",
