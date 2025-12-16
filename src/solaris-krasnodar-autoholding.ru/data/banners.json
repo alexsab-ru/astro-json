@@ -5,6 +5,30 @@
         "type": "",
         "view": "link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/ng-2026-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/solaris/ng-2026-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/ng-2026-mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "20%"
+        },
+        "title": "Solaris HC",
+        "descr": "Зима за рулем легенды от {{priceb-solaris-hc}} <span class=\"tooltip-icon\" data-text=\"Цена достигается за счет выгоды 110 000 рублей по трейд-ин на автомобиль Solaris HC комплектации Prime с двигателем 1.6л, 123 л.с., 6MT, 2025 года производства в дилерских центрах Solaris по данным ООО «АГР». Выгода представляется при сдаче в трейд-ин автомобилей любых марок. Сдаваемый автомобиль должен состоять на учете в ГИБДД, находиться в собственности не менее 6 (шести) месяцев на момент использования его в качестве оплаты за новый. Комплектации автомобилей в наличии могут отличаться от изображения, представленного в данной рекламе. Некоторое из указанного оборудования не входит в базовую комплектацию и устанавливается за дополнительную плату. Не оферта. Реклама. ООО \"АГР\". ИНН 5042059767. Юридический адрес: 248926, Калужская обл., г. Калуга, ул.Автомобильная, д.1 \"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z\" /></svg></span><br /><br /><div class=\"text-xs\">ОЦЕНИВАЙТЕ СВОИ ФИНАНСОВЫЕ ВОЗМОЖНОСТИ И РИСКИ.<br />ИЗУЧИТЕ ВСЕ УСЛОВИЯ КРЕДИТА (ЗАЙМА) НА САЙТЕ:<br /> <a target=\"_blank\" href=\"https://www.vtb.ru/\">WWW.VTB.RU</a>  В РАЗДЕЛЕ «АВТОКРЕДИТЫ».<br />Полная стоимость кредита от 0,01% до 23,892% годовых.</div>",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/credits/",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/car-year-2025-vertical.webp",
+            "position": "left"
+        },
+        "autoplay": 10000
+    },
+    {
+        "id": 2,
+        "show": false,
+        "type": "",
+        "view": "link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hc_desktop.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/solaris-hc_mobile.webp"
         },
@@ -91,15 +115,16 @@
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/krs.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/krs-mobile.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/krs-winter-2025-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/solaris/krs-winter-2025-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/krs-winter-2025-mobile.webp"
         },
         "position": {
             "desktop": "bottom",
             "mobile": "20%"
         },
         "title": "SOLARIS KRS <br/>ДВИГАЙСЯ В РИТМЕ РИО!",
-        "descr": "ЦЕНА ОТ {{priceb-solaris-krs}}",
+        "descr": "ЦЕНА ОТ {{priceb-solaris-krs}}<span>&nbsp;</span><span class=\"tooltip-icon\" data-text=\"Цена достигается за счет выгоды 110 000 рублей по трейд-ин. Выгода представляется при сдаче в трейд-ин автомобилей любых марок. Сдаваемый автомобиль должен состоять на учете в ГИБДД, находиться в собственности не менее 6 (шести) месяцев на момент использования его в качестве оплаты за новый. Комплектации автомобилей в наличии могут отличаться от изображения, представленного в данном рекламе. Некоторое из указанного оборудования не входит в базовую комплектацию и устанавливается за дополнительную плату. РИО - Рио-де-Жанейро, город в Бразилии. KRX - КаЭрИкс. Не оферта. Реклама. ООО \"АГР\". ИНН 5042059767. Юридический адрес: 248926, Калужская обл., г. Калуга, ул. Автомобильная, д.1 \"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z\" /></svg></span>",
         "btn": "Подробнее",
         "btnUrl": "/models/krs/",
         "dataTitle": "",
@@ -113,15 +138,16 @@
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/krx.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/krx-mobile.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/krx-winter-2025-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/solaris/krx-winter-2025-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/krx-winter-2025-mobile.webp"
         },
         "position": {
             "desktop": "bottom",
             "mobile": "20%"
         },
-        "title": "SOLARIS KRX <br/>ДВИГАЙСЯ В РИТМЕ РИО!",
-        "descr": "ЦЕНА ОТ {{priceb-solaris-krx}}",
+        "title": "SOLARIS KRX <br/>Зима В РИТМЕ РИО!",
+        "descr": "ЦЕНА ОТ {{priceb-solaris-krx}}<span>&nbsp;</span><span class=\"tooltip-icon\" data-text=\"Цена достигается за счет выгоды 110 000 рублей по трейд-ин. Выгода представляется при сдаче в трейд-ин автомобилей любых марок. Сдаваемый автомобиль должен состоять на учете в ГИБДД, находиться в собственности не менее 6 (шести) месяцев на момент использования его в качестве оплаты за новый. Комплектации автомобилей в наличии могут отличаться от изображения, представленного в данном рекламе. Некоторое из указанного оборудования не входит в базовую комплектацию и устанавливается за дополнительную плату. РИО - Рио-де-Жанейро, город в Бразилии. KRX - КаЭрИкс. Не оферта. Реклама. ООО \"АГР\". ИНН 5042059767. Юридический адрес: 248926, Калужская обл., г. Калуга, ул. Автомобильная, д.1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z\" /></svg></span>",
         "btn": "Подробнее",
         "btnUrl": "/models/krx/",
         "dataTitle": "",
