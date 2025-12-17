@@ -14,11 +14,11 @@
             "mobile": "20%"
         },
         "title": "Solaris HC",
-        "descr": "Зима за рулем легенды от {{priceb-solaris-hc}} <div class=\"text-xs\">ОЦЕНИВАЙТЕ СВОИ ФИНАНСОВЫЕ ВОЗМОЖНОСТИ И РИСКИ.<br />ИЗУЧИТЕ ВСЕ УСЛОВИЯ КРЕДИТА (ЗАЙМА) НА САЙТЕ:<br /> <a target=\"_blank\" href=\"https://www.vtb.ru/\">WWW.VTB.RU</a>  В РАЗДЕЛЕ «АВТОКРЕДИТЫ».<br />Полная стоимость кредита от 0,01% до 23,892% годовых.</div>",
+        "descr": "Зима за рулем легенды от {{priceb-solaris-hc}}<br /><img class=\"mt-4\" src=\"https://cdn.alexsab.ru/badges/car-year-2025-vertical.webp\" alt=\"Solaris HC\" />",
         "btn": "Подробнее",
         "btnUrl": "/special-offers/credits/",
         "badge": {
-            "image": "https://cdn.alexsab.ru/badges/car-year-2025-vertical.webp",
+            "descr": "* ОЦЕНИВАЙТЕ СВОИ ФИНАНСОВЫЕ ВОЗМОЖНОСТИ И РИСКИ.<br />ИЗУЧИТЕ ВСЕ УСЛОВИЯ КРЕДИТА (ЗАЙМА) НА САЙТЕ:<br /> <a target=\"_blank\" href=\"https://www.vtb.ru/\">WWW.VTB.RU</a>  В РАЗДЕЛЕ «АВТОКРЕДИТЫ».<br />Полная стоимость кредита от 0,01% до 23,892% годовых.",
             "position": "left"
         },
         "autoplay": 10000
@@ -120,8 +120,8 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/krs-winter-2025-mobile.webp"
         },
         "position": {
-            "desktop": "bottom",
-            "mobile": "20%"
+            "desktop": "center",
+            "mobile": "center"
         },
         "title": "SOLARIS KRS <br/>ДВИГАЙСЯ В РИТМЕ РИО!",
         "descr": "ЦЕНА ОТ {{priceb-solaris-krs}}",
@@ -143,8 +143,8 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/krx-winter-2025-mobile.webp"
         },
         "position": {
-            "desktop": "bottom",
-            "mobile": "20%"
+            "desktop": "center",
+            "mobile": "center"
         },
         "title": "SOLARIS KRX <br/>Зима В РИТМЕ РИО!",
         "descr": "ЦЕНА ОТ {{priceb-solaris-krx}}",
