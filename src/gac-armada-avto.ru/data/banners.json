@@ -10,7 +10,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/gac/gac-leasing-640x900.jpg",
             "special": "https://cdn.alexsab.ru/main-sliders/gac/gac-leasing-600x340.jpg"
         },
-        "title": "<span class=\"font-normal uppercase xs:text-lg text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-tight sm:leading-normal\">Специальные условия <br class=\"hidden sm:block\"/>на&nbsp;GAC в&nbsp;лизинг!</span>",
+        "title": "<span class=\"font-normal uppercase xs:text-lg text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-none!\">Специальные условия <br class=\"hidden sm:block\"/>на&nbsp;GAC в&nbsp;лизинг!</span>",
         "descr": "<div class=\"font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl uppercase leading-tight! sm:leading-none! mt-4 sm:mt-6 md:mt-8\">Выгода до -11%</div><div class=\"font-bold text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-2 sm:mt-3\">Только до конца декабря!</div>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
@@ -29,7 +29,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-gs8-hero-mobile.webp"
         },
         "title": "GAC GS8: <br/><span class=\"font-normal uppercase\">Ваш главный <br/>новогодний <br/>подарок!</span>",
-        "descr": "<div class=\"font-normal uppercase leading-none! xs:mt-20 mt-24 sm:mt-0\"><small>В наличии <br/>С выгодой</small><div class=\"font-bold text-3xl\">{{max-benefitb-to}}</div></div>",
+        "descr": "<span class=\"font-normal uppercase leading-none! xs:mt-20 mt-24 sm:mt-0\"><small class=\"text-sm leading-none!\">В наличии<small/><small class=\"text-sm leading-none! block\">С выгодой</small><span class=\"font-bold text-3xl block\">{{max-benefitb-to}}</span></span>",
         "btnUrl": "/cars/?model=gs8+ii",
         "btn": "Подробнее",
         "badge": "",
