@@ -1,7 +1,7 @@
 - id: "300"
   sections:
     - id: hero
-      sectionClass: "!bg-gray-100"
+      sectionClass: "bg-gray-100!"
       title: "Сочетает несочетаемое"
       text: '<p class="mb-10">Неукротимый внешний вид образует единое целое с впечатляющим комфортным интерьером. А простое на первый взгляд управление — результат множества интеллектуальных функций.</p><video class="block w-full aspect-video object-cover" preload="metadata" autoplay loop playsinline muted poster="https://cdn.alexsab.ru/b/tank/img/models/300/hero.webp"><source src="https://tank.ru/uploads/blocks/b5927b3b8330a9e9ca742ce1c47247fb.mp4" type="video/mp4"></video>'
 
@@ -130,7 +130,7 @@
 - id: "500"
   sections:
     - id: hero
-      sectionClass: "!bg-gray-100"
+      sectionClass: "bg-gray-100!"
       title: "Расширяет зону комфорта"
       text: '<p class="mb-10">Где бы ты ни оказался, вместе с TANK ты ощущаешь уверенность в своих силах благодаря убедительному дизайну и техническому преимуществу.</p><video class="block w-full aspect-video object-cover" preload="metadata" autoplay loop playsinline muted poster="https://cdn.alexsab.ru/b/tank/img/models/500/hero.webp"><source src="https://tank.ru/uploads/blocks/4e535a9df30648319e18cbe2e27770d1.mp4" type="video/mp4"></video>'
 
