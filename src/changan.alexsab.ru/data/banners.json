@@ -9,8 +9,8 @@
             "tablet": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/tablet.webp?v",
             "mobile": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/mobile.webp?v"
         },
-        "title": "Цена от {{price-changan-cs75plus-new}}",
-        "descr": "Долгожданный CS75PLUS NEW с полным приводом (AWD) уже в России.",
+        "title": "",
+        "descr": "Долгожданный CS75PLUS NEW<br />с полным приводом<br />(AWD) уже в России.",
         "btn": "Подробнее",
         "btnUrl": "/models/cs75plusnew/",
         "dataTitle": "",
@@ -32,8 +32,8 @@
             "desktop": "center",
             "mobile": "center"
         },
-        "title": "Акция по проверке тормозной системы",
-        "descr": "Только до 31го января! Подготовьтесь к зиме выгодно с CHANGAN!",
+        "title": "",
+        "descr": "Акция по проверке тормозной<br />системы - только до 31го января!<br />Подготовьтесь к зиме<br />выгодно с CHANGAN!",
         "btn": "Подробнее",
         "btnUrl": "/special-offers/zima-uverennost-vmeste-s-changa/",
         "dataTitle": "",
@@ -49,8 +49,8 @@
         "video": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/changan/cs35plusnew/video.mp4"
         },
-        "title": "Симфония технологий!",
-        "descr": "",
+        "title": "",
+        "descr": "Симфония технологий!",
         "btn": "Подробнее",
         "btnUrl": "/models/cs35plusnew/",
         "dataTitle": "",
@@ -72,8 +72,8 @@
             "desktop": "center",
             "mobile": "center"
         },
-        "title": "Всем светит выгода",
-        "descr": "Полная стоиомсть кредита – от 0.01 до 15%<br /><span class='bg-red-500 px-3'>на 8 лет</span>",
+        "title": "",
+        "descr": "Всем светит выгода.<br />Полная стоиомсть кредита -<br />от 0.01 до 15%<br /><span class='bg-red-500 px-3'>на 8 лет</span>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Всем светит выгода",
@@ -95,8 +95,8 @@
             "desktop": "center",
             "mobile": "center"
         },
-        "title": "Выгода на CHANGAN",
-        "descr": "Почувствуй пульс города!",
+        "title": "",
+        "descr": "Выгода на CHANGAN<br />Почувствуй пульс города!",
         "btn": "Подробнее",
         "btnUrl": "/models/cs35plusnew/",
         "dataTitle": "",
@@ -118,8 +118,8 @@
             "desktop": "center",
             "mobile": "center"
         },
-        "title": "Мы обеспечиваем владельцам автомобилей CHANGAN круглосуточную поддержку 7 дней в неделю.",
-        "descr": "",
+        "title": "",
+        "descr": "Мы обеспечиваем владельцам<br />автомобилей CHANGAN<br /> круглосуточную поддержку 7<br /> дней в неделю.",
         "btn": "Подробнее",
         "btnUrl": "/roadside-assistance/",
         "dataTitle": "",
@@ -141,8 +141,8 @@
             "desktop": "center",
             "mobile": "center"
         },
-        "title": "Будьте в курсе новостей с CHANGAN! Присоединяйтесь к официальному сообществу бренда в Telegram",
-        "descr": "",
+        "title": "",
+        "descr": "Будьте в курсе новостей с<br />CHANGAN!Присоединяйтесь к<br />официальному сообществу<br />бренда в Telegram",
         "btn": "Подпишитесь",
         "btnUrl": "https://t.me/changanrf",
         "dataTitle": "",
@@ -210,8 +210,8 @@
             "desktop": "center",
             "mobile": "center"
         },
-        "title": "Специальные условия для такси",
-        "descr": "",
+        "title": "",
+        "descr": "Специальные условия для<br />такси",
         "btn": "Подробнее",
         "btnUrl": "/corporate-clients/",
         "dataTitle": "",
