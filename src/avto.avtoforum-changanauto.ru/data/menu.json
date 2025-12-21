@@ -1,0 +1,55 @@
+[
+  {
+    "url": "/cars/",
+    "name": "Авто в наличии"
+  },
+  {
+    "url": "/models/",
+    "name": "Модели",
+    "children": "models"
+  },
+  {
+    "url": "javascript:void(0)",
+    "name": "Покупателям",
+    "children": [
+      {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/corporate-clients/",
+        "name": "Корпоративным клиентам"
+      }
+    ]
+  },
+  {
+    "url": "javascript:void(0)",
+    "name": "Владельцам",
+    "children": [
+      {
+        "url": "/special-offers/",
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/roadside-assistance/",
+        "name": "Помощь на дороге"
+      }
+    ]
+  },
+  {
+    "url": "/test-drive/",
+    "name": "Запись на тест-драйв"
+  },
+  {
+    "url": "/service-request/",
+    "name": "Запись на сервис"
+  },
+  {
+    "url": "/#services",
+    "name": "Услуги"
+  },
+  {
+    "url": "/contacts/",
+    "name": "Контакты"
+  }
+]

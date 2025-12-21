@@ -1,0 +1,82 @@
+[
+  {
+    "id": "changan-alsvin",
+    "brand": "changan",
+    "model": "ALSVIN",
+    "price": "1850000",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/alsvin"
+  },
+  {
+    "id": "changan-cs35plus-new",
+    "brand": "changan",
+    "model": "CS35PLUS",
+    "price": "2589900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/cs35plus-new"
+  },
+  {
+    "id": "changan-cs55plus",
+    "brand": "changan",
+    "model": "CS55 PLUS",
+    "price": "2879900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/cs55plus"
+  },
+  {
+    "id": "changan-cs75plus-gen4",
+    "brand": "changan",
+    "model": "CS75PLUS NEW",
+    "price": "3999900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/cs75plus-gen4"
+  },
+  {
+    "id": "changan-cs75plus-new",
+    "brand": "changan",
+    "model": "CS75PLUS",
+    "price": "3490000",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/cs75plus-new"
+  },
+  {
+    "id": "changan-cs95new",
+    "brand": "changan",
+    "model": "CS95",
+    "price": "4529900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/cs95new"
+  },
+  {
+    "id": "changan-eadoplus",
+    "brand": "changan",
+    "model": "EADOplus",
+    "price": "2329900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/eadoplus"
+  },
+  {
+    "id": "changan-hunterplus",
+    "brand": "changan",
+    "model": "HUNTER PLUS",
+    "price": "3739900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/hunterplus"
+  },
+  {
+    "id": "changan-lamore",
+    "brand": "changan",
+    "model": "Lamore",
+    "price": "2869900",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/lamore"
+  },
+  {
+    "id": "changan-star-truck",
+    "brand": "changan",
+    "model": "Star Truck",
+    "price": "2069000",
+    "benefit": "",
+    "link": "https://changanauto.ru/model/star-truck"
+  }
+]
