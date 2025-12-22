@@ -2690,8 +2690,8 @@
 	{
 		"mark_id": "Changan",
 		"id": "cs75plus",
-		"show": true,
-		"status": "enable",
+		"show": false,
+		"status": "disable",
 		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
 		"slogan": "Вдохновлен путешествиями",
 		"name": "CS75plus",
@@ -2832,8 +2832,8 @@
 	{
 		"mark_id": "Changan",
 		"id": "cs85coupe",
-		"show": true,
-		"status": "enable",
+		"show": false,
+		"status": "disable",
 		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
 		"slogan": "Стиль жизни",
 		"name": "CS85COUPE",
