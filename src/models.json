@@ -1891,7 +1891,8 @@
 				"id": "atomic-grey",
 				"name": "Атомный серый",
 				"names": [
-					"серый"
+					"Серый(светлый)",
+					"Светло-серый"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_atomic_grey.webp",
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/atomic_grey.webp')"
@@ -1900,6 +1901,7 @@
 				"id": "deep-black",
 				"name": "Глубокий черный",
 				"names": [
+					"Черный",
 					"синий с черным"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_deep_black.webp",
@@ -1909,7 +1911,8 @@
 				"id": "mountain-grey",
 				"name": "Горный серый",
 				"names": [
-					"серый"
+					"Серый(темный)",
+					"Темно-серый"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_mountain_grey.webp",
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/mountain_grey.webp')"
