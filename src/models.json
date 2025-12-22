@@ -1925,7 +1925,8 @@
 			}
 		],
 		"feed_names": [
-			"CS75 Plus, III"
+			"CS75PLUS  IV",
+			"CS75PLUS, IV"
 		],
 		"photos": "",
 		"chars": {
@@ -2168,6 +2169,7 @@
 				"id": "ashen-grey",
 				"name": "Горный серый",
 				"names": [
+					"Серый(темный)",
 					"Mountain_grey",
 					"Горный серый",
 					"Серый"
@@ -2190,6 +2192,7 @@
 				"id": "mountain-grey",
 				"name": "Серебристый пепел",
 				"names": [
+					"Серый(светлый)",
 					"Ashen_grey",
 					"Серебряный",
 					"Серебристый пепел",
@@ -2200,6 +2203,7 @@
 			}
 		],
 		"feed_names": [
+			"CS35 Plus MCA",
 			"CS35PLUS, I Рестайлинг",
 			"CS35 Plus, I Рестайлинг"
 		],
@@ -2986,8 +2990,8 @@
 	{
 		"mark_id": "Changan",
 		"id": "cs95",
-		"show": true,
-		"status": "enable",
+		"show": false,
+		"status": "disable",
 		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
 		"slogan": "Новые горизонты",
 		"name": "CS95",
@@ -3172,6 +3176,7 @@
 			}
 		],
 		"feed_names": [
+			"CS95NEW",
 			"CS95PLUS"
 		],
 		"photos": "",
@@ -3272,6 +3277,7 @@
 				"id": "atomic-grey",
 				"name": "Атомный серый",
 				"names": [
+					"Серый(светлый)",
 					"Atomic_grey",
 					"Атомный серый",
 					"Серый"
@@ -3283,6 +3289,7 @@
 				"id": "star-grey",
 				"name": "Звездный серый",
 				"names": [
+					"Серый(темный)",
 					"Star_grey",
 					"Звездный серый",
 					"Темно-серый"
@@ -3579,6 +3586,7 @@
 				"id": "atomic-grey",
 				"name": "Атомный серый",
 				"names": [
+					"Серый(светлый)",
 					"Atomic-grey",
 					"Атомный серый"
 				],
@@ -3589,6 +3597,7 @@
 				"id": "star-grey",
 				"name": "Звездный серый",
 				"names": [
+					"Серый(темный)",
 					"Серый",
 					"Star-grey",
 					"Звездный серый"
@@ -3732,7 +3741,9 @@
 				"id": "silver-grey",
 				"name": "Серебристый серый",
 				"names": [
+					"Серый",
 					"Silver-grey",
+					"Серый(светлый)",
 					"Серебристый серый",
 					"Серебряный"
 				],
@@ -3744,6 +3755,7 @@
 				"name": "Горный серый",
 				"names": [
 					"Серый",
+					"Серый(темный)",
 					"Mountain-grey",
 					"Горный серый"
 				],
