@@ -1888,7 +1888,7 @@
 		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/cs75plus_new_atomic_grey.webp",
 		"colors": [
 			{
-				"id": "atomic_grey",
+				"id": "atomic-grey",
 				"name": "Атомный серый",
 				"names": [
 					"серый"
@@ -1897,7 +1897,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/atomic_grey.webp')"
 			},
 			{
-				"id": "deep_black",
+				"id": "deep-black",
 				"name": "Глубокий черный",
 				"names": [
 					"синий с черным"
@@ -1906,7 +1906,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/deep_black.webp')"
 			},
 			{
-				"id": "mountain_grey",
+				"id": "mountain-grey",
 				"name": "Горный серый",
 				"names": [
 					"серый"
@@ -1915,7 +1915,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plusnew/colors/mountain_grey.webp')"
 			},
 			{
-				"id": "crystal_white",
+				"id": "crystal-white",
 				"name": "Кристальный белый",
 				"names": [
 					"белый"
@@ -2011,7 +2011,7 @@
 		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/cs55plus_atomic_grey.webp",
 		"colors": [
 			{
-				"id": "atomic_grey",
+				"id": "atomic-grey",
 				"name": "Атомный серый",
 				"names": [
 					"Atomic_grey",
@@ -2022,7 +2022,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/atomic-grey.webp')"
 			},
 			{
-				"id": "deep_black",
+				"id": "deep-black",
 				"name": "Глубокий черный",
 				"names": [
 					"Deep_black",
@@ -2033,7 +2033,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/pitch-black.webp')"
 			},
 			{
-				"id": "pearl_white",
+				"id": "pearl-white",
 				"name": "Перламутровый белый",
 				"names": [
 					"Pearl_white",
@@ -2044,7 +2044,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/pearl-white.webp')"
 			},
 			{
-				"id": "spark_red",
+				"id": "spark-red",
 				"name": "Искрящийся красный",
 				"names": [
 					"Spark_red",
@@ -2055,7 +2055,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs55plus/colors/spark-red.webp')"
 			},
 			{
-				"id": "star_grey",
+				"id": "star-grey",
 				"name": "Звездный серый",
 				"names": [
 					"Star_grey",
@@ -2154,7 +2154,7 @@
 		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/cs35plusnew_crystal_white.webp",
 		"colors": [
 			{
-				"id": "crystal_white",
+				"id": "crystal-white",
 				"name": "Кристально белый",
 				"names": [
 					"Crystal_white",
@@ -2165,7 +2165,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/crystal_white.webp')"
 			},
 			{
-				"id": "ashen_grey",
+				"id": "ashen-grey",
 				"name": "Горный серый",
 				"names": [
 					"Mountain_grey",
@@ -2176,7 +2176,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/ashen_grey.webp')"
 			},
 			{
-				"id": "spark_red",
+				"id": "spark-red",
 				"name": "Искрящийся красный",
 				"names": [
 					"Spark_red",
@@ -2187,7 +2187,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs35plusnew/colors/spark_red.webp')"
 			},
 			{
-				"id": "mountain_grey",
+				"id": "mountain-grey",
 				"name": "Серебристый пепел",
 				"names": [
 					"Ashen_grey",
@@ -2445,7 +2445,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/eadoplus/colors/black.webp')"
 			},
 			{
-				"id": "grey",
+				"id": "gray",
 				"name": "Космический серый",
 				"names": [
 					"Grey",
@@ -2577,7 +2577,7 @@
 		"image": "https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/lamore_deep_black.webp",
 		"colors": [
 			{
-				"id": "deep_black",
+				"id": "deep-black",
 				"name": "Глубокий черный",
 				"names": [
 					"Deep_black",
@@ -2588,7 +2588,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/deep_black.webp')"
 			},
 			{
-				"id": "mountain_grey",
+				"id": "mountain-grey",
 				"name": "Горный серый",
 				"names": [
 					"Mountain_grey",
@@ -2599,7 +2599,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/mountain_grey.webp')"
 			},
 			{
-				"id": "shining_red",
+				"id": "shining-red",
 				"name": "Сияющий красный",
 				"names": [
 					"Shining_red",
@@ -2610,7 +2610,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/shining_red.webp')"
 			},
 			{
-				"id": "starry_white",
+				"id": "starry-white",
 				"name": "Звездный белый",
 				"names": [
 					"Starry_white",
@@ -2621,7 +2621,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/lamore/colors/starry_white.webp')"
 			},
 			{
-				"id": "exquisite_green",
+				"id": "exquisite-green",
 				"name": "Изысканный зеленый",
 				"names": [
 					"Exquisite_green",
@@ -2720,7 +2720,7 @@
 		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/cs75plus_atomic_grey.webp",
 		"colors": [
 			{
-				"id": "atomic_grey",
+				"id": "atomic-grey",
 				"name": "Атомный серый",
 				"names": [
 					"Atomic_grey",
@@ -2730,7 +2730,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/atomic_grey.webp')"
 			},
 			{
-				"id": "deep_black",
+				"id": "deep-black",
 				"name": "Глубокий черный",
 				"names": [
 					"Deep_black",
@@ -2741,7 +2741,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/deep_black.webp')"
 			},
 			{
-				"id": "mountain_grey",
+				"id": "mountain-grey",
 				"name": "Горный серый",
 				"names": [
 					"Серый",
@@ -2752,7 +2752,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/mountain_grey.webp')"
 			},
 			{
-				"id": "crystal_white",
+				"id": "crystal-white",
 				"name": "Кристальный белый",
 				"names": [
 					"Crystal_white",
@@ -2763,7 +2763,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs75plus/colors/crystal_white.webp')"
 			},
 			{
-				"id": "crystal_blue",
+				"id": "crystal-blue",
 				"name": "Кристальный синий",
 				"names": [
 					"Crystal_blue",
@@ -2917,9 +2917,10 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs85coupe/colors/viol.webp')"
 			},
 			{
-				"id": "grey",
+				"id": "gray",
 				"name": "Серебристый серый",
 				"names": [
+					"Gray",
 					"Grey",
 					"Серебристый серый",
 					"Серый"
@@ -3026,9 +3027,10 @@
 				"style": "background: linear-gradient(40deg, #c2c2c2 45%, white)"
 			},
 			{
-				"id": "grey",
+				"id": "gray",
 				"name": "Горный серый",
 				"names": [
+					"Gray",
 					"Grey",
 					"Горный серый",
 					"Серый"
@@ -3136,7 +3138,7 @@
 		"image": "https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/cs95new_noble_black.webp",
 		"colors": [
 			{
-				"id": "noble_black",
+				"id": "noble-black",
 				"name": "Благородный черный",
 				"names": [
 					"Noble_black",
@@ -3147,7 +3149,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/noble_black.webp')"
 			},
 			{
-				"id": "mountain_grey",
+				"id": "mountain-grey",
 				"name": "Горный серый",
 				"names": [
 					"Mountain_grey",
@@ -3158,7 +3160,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/cs95new/colors/mountain_grey.webp')"
 			},
 			{
-				"id": "polar_white",
+				"id": "polar-white",
 				"name": "Полярный белый",
 				"names": [
 					"Polar_white",
@@ -3256,7 +3258,7 @@
 		"image": "https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/uni-t_air_blue.webp",
 		"colors": [
 			{
-				"id": "air_blue",
+				"id": "air-blue",
 				"name": "Воздушный голубой",
 				"names": [
 					"Air_blue",
@@ -3267,7 +3269,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/air_blue.webp')"
 			},
 			{
-				"id": "atomic_grey",
+				"id": "atomic-grey",
 				"name": "Атомный серый",
 				"names": [
 					"Atomic_grey",
@@ -3278,7 +3280,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/atomic_grey.webp')"
 			},
 			{
-				"id": "star_grey",
+				"id": "star-grey",
 				"name": "Звездный серый",
 				"names": [
 					"Star_grey",
@@ -3289,7 +3291,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/star_grey.webp')"
 			},
 			{
-				"id": "pearl_white",
+				"id": "pearl-white",
 				"name": "Перламутровый белый",
 				"names": [
 					"Pearl_white",
@@ -3300,7 +3302,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/pearl_white.webp')"
 			},
 			{
-				"id": "pitch_black",
+				"id": "pitch-black",
 				"name": "Глубокий черный",
 				"names": [
 					"Pitch_black",
@@ -3311,7 +3313,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-t/colors/pitch_black.webp')"
 			},
 			{
-				"id": "sky_blue",
+				"id": "sky-blue",
 				"name": "Небесный синий",
 				"names": [
 					"Sky_blue",
@@ -3410,7 +3412,7 @@
 		"image": "https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/uni-v_atomic_grey.webp",
 		"colors": [
 			{
-				"id": "atomic_grey",
+				"id": "atomic-grey",
 				"name": "Атомный серый",
 				"names": [
 					"Atomic_grey",
@@ -3420,7 +3422,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/atomic_grey.webp')"
 			},
 			{
-				"id": "bursting_blue",
+				"id": "bursting-blue",
 				"name": "Взрывной синий",
 				"names": [
 					"Bursting_blue",
@@ -3431,7 +3433,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/bursting_blue.webp')"
 			},
 			{
-				"id": "moonlight_white",
+				"id": "moonlight-white",
 				"name": "Лунный белый",
 				"names": [
 					"Moonlight_white",
@@ -3442,7 +3444,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/moonlight_white.webp')"
 			},
 			{
-				"id": "star_dark",
+				"id": "star-dark",
 				"name": "Звездный черный",
 				"names": [
 					"Star_dark",
@@ -3453,7 +3455,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/star_dark.webp')"
 			},
 			{
-				"id": "dazzling_red",
+				"id": "dazzling-red",
 				"name": "Ослепительный красный",
 				"names": [
 					"Dazzling_red",
@@ -3464,7 +3466,7 @@
 				"style": "background-image: url('https://cdn.alexsab.ru/b/changan/img/models/uni-v/colors/dazzling_red.webp')"
 			},
 			{
-				"id": "sparkling_grey",
+				"id": "sparkling-grey",
 				"name": "Искрящийся серый",
 				"names": [
 					"Серый",
@@ -5784,7 +5786,7 @@
 		"thumb": "https://cdn.alexsab.ru/b/forthing/img/models/t5evo/colors/gray.png",
 		"colors": [
 			{
-				"id": "t5evo_gray",
+				"id": "gray",
 				"name": "Искрящийся серый",
 				"names": [
 					"Gray",
@@ -5795,7 +5797,7 @@
 				"style": "background-color: #848474;"
 			},
 			{
-				"id": "t5evo_green",
+				"id": "green",
 				"name": "Магический изумруд",
 				"names": [
 					"Магический изумруд"
@@ -5804,7 +5806,7 @@
 				"style": "background-color: #0c5a5a;"
 			},
 			{
-				"id": "t5evo_red",
+				"id": "red",
 				"name": "Красный агат",
 				"names": [
 					"Red",
@@ -5815,7 +5817,7 @@
 				"style": "background-color: #ae1a11;"
 			},
 			{
-				"id": "t5evo_black",
+				"id": "black",
 				"name": "Чёрный бриллиант",
 				"names": [
 					"Black",
@@ -5826,7 +5828,7 @@
 				"style": "background-color: #131313;"
 			},
 			{
-				"id": "t5evo_white",
+				"id": "white",
 				"name": "Альпийский белый",
 				"names": [
 					"White",
@@ -5837,7 +5839,7 @@
 				"style": "background-color: #fff;"
 			},
 			{
-				"id": "t5evo_anthracite",
+				"id": "anthracite",
 				"name": "Космический антрацит",
 				"names": [
 					"серый"
@@ -5945,7 +5947,7 @@
 		"thumb": "https://cdn.alexsab.ru/b/forthing/img/models/yacht/colors/white.png",
 		"colors": [
 			{
-				"id": "yacht_white",
+				"id": "white",
 				"name": "Альпийский белый",
 				"names": [
 					"White",
@@ -5956,7 +5958,7 @@
 				"style": "background-color: #fff;"
 			},
 			{
-				"id": "yacht_black",
+				"id": "black",
 				"name": "Чёрный бриллиант",
 				"names": [
 					"Black",
@@ -6058,7 +6060,7 @@
 		"thumb": "https://cdn.alexsab.ru/b/forthing/img/models/v-online/colors/gray.png",
 		"colors": [
 			{
-				"id": "v-online_gray",
+				"id": "gray",
 				"name": "Серый Бернина",
 				"names": [
 					"Gray",
@@ -6069,7 +6071,7 @@
 				"style": "background-color: #51586d;"
 			},
 			{
-				"id": "v-online_white",
+				"id": "white",
 				"name": "Искрящийся Белый",
 				"names": [
 					"White",
@@ -6080,7 +6082,7 @@
 				"style": "background-color: #f1f1f1;"
 			},
 			{
-				"id": "v-online_black",
+				"id": "black",
 				"name": "Черный Бриллиант",
 				"names": [
 					"Black",
@@ -6181,7 +6183,7 @@
 		"thumb": "https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/colors/black.png",
 		"colors": [
 			{
-				"id": "d60-plus_black",
+				"id": "black",
 				"name": "Чёрный бриллиант",
 				"names": [
 					"Black",
@@ -6192,7 +6194,7 @@
 				"style": "background-color: #131313;"
 			},
 			{
-				"id": "d60-plus_white",
+				"id": "white",
 				"name": "Альпийский белый",
 				"names": [
 					"White",
@@ -6360,9 +6362,11 @@
 				"style": "background-color: #DCE3E5;"
 			},
 			{
-				"id": "grey-graphite",
+				"id": "gray-graphite",
 				"name": "Серый графит",
 				"names": [
+					"Gray",
+					"Grey",
 					"Графитовый",
 					"Графеновый серый"
 				],
@@ -6373,6 +6377,7 @@
 				"id": "black",
 				"name": "черный",
 				"names": [
+					"Black",
 					"Черный"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/gac/img/models/gs3/colors/black.webp",
@@ -11333,7 +11338,7 @@
 				"style": "background-image: linear-gradient(180deg, #b8b8b8, #c6c6c6 50%, #b8b8b8 50%);"
 			},
 			{
-				"id": "grey-platinum",
+				"id": "gray-platinum",
 				"name": "Серая платина",
 				"names": [
 					"серый"
@@ -13627,37 +13632,37 @@
 		"thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/thumb.png",
 		"colors": [
 			{
-				"id": "c5b",
+				"id": "white",
 				"name": "Арктический белый",
 				"names": [
-					"Grey",
-					"Серый"
+					"White",
+					"Белый"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c5b.png",
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c5bkm.png);"
 			},
 			{
-				"id": "c1b",
+				"id": "black",
 				"name": "Галактический черный",
 				"names": [
-					"White",
-					"Белый"
+					"Black",
+					"Черный"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c1b.png",
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c1bkm.png);"
 			},
 			{
-				"id": "c2b",
+				"id": "blue",
 				"name": "Океанический синий",
 				"names": [
-					"Black",
-					"Черный"
+					"Blue",
+					"Синий"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c2b.png",
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c2bkm.png);"
 			},
 			{
-				"id": "c4b",
+				"id": "violet",
 				"name": "Фиолетовый дракон",
 				"names": [
 					"Violet",
@@ -13667,11 +13672,12 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c4bkm.png);"
 			},
 			{
-				"id": "c3b",
+				"id": "gray",
 				"name": "Призрачный серый",
 				"names": [
-					"Blue",
-					"Синий"
+					"Grey",
+					"Gray",
+					"Серый"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c3b.png",
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x90plus/colors/c3bkm.png);"
@@ -13813,7 +13819,7 @@
 		"thumb": "https://cdn.alexsab.ru/b/jetour/img/models/t2/thumb.png",
 		"colors": [
 			{
-				"id": "c1b",
+				"id": "black",
 				"name": "Черный",
 				"names": [
 					"Black",
@@ -13824,7 +13830,7 @@
 				"style": "background-color: #000000; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
 			},
 			{
-				"id": "c2b",
+				"id": "silver",
 				"name": "Серебряный",
 				"names": [
 					"Silver",
@@ -13836,7 +13842,7 @@
 				"style": "background-color: #c8c8c8; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
 			},
 			{
-				"id": "c3b",
+				"id": "brown",
 				"name": "Коричневый",
 				"names": [
 					"Золотой",
@@ -13849,7 +13855,7 @@
 				"style": "background-color: #ccc0a6; background-image: radial-gradient(62.62% 64.65% at 74.75% 91.34%,hsla(0,0%,100%,.7) 0,hsla(0,50%,97%,0) 100%);"
 			},
 			{
-				"id": "c4b",
+				"id": "gray",
 				"name": "Серый",
 				"names": [
 					"Gray",
@@ -13995,7 +14001,7 @@
 		"thumb": "https://cdn.alexsab.ru/b/jetour/img/models/dashing/thumb.png",
 		"colors": [
 			{
-				"id": "c1b",
+				"id": "white",
 				"name": "Лунный белый",
 				"names": [
 					"White",
@@ -14005,7 +14011,7 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c1bkm.png);"
 			},
 			{
-				"id": "c2b",
+				"id": "black",
 				"name": "Галактический черный",
 				"names": [
 					"Black",
@@ -14016,7 +14022,7 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c2bkm.png);"
 			},
 			{
-				"id": "c3b",
+				"id": "red",
 				"name": "Шелковый красный",
 				"names": [
 					"Red",
@@ -14026,7 +14032,7 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c3bkm.png);"
 			},
 			{
-				"id": "c4b",
+				"id": "blue",
 				"name": "Ванильный голубой",
 				"names": [
 					"Azure",
@@ -14038,9 +14044,10 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c4bkm.png);"
 			},
 			{
-				"id": "c5b",
+				"id": "gray",
 				"name": "Призрачный серый",
 				"names": [
+					"Gray",
 					"Grey",
 					"Серый"
 				],
@@ -14048,7 +14055,7 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c5bkm.png);"
 			},
 			{
-				"id": "c6b",
+				"id": "green",
 				"name": "Изумрудно-зеленый",
 				"names": [
 					"Green",
@@ -14059,10 +14066,11 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/dashing/colors/c6bkm.png);"
 			},
 			{
-				"id": "c7b",
+				"id": "silver",
 				"name": "Cветло-серый",
 				"names": [
 					"Lightgray",
+					"Silver",
 					"Серебряный",
 					"Светло-серый",
 					"Светло- серый"
@@ -14346,7 +14354,7 @@
 		"thumb": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/thumb.png",
 		"colors": [
 			{
-				"id": "c1b",
+				"id": "white",
 				"name": "Арктический белый",
 				"names": [
 					"White",
@@ -14356,10 +14364,9 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c1bkm.png);"
 			},
 			{
-				"id": "c2b",
+				"id": "silver",
 				"name": "Светло-серый",
 				"names": [
-					"Grey",
 					"Silver",
 					"Серебряный"
 				],
@@ -14367,7 +14374,7 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c2bkm.png);"
 			},
 			{
-				"id": "c3b",
+				"id": "red",
 				"name": "Шелковый красный",
 				"names": [
 					"Red",
@@ -14377,17 +14384,18 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c3bkm.png);"
 			},
 			{
-				"id": "c4b",
+				"id": "gray",
 				"name": "Призрачный серый",
 				"names": [
 					"Gray",
+					"Grey",
 					"Серый"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c4b.png",
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c4bkm.png);"
 			},
 			{
-				"id": "c5b",
+				"id": "blue",
 				"name": "Океанический синий",
 				"names": [
 					"Blue",
@@ -14398,7 +14406,7 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c5bkm.png);"
 			},
 			{
-				"id": "c6b",
+				"id": "dark-blue",
 				"name": "Темно-синий",
 				"names": [
 					"Darkblue",
@@ -14409,7 +14417,7 @@
 				"style": "background-image: url(https://cdn.alexsab.ru/b/jetour/img/models/x70plus/colors/c6bkm.png);"
 			},
 			{
-				"id": "c7b",
+				"id": "black",
 				"name": "Галактический черный",
 				"names": [
 					"Black",
@@ -16884,7 +16892,7 @@
 				"style": "background-color: #942a25;"
 			},
 			{
-				"id": "yacht-blue",
+				"id": "blue",
 				"name": "Yacht Blue (DU3)",
 				"names": [
 					"голубой"
@@ -24110,7 +24118,7 @@
 		"thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
 		"colors": [
 			{
-				"id": "grey",
+				"id": "gray",
 				"name": "Серый",
 				"names": [
 					"Grey",
@@ -24172,13 +24180,11 @@
 				"style": ""
 			},
 			{
-				"id": "grey",
+				"id": "gray",
 				"name": "Серый",
 				"names": [
 					"Grey",
 					"Gray",
-					"gray",
-					"grey",
 					"Серый"
 				],
 				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
@@ -24694,7 +24700,7 @@
 				"style": ""
 			},
 			{
-				"id": "grey",
+				"id": "gray",
 				"name": "Серый",
 				"names": [
 					"Grey",
