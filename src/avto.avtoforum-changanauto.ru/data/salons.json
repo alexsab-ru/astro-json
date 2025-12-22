@@ -1,14 +1,14 @@
 [
     {
-        "name": "Дилерский центр",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
+        "name": "Чанган Центр Автофорум Восток",
+        "address": "г. Саратов, ул. Усть-Курдюмская, д. 33",
+        "phone":  "+7 (8452) 74-94-94",
+        "work_hours": "пн — вс: 9:00 — 19:00",
         "map": {
             "zoom": 5,
             "balloon": "https://cdn.alexsab.ru/locator/changan-locator.svg",
-            "coords": [55.715873, 47.617700],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+            "coords": [51.57663910315775, 46.08686308484443],
+            "ya_link": "https://yandex.ru/maps/org/avtoforum_changan/155740418581/?ll=46.086817%2C51.576704&z=17.03"
         }
     }
 ]

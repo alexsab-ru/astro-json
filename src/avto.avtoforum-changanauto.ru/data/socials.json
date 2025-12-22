@@ -1,4 +1,18 @@
 {
-    "header": {},
-    "footer": {}
+    "header": {
+        "vkontakte-full": {
+            "url": "https://vk.com/changansaratov"
+        },
+        "telegram-full": {
+            "url": "https://t.me/changansaratovavtoforum"
+        }
+    },
+    "footer": {
+        "vkontakte-full": {
+            "url": "https://vk.com/avtoforum_changan"
+        },
+        "telegram-full": {
+            "url": "https://t.me/changansaratovavtoforum"
+        }
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "site": "localhost",
+    "site": "avto.avtoforum-changanauto.ru",
     "gtm": {
         "value": "",
         "fn": "_gtm",
@@ -8,7 +8,8 @@
     "metrika": {
         "value": [
             {
-                "id": 48905003,
+                "id": 105967354,
+                "ssr": true,
                 "clickmap": true,
                 "trackLinks": true,
                 "accurateTrackBounce": true,
@@ -52,8 +53,8 @@
     },
     "calltouch": {
         "value": {
-            "mod_id": "",
-            "site_id": ""
+            "mod_id": "oa1aadrj",
+            "site_id": "73091"
         },
         "fn": "_ct",
         "prod": false
