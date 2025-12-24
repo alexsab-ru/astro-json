@@ -1,6 +1,25 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-mobile.webp"
+        },
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "bannerUrl": "/models/monjaro/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000,
+        "gradient": false
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "link",
@@ -31,7 +50,7 @@
     },
     {
         "id": 0,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -130,7 +149,7 @@
     },
     {
         "id": 0,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
