@@ -6,7 +6,8 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-desktop.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-mobile.webp"
+            "tablet": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-mobile.webp?v"
         },
         "title": "",
         "descr": "",
