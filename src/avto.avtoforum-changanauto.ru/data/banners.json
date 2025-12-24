@@ -10,13 +10,13 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/mobile.webp?v"
         },
         "title": "",
-        "descr": "Долгожданный CS75PLUS NEW<br />с полным приводом<br />(AWD) уже в России.",
+        "descr": "Долгожданный CS75PLUS NEW<br />с полным приводом (AWD)",
         "btn": "Подробнее",
         "btnUrl": "/models/cs75plusnew/",
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 6000
     },
     {
         "id": 2,
@@ -24,9 +24,9 @@
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/zima-uverennost-vmeste-s-changa/desktop.webp?v",
-            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/zima-uverennost-vmeste-s-changa/tablet.webp?v",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/zima-uverennost-vmeste-s-changa/mobile.webp?v"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/zima-uverennost-vmeste-s-changan/desktop.webp?v",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/zima-uverennost-vmeste-s-changan/tablet.webp?v",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/zima-uverennost-vmeste-s-changan/mobile.webp?v"
         },
         "position": {
             "desktop": "center",
@@ -35,11 +35,11 @@
         "title": "",
         "descr": "Акция по проверке тормозной<br />системы - только до 31го января!<br />Подготовьтесь к зиме<br />выгодно с CHANGAN!",
         "btn": "Подробнее",
-        "btnUrl": "/special-offers/zima-uverennost-vmeste-s-changa/",
+        "btnUrl": "/special-offers/zima-uverennost-vmeste-s-changan/",
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 6000
     },
     {
         "id": 2,
@@ -49,14 +49,14 @@
         "video": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/changan/cs35plusnew/video.mp4"
         },
-        "title": "",
+        "title": "CS55PLUS",
         "descr": "Симфония технологий!",
         "btn": "Подробнее",
         "btnUrl": "/models/cs35plusnew/",
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 11000
     },
     {
         "id": 2,
@@ -79,7 +79,7 @@
         "dataTitle": "Всем светит выгода",
         "dataFormName": "Всем светит выгода. Баннер",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 6000
     },
     {
         "id": 2,
@@ -102,7 +102,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 6000
     },
     {
         "id": 2,
@@ -125,7 +125,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 6000
     },
     {
         "id": 2,
@@ -142,13 +142,13 @@
             "mobile": "center"
         },
         "title": "",
-        "descr": "Будьте в курсе новостей с<br />CHANGAN! Присоединяйтесь<br />к официальному сообществу<br />бренда в Telegram",
+        "descr": "Будьте в курсе новостей с<br />CHANGAN! Присоединяйтесь<br />к нашему официальному сообществу<br />бренда в Telegram",
         "btn": "Подпишитесь",
-        "btnUrl": "https://t.me/changanrf",
+        "btnUrl": "https://t.me/changansaratovavtoforum",
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 6000
     },
     {
         "id": 2,
@@ -171,7 +171,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 6000
     },
     {
         "id": 2,
@@ -194,7 +194,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 6000
     },
     {
         "id": 2,
@@ -211,12 +211,12 @@
             "mobile": "center"
         },
         "title": "",
-        "descr": "Специальные условия для<br />такси",
+        "descr": "Специальные условия для такси",
         "btn": "Подробнее",
         "btnUrl": "/corporate-clients/",
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 5000
+        "autoplay": 6000
     }
 ]
