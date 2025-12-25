@@ -4069,6 +4069,15 @@
 				],
 				"carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/colors/black.webp",
 				"style": "background-color: #000000;"
+			},
+			{
+				"id": "gray",
+				"name": "Технологичный серый",
+				"names": [
+					"Серый"
+				],
+				"carImage": "https://cdn.alexsab.ru/b/chery/img/models/tiggo4/colors/gray.webp",
+				"style": "background-color: ##959697;"
 			}
 		],
 		"feed_names": [
@@ -7875,7 +7884,8 @@
 				"name": "Серо-фиолетовый металлик",
 				"names": [
 					"Gray-purple",
-					"Серо-фиолетовый"
+					"Серо-фиолетовый",
+					"Фиолетовый"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/geely/img/models/Preface/colors/gray-purple.webp",
 				"style": "background-color: #898baa;"
