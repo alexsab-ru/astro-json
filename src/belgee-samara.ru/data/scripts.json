@@ -24,6 +24,11 @@
         "fn": "_ym", 
         "prod": false
     },
+    "yandex_widget_rating_badge": {
+        "id": 183569750351,
+        "type": "rating",
+        "theme": "dark"
+    },
     "ga4": {
         "value": [
             {
