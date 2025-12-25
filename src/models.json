@@ -6705,6 +6705,8 @@
 		"feed_names": [
 			"GS8, I поколение",
 			"GS8",
+			"GS8II",
+			"GS8 II",
 			"GS8, II"
 		],
 		"photos": "",
@@ -6857,6 +6859,7 @@
 			}
 		],
 		"feed_names": [
+			"GS8Dragon",
 			"Обновленный GS8",
 			"GS8"
 		],
