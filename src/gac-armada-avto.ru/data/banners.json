@@ -29,7 +29,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-gs8-hero-mobile.webp"
         },
         "title": "GAC GS8: <br/><span class=\"font-normal uppercase\">Ваш главный <br/>новогодний <br/>подарок!</span>",
-        "descr": "<span class=\"font-normal uppercase leading-none! xs:mt-20 mt-24 sm:mt-0\"><small class=\"text-sm leading-none!\">В наличии<small/><small class=\"text-sm leading-none! block\">С выгодой</small><span class=\"font-bold text-3xl block\">{{max-benefitb-to}}</span></span>",
+        "descr": "<span class=\"font-normal uppercase leading-none! xs:mt-20 mt-24 sm:mt-0\"><small class=\"text-sm leading-none!\">В наличии</small><small class=\"text-sm leading-none! block\">С выгодой</small><span class=\"font-bold text-3xl block\">{{max-benefitb-to}}</span></span>",
         "btnUrl": "/cars/?model=gs8+ii",
         "btn": "Подробнее",
         "badge": "",
