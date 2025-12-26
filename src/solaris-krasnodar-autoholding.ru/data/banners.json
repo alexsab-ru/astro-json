@@ -157,7 +157,7 @@
     },
     {
         "id": 2,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "image": {
@@ -175,7 +175,7 @@
     },
     {
         "id": 2,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -230,7 +230,7 @@
             "desktop": "center",
             "mobile": "0%"
         },
-        "title": "SOLARIS HS  <br/>ИМЕННО ОН",
+        "title": "SOLARIS HS <br/>ИМЕННО ОН",
         "descr": "цена от {{priceb-solaris-hs}} <br/>В кредит от 0,01%",
         "btn": "Подробнее",
         "btnUrl": "/models/hs/",
