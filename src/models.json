@@ -1937,6 +1937,38 @@
 			"fuel": "Бензин",
 			"gearbox": "8AT"
 		},
+		"complectations": [
+			{
+				"name": "Comfort",
+				"price": "3490000",
+				"bodytype": "Кроссовер",
+				"engine": "1.5",
+				"engine_power": "181",
+				"gear_rus": "8AT",
+				"drive": "Полный",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "Luxe",
+				"price": "3690000",
+				"bodytype": "Кроссовер",
+				"engine": "2.0",
+				"engine_power": "226",
+				"gear_rus": "8AT",
+				"drive": "Полный",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "Tech",
+				"price": "3849900",
+				"bodytype": "Кроссовер",
+				"engine": "2.0",
+				"engine_power": "226",
+				"gear_rus": "8AT",
+				"drive": "Полный",
+				"fuel": "Бензин"
+			}
+		],
 		"globalChars": [
 			{
 				"id": "wheelbase",
