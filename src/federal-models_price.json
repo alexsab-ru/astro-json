@@ -179,7 +179,7 @@
     "id": "chery-arrizo8",
     "brand": "chery",
     "model": "ARRIZO 8",
-    "price": "2760000",
+    "price": "2815000",
     "benefit": "",
     "link": "https://www.chery.ru/models/arrizo8/"
   },
@@ -187,7 +187,7 @@
     "id": "chery-newtiggo7promax",
     "brand": "chery",
     "model": "TIGGO 7 PRO MAX",
-    "price": "2460000",
+    "price": "2510000",
     "benefit": "",
     "link": "https://www.chery.ru/models/newtiggo7promax/"
   },
@@ -195,7 +195,7 @@
     "id": "chery-newtiggo8promax",
     "brand": "chery",
     "model": "TIGGO 8 PRO MAX",
-    "price": "2940000",
+    "price": "3205000",
     "benefit": "",
     "link": "https://www.chery.ru/models/newtiggo8promax/"
   },
@@ -203,23 +203,15 @@
     "id": "chery-tiggo4",
     "brand": "chery",
     "model": "TIGGO 4",
-    "price": "1999000",
+    "price": "2039000",
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo4/"
-  },
-  {
-    "id": "chery-tiggo4pro",
-    "brand": "chery",
-    "model": "TIGGO 4 PRO 18 years edition",
-    "price": "1970000",
-    "benefit": "",
-    "link": "https://www.chery.ru/models/tiggo4pro/"
   },
   {
     "id": "chery-tiggo7l",
     "brand": "chery",
     "model": "TIGGO 7L",
-    "price": "2630000",
+    "price": "2685000",
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo7l/"
   },
@@ -227,7 +219,7 @@
     "id": "chery-tiggo9",
     "brand": "chery",
     "model": "TIGGO 9",
-    "price": "3800000",
+    "price": "3885000",
     "benefit": "",
     "link": "https://www.chery.ru/models/tiggo9/"
   },
