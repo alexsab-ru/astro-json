@@ -336,10 +336,18 @@
     "link": "https://www.evolute.ru/models/i-space-new"
   },
   {
+    "id": "evolute-i-van",
+    "brand": "evolute",
+    "model": "i‑VAN",
+    "price": "",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-van"
+  },
+  {
     "id": "geely-atlas-2024",
     "brand": "geely",
     "model": "ATLAS",
-    "price": "3434190",
+    "price": "3600990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-atlas-2024/"
   },
@@ -347,7 +355,7 @@
     "id": "geely-cityray",
     "brand": "geely",
     "model": "CITYRAY",
-    "price": "2729990",
+    "price": "2579990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/cityray/"
   },
@@ -355,7 +363,7 @@
     "id": "geely-ex5",
     "brand": "geely",
     "model": "EX5",
-    "price": "3749990",
+    "price": "3819990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-ex5/"
   },
@@ -363,7 +371,7 @@
     "id": "geely-ex5-em-i",
     "brand": "geely",
     "model": "EX5 EM-i",
-    "price": "3319990",
+    "price": "3419990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-ex5-em-i/"
   },
@@ -379,7 +387,7 @@
     "id": "geely-okavango",
     "brand": "geely",
     "model": "OKAVANGO",
-    "price": "3524190",
+    "price": "3535990",
     "benefit": "",
     "link": "https://www.geely-motors.com/model/geely-okavango/"
   },
@@ -643,7 +651,7 @@
     "id": "knewstar001",
     "brand": "knewstar",
     "model": "001",
-    "price": "3462990",
+    "price": "3529990",
     "benefit": "",
     "link": "https://knewstar.ru/models/knewstar001/"
   },

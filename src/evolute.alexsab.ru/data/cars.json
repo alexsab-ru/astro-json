@@ -38,5 +38,13 @@
     "price": "2490000",
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-space-new"
+  },
+  {
+    "id": "evolute-i-van",
+    "brand": "evolute",
+    "model": "i‑VAN",
+    "price": "",
+    "benefit": "",
+    "link": "https://www.evolute.ru/models/i-van"
   }
 ]
