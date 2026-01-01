@@ -3,7 +3,7 @@
     "id": "baic-u5_plus",
     "brand": "baic",
     "model": "U5 PLUS",
-    "price": 2279000,
+    "price": 2319000,
     "benefit": 0,
     "link": "/models/u5_plus/"
   },
@@ -11,7 +11,7 @@
     "id": "baic-x55",
     "brand": "baic",
     "model": "X55",
-    "price": 1975000,
+    "price": 2200000,
     "benefit": 0,
     "link": "/models/x55/"
   },
@@ -19,7 +19,7 @@
     "id": "baic-x75",
     "brand": "baic",
     "model": "X75",
-    "price": 2100000,
+    "price": 2400000,
     "benefit": 0,
     "link": "/models/x75/"
   },
@@ -27,7 +27,7 @@
     "id": "baic-bj40",
     "brand": "baic",
     "model": "BJ40",
-    "price": 3025000,
+    "price": 3400000,
     "benefit": 0,
     "link": "/models/bj40/"
   },
@@ -35,7 +35,7 @@
     "id": "baic-bj60",
     "brand": "baic",
     "model": "BJ60",
-    "price": 5590000,
+    "price": 5790000,
     "benefit": 0,
     "link": "/models/bj60/"
   },
@@ -315,7 +315,7 @@
     "id": "evolute-i-joy-new",
     "brand": "evolute",
     "model": "Новый i‑JOY",
-    "price": "1790000",
+    "price": "1850000",
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-joy-new"
   },
@@ -323,7 +323,7 @@
     "id": "evolute-i-sky",
     "brand": "evolute",
     "model": "i‑SKY",
-    "price": "2290000",
+    "price": "2355000",
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-sky"
   },
@@ -331,7 +331,7 @@
     "id": "evolute-i-space-new",
     "brand": "evolute",
     "model": "Обновленный i‑SPACE",
-    "price": "2490000",
+    "price": "2560000",
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-space-new"
   },
@@ -731,7 +731,7 @@
     "id": "soueast-s07",
     "brand": "soueast",
     "model": "S07",
-    "price": "2579000",
+    "price": "3099000",
     "benefit": "",
     "link": "https://soueast.ru/s07"
   },
@@ -739,7 +739,7 @@
     "id": "soueast-s09",
     "brand": "soueast",
     "model": "S09",
-    "price": "2829000",
+    "price": "3899000",
     "benefit": "",
     "link": "https://soueast.ru/s09"
   },
