@@ -12525,8 +12525,8 @@
 		"slogan": "Тысячи возможностей!",
 		"name": "T6",
 		"cyrillic": "Т6",
-		"price": 2750000,
-		"benefit": 500000,
+		"price": "{{price-jac-t6}}",
+		"benefit": "{{benefit-jac-t6}}",
 		"benefits": [
 			{
 				"url": "#common-modal",
@@ -17626,8 +17626,8 @@
 		"slogan": "Играя главную роль",
 		"name": "Sorento",
 		"cyrillic": "Соренто",
-		"price": 3789900,
-		"benefit": 250000,
+		"price": "{{price-kia-sorento2024}}",
+		"benefit": "{{benefit-kia-sorento2024}}",
 		"benefits": [
 			{
 				"url": "#common-modal",
@@ -18288,7 +18288,8 @@
 		"slogan": "",
 		"name": "Rio",
 		"cyrillic": "Рио",
-		"price": "0",
+		"price": "{{price-kia-rio}}",
+		"benefit": "{{benefit-kia-rio}}",
 		"thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
 		"colors": [
 			{
@@ -19713,8 +19714,8 @@
 		"slogan": "Следуй за открытиями",
 		"name": "Обновленный 300",
 		"cyrillic": "Триста",
-		"price": 3999000,
-		"benefit": 300000,
+		"price": "{{price-tank-300mmc}}",
+		"benefit": "{{benefit-tank-300mmc}}",
 		"benefits": [
 			{
 				"url": "#common-modal",
@@ -20947,7 +20948,7 @@
 		"status": "disable",
 		"name": "Hiace",
 		"cyrillic": "Хайас",
-		"price": "2586000",
+		"price": "{{price-toyota-hiace}}",
 		"thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
 		"colors": [
 			{
@@ -21584,7 +21585,7 @@
 		"status": "disable",
 		"name": "Hilux",
 		"cyrillic": "Хайлакс",
-		"price": "5105000",
+		"price": "{{price-toyota-hilux}}",
 		"thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
 		"colors": [
 			{
@@ -22007,7 +22008,7 @@
 		"status": "disable",
 		"name": "Land Cruiser 300",
 		"cyrillic": "Ленд Крузер 300",
-		"price": "12999000",
+		"price": "{{price-toyota-land-cruiser-300}}",
 		"thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
 		"colors": [
 			{
@@ -22044,7 +22045,7 @@
 		"status": "disable",
 		"name": "Alphard",
 		"cyrillic": "Альфард",
-		"price": "7759000",
+		"price": "{{price-toyota-alphard}}",
 		"thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
 		"colors": [
 			{
@@ -22066,7 +22067,7 @@
 		"status": "disable",
 		"name": "Coaster",
 		"cyrillic": "Коастер",
-		"price": "5500000",
+		"price": "{{price-toyota-coaster}}",
 		"thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
 		"colors": [
 			{
@@ -22088,7 +22089,7 @@
 		"status": "disable",
 		"name": "Crown",
 		"cyrillic": "Краун",
-		"price": "3000000",
+		"price": "{{price-toyota-crown}}",
 		"thumb": "https://cdn.alexsab.ru/errors/404tr.webp",
 		"colors": [
 			{
