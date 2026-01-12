@@ -236,7 +236,7 @@
             "mobile": "https://cdn.alexsab.ru/specials/jetour/alpha/dashing-socpodderjka/banner_mobile.webp"
         },
         "title": "<div class=\"text-xl sm:text-2xl md:text-4xl lg:text-5xl\">Программа соц. поддержки<br/> госслужащих</div>",
-        "descr": "<div class=\"space-y-1 sm:space-y-4\"><div class=\"sm:text-2xl font-bold\">Снижение цены<br/> до&nbsp;100&nbsp;000&nbsp;₽ для:</div><ul class=\"xs:text-sm list-disc pl-4\"><li>Военнослужащих</li><li>Сотрудников полиции</li><li>Мед. работников</li><li>Госслужащих</li><li>Семей с детьми до 10 лет</li></ul><div class=\"uppercase xs:text-xs\">Количество квот ограниченно</div></div><div class=\"bg-accent-500 px-4 py-2 text-2xl xs:text-sm w-fit mt-5 xs:mt-3\">DASHING от&nbsp;1&nbsp;989&nbsp;900&nbsp;₽</div>",
+        "descr": "<div class=\"space-y-1 sm:space-y-4\"><div class=\"sm:text-2xl font-bold\">Снижение цены<br/> до&nbsp;100&nbsp;000&nbsp;₽ для:</div><ul class=\"xs:text-sm list-disc pl-4\"><li>Военнослужащих</li><li>Сотрудников полиции</li><li>Мед. работников</li><li>Госслужащих</li><li>Семей с детьми до 10 лет</li></ul><div class=\"uppercase xs:text-xs\">Количество квот ограниченно</div></div><div class=\"bg-accent-500 px-4 py-2 text-2xl xs:text-sm w-fit mt-5 xs:mt-3\">DASHING от&nbsp;2 089 900 ₽</div>",
         "btn": "Подробнее",
         "btnUrl": "/special-offers/dashing-socpodderjka/",
         "badge": {},
@@ -269,7 +269,7 @@
             "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-1920x695.webp",
             "mobile": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/dashing-red-640x800.webp"
         },
-        "title": "DASHING с максимальной выгодой до 550 000 руб.",
+        "title": "DASHING с максимальной выгодой до 450 000 руб.",
         "descr": "",
         "btn": "Узнать подробнее",
         "btnUrl": "/special-offers/dashing-promo/",
@@ -352,7 +352,7 @@
             "desktop": "https://cdn.alexsab.ru/specials/jetour/alpha/snegopad-vygod-jetour-t2-so-skidkoy/banner-1920x1080.webp"
         },
         "title": "Обновленный прайс-лист <br/>на Jetour T2",
-        "descr": "До {{lastDay}}&nbsp;{{monthGenitive}} выгода до&nbsp;{{benefitb-jetour-t2}}",
+        "descr": "До {{lastDay}}&nbsp;{{monthGenitive}} выгода до&nbsp;320 000 руб.",
         "btn": "Подробнее",
         "btnUrl": "/cars/?model=t2",
         "dataTitle": "",
