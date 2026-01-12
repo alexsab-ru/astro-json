@@ -23,6 +23,10 @@
       {
         "url": "/insurance/",
         "name": "JETOUR Страхование"
+      },
+      {
+        "url": "/trade-in/",
+        "name": "JETOUR Trade-In"
       }
     ]
   },
