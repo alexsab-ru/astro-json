@@ -9,9 +9,9 @@
             "tablet": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gs8-tablet.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gs8-mobile.webp"
         },
-        "title": "GAC GS8: <br/><span class=\"font-normal uppercase\">Ваш главный <br/>новогодний <br/>подарок!</span>",
-        "descr": "<span class=\"font-normal uppercase leading-none! xs:mt-20 mt-24 sm:mt-0\"><small class=\"text-sm leading-none!\">В наличии<small/><small class=\"text-sm leading-none! block\">С выгодой</small><span class=\"font-bold text-3xl block\">до&nbsp;400 000 ₽</span></span>",
-        "btnUrl": "/cars/?model=gs8+ii",
+        "title": "Держим старые цены на GAC!",
+        "descr": "с выгодой <span class=\"font-bold text-xl sm:text-3xl md:text-5xl\">{{max-benefitb-to}}</span><span class=\"block\">и комплектом &laquo;Все включено&raquo;!</span>",
+        "btnUrl": "/cars/?year=2024%2C2025",
         "btn": "Подробнее",
         "badge": "",
         "autoplay": 10000
