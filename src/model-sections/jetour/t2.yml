@@ -1,1 +1,170 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: О модели
+  title: JETOUR T2
+  text: <div class='space-y-4'><p>Jetour T2 — универсальный внедорожник с элегантным
+    кузовом, который сочетает в себе современный стиль и функциональность. Благодаря
+    изысканному дизайну, Jetour T2 привлекает внимание своей эстетичностью и изящными
+    линиями.</p><p>Этот автомобиль оборудован мощным двигателем, который обеспечивает
+    комфортное и безопасное вождение. Вне зависимости от дорожных условий, Jetour
+    T2 демонстрирует высокую проходимость и отличную управляемость.</p><p>Jetour T2
+    — идеальный выбор для тех, кто ценит комфорт, стиль и надежность в автомобиле.</p></div>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 245 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 8.7 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 9.3 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/1.webp
+- id: exterior
+  sectionClass: bg-gray-100
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/exterior/1.webp
+    title: Задние светодиодные фонари
+    description: Задние фонари и противотуманные фары подчёркивают сбалансированность
+      и индивидуальность модели.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/exterior/2.webp
+    title: Светодиодные фары
+    description: Гарантируют идеальную видимость в любых погодных условиях и в любое
+      время суток.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/exterior/3.webp
+    title: Бокс для запасного колеса
+    description: Стильный и функциональный элемент для вашего автомобиля.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/exterior/4.webp
+    title: 20-дюймовые колёсные диски
+    description: 20-дюймовые колесные диски доступны в максимальной комплектации.
+      Придают автомобилю внушительный облик, подчеркивая его исключительность и статус
+      владельца.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Продумана каждая деталь
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/interior/1.webp
+    title: Продуманное пространство в салоне и функциональность
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/interior/2.webp
+    title: Качественная отделка интерьера
+    description: Прочные материалы отделки салона с применением замши и искусственной
+      кожи.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/interior/3.webp
+    title: Инновационные технологии
+    description: Два дисплея, центральная консоль с шайбой выбора режимов движения.
+- id: technology
+  sectionClass: bg-gray-100
+  title: Технологии
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/1.webp
+    title: Безграничные возможности
+    description: Новый Jetour T2 обеспечивает большую вместительность и повышенный
+      комфорт для водителя и всех пассажиров
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/2.webp
+    title: Вместительный салон
+    description: 'Колёсная база: 2800 мм. Комфорт и удобство всех пассажиров.'
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/3.webp
+    title: Пространство и комфорт для пассажиров второго ряда
+    description: Пассажиры 2-го ряда с удобством располагаются в автомобиле благодаря
+      ровному полу и запасу пространства для ног.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/4.webp
+    title: Трансформация салона
+    description: Складывающиеся сиденья второго ряда образуют ровный пол, увеличивая
+      объем багажного отделения. При сложенных сиденьях заднего ряда его объём достигает
+      1494 литров.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/5.webp
+    title: Процессор Qualcomm Snapdragon 8155
+    description: 8-ядерный автомобильный чип, созданный на 7nm техпроцессе, оптимизированный
+      для баланса между производительностью и потреблением энергии, способен выполнять
+      8 триллионов операций в секунду. Интерфейс с новыми UI/UE, плавное управление.
+      Интеллектуальное голосовое управление для всех сценариев с мгновенным откликом.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/technology/6.webp
+    title: XWD - полностью автоматический интеллектуальный полный привод
+    description: В основе системы — шестое поколение BorgWarner, интеллектуальное
+      управление крутящим моментом и блокировкой дифференциала. Система автоматически
+      активирует режим полного привода, оптимально распределяя мощность для максимального
+      сцепления. При необходимости задние колеса автоматически получают дополнительный
+      крутящий момент, позволяя водителю легко преодолевать сложные участки без остановки
+      автомобиля.
+- id: comfort
+  sectionClass: ''
+  title: Комфорт
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/1.webp
+    title: Идеальная зона комфорта
+    description: Двухзонный климат-контроль, эффективный фильтр CN95. Применение экологически
+      безопасных материалов гарантирует отсутствие неприятных запахов в салоне и антибактериальный
+      эффект.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/2.webp
+    title: Многофункциональное рулевое колесо
+    description: Обеспечивает быстрый и удобный доступ ко всем функциям автомобиля.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/3.webp
+    title: Эргономичные сиденья, авиационные подголовники для передних пассажиров
+    description: Повышают удобство водителя и пассажиров даже в самых длительных поездках.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/4.webp
+    title: Светодиодная подсветка салона
+    description: Создаёт уникальную и незабываемую атмосферу.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/5.webp
+    title: Подогрев передних сидений
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/6.webp
+    title: Вентиляция передних сидений
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/comfort/7.webp
+    title: Мультимедийный дисплей диагональю 15.6 дюймов
+    description: Поддержка Apple CarPlay
+- id: security
+  sectionClass: bg-gray-100
+  title: Безопасность
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/1.webp
+    title: Общая жесткость кузова при кручении достигает 31000 Н·м/град
+    description: 'Внедорожные возможности нового Jetour T2 полностью отвечают потребностям
+      автолюбителей в большинстве условий внедорожной езды: минимальный дорожный просвет
+      составляет 220 мм, углы въезда и съезда – 28° и 28° соответственно, автомобиль
+      способен преодолевать брод глубиной до 700 мм'
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/2.webp
+    title: Надёжная структура
+    description: Применение лазерной сварки, использование 8 рёбер жесткости на крыше
+      обеспечивают высокий уровень защиты салона.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/3.webp
+    title: Силовая структура кузова
+    description: Доля высокопрочных сталей достигает 80%.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/4.webp
+    title: Современный надёжный двигатель 2.0TGDI
+    description: Мощность 245 л.с., крутящий момент 375 Н·м
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/5.webp
+    title: Панорамная парковочная система
+    description: Благодаря системе 360° + 180° водитель полностью контролируетситуацию
+      во время парковки
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/security/6.webp
+    title: Интеллектуальные помощники при вождении
+    description: Сделают вашу поездку комфортнее и безопаснее
+- id: gallery
+  sectionClass: ''
+  title: Создан для бездорожья
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/1.webp
+    title: Внедорожник с высокой геометрической проходимостью и надёжной подвеской
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/2.webp
+    title: Выбор из 7 режимов вождения
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/3.webp
+    title: Режим вождения на сложных участках дороги
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/4.webp
+    title: Высокая проходимость на высоких участках дороги
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t2/sections/gallery/5.webp
+    title: Независимая подвеска на четыре колеса
+    description: ''
+- id: documentation
+  sectionClass: bg-gray-200
+  title: Документация для T2
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://jetour-ru.com/media-link/t2-specification' class='underline'
+    target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/t2-pricelist'
+    class='underline' target='_blank'>Комплектации и цены</a><br><a href='https://jetour-ru.com/media-link/t2-manual'
+    class='underline' target='_blank'>Руководство</a></span></p>

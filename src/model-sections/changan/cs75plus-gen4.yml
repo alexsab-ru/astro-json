@@ -1,1 +1,67 @@
-[]
+- id: description
+  sectionClass: bg-white!
+  text: ''
+  items:
+  - icon: mdi:engine-outline
+    text: 2.0<br /><small>Двигатель</small>
+  - icon: mdi:car-shift-pattern
+    text: 8AT<br />КПП
+  - icon: mdi:car
+    text: 235 л.с.
+- id: review
+  images:
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/review/1.webp
+    title: ''
+    description: 'Адаптивный круиз-контроль - ваш надёжный помощник как в городе,
+      так и в дальней дороге : распознает автомобили, пешеходов и велосипедистов,
+      оказывая поддержку там, где человеческой реакции может быть недостаточно, и
+      позволяет тратить меньше усилий при движении по трассе.'
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/review/2.webp
+    title: ''
+    description: Сиденья Zero Gravity оснащены оттоманкой, массажем, подогревом и
+      вентиляцией, а также функцией памяти. Боковая поддержка увеличена на 10%. Площадь
+      подголовника увеличена на 18%. Сиденья отделаны кожей NAPPA.
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/review/3.webp
+    title: ''
+    description: Светодиодная оптика нового CHANGAN CS75PLUS формирует запоминающийся
+      дерзкий «взгляд» автомобиля. Задние фонари в дизайне «клавиш», добавляют дизайну
+      уникальности.
+- id: gallery
+  images:
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/1.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/2.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/3.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/4.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/5.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/6.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/7.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/8.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/9.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/10.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/models/changan/cs75plus-gen4/sections/gallery/11.webp
+    title: ''
+    description: ''
+- id: booklet
+  title: Буклет
+  text: <p><a href="https://changanauto.ru/storage/model/booklet/changan/2025/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20CS75plus_new_2025.pdf"
+    target="_blank">Скачать буклет</a></p>

@@ -1,1 +1,241 @@
-[]
+- id: description
+  sectionClass: bg-gray-100!
+  title: БУДУЩЕЕ НАЧИНАЕТСЯ ВМЕСТЕ С OMODA C5
+  images:
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/banner-page.webp
+    title: Футуристичный фастбэк-кроссовер
+    description: Новый OMODA С5 стильный фастбэк-кроссовер, вдохновленный авангардным
+      искусством. Его дизайн сочетает функциональность и эстетику, предлагая не только
+      привлекательный внешний вид, но и удовольствие от вождения.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/info/1.webp
+    title: Обновленный дизайн
+    description: OMODA С5 разработан в рамках концепции Art in Motion. Философия дизайна
+      Art in Motion базируется на идее о том, что функциональный дизайн может быть
+      при этом невероятно красивым, к нему можно прикоснуться, увидеть снаружи и испытать
+      за рулём
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/info/2.webp
+    title: Премиальный комфорт
+    description: Модель оборудована полным набором комфортных функций. Спортивные
+      передние сиденья с улучшенной боковой поддержкой, повышенная шумоизоляция и
+      премиальная аудиосистема Sony с восемью динамиками. Забудьте о проводах — беспроводная
+      зарядка для телефона мощностью 50 Вт и беспроводное подключение Apple CarPlay
+      и Android Auto.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/info/3.webp
+    title: Безопасность
+    description: Рейтинг безопасности 5 звезд по результатам испытаний Euro NCAP,
+      6 подушек безопасности и самые современные системы помощи ADAS на страже вашего
+      спокойствия, доля высокопрочных сталей в конструкции кузова более 78%.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/info/4.webp
+    title: Динамика и управляемость
+    description: Двигатели  1.5T 2WD 147 л.c CVT9 или 1.6T АWD 150 л.с DCT7 разработаны
+      совместно инженерами австрийской компании AVL, признанным лидером по настройке
+      двигателей. 2 типа привода на выбор (передний и полный), полный привод от всемирно
+      известных поставщиков ZF или BorgWarner.
+- id: exterior
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/exterior/1.webp
+    title: Новый передний бампер
+    description: Увеличенный центральный воздухозаборник переднего бампера и острые,
+      агрессивные грани дополнительно подчеркивают характер OMODA C5. Это харизматичный
+      и современный кроссовер для тех, кто привык активно двигаться в городском ритме
+      и задавать свой собственный темп.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/exterior/2.webp
+    title: Логотип OMODA
+    description: Фирменный логотип OMODA стал крупнее и переместился с кромки капота
+      на перемычку между светодиодными ходовыми огнями. Такое решение делает переднюю
+      часть визуально чище и формирует единую концепцию с оформлением задней части,
+      где логотип OMODA также расположен между фонарями.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/exterior/3.webp
+    title: Фирменная решетка радиатора
+    description: 'Уникальная безрамочная решетка радиатора с узором Star Diamond стала
+      визитной карточкой модели и задала новые тренды в автомобильном дизайне. Новая
+      OMODA C5 развивает успех: более тонкий и изящный трехмерный орнамент делает
+      образ еще более динамичным и непохожим на окружающих.'
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/exterior/4.webp
+    title: Новая графика дневных ходовых огней
+    description: Светодиодные ходовые огни стали тоньше, подчеркивая технологичность
+      модели. В то же время они сохранили узнаваемую графику, выделяя OMODA C5 из
+      потока в любое время суток.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/exterior/5.webp
+    title: Светодиодная головная оптика
+    description: 'Полностью светодиодные фары сохранили безошибочно узнаваемую форму,
+      но получили новое оформление. Теперь они визуально отделены от центрального
+      воздухозаборника бампера: треугольные блоки напоминают наконечники стрел, которые
+      способны пробить даже самую густую темноту.'
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/exterior/6.webp
+    title: Колесные диски
+    description: Легкосплавные колесные диски диаметром 18” выполнены в новом дизайне
+      и традиционном для OMODA C5 глянцево-черном цвете. Рисунок из пяти V-образных
+      спиц сочетает спортивную легкость с уверенностью, необходимой автомобилю для
+      активного отдыха.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/exterior/7.webp
+    title: Нижние молдинги дверей
+    description: Обновленное оформление декоративных накладок делает профиль OMODA
+      C5 еще более динамичным, вместе с тем подчеркивая универсальный характер этого
+      кроссовера, готового к любым вызовам в городе и за его пределами.
+- id: interior
+  title: Интерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/interior/1.webp
+    title: Пакет теплых опций
+    description: Полный пакет теплых опций (обогрев всех сидений, руля, лобового стекла
+      и форсунок)
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/interior/2.webp
+    title: Два экрана с разрешением HD качества
+    description: Два сдвоенных экрана высокого разрешения для вывода всей необходимой
+      информации с возможностью выбора одной из трёх тем оформления
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/interior/3.webp
+    title: Система голосового управления
+    description: Система голосового управления основными функциями автомобиля, позволяет
+      меньше отвлекаться от процесса вождения
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/interior/4.webp
+    title: Apple CarPlay и Android Auto
+    description: Больше никаких проводов, Apple CarPlay и АА с функцией беспроводного
+      подключения
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/interior/5.webp
+    title: Беспроводная зарядка
+    description: Беспроводная зарядка телефона мощностью 50Вт, которая напомнит владельцу,
+      если он оставил смартфон в машине
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/interior/6.webp
+    title: Два типа привода на выбор
+    description: Два типа привода на выбор (передний и полный), полный привод от всемирно
+      известных поставщиков ZF или BorgWarner
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/interior/7.webp
+    title: Передние сиденья спортивной формы с развитой боковой поддержкой
+- id: design
+  title: ТЕХНОЛОГИЧНЫЙ ДИЗАЙН
+  text: Новый OMODA С5 - это современный стиль и динамика в одном. Обновленная решетка
+    радиатора, яркие цвета и элегантные 18-дюймовые литые диски придают автомобилю
+    изысканность и новизну. Сохраняя знакомые черты в новом дизайне. Почувствуйте
+    стиль!
+  images:
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/design/1.webp
+    title: Светодиодная оптика
+    description: J-образные дневные ходовые огни делают автомобиль ярким акцентом
+      на дороге. Мощные светодиодные фары обеспечивают отличную видимость в темное
+      время суток, а уникальный дизайн матричных задних фонарей создает впечатление
+      объемного 3D-эффекта, добавляя футуристичности в облик автомобиля.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/design/2.webp
+    title: Футуристичный силуэт
+    description: Силуэт автомобиля с его стремительными линиями подчеркивает спортивный
+      характер, снижает аэродинамическое сопротивление и способствует экономии топлива.
+- id: comfort
+  sectionClass: bg-[#30363a]! text-white
+  title: ПРЕМИАЛЬНЫЙ КОМФОРТ
+  text: Передние сиденья выполнены по канонам спорткаров — высокий цельный подголовник,
+    развитая боковая поддержка подушек сидений, перфорированная высококачественная
+    эко-кожа.
+  images:
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/comfort/1.webp
+    title: Интеллектуальный климат-контроль
+    description: Двухзонный климат-контроль создает комфортную атмосферу, а также
+      обеспечивает очистку воздуха высокого уровня (N95/FFP2).
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/comfort/2.webp
+    title: Спортивные сиденья
+    description: Cпортивные передние сиденья имеют обогрев и вентиляцию, и оборудованы
+      множеством электрических регулировок для комфорта водителя и пассажира.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/comfort/3.webp
+    title: Зимний пакет
+    description: 'Пакет включает в себя: электрический обогрев ветрового и заднего
+      стекол, наружных зеркал, форсунок стеклоомывателя, рулевого колеса и всех сидений.'
+- id: smart
+  title: Смарт-технологии
+  text: 'Интерьер нового OMODA C5, созданный с применением современных технологий,
+    оснащён множеством инновационных элементов: два объединённых экрана высокого разрешения
+    по 10,25 дюймов каждый, атмосферная подсветка интерьера разных цветов, беспроводная
+    зарядка, качественная акустика и многое другое.'
+  images:
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/smart/1.webp
+    title: Цифровая панель приборов
+    description: Панель приборов и мультимедиа комплекс представлены в виде сдвоенных
+      ЖК-дисплеев диагональю по 10.25 дюйма с HD-разрешением и поддержкой функций
+      беспроводного подключения Android Auto и Apple CarPlay.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/smart/2.webp
+    title: Дистанционный запуск двигателя
+    description: Технология дистанционного запуска позволяет запустить двигатель при
+      помощи смарт-ключа, а комфортный доступ - открыть автомобиль при приближении.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/smart/3.webp
+    title: Зимний пакет
+    description: 'Полный набор зимних опций: электрический обогрев ветрового и заднего
+      стекол, наружных зеркал, форсунок стеклоомывателя, рулевого колеса и всех сидений.'
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/smart/4.webp
+    title: Управление голосом
+    description: Система голосового управления основными функциями автомобиля, позволяет
+      меньше отвлекаться от процесса вождения
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/smart/5.webp
+    title: Беспроводная зарядка
+    description: Беспроводной зарядный модуль не просто эффективно заряжает Ваш смартфон,
+      но и сообщает, если девайс был забыт в салоне.
+- id: systems
+  title: Системы ADAS
+  images:
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/systems/1.webp
+    title: Адаптивный круиз-контроль АСС
+    description: В дополнение к действию обычного круиз-контроля (поддержание скорости,
+      установленной водителем), может поддерживать дистанцию до впереди идущего автомобиля.
+      Минимальный установленный порог скорости составляет 30 км/ч.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/systems/2.webp
+    title: Система предупреждения о фронтальном столкновении FCW
+    description: Когда система фиксирует впереди препятствие и автомобиль приближается
+      к нему слишком быстро, не задействуя все возможности штатного торможения, она
+      издает звуковой сигнал и выводит предупреждение о возможном столкновении на
+      приборную панель.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/systems/3.webp
+    title: Система помощи при движении в полосе LDW/LKA
+    description: Контролирует положение ТС относительно линий разметки полосы движения
+      в режиме реального времени посредством анализа изображения с фронтальной видеокамеры.
+      В случае фиксации поперечного смещения ТС к линии разметки, обозначающей границу
+      полосы движения, система воздействует на рулевое управление с целью привлечения
+      внимания водителя (LDW) и помощи водителю в удержании ТС в пределах исходной
+      полосы движения (LKA).
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/systems/4.webp
+    title: Система авто переключения ближнего / дальнего света IHC
+    description: Автоматически включает и выключает дальний свет в зависимости от
+      ситуации и окружающей среды, чтобы обеспечить оптимальное использование фар
+      при движении в ночное время.
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/systems/5.webp
+    title: Система мониторинга слепых зон BSD
+    description: При движении, парковке, открывании дверей, система следит за дорожной
+      ситуацией в слепой зоне. На левом или правом зеркале подается сигнал тревоги
+      в режиме реального времени, если цель входит в слепую зону.
+- id: dynamic
+  title: ДИНАМИКА И БЕЗОПАСНОСТЬ
+  text: Сочетание мощности, безопасности и комфорта нового OMODA C5 обеспечивает высокую
+    производительность и комфортное управление во время поездок.
+  images:
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/dynamic/1.webp
+    title: Производительность и экологичность
+    description: Двигатель 1.6 имеет больший крутящий момент и равен 275Нм, который
+      достигается в диапазоне 2000-3800об/мин. А двигатель 1.5T 2WD 147 л.c CVT9 обладает
+      мощностью 147 л.с. и максимальным крутящим моментом 210 Нм в диапазоне 1750-4000
+      об/мин
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/dynamic/2.webp
+    title: Интеллектуальная система полного привода
+    description: 'Интеллектуальная система управляет электрической муфтой, которая
+      имеет высокую скорость отклика. 6 режимов движения: Эко, Комфорт, Спорт, Снег,
+      Грязь, 4х4.'
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/dynamic/3.webp
+    title: Современная платформа T1X
+    description: 'Платформа обеспечивает больше пространства внутри, а также отличную
+      геометрическую проходимость: дорожный просвет, углы въезда и съезда.'
+- id: gallery
+  title: Галерея
+  images:
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/gallery/1.webp
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/gallery/2.webp
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/gallery/3.webp
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/gallery/4.webp
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/gallery/5.webp
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/gallery/6.webp
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/gallery/7.webp
+  - url: https://cdn.alexsab.ru/b/omoda/img/models/c5fl/sections/gallery/8.webp
+- id: app
+  title: Приложение O&J
+  text: Скачивайте мобильное приложение и получайте доступ к вселенной OMODA и JAECOO
+    в любой момент.<div class="flex items-center flex-wrap gap-4 pt-8 -mb-8"><a href="https://apps.apple.com/ru/app/my-omoda/id6444413855"
+    class="h-14 w-auto border-2 border-gray-400 rounded-[5px] px-2 py-1" target="_blank"
+    rel="nofollow"><img src="https://cdn.alexsab.ru/b/omoda/img/app-store.png" class="h-full
+    w-auto"></a><a href="https://play.google.com/store/apps/details?id=com.ru.chery.od.myOmoda"
+    class="h-14 w-auto" target="_blank" rel="nofollow"><img src="https://cdn.alexsab.ru/b/omoda/img/google-play.png"
+    class="h-full w-auto"></a></div>

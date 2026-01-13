@@ -1,1 +1,66 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: Стиль и брутальность
+  title: Venucia V-Online
+  text: Современный кроссовер, сочетающий в себе стиль, комфорт и передовые технологии
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 190 л.с.
+  - icon: mdi:engine
+    text: Крутящий момент 260 н.м.
+  - icon: mdi:car-info
+    text: Объем двигателя 1.5 л
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/v-online/sections/1.webp
+- id: exterior
+  sectionClass: bg-gray-100
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/v-online/sections/exterior/1.webp
+    title: Динамичный дизайн
+    description: Колесная база 2700 мм, длина 4562 мм, ширина 1917 мм. Современный
+      и динамичный дизайн экстерьера подчеркивает характер автомобиля.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/v-online/sections/exterior/2.webp
+    title: Спортивный спойлер
+    description: Аэродинамический спойлер не только подчеркивает спортивный характер
+      автомобиля, но и улучшает его аэродинамические характеристики. Интегрированный
+      стоп-сигнал обеспечивает дополнительную безопасность на дороге.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/v-online/sections/exterior/3.webp
+    title: Красивая оптика
+    description: Светодиодная оптика разбита в 2 уровня, создавая урбанистический
+      стиль.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Комфорт и технологии
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/v-online/sections/interior/1.webp
+    title: Современный интерьер
+    description: Продуманный интерьер с качественными материалами отделки и современным
+      оборудованием создает атмосферу комфорта и технологичности.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/v-online/sections/interior/2.webp
+    title: Панорамная крыша
+    description: Панорамная крыша с электрической солнцезащитной шторкой наполняет
+      салон естественным светом и создает ощущение простора. Безопасное управление
+      с функцией защиты от защемления делает использование комфортным и безопасным.
+- id: technology
+  sectionClass: bg-gray-100
+  title: Технологии
+  suptitle: Инновации
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/v-online/sections/technology/1.webp
+    title: Надежная трансмиссия
+    description: 7-ступенчатая трансмиссия с двумя сцеплениями от компании SAIC, была
+      названа лучшей трансмиссией в этом классе в Китае 2020 г.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/v-online/sections/technology/2.webp
+    title: Спортивные сиденья
+    description: Создают незабываемый комфорт
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/v-online/sections/technology/3.webp
+    title: Панорамная крыша
+    description: WOW эффект
+- id: documentation
+  sectionClass: ''
+  title: Документация для V-Online
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://ixenmotors-perm.ru/wp-content/uploads/2023/11/v-online.pdf'
+    class='underline' target='_blank'>Технические характеристики, комплектации и цены</a></span></p>

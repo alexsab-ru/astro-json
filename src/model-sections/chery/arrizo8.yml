@@ -1,1 +1,82 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: ''
+  title: Arrizo 8
+  text: Элегантность в движении
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 150 л.с.
+  - icon: mdi:speedometer
+    text: Крутящий момент 275 Нм
+  - icon: mdi:gas-station-outline
+    text: Расход топлива 7.5 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/1.webp
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/exterior/1.webp
+    title: Элегантный бизнес-седан
+    description: Эффектный силуэт кузова и мощные мускулистые линии, словно визуальное
+      выражение динамики, создают ощущение энергии и неудержимой жизненной силы.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/exterior/2.webp
+    title: Дерзский темперамент
+    description: «Х»-образная форма радиаторной решетки и резкие геометрические формы
+      отражают стремительный характер и дерзкий темперамент, и даже придают нотки
+      агрессии.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/exterior/3.webp
+    title: Эстетика стиля
+    description: Удлиненный стройный силуэт автомобиля, созданный переплетением резких
+      и плавных линий, подчеркивает выразительные формы, отражает стремительную динамику
+      и мощь.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/interior/1.webp
+    title: Пространство стиля
+    description: Платформа M1X обеспечивает максимально комфортное пространство для
+      водителя и всех пассажиров. Плавные линии дизайна прекрасно соответствуют сочетанию
+      высококачественных материалов отделки. Усиленная шумоизоляция сделает поездку
+      еще уютнее и комфортнее.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/interior/2.webp
+    title: Окутывающий интерьер
+    description: Обтекаемые плавные формы, элегантное сочетание качественных материалов,
+      комфортный теплый свет и большая цифровая зона управления с двумя 12,3″ HD-дисплеями
+      буквально погружают Вас в атмосферу премиального комфорта.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/interior/3.webp
+    title: Центр управления движением
+    description: Регулировка сиденья водителя в 6 направлениях и поясничного упора,
+      обогрев, вентиляция, память настроек, анатомические сиденья, авиационные подголовники,
+      премиальная аудиосистема SONY - уровень, достойный Вашего внимания.
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/technology/1.webp
+    title: Все под контролем
+    description: Электронное управление роботизированной коробкой передач DCT7 обеспечивает
+      максимально плавное переключение и высокий КПД трансмиссии ~ 96%. Электрический
+      стояночный тормоз надежен при парковке, а AutoHold реализует временную фиксацию
+      автомобиля во время коротких остановок.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/technology/2.webp
+    title: Безопасность 5★
+    description: 'Автомобиль спроектирован с учётом требований для 5* C-NCAP: 10 подушек
+      безопасности, 80% содержания высокопрочной стали в силовом каркасе, более 12
+      высокотехнологичных систем активной безопасности и помощи водителю ADAS - все
+      это обеспечивает максимальную защиту каждого пассажира.'
+  - url: https://cdn.alexsab.ru/b/chery/img/models/arrizo8/sections/technology/3.webp
+    title: Платформа M1X
+    description: Увеличенная до 2790 мм колесная база, полностью независимая многорычажная
+      подвеска в сочетании с мощным энергоэффективным двигателем 1.6TGDI 186 л.с.
+      обеспечивают истинное удовольствие от прохождения каждого поворота.
+- id: documentation
+  sectionClass: ''
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://www.chery.ru/Arrizo_8_april_5082965617045538250.pdf'
+    class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/Arrizo8_new_15891955370138132057.pdf'
+    class='underline' target='_blank'>Брошюра</a></span></p>

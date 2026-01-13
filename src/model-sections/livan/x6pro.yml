@@ -1,1 +1,96 @@
-[]
+- id: design
+  name: Дизайн
+  title: Почувствуйте уверенность
+  text: Современный дизайн, оснащение, технологии, функциональность, все это есть
+    в LIVAN X6PRO. Вы будете удивлены, насколько комфортно и безопасно Вы будете чувствовать
+    себя на любой дороге. <br>Почувствуйте уверенность в каждом мгновении, в каждом
+    повороте. Насладитесь движением по своей дороге.
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/design.webp
+- id: exterior
+  name: Экстерьер
+  title: Вдохновляясь многогранными возможностями мира
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/exterior/1.webp
+    title: Спортивная решетка и фары
+    description: В новом дизайне решетки радиатора в форме «крыла бабочки» для горизонтальных
+      линий используется технология параметрических процессов горячего тиснения, что
+      создаёт объёмный визуальный эффект. В решетку интегрирован логотип LIVAN и дизайн
+      передних LED фар
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/exterior/2.webp
+    title: Единая линия задней оптики
+    description: Вдохновением для создания формы послужили метеоры, проносящиеся с
+      невероятной скоростью и сияющие в ночном небе, создающие динамичную атмосферу
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/exterior/3.webp
+    title: Уникальный дизайн колесных дисков 18 радиуса
+    description: Шины с низким сопротивлением качению снижают шум и расход топлива,
+      повышают комфорт
+- id: interior
+  name: Интерьер
+  title: Комфортный и изысканный интерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/1.webp
+    description: Роскошь цвета и спортивные сиденья
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/2.webp
+    description: Лазерная гравировка
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/3.webp
+    description: D-образное рулевое колесо
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/4.webp
+    description: Простор второго ряда сидений
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/interior/5.webp
+    description: Складывающийся второй ряд, багажник 359 – 1200 л
+- id: tehnology
+  name: Технологии
+  title: Технологии
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/tehnology/1.webp
+    title: Сверхмощный 1.5TD двигатель с турбонаддувом
+    description: • Максимальная мощность 174 л.с. <br>• Максимальный крутящий момент
+      290 Нм <br>• Расход топлива на 100 км 6.5 л
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/tehnology/2.webp
+    title: 7-ми ступенчатая трансмиссия с муфтой сцепления мокрого типа
+    description: Топливная трансмиссия нового поколения специально разработанная для
+      езды по городу с двумя «мокрыми» сцеплениями, что обеспечивает эффективность,
+      плавность переключения передач и высокую точность.
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/tehnology/3.webp
+    title: Передняя независимая подвеска МакФерсон + Задняя многорычажная независимая
+      подвеска
+    description: Профессиональные подвески, подходящие под любое путешествие <br>Задняя
+      подвеска многорычажная независимая подвеска позволяет эффективно фильтровать
+      вибрацию, вызванную дорожным покрытием, и обеспечивать пассажирам комфорт.
+- id: safety
+  name: Безопасность
+  title: Безопасность
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/safety/1.webp
+    title: Высокопрочный безопасный каркас кузова
+    description: • 55% высокопрочной стали кузова <br>• жёсткость кузова на кручение
+      15000 Нм/град <br>• Более 5000 сварных соединений кузова
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/safety/2.webp
+    title: Всесторонняя защита
+    description: 'Шесть подушек безопасности: фронтальные и боковые для переднего
+      ряда, а также шторки безопасности по всей длине салона.'
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/safety/3.webp
+    title: Уверенность в каждом движении
+    description: В базовое оснащение LIVAN X6PRO входит девять систем активной безопасности
+      включая передовые системы курсовой устойчивости, удержания автомобиля при подъеме,
+      предотвращения опрокидывания, контроля давления в шинах и другие.
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x6pro/safety/4.webp
+    title: Задние датчики парковки и камера заднего вида с экраном высокой четкости
+      и динамическими направляющими
+    description: null
+- id: waranty
+  name: Обслуживание
+  title: Гарантия и сервис
+  text: Гарантия качества на автомобиль и оригинальные запасные части марки LIVAN
+    предоставляемая производителем в течение гарантийного срока, 5 лет после покупки
+    или в течение 150 000 км пробега, в зависимости от того, что наступит раньше.
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/x3pro-service.webp
+  items:
+  - icon: mdi:calendar-badge-outline
+    text: <span class="text-gray-120 text-4xl font-bold leading-none">5 лет</span><br><span
+      class="text-sm font-light">после покупки</span>
+  - icon: mdi:run
+    text: <span class="text-gray-120 text-4xl font-bold leading-none mb-1">150 000
+      км</span><br><span class="text-sm font-light">пробега</span>

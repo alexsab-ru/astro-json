@@ -1,1 +1,94 @@
-[]
+- id: description
+  sectionClass: bg-gray-100
+  text: <video class="aspect-video object-cover jbject-center" src="https://cdn.alexsab.ru/video/solaris/krs-single.mp4"
+    poster="https://cdn.alexsab.ru/main-sliders/solaris/posters/krs-single-poster.webp"
+    autoplay loop playsinline muted></video>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 123 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 11.2 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 6.6 л / 100 км
+- id: quality
+  title: Высокое качество
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/quality/1.webp
+    title: Стильный и яркий дизайн
+    description: Притягивает к себе восхищенные взгляды и вдохновляет на новые приключения.
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/quality/2.webp
+    title: Автоматическая коробка передач
+    description: Проверенная временем на дорогах России
+- id: telematic
+  title: Телематика
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/telematic/1.webp
+    title: Автозапуск и цифровой ключ
+    description: Позволяет дистанционно запускать двигатель, чтобы заранее подготовить
+      автомобиль к поездке, обеспечивая комфорт в любое время года, а также дистанционно
+      управлять функциями автомобиля, такими как центральный замок, световая и звуковая
+      сигнализация.
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/telematic/2.webp
+    title: Мониторинг
+    description: Позволяет отслеживать местоположение автомобиля на карте и сохранять
+      историю поездок для анализа и контроля перемещений. <br/>• Автомобиль на карте
+      <br/>• История поездок
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/telematic/3.webp
+    title: Профиль авто
+    description: Позволяет контролировать состояние аккумулятора, планировать поездки,
+      следить за уровнем топлива и все на одном экране приложения. <br/>• Уровень
+      топлива <br/>• Уровень заряда АКБ <br/>• Актуальный пробег
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/telematic/4.webp
+    title: Статистика
+    description: Данные по расходу топлива, времени работы двигателя и средней скорости
+      за поездку помогают оценивать затраты, оптимизировать использование автомобиля
+      и повышать безопасность. <br/>• Расход топлива <br/>• Время работы двигателя
+      <br/>• Средняя скорость
+- id: advantages
+  title: Преимущества
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/advantages/1.webp
+    title: Адаптации под российские дороги
+    description: • Оцинкованный кузов <br/>• Использование современных антигравийных
+      составов <br/>• Обработка воском скрытых полостей автомобиля <br/>• Использование
+      клеящего состава в сварных швах для уплотнения и исключения скапливания влаги
+      <br/>• Обработка стыков и швов герметиком <br/>• Дорожный просвет – 160 мм
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/advantages/2.webp
+    title: Классический «автомат»
+    description: <b class="font-bold">Комфорт и производительность </b></br>Классический
+      автомат обеспечивает плавность переключения и предсказуемую реакцию, улучшая
+      качество вождения и ускорение на шоссе. <br/><br/><b class="font-bold">Долговечность
+      и надежность</b><br/>Простота конструкции и использование проверенных технологий
+      и материалов делают автомат более надежным и долговечным, уменьшая потребность
+      в частом обслуживании.
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/advantages/3.webp
+    title: Высокие стандарты безопасности
+    description: • Система контроля давления в шинах (TPMS) <br/>• Датчики парковки
+      спереди и сзади <br/>• Камера заднего вида <br/>• 6 подушек безопасности
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/advantages/4.webp
+    title: Современный дизайн
+    description: • Светодиодная оптика со статичной подсветкой поворотов <br/>• Багажник
+      <br/>• Богатая палитра цветов <br/>• Хромированные элементы кузова <br/>• Стильные
+      решётки радиаторов <br/>• Современный спортивный дизайн
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/advantages/5.webp
+    title: Эргономика и комфорт
+    description: • Электропривод складывания боковых зеркал <br/>• Теплые опции <br/>•
+      Система бесключевого доступа <br/>• Регулировка рулевой колонки по высоту и
+      вылету <br/>• Мультимедийный комплекс 8’’ с 6 динамиками Apple CarPlay/Android
+      Auto <br/>• Электрорегулировка поясничного подпора сидения водителя <br/>• Сдвигающийся
+      передний подлокотник <br/>• Климат-контроль
+- id: warranty
+  title: Гарантия
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/krs/sections/warranty/1.webp
+    description: <h3 class="font-bold text-xl">3 года гарантии</h3><br/><h3 class="font-bold
+      text-xl">100 000 км пробега</h3>
+- id: comfort
+  title: Комфорт
+  text: <h3 class="font-bold">Регулировка руля</h3><p>Регулировка руля в четырёх направлениях
+    - по высоте и вылету в горизонтальной и вертикальной плоскостях</p><br/><h3 class="font-bold">Теплые
+    опции</h3><p>• Подогрев рулевого колеса <br/>• Подогрев передних и задних сидений</p><br/><h3
+    class="font-bold">Мультимедийная система</h3><p>• Мультимедийная система с 8”
+    экраном <br>• 6 динамиков <br>• Поддержка CarPlay и Android Auto</p><br/><h3 class="font-bold">Климат-контроль</h3><p>Климат-контроль
+    с числовым обозначением и физическими кнопками</p><br/><h3 class="font-bold">Подлокотник</h3><p>Сдвигающийся
+    передний подлокотник с  оксом и отделкой искусственной кожей</p>

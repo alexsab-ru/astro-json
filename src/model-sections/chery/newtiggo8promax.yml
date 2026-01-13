@@ -1,1 +1,113 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: ''
+  title: ''
+  text: ''
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 186 л.с.
+  - icon: mdi:speedometer
+    text: Крутящий момент 275 Нм
+  - icon: mdi:gas-station-outline
+    text: Расход топлива 7.2 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/1.webp
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/exterior/1.webp
+    title: Rhomb Diamond Matrix
+    description: Обновленные элементы экстерьера и решетка радиатора Rhomb Diamond
+      Matrix создают неповторимый образ, воплощая сочетание традиционной эстетики
+      Китая и глобального мира.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/exterior/2.webp
+    title: Яркий спутник в поездках
+    description: Узнаваемые огни LED-оптики, динамические указатели поворотов и яркие
+      ходовые огни подчеркивают уникальный стиль TIGGO 8 PRO MAX и помогут стать верным
+      спутником в ваших семейных поездках!
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/exterior/3.webp
+    title: Для семейных увлечений
+    description: Просторный семиместный кроссовер с 19” дисками, удлиненным силуэтом,
+      стильным дизайном задних LED-фонарей уместит все атрибуты ваших семейных увлечений.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/interior/1.webp
+    title: Дизайнерский салон для нужд всей семьи
+    description: Атмосферная подсветка, объемное звучание аудио-системы Sony с 10
+      динамиками и улучшенная шумоизоляция создают ощущение уюта  для всей вашей семьи.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/interior/2.webp
+    title: 7 мест для путешествий всей семьей
+    description: Просторный интерьер с отделкой из эко-кожи на 7 мест в темно-коричневых
+      или черных тонах вместит всю вашу семью, а удобные кресла с возможностью регулировки
+      обеспечат комфорт в длительных поездках.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/interior/3.webp
+    title: Эргономичные сиденья и панорамная крыша
+    description: Выверенная эргономика кресел, авиационные подголовники и множество
+      настроек для водителя, функция массажа и регулировка подставки для ног пассажира
+      - все для комфорта в семейных поездках.
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/1.webp
+    title: Цифровая зона управления 2х12.3”
+    description: Цифровая зона управления с изогнутой панелью 2х12.3”, проекционный
+      дисплей, круговой обзор в формате 540°, телематика Chery Connect, беспроводная
+      зарядка - технологичные решения, создающие максимальный комфорт при вождении.
+      Система контроля качества воздуха AQS и ионизация создают в салоне чистый кислородный
+      бар.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/2.webp
+    title: Контроль качества воздуха AQS
+    description: Система контроля качества воздуха AQS и ионизация создают в салоне
+      чистый кислородный бар. Двузонный климат-контроль, возможность регулировки потока
+      воздуха для каждого ряда сидений и полный зимний пакет позволяют учесть все
+      предпочтения в пути.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/3.webp
+    title: Продвинутый функционал
+    description: 'Полноприводный семиместный кроссовер TIGGO 8 PRO MAX оснащен дополнительным
+      оборудованием, которое выводит модель на новый уровень комфорта, соответствующий
+      бизнес-классу: проекционный дисплей, телематика Chery Connect, встроенный видеорегистратор,
+      аудиосистема SONY, круговой обзор в формате 540°.'
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/4.webp
+    title: Надежен в ваших поездках
+    description: Преселективная роботизированная 7-ступенчатая трансмиссия DCT7 с
+      двумя сцеплениями мокрого типа оптимально сочетается с интеллектуальным полным
+      приводом 4WD, что позволит путешествовать в самые отдаленные места.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/5.webp
+    title: Полный привод 4WD
+    description: Интеллектуальный полный привод – гарантия повышенной проходимости
+      вне города. В зависимости от дорожных условий, интеллектуальный ассистент выбирает
+      режим вождения, автоматически переключая между 2WD и 4WD-приводом.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/technology/6.webp
+    title: Мониторинг слепых зон
+    description: Появление транспортных средств в слепых зонах с обеих сторон автомобиля
+      контролируется микроволновым радаром, предупреждая об опасной ситуации звуковым
+      и визуальным сигналом (BSD).
+- id: security
+  sectionClass: ''
+  title: Безопасность
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/security/1.webp
+    title: Поддержка 7 лет
+    description: Гарантия и дополнительная поддержка на CHERY TIGGO 8 PRO MAX достигает
+      рекордных 7 лет или 200 000 км пробега в зависимости от того, что наступит ранее.
+      Уверенность в качестве и надёжности базируется на длительной испытательной программе.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/newtiggo8promax/sections/security/2.webp
+    title: 5 звезд CNCAP
+    description: TIGGO 8 PRO MAX заслуженно получил высшую оценку безопасности 5*
+      по методике C-NCAP Китайского Центра Автомобильных Технологий и Исследований.
+      Комплексная защита включает в себя 9 подушек безопасности и мощный силовой каркас
+      безопасности.
+- id: documentation
+  sectionClass: ''
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://www.chery.ru/T8PM_april_god_vypuska_2025_16320689286466147556.pdf'
+    class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/Tiggo%208%20Pro%20Max%20FL%20catalog%20preview_11599361390388115835.pdf'
+    class='underline' target='_blank'>Брошюра</a></span></p>

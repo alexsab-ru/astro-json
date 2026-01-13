@@ -1,1 +1,113 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: О модели
+  title: JETOUR T1
+  text: <div class='space-y-4'><p>JETOUR T1 — универсальный внедорожный кроссовер
+    с элегантным кузовом, который сочетает в себе современный стиль и функциональность.
+    Благодаря изысканному дизайну, JETOUR T1 привлекает внимание своей эстетичностью
+    и изящными линиями.</p><p>Этот автомобиль оборудован мощным двигателем, который
+    обеспечивает комфортное и безопасное вождение. Вне зависимости от дорожных условий,
+    JETOUR T1 демонстрирует высокую проходимость и отличную управляемость.</p><p>JETOUR
+    T1 — идеальный выбор для тех, кто ценит комфорт, стиль и надежность в автомобиле.</p></div>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 245 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 8.6/10 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 7.8-10.7 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-1920x1080.webp
+- id: exterior
+  sectionClass: ''
+  title: Экстерьера
+  suptitle: Детали
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/exterior/1.webp
+    title: Брутальный дизайн
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/exterior/2.webp
+    title: Современный дизайн
+    description: «Квадратный» силуэт с высоким рельефным капотом, плавные линии кузова,
+      минималистичный спортивный бампер, мощные ручки подчёркивают характер T1.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/exterior/3.webp
+    title: Яркая индивидуальность
+    description: Индивидуальность модели подчеркивается фарами в форме четырехлистного
+      клевера, дизайном колесных дисков в виде лепестков цветка, парящей декоративной
+      панелью.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Продумана каждая деталь
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/interior/1.webp
+    title: Продуманное пространство в салоне и функциональность
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/interior/2.webp
+    title: Удобство эксплуатации
+    description: Цифровая приборная панель 10,25 дюймов и 12,8- или 15,6-дюймовый
+      центральный экран управления.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/interior/3.webp
+    title: Комфортные сиденья
+    description: Перфорированные текстурированные сиденья Shuyun («комфорт, как на
+      облаке»), выполненные из гипоаллергенных приятных на ощупь материалов.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/interior/4.webp
+    title: Стильный интерьер
+    description: Спортивный руль, рычаг переключения передач в авиационном стиле,
+      изображение карты мира на передней панели со стороны пассажира.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/interior/5.webp
+    title: Просторный салон
+    description: Увеличенное пространство в салоне, 45 отсеков для хранения, объём
+      багажного отделения достигает 1 455 литров при сложенных сиденьях второго ряда.
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/technology/1.webp
+    title: Комфорт на дороге
+    description: Передняя независимая подвеска типа McPherson и задняя многорычажная
+      подвеска обеспечивают устойчивость на высоких скоростях и комфорт при движении
+      по неровной дороге. Обе подвески оснащены стабилизаторами поперечной устойчивости.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/technology/2.webp
+    title: Усиленная конструкция кузова
+    description: Кузов Т1 более чем на 85% состоит из высокопрочной стали c использованием
+      лазерной сварки. Крыша рассчитана на нагрузку до 150 кг в динамике и 300 кг
+      в статике, такая усиленная конструкция повышает безопасность в случае столкновений.
+      Максимальная масса прицепа составляет 1 600 кг.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/technology/3.webp
+    title: Мощный двигатель
+    description: Для JETOUR T1 предлагается двигатель 2,0Т мощностью 245 л.с. и максимальным
+      крутящим моментом 375 Н·м, который работает в паре с восьмиступенчатой автоматической
+      коробкой передач 8AT. Ускорение до 100 км/ч занимает 8,6 секунды.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/technology/4.webp
+    title: Экономичная версия
+    description: Также JETOUR T1 доступен с бензиновым турбированным 1,5‑литровым
+      мотором мощностью 170 л.с. и крутящим моментом 270 Н·м. Этот экономичный двигатель
+      работает в паре с роботизированной коробкой передач 7DCT с двойным сцеплением
+      и передним приводом.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/technology/5.webp
+    title: Трансмиссия
+    description: Для JETOUR T1 с двигателем 2,0Т доступен интеллектуальный полный
+      привод XWD с муфтой от BorgWarner шестого поколения. Система автоматически распределяет
+      крутящий момент между осями в зависимости от условий движения, что делает автомобиль
+      идеальным для города и за его пределами.
+- id: comfort
+  sectionClass: ''
+  title: Комфорт
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/comfort/1.webp
+    title: Технологичный салон
+    description: Селектор выбора режима управления автомобилем позволяет легко адаптировать
+      поведение машины под любые дорожные условия.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/comfort/2.webp
+    title: Двойное остекление
+    description: Дополнительный комфорт в автомобиле создают двухслойные шумопоглощающие
+      стекла на первом ряду.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/comfort/3.webp
+    title: Двухзонный климат-контроль
+    description: Двухзонный климат-контроль оснащен эффективным фильтром стандарта
+      CN95, который гарантирует чистый воздух. Физические кнопки для управления климат-контролем
+      расположены под центральным экраном.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/t1/sections/comfort/4.webp
+    title: Расширенный зимний пакет
+    description: Подогрев передних и задних сидений, лобового и заднего стекла, боковых
+      зеркал заднего вида, рулевого колеса, передних форсунок стеклоомывателя.

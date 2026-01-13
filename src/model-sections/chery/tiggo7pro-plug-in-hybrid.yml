@@ -1,1 +1,93 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: ''
+  title: ''
+  text: ''
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 147 л.с.
+  - icon: mdi:speedometer
+    text: Крутящий момент 160 Нм
+  - icon: mdi:gas-station-outline
+    text: Расход топлива при минимальной степени зарядки батареи от 7.3 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/1.webp
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/exterior/1.webp
+    title: Панорамная «парящая» крыша
+    description: Придает автомобилю элегантный вид и создает ощущение простора в салоне.
+      Благодаря этому предоставляется уникальная возможность наслаждаться ярким дневным
+      светом и внешним пейзажем.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/exterior/2.webp
+    title: Эффективный дизайн
+    description: CHERY Tiggo 7 PRO Plug-in Hybrid привлекает внимание своим современным
+      и элегантным экстерьером, а также ярким и инновационным оснащением. Все эти
+      преимущества сделают вашу поездку комфортной и стильной, привнося при этом долю
+      роскоши и удовольствия на дороге.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/interior/1.webp
+    title: Технологичный
+    description: CHERY Tiggo 7 PRO Plug-in Hybrid оснащен технологичным интерьером,
+      который обеспечивает комфорт и удобство во время поездок. Сдвоенная панель экранов
+      размером 2х12.3” предлагает интуитивное управление автомобилем и предоставляет
+      информацию о различных параметрах работы автомобиля. На панели климата размером
+      8” можно легко настроить и контролировать климатическую систему автомобиля.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/interior/2.webp
+    title: Согревая в пути
+    description: CHERY Tiggo 7 PRO Plug-in Hybrid оснащен полным зимним пакетом, куда
+      входят обогревы ветрового стекла, форсунок омывателя, зеркал, заднего стекла,
+      рулевого колеса, передних и задних сидений.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/interior/3.webp
+    title: Стильный
+    description: CHERY Tiggo 7 PRO Plug-in Hybrid предлагает современные технологии
+      и функции в удобном и элегантном интерьере, создавая приятную и комфортную атмосферу
+      в автомобиле, атмосферная подсветка придаст уникальность салону автомобиля.
+      Сиденья анатомической формы с усиленной боковой поддержкой обеспечивают комфортную
+      посадку. 10 направлений регулировки водительского кресла и память настроек позволяет
+      создать идеальное положение водителя для максимального удобства в поездке.
+- id: security
+  sectionClass: ''
+  title: Безопасность
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/security/1.webp
+    title: Надежный партнер на дорогах
+    description: Наслаждайтесь комфортной и безопасной поездкой на Chery Tiggo 7 Pro
+      Plug-in Hybrid с передовой системой активной безопасности ADAS.  Интеллектуальные
+      системы помощи водителю обеспечивают безопасность на дороге, а система Эра-Глонасс
+      гарантирует точную локализацию и быстрый вызов помощи при необходимости.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/security/2.webp
+    title: Оцинкованный кузов
+    description: Каркас безопасности обеспечивает дополнительную защиту при авариях,
+      а более 60% кузова изготовлено из высокопрочной термоформованной стали Benteler,
+      создающую высокую прочность и жесткость.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/security/3.webp
+    title: Интеллектуальные системы
+    description: Chery Tiggo 7 Pro Plug-in Hybrid предлагает множество удобных функций
+      для повседневного использования. Например, проекционный экран, система удержания
+      полосы движения и контроль слепых зон облегчают движение в городских условиях.
+      Предупреждение о препятствиях при открытии дверей или движении задним ходом
+      в ограниченной видимости помогает избегать возможных неприятностей. Камеры кругового
+      обзора делают парковку на узких местах безопасной и удобной.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7pro-plug-in-hybrid/sections/security/4.webp
+    title: Помощь на дорогах
+    description: Мы понимаем насколько важна мобильность и оперативная помощь при
+      возникновении внештатной ситуации на дороге и с заботой об автовладельцах предлагаем
+      программу помощи на дорогах CHERY HYBRID Assistance на 5 лет. Она включает в
+      себя круглосуточную техническую помощь в радиусе 250 км от административных
+      границ города присутствия дилерского центра CHERY (прошедшего сертификацию на
+      продажу и обслуживание автомобилей с гибридной силовой установкой).
+- id: documentation
+  sectionClass: ''
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://www.chery.ru/прайс_phev_7_pro_mar_7351197756814969083.pdf'
+    class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/каталог%20гибриды_8914018805080901917.pdf'
+    class='underline' target='_blank'>Брошюра</a></span></p>

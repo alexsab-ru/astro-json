@@ -1,1 +1,73 @@
-[]
+- id: description
+  sectionClass: bg-gray-100
+  text: <video class="aspect-video object-cover jbject-center" src="https://cdn.alexsab.ru/video/solaris/solaris_hs.webm"
+    poster="https://cdn.alexsab.ru/main-sliders/solaris/posters/poster_hs.webp" autoplay
+    loop playsinline muted></video>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 100 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 12.2/12.9 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 5.7/6.4 л / 100 км
+- id: quality
+  title: Дизайн
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hs/sections/design/1.webp
+    title: Колесные диски
+    description: Динамичная и стильная форма легкосплавных колесных дисков подчеркивает
+      лаконичный стиль Solaris HS
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hs/sections/design/2.webp
+    title: Складывающиеся зеркала
+    description: Благодаря функции электроскладывания боковых зеркал автомобиль становится
+      более мобильным, даже в тех случаях, когда он припаркован рядом с дорогой с
+      оживленным движением
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hs/sections/design/3.webp
+    title: Выразительная оптика
+    description: Выразительная форма передней оптики делает автомобиль узнаваемым
+      в городском потоке, а мягкий светодиодный свет позволяет совершать поездки в
+      ночное время с комфортом и безопасностью
+- id: telematic
+  title: Цифровой автомобиль
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hs/sections/telematic/1.webp
+    title: Автозапуск и цифровой ключ
+    description: Позволяет дистанционно запускать двигатель, чтобы заранее подготовить
+      автомобиль к поездке, обеспечивая комфорт в любое время года, а также дистанционно
+      управлять функциями автомобиля, такими как центральный замок, световая и звуковая
+      сигнализация.
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hs/sections/telematic/2.webp
+    title: Мониторинг
+    description: Позволяет отслеживать местоположение автомобиля на карте и сохранять
+      историю поездок для анализа и контроля перемещений. <br/>• Автомобиль на карте
+      <br/>• История поездок
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hs/sections/telematic/3.webp
+    title: Профиль авто
+    description: Позволяет контролировать состояние аккумулятора, планировать поездки,
+      следить за уровнем топлива и все на одном экране приложения. <br/>• Уровень
+      топлива <br/>• Уровень заряда АКБ <br/>• Актуальный пробег
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hs/sections/telematic/4.webp
+    title: Статистика
+    description: Данные по расходу топлива, времени работы двигателя и средней скорости
+      за поездку помогают оценивать затраты, оптимизировать использование автомобиля
+      и повышать безопасность. <br/>• Расход топлива <br/>• Время работы двигателя
+      <br/>• Средняя скорость
+- id: warranty
+  title: Гарантия
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hs/sections/warranty/1.webp
+    description: <h3 class="font-bold text-xl">3 года гарантии</h3><br/><h3 class="font-bold
+      text-xl">100 000 км пробега</h3>
+- id: comfort
+  title: Комфорт
+  text: '<h3 class="font-bold">Регулировка руля</h3><p>Регулировка руля в четырёх
+    направлениях - по высоте и вылету в горизонтальной и вертикальной плоскостях</p><br/><h3
+    class="font-bold">Панель приборов</h3><p>• Панель приборов Supervision с цветным
+    4,2” экраном <br>• Клетчатая подложка спидометра и тахометра</p><br/><h3 class="font-bold">Теплые
+    опции</h3><p>• Подогрев рулевого колеса <br>• Подогрев переднего ряда сидений
+    <br>• Подогрев заднего ряда сидений</p><br/><h3 class="font-bold">Поясничная поддержка
+    водителя</h3><p>• Снижает усталость во время длительных поездок <br>• Помогает
+    сохранить концентрацию на протяжении всей поездки</p><br/><h3 class="font-bold">Мультимедийная
+    система</h3><p>Мультимедийная система с 8” экраном с навигацией: <br> • Разрешение
+    экрана: 1280х720 <br>• Поддержка CarPlay/Android Auto</p><br/><h3 class="font-bold">Климат-контроль</h3><p>Климат-контроль
+    с цифровой визуализацией и физическими кнопками</p><br/>'

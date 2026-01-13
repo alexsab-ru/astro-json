@@ -1,1 +1,106 @@
-[]
+- id: description
+  title: Полноразмерный рамный внедорожник BAIC BJ60 <br/>От наследия к инновациям
+  text: <div class="space-y-4 mb-10"><p>Новый BJ60 продолжает традиции настоящих внедорожников
+    BAIC. Модель воплотила в&nbsp;себе многолетнюю экспертизу компании, которая более
+    60&nbsp;лет специализируется на&nbsp;создании и&nbsp;производстве внедорожников.
+    Безупречное сочетание проверенных временем внедорожных качеств автомобиля и&nbsp;современных
+    технологий открывает свободу передвижения в&nbsp;любых направлениях.</p><p>Обладая
+    всеми качествами полноразмерного внедорожника, новый BAIC&nbsp;BJ60&nbsp;— прежде
+    всего автомобиль, созвучный вашим убеждениям. Брутальный, комфортный, технологичный,
+    вместительный BAIC&nbsp;BJ60 — мастер реализации ваших замыслов, который расширяет
+    горизонты возможностей.</p><p>От&nbsp;поездок в&nbsp;сложных городских условиях
+    до&nbsp;экстремальных приключений на&nbsp;бездорожье.</p></div><iframe src="https://cdn.avtotor-static.oneplatform.site/baic/models/bj60/bj60-pano_rus/index.html?lang=ru"
+    width="100%" height="750"></iframe>
+  items:
+  - icon: mdi:engine-outline
+    text: <b>Двигатель - 2.0D</b>
+  - icon: mdi:roman-numeral-6
+    text: <b>Экологический класс</b>
+  - icon: mdi:car-manual-transmission
+    text: <b>Коробка передач - 8AT</b>
+  - icon: mdi:car-traction-control
+    text: <b>Привод - 4WD</b>
+- id: video
+  title: Современный дизайн и яркая харизма
+  text: Дизайн передней части автомобиля демонстрирует фамильную стилистику внедорожников
+    BAIC, где характерная решётка радиатора с пятью выразительными U-образными элементами
+    подчеркивает преемственность поколений. А LED-подсветка решётки в сочетании с
+    полностью светодиодной оптикой как спереди, так и сзади, отражает высокотехнологичность
+    нового BAIC BJ60.<video class="mt-10 aspect-video" preload="metadata" autoplay
+    playsinline muted loop><source src="https://cdn.alexsab.ru/video/baic/bj60-demo.mp4"
+    type="video/mp4"></video>
+- id: exterior
+  title: Экстерьер
+  text: Преемственность и инновации. Смелое сочетание величественной брутальности
+    и локаничного дизайна. Основная идея характерной и узнаваемой стилистики BAIC
+    BJ60 проходит лейтмотивом в оформлении экстерьера автомобиля.
+  images:
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/3.webp
+    title: Светодиодная оптика и подсветка решетки радиатора
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/1.webp
+    title: Панорамная крыша
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/2.webp
+    title: Боковые подножки с электроприводом
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/4.webp
+    title: Полноразмерное запасное колесо
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/exterior/5.webp
+    title: Габариты 5 040 х 1 955 х 1 925 мм
+- id: premium
+  title: Салон премиум класса
+  text: Оказавшись за рулем, вы можете не поверить, что BAIC BJ60 — внедорожник. Продуманность
+    и элегантность в каждой детали поднимают планку в классе. Не сомневайтесь — BAIC
+    BJ60 обеспечит вам комфорт на любых дорогах и в любых ситуациях, а пакет теплых
+    опций позаботится о вас в холодные дни.
+  images:
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/premium/1.webp
+- id: interior
+  title: Внимание к деталям
+  images:
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/interior/1.webp
+    title: Розетка 220 В
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/interior/2.webp
+    title: Багажник до 2 000 л в сложенном виде
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/interior/3.webp
+    title: Сенсорный дисплей мультимедиа и физические кнопки управления
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/interior/4.webp
+    title: Аудиосистема Harman Infinity с 12 динамиками
+- id: technology
+  title: Утонченная технологичность
+  text: В BAIC BJ60 представлены современные технологии, способные придать новые оттенки
+    вождению. В сочетании с мощными техническими характеристиками этот автомобиль
+    становится не просто средством передвижения, а истинным партнером на каждом этапе
+    пути. BAIC BJ60 — это шаг в будущее, где интеллектуальные технологии и человек
+    сосуществуют в гармонии.
+  images:
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/technology/1.webp
+    title: 9 режимов движения
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/technology/2.webp
+    title: Полностью независимая подвеска
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/technology/3.webp
+    title: Подключаемый полный привод
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/technology/4.webp
+    title: Силовая установка — система «Мягкий гибрид» в составе 2-литрового дизельного
+      двигателя, 48-вольтового стартер-генератора и 8-ступенчатой АКП
+- id: help
+  title: Системы помощи водителю
+  text: BAIC BJ60 — это не просто внедорожник, а настоящий помощник на дороге, который
+    обеспечит комфорт и безопасность в любых условиях. Оснащенный передовыми системами
+    помощи водителю, этот автомобиль предлагает инновационные технологии, которые
+    делают управление проще, а поездки — более безопасными.
+  images:
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/help/1.webp
+    title: Система адаптивного дальнего света (ADB)
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/help/2.webp
+    title: Система автономного экстренного торможения (AEB)
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/help/3.webp
+    title: Система контроля слепых зон (BSD)
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/help/4.webp
+    title: Система предупреждения о фронтальном столкновении (FCW)
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/help/5.webp
+    title: Система помощи при спуске (HDC)
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/help/6.webp
+    title: Адаптивный круиз-контроль (IACC)
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/help/7.webp
+    title: Адаптивный круиз-контроль (IACC)
+  - url: https://cdn.alexsab.ru/models/baic/bj60/sections/help/8.webp
+    title: Система предупреждения о выезде за пределы полосы движения (LDW)

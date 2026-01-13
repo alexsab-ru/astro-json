@@ -1,1 +1,70 @@
-[]
+- id: items
+  sectionClass: ''
+  items:
+  - icon: mdi:engine-outline
+    text: Двигатель 1.6 л
+  - icon: mdi:lightning-bolt
+    text: Мощность 109 л.с.
+  - icon: mdi:speedometer
+    text: Объем багажника 600 л
+- id: description
+  sectionClass: ''
+  title: Компактный снаружи, просторный внутри
+  text: 'JAC JS3 идеально подходит для ежедневной эксплуатации как в городской среде,
+    так и за городом. Просторный технологичный интерьер и вместительный багажник,
+    узнаваемые детали экстерьера и современное технологическое оснащение - все это
+    про JS3!
+
+    '
+- id: exterior
+  sectionClass: ''
+  title: Узнаваемый на дороге
+  text: 'Оригинальный дизайн с двухуровневой оптикой и матовой решеткой радиатора
+    выделяет JS3 в потоке машин. Матовые элементы, расположенные на нижней части кузова
+    - практичное решение, которое позволяет не бояться мелких царапин и сколов.
+
+    '
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/exterior/4.webp
+- id: interior
+  title: Добро пожаловать на борт
+  text: 'Просторный интерьер точно придется по вкусу любителям современных технологий.
+    Лаконичная и хорошо читаемая приборная панель, продуманная эргономика, удобные
+    сиденья, мультимедийная система с сенсорным дисплеем и широким рядом опций сделают
+    вождение легким и приятным.
+
+    '
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/interior/4.webp
+- id: gallery
+  title: Фотогалерея
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/4.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/5.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/6.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/7.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/8.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/9.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/10.webp
+  - url: https://cdn.alexsab.ru/models/jac/js3/sections/gallery/11.webp
+- id: video
+  text: '<video class="mt-10 aspect-video" muted playsinline autoplay loop preload="metadata"><source
+    src="https://cdn.alexsab.ru/models/jac/js3/sections/video/js3.mp4" type="video/mp4"></video>
+
+    '
+- id: description
+  sectionClass: ''
+  title: Комплектации и цены
+  text: '<p><span><a href=''https://jaccar.ru/JS3-price_web-010126_14428045002224793116.pdf''
+    class=''underline'' target=''_blank''>Скачать прайс-лист</a></p>
+
+    '

@@ -1,1 +1,101 @@
-[]
+- id: description
+  sectionClass: bg-gray-100
+  text: <video class="aspect-video object-cover jbject-center" src="https://cdn.alexsab.ru/video/solaris/solaris-hc.webm"
+    poster="https://cdn.alexsab.ru/main-sliders/solaris/posters/poster-hc.webp" autoplay
+    loop playsinline muted></video>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 149.6 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 11.3 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 7.7 л / 100 км
+- id: quality
+  title: Высокое качество
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/quality/1.webp
+    title: Полный привод
+    description: Полный привод на Solaris HC улучшает проходимость, повышает безопасность
+      благодаря лучшему сцеплению с дорогой и увеличивает динамику разгона.
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/quality/2.webp
+    title: 'Автоматическая / Механическая '
+    description: Коробка передач Solaris HC проста в обслуживании и дает водителю
+      больше контроля и обеспечивает экономию топлива и комфортную езду.
+- id: telematic
+  title: Цифровой автомобиль
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/telematic/1.webp
+    title: Автозапуск и цифровой ключ
+    description: Позволяет дистанционно запускать двигатель, чтобы заранее подготовить
+      автомобиль к поездке, обеспечивая комфорт в любое время года, а также дистанционно
+      управлять функциями автомобиля, такими как центральный замок, световая и звуковая
+      сигнализация.
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/telematic/2.webp
+    title: Мониторинг
+    description: Позволяет отслеживать местоположение автомобиля на карте и сохранять
+      историю поездок для анализа и контроля перемещений. <br/>• Автомобиль на карте
+      <br/>• История поездок
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/telematic/3.webp
+    title: Профиль авто
+    description: Позволяет контролировать состояние аккумулятора, планировать поездки,
+      следить за уровнем топлива и все на одном экране приложения. <br/>• Уровень
+      топлива <br/>• Уровень заряда АКБ <br/>• Актуальный пробег
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/telematic/4.webp
+    title: Статистика
+    description: Данные по расходу топлива, времени работы двигателя и средней скорости
+      за поездку помогают оценивать затраты, оптимизировать использование автомобиля
+      и повышать безопасность. <br/>• Расход топлива <br/>• Время работы двигателя
+      <br/>• Средняя скорость
+- id: advantages
+  title: Преимущества
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/advantages/1.webp
+    title: Хорошая проходимость
+    description: • Автоматическое распределение момента между осями в зависимости
+      от дорожных условий <br/>• Контроль курсовой устойчивости в поворотах <br/>•
+      Опция принудительной блокировки до 60 км/ч <br/>• Муфта полного привода Dynamax
+      <br/>• Клиренс 190 мм
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/advantages/2.webp
+    title: Классический «автомат»
+    description: '• Данный тип коробки передач доказал высокий уровень надежности
+      даже в сложных условиях эксплуатации (трафик, холодные температуры, разный стиль
+      вождения), а так же имеет высокий уровень доверия у потенциальных покупателей
+      <br/>• 6 – ступенчатая автоматическая трансмиссиях <br/>• 216 Нм максимальный
+      крутящий момент <br/>• Замена масла: не требуется <br/>• Объем смазки: 7,3 л'
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/advantages/3.webp
+    title: Оцинковка кузова
+    description: • Технологии производства и обработки кузовов полностью сохранены
+      с 2021 года. <br/>• Полноценная антикоррозийная подготовка автомобиля <br/>•
+      Оцинкованный кузов <br/>• Добавления воска в скрытые полости <br/>• Проверено
+      в условиях агрессивных дорожных реагентов
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/advantages/4.webp
+    title: Высокие стандарты безопасности
+    description: • Система управления стабилизации (ABS, ESP, TCS, EBD, VSM) <br/>•
+      6 подушек безопасности <br/>• Камера заднего вида <br/>• Парковочные датчики
+      (задние и передние, по 4 штуки на каждую сторону)
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/advantages/5.webp
+    title: Эргономика и комфорт
+    description: <b class="font-bold">Эргономичный салон</b><br/>• Электрорегулировки
+      сидения водителя <br/>• Беспроводная зарядка <br/>• Эргономичный селектор <br/><b
+      class="font-bold">Комфорт</b><br/>• Панель приборов Supervision 7’’ <br/>• Мультимедийный
+      комплекс 8’’ Apple CarPlay/Android Auto <br/>• Аудиосистема Bose 8 динамиков
+      <br/>• Климат-контроль <br/>• Теплые опции
+- id: warranty
+  title: Гарантия
+  images:
+  - url: https://cdn.alexsab.ru/b/solaris/img/models/hc/sections/warranty/1.webp
+    description: <h3 class="font-bold text-xl">3 года гарантии</h3><br/><h3 class="font-bold
+      text-xl">100 000 км пробега</h3>
+- id: comfort
+  title: Комфорт
+  text: <h3 class="font-bold">Панель приборов</h3><p>Панель приборов Supervision с
+    цветным 7” экраном</p><br/><h3 class="font-bold">Теплые опции</h3><p>• Подогрев
+    рулевого колеса <br>• Подогрев передних и задних сидений</p><br/><h3 class="font-bold">Электрорегулировки
+    сиденья</h3><p>Электрорегулировки сиденья водителя в 6-ти направлениях, включая
+    поясничную поддержку</p><br/><h3 class="font-bold">Акустическая система</h3><p>Премиальная
+    акустическая Android Auto система Bose c 8 динамиками</p><br/><h3 class="font-bold">Мультимедийная
+    система</h3><p>• Мультимедийная система с 8” или 10,25” экраном с поддержкой CarPlay
+    и Android Auto <br> • Премиальная акустическая система</p><br/><h3 class="font-bold">Беспроводное
+    зарядное устройство</h3><p>Беспроводное зарядное устройство — это идеальное решение
+    для быстрой и удобной зарядки гаджета в автомобиле, подходит для смартфонов, обладающих
+    данной функцией</p><br/>

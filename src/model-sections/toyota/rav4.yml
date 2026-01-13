@@ -1,1 +1,76 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: ''
+  title: Toyota RAV4
+  text: Вырезительный, смелый, функциональный и продвинутый Toyota RAV4 обеспечит
+    вам высочайший уровень комфорта и безопасности движения как в городе так и на
+    баздорожье.
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 199 л.с.
+  - icon: mdi:speedometer-medium
+    text: Время разгона от 0 до 100 км/ч - 9.8с
+  - icon: mdi:speedometer
+    text: Максимальная скорость 190 км/ч
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  text: 'В динамичном дизайне Toyota RAV4 органично соединились передовые технологии,
+    брутальный характер и самые актуальные тренды. '
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/exterior/1.webp
+    title: ''
+    description: ''
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: null
+  text: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/interior/1.webp
+    title: ''
+    description: 'Совершенно новая форма эргономичных сидений, высококачественные
+      материалы отделки интерьера, обновленная мультимедийная система с 8-дюймовым
+      экраном, камеры панорамного обзора на 360° и просторный впечатляющий салон превращают
+      Toyota RAV4 в вашу личную зону комфорта. '
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/interior/2.webp
+    title: ''
+    description: Просторный и вместительный багажник объемом 580л с раскладывающимися
+      сидениями, электроприводом и функцией памяти подарит вам необходимое пространство
+      для путешествий и впечатлений.
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  suptitle: null
+  text: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/technology/1.webp
+    title: ''
+    description: Новый полный привод с адаптивной системой распределения крутящего
+      момента на задние колеса снижает вероятность пробуксовки и повышает проходимость
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/technology/2.webp
+    title: ''
+    description: В Toyota RAV4 впервые была применена система выбора режима движения
+      по бездорожью Multi-Terrain Select, позволяющая автомобилю адаптироваться под
+      тип дорожного покрытия.
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/technology/3.webp
+    title: ''
+    description: Toyota RAV4 построен на уникальной модульной архитектуре TNGA. В
+      активе автомобиля принципиально новые бензиновые двигатели 2 и 2,5 литра и продвинутая
+      8-ступенчатая автоматическая коробка передач
+- id: safety
+  sectionClass: ''
+  title: Безопасность
+  text: Дороги, как и ваши планы, могут быть непредсказуемы. Инновационные технологии
+    Тоyota обеспечат высочайший уровень безопасности движения, куда бы вы ни напревились.
+    Интеллектуальные системы активной безопасности предупредят вас, если ситуация
+    будет выходить из-под контроля.
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/safety/1.webp
+- id: documentation
+  sectionClass: ''
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/docs/rav4.pdf'
+    class='underline' target='_blank'>Брошюра</a><br><a href='https://cdn.alexsab.ru/b/toyota/img/models/rav4/sections/docs/rav4-complectations.pdf'
+    class='underline' target='_blank'>Комплектации</a></span></p>

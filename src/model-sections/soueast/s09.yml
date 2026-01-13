@@ -1,1 +1,155 @@
-[]
+- id: description
+  suptitle: Технологичный кроссовер
+  title: Обзор модели
+  text: <p>Новый эталон сегмента SUV-D — технологичный кроссовер <b class='font-bold'>SOUEAST
+    S09</b>, отличающийся актуальным дизайном, вместительным салоном и выдающимися
+    техническими характеристиками. Создан для тех, кто стремится быть на шаг впереди.</p>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 190/197 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 8.5-11 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 10.1-11.8 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/1.webp
+- id: exterior
+  suptitle: Дизайн
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/exterior/1.webp
+    title: Зеленый
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/exterior/2.webp
+    title: Белый
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/exterior/3.webp
+    title: Серый
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/exterior/4.webp
+    title: Светло-серый
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/exterior/5.webp
+    title: Синий
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/exterior/6.webp
+    title: Черный
+- id: interior
+  title: Интерьер
+  suptitle: Дизайн
+  images:
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/interior/1.webp
+    title: Зеленый
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/interior/2.webp
+    title: Коричневый
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/interior/3.webp
+    title: Черный
+- id: aesthetics
+  title: 'Эстетика форм: <br/>Стильный дизайн'
+  suptitle: Эстетика
+  text: <video class="block w-full aspect-video object-cover" autoplay="" loop=""
+    muted="" playsinline="" src="https://cdn.trx.tradedealer.ru/456/media/download/qvBZW7__pic-video-01.mp4"
+    isvisible="true"></video>
+  images:
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/aesthetics/1.webp
+    title: Новая концепция эстетики
+    description: Актуальный премиальный дизайн
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/aesthetics/2.webp
+    title: Стильная решетка радиатора
+    description: Подчеркивает современный дизайн
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/aesthetics/3.webp
+    title: Эффектная оптика
+    description: Светодиодные фары и U-образная полоса ходовых огней
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/aesthetics/4.webp
+    title: Панорамная крыша
+    description: Панорамная крыша имеет люк с электроприводом
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/aesthetics/5.webp
+    title: Вместительный салон
+    description: Посадочная формула 5+2 позволит с комфортом разместиться большой
+      семье
+- id: comfort
+  title: Качество, меняющее представление <br/>о комфорте
+  suptitle: Комфорт
+  text: '<picture><source media="(max-width: 767px)" srcset="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/1-mob.webp"><img
+    src="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/1.webp"
+    width="1496" class="block" alt=""></picture>'
+  images:
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/2.webp
+    title: Многофункциональные сиденья
+    description: Водительское сиденье с электрорегулировкой в 8 направлениях с функцией
+      памяти, а также электрорегулировка поясничного упора
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/3.webp
+    title: Электрорегулировка и вентиляция
+    description: Пассажирское сиденье с электрорегулировкой, вентиляцией и возможностью
+      управления с заднего ряда
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/4.webp
+    title: Apple CarPlay
+    description: Мультимедийная система обеспечивает легкий переход одним касанием
+      между смартфоном и развлекательной системой
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/5.webp
+    title: Бесконтактное открытие багажника
+    description: Электропривод двери багажника с функцией бесконтактного открытия
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/6.webp
+    title: Мультимедийная приборная панель и дисплей
+    description: Цифровая приборная панель с экраном диагональю 10.25" и экран мультимедийной
+      системы Full HD с диагональю 15.6" выводят информацию о поездке и развлечениях
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/7.webp
+    title: Процессор Snapdragon 8155
+    description: Процессор с высокой производительной мощностью обеспечит оптимальную
+      работу системы мультимедиа
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/8.webp
+    title: Рукоятка КПП в виде кристалла
+    description: На рукоятке присутствует 176 граней, имитирующих хрустальную ручку,
+      похожую на бриллиант высокой огранки, что сочетает в себе эстетику и эргономику
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/9.webp
+    title: Беспроводная зарядка
+    description: Поддерживает режим быстрой зарядки (50 Вт
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/10.webp
+    title: Система очистки воздуха и фильтры CN95
+    description: Система вентиляции обеспечивает фильтрацию от вредоносных частиц
+      и очистку воздуха
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/comfort/11.webp
+    title: Двухзонный климат-контроль
+    description: Позволит поддерживать комфортную температуру в салоне как для водителя,
+      так и для пассажира
+- id: engine
+  title: Технологичность, <br/>которая превосходит ожидания
+  suptitle: Двигатель и трансмиссия
+  text: '<picture><source media="(max-width: 767px)" srcset="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/1-mob.webp"><img
+    src="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/1.webp" width="1496"  class="block
+    mb-10" alt=""></picture><a class="btn px-4! xl:px-10!" href="/test-drive/">Тест-драйв</a>'
+  images:
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/2.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/3.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/4.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/5.webp
+    title: Адаптивный круиз-контроль (ACC)
+    description: Система адаптивного круиз-контроля обеспечивает движение автомобиля
+      на безопасном и комфортном расстоянии от машин, движущихся впереди
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/6.webp
+    title: Автономное экстренное торможение (AEB)
+    description: Система автономного экстренного торможения следит за дорожной обстановкой
+      и срабатывает автоматически при возникновении опасности столкновения
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/7.webp
+    title: Система предупреждения о выезде за пределы полосы движения (LDW)
+    description: Система предупредит водителя, если автомобиль начнет выезжать из
+      своей полосы движения без включения поворотника
+  - url: https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/engine/8.webp
+    title: Функция предупреждения о переднем столкновении (FCW)
+    description: Функция предупреждения о переднем столкновении оценивает расстояние,
+      положение и относительную скорость сближения с автомобилем, движущемся впереди.
+      При наличии потенциального риска столкновения система предупреждает водителя
+      звуковым сигналом
+- id: gallery
+  title: 'Новая концепция эстетики: <br/>Актуальный премиальный дизайн'
+  suptitle: Галерея
+  text: '<picture><source media="(max-width: 767px)" srcset="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/gallery/1-mob.webp"><img
+    src="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/gallery/1.webp"
+    width="1496"  class="block mb-4" alt=""></picture><picture><source media="(max-width:
+    767px)" srcset="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/gallery/2-mob.webp"><img
+    src="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/gallery/2.webp"
+    width="1496"  class="block mb-4" alt=""></picture><picture><source media="(max-width:
+    767px)" srcset="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/gallery/3-mob.webp"><img
+    src="https://cdn.alexsab.ru/b/soueast/img/models/s09/sections/gallery/3.webp"
+    width="1496"  class="block" alt=""></picture>'

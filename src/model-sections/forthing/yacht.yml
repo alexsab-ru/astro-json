@@ -1,1 +1,79 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: Победитель премии «Автомобиль года в России»
+  title: Forthing YACHT
+  text: Премиальный автомобиль, сочетающий в себе элегантность и передовые технологии
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 197 л.с.
+  - icon: mdi:car-info
+    text: Объем двигателя 1.5 л
+  - icon: mdi:engine
+    text: Крутящий момент 285 н.м.
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/yacht/sections/1.webp
+- id: exterior
+  sectionClass: bg-gray-100
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/yacht/sections/exterior/1.webp
+    title: Премиальный дизайн
+    description: Смелый экстерьер Forthing Yacht позволит Вам быть не похожим на других.
+      Динамичная решетка радиатора с градиентными полосами и выделяющими светодиодными
+      фарами никого не оставят равнодушным. В дизайне, подчеркивающем невероятную
+      мощь и при этом элегантность Forthing Yacht, сочетается статусность и динамичность
+      нового времени. 18-дюймовые спортивные диски дополняют премиальный образ автомобиля.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Комфорт премиум-класса
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/yacht/sections/interior/2.webp
+    title: Премиальный салон
+    description: Роскошный 7-местный салон с возможностью трансформации (2+2+3 или
+      2+3+2). Капитанские кресла второго ряда оснащены обогревом, вентиляцией и индивидуальными
+      столиками. Сиденье водителя имеет встроенную систему массажа и кнопки «Boss»
+      для регулировки комфорта.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/yacht/sections/interior/3.webp
+    title: Атмосфера комфорта
+    description: Высококачественные и тактильно приятные материалы отделки. Мягкая
+      атмосферная подсветка создает расслабляющую атмосферу в салоне, а улучшенная
+      шумоизоляция обеспечивает комфортную поездку.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/yacht/sections/interior/1.webp
+    title: Двойной интеллектуальный ЖК-дисплей
+    description: Двойной интеллектуальный ЖК-дисплей, состоящий из экранов приборной
+      панели и мультимедийной системы. Каждый экран диагональю 10,25 дюймов
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/yacht/sections/interior/4.webp
+    title: Комфорт пассажиров
+    description: Комфорт пассажиров второго ряда гарантируют удобные складные столики,
+      интегрированные в спинки передних кресел. С их помощью пассажиры могут перекусить
+      или поработать в дороге.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/yacht/sections/interior/5.webp
+    title: Панорамная крыша
+    description: Панорамная крыша с солнцезащитной электрошторкой и функцией «защита
+      от защимления».
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/yacht/sections/interior/6.webp
+    title: Спинка кресла переднего пассажира откидывается на 180 градусов
+    description: Спинка кресла переднего пассажира откидывается на 180 градусов, превращаясь
+      в оттоманку для пассажира второго ряда. Теперь во время длительной поездки можно
+      снять обувь, и полностью вытянув ноги комфортно расположится во втором ряду.
+- id: technology
+  sectionClass: bg-gray-100
+  title: Технологии
+  suptitle: Инновации
+  text: '<p>Forthing YACHT оснащен передовыми системами безопасности и современными
+    технологиями. Автомобиль комплектуется турбированным двигателем 1.5T (197 л.с.)
+    в паре с 7-ступенчатой преселективной трансмиссией Magna с двойным «мокрым» сцеплением.
+    Среди технологий безопасности: 10 подушек безопасности, камера кругового обзора
+    360°, системы ABS, EBD, ESP, контроль слепых зон. Комфорт обеспечивают климат-контроль
+    с ионизацией воздуха, цифровая панель 10.25", панорамная крыша, электропривод
+    багажника и система бесключевого доступа.</p>'
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/yacht/sections/technology/1.webp
+- id: documentation
+  sectionClass: ''
+  title: Документация для YACHT
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://ixenmotors-perm.ru/wp-content/uploads/2023/06/forthing_yacht.pdf'
+    class='underline' target='_blank'>Технические характеристики</a><br><a href='https://ixenmotors.ru/assets/userfiles/files/price%20new/Forthing_Yacht_price_%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C_24.pdf'
+    class='underline' target='_blank'>Комплектации и цены</a></span></p>

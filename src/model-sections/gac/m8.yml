@@ -1,1 +1,134 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: МЕСТО ПЕРВЫХ
+  title: GAC M8
+  text: <p>GAC M8 — это премиальный минивэн, созданный для тех, кто ценит комфорт,
+    пространство и статус. Автомобиль сочетает в себе элегантный дизайн, передовые
+    технологии и высочайший уровень комфорта для водителя и пассажиров.</p>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 231 л.с.
+  - icon: mdi:speedometer
+    text: Крутящий момент 380 Нм
+  - icon: mdi:gas-station-outline
+    text: Расход топлива 8.8 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/1.webp
+- id: gallery
+  sectionClass: bg-gray-100
+  title: Дизайн
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/1.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/2.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/3.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/4.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/5.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/6.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/7.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/8.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/9.webp
+    title: ''
+    description: ''
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/gallery/10.webp
+    title: ''
+    description: ''
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/exterior/1.webp
+    title: Нескрываемый львиный характер
+    description: Реализованные амбиции на лицо. Дерзкий и неповторимый дизайн решетки
+      радиатора в «львином» стиле. Внушает уважение с первого взгляда. Вертикальные
+      ребра решетки радиатора, отражая свет, создают эффект парения над землей.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/exterior/2.webp
+    title: Широкий угол внимания
+    description: Филигранный дизайн дополняется инновационными оптическими решениями.
+      Светодиодные передние фары Awakening Eye и задние фонари Time Gate освещают
+      не только дорогу, но и внушительный вид минивэна GAC M8.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/exterior/3.webp
+    title: Мастерство на поворотах
+    description: Неповторимый дизайн скрытый в деталях. Специальные 18-дюймовые легкосплавные
+      колесные диски Master в премиальной комплектации «Классика» GX и GX Premium.
+- id: interior
+  sectionClass: bg-gray-100
+  title: Интерьер
+  suptitle: Премиальный комфорт
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/interior/1.webp
+    title: Семь мест, но главных только два
+    description: 'Высококачественные капитанские кресла второго ряда созданы, чтобы
+      дарить комфорт в дороге, даже в длительных поездках. Интеллектуальные решения
+      на тактильном уровне: кожаный салон, электропривод регулировки положения в четырех
+      направлениях, вентиляция и обогрев сиденья.'
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/interior/2.webp
+    title: Делайте бизнес, пока ваше кресло дарит вам расслабление
+    description: 'Кресла второго ряда оснащены функцией массажа: массаж всего тела,
+      снижение давления на поясницу и снятие усталости. Комфортабельные сидения третьего
+      ряда с регулировкой положения в 4 направлениях дают возможность разместить еще
+      трех пассажиров. Ощущение невероятного простора и масштаба салона нового минивэна
+      GAC M8.'
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  suptitle: Системы и сервисы
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/technology/1.webp
+    title: Широкие мультимедийные возможности
+    description: 12,3-дюймовый ЖК-экран в передней панели и 14,6-дюймовый экран в
+      центральной консоли для воспроизведения музыки, просмотра фильмов и телепередач.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/technology/2.webp
+    title: Виртуальный концерт прямо в салоне
+    description: Премиальная аудиосистема Dual Sound сочетает новейшие звуковые алгоритмы
+      и систему виртуального объемного звучания ADiGO.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/technology/3.webp
+    title: Плавное и комфортное движение в любых дорожных условиях
+    description: Электромагнитная подвеска SDC в режиме реального времени повышает
+      управляемость и технологичность автомобиля благодаря снижению количества боковых
+      колебаний, повышенному уровню виброизоляции и минимизации ощущения подъема.
+- id: security
+  sectionClass: bg-gray-100
+  title: Безопасность
+  suptitle: Интеллектуальная система безопасности высочайшего уровня
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/security/1.webp
+    title: Система автоматического управления L2
+    description: 'Не думайте о дороге, думайте о делах. Главный интеллектуальный центр
+      автомобиля возьмет на себя все аспекты безопасного вождения: Система адаптивного
+      круиз-контроля, Интегрированная система круиз-контроля, Система предупреждения
+      об угрозе фронтального столкновения, Активная система помощи при торможении,
+      Система удержания в полосе движения, Система предупреждения о приближении сзади,
+      Система оповещения и торможения при выезде задним ходом.'
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/security/2.webp
+    title: Новый уровень защиты 360°
+    description: 'Первая в мире продуманная схема расположения из 7 подушек для всесторонней
+      защиты пассажиров: задние подушки безопасности для защиты третьего ряда, самые
+      длинные боковые шторки безопасности и стандартные подушки безопасности.'
+  - url: https://cdn.alexsab.ru/b/gac/img/models/m8/sections/security/3.webp
+    title: Система предупреждения при открывании двери
+    description: Заботится о вас, даже вне салона. Система оперативного реагирования
+      на объекты, приближающиеся сзади, чтобы максимально обезопасить пространство
+      для пассажиров, выходящих из автомобиля.
+- id: documentation
+  sectionClass: ''
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://gac.ru/media-link/m8-pricelist' class='underline'
+    target='_blank'>Прайс-лист</a><br><a href='https://gac.ru/media/download/docs/1BXn2N__m8-catalogue-57x21-290224-prewiew.pdf'
+    class='underline' target='_blank'>Каталог</a></span></p>
