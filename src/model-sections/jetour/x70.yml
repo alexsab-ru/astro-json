@@ -1,1 +1,85 @@
-[]
+- id: description
+  sectionClass: ''
+  suptitle: ЭКСТЕРЬЕР
+  title: Выразительный дизайн, проверенные технологии
+  text: <div class='space-y-4'><p>JETOUR X70 — это воплощение стиля, технологий и
+    продуманного дизайна. Автомобиль воплощает в себе активный образ жизни, идеально
+    вписываясь в стремительный городской ритм.</p></div>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 147 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 13 сек
+  - icon: mdi:gas-station-outline
+    text: Максимальная скорость - 180 км/ч
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/1.webp
+- id: exterior
+  sectionClass: bg-gray-100
+  title: Детали Экстерьера
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/exterior/1.webp
+    title: Светодиодные фары
+    description: Полностью светодиодная передняя оптика Jetour X70, выполненная в
+      современном стиле, подчеркивает динамичный и уверенный характер автомобиля.
+      Передние фары обеспечивают превосходную видимость в любых условиях, не мешая
+      водителям встречных автомобилей.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/exterior/2.webp
+    title: Решетка радиатора
+    description: Дизайн решетки радиатора отражает сильный характер автомобиля. Широкая
+      форма и крупная структура с трехмерным рисунком создают выразительный вид передней
+      части.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/exterior/3.webp
+    title: Стиль
+    description: Jetour X70 — это гармоничное сочетание элегантности и динамики. Эффектные
+      боковые выштамповки придают кузову выразительную глубину, создавая игру света
+      и тени.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Стильный дизайн и комфорт
+  text: Jetour X70 сочетает премиальные материалы и продуманный дизайн для максимального
+    комфорта.
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/interior/0.webp
+- id: interior
+  sectionClass: ''
+  title: ПРОДУМАНА КАЖДАЯ ДЕТАЛЬ
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/interior/1.webp
+    title: Салон автомобиля
+    description: Приборная панель сочетает стиль и функциональность. Аудиосистема
+      с 8 динамиками обеспечивает качественный звук, а отделка сидений из искусственной
+      кожи подчеркивает практичность салона.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/interior/2.webp
+    title: Комфорт для всех пассажиров
+    description: Интерьер сочетает простор и функциональность. Задний ряд оснащен
+      разъемами USB и Type-C для быстрой зарядки устройств, а складная спинка в соотношении
+      60:40 позволяет гибко адаптировать пространство.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/interior/3.webp
+    title: Мультимедиа
+    description: Мультимедийная система с 10,25-дюймовым сенсорным экраном поддерживает
+      Android Auto и Apple CarPlay. Система кругового обзора 360° обеспечивает полный
+      контроль ситуации вокруг автомобиля.
+- id: technology
+  sectionClass: bg-gray-100
+  title: Инновации для вашего комфорта и безопасности
+  suptitle: Технологии
+  text: Jetour X70 оснащен современными технологиями, которые делают каждую поездку
+    комфортной и безопасной.
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/technology/1.webp
+- id: technology
+  sectionClass: bg-gray-100
+  title: Пространство для всей семьи
+  text: Просторный салон, удобные сиденья и продуманные технологические решения для
+    активной жизни всей семьи.
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70/sections/technology/2.webp
+- id: documentation
+  sectionClass: ''
+  title: Документация для X70
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://jetour-ru.com/media-link/x70-specification' class='underline'
+    target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/x70-pricelist'
+    class='underline' target='_blank'>Комплектации и цены</a></span></p>

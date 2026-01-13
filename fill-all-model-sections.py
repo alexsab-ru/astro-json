@@ -71,6 +71,20 @@ def extract_sections_from_file(source_file, models_cache=None):
     result = defaultdict(dict)
     
     try:
+        # Определяем имя директории проекта из пути к файлу
+        # Путь: src/belgee-samara.ru/data/models-sections.yml
+        # Нужно извлечь: belgee-samara.ru
+        project_dir_name = None
+        try:
+            # Путь относительно src/
+            parts = source_file.parts
+            if 'src' in parts:
+                src_index = parts.index('src')
+                if src_index + 1 < len(parts):
+                    project_dir_name = parts[src_index + 1]
+        except Exception:
+            pass
+        
         with open(source_file, 'r', encoding='utf-8') as f:
             data = yaml.safe_load(f)
         
@@ -91,8 +105,8 @@ def extract_sections_from_file(source_file, models_cache=None):
             # Нормализуем ID модели
             normalized_model = normalize_model_id(model_id)
             
-            # Пробуем найти бренд в models.json
-            mark_id = find_mark_id_for_model(model_id, models_cache)
+            # Пробуем найти бренд, используя контекст проекта
+            mark_id = find_mark_id_for_model(model_id, models_cache, project_dir_name)
             
             if mark_id:
                 normalized_mark = normalize_mark_id(mark_id)
@@ -110,17 +124,111 @@ def extract_sections_from_file(source_file, models_cache=None):
     return result
 
 
-def find_mark_id_for_model(model_id, models_cache=None):
+def find_mark_id_from_project_dir(project_dir_name):
+    """
+    Определяет бренд по имени директории проекта
+    
+    Args:
+        project_dir_name: Имя директории проекта (например, "belgee-samara.ru")
+    
+    Returns:
+        str: mark_id или None
+    """
+    # Словарь соответствий имен проектов и брендов
+    # Формат: часть имени проекта -> mark_id
+    project_to_brand = {
+        'baic': 'Baic',
+        'belgee': 'Belgee',
+        'changan': 'Changan',
+        'chery': 'Chery',
+        'evolute': 'Evolute',
+        'forthing': 'Forthing',
+        'venucia': 'Venucia',
+        'gac': 'Gac',
+        'geely': 'Geely',
+        'haval': 'Haval',
+        'great-wall': 'Great Wall',
+        'greatwall': 'Great Wall',
+        'infiniti': 'Infiniti',
+        'jac': 'JAC',
+        'jaecoo': 'JAECOO',
+        'jetour': 'Jetour',
+        'kaiyi': 'Kaiyi',
+        'knewstar': 'KNEWSTAR',
+        'livan': 'Livan',
+        'omoda': 'OMODA',
+        'kia': 'Kia',
+        'solaris': 'Solaris',
+        'soueast': 'Soueast',
+        'tank': 'Tank',
+        'toyota': 'Toyota',
+        'vgv': 'VGV',
+        'wey': 'WEY',
+        'mazda': 'Mazda',
+        'dongfeng': 'Dongfeng',
+        'hyundai': 'Hyundai',
+        'datsun': 'Datsun',
+        'lada': 'Lada (ВАЗ)',
+        'ваз': 'Lada (ВАЗ)',
+        'opel': 'Opel',
+        'nissan': 'Nissan',
+        'renault': 'Renault',
+        'daewoo': 'Daewoo',
+        'chevrolet': 'Chevrolet',
+        'lexus': 'Lexus',
+        'subaru': 'Subaru',
+        'jaguar': 'Jaguar',
+        'bmw': 'BMW',
+        'mercedes-benz': 'Mercedes-Benz',
+        'mercedes': 'Mercedes-Benz',
+        'suzuki': 'Suzuki',
+        'land-rover': 'Land Rover',
+        'landrover': 'Land Rover',
+        'audi': 'Audi',
+        'volkswagen': 'Volkswagen',
+        'vw': 'Volkswagen',
+        'газ': 'ГАЗ',
+        'skoda': 'Skoda',
+        'ford': 'Ford',
+    }
+    
+    project_name_lower = project_dir_name.lower()
+    
+    # Ищем совпадение в имени проекта
+    for key, brand in project_to_brand.items():
+        if key in project_name_lower:
+            return brand
+    
+    return None
+
+
+def find_mark_id_for_model(model_id, models_cache=None, project_dir_name=None):
     """
     Находит mark_id для модели в models.json
     
     Args:
         model_id: ID модели
         models_cache: Кэш моделей (опционально, для ускорения)
+        project_dir_name: Имя директории проекта для определения бренда по контексту
     
     Returns:
         str: mark_id или None
     """
+    # Сначала пытаемся определить бренд по контексту проекта
+    if project_dir_name:
+        mark_id_from_project = find_mark_id_from_project_dir(project_dir_name)
+        if mark_id_from_project:
+            # Проверяем, что такая комбинация model_id + mark_id существует в models.json
+            if models_cache:
+                normalized_target = normalize_model_id(model_id)
+                normalized_mark = normalize_mark_id(mark_id_from_project)
+                
+                for model in models_cache:
+                    if (normalize_model_id(model.get('id', '')) == normalized_target and
+                        normalize_mark_id(model.get('mark_id', '')) == normalized_mark):
+                        return mark_id_from_project
+    
+    # Если не удалось определить по контексту, ищем в models.json
     if models_cache is None:
         if not MODELS_JSON_PATH.exists():
             return None
@@ -136,10 +244,19 @@ def find_mark_id_for_model(model_id, models_cache=None):
     
     normalized_target = normalize_model_id(model_id)
     
+    # Если есть несколько моделей с одинаковым ID, возвращаем None
+    # чтобы не выбрать неправильный бренд
+    found_marks = []
     for model in models_cache:
         if normalize_model_id(model.get('id', '')) == normalized_target:
-            return model.get('mark_id')
+            found_marks.append(model.get('mark_id'))
     
+    # Если найдена только одна модель с таким ID, возвращаем её бренд
+    if len(found_marks) == 1:
+        return found_marks[0]
+    
+    # Если найдено несколько моделей с одинаковым ID, возвращаем None
+    # чтобы использовать контекст проекта
     return None
 
 
