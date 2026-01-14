@@ -30,5 +30,6 @@
     "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
     "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
     "improve_offer_background": "https://cdn.alexsab.ru/konkurenty/knewstar.webp",
-    "footer_disclaimer": ""
+    "footer_disclaimer": "",
+    "is_header_transparent": false
 }
