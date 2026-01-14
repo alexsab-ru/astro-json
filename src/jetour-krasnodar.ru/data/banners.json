@@ -5,6 +5,107 @@
         "type": "",
         "view": "link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/t1-t2-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/t1-t2-tablet.webp"
+        },
+        "title": "<span class=\"text-[0.6em]\">Успей купить по ценам 2025 года<sup>*</sup></span><br/><span class=\"h1 sm:text-[1.2em]\">Уверенность и комфорт <br/>на зимних дорогах</span>",
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/jetour-vigoda/",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/t1-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/t1-tablet.webp"
+        },
+        "position": {
+            "desktop": "top"
+        },
+        "title": "<span class=\"text-[0.6em]\">Успей купить по ценам 2025 года<sup>*</sup></span><br/><span class=\"h1 text-[1.2em]\">Jetour T1</span>",
+        "descr": "<span>Совершенно новый</span><br/><span class=\"h2 uppercase text-[1.2em]\">Цена от <span class=\"\">{{priceb-jetour-t1}}</span></span>",
+        "btn": "Подробнее",
+        "btnUrl": "/cars/?model=t1&year=2025",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/new-year-2025-auto-ru-white.png",
+            "position": "left"
+        },
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/t2-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/t2-tablet.webp"
+        },
+        "position": {
+            "desktop": "top"
+        },
+        "title": "<span class=\"text-[0.6em]\">Успей купить по ценам 2025 года<sup>*</sup></span><br/><span class=\"h1 text-[1.2em]\">Jetour T2</span>",
+        "descr": "<span>Кроссовер повышенной проходимости</span><br/><span class=\"h2 uppercase text-[1.2em]\">Цена от <span class=\"\">{{priceb-jetour-t2}}</span></span>",
+        "btn": "Подробнее",
+        "btnUrl": "/models/t2/",
+        "badge": {
+            "descr": "<span class=\"flex items-center flex-wrap gap-3 sm:gap-5\"><img src=\"https://cdn.alexsab.ru/badges/auto-2025-5top.png\" class=\"xs:h-8 h-12 sm:h-20 w-auto\" /><img src=\"https://cdn.alexsab.ru/badges/car-year-2025.webp\" class=\"xs:h-8 h-12 sm:h-20 w-auto\" /><img src=\"https://cdn.alexsab.ru/badges/za-rulem-shield.svg\" class=\"xs:h-8 h-12 sm:h-20 w-auto\" /><img src=\"https://cdn.alexsab.ru/badges/auto-panorama.png\" class=\"xs:h-8 h-12 sm:h-20 w-auto\" /><img src=\"https://cdn.alexsab.ru/badges/vnedorozhnik-goda-2025.webp\" class=\"xs:h-8 h-12 sm:h-20 w-auto\" /><img src=\"https://cdn.alexsab.ru/badges/awards-t2-avito.png\" class=\"xs:h-8 h-12 sm:h-20 w-auto\" /></span>",
+            "position": "left"
+        },
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/dashing-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/dashing-tablet.webp"
+        },
+        "position": {
+            "desktop": "top"
+        },
+        "title": "<span class=\"text-[0.6em]\">Успей купить по ценам 2025 года<sup>*</sup></span><br/><span class=\"h1 text-[1.2em]\">Jetour Dashing</span>",
+        "descr": "<span>Городской кроссовер</span><br/><span class=\"h2 uppercase text-[1.2em]\">Цена от <span class=\"\">{{priceb-jetour-dashing}}</span></span>",
+        "btn": "Подробнее",
+        "btnUrl": "/cars/?model=dashing&year=2025",
+        "badge": {
+            "descr": "<span class=\"flex items-center flex-wrap gap-3 sm:gap-5\"><img src=\"https://cdn.alexsab.ru/badges/logo-top5.png\" class=\"xs:h-8 h-12 sm:h-20 w-auto\" /><img src=\"https://cdn.alexsab.ru/badges/car-year-2024.webp\" class=\"xs:h-8 h-12 sm:h-20 w-auto\" /></span>",
+            "position": "left"
+        },
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/x70-plus-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/x70-plus-tablet.webp"
+        },
+        "position": {
+            "desktop": "top"
+        },
+        "title": "<span class=\"text-[0.6em]\">Успей купить по ценам 2025 года<sup>*</sup></span><br/><span class=\"h1 text-[1.2em]\">JETOUR X70 PLUS</span>",
+        "descr": "<span>Семейный кроссовер для совместных путешествий</span><br/><span class=\"h2 uppercase text-[1.2em]\">Цена от <span class=\"\">{{priceb-jetour-x70plus}}</span></span>",
+        "btn": "Подробнее",
+        "btnUrl": "/models/x70plus/",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": false,
+        "type": "",
+        "view": "link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-1920x1080.webp",
             "mobile": "https://cdn.alexsab.ru/b/jetour/img/main-sliders/alpha/t1-767x767.webp"
         },
@@ -19,7 +120,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -55,7 +156,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "special",
         "view": "link",
         "image": {
@@ -73,7 +174,7 @@
     },
     {
         "id": 2,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -117,7 +218,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -135,7 +236,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "gradient": true,
+        "gradient": false,
         "autoplay": 7000
     },
     {
@@ -192,7 +293,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "image": {
@@ -215,7 +316,7 @@
     },
     {
         "id": 2,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "image": {
@@ -239,7 +340,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "video",
         "view": "popup-link",
         "video": {
@@ -265,7 +366,7 @@
     },
     {
         "id": 3,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "image": {
@@ -283,7 +384,7 @@
     },
     {
         "id": 4,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "image": {
