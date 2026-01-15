@@ -1330,61 +1330,86 @@
 		"image": "",
 		"colors": [
 			{
-				"id": "white",
-				"name": "Белый металлик",
-				"names": [
-					"White",
-					"Белый",
-					"Белый (crystal white)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/white.webp",
-				"style": ""
+			"id": "basalt-gray",
+			"name": "Серый металлик (Basalt Grey)",
+			"names": [
+				"Gray",
+				"Grey",
+				"Серый",
+				"Серый (basalt gray)",
+				"Серый (basalt grey)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/basalt-gray.webp",
+			"style": "background: rgb(54, 55, 59);"
 			},
 			{
-				"id": "silver",
-				"name": "Серебристый металлик",
-				"names": [
-					"Silver",
-					"Серебряный",
-					"Серебристый",
-					"Серебристый (pearl silver)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/silver.webp",
-				"style": "background-color: #d9d9d9;"
+			"id": "white",
+			"name": "Белый (Crystal White)",
+			"names": [
+				"White",
+				"Белый",
+				"Белый (crystal white)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/white.webp",
+			"style": ""
 			},
 			{
-				"id": "black",
-				"name": "Черный металлик",
-				"names": [
-					"Black",
-					"Черный",
-					"Чёрный (ink black)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/black.webp",
-				"style": ""
+			"id": "red",
+			"name": "Красный металлик (Bright Vermilion)",
+			"names": [
+				"Red",
+				"Красный",
+				"Ярко-алый, красный (bright vermilion)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/red.webp",
+			"style": "background: rgb(220, 58, 47);"
 			},
 			{
-				"id": "gray",
-				"name": "Серый металлик",
-				"names": [
-					"Gray",
-					"Серый",
-					"Серый (titanium grey)",
-					"Серый (basalt gray)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/gray.webp",
-				"style": ""
+			"id": "blue",
+			"name": "Синий металлик (Starnight Blue)",
+			"names": [
+				"Blue",
+				"Синий",
+				"Синий (starnight blue)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/blue.webp",
+			"style": "background: rgb(37, 63, 142);"
 			},
 			{
-				"id": "red",
-				"name": "Красный металлик",
-				"names": [
-					"Red",
-					"Красный",
-					"Ярко-алый, красный (bright vermilion)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/red.webp",
-				"style": ""
+			"id": "black",
+			"name": "Черный металлик (Ink Black)",
+			"names": [
+				"Black",
+				"Черный",
+				"Чёрный (ink black)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/black.webp",
+			"style": ""
+			},
+			{
+			"id": "silver",
+			"name": "Серебристый металлик (Pearl Silver)",
+			"names": [
+				"Silver",
+				"Серебряный",
+				"Серебристый",
+				"Серебристый (pearl silver)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/silver.webp",
+			"style": "background-color: rgb(175, 174, 178);"
+			},
+			{
+			"id": "titanium-gray",
+			"name": "Серый металлик (Titanium Grey)",
+			"names": [
+				"Gray",
+				"Grey",
+				"Серый",
+				"Серый (titanium grey)",
+				"Серый (titanium gray)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x70-facelift/colors/titanium-gray.webp",
+			"style": "background: rgb(87, 87, 87);"
 			}
 		],
 		"feed_names": [
