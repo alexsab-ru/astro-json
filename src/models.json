@@ -1524,73 +1524,87 @@
 		"image": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
 		"colors": [
 			{
-				"id": "red",
-				"name": "Красный металлик",
-				"names": [
-					"Red",
-					"Красный",
-					"Ярко-алый, красный (bright vermilion)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/red.webp",
-				"style": ""
+			"id": "red",
+			"name": "Красный металлик (Bright Vermilion)",
+			"names": [
+				"Red",
+				"Красный",
+				"Ярко-алый, красный (bright vermilion)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/red.webp",
+			"style": "background: rgb(225, 71, 58);"
 			},
 			{
-				"id": "white",
-				"name": "Белый металлик",
-				"names": [
-					"White",
-					"Белый",
-					"Белый (crystal white)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/white.webp",
-				"style": ""
+			"id": "silver",
+			"name": "Серебристый металлик (Pearl Silver)",
+			"names": [
+				"Silver",
+				"Серебряный",
+				"Серебристый",
+				"Серебристый (satin silver)",
+				"Серебристый (pearl silver)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/silver.webp",
+			"style": "background: rgb(165, 166, 169);"
 			},
 			{
-				"id": "silver",
-				"name": "Серебристый металлик",
-				"names": [
-					"Silver",
-					"Серебряный",
-					"Серебристый",
-					"Серебристый (satin silver)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/silver.webp",
-				"style": "background-color: #c0c0c0;"
+			"id": "white",
+			"name": "Белый металлик (Crystal White)",
+			"names": [
+				"White",
+				"Белый",
+				"Белый (crystal white)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/white.webp",
+			"style": ""
 			},
 			{
-				"id": "gray",
-				"name": "Серый металлик",
-				"names": [
-					"Gray",
-					"Серый",
-					"Серый (magnetic grey)",
-					"Серый (basalt gray)",
-					"Серый металлик"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/gray.webp",
-				"style": "background-color: #696969;"
+			"id": "magnetic-gray",
+			"name": "Серый металлик (Magnetic Grey)",
+			"names": [
+				"Gray",
+				"Серый",
+				"Серый (magnetic grey)",
+				"Серый (magnetic gray)",
+				"Серый металлик"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/magnetic-gray.webp",
+			"style": "background: rgb(114, 114, 114);"
 			},
 			{
-				"id": "black",
-				"name": "Черный металлик",
-				"names": [
-					"Black",
-					"Черный",
-					"Чёрный (ink black)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/black.webp",
-				"style": ""
+			"id": "black",
+			"name": "Черный металлик (Ink Black)",
+			"names": [
+				"Black",
+				"Черный",
+				"Чёрный (ink black)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/black.webp",
+			"style": ""
 			},
 			{
-				"id": "blue",
-				"name": "Синий",
-				"names": [
-					"Blue",
-					"Синий",
-					"Синий (starry night blue)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/blue.webp",
-				"style": "background-color: #1d449b;"
+			"id": "basalt-gray",
+			"name": "Серый металлик (Basalt Grey)",
+			"names": [
+				"Gray",
+				"Серый",
+				"Серый (basalt gray)",
+				"Серый (basalt grey)",
+				"Серый металлик"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/basalt-gray.webp",
+			"style": "background: rgb(53, 60, 66);"
+			},
+			{
+			"id": "blue",
+			"name": "Синий (Starry Night Blue)",
+			"names": [
+				"Blue",
+				"Синий",
+				"Синий (starry night blue)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/x50/colors/blue.webp",
+			"style": "background-color: #1d449b;"
 			}
 		],
 		"feed_names": [
