@@ -1088,122 +1088,116 @@
 		"image": "https://cdn.alexsab.ru/models/belgee/s50/s50-hero-desktop-250925.jpg",
 		"colors": [
 			{
-				"id": "crystal-white",
-				"name": "Белый",
-				"names": [
-					"White",
-					"Белый",
-					"Белый (crystal white)",
-					"Crystal White"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/crystal-white.webp",
-				"style": "background-color: #f1f1f1;"
+			"id": "crystal-white",
+			"name": "Белый (Crystal White)",
+			"names": [
+				"White",
+				"Белый",
+				"Белый (crystal white)",
+				"Crystal White"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/crystal-white.webp",
+			"style": "background-color: #f1f1f1;"
 			},
 			{
-				"id": "pearl-silver",
-				"name": "Серебристый металлик",
-				"names": [
-					"Silver",
-					"Серебряный",
-					"Серебристый",
-					"Серебристый (pearl silver)",
-					"Pearl Silver"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/pearl-silver.webp",
-				"style": "background-color: #c0c0c0;"
+			"id": "amber-gold",
+			"name": "Бежевый металлик (Amber Gold)",
+			"names": [
+				"Бежевый",
+				"Бежевый металлик",
+				"Бежевый (amber gold)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/amber-gold.webp",
+			"style": "background: rgb(196, 183, 172);"
 			},
 			{
-				"id": "red",
-				"name": "Красный металлик",
-				"names": [
-					"Red",
-					"Красный",
-					"Ярко-алый, красный (bright vermilion)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/red.webp",
-				"style": ""
+			"id": "basalt-grey",
+			"name": "Серый металлик (Basalt Grey)",
+			"names": [
+				"Gray",
+				"Серый",
+				"Серый (basalt gray)",
+				"Серый (basalt grey)",
+				"Серый металлик"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/basalt-gray.webp",
+			"style": "background: rgb(64, 71, 79);"
 			},
 			{
-				"id": "magnetic-grey",
-				"name": "Серый металлик",
-				"names": [
-					"Gray",
-					"Серый",
-					"Серый (magnetic grey)",
-					"Серый металлик"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/magnetic-grey.webp",
-				"style": "background-color: #545454;"
+			"id": "serenity-blue",
+			"name": "Темно-синий металлик (Serenity Blue)",
+			"names": [
+				"Темно-синий металлик",
+				"Темно-синий",
+				"Темно-синий (serenity blue)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/serenity-blue.webp",
+			"style": "background: rgb(36, 46, 57);"
 			},
 			{
-				"id": "basalt-grey",
-				"name": "Серый металлик",
-				"names": [
-					"Gray",
-					"Серый",
-					"Серый (basalt gray)",
-					"Серый металлик"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/basalt-grey.webp",
-				"style": "background-color: #3e434c;"
+			"id": "ink-black",
+			"name": "Черный металлик (Ink Black)",
+			"names": [
+				"Black",
+				"Черный",
+				"Чёрный (ink black)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/ink-black.webp",
+			"style": "background-color: #000000;"
 			},
 			{
-				"id": "ink-black",
-				"name": "Черный металлик",
-				"names": [
-					"Black",
-					"Черный",
-					"Чёрный (ink black)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/ink-black.webp",
-				"style": "background-color: #000000;"
+			"id": "magnetic-gray",
+			"name": "Серый металлик (Magnetic Grey)",
+			"names": [
+				"Gray",
+				"Серый",
+				"Серый (magnetic grey)",
+				"Серый (magnetic gray)",
+				"Серый металлик"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/magnetic-gray.webp",
+			"style": "background: rgb(114, 114, 114);"
 			},
 			{
-				"id": "amber-gold",
-				"name": "Бежевый металлик",
-				"names": [
-					"Бежевый",
-					"Бежевый металлик",
-					"Бежевый (amber gold)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/amber-gold.webp",
-				"style": "background-color: #a89686;"
+			"id": "pearl-silver",
+			"name": "Серебристый металлик (Pearl Silver)",
+			"names": [
+				"Silver",
+				"Серебряный",
+				"Серебристый",
+				"Серебристый (pearl silver)",
+				"Pearl Silver"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/pearl-silver.webp",
+			"style": "background: rgb(165, 166, 169);"
 			},
 			{
-				"id": "star-grey",
-				"name": "Серо-голубой металлик",
-				"names": [
-					"Серо-голубой",
-					"Серо-голубой металлик",
-					"Серо-голубой (star grey)",
-					"голубой",
-					"Голубой"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/star-grey.webp",
-				"style": "background-color: #96a7b1;"
+			"id": "star-gray",
+			"name": "Серо-голубой металлик (Star Grey)",
+			"names": [
+				"Серо-голубой",
+				"Серо-голубой металлик",
+				"Серо-голубой (star grey)",
+				"голубой",
+				"Голубой"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/star-gray.webp",
+			"style": "background: rgb(137, 150, 166);"
 			},
 			{
-				"id": "dark-blue",
-				"name": "Темно-синий металлик",
-				"names": [
-					"Темно-синий металлик",
-					"Темно-синий",
-					"Темно-синий (serenity blue)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/dark-blue.webp",
-				"style": "background-color: #212a35;"
-			},
-			{
-				"id": "starnight-blue",
-				"name": "Синий металлик",
-				"names": [
-					"Blue",
-					"Синий металлик",
-					"Синий",
-					"Синий (blue)"
-				],
-				"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/starnight-blue.webp",
-				"style": "background-color: #1e3884;"
+			"id": "azure-glaze",
+			"name": "Голубой металлик (Azure Glaze)",
+			"names": [
+				"Blue",
+				"Azure Glaze",
+				"Azure Glaze Blue",
+				"Azure Blue",
+				"Голубой металлик",
+				"Голубой",
+				"Голубой (azure-glaze)"
+			],
+			"carImage": "https://cdn.alexsab.ru/models/belgee/s50/colors/azure-glaze.webp",
+			"style": "background: rgb(31, 172, 204);"
 			}
 		],
 		"feed_names": [
