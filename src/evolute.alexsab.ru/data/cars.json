@@ -2,8 +2,8 @@
   {
     "id": "evolute-",
     "brand": "evolute",
-    "model": "Полноприводный i‑SPACE",
-    "price": "",
+    "model": "Полноприводный",
+    "price": "2865000",
     "benefit": "",
     "link": ""
   },
@@ -34,7 +34,7 @@
   {
     "id": "evolute-i-space-new",
     "brand": "evolute",
-    "model": "Обновленный i‑SPACE",
+    "model": "Обновленный",
     "price": "2560000",
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-space-new"

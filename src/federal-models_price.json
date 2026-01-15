@@ -298,8 +298,8 @@
   {
     "id": "evolute-",
     "brand": "evolute",
-    "model": "Полноприводный i‑SPACE",
-    "price": "",
+    "model": "Полноприводный",
+    "price": "2865000",
     "benefit": "",
     "link": ""
   },
@@ -330,7 +330,7 @@
   {
     "id": "evolute-i-space-new",
     "brand": "evolute",
-    "model": "Обновленный i‑SPACE",
+    "model": "Обновленный",
     "price": "2560000",
     "benefit": "",
     "link": "https://www.evolute.ru/models/i-space-new"
@@ -426,7 +426,7 @@
   {
     "id": "haval-h7",
     "brand": "haval",
-    "model": "НОВЫЙ H7",
+    "model": "H7",
     "price": "3399000",
     "benefit": "",
     "link": "https://haval.ru/models/haval-h7/"
@@ -466,7 +466,7 @@
   {
     "id": "haval-new-f7x",
     "brand": "haval",
-    "model": "НОВЫЙ F7x",
+    "model": "F7x",
     "price": "3549000",
     "benefit": "",
     "link": "https://haval.ru/models/new-haval-f7x/"
