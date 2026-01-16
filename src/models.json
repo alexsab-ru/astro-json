@@ -7764,7 +7764,7 @@
 	{
 		"mark_id": "Geely",
 		"id": "ex5",
-		"show": true,
+		"show": false,
 		"status": "enable",
 		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
 		"slogan": "Продвинутые технологии",
@@ -8510,7 +8510,7 @@
 	{
 		"mark_id": "Geely",
 		"id": "atlaspro",
-		"show": true,
+		"show": false,
 		"status": "enable",
 		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
 		"slogan": "",
@@ -8637,7 +8637,7 @@
 	{
 		"mark_id": "Geely",
 		"id": "emgrand",
-		"show": true,
+		"show": false,
 		"status": "enable",
 		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
 		"slogan": "",
@@ -8955,7 +8955,7 @@
 	{
 		"mark_id": "Geely",
 		"id": "geely-coolray-2023",
-		"show": true,
+		"show": false,
 		"status": "enable",
 		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
 		"slogan": "",
