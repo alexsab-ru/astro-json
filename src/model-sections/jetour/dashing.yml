@@ -1,0 +1,106 @@
+- id: description
+  sectionClass: ''
+  suptitle: О модели
+  title: JETOUR DASHING
+  text: <div class='space-y-4'><p>Jetour Dashing — современный кроссовер с элегантным
+    и привлекательным кузовом, который подчеркивает смелый и стильный дизайн автомобиля.
+    Комбинация изящных линий и эффектных элементов экстерьера делает Jetour Dashing
+    воплощением эстетики и функциональности.</p><p>Благодаря передовым технологиям,
+    Jetour Dashing обеспечивает динамичное и плавное вождение. Мощный двигатель и
+    инновационная подвеска делают каждую поездку на Jetour Dashing удовольствием.
+    Надежная система безопасности и передовые технологии делают этот кроссовер идеальным
+    выбором для активного образа жизни.</p><p>Jetour Dashing — выбор ценителей стильного
+    дизайна и надежности в автомобиле.</p></div>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 147/190 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 9.3 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 9.4 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/1.webp
+- id: exterior
+  sectionClass: bg-gray-100
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/exterior/1.webp
+    title: Инновационный дизайн
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/exterior/2.webp
+    title: Продвинутая светодиодная оптика
+    description: Стильные светодиодные фары с автоматическим дальним светом.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/exterior/3.webp
+    title: Динамичный дизайн
+    description: Новое прочтение современных трендов.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Продумана каждая деталь
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/interior/1.webp
+    title: Технологичный и инновационный дизайн интерьера
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/interior/2.webp
+    title: Акустический комфорт
+    description: Высококлассная акустическая система и динамики в подголовнике сиденья
+      водителя позволят наслаждаться качественным звуком.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/interior/3.webp
+    title: Территория комфорта
+    description: Спортивный дизайн водительского сидения с электрорегулировками по
+      6 направлениям.
+- id: technology
+  sectionClass: bg-gray-100
+  title: Технологии
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technology/1.webp
+    title: ''
+    description: ''
+- id: technologies-of-the-future
+  sectionClass: ''
+  suptitle: Технологии будущего
+  title: Интеллектуальный салон, интеграция цифровых сервисов
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/1.webp
+    title: Большой сенсорный дисплей в центре приборной панели - 12.8” или 15.6” в
+      зависимости от комплектации
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/2.webp
+    title: Вентиляция передних сидений
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/3.webp
+    title: Чистое звучание
+    description: Акустическая система позволит наслаждаться чистым и качественным
+      звучанием, превратив салон автомобиля в настоящий концертный зал
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/4.webp
+    title: Преимущества современных технологий
+    description: Беспроводная быстрая зарядка для смартфонов мощностью 40 Вт
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/technologies-of-the-future/5.webp
+    title: Продвинутая система очистки воздуха
+    description: Система очистки воздуха оснащена датчиком твердых частиц класса РМ2.5
+      (частицы менее 2,5 мкм), воздушным фильтром стандарта CN95, обеспечивающим фильтрацию
+      воздуха на 95%, и генератором отрицательных ионов, что позволяет наслаждаться
+      чистым воздухом в салоне
+- id: options
+  sectionClass: bg-gray-100
+  title: Опции для путешествий
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/options/1.webp
+    title: Вместительный багажник с электроприводом задней двери позволяет комфортно
+      погрузить разнообразное туристическое снаряжение
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/options/2.webp
+    title: Вместительный салон
+    description: Увеличенная колесная база 2720 мм обеспечивает простор в салоне.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/dashing/sections/options/3.webp
+    title: Возможности конфигурации
+    description: Задние сиденья складываются в пропорции 60/40, регулируемый угол
+      наклона спинки 2-го ряда.
+- id: documentation
+  sectionClass: ''
+  title: Документация для DASHING
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://jetour-ru.com/media-link/dashing-specification'
+    class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/dashing-pricelist'
+    class='underline' target='_blank'>Комплектации и цены</a><br><a href='https://jetour-ru.com/media-link/dashing-manual'
+    class='underline' target='_blank'>Руководство</a></span></p>

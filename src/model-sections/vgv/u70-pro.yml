@@ -1,0 +1,161 @@
+- id: description
+  sectionClass: ''
+  suptitle: О модели
+  title: VGV U70PRO
+  text: '<p>VGV U70PRO совмещает преимущества кроссовера и минивэна и по праву может
+    считаться самым сбалансированным в классе: в нем комфортно разместится семья до
+    7 человек и различный груз. Большой дорожный просвет, премиальная отделка салона,
+    эффективный двигатель и масса современных технологий делает его комфортным и экономичным
+    средством передвижения, соответствующим вашему жизненному стилю. Благодаря своим
+    габаритам и удачной компоновке U70PRO обладает выдающейся вместимостью сравнимой
+    с крупными кроссоверами D SUV-класса. Сдержанный стиль экстерьера и интерьера,
+    разработанный одним из лучших Европейских автомобильных дизайнеров, скрывает солидные
+    габариты автомобиля и максимально продуманное внутреннее пространство.</p>'
+  items:
+  - icon: mdi:heat-wave
+    text: Обогрев лобового стекла, зеркал, сидений и руля
+  - icon: mdi:car-electric-outline
+    text: Большой дорожный просвет
+  - icon: mdi:car-cog
+    text: Защита кузова
+  - icon: mdi:gas-station-outline
+    text: АИ-92
+  images:
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/1.webp
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/exterior/1.webp
+    title: ''
+    description: Строгий дизайн с характерной трехконечной звездой на передней решетке,
+      крупные формы характерны для автомобиля более высокого класса.
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/exterior/2.webp
+    title: ''
+    description: Выразительные светодиодные фары – обеспечивают высокую яркость, надежность
+      и низкое потребление
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/exterior/3.webp
+    title: ''
+    description: Спортивные колесные диски 18 дюймов с изысканной обработкой в комплектации
+      Executive
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/exterior/4.webp
+    title: ''
+    description: Динамичная передняя решетка с трехконечной звездой
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/exterior/5.webp
+    title: ''
+    description: Большой дорожный просвет 200 мм
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/exterior/6.webp
+    title: ''
+    description: Подчеркнуто спортивный силуэт
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/exterior/7.webp
+    title: ''
+    description: Складные зеркала – для безопасной парковки
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Продумана каждая деталь
+  images:
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/1.webp
+    title: ''
+    description: Стильный интерьер VGV U70PRO гармонично сочетает в себе технологичность,
+      высокое качество отделки, удобство традиционных «аналоговых» салонов и отличную
+      функциональность.
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/2.webp
+    title: ''
+    description: Ультрабольшая панорамная крыша и люк с электроприводом
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/3.webp
+    title: ''
+    description: 'Панель инструментов: 10,25 дюймовый LCD экран, с возможностью выбора
+      2 стилей (спорт и модерн)'
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/4.webp
+    title: ''
+    description: 'Планшет мультимедийной системы: 10,25 дюймовая HD сенсорная панель
+      на системе Android с 4-ядерным процессором и 32 Гб памяти, с возможностью закачивать
+      приложения, включая Yandex Navi/Map'
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/5.webp
+    title: ''
+    description: 'Панель с традиционными кнопками: легкий доступ к управлению климатом
+      и другим системам'
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/6.webp
+    title: ''
+    description: Сиденья с электрорегулировкой
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/7.webp
+    title: ''
+    description: Безопасность и комфорт для маленьких пассажиров
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/8.webp
+    title: ''
+    description: Традиционный селектор 6-ступенчатой АКП
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/9.webp
+    title: ''
+    description: Мультифункциональный руль
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/10.webp
+    title: ''
+    description: Элегантный салон и премиальная отделка интерьера для вас и ваших
+      попутчиков
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/interior/11.webp
+    title: ''
+    description: Интеллектуальная система запуска двигателя
+- id: space
+  sectionClass: ''
+  title: Пространство
+  images:
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/space/1.webp
+    title: 7 местный просторный салон
+    description: ''
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/space/2.webp
+    title: Теплые опции
+    description: ''
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/space/3.webp
+    title: Сдвижные сиденья 2-го ряда
+    description: ''
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/space/4.webp
+    title: Комбинации трансформации
+    description: ''
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/space/5.webp
+    title: Чистые пороги при доступе в салон
+    description: ''
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/space/6.webp
+    title: 8 подстаканников
+    description: ''
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/space/7.webp
+    title: Огромная вместительность
+    description: ''
+- id: other
+  sectionClass: ''
+  title: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/other/1.webp
+    title: Трансмиссия
+    description: В отличие от многих конкурентов в трансмиссии VGV U70PRO используется
+      <b>традиционный 6-ступенчатый автомат</b> с гидротрансформатором, обеспечивающий
+      плавность работы, высокую экономичность и длительный срок службы при сохранении
+      компактных размеров и низкой массы.
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/other/2.webp
+    title: Двигатель
+    description: Проверенный и надежный двигатель, в котором используются компоненты
+      ведущих производителей - например, поставщиком поршневой группы является ведущая
+      немецкая компания MAHLE. За счет систем DOHC, MIVEC, IVVT, турбины среднего
+      давления обеспечивается достаточная мощность 143 л.с. и высокий крутящий момент
+      207 Н·м уже при средних и высоких оборотах в сочетании с низким расходом топлива.
+- id: security
+  sectionClass: ''
+  title: Безопасность
+  images:
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/security/1.webp
+    title: ''
+    description: 'Шасси автомобиля имеет традиционную конструкцию: спереди установлены
+      стойки McPherson, а сзади скручиваемая балка со стабилизатором. Подвеска усилена
+      для тяжелых условий и имеет дорожный просвет 200 мм.'
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/security/2.webp
+    title: ''
+    description: В комплекс активной безопасности U70PRO входят система стабилизации
+      автомобиля ESP последнего поколения от Bosch, электронная система опрокидывания
+      автомобиля ARP, антиблокировочная система тормозов ABS, ассистент экстренного
+      торможения BOS. Вспомогательные системы при подъеме и спуске с горы HAS и DAS
+      и автоматическое удержание тормозов AUTOHOLD  добавляют комфорта и разгружают
+      внимание водителя, позволяя фокусироваться на более важных маневрах.
+  - url: https://cdn.alexsab.ru/b/vgv/img/models/u70-pro/sections/security/3.webp
+    title: ''
+    description: Автомобиль разработан с безопасной высокопрочной структурой кузова,
+      причём средние стойки выполнены из борсодержащей стали для улучшенной безопасности
+      при боковом ударе.

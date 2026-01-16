@@ -1,0 +1,122 @@
+- id: description
+  sectionClass: ''
+  suptitle: ''
+  title: Встречайте новый Tiggo 7L
+  text: ''
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 150 л.с.
+  - icon: mdi:speedometer
+    text: Крутящий момент 275 Нм
+  - icon: mdi:gas-station-outline
+    text: Расход топлива 6.2 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/1.webp
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/exterior/1.webp
+    title: Обновленный дизайн кузова
+    description: 'Внешность обновленного CHERY TIGGO 7L соответствует внутреннему
+      содержанию: это элегантный, яркий и динамичный кроссовер, который идеально воплощает
+      свое предназначение и обязательно доставит вас и вашу семью к намеченной цели.'
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/exterior/2.webp
+    title: Выразительная светодиодная оптика
+    description: Высоко расположенные светодиодные ходовые огни усиливают ощущение
+      стремительности и современности силуэта. Стильные противотуманные фары не только
+      помогают ориентироваться в сложных дорожных условиях, но и украшают автомобиль.
+      Задние светодиодные огни эстетично дополняют экстерьер.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/exterior/3.webp
+    title: Эффективные литые диски
+    description: Оригинальный двухцветный дизайн 18′′ и 19′′ дисков** эффектно подчеркивает
+      образ современного автомобиля, который воплощает в себе динамику и стиль.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/interior/1.webp
+    title: Эффектный темный салон
+    description: Интерьер салона, выполненный из высококачественной экокожи в благородных
+      оттенках чёрного и насыщенного тёмно-коричневого, обеспечивает исключительный
+      комфорт и привлекает внимание своим утончённым стилем. Атмосферная подсветка
+      создаёт игру света и тени, придавая особую атмосферу уюта и комфорта. Потолочная
+      консоль антрацитового оттенка идеально дополняет современный и гармоничный образ
+      автомобиля.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/interior/2.webp
+    title: Комфортные сидения с вентиляцией
+    description: Непревзойденный комфорт сопровождает вас даже в самых длительных
+      путешествиях, благодаря водительскому сиденью, которое запоминает все настройки
+      ваших предпочтений. Обогрев и вентиляция обеспечат оптимальный микроклимат в
+      любое время года, а регулируемая поясничная поддержка позаботится о здоровье
+      вашей спины. Это сиденье создано, чтобы вы чувствовали себя отдохнувшим даже
+      после долгих часов за рулем.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/interior/3.webp
+    title: Для семейных приключений
+    description: В вашем распоряжении вместительный багажник емкостью до 1500 литров,
+      с функцией автоматического открытия без помощи рук. Это не просто функция, а
+      проявление заботы о вашей повседневной жизни.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/interior/4.webp
+    title: Панорамная крыша с люком
+    description: Погрузитесь в атмосферу свободы и безграничных возможностей с панорамной
+      крышей с люком и солнцезащитной шторкой! Наслаждайтесь захватывающими видами
+      облаков, горных вершин и городских огней прямо из уютного салона. Широкая стеклянная
+      крыша позволяет естественному свету заполнять салон, создавая ощущение простора
+      и лёгкости.
+- id: digital-technologies
+  sectionClass: ''
+  title: Цифровая панель управления 2*12.3”
+  suptitle: ''
+  text: <p class='mb-4'>Два 12,3-дюймовых экрана образуют единую изогнутую панель
+    в цифровой зоне. Центральный HD-дисплей с разрешением 1920x720 отвечает за навигацию,
+    настройки автомобиля и мультимедийные функции.</p><p>Также, в оснащении автомобиля
+    имеется система панорамного обзора, беспроводная зарядка и поддержка Apple CarPlay/Android
+    Auto. Голосовой помощник позволяет не отвлекаясь от дороги, управлять большинством
+    интеллектуальных функций.</p>
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/digital-technologies/1.webp
+    title: Физические клавиши управления
+    description: ''
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/digital-technologies/2.webp
+    title: Круговой обзор 540° в режиме HD
+    description: ''
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/digital-technologies/3.webp
+    title: Беспроводная зарядка под рукой
+    description: ''
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  suptitle: ''
+  text: <h3 class='font-bold text-xl mb-3'>Производительность</h3><p class='mb-4'>Сильные
+    стороны двигателя 1.6 TGDI раскрываются в паре с роботизированной коробкой передач
+    DCT7, с полностью электронным управлением</p><h3 class='font-bold text-xl mb-3'>Маневренность</h3><p
+    class='mb-4'>Передняя подвеска McPherson обеспечивает превосходную управляемость
+    и уверенное сцепление с дорогой, что делает вождение безопасным и комфортным.</p><h3
+    class='font-bold text-xl mb-3'>Проходимость</h3><p class='mb-4'>Дорожный просвет
+    190 мм и продуманная геометрия кузова позволяют уверенно двигаться по пересеченной
+    местности.</p>
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/technology/1.webp
+- id: security
+  sectionClass: ''
+  title: Безопасность
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/security/1.webp
+    title: Безопасность на высоте
+    description: Безопасность CHERY TIGGO 7L подтверждена успешным прохождением комплекса
+      испытаний по стандартам ANCAP (Университет Аделаиды, Австралия) и гарантирует
+      соответствие современным требованиям к конструкции и системам активной безопасности.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo7l/sections/security/2.webp
+    title: Современные системы помощи водителю
+    description: ADAS*** — это не просто системы защиты, это ваш ассистент на дороге,
+      который не только помогает избежать опасных ситуаций, но и берет на себя часть
+      управления, чтобы сделать вашу поездку более удобной и безопасной.
+- id: documentation
+  sectionClass: ''
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://www.chery.ru/T7L_april_10576924203569098347.pdf'
+    class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/CHERY_BR_15-04-2025_9933691639803201903.pdf'
+    class='underline' target='_blank'>Брошюра</a></span></p>

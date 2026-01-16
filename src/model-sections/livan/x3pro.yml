@@ -1,0 +1,69 @@
+- id: design
+  name: Дизайн
+  title: Отвергая стереотипы
+  text: Дизайн привлекает внимание множеством элементов. В нем сочетается стиль, современность,
+    яркая внешность, которая притягивает взгляды. В нем есть всё для комфортной поездки.
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/design.webp
+- id: exterior
+  sectionClass: bg-[#26282A] text-white
+  name: Экстерьер
+  title: Вдохновляясь многогранными возможностями мира
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/x3pro-front.webp
+    title: Хромированная решетка радиатора
+    description: Хромированные полосы отделки по периметру решетки проходят через
+      фары, расширяясь в обе стороны, как крылья, летящие и мощные.
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/x3pro-side.webp
+    title: Стремительная боковая линия
+    description: Продуманный дизайн боковой линии делает силуэт жестким и плавным,
+      демонстрируя яркий внешний вид, а также позволяет эффективно контролировать
+      шум.
+- id: interior
+  name: Интерьер
+  title: Преодолевая ограничения и ломая стереотипы
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/interior/1.webp
+    description: Мультифункциональное рулевое колесо с управлением развлекательным
+      центром и телефоном
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/interior/2.webp
+    description: Кожаная обивка сидений с перфорацией. Отделка салона в темных тонах.
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/interior/3.webp
+    description: Задняя спинка, складывающаяся 60/40
+- id: tehnology
+  name: Технологии
+  title: Практичность и привлекательность
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/tehnology/1.webp
+    title: Галогеновые фары с линзованной оптикой
+    description: Благодаря особенностям конструкции линзы и регулировке по высоте,
+      световой пучок лучше сфокусирован на большую поверхность дороги. Свет направляется
+      туда, где это необходимо, и меньше рассеивается по сторонам.
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/tehnology/2.webp
+    title: Камера заднего вида
+    description: Динамическая разметка для повышенной уверенности водителя при движении
+      задним ходом.
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/tehnology/3.webp
+    title: Конструкция кузова и интерьера
+    description: Оптимизированная конструкция кузова и интерьера позволили уменьшить
+      вес автомобиля и сократить расход топлива.
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/tehnology/4.webp
+    title: Конструкция подвески шасси
+    description: Конструкция подвески шасси отличается малым весом, что помогает сократить
+      тормозной путь и повысить безопасность.
+- id: waranty
+  sectionClass: bg-[#f5f5f4]
+  name: Обслуживание
+  title: Гарантия и сервис
+  text: Гарантия качества на автомобиль и оригинальные запасные части марки LIVAN
+    предоставляемая производителем в течение гарантийного срока, 5 лет после покупки
+    или в течение 150 000 км пробега, в зависимости от того, что наступит раньше.
+  images:
+  - url: https://cdn.alexsab.ru/b/livan/img/models/x3pro/x3pro-service.webp
+  items:
+  - icon: mdi:calendar-badge-outline
+    text: <span class="text-gray-120 text-4xl font-bold leading-none">5 лет</span><br><span
+      class="text-sm font-light">после покупки</span>
+  - icon: mdi:run
+    text: <span class="text-gray-120 text-4xl font-bold leading-none mb-1">150 000
+      км</span><br><span class="text-sm font-light">пробега</span>

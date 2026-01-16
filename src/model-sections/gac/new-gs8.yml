@@ -1,0 +1,89 @@
+- id: description
+  sectionClass: ''
+  suptitle: ТЫ РЕШАЕШЬ
+  title: Обновленный GAC GS8
+  text: <p>Обновленный GS8 в экстерьерном пакете Dragon и новый GS8 с гибридным двигателем
+    - уже доступны у официальных дилеров в России.</p>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 231 л.с.
+  - icon: mdi:speedometer
+    text: Крутящий момент 380 Нм
+  - icon: mdi:gas-station-outline
+    text: Расход топлива 10.4 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/1.webp
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/exterior/1.webp
+    title: Обновленный экстерьер
+    description: Словно чешуя дракона, величественное обрамление радиатора демонстрирует
+      силу и характер.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/exterior/2.webp
+    title: Матричные фары
+    description: Адаптивный свет, матричные светодиодные фары с функцией приветствия.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/exterior/3.webp
+    title: 20″ диски с плавающим логотипом
+    description: Символ превосходства, покоряющий дороги.
+- id: interior
+  sectionClass: bg-gray-100
+  title: Интерьер
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/1.webp
+    title: Многофункциональный салон на 6 или 7 полноценных мест
+    description: 'Безграничная власть над планировкой: создавайте идеальную конфигурацию
+      для каждой поездки.'
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/2.webp
+    title: Премиальная аудиосистема Alpine
+    description: Симфония совершенства — каждая нота рождена для наслаждения.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/3.webp
+    title: Мультимедиа с голосовым управлением
+    description: Мультимедиа система с диагональю экрана 14.7, голосовым управлением
+      и онлайн сервисами** Яндекс Карты, Музыка и Книги, а также VK Музыка.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/4.webp
+    title: Трансформируемый салон
+    description: 7 полноценных мест (2+3+2) для комфортного путешествия семьи и друзей.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/interior/5.webp
+    title: Панорамная крыша
+    description: Единение с природой — откройте люк и почувствуйте свободу в пути.
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  suptitle: Системы и сервисы
+  images:
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/1.webp
+    title: Премиальная аудиосистема Alpine
+    description: Всегда идеальный саундтрек для ваших приключений.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/2.webp
+    title: Системы помощи водителю уровня L2
+    description: Круиз-контроль, контроль полосы и чтение знаков для вашей безопасности
+      на всем пути.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/3.webp
+    title: Проекционный дисплей
+    description: Вся важная информация перед глазами — контролируйте поездку не отвлекаясь
+      от дороги.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/4.webp
+    title: Toyota Hybrid System
+    description: THS снижает расход топлива и выбросы CO2 за счёт интеллектуального
+      управления бензиновым двигателем и электромоторами. Бесшумный старт на электротяге
+      делает городские поездки ещё комфортнее.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/5.webp
+    title: Батарея
+    description: Система эффективно подзаряжает одну высоковольтную аккумуляторную
+      батарею во время быстрого вождения, торможения или рекуперативного движения,
+      что позволяет вам постоянно получать впечатляющий запас хода на электрической
+      энергии.
+  - url: https://cdn.alexsab.ru/b/gac/img/models/newgs8/sections/technology/6.webp
+    title: Удаленное управление
+    description: Контроль состояния автомобиля, управление функциями автомобиля, отображение
+      местоположения, настройка времени запуска, управление климат-контролем и подогревами.
+- id: documentation
+  sectionClass: bg-gray-100
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://gac.ru/media-link/gs8-new-pricelist' class='underline'
+    target='_blank'>Прайс-лист</a><br><a href='https://gac.ru/media-link/new-gs8-brochure'
+    class='underline' target='_blank'>Каталог</a></span></p>

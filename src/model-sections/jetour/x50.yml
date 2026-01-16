@@ -1,0 +1,72 @@
+- id: description
+  sectionClass: ''
+  suptitle: Стильный и запоминающийся дизайн
+  title: JETOUR X50
+  text: <p>JETOUR X50 — это интеллектуальное путешествие в мир современной городской
+    эстетики, где каждый элемент подчеркивает его очарование и привлекательность.
+    Автомобиль открывает новую главу, становясь уникальным и узнаваемым на дорогах.</p>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 113/147 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 11.1 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 9.4 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/1.webp
+- id: exterior
+  sectionClass: bg-gray-100
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/exterior/1.webp
+    title: Уникальный стиль
+    description: Дизайн автомобиля воплощает яркость и динамику, создавая поистине
+      запоминающийся образ. Плавные линии подчеркивают его современность и стиль,
+      придавая автомобилю особую привлекательность.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/exterior/2.webp
+    title: Светодиодная оптика
+    description: Фары со стильной оптикой впечатляют четкими линиями, подчеркивая
+      красоту и уверенность автомобиля. Их утонченная форма гармонично дополняет общий
+      облик, придавая автомобилю изысканность и выразительность.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/exterior/3.webp
+    title: Эффектная решетка радиатора
+    description: Резкие и динамичные линии решетки автомобиля создают неповторимый
+      визуальный эффект, подчеркивая его стиль и энергию.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Продумана каждая деталь
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/interior/1.webp
+    title: Технологичный дизайн
+    description: Цифровая панель автомобиля использует интуитивно-понятные технологии
+      для умного и комфортного вождения. Лазерная гравировка с геометрическими узорами
+      на приборной панели и дверях добавляет стиль, делая интерьер уникальным и привлекательным.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/interior/2.webp
+    title: Цифровая приборная панель
+    description: Цифровая панель поддерживает CarPlay, Android Auto и беспроводное
+      подключение, с проекцией интерфейса телефона
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/interior/3.webp
+    title: Стильный интерьер
+    description: Сиденья, обтянутые экокожей с контрастной строчкой. Непревзойденный
+      комфорт, высокое качество и обилие мест для хранения.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/interior/4.webp
+    title: Беспроводная зарядка
+    description: Беспроводная зарядка в автомобиле обеспечивает удобство и позволяет
+      заряжать телефон без лишних кабелей во время поездки
+- id: technology
+  sectionClass: bg-gray-100
+  title: Парковочный ассистент 360
+  suptitle: Технологии
+  text: <p>Парковочный ассистент с функцией кругового обзора 360°, включая пространство
+    под автомобилем (180°), создает панорамное изображение в высоком разрешении с
+    высоты птичьего полёта.</p>
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x50/sections/technology/1.webp
+- id: documentation
+  sectionClass: ''
+  title: Документация для x50
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://jetour-ru.com/media-link/x50-specification' class='underline'
+    target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/x50-pricelist'
+    class='underline' target='_blank'>Комплектации и цены</a></span></p>

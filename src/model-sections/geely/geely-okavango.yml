@@ -1,0 +1,264 @@
+- id: section-0
+  images:
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-0/3ymwfomlw1jnvovbpxs72hcnvbafhvqe.webp
+  items:
+  - icon: mdi:engine-outline
+    text: <span>Мощность</span>&nbsp;-&nbsp;<b>200 л.с.</b>
+  - icon: mdi:gas-station-outline
+    text: <span>Ср. расход топлива*</span>&nbsp;-&nbsp;<b>7,7 л / 100 км</b>
+  - icon: mdi:speedometer
+    text: <span>Разгон 0-100 км/ч</span>&nbsp;-&nbsp;<b>9,6 с</b>
+  sectionClass: bg-gray-100
+  text: <p>Geely Okavango – большой семейный кроссовер. Он обеспечивает комфорт и
+    в рутинных поездках, и в путешествиях. Семь мест для всей семьи.</p>
+  title: OKAVANGO
+- id: section-1
+  images:
+  - description: Дизайн Geely Okavango отвечает всем современным тенденциям, внушает
+      уверенность и привлекает внимание на дороге. Решётка радиатора, выполненная
+      в концепции «ледяной водопад», подчеркивает солидность автомобиля.
+    title: Экстерьер
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-1/jxfbbqphvzr25eb2dhmfmbps8vfke92g.webp
+  - description: Интерьер Geely Okavango имеет выверенный и сбалансированный дизайн.
+      Высококачественный мягкий пластик и экокожа обеспечивают максимум комфорта при
+      каждой поездке. Большая панорамная крыша даёт много света в салоне, а двухзонный
+      климат-контроль с отдельными воздуховодами для второго и третьего рядов сидений
+      создает комфортную атмосферу для всех пассажиров. Возможность складывать сиденья
+      во множестве разных конфигураций позволяет найти идеальный вариант расположения
+      пассажиров и груза в зависимости от ситуации.
+    title: Интерьер
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-1/6krz6qbud8ovrlor40os6ja4yp7npm0x.webp
+  - description: Линзованные светодиодные фары, подчёркнутые сверху ходовыми огнями
+      с тремя сегментами, повышают безопасность движения ночью и в плохую погоду.
+    title: Светодиодные фары
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-1/uw5p5cp215p8v80oh47g899cgs59lv69.webp
+  - description: Световой рисунок задней части подчеркивает индивидуальность Okavango.
+      Яркие светодиодные фонари способствуют безопасному передвижению в любую погоду
+      и в любое время дня и ночи.
+    title: Светодиодные фонари
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-1/31j9xuykxglejjyhb54ci1rdtk97c2wr.webp
+  sectionClass: ''
+  text: ''
+  title: Дизайн
+- id: section-2
+  images:
+  - description: 'Современный 4-цилиндровый турбированный двигатель объёмом 2,0 литра
+      развивает мощность до 200 л.с. и крутящий момент до 325 Н∙м. Он разработан совместно
+      шведскими и китайскими инженерами Geely. За счёт применённых технологий разгон
+      с места до 100 км/ч у нового Geely Okavango составляет 9,6 с. При таком динамическом
+      потенциале двигатель достаточно экономичен – в смешанном цикле расход топлива
+      составляет 7,7 л/100 км* (по циклу NEDC). <br/>
+
+      <span style="font-size: 70%;">*Данные указаны в соответствии с Сообщением об
+      официальном утверждении типа по Правилам ООН №101 (цикл NEDC); данные не относятся
+      к конкретному автомобилю и приведены исключительно в целях сравнения.</span>'
+    title: Двигатель
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-2/hssjh7c2ak49bbz629m7fqltzpjeqnoe.webp
+  - description: Автоматическая 7-ступенчатая преселективная коробка передач с двумя
+      мокрыми сцеплениями и масляным охлаждением (7DCT) быстро и точно переключает
+      передачи, что обеспечивает динамичный разгон и плавное замедление. Этот инновационный
+      агрегат отличается высокой надежностью и обеспечивает экономию топлива. <br/>
+    title: Коробка передач
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-2/3lqmzfwq0hlprx7nq2xkezuo1p7044ss.webp
+  - description: При помощи специального селектора на центральной консоли можно выбрать
+      подходящий режим движения - Комфортный, Экономичный, Спортивный.
+    title: Режимы движения
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-2/ocygjtx50cumyu9yijnihphkmov661uj.webp
+  sectionClass: bg-gray-100
+  text: ''
+  title: Двигатель и трансмиссия
+- id: section-3
+  images:
+  - description: "Высокий уровень пассивной безопасности достигнут благодаря широкому\
+      \ применению высокопрочной стали в силовой структуре кузова. Во всех комплектациях\
+      \ Geely Okavango оборудован современными системами пассивной безопасности:<br/>\n\
+      <br/>\r\n\t\t\t • 6 подушек безопасности<br/>\r\n\t\t\t • Трёхточечные ремни\
+      \ безопасности с преднатяжителями и ограничителями нагрузки <br/>\r\n\t\t\t\
+      \ • Функция предупреждения о непристёгнутых ремнях спереди и сзади <br/>\r\n\
+      \t\t\t • Крепления для детских кресел стандарта ISOFIX на боковых сиденьях 2-го\
+      \ ряда<br/>\r\n\t\t\t • «Детский» замок на задних дверях<br/>"
+    title: Кузов и пассивная безопасность
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-3/1m421mwfhlazliwny50p8sl3ftsycu3h.webp
+  - description: "Geely Okavango имеет усовершенствованное, комфортно настроенное\
+      \ шасси с задней многорычажной независимой подвеской, а также современным комплексом\
+      \ управления тормозной системой, включающим в себя следующие системы: <br/>\n\
+      <br/>\r\n\t\t\t - Электронная система курсовой устойчивости (ESС) и антипробуксовочная\
+      \ система (TCS)<br/>\r\n\t\t\t - Антиблокировочная система тормозов (ABS) с\
+      \ функцией электронного распределения тормозных усилий (EBD) <br/>\r\n\t\t\t\
+      \ - Система предотвращения опрокидывания (ARP)<br/>\r\n\t\t\t - Система сигнализации\
+      \ при экстренном торможении (ESS) <br/>\r\n\t\t\t - Система помощи при экстренном\
+      \ торможении (EBA) <br/>\r\n\t\t\t - Система помощи при старте на подъеме (HАC)\
+      \ и при движении под уклон (HDC)"
+    title: Активная безопасность
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-3/sqnwjexxjywsr469n75iqu8nyzjonk39.webp
+  - description: Автомобиль постоянно контролирует пространство в слепых зонах по
+      обеим сторонам. Продвинутая программа мониторинга опасности столкновения передает
+      предупредительный звуковой сигнал и световой сигнал на интегрированном в зеркала
+      индикаторе. Если в слепой зоне обнаружится движущийся объект, то система предупредит
+      об опасности при открывании дверей перед выходом из автомобиля (DOW), поможет
+      при выезде задним ходом с парковки (RCTA) и при смене полосы движения (LCA),
+      а также предупредит наезд сзади (RCW), превентивно просигнализировав автомобилю,
+      быстро приближающемуся сзади.
+    title: Мониторинг слепых зон (BSD)
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-3/h1h90p9nsebh7ao7klwmfbsstu1guqi4.gif
+  sectionClass: ''
+  text: ''
+  title: Безопасность
+- id: section-4
+  images:
+  - description: Сиденья Okavango имеют обивку из приятной на ощупь экокожи чёрного
+      цвета с перфорацией и коричневой строчкой. Также в верхней части сидений присутствует
+      специальный ромбовидный узор, подчеркивающий комфорт и изящество. Сиденье водителя
+      имеет электрорегулировки в 6 направлениях, а также систему запоминания положения
+      для двух разных водителей. Сиденье переднего пассажира имеет электрорегулировки
+      в 4 направлениях.
+    title: Передние сиденья с электроприводом
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/y3j5lkpblqq6b3ckd8b74zw0sl0nwo4f.webp
+  - description: На втором ряду расположены три отдельных комфортных сиденья, которые
+      могут двигаться вперёд и назад, а также складываться совершенно независимо друг
+      от друга. Крайние сиденья оборудованы креплениями Isofix. А при помощи специального
+      рычага на спинке они могут удобно складываться с отодвиганием вперед, давая
+      возможность пассажирам пройти на третий ряд сидений. На потолке по бокам расположены
+      индивидуальные точечные светильники для чтения. Для пассажиров второго ряда
+      имеются отдельные дефлекторы системы кондиционирования, USB-порты для зарядки,
+      а также кнопки включения подогревов двух боковых сидений.
+    title: Второй ряд сидений
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/h63t9gtm1lspaxrm0naz4r6b10rgfe33.webp
+  - description: Третий ряд сидений можно легко сложить и разложить при необходимости.
+      В двух отдельных креслах здесь могут с комфортом разместиться пассажиры ростом
+      до 180 см. Для комфортных поездок по бокам расположены отдельные воздуховоды,
+      а также есть функция регулировки интенсивности вентиляции воздуха.<br/>
+    title: Просторный третий ряд сидений
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/pu8yur3bliyyuk7zh8m4190ym080krtw.webp
+  - description: "Geely Okavango хорошо подготовлен к эксплуатации в холодное время\
+      \ года. \"Зимние\" опции уже в базовой комплектации:<br/>\n<br/>\r\n\t\t\t •\
+      \ подогрев рулевого колеса <br/>\r\n\t\t\t • подогрев передних и задних сидений\
+      \ <br/>\r\n\t\t\t • подогрев зоны покоя стеклоочистителей лобового стекла и\
+      \ форсунок стеклоомывателя<br/>\r\n\t\t\t • подогрев внешних зеркал заднего\
+      \ вида <br/>\r\n\t\t\t • подогрев заднего стекла<br/>"
+    title: «Зимние» опции
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/dn86g59bwzje6qzrakfrl896us9fjwrm.webp
+  - description: Система двухзонного климат-контроля имеет интуитивно простое управление
+      и автоматически поддерживает заданную температуру. Для пассажиров второго ряда
+      предусмотрены отдельные воздуховоды. А для пассажиров третьего ряда сидений
+      предусмотрены не только отдельные воздуховоды, но ещё и регулятор интенсивности
+      подачи воздуха.
+    title: Климат-контроль
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/blurlevub9b4f6h0vurhle68e30qnw3o.webp
+  - description: Салон нового Okavango даёт поистине безграничные возможности по перевозке
+      пассажиров и грузов за счёт множества вариантов трансформации сидений. Обширный
+      грузовой отсек вместимостью 2360 литров, а также большое пространство длиной
+      2,2 метра обеспечат при сложенных сиденьях достаточно места для перевозки крупных
+      вещей.
+    title: Багажное отделение и трансформация салона
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-4/geelygif.gif
+  sectionClass: bg-gray-100
+  text: ''
+  title: Комфорт
+- id: section-5
+  images:
+  - description: С 10,25-дюймовой цифровой комбинацией приборов высокой четкости вся
+      необходимая информация как на ладони.
+    title: Цифровая приборная панель
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/3vdbmp2gsq0lizx8ottlx1ci0awfheqj.webp
+  - description: Управление всеми функциями мультимедийной системы сосредоточено
+      в ультратонком экране высокого разрешения с диагональю 12,3 дюйма. Проекция
+      смартфона, система камер кругового обзора с функцией «прозрачное шасси», управление
+      климатом, музыкой и приложениями собраны в один простой и интуитивно понятный
+      интерфейс.
+    title: Мультимедийный сенсорный экран
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/9b551v8ceqlz1tovcc7s0xxcbnxj9i42.webp
+  - description: Одна из важных особенностей мультимедийной системы Geely Okavango
+      – способность подключать мобильные устройства, в том числе дублируя экран смартфона
+      на мультимедийном дисплее. Для этого нужно установить бесплатное приложение
+      и соединить смартфон USB-проводом с системой. На сенсорном дисплее мультимедиа
+      «зеркально» отображается экран мобильного телефона, что позволяет пользоваться
+      всеми его приложениями, включая навигаторы. А если телефон базируется на платформе
+      Android, на дисплее Geely Okavango дублируется сенсорное управление командами
+      и функциями смартфона.
+    title: Интеграция смартфона
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/bawesagp83roiay21d3lpfbt8uss1k5n.webp
+  - description: Система камер кругового обзора с функцией “прозрачное шасси” обеспечивает
+      водителю наглядную информацию об окружающих препятствиях и улучшенную безопасность
+      при маневрировании, позволяя выводить на экран виртуальный вид под автомобилем.
+      Она объединяет данные с 4-х камер для создания объемного изображения, доступного
+      к просмотру в различных режимах.
+    title: Система камер кругового обзора 360°
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/gpcghch4d8wclaxhklnwyov08giotakd.webp
+  - description: Панорамная крыша со сдвижным электрическим люком дает интерьеру Okavango
+      ещё больше света и пространства. Она дарит ещё больше позитивных впечатлений
+      от поездок, потому что всегда приятно насладиться глубиной синего неба днём
+      или мерцанием звёзд ночью.<br/>
+    title: Большая панорамная крыша с люком
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/kmcr49yeebh7yzw9jazjgibx0scys45x.webp
+  - description: Беспроводная зарядка – актуальное решение для современного пользователя.
+      В Geely Okavango для этого предусмотрена специальная площадка в передней консоли.
+      Зарядка работает с телефонами и прочими устройствами, поддерживающими эту функцию.
+    title: Беспроводная зарядка
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/lw771qz62i3hwrg5u45awfipefew52k2.webp
+  - description: "Благодаря системе бесключевого доступа, нет необходимости доставать\
+      \ ключ из кармана, чтобы открыть автомобиль. <br/>\r\n\t\t\t Открывать и закрывать\
+      \ багажную дверь можно очень легко и разными способами: <br/>\n<br/>\r\n\t\t\
+      \t • Кнопкой на ключе<br/>\r\n\t\t\t • Кнопкой на панели слева под рулём<br/>\r\
+      \n\t\t\t • Кнопкой на багажной двери <br/>\r\n\t\t\t • Автоматически бесконтактно<br/>\n\
+      <br/>\r\n\t\t\t Функция автоматического бесконтактного открывания даёт возможность\
+      \ без труда открыть багажную дверь, например, когда у вас заняты руки или вам\
+      \ не хочется испачкать их в ненастную погоду. Достаточно лишь подойти к багажной\
+      \ двери запертого автомобиля с ключом в кармане и через 3 секунды дверь откроется."
+    title: Бесключевой доступ и электропривод двери багажника
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-5/v1fmoel1d1vcl1i6k1t2zzk3x6rylwf3.webp
+  sectionClass: ''
+  text: ''
+  title: Функциональность
+- id: section-6
+  images:
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/hoku2ohpkdkl5555c8h05es1a6yie8qi.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/cbiq2n3cd4nprp5jg3t4edke2fol7eiv.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/utbf4wd9m1xlsv3f8qk16pk6764mb719.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/lpescwx9n1ahg2grzgssvv305ifknj5s.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/d2qotbbqu33h02ydmx8w8ydxt3h4lyba.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/dshgrdgdx856lta4dwfk27tzglvxos4e.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/d4fnplasgbvg34qoyyur3xniqhlp9n1p.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/sd9ykbytpd4lfi2ns38dtxenwyr1g7ub.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/q4s74xygrawqy021m7q5zg601ltrd9qj.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/23nn9267v5e03ezdcnr54vyqf9yck0gf.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/svcd5rdsw9cb7av1oq8jra1k16ma1ubw.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/f6b1kzyini2qih6z4pwd9vwgb76gjly7.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/x2wl72l6zroqcr41z01sd6es00gz66cq.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/7jgmx1qjvxf2t5zxg3y9alr0ovx30dah.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Okavango/sections/section-6/h52ktfphfbrj0i7v2jydcwjs3jx2sqkx.webp
+  sectionClass: bg-gray-100
+  text: ''
+  title: Галерея

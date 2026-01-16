@@ -1,0 +1,252 @@
+- id: section-0
+  images:
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-0/ufpno5naqe0flka5f2hnnng62v1oimq3.webp
+  items:
+  - icon: mdi:engine-outline
+    text: <span>Мощность</span>&nbsp;-&nbsp;<b>122 л.с.</b>
+  - icon: mdi:gas-station-outline
+    text: <span>Ср. расход топлива*</span>&nbsp;-&nbsp;<b>5,8 л / 100 км</b>
+  - icon: mdi:speedometer
+    text: <span>Разгон 0-100 км/ч</span>&nbsp;-&nbsp;<b>12,6 / 12,9 с</b>
+  sectionClass: bg-gray-100
+  text: <p>Geely Emgrand готов к реализации разнообразных планов и идей. Проверенные
+    временем конструкционные решения сочетаются в нем с инновационными технологиями
+    и высокими международными стандартами.</p>
+  title: EMGRAND
+- id: section-1
+  images:
+  - description: Внешний облик Geely Emgrand – это воплощение современной автомобильной
+      эстетики. Элементы его дизайна собраны в гармоничный, целостный образ компактного
+      седана нашего времени.
+    title: Экстерьер
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/udem0e6bryqs5o3rus3ixn0yns0d459n.webp
+  - description: Строгий, стильный интерьер Emgrand располагает к себе с первого взгляда.
+      Двухцветная отделка, кресла со вставками из перфорированной экокожи, большие
+      экраны мультимедиа и приборной панели… Почувствуйте себя как дома или в доме
+      своей мечты.
+    title: Интерьер
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/PBGE_11716.webp
+  - description: Светодиодные дневные ходовые огни подчёркивают современный стиль
+      нового Emgrand. Полностью светодиодные фары обеспечивают отличную видимость
+      в ночное время. Функция задержки выключения головного освещения позволит безопасно
+      дойти до освещенных участков в темноте.
+    title: Светодиодные фары
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/yxiq32psnia7oqxx5x5ju0f3wg6ws560.webp
+  - description: Доминирующий элемент задней части нового Emgrand – сплошной светодиодный
+      фонарь во всю ширину кузова, благодаря чему он выглядит как автомобиль более
+      высокого класса.
+    title: Светодиодные фонари
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/rzqrd9j3587zkshuqogbcsqsfambe972.webp
+  - description: Стильные 17-дюймовые легкосплавные диски с десятью спицами усиливают
+      впечатления от автомобиля, придавая ему визуальную индивидуальность и элегантность.
+    title: 17-дюймовые легкосплавные колесные диски
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-1/s12r8exy7u8gzhbl81r75xuo6wygpbcu.webp
+  sectionClass: ''
+  text: ''
+  title: Дизайн
+- id: section-2
+  images:
+  - description: Двигатель и трансмиссия Emgrand - это классические решения, проверенные
+      временем. Их главные достоинства – высокая надежность и неприхотливость в эксплуатации
+      в сочетании с низким расходом топлива. Атмосферный двигатель рабочим объемом
+      1,5 л обладает оптимальной для автомобиля такого размера мощностью 122 л.с.
+      и при этом в условном загородном цикле способен потреблять всего 4,5 литра бензина
+      на 100 км.
+    title: Двигатель
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-2/bsouc8wctuucz47z0shhktcb7f6ukm7h.webp
+  - description: 'В зависимости от ваших предпочтений можно выбрать комплектацию с
+      механической или автоматической коробкой передач. Последняя представляет собой
+      классический 6-ступенчатый гидромеханический «автомат», надежный и выносливый.
+      Emgrand с автоматической трансмиссией предлагает три режима движения: Sport,
+      Comfort, Eсо* <br/>
+
+      <br/>
+
+      <span style="font-size:60%">* Спортивный, Комфортный, Экономичный</span>'
+    title: Коробка передач
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-2/5nc708urdttxutonvnpcazu5zenf51xf.webp
+  sectionClass: bg-gray-100
+  text: ''
+  title: Двигатель и трансмиссия
+- id: section-3
+  images:
+  - description: Большой сенсорный дисплей мультимедийной системы c диагональю 12,3”
+      отличается современной графикой и быстродействием, а также высокой четкостью.
+    title: Мультимедийный сенсорный экран
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/PBGE_11932_2.webp
+  - description: Система климат-контроля будет автоматически поддерживать комфортную
+      температуру воздуха в салоне независимо от времени года.
+    title: Климат-контроль
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/hrxuva3p0eqwqw5pk7y4sni0s7odocgv.webp
+  - description: В отделке интерьера используются высококачественные мягкие материалы,
+      создающие ощущение комфорта на высшем уровне.
+    title: Высококачественная отделка интерьера
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/PBGE_11913.webp
+  - description: Эргономичный салон Emgrand гораздо просторнее, чем может показаться,
+      глядя на автомобиль снаружи. Это особенно оценят пассажиры второго ряда. Его
+      ширина – 1,5 метра, высота – 975 мм. Даже человек высокого роста может расположиться
+      здесь с комфортом.
+    title: Задние сиденья
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/PBGE_11662.webp
+  - description: Вместительное багажное отделение отлично подходит для любых путешествий.
+      Его объем при стандартном положении спинок задних сидений составляет внушительные
+      500 литров.
+    title: Просторное багажное отделение
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/ezn94eeilenjrgw746dw4zhsfzamu25y.webp
+  - description: В Geely Emgrand будет тепло даже в холодную погоду. Морозным утром
+      можно дистанционно запустить двигатель с помощью кнопки на ключе, чтобы автомобиль
+      прогрелся перед поездкой. Рулевое колесо и передние сиденья снабжены электроподогревом,
+      так же, как и заднее стекло, боковые зеркала, лобовое стекло в зоне покоя щеток
+      и форсунки стеклоомывателя.
+    title: «Зимние» опции
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/u882u1w7mvoh6es05cf8jzpjbn3ybdat.webp
+  - description: Сиденье водителя с возможностью электрорегулировки в шести направлениях
+      и эргономичным профилем позволяет подобрать максимально комфортное положение
+      за рулем.
+    title: Сиденье водителя с электроприводом
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-3/x8rb16ythedr5a2nb5iyejiuht8c0uwp.webp
+  sectionClass: ''
+  text: ''
+  title: Комфорт
+- id: section-4
+  images:
+  - description: 'Emgrand построен на основе инновационной модульной архитектуры
+      BMA*, разработанной концерном Geely с участием европейских инженеров. Благодаря
+      её возможностям, эргономичный салон Emgrand гораздо просторнее, чем может показаться,
+      глядя на автомобиль снаружи.<br/>
+
+      <br/>
+
+      <span style="font-size:60%">* Geely BMA (B-Segment Module Architecture) – автомобильная
+      платформа, выпускаемая компанией Geely Automobile с 2018 года</span>'
+    title: Модульная архитектура
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-4/hjz48y4rougzns21xq39kzwqjokqxizf.webp
+  - description: Geely Emgrand тщательно проработан с точки зрения пассивной безопасности.
+      Его кузов изготовлен с широким применением высокопрочной стали и спроектирован
+      так, чтобы обеспечить максимальную жесткость конструкции. И, конечно, есть крепления
+      Isofix для детских кресел.
+    title: Пассивная безопасность
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-4/88g8jkq24d7kqq9cr3epxkrb6x9932e6.webp
+  - description: Системы активной безопасности Geely Emgrand позаботятся о том, чтобы
+      водитель и пассажиры чувствовали себя защищенными в любых непредвиденных обстоятельствах.
+      При торможении на скользкой дороге колеса Emgrand не заблокируются, и сохранится
+      контроль над автомобилем, при этом тормозные усилия будут распределятся между
+      колесами в оптимальной пропорции.
+    title: Активная безопасность
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-4/1ypyzukbkh3266bfah4lxxf452m5mky5.webp
+  - description: Шесть подушек безопасности защищают водителя и пассажиров от травм.
+    title: Подушки безопасности
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-4/f04zogp0cdu98u1zvqdrfljrtp3q8b0q.webp
+  sectionClass: bg-gray-100
+  text: ''
+  title: Безопасность
+- id: section-5
+  images:
+  - description: С 12,3-дюймовой цифровой комбинацией приборов высокой четкости вся
+      необходимая информация как на ладони.
+    title: Приборная панель
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/biqor2z3ogzp7ojyui0vwj03fie6s0p8.webp
+  - description: Люк с электроприводом визуально расширяет пространство в салоне над
+      головой, а шторка при необходимости позволит уменьшить попадание прямых солнечных
+      лучей в интерьер.
+    title: Люк с электроприводом и шторкой
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/PBGE_11848.webp
+  - description: Автомобиль оснащается задними датчиками парковки с широким радиусом
+      обнаружения, позволяющие с комфортом маневрировать при парковке.
+    title: Задние датчики парковки
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/eg5y6h4rzcj3u6t7y5mx3f1o69llcz5o.webp
+  - description: Боковые зеркала нового Emgrand имеют электроприводы регулировки и
+      складывания для максимального комфорта и удобства при парковке.
+    title: Электропривод складывания наружных зеркал
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/8wpl1kpcdknwksvg66nr6tq419petbld.webp
+  - description: Инженеры тщательно проанализировали всевозможные ситуации при эксплуатации
+      автомобиля и продумали до мелочей каждое вещевое отделение в салоне Emgrand.
+      Это делает автомобиль еще более удобным и практичным.
+    title: Места для хранения
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/lp42mjuhp3xkpllkny329alyndsftd0x.gif
+  - description: "-Для водителя и переднего пассажира в центральной консоли расположены\
+      \ два разъема: USB типа А – для зарядки и передачи данных,12V– для подключения\
+      \ любых устройств, поддерживающих этот формат.<br/>\r\n\t\t\t -Для пассажиров\
+      \ второго ряда сидений на центральной консоли расположен один вход USB типа\
+      \ А - для зарядки мобильных устройств."
+    title: Разъемы для гаджетов
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-5/yz7ye1gguso7s8azmazy104pjwymmtnu.gif
+  sectionClass: ''
+  text: ''
+  title: Функциональность
+- id: section-6
+  images:
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/vms5cacftg8fxqji9t2h180pxxocii5r.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/uqda8z9x1mjvst31gtnn41bgj72r1zns.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/783siauh9kzrw6pud2qc03y3vart5hhi.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/4d18a886wlonju9s9scdnmjyeee4r82y.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/27unf7y65wyhrn1mqkxv6rp80e8wcyx1.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/qihy9ahegogf4f6q2orbokeowdtsxog9.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/g2n1pmmtl55a4gdi2hmlapo72betv1q0.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/hwce5mx2sao3oh1y45cd6g7f7az9clw1.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/j636c4qwn5y6i0zncoulyp07yjemwtih.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/uj7n47by45kurwss68gdhkgfqtq4xg99.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11932_5.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11662.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11716.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11771.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11803.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11827_2.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11843.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11848.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11870.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11870_2.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11892.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11913.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/Emgrand/sections/section-6/PBGE_11932_4.webp
+  sectionClass: bg-gray-100
+  text: ''
+  title: Галерея

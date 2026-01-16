@@ -1,0 +1,166 @@
+- id: hero
+  sectionClass: bg-gray-100!
+  title: Сочетает несочетаемое
+  text: <p class="mb-10">Неукротимый внешний вид образует единое целое с впечатляющим
+    комфортным интерьером. А простое на первый взгляд управление — результат множества
+    интеллектуальных функций.</p><video class="block w-full aspect-video object-cover"
+    preload="metadata" autoplay loop playsinline muted poster="https://cdn.alexsab.ru/b/tank/img/models/300/hero.webp"><source
+    src="https://tank.ru/uploads/blocks/b5927b3b8330a9e9ca742ce1c47247fb.mp4" type="video/mp4"></video>
+- id: features
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/megapolis.webp
+    title: В ритме мегаполиса
+    description: Новая комплектация CITY для городской жизни.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/adventure.webp
+    title: В духе приключений
+    description: Найди эмоции в путешествии с TANK 300.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/ease.webp
+    title: Легкость управления
+    description: Простое управление для максимального комфорта.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/comfort.webp
+    title: Постоянство комфорта
+    description: Чувствуй себя как дома в пути.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/features/safety.webp
+    title: Продуманная безопасность
+    description: Современные системы безопасности для защиты на дороге.
+- id: megapolis
+  title: В ритме мегаполиса
+  suptitle: ''
+  text: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/megapolis/1.webp
+    title: Интеллектуальный полный привод
+    description: Когда вокруг все стремительно меняется, ты остаешься непоколебимым.
+      Благодаря системе интеллектуального полного привода TANK 300 CITY автоматически
+      меняет режим привода в зависимости от дорожных условий.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/megapolis/2.webp
+    title: Движение в пробке и мониторинг слепых зон
+    description: Когда вокруг все стремительно меняется, ты остаешься непоколебимым.
+      Благодаря системе интеллектуального полного привода TANK 300 CITY автоматически
+      меняет режим привода в зависимости от дорожных условий.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/megapolis/3.webp
+    title: Беспроводная зарядка
+    description: Когда вокруг все стремительно меняется, ты остаешься непоколебимым.
+      Благодаря системе интеллектуального полного привода TANK 300 CITY автоматически
+      меняет режим привода в зависимости от дорожных условий.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/megapolis/4.webp
+    title: Продвинутая система мониторинга слепых зон
+    description: Гораздо легче держать все под контролем, когда есть внимательный
+      помощник. С продвинутой системой мониторинга слепых зон TANK 300 CITY ничто
+      не исчезнет из поля твоего зрения.
+- id: adventure
+  title: В духе приключений
+  text: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/adventure/1.webp
+    title: Прочная рама
+    description: Как бы окружающий мир ни проверял тебя на прочность, рамный кузов
+      TANK выдержит самую экстремальную нагрузку.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/adventure/2.webp
+    title: Блокировка всех дифференциалов
+    description: С TANK, можно не искать легких путей. С блокировкой переднего и заднего
+      дифференциала ты не ищешь проторенную дорогу, а просто двигаешься туда, куда
+      нужно, не боясь увязнуть.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/adventure/3.webp
+    title: Всегда найдет выход
+    description: Чтобы смело идти вперед, нужна уверенность, что всегда можно повернуть
+      назад. При включении функции «Разворот на месте» TANK снизит вращение внутреннего
+      заднего колеса и выполнит разворот по малому радиусу.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/adventure/4.webp
+    title: Брутальная внешность
+    description: Грациозный и мощный. Простой и яркий. Внешний вид TANK везде  громко
+      заявляет о своем присутствии.
+- id: easeOfDriving
+  title: Легкость управления
+  text: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/ease/1.webp
+    title: Выбор режима движения
+    description: Что бы ни оказалось под колесами, это не станет сюрпризом для TANK.
+      Выбери тип поверхности, по которой двигаешься, а TANK обеспечит наилучший контроль
+      за дорогой.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/ease/2.webp
+    title: Обзор 360°
+    description: Широкий обзор — характерная черта TANK. Данные со всех камер объединяются
+      в единую панораму, будто ты наблюдаешь за поездкой откуда-то сверху.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/ease/3.webp
+    title: Функция «Прозрачный капот»
+    description: Ничто не скроется от твоих глаз даже под автомобилем. Фронтальная
+      камера TANK записывает изображение дороги и в нужный момент воссоздает ее на
+      дисплее.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/ease/4.webp
+    title: Ассистент спуска и подъема
+    description: На спусках и подъемах нагрузка возрастает не только на автомобиль,
+      но и на внимание водителя. В сложных условиях нужно следить за скоростью и блокировкой
+      колес. Умный ассистент возьмет это на себя, чтобы ты концентрировался на самой
+      дороге.
+- id: constantComfort
+  title: Постоянство комфорта
+  text: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/comfort/1.webp
+    title: Электропривод сидений
+    description: TANK не угадывает, а знает, как тебе будет наиболее комфортно. Электрическая
+      регулировка сидений делает автомобиль удобным именно для тебя.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/comfort/2.webp
+    title: Сиденья с вентиляцией и массажем
+    description: TANK для тех, чья цель — изучить всю полноту мира. Специально созданные
+      для долгих поездок кресла поддержат твой настрой на свершения и не дадут переутомиться.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/comfort/3.webp
+    title: Аудиосистема 8.1
+    description: С премиальным звуком TANK ты почувствуешь все музыкальные нюансы
+      в любой точке внутреннего пространства благодаря 8 динамикам и сабвуферу.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/comfort/4.webp
+    title: Сервисы TANK Connection
+    description: Настраивай время запуска двигателя, меняй температуру в салоне, уточняй
+      геолокацию и многое другое с помощью сервисов TANK Connection.
+- id: smartSafety
+  title: Продуманная безопасность
+  text: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/safety/1.webp
+    title: Функция «умного уклонения»
+    description: Обгонять крупногабаритный транспорт не всегда безопасно. TANK помогает
+      совершать маневр на комфортном расстоянии*.<br><br>*Функция «умного уклонения»
+      работает при включенном круиз-контроле.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/safety/2.webp
+    title: Распознавание дорожных знаков
+    description: Какие бы знаки ни посылал тебе мир, важно их вовремя заметить. Камера
+      TANK распознает дорожные знаки, отображает их на панели и выводит подсказки
+      по управлению.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/safety/3.webp
+    title: Распознавание полосы движения
+    description: TANK всегда на своем месте на дороге. Система определит полосу движения,
+      обратит твое внимание при выходе из нее и удержит движение по ее центру*.<br><br>*Функция
+      распознавания полосы движения работает при включенном круиз-контроле.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/safety/4.webp
+    title: Автоматическое торможение на малой скорости
+    description: Любые препятствия можно обойти, но сначала их нужно заметить. На
+      малой скорости TANK следит за потенциальными угрозами столкновения, чтобы осуществить
+      экстренное торможение.
+- id: variants
+  title: Варианты TANK 300
+  text: 'Выберите свою конфигурацию: ADVENTURE, CITY ADVENTURE, PREMIUM и CITY PREMIUM.
+
+    '
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/variants/adventure.webp
+    title: ADVENTURE
+    description: 'Основное оборудование: система подключаемого полного привода (Part-Time),
+      блокировка заднего межколёсного дифференциала, отделка сидений искусственной
+      кожей.'
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/variants/city_adventure.webp
+    title: CITY ADVENTURE
+    description: 'Основное оборудование: система интеллектуального полного привода
+      (Torque-On-Demand), блокировка заднего межколёсного дифференциала, адаптивный
+      круиз-контроль (ACC).'
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/variants/premium.webp
+    title: PREMIUM
+    description: 'Основное оборудование: система подключаемого полного привода (Part-Time),
+      блокировка заднего и переднего межколёсных дифференциалов, отделка сидений кожей
+      NAPPA.'
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300/variants/city_premium.webp
+    title: CITY PREMIUM
+    description: 'Основное оборудование: система интеллектуального полного привода
+      (Torque-On-Demand), блокировка заднего и переднего межколёсных дифференциалов,
+      адаптивный круиз-контроль с функцией ICA и ассистентом движения в пробке (TJA).'

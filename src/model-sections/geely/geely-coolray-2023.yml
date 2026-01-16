@@ -1,0 +1,305 @@
+- id: section-0
+  images:
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-0/4pb5vjnu3lrw1mg7jvzdvp6s8jwmp3kv.webp
+  items:
+  - icon: mdi:engine-outline
+    text: <span>Мощность</span>&nbsp;-&nbsp;<b>147 л.с. </b>
+  - icon: mdi:gas-station-outline
+    text: <span>Ср. расход топлива*</span>&nbsp;-&nbsp;<b>6,1 л / 100 км</b>
+  - icon: mdi:speedometer
+    text: <span>Разгон 0-100 км/ч</span>&nbsp;-&nbsp;<b>8,1 с</b>
+  sectionClass: bg-gray-100
+  text: <p>Geely Coolray — яркий образец современного спортивного стиля. Когда он
+    появляется на улицах, город оживает.</p>
+  title: COOLRAY
+- id: section-1
+  images:
+  - description: "Coolray стал еще ярче и совершеннее. Этот автомобиль раскроет ваш\
+      \ потенциал, зарядит энергией, подчеркнет индивидуальный стиль и стремление\
+      \ к свободе. <br/>\n<br/>\r\n\t\t\t Новый статус Coolray чувствуется во всем.\
+      \ И прежде всего в еще более дерзком и привлекательном дизайне."
+    title: Экстерьер
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-1/410flnup9nq3m1jxoyqvwakupqdjynrz.webp
+  - description: "Салон Coolray полностью преобразился, но качество материалов отделки\
+      \ по-прежнему на высоком уровне.<br/>\n<br/>\r\n\t\t\t Стиль интерьера – подчеркнуто\
+      \ спортивный. Он способен понравиться с первого взгляда и не наскучит со временем.\
+      \ Все элементы управления и отделки прекрасно сочетаются друг с другом и образуют\
+      \ единую комфортную среду, в которой вы чувствуете себя спокойно и уверенно."
+    title: Интерьер
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-1/b0at48l2s8xx8o56hhvyiyfdvbxho7ev.webp
+  - description: Новые полностью светодиодные фары обеспечивают безопасность движения
+      в любую погоду и время суток, в том числе благодаря ассистенту автопереключения
+      дальнего света. Вертикальные дневные ходовые огни, интегрированные в передний
+      бампер, подчеркивают технологичность и спортивный дизайн автомобиля.
+    title: Светодиодные фары
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-1/omxqa3ix8x3mbvznyv8jx64mbhfuu76h.webp
+  - description: Задние фонари нового дизайна визуально объединены контурной светодиодной
+      линией во всю ширину кузова, что повышает привлекательность и узнаваемость Coolray
+      в городском потоке.
+    title: Светодиодные фонари
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-1/z86rxxsngh41bdrdpg83o06td3fl0y92.webp
+  sectionClass: ''
+  text: ''
+  title: Дизайн
+- id: section-2
+  images:
+  - description: Сердце Coolray – абсолютно новый 4-цилиндровый турбомотор объемом
+      1,5 литра и мощностью 147 лошадиных сил, разработанный Geely совместно со шведскими
+      инженерами. Он развивает крутящий момент 270 ньютон-метров, который поддерживается
+      в широком диапазоне - от 2000 до 3500 оборотов в минуту. Это обеспечивает мощное
+      и равномерное ускорение с 0 до 100 км/ч за 8,1 секунды.
+    title: Двигатель
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-2/76d98hi7erl4wcjyjjx9ipes0tfbygjv.webp
+  - description: "Автоматическая коробка передач 7DCT* мгновенно реагирует на педаль\
+      \ акселератора. <br/>\n<br/>\r\n\t\t\t В ней реализована схема с двумя «мокрыми»\
+      \ сцеплениями, что обеспечивает высокую надежность и приспособленность к напряженному\
+      \ городскому трафику. Эта трансмиссия предлагает водителю выбор из четырёх\
+      \ режимов вождения: Eco, Comfort, Sport и Adaptive.** Последний способен подстраиваться\
+      \ под ваш индивидуальный стиль управления. <br/>\n<br/>\n<span style=\"font-size:60%\"\
+      >* 7-ступенчатая преселективная автоматическая коробка передач с двойным сцеплением.<br/>\r\
+      \n\t\t\t ** «Экономичный», «Комфортный», «Спортивный» и «Адаптивный».</span>"
+    title: Коробка передач
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-2/ibgb6xf6ra2vl7d5v9e1lyjd4fwj3qya.webp
+  sectionClass: bg-gray-100
+  text: ''
+  title: Двигатель и трансмиссия
+- id: section-3
+  images:
+  - description: 'Управление всеми функциями мультимедийной системы сосредоточено
+      в ультратонком экране высокого разрешения с диагональю 12,3 дюйма*. Проекция
+      смартфона, система камер кругового обзора с функцией «прозрачное шасси», видеорегистратор,
+      управление климатом, музыкой и приложениями собраны в один простой и интуитивно
+      понятный интерфейс.<br/>
+
+      <br/>
+
+      <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
+    title: Мультимедийный сенсорный экран
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/s8v7pe4ak39xw933kgnxj72w8f3oba85.webp
+  - description: 'Сиденье водителя с возможностью электрорегулировки в шести направлениях
+      и спортивным профилем позволяет подобрать максимально комфортное положение за
+      рулем.<br/>
+
+      <br/>
+
+      <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
+    title: Сиденье водителя с электроприводом*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/sbjgak8yvsc6hinf5xc1mmh0du248ure.webp
+  - description: "Высококачественная экокожа, замшевые вставки*, эффектный двухцветный\
+      \ декор. Все привлекательно выглядит и приятно на ощупь. <br/>\n<br/>\r\n\t\t\
+      \t Для пассажиров второго ряда также предусмотрен отдельный USB-разъем для\
+      \ зарядки.<br/>\n<br/>\n<span style=\"font-size: 60%\">* Вставки выполнены из\
+      \ искусственной замши, опция доступна не во всех комплектациях</span>"
+    title: Задние сиденья
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/0yw3pdlqryp1tyvsnqs5ddmlk8nu279j.webp
+  - description: "Geely Coolray хорошо подготовлен к эксплуатации в холодное время\
+      \ года. Подогреваются сиденья, форсунки стеклоомывателя, руль.<br/>\n<br/>\r\
+      \n\t\t\t \"Зимние\" опции уже в базовой комплектации:<br/>\r\n\t\t\t • подогрев\
+      \ рулевого колеса<br/>\r\n\t\t\t • подогрев передних и задних сидений<br/>\r\
+      \n\t\t\t • подогрев зоны покоя стеклоочистителей лобового стекла<br/>\r\n\t\t\
+      \t • подогрев внешних зеркал заднего вида<br/>\r\n\t\t\t • подогрев заднего\
+      \ стекла<br/>\n<br/>\r\n\t\t\t Система климат-контроля имеет интуитивно простое\
+      \ управление и автоматически поддерживает заданную температуру ."
+    title: '"Зимние" опции'
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/tace22dnxu9y2ndgmn04s26mrnfr30fl.webp
+  - description: "• Открывается на высоту 1,83 м и угол 74,8 ̊<br/>\r\n\t\t\t • 3\
+      \ варианта управления: с помощью ключа, кнопки на центральной консоли или кнопки\
+      \ на двери багажника<br/>\r\n\t\t\t • Имеет защиту от защемления при контакте\
+      \ с препятствием<br/>\n<br/>\n<span style=\"font-size: 60%\">* Указанная опция\
+      \ доступна не во всех комплектациях </span>"
+    title: Электропривод багажного отделения*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-3/r6s47tv288gre7n3jtp8281ces4fgrn0.webp
+  sectionClass: ''
+  text: ''
+  title: Комфорт
+- id: section-4
+  images:
+  - description: Передовая модульная архитектура Geely BMA позволяет использовать
+      самые современные наработки в области безопасности и экологии, обеспечить повышенный
+      уровень автоматизации производства и высокое качество.
+    title: Модульная архитектура
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/8teuf18axypxqmvky04rv83ob2x5zl98.webp
+  - description: Кузов из высокопрочной стали имеет энергопоглощающую конструкцию.
+      При ударе в случае ДТП происходит запрограммированная деформация, при которой
+      салон сохраняет целостность.
+    title: Пассивная безопасность
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/6veuelwzq1hytkm3ms16wmuk0f3enqqo.webp
+  - description: "За вашу защиту отвечает комплекс из 12 инновационных систем активной\
+      \ безопасности.<br/>\n<br/>\r\n\t\t\t Комплекс систем безопасности Coolray постоянно\
+      \ отслеживает положение автомобиля на дороге относительно направления движения.\
+      \ Он способен распределять тормозные усилия для каждого колеса отдельно и крутящий\
+      \ момент для каждого из ведущих колес. Благодаря этому вы можете с большей\
+      \ уверенностью двигаться по скользкой дороге, не опасаясь заноса и потери управления."
+    title: Активная безопасность
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/3a93w2iqxl3v86wta1kbe6z3nj50p1tl.webp
+  - description: 'Coolray оснащен 6 подушками безопасности и травмобезопасной рулевой
+      колонкой.* Для маленьких пассажиров предусмотрены крепления кресел Isofix.<br/>
+
+      <br/>
+
+      <span style="font-size: 60%">* Указанные опции доступны не во всех комплектациях</span>'
+    title: Подушки безопасности
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/7cxjavwp5eumtwccuuz4uxxcxqymhnzx.webp
+  - description: 'Система автоматически поддерживает дистанцию до впереди идущего
+      транспортного средства и заданную водителем скорость, включая автоматическую
+      остановку и продолжение движения после кратковременной остановки.<br/>
+
+      <br/>
+
+      <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
+    title: Адаптивный круиз-контроль*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/ve2ni3l34v7pvqe0bzrms45r63ridzpa.webp
+  - description: "Система может предупреждать водителя о наличии на дороге пешеходов,\
+      \ велосипедистов и транспортных средств с помощью звукового сигнала, изображения\
+      \ или применять автоматическое экстренное торможение в случае риска столкновения.\
+      \ Система эффективно помогает избегать несчастных случаев за счет значительной\
+      \ дистанции обнаружения препятствий.**<br/>\n<br/>\n<span style=\"font-size:\
+      \ 60%\">* Указанная опция доступна не во всех комплектациях<br/>\r\n\t\t\t **\
+      \ Система не является 100% гарантией безаварийного вождения</span>"
+    title: Система автоматического экстренного торможения*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/dkw0yxquu1va0e01fmv61lgnhh6wzlaa.webp
+  - description: 'Интеллектуальная система управления дальним светом анализирует ситуацию
+      по многим факторам и автоматически переключает дальний свет на ближний и обратно,
+      повышая безопасность езды в темное время суток. Режим работы фар меняется не
+      только при приближении к встречному или попутному автомобилю, но и в зависимости
+      от условий освещённости дороги и скорости движения. <br/>
+
+      <br/>
+
+      <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
+    title: Интеллектуальное управление дальним светом*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-4/yz6ov0r3z271sgg5mqu1m91qmxnl6er1.webp
+  sectionClass: bg-gray-100
+  text: ''
+  title: Безопасность
+- id: section-5
+  images:
+  - description: 'Система камер кругового обзора с функцией “прозрачное шасси” обеспечивает
+      водителю наглядную информацию об окружающих препятствиях и улучшенную безопасность
+      при маневрировании, позволяя выводить на экран виртуальный вид под автомобилем.
+      Она объединяет данные с 4-х камер для создания объемного изображения, доступного
+      к просмотру в различных режимах. <br/>
+
+      <br/>
+
+      <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
+    title: Система камер кругового обзора 360°*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/hjxoxom5chsp85e5st2b6hvhst75wkv0.webp
+  - description: 'Панорамная крыша с электрическим люком придает интерьеру усиленное
+      ощущение света и пространства. Она дарит ещё больше позитивных впечатлений от
+      поездок.<br/>
+
+      <br/>
+
+      <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
+    title: Панорамная крыша с люком*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/cs48ly6umlv4sj1uh4yjeofs1dd2ypwy.webp
+  - description: 'Функция ассистента автоматической парковки позволяет осуществлять
+      4 типа парковки: параллельную и поперечную как на правую, так и на левую стороны
+      простым нажатием кнопки.<br/>
+
+      <br/>
+
+      <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
+    title: Автопарковка*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/g71ook9jjr8ewoawicgjc9545t419gy7.webp
+  - description: 'На центральной консоли удобно расположена беспроводная зарядка
+      для смартфонов, а также два USB-разъема для передачи данных и быстрой зарядки.
+      <br/>
+
+      <br/>
+
+      <span style="font-size: 60%">* Указанная опция доступна не во всех комплектациях</span>'
+    title: Беспроводная зарядка*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/tlc2tbkvjq2y1i02jr7e0j32equiocpw.webp
+  - description: "• 72 цветовых варианта <br/>\r\n\t\t\t • Несколько режимов работы:\
+      \ мерцание в ритм музыки, адаптация к режимам движения, приветственная подсветка\
+      \ при открывании дверей<br/>\n<br/>\n<span style=\"font-size: 60%\">* Указанная\
+      \ опция доступна не во всех комплектациях.</span>"
+    title: Атмосферная подсветка интерьера*
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-5/ecij1brgxxdqo2x3keu3zn563w1uyjeu.webp
+  sectionClass: ''
+  text: ''
+  title: Функциональность
+- id: section-6
+  images:
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/1oqnmmew3iajfu37i5k6agp7nvt0c583.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/8rjl5csg7n664j4dyb2dkpkdh1sbw3i1.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/507mz4ujwdmykc29uge8ynbqiuzbsbqy.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/52pxndjm21n7i0dnd0e563l1dsjvevy8.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/mghembindcbnmm8f804raa7nnwcycj3j.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/mhqn0m4q0ilrl3ch99sco18h4s95yx7u.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/xohyq28caep73z9n68zd3s8y32b3s3xl.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/8tjxj4jmvjia1mlz8t65j8p26e0lzmdt.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/9cxv3jfu9c781n3x67l5mhah72lequo6.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/rlqhg2vzjvicy2q7efzpy1tllbok614q.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/9udss0wh1uyxqcgbgf5h520eeohtbw9r.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/yaf3nnhhtwggcm8kwn58jwe8hbtpfr8t.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/uc07q94o5wj1xzmr3kcoramlwrnsghoj.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/j73zwatl4rjri3spc6jpw7bk5c4j3xiu.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/a4ow0831tu0ysmvc1s37zpex0a3gqk26.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/80hrdav7uew1ni0rj5wqp5xjmik0v574.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/ajmtwfbgp7csv67lxr09kjbnlr3od0id.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/ouf7dxmeo14k1czcqkzsvvvzlqzhtt3z.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/60ab6qwarshcy8278fixp4tnxi2mdubq.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/a1zt713ua712dlf2zwi3hif0z874ibf4.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/vfrmorm15byfomeile4q3dohx7qbc72v.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/q474b4vx5pvclwqwwbosnxiht3bdan5c.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/xwvb0ubz9aw2tsupwk1j2rwvjsbhe2le.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/5srh9adh3yfehs5kebduxpeu3gqj9548.webp
+  - description: ''
+    title: ''
+    url: https://cdn.alexsab.ru/b/geely/img/models/New Coolray/sections/section-6/n9eg2k52zqxmsib8dmuas0qso8ix4g0p.webp
+  sectionClass: bg-gray-100
+  text: ''
+  title: Галерея

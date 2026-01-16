@@ -1,0 +1,114 @@
+- id: description
+  sectionClass: ''
+  suptitle: О модели
+  title: JETOUR X70 PLUS
+  text: <div class='space-y-4'><p>Jetour X70 Plus — современный кроссовер, объединяющий
+    в себе изысканный дизайн и высокую производительность. Отличительной чертой кузова
+    Jetour X70 Plus является его динамичный и современный облик, который подчеркивает
+    спортивный характер этого автомобиля.</p><p>Снабженный мощным двигателем и передовой
+    системой управления, Jetour X70 Plus обеспечивает комфортное и уверенное вождение
+    как на дорогах, так и вне них. Высокий клиренс и надежная подвеска делают этот
+    кроссовер идеальным для путешествий и приключений.</p><p>Интерьер автомобиля отличается
+    стилем, функциональностью и комфортом. Просторный салон, предназначенный для пяти
+    пассажиров, украшен высококачественными материалами, а современные технологии
+    делают поездку еще более приятной.</p><p>Jetour X70 Plus — выбор тех, кто ценит
+    динамичный дизайн, передовые технологии и высокую проходимость в любых условиях
+    эксплуатации.</p></div>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 190 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 11.7 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 10.9 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/1.webp
+- id: exterior
+  sectionClass: bg-gray-100
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/exterior/1.webp
+    title: Спортивный характер, современные светодиодные фары
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/exterior/2.webp
+    title: Спортивный стиль, динамичный силуэт
+    description: 19-дюймовые колеса.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/exterior/3.webp
+    title: Задние светодиодные фонари
+    description: Неповторимый рисунок задних фонарей.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Продумана каждая деталь
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/interior/1.webp
+    title: Продуманный и эргономичный интерьер
+    description: ''
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/interior/2.webp
+    title: Эргономика
+    description: Функциональная центральная консоль.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/interior/3.webp
+    title: Тщательно подобранные декоративные элементы
+    description: Использование мягких материалов с применением современных технологий.
+- id: technology
+  sectionClass: bg-gray-100
+  title: Технологии
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/technology/1.webp
+    title: Кузов
+    description: Надёжный автомобиль, подготовленный к российским условиям эксплуатации
+      с оцинкованными деталями кузова.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/technology/2.webp
+    title: Мощный двигатель
+    description: 'Двигатель с турбонаддувом 1,6 л, максимальная мощность: 190 л.с.,
+      5500 об/мин; максимальный крутящий момент: 275 НМ/2000-4000 об/мин.'
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/technology/3.webp
+    title: Надёжная и независимая подвеска
+    description: Обеспечит вам комфорт как в городе, так и в дальних путешествиях
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/technology/4.webp
+    title: Обзор на все 360°+180°
+    description: Панорамный вид для обеспечения комфорта и безопасности на протяжении
+      всего процесса вождения, функция обзора пространства под днищем автомобиля.
+- id: space
+  sectionClass: ''
+  title: Индивидуальное пространство
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/space/1.webp
+    title: Мультимедиа
+    description: Автомобиль оснащён 10,25-дюймовым центральным экраном управления,
+      бесключевыми запуском и входом, электронным переключением передач, электрическим
+      приводом багажником и другими функциями для создания нового интеллектуального
+      опыта.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/space/2.webp
+    title: Система очистки и ионизации воздуха
+    description: Применяются эффективные воздушные фильтры (N95), которые обеспечивают
+      уровень фильтрации ультрамелких частиц (PM 2.5) до 95%.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/space/3.webp
+    title: 3-зонный климат-контроль
+    description: Водитель и пассажиры на переднем и заднем сиденьях могут устанавливать
+      разную температуру и путешествовать с ещё большим комфортом.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/space/4.webp
+    title: Память сидений для 3 водителей
+    description: Удобство и комфорт для всей семьи.
+- id: pleasure
+  sectionClass: bg-gray-100
+  title: Удовольствие от поездки
+  images:
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/pleasure/1.webp
+    title: Тёплые опции
+    description: Комфорт для вас и ваших спутников в зимнее время.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/pleasure/2.webp
+    title: Багажник и места хранения
+    description: Вместительный багажник, многообразие мест хранения – неотъемлимая
+      часть любого путешествия.
+  - url: https://cdn.alexsab.ru/b/jetour/img/models/x70plus/sections/pleasure/3.webp
+    title: Интеллектуальные помощники при вождении
+    description: ''
+- id: documentation
+  sectionClass: ''
+  title: Документация для X70 PLUS
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://jetour-ru.com/media-link/x70-plus-specification'
+    class='underline' target='_blank'>Технические характеристики</a><br><a href='https://jetour-ru.com/media-link/x70-plus-pricelist'
+    class='underline' target='_blank'>Комплектации и цены</a><br><a href='https://jetour-ru.com/media-link/x70-plus-rukovodstvo'
+    class='underline' target='_blank'>Руководство</a></span></p>
