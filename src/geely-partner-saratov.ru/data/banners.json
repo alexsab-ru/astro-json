@@ -174,7 +174,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/geely/cityray.webp"
         },
         "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Cityray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Cityray'><span class='uppercase block font-medium'>Энергия города</span>",
-        "descr": "",
+        "descr": "Выгода до 310 000 ₽",
         "btn": "Подробнее",
         "btnUrl": "/models/cityray/",
         "dataTitle": "",
@@ -225,7 +225,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new_okavango.webp"
         },
         "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Okavango/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Okavango'>",
-        "descr": "",
+        "descr": "Выгода до 373 000 ₽",
         "btn": "Подробнее",
         "btnUrl": "/models/geely-okavango/",
         "dataTitle": "",
