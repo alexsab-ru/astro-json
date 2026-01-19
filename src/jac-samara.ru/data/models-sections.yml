@@ -59,11 +59,6 @@
         - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/4.webp
         - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/5.webp
         - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/6.webp
-    - id: prices
-      sectionClass: ""
-      title: Комплектации и цены
-      text: |
-        <p><span><a href='https://jaccar.ru/RF8-price_web-010126_16047561631859824015.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: js3
   sections:
     - id: items
