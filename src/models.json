@@ -12334,7 +12334,7 @@
 		"complectations": [
 			{
 				"name": "COMFORT",
-				"price": "1809000",
+				"price": "1749000",
 				"bodytype": "Лифтбек",
 				"engine": "1.5 м3",
 				"engine_power": "136",
@@ -12344,7 +12344,7 @@
 			},
 			{
 				"name": "LUXURY",
-				"price": "1779000",
+				"price": "1824000",
 				"bodytype": "Лифтбек",
 				"engine": "1.5 м3",
 				"engine_power": "136",
@@ -12354,7 +12354,7 @@
 			},
 			{
 				"name": "TECH",
-				"price": "1829000",
+				"price": "1874000",
 				"bodytype": "Лифтбек",
 				"engine": "1.5 м3",
 				"engine_power": "136",
