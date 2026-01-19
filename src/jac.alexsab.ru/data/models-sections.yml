@@ -59,11 +59,6 @@
         - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/4.webp
         - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/5.webp
         - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/6.webp
-    - id: prices
-      sectionClass: ""
-      title: Комплектации и цены
-      text: |
-        <p><span><a href='https://jaccar.ru/RF8-price_web-010126_16047561631859824015.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: js3
   sections:
     - id: items
@@ -120,7 +115,7 @@
       sectionClass: ""
       title: Комплектации и цены
       text: |
-        <p><span><a href='https://jaccar.ru/JS3-price_web-010126_14428045002224793116.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
+        <p><span><a href='https://jaccar.ru/JS3-price_web-160126_16505232157891343086.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: t9
   sections:
     - id: hero
@@ -199,11 +194,6 @@
         </picture>
     - id: vkVideo
       text: <iframe src="https://vk.com/video_ext.php?oid=-226331383&id=456239176" class="w-full h-[300px] md:h-[500px] block" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
-    - id: description
-      sectionClass: ""
-      title: Комплектации и цены
-      text: |
-        <p><span><a href='https://jaccar.ru/T9-TDi-Urban_price_web-120126_14133938344885021981.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: j7
   sections:
     - id: hero
@@ -265,7 +255,7 @@
       sectionClass: ""
       title: Комплектации и цены
       text: |
-        <p><span><a href='https://jaccar.ru/J7-price_web-010126_13130451406904933590.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
+        <p><span><a href='https://jaccar.ru/J7-price_web-160126_12389120360460370525.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: js6
   sections:
     - id: hero
@@ -340,4 +330,4 @@
       sectionClass: ""
       title: Комплектации и цены
       text: |
-        <p><span><a href='https://jaccar.ru/JS6-price_web-010126_6304727353252400138.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
+        <p><span><a href='https://jaccar.ru/JS6-price_web-160126_7301296055156763061.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
