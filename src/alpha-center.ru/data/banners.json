@@ -48,7 +48,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_Card_640x800-notxt.webp"
         },
         "title": "Получите карту<br />Nissan Assistance Plus<br />в подарок*",
-        "descr": "1 октября - 31 декабря 2025<br /><br /><small>Сервис для владельцев<br />постгарантийных автомобилей Nissan</small>",
+        "descr": "<small>Сервис для владельцев<br />постгарантийных автомобилей Nissan</small>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Получите карту Nissan Assistance Plus в подарок",
@@ -66,7 +66,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_Diagnostics_640x800-notxt.webp"
         },
         "title": "Пройдите комплексную<br />диагностику по 30 пунктам<br />за 999 рублей*",
-        "descr": "1 октября - 31 декабря 2025<br /><br /><small>Сервис для владельцев<br />постгарантийных автомобилей Nissan</small>",
+        "descr": "<small>Сервис для владельцев<br />постгарантийных автомобилей Nissan</small>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Пройдите комплексную диагностику по 30 пунктам за 999 рублей",
@@ -84,7 +84,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/alpha-center/Nissan_service_oil_640x800-notxt.webp"
         },
         "title": "Замена масла с заботой об автомобиле!<br />Диагностика ходовой в подарок*",
-        "descr": "1 октября - 31 декабря 2025<br /><br /><small>Сервис для владельцев<br />постгарантийных автомобилей Nissan</small>",
+        "descr": "<small>Сервис для владельцев<br />постгарантийных автомобилей Nissan</small>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Замена масла с заботой об автомобиле! Диагностика ходовой в подарок",
