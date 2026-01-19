@@ -1,0 +1,88 @@
+- id: hero
+  sectionClass: bg-gray-100!
+  title: JAC JS6 — Ваш идеальный кроссовер
+  text: "<p>Откройте для себя новый уровень стиля, комфорта и безопасности вместе\
+    \ с семейным автомобилем JAC JS6!</p>\n<ul class=\"list-disc pl-5\">\n  <li class=\"\
+    mt-4\">Неповторимый дизайн создан в концепции звездолёта. Он сочетает в себе многолетний\
+    \ опыт разработок JAC, современные технологии и уникальную дизайнерскую мысль\
+    \ от кутюрье из итальянского дизайн-центра бренда во главе с Даниэлем Гальоне.</li>\n\
+    \  <li class=\"mt-4\">Вместительность: полноценный 5-ти местный семейный кроссовер\
+    \ с большим багажником.</li>\n  <li class=\"mt-4\">Безопасность и надежность:\
+    \ подтверждены премиями и сертификатами, а также многочисленными положительными\
+    \ отзывами владельцев.</li>\n  <li class=\"mt-4\">Отличное оснащение: даже в стартовой\
+    \ комплектации кроссовер оснащен премиальными опциями.</li>\n  <li class=\"mt-4\"\
+    >Оптимальная цена: идеальный выбор для тех, кто ценит качество и надежность и\
+    \ дизайн.</li>\n</ul>\n"
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/hero/diamond.webp
+    title: Изысканный дизайн
+    description: от итальянских кутюрье
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/hero/ancap.webp
+    title: Безопасный семейный кроссовер
+    description: 5-ти звездочный рейтинг C-ANCAP*
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/hero/resource_test_2024.webp
+    title: Ресурсный тест 2024
+    description: Победитель премии*
+- id: items
+  sectionClass: ''
+  items:
+  - icon: mdi:engine-outline
+    text: Турбодвигатель <strong>1.5 л</strong>
+  - icon: mdi:lightning-bolt
+    text: Мощность <strong>174 л.с.</strong>
+  - icon: mdi:brain
+    text: Интеллектуальная платформа <strong>MIS</strong>
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/hero/hero.webp
+- id: exterior
+  title: Притягательная внешность
+  text: 'Он точно не останется незамеченным в потоке машин! JS6 - яркий и стильный
+    кроссовер, вобравший в себя основные ноу-хау JAC.
+
+    '
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/4.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/exterior/5.webp
+- id: technologies
+  title: Технологии
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/technologies/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/technologies/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/technologies/3.webp
+- id: interior
+  title: Интерьер
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/4.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/5.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/interior/6.webp
+- id: comfort
+  title: Идеален для семьи
+  text: '<p>JAC JS6 — идеальный выбор семейного автомобиля, созданный специально для
+    комфорта всей вашей семьи. Просторный салон позволяет свободно разместиться пассажирам
+    любого роста, обеспечивая каждому максимум удобства во время длительных поездок.</p>
+
+    <p class="mt-4">Особое внимание уделено пассажирам заднего ряда: просторная посадка,
+    оптимальная высота потолка и обволакивающие сиденья позволяют избежать усталости
+    даже после долгих путешествий.</p>
+
+    <p class="mt-4">Просторный багажник с отсеками для хранения делает автомобиль
+    отличным решением для перевозки детских колясок, спортивного инвентаря или покупок.
+    Это идеальное сочетание практичности и функциональности, которое обеспечит вашим
+    семейным поездкам полный комфорт!</p>
+
+    '
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/comfort/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/comfort/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/js6/sections/comfort/3.webp
+- id: description
+  sectionClass: ''
+  title: Комплектации и цены
+  text: <p><span><a href='https://jaccar.ru/JS6-price_web-010126_6304727353252400138.pdf'
+    class='underline' target='_blank'>Скачать прайс-лист</a></p>

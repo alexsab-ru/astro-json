@@ -1,0 +1,77 @@
+- id: hero
+  sectionClass: bg-gray-100!
+  title: Минивэн для любого момента вашей жизни
+  text: 'Бизнес, путешествия, поездки с детьми, активные виды спорта: на все случаи
+    жизни один автомобиль – JAC RF8. Его сбалансированные габариты, мощный двигатель,
+    автоматическая коробка передач и богатое оснащение салона точно порадуют вас,
+    вашу семью, коллег и партнеров.'
+  items:
+  - icon: mdi:engine-outline
+    text: 2.0 л, 236 л.с. (<small>при 5500 об./мин</small>)<br />бензиновый двигатель
+  - icon: mdi:car-shift-pattern
+    text: 8-ступенчатая<br />АКПП
+  - icon: mdi:car-estate
+    text: 7 мест<br />трансформируемый салон
+- id: video
+  text: '<video class="mt-10 aspect-video" muted playsinline autoplay loop preload="metadata"><source
+    src="https://cdn.alexsab.ru/models/jac/rf8/sections/video/rf8.mp4" type="video/mp4"></video>
+
+    '
+- id: gallery
+  title: Привлекательная внешность. Для любого момента вашей жизни
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/4.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/5.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/6.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/7.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery/8.webp
+- id: interior
+  title: Универсальный салон. Для любого момента вашей жизни.
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/interior/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/interior/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/interior/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/interior/4.webp
+- id: safety
+  title: Ваша безопасность – его приоритет
+  text: JAC RF8 создан с учётом новейших технологий и строгих стандартов безопасности,
+    чтобы обеспечить надёжную защиту водителя и пассажиров на дороге.
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/safety/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/safety/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/safety/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/safety/4.webp
+- id: technologies
+  title: Технические характеристики
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/technologies/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/technologies/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/technologies/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/technologies/4.webp
+- id: gallery2
+  title: Эффектный дебют JAC RF8 на премии журнала ОК! «Больше чем звезды»
+  text: 'Минивэн JAC RF8 впервые появился на российских дорогах во время церемонии
+    вручения премии журнала ОК! «Больше чем звезды».
+
+    Он выполнял роль шаттлов для долгожданных гостей мероприятия, которые смогли одними
+    из первых протестировать модель в роли пассажиров. RF8 с комфортом и простором
+    доставил номинантов к назначенному времени.
+
+    '
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/4.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/5.webp
+  - url: https://cdn.alexsab.ru/models/jac/rf8/sections/gallery2/6.webp
+- id: prices
+  sectionClass: ''
+  title: Комплектации и цены
+  text: '<p><span><a href=''https://jaccar.ru/RF8-price_web-010126_16047561631859824015.pdf''
+    class=''underline'' target=''_blank''>Скачать прайс-лист</a></p>
+
+    '

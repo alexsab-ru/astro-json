@@ -1,0 +1,243 @@
+- id: s1
+  title: Всегда в победном стиле
+  text: <p class="mb-10">Просторный и технологичный HAVAL H7 будет надежным спутником
+    как в городе, так и за его пределами, благодаря внедорожной подготовке, широкому
+    набору интеллектуальных ассистентов, опций безопасности и комфорта.</p><video
+    class="block w-full aspect-video object-cover" preload="metadata" autoplay loop
+    playsinline muted poster="https://cdn.alexsab.ru/models/haval/h7/sections/hero.png"><source
+    src="https://haval.ru/HAVAL%20H7%20Product%20film%20Titles%2063mb_1758189176594892716.mp4"
+    type="video/mp4"></video>
+- id: s2
+  title: Блистающий новыми гранями
+  images:
+  - description: Большой мультимедийный экран высокого разрешения доминирует над центральной
+      консолью, предлагая интуитивно понятный интерфейс с возможность голосового управления
+      функциями автомобиля.
+    title: Дисплей мультимедиа 14,6”
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/s2/s2-1.webp
+  - description: Суровый взгляд «из-под бровей» светодиодной оптики уникальной формы,
+      массивная решетка радиатора и противотуманные фары с функцией освещения поворотов,
+      делают автомобиль похожим на хищника готового к прыжку.
+    title: Светодиодная оптика с функцией управления дальним светом
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/s2/s2-2.webp
+  - description: 'Отдельного внимания заслуживает внедорожная подготовка кроссовера:
+      блокировка заднего дифференциала, 9 режимов вождения для различных дорожных
+      условий от магистралей до песчаных дюн, высокий клиренс. А полный привод реализован
+      посредством межосевой электронно-управляемой муфты.'
+    title: Внушительная внедорожная подготовка
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/s2/s2-3.webp
+  - description: 'Система способна реагировать на голосовые команды и осуществлять
+      управление функциями автомобиля: открывать и закрывать окна или дверь багажника,
+      регулировать микроклимат в салоне, управлять приводом панорамной крыши и многое
+      другое.'
+    title: ГОЛОСОВОЙ ПОМОЩНИК HAVAL
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/s2/s2-4.webp
+  - description: С клиренсом 200 мм вы не зависите от дороги. Грунтовки, снег, крутые
+      спуски — преодолевайте препятствия, сохраняя комфорт и контроль над авто.
+    title: Клиренс 200 мм
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/s2/s2-5.webp
+- id: exterior
+  title: Экстерьер
+  text: '<div class="flex flex-row md:flow-col gap-10"><div><img src="https://cdn.alexsab.ru/models/haval/h7/sections/exterior/1.webp"
+    alt="" /><p class="mt-10">Скошенная линия крыши HAVAL H7 придает автомобилю стремительный
+    и динамичный облик, а массивные колесные арки и неокрашенная юбка заднего бампера
+    добавляют брутальности, говоря о внедорожных возможностях автомобиля.</p></div><div><img
+    src="https://cdn.alexsab.ru/models/haval/h7/sections/exterior/2.webp" alt="" /><p
+    class="mt-10">Дерзкий стиль HAVAL H7 заметен в каждом элементе кузова: агрессивный
+    дизайн решетки радиатора и хищный взгляд светодиодных фар буквально созданы, чтобы
+    вы могли доминировать на дороге, приковывая всеобщее внимание.</p></div></div>'
+  images:
+  - description: ''
+    title: Решетка радиатора в новом дизайне
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/exterior/3.webp
+  - description: ''
+    title: 9 режимов вождения
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/exterior/4.webp
+  - description: ''
+    title: Противотуманные фары с функцией освещения сектора поворота
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/exterior/5.webp
+- id: interior
+  title: Интерьер
+  text: В интерьере нового HAVAL H7 чувствуются сила и стиль. Декоративные накладки
+    под карбон с имитацией винтовых соединений добавляют спортивной эстетики и драйва.
+    Двойные воздуховоды, черный хром в деталях отделки, большая панорамная крыша и
+    люк с электроприводом вносят элементы футуризма, делая салон автомобиля актуальным,
+    но строгим.
+  images:
+  - description: ''
+    title: Физические кнопки управления
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/interior/1.webp
+  - description: ''
+    title: Задние сиденья, складываемые 60:40
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/interior/2.webp
+  - description: ''
+    title: Вентиляция передних кресел
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/interior/3.webp
+  - description: ''
+    title: Регулируемые по высоте подстаканники
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/interior/4.webp
+  - description: ''
+    title: Шторка заднего ряда пассажиров
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/interior/5.webp
+  - description: ''
+    title: Рычаг АКПП «авиационного типа»
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/interior/6.webp
+  - description: ''
+    title: Отделка под карбон
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/interior/7.webp
+  - description: ''
+    title: Большая панорамная крыша и люк с электроприводом
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/interior/8.webp
+- id: comfort
+  title: Комфорт в деталях
+  text: Каждая деталь в новом HAVAL H7 создана быть функциональной и тактильно приятной,
+    чтобы обеспечить максимальное удобство и удовольствие от поездок в автомобиле.
+  images:
+  - description: ''
+    title: Электропривод багажника
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/comfort/1.webp
+  - description: ''
+    title: Двухзонный климат-контроль
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/comfort/2.webp
+  - description: ''
+    title: Обогрев всех сидений
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/comfort/3.webp
+  - description: ''
+    title: Двухуровневая консоль
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/comfort/4.webp
+  - description: ''
+    title: Регулировка кресла водителя и уникальный «релакс режим»
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/comfort/5.webp
+  - description: ''
+    title: Универсальный держатель для бутылок
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/comfort/6.webp
+- id: technology
+  title: Технологии
+  images:
+  - description: ''
+    title: Цифровая приборная панель
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/technology/1.webp
+  - description: ''
+    title: Быстрая беспроводная зарядка
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/technology/2.webp
+  - description: ''
+    title: Экран мультимедиа 14,6”
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/technology/3.webp
+  - description: ''
+    title: Встроенные сервисы Яндекс Авто
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/technology/4.webp
+  - description: ''
+    title: Атмосферная подсветка в салоне
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/technology/5.webp
+  - description: ''
+    title: Аудиосистема из 10 динамиков
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/technology/6.webp
+- id: services
+  title: ''
+  text: '<div class="flex flex-col md:flex-row gap-10"><img src="https://cdn.alexsab.ru/models/haval/h7/sections/services/1.webp"
+    alt="Телематические сервисы GWM Connection" /><div><h2 class="text-2xl sm:text-5xl
+    font-normal mb-8">Телематические сервисы GWM Connection*: ваша особая связь с
+    автомобилем</h2><p>Управляйте функциями нового HAVAL H7 через мобильное приложение
+    GWM App. Чувствуйте связь с автомобилем независимо от расстояния. Контролируйте
+    статус вашего автомобиля прямо со смартфона:<ul class="list-inside list-disc my-8"><li>подогрев
+    и вентиляция передних сидений;</li><li>подогрев руля, стекол и зеркал;</li><li>настройка
+    климат-контроля;</li><li>запуск и остановка двигателя (включая интервальный и
+    запуск по расписанию);</li><li>блокировка центрального замка;</li><li>определение
+    геолокации;</li><li>охлаждение или обогрев одной кнопкой;</li><li>помощь на дороге;</li></ul></p><p><small>*
+    — сервисы GWM Connection предоставляются сроком на 3 года без дополнительной оплаты
+    со стороны владельца автомобиля. Сервисы мультимедиа предоставляются сроком на
+    1 год без дополнительной оплаты со стороны владельца автомобиля. Срок предоставления
+    сервисов исчисляется от даты приобретения нового автомобиля первым покупателем
+    в официальном дилерском центре HAVAL.</small></p></div></div>'
+- id: safety
+  title: Безопасность и уверенность
+  text: Новый HAVAL H7 оснащен панорамной камерой 360°, а также 180° режимом «Прозрачный
+    капот». Суммарный обзор в 540° позволяет оценивать всё, что происходит вокруг
+    и под автомобилем. Уникальная функция отображения в реальном времени угла поворота
+    колес помогает маневрировать даже в самых сложных условиях. Проекционный дисплей,
+    дублирующий основную информацию и навигацию на лобовое стекло, способствует концентрации
+    внимания водителя на дороге, облегчая управление автомобилем.
+  images:
+  - description: ''
+    title: 6 подушек безопасности
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/safety/1.webp
+  - description: ''
+    title: Камера 540°
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/safety/2.webp
+  - description: ''
+    title: Проекционный дисплей
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/safety/3.webp
+  - description: ''
+    title: Функция автоматической подсветки поворотов
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/safety/4.webp
+- id: movement
+  title: Движение на опережение
+  text: Современные системы активной безопасности и умные помощники нового HAVAL H7
+    существенно снижают количество стрессовых ситуаций за рулем и значительно повышают
+    уровень безопасности вождения.
+  images:
+  - description: Позволяет поддерживать скорость и дистанцию, оптимальные для безопасного
+      движения.
+    title: Адаптивный круиз-контроль с активным ограничителем скорости
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/movement/1.webp
+  - description: Функция помогает водителям соблюдать дорожные правила, предоставляя
+      информацию о скоростных ограничениях, запретах и предупреждениях.
+    title: Система распознавания дорожных знаков
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/movement/2.webp
+  - description: Система предотвращает столкновение, подавая сигнал тревоги или применяя
+      торможение в зависимости от уровня риска столкновения.
+    title: Ассистент проезда перекрестков
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/movement/3.webp
+  - description: Предупредит о сходе с полосы и «удержит» от этого автомобиль - для
+      лучшего контроля над ситуацией.
+    title: Система помощи удержания в полосе
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/movement/4.webp
+  - description: Отслеживает присутствие попутных автомобилей вне зоны видимости боковых
+      зеркал, обеспечивая безопасность при смене полосы движения и открытии двери
+      во время стоянки.
+    title: Система мониторинга слепых зон
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/movement/5.webp
+  - description: Предупредит о сходе с полосы и «удержит» от этого автомобиль - для
+      лучшего контроля над ситуацией.
+    title: Ассистент движения в пробке
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/movement/6.webp
+  - description: HAVAL H7 способен найти подходящее место и аккуратно припарковаться
+      в автономном режиме. Водителю нужно лишь включить режим автоматической парковки.
+    title: Ассистент автономной парковки
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/movement/7.webp
+  - description: Система оповещающая водителя и пассажиров о приближающемся сзади
+      и обгоняющем транспорте для безопасного открытия двери и выхода пассажиров из
+      автомобиля.
+    title: Предупреждение об открытой двери
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/movement/8.webp
+  - description: Помогает безопасно выехать с парковочного места и совершить автоматическое
+      торможение в случае опасного приближения другого автомобиля.
+    title: Ассистент движения задним ходом
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/movement/9.webp
+- id: advantages
+  title: Преимущества владения HAVAL
+  images:
+  - description: Прозрачный и прогнозированный график обслуживания в соответствии
+      с проработанным регламентом и увеличенным интервалом обслуживания – 15 000 км.
+    title: Шаг ТО до 15 000 км
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/advantages/1.webp
+  - description: '<div>Полная уверенность в наших автомобилях, а также высокое качество
+      производства и компонентов позволяет нам гарантировать 5 лет поддержки для вашего
+      автомобиля HAVAL: 3 года гарантии и 2 года дополнительной сервисной поддержки.</div>'
+    title: 5 лет сервисной поддержки
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/advantages/2.webp
+  - description: Оптимизация стоимости обслуживания для клиентов HAVAL за счет локализации
+      масел и шин без потери качества - они соответствуют техническим характеристикам
+      зарубежных аналогов.
+    title: Локализация моторного масла и шин
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/advantages/3.webp
+  - description: Перечень дополнительных услуг для клиентов, которые попали в сложную
+      ситуацию на дороге. Покрытие 300 км от города с дилером для HAVAL.
+    title: Широкое покрытие услуги «Помощь на дороге»
+    url: https://cdn.alexsab.ru/models/haval/h7/sections/advantages/4.webp
+- id: documentation
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><a class='underline' href='https://haval.ru/HAVAL%20new%20H7_график%20ТО_14307170971940714804.pdf'
+    target='newtab'>Регламент ТО для HAVAL H7</a><br><a class='underline' href='https://haval.ru/HAVAL%20H7_Price%20list_0101_1666662503197052860.pdf'
+    target='newtab'>Прайс-лист</a></p>

@@ -1,0 +1,83 @@
+- id: hero
+  sectionClass: ''
+  title: Бескомпромиссный выбор
+  text: '<p>Яркий дизайн — не повод для компромиссов. JAC J7 сочетает стильную внешность
+    с практичностью и удобством в повседневной жизни. Динамичный силуэт напоминает
+    спорткары, а кузов лифтбек с широким проемом пятой двери увеличивает полезное
+    пространство в багажнике. JAC J7 обладает одним из самых низких коэффициентов
+    аэродинамического сопротивления в классе, что обеспечивает отличную экономичность
+    и высокий уровень акустического комфорта.</p>
+
+    <p>«Самый красивый JAC», по признанию многих авторитетных автоэкспертов, своим
+    эффектным обликом обязан интернациональной команде стилистов во главе с итальянским
+    дизайнером Даниэлем Гальоне. J7 демонстрирует безупречное чувство стиля и отточенные
+    манеры в сочетании с современными технологиями.</p>
+
+    '
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/hero/1.webp
+- id: items
+  sectionClass: ''
+  items:
+  - icon: mdi:engine-outline
+    text: Двигатель 1.5 л
+  - icon: mdi:lightning-bolt-outline
+    text: Мощность 136 л.с.
+  - icon: mdi:car
+    text: Кузов лифтбек
+- id: interior
+  sectionClass: ''
+  title: Задавая тренды
+  text: 'Салон JAC J7 – это не только комфорт и эргономика, но и внушительный внутренний
+    объем. Благодаря большому проему пятой двери, доступ в багажник становится легким.
+    Современные технологии воплотились в цифровые решения – традиционные кнопки уступили
+    место сенсорным панелям. Подключайте смартфон, настраивайте «планшет» мультимедийной
+    системы, и в путь!
+
+    '
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/5.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/6.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/7.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/8.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/9.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/interior/10.webp
+- id: tech
+  text: 'В движении JAC J7 приятно удивляет. Турбированный двигатель и полностью независимая
+    подвеска делают автомобиль динамичным и предсказуемым в управлении. И это неудивительно,
+    ведь в настройке ходовой части принимали участие инженеры совместного предприятия
+    JAC Volkswagen.
+
+    '
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/tech/1.webp
+- id: gallery
+  title: Фотогалерея
+  images:
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/1.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/2.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/3.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/4.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/5.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/6.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/7.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/8.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/9.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/10.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/11.webp
+  - url: https://cdn.alexsab.ru/models/jac/j7/sections/gallery/12.webp
+- id: video
+  text: '<video class="aspect-video" muted playsinline autoplay loop preload="metadata"><source
+    src="https://cdn.alexsab.ru/models/jac/j7/sections/video/j7.mp4" type="video/mp4"></video>
+
+    '
+- id: description
+  sectionClass: ''
+  title: Комплектации и цены
+  text: '<p><span><a href=''https://jaccar.ru/J7-price_web-010126_13130451406904933590.pdf''
+    class=''underline'' target=''_blank''>Скачать прайс-лист</a></p>
+
+    '

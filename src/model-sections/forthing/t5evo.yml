@@ -1,0 +1,71 @@
+- id: description
+  sectionClass: ''
+  suptitle: Смотри в будущее
+  title: Forthing T5 EVO
+  text: Стильный кроссовер Forthing T5 EVO создан для того, чтобы вы могли присоединиться
+    к технологической революции в сфере создания автомобилей
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 145 л.с.
+  - icon: mdi:speedometer
+    text: Разгон 0-100 км/ч - 9.5 сек
+  - icon: mdi:gas-station-outline
+    text: Ср. расход топлива - 5.3 - 8.9 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/t5evo/sections/1.webp
+- id: exterior
+  sectionClass: bg-gray-100
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/t5evo/sections/exterior/1.webp
+    title: Красивый взгляд
+    description: Элегантная трапециевидная решетка радиатора с хромированными элементами
+      подчеркивает динамичный характер автомобиля. Стильные светодиодные фары органично
+      интегрированы в общий дизайн передней части, а дневные ходовые огни в форме
+      меча создают неповторимую световую подпись. Новый логотип Lion и атлетичные
+      боковые линии кузова завершают образ современного кроссовера.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/t5evo/sections/exterior/2.webp
+    title: Светодиодная оптика
+    description: Фары со стильной оптикой впечатляют четкими линиями, подчеркивая
+      красоту и уверенность автомобиля. Их утонченная форма гармонично дополняет общий
+      облик, придавая автомобилю изысканность и выразительность.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/t5evo/sections/exterior/3.webp
+    title: Эффектная решетка радиатора
+    description: Резкие и динамичные линии решетки автомобиля создают неповторимый
+      визуальный эффект, подчеркивая его стиль и энергию.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Продумана каждая деталь
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/t5evo/sections/interior/1.webp
+    title: Технологичный дизайн
+    description: Когда вы садитесь в машину, прежде всего, ваши глаза будут привлечены
+      к четырем круглым розеткам с кондиционером воздуха. Общий дизайн этого Performance
+      Car сначала задает тон для внутреннего стиля T5 Evo, который повторяет экстерьер.
+      Кроме того, комбинация 10,25-дюймового полноценного ЖК-инструмента и 10,25-дюймового
+      центрального управления заставляет весь автомобиль следить за текущей тенденцией
+      в конфигурации технологии.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/t5evo/sections/interior/2.webp
+    title: Цифровая приборная панель
+    description: Двойной интеллектуальный ЖК-дисплей, состоящий из экранов приборной
+      панели и мультимедийной системы. Каждый экран диагональю 10,25
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/t5evo/sections/interior/3.webp
+    title: Регулируемый мультируль
+    description: 'Регулируемый мультируль с системой Electic Power Steering (электрический
+      усилитель руля). '
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/t5evo/sections/interior/4.webp
+    title: Панорамная крыша
+    description: Панорамная крыша с солнцезащитной электрошторкой. Безопасное управление
+      люком с функцией "защита от защемления".
+- id: technology
+  sectionClass: bg-gray-100
+  title: Парковочный ассистент 360
+  suptitle: Технологии
+  text: <p>Forthing T5 Evo оснащен интеллектуальными системами помощи при вождении
+    L2 + интеллектуальными системами помощи при вождении и интеллектуальной системой
+    связи 4.0. Для стандартных моделей роскошной отделки T5 Evo разработана устойчивая
+    к коррозии и самовосстанавливающаяся 2K-краска, предлагающая восемь вариантов
+    персонализированных цветов.</p>
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/t5evo/sections/technology/1.webp

@@ -1,0 +1,85 @@
+- id: description
+  sectionClass: ''
+  suptitle: Воплощение современного автомобиля
+  title: Toyota Highlander
+  text: Абсолютно новый Toyota Highlander — семейный автомобиль, созданный для комфортных
+    поездок как в городе, так и за его пределами. Его отличает элегантный дизайн,
+    вместительный семиместный салон и бескомпромиссный уровень безопасности.
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 249 л.с.
+  - icon: mdi:piston
+    text: Кол-во и тип расположения цилиндров - 6, V-образный
+  - icon: mdi:speedometer
+    text: Максимальная скорость 180 км/ч
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  text: 'Переход на глобальную модульную архитектуру TNGA (Toyota New Global Architecture)
+    позволил усовершенствовать абсолютно все характеристики Toyota Highlander. Благодаря
+    ей полноразмерный кроссовер получил отличную управляемость, улучшенную динамику
+    и стабильность поведения на дороге. '
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/exterior/1.webp
+    title: Bi-LED-оптика
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/exterior/2.webp
+    title: Диски 20”
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/exterior/3.webp
+    title: Глобальная модульная архитектура TNGA (Toyota New Global Architecture)
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/exterior/4.webp
+    title: Изысканность и аристократичность
+    description: ''
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: null
+  text: Благодаря внушительному размеру и многофункциональности в салоне с комфортом
+    расположится вся ваша семья. Высококачественные материалы отделки, мягкая атмосферная
+    подсветка и множество удобных мест для хранения — каждый нюанс призван сделать
+    любую поездку незабываемой.
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/1.webp
+    title: Вместительный салон на 7 посадочных мест
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/2.webp
+    title: Вентиляция передних сидений
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/3.webp
+    title: Прозрачная панорамная крыша
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/4.webp
+    title: Аудиосистема премиум-класса JBL
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/interior/5.webp
+    title: Вместительный багажник
+    description: ''
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  suptitle: null
+  text: 'Подарите себе свободу движения с новым Toyota Highlander. Мощный и экономичный
+    атмосферный двигатель с полным приводом и 8-ступенчатой автоматической коробкой
+    передач наделяет ваш Toyota Highlander впечатляющей динамикой и отличной управляемостью. '
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/technology/1.webp
+    title: ''
+    description: ''
+- id: safety
+  sectionClass: ''
+  title: Безопасность
+  text: Дороги, как и ваши планы, могут быть непредсказуемы. Инновационные технологии
+    Тоyota обеспечат высочайший уровень безопасности движения, куда бы вы ни напревились.
+    Интеллектуальные системы активной безопасности предупредят вас, если ситуация
+    будет выходить из-под контроля.
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/safety/1.webp
+- id: documentation
+  sectionClass: ''
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/docs/highlander.pdf'
+    class='underline' target='_blank'>Брошюра</a><br><a href='https://cdn.alexsab.ru/b/toyota/img/models/highlander/sections/docs/highlander-complectations.pdf'
+    class='underline' target='_blank'>Комплектации</a></span></p>

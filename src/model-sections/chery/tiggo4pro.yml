@@ -1,0 +1,127 @@
+- id: description
+  sectionClass: ''
+  suptitle: ''
+  title: Новый Chery Tiggo 4 Pro 18 Years Edition
+  text: <p>Компания Chery уже 18 лет с вами. Мы создаем технологичные, безопасные
+    и стильные автомобили для вас и вашей семьи. Мы всегда рядом и всегда говорим
+    с вами на одном языке. В честь 18-летия Chery на Российском рынке мы создали Tiggo
+    4 Pro 18 Years Edition.</p><p>Бестселлер. Стильный и современный кроссовер. Автомобиль
+    на любой случай. Всё это – про обновленный Chery Tiggo 4 Pro. В специальной версии
+    18 Years Edition он стал ещё лучше и ещё технологичнее в каждом аспекте. Мы обновили
+    интерьер, добавили новое оснащение и комплектации, сделав Tiggo 4 Pro ещё более
+    универсальным и привлекательным. Время познакомиться с ним поближе.</p>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 113 л.с.
+  - icon: mdi:speedometer
+    text: Крутящий момент 138 Нм
+  - icon: mdi:gas-station-outline
+    text: Расход топлива 7.4 л / 100 км
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/1.webp
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/exterior/1.webp
+    title: Эффектный и модный
+    description: TIGGO 4 PRO 18 YEARS EDITION — модный смарт-кроссовер с узнаваемым
+      технологичным стилем и характером, выпущенный в честь 18-летия CHERY в России.
+      Дизайн автомобиля имеет выразительные линии, которые придают ему яркий и динамичный
+      вид.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/exterior/2.webp
+    title: Для активной жизни
+    description: Спадающая линия крыши, стабилизирующая верхняя поясная линия и энергичные
+      нижние линии создают образ, который выглядит стремительным и энергичным. Tiggo
+      4 PRO создан для людей, не представляющих себе жизнь без взаимодействия с персональными
+      устройствами и предпочитающих активный образ жизни.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/interior/1.webp
+    title: НОВЫЙ И СТИЛЬНЫЙ
+    description: 'Интерьер автомобиля предлагается в двух вариантах дизайна: новое
+      эффектное и стильное сочетание белого и черного, а также классический черный
+      салон, олицетворяющий элегантность.'
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/interior/2.webp
+    title: Просторный
+    description: 'Благодаря колесной базе 2610 мм салон автомобиля получился просторным
+      и вместительным. Эргономичный дизайн интерьера вмещает целых 34 отделения  для
+      хранения вещей и различных мелочей.  '
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/interior/3.webp
+    title: Вместительный
+    description: 'Большие внешние габариты Chery Tiggo 4 Pro определяют и впечатляющий
+      простор внутри его салона на переднем и заднем ряду, и непосредственно объем
+      багажного отсека. В зависимости от положения задних сидений объем багажного
+      отделения варьируется от 340 до 1100 литров. '
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/technology/1.webp
+    title: Полный обзор
+    description: Качественное изображение высокой четкости дополнено динамическими
+      направляющими линиями, что позволяет водителю точно знать направление движения
+      и расстояние до препятствий при парковке.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/technology/2.webp
+    title: Цифровая зона управления 2х10.25”
+    description: 'Цифровая зона управления TIGGO 4 PRO 18 YEARS EDITION создана с
+      учетом потребностей молодых водителей и семей: два сдвоенных экрана с диагональю
+      10.25” - сенсорный экран мультимедиа высокой четкости изображения и дисплей
+      панели приборов'
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/technology/3.webp
+    title: Уверенность на дороге
+    description: 'Автомобиль обладает рядом передовых технологий, которые помогут
+      молодым водителям ощутить уверенность на дороге и обеспечить безопасность для
+      всех пассажирах: адаптивный круиз-контроль, система автономного экстренного
+      торможения, мониторинг слепых зон и автоматическое переключение ближнего и дальнего
+      света.'
+- id: dynamics
+  sectionClass: ''
+  title: Динамика
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/dynamics/1.webp
+    title: Динамика и драйв
+    description: TIGGO 4 PRO 18 YEARS EDITION в комплектации Ultimate оснащается динамичным
+      1.5-литровым бензиновым турбированным двигателем (147 л.с.) в сочетании с вариатором
+      CVT25.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/dynamics/2.webp
+    title: Точное управление
+    description: Передняя независимая подвеска McPherson обеспечивает точное рулевое
+      управление, хорошее сцепление с дорогой и  надежность. Дорожный просвет 190
+      мм  значительно повышает проходимость TIGGO 4 PRO.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/dynamics/3.webp
+    title: Технологии движения
+    description: Энергоэффективный турбокомпрессор и технология двойного управления
+      фазами газораспределения DVVT обеспечивают наилучшие показатели эффективности
+      и динамики (1.5 TURBO).
+- id: security
+  sectionClass: ''
+  title: Безопасность
+  suptitle: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/security/1.webp
+    title: Оцинкованный кузов
+    description: Адаптация к российским условиям эксплуатации за счет оцинковки ультрапрочной,
+      термоформованной стали – оцинкованы все детали (кроме крыши и капота), толщина
+      цинкового покрытия 0,02 мм (двустороннее). Гарантия на кузов 5 лет! *
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/security/2.webp
+    title: Высокопрочная сталь
+    description: Высокопрочные стали в конструкции кузова составляют  более 60%. Большинство
+      элементов кузова выполнено из высокопрочной стали.
+  - url: https://cdn.alexsab.ru/b/chery/img/models/tiggo4pro/sections/security/3.webp
+    title: Система курсовой устойчивости
+    description: Все верси TIGGO 4 PRO оснащены системой курсовой устойчивости ESC,
+      использующей новейший высокопроизводительный процессор для снижения энергопотребления,
+      ускорения вычислений и уменьшения времени отклика.
+- id: documentation
+  sectionClass: ''
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://www.chery.ru/T4_18YE_april_god_vypuska_25_12529756206100706169.pdf'
+    class='underline' target='_blank'>Прайс-лист</a><br /><a href='https://www.chery.ru/4pro_Brochure_13624592870184341907.pdf'
+    class='underline' target='_blank'>Брошюра</a></span></p>

@@ -1,0 +1,115 @@
+- id: description
+  sectionClass: ''
+  suptitle: ЭТАЛОН БИЗНЕС-СЕДАНА
+  title: Toyota Camry
+  text: <p>Обновленная Toyota Camry — это качественно новое воплощение самых передовых
+    технологий и премиального комфорта. Стильный дизайн с динамичными линиями кузова,
+    модульная архитектура TNGA * и современное техническое оснащение — обновленная
+    Toyota Camry вдохновит вас на успех как на дороге, так и в жизни.</p>
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 150-249 л.с.
+  - icon: mdi:speedometer-medium
+    text: Разгон 0–100 км/ч - 7.7с
+  - icon: mdi:speedometer
+    text: Максимальная скорость 220 км/ч
+- id: exterior
+  sectionClass: ''
+  title: Экстерьер
+  text: Обновленную Toyota Camry отличает стильный дизайн с динамичными линиями кузова.
+    Дизайн, который узнаваем даже издалека! Обновленная, более выразительная форма
+    переднего бампера, решетка радиатора с боковой хромированной окантовкой, новый
+    дизайн дисков, увеличенные колесные арки — все это подчеркивает выразительный
+    стиль легендарного бизнес-седана.
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/exterior/1.webp
+    title: Новая форма превосходства
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/exterior/2.webp
+    title: Яркие преимущества
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/exterior/3.webp
+    title: Массивная решетка радиатора
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/exterior/4.webp
+    title: Новый дизайн дисков
+    description: ''
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: null
+  text: Благодаря модульной архитектуре TNGA * в салоне обновленной Toyota Camry много
+    пространства для ног и над головой, что поможет с еще большим комфортом разместиться
+    водителю и пассажирам. Удобная высота сидений, комфортная посадка, вентиляция
+    передних сидений, электрорегулировка положения сидений с функцией памяти — все
+    это позволит вам раствориться в комфорте и наслаждаться каждой минутой своего
+    пути.Обновленный рисунок перфорации сидений Toyota Camry и новые вставки выглядят
+    еще более впечатляюще и при этом гармонично сочетаются с остальными элементами
+    декора
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/1.webp
+    title: Премиальный комфорт
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/2.webp
+    title: Обновленный рисунок перфорации сидений
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/3.webp
+    title: 'Кожаная обивка центральной консоли со стороны пассажира '
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/4.webp
+    title: Место для хранения очков
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/5.webp
+    title: Держатели для бутылок в двери
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/6.webp
+    title: Солнцезащитные шторки
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/7.webp
+    title: Сенсорная панель управления
+    description: ''
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/interior/8.webp
+    title: Вместительный багажник
+    description: ''
+- id: technology
+  sectionClass: ''
+  title: Технологии
+  suptitle: null
+  text: ''
+  images:
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/technology/1.webp
+    title: Изысканная атмосфера
+    description: Обновленная мульгимедийная система с поддержкой Apple CarplayиAndroid
+      Auto® влечатлит даже самых искушениных пользователей! Вы можете прокладывать
+      маршруты, слушать музыку, совершать звонки и отвечать на сообщения, не отвлекаясь
+      от вождения. А9-дюймовый зкран системы расположен так, что его хорошо видно
+      даже когда вы сосредоточены на дороге.
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/technology/2.webp
+    title: Передовое оснащение
+    description: Передовове оснащение сделает управление обновленной Toyota Camry
+      незабываемым. Седан оснащен 7-дюймовым многхфункциональным дисплеем на панели
+      приборов, который обеслечивает более наглядное отображение всех данных. На лобовом
+      стекле разместился цветной 10-дюймовый дисплей, куда проецируется информация
+      с мульгимедийной системы, важные сообщения, данные круиз-контроля и спидометра,
+      благодаря чему прямо во время движения вы видите на уровне глаз всю необходимую
+      информацию, не отвлекаясь от вождения. Обновленная Toyotaa Camгу С оснащена
+      аудиосистемой JBL премиум-класса с9 динамиками и технологией Clari-FI™, которая
+      позволяет восстанавливать качество звука и делеать его максимально близким коригинальной
+      версии.
+  - url: https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/technology/3.webp
+    title: Абсолютный контроль
+    description: В любом месте и в любой ситуации вы смоожете прочувствовать бескомпромиссный
+      комфорт и уверенность за рулем обновленной Toyota Camry. Для комфортного передвижения
+      даже в ограниченных пространствах есть 4 камеры панорамного обзора, которые
+      дают полное изображение вокруг автомобиля. А камера заднего вида с динамической
+      разметкой поможет с легкостью припарковаться даже в самых стесненных условиях
+      Беспроводное зарядное устройство и система бесключевого доступа в салон с запуском
+      двигателя скнопки Smart Entry & Push Start подарят дополнительное удобство и
+      позволят сакономить драгоценное время.
+- id: documentation
+  sectionClass: ''
+  title: Документация
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/docs/camry.pdf'
+    class='underline' target='_blank'>Брошюра</a><br><a href='https://cdn.alexsab.ru/b/toyota/img/models/camry/sections/docs/camry-complectations.pdf'
+    class='underline' target='_blank'>Комплектации</a></span></p>

@@ -1,0 +1,178 @@
+- id: 1
+  sectionClass: bg-gray-100!
+  title: TANK 300 – в духе комфортных приключений
+  text: <p class="mb-10">TANK 300 делает любое путешествие комфортным. Бездорожье,
+    долгие поездки по трассам или недолгие городские приключения пройдут с максимальными
+    эмоциями. Можно не беспокоиться о качестве дороги – надежный TANK 300 привезет
+    в любую точку маршрута. </p><img src="https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/1/1.webp"
+    class="block w-full h-auto" alt="TANK 300 Hero Image" loading="lazy" />
+- id: 2
+  title: В ритме мегаполиса
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/2/1.webp
+    title: Готов к любым маршрутам
+    description: Благодаря двигателю 220 л.с. и клиренсу 224 мм TANK 300 уверенно
+      чувствует себя как в городском потоке, так и на автомагистрали.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/2/2.webp
+    title: Интеллектуальный полный привод
+    description: Система интеллектуального полного привода в TANK 300 CITY сама выбирает
+      оптимальный режим движения, а вы наслаждаетесь дорогой.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/2/3.webp
+    title: Блокировка всех дифференциалов
+    description: Блокировки дифференциалов и двухступенчатая раздаточная коробка TANK
+      300 дарят полную свободу передвижения. Открывайте и исследуйте любые маршруты,
+      которые пожелает ваше сердце, а TANK 300 вам в этом поможет.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/2/4.webp
+    title: Прочная рама
+    description: Как бы окружающий мир ни проверял вас на прочность, рамный кузов
+      TANK выдержит самую экстремальную нагрузку.
+- id: 3
+  title: Внешность, отражающая характер
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/3/1.webp
+    title: Преображение практичности
+    description: Окрашенные в цвет кузова зеркала, ручки и расширители арок подчеркивают
+      целостность и стиль. Новый образ TANK 300 безупречно вписывается в городскую
+      среду.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/3/2.webp
+    title: Новые правила движения
+    description: В комплектациях CITY ADVENTURE и CITY PREMIUM установлены диски увеличенного
+      размера R18 и нового дизайна.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/3/3.webp
+    title: Новый уровень контроля
+    description: Новое рулевое колесо с улучшенной эргономикой превращает любое путешествие
+      в удовольствие.
+- id: 4
+  title: Уверенность на каждом километре
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/4/1.webp
+    title: Проверенная классика
+    description: Надежная 8-ступенчатая автоматическая трансмиссия обеспечивает невероятно
+      плавные и своевременные переключения. Идеальный баланс динамики для города и
+      контроля на бездорожье.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/4/2.webp
+    title: Легкость управления
+    description: Адаптивный круиз-контроль и система мониторинга «слепых» зон берут
+      на себя часть рутинных задач. Вы наслаждаетесь дорогой, а автомобиль заботится
+      о безопасности.
+- id: 5
+  title: Продуманная безопасность
+  text: TANK оснащен множеством систем, которые помогут сделать вождение спокойным,
+    а приключения только приятными.
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/1.webp
+    title: Безопасное открытие двери
+    description: Вы почувствуете спокойствие не только в салоне TANK, но и при выходе
+      из него. После остановки система отслеживает приближение автомобилей и велосипедов,
+      и на зеркале отображается индикатор, предупреждающий об опасном открытии двери.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/2.webp
+    title: Интеллектуальный круиз-контроль
+    description: Длительные поездки могут быть утомительными, поэтому TANK помогает
+      поддерживать скорость потока на малозагруженных магистралях и удерживать движение
+      по центру полосы.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/3.webp
+    title: Автоматическое торможение
+    description: Невозможно предвидеть все ситуации на дороге, но можно быть к ним
+      готовым. Система автоматического экстренного торможения предупредит об угрозе
+      фронтального столкновения и поможет при торможении.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/4.webp
+    title: Распознавание дорожных знаков
+    description: На дороге важно вовремя заметить знаки. Камера TANK распознает дорожные
+      знаки, отображает их на панели и выводит подсказки по управлению.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/5.webp
+    title: Торможение перед пешеходами
+    description: Важно, чтобы все участники движения были в безопасности. При движении
+      система распознает объекты, и в случае риска столкновения с пешеходом или транспортным
+      средством подаст сигналы и затормозит.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/6.webp
+    title: Защита от столкновений на перекрестках
+    description: На перекрестках TANK действует уверенно. При повороте на перекрестке
+      он оценивает риск столкновения со встречным транспортом или пешеходами и при
+      необходимости замедляется и тормозит.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/7.webp
+    title: Предупреждение об опасности наезда сзади
+    description: ТANK следит за остальными участниками движения. Когда система обнаруживает,
+      что автомобиль сзади приближается слишком быстро, указатели поворота начинают
+      быстро мигать, предупреждая об опасности.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/8.webp
+    title: Распознавание полосы движения
+    description: <div class="space-y-4"><p>TANK всегда на своем месте на дороге. Система
+      определит полосу движения, обратит твое внимание при выходе из нее и удержит
+      движение по ее центру<sup>*</sup>.&nbsp;</p><p><em><sup>*</sup>Функция распознавания
+      полосы движения работает при включенном круиз-контроле.</em></p></div>
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/9.webp
+    title: Автоматическое торможение на малой скорости
+    description: Любые препятствия можно обойти, но сначала их нужно заметить. На
+      малой скорости TANK следит за потенциальными угрозами столкновения, чтобы осуществить
+      экстренное торможение.
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/5/10.webp
+    title: Функция «умного уклонения»
+    description: <div class="space-y-4"><p>Обгонять крупногабаритный транспорт не
+      всегда безопасно. TANK помогает совершать маневр на комфортном расстоянии<sup>*</sup>.</p><p><em><sup>*</sup>Функция
+      «умного уклонения» работает при включенном круиз-контроле.&nbsp;</em></p></div>
+- id: 6
+  title: Галерея
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/6/1.webp
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/6/2.webp
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/6/3.webp
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/6/4.webp
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/sections/6/5.webp
+- id: 7
+  title: Варианты Обновленного TANK 300
+  images:
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/colors/black.webp
+    description: '<div class="text-accent-500 text-xl font-bold">ADVENTURE</div>
+
+      <div class="mt-3"><p class="uppercase mb-2">Основное оборудование:</p>
+
+      <ul class="variant-content"><li class="variant-content-text">Система подключаемого
+      полного привода (Part-Time);</li>
+
+      <li class="variant-content-text">Блокировка заднего межколёсного дифференциала;</li>
+
+      <li class="variant-content-text">Адаптивный круиз-контроль (ACC).</li>
+
+      </ul></div>'
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/colors/gray.webp
+    description: '<div class="text-accent-500 text-xl font-bold">CITY ADVENTURE</div>
+
+      <div class="mt-3"><p class="uppercase mb-2">Основное оборудование:</p>
+
+      <ul class="variant-content"><li class="variant-content-text">Система интеллектуального
+      полного привода (Torque-On-Demand);</li>
+
+      <li class="variant-content-text">Блокировка заднего межколёсного дифференциала;</li>
+
+      <li class="variant-content-text">Адаптивный круиз-контроль (ACC).</li>
+
+      </ul></div>'
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/colors/white.webp
+    description: '<div class="text-accent-500 text-xl font-bold">PREMIUM</div>
+
+      <div class="mt-3"><p class="uppercase mb-2">Основное оборудование:</p>
+
+      <ul class="variant-content"><li class="variant-content-text">Система подключаемого
+      полного привода (Part-Time);</li>
+
+      <li class="variant-content-text">Блокировка заднего и переднего межколесных
+      дифференциалов;</li>
+
+      <li class="variant-content-text">Отделка сидений кожей NAPPA.</li>
+
+      </ul></div>'
+  - url: https://cdn.alexsab.ru/b/tank/img/models/300mmc/colors/orange.webp
+    description: '<div class="text-accent-500 text-xl font-bold">CITY PREMIUM</div>
+
+      <div class="mt-3"><p class="uppercase mb-2">Основное оборудование:</p>
+
+      <ul class="variant-content"><li class="variant-content-text">Система интеллектуального
+      полного привода (Torque-On-Demand);</li>
+
+      <li class="variant-content-text">Блокировка заднего и переднего межколесных
+      дифференциалов;</li>
+
+      <li class="variant-content-text">Адаптивный круиз-контроль с функцией интеллектуального
+      круиз-контроля (ICA) с функцией ассистента движения в пробке (TJA).</li>
+
+      </ul></div>'

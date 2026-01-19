@@ -1,0 +1,75 @@
+- id: description
+  sectionClass: ''
+  suptitle: Спокойная решительность
+  title: Venucia D60 Plus
+  text: Современный седан, сочетающий в себе элегантность и комфорт
+  items:
+  - icon: mdi:engine-outline
+    text: Мощность 122 л.с.
+  - icon: mdi:engine
+    text: Крутящий момент 155/4000 н.м.
+  - icon: mdi:car-info
+    text: Объем двигателя 1.6 л
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/sections/1.webp
+- id: exterior
+  sectionClass: bg-gray-100
+  title: Экстерьер
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/sections/exterior/1.webp
+    title: Элегантный дизайн
+    description: 'Современный седан с внушительными габаритами: колесная база 2701
+      мм, длина 4761 мм, ширина 1803 мм. Элегантные линии кузова подчеркивают премиальный
+      характер автомобиля.'
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/sections/exterior/2.webp
+    title: Стильная оптика
+    description: Светодиодные фары с характерным дизайном создают узнаваемый образ
+      и обеспечивают отличную видимость в любых условиях.
+- id: interior
+  sectionClass: ''
+  title: Интерьер
+  suptitle: Комфорт для каждого
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/sections/interior/1.webp
+    title: Салон
+    description: Мягкая передняя панель, удобные сиденья с отделкой из эко-кожи, элегантные
+      хромированные вставки и контрастная прострочка. Окружите себя комфортом в современном
+      и лаконичном интерьере седана.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/sections/interior/2.webp
+    title: Большой багажный отсек
+    description: Объем 525 л., в нем одновременно могут разместиться 2 коляски, 20-дюймовый
+      чемодан и 4 сумки для ноутбука, поэтому вся семья может отправиться в поездку
+      в любое время.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/sections/interior/3.webp
+    title: Безопасность пассажиров
+    description: '<p>Безопасность пассажиров обеспечивают передовые системы: электронная
+      система стабилизации кузова Bosch ESP, система распределения тормозных усилий
+      EBD, система контроля тяги TCS и система помощи при торможении BA. Для комфортной
+      парковки предусмотрены система Autohold и камера заднего вида с динамической
+      разметкой.</p>'
+- id: technology
+  sectionClass: bg-gray-100
+  title: Технологии
+  suptitle: Инновации
+  text: <p>Venucia D60 Plus оснащается экономичным двигателем объемом 1.6 л мощностью
+    122 л.с. в паре с вариатором CVT. Передний привод и современная трансмиссия обеспечивают
+    отличную управляемость и комфорт. Автомобиль доступен в комплектации Elite, которая
+    включает в себя все необходимые системы безопасности и комфорта.</p>
+  images:
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/sections/technology/1.webp
+    title: Трансмиссия Nissan XTRONIC CVT
+    description: Плавный разгон автомобиля. Благодаря плавной передаче крутящего момента
+      двигатель работает на оптимальных оборотах.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/sections/technology/2.webp
+    title: Двигатель Nissan HR16
+    description: Технология многоточечного впрыска топлива DIS и двойной интеллектуальной
+      системой управления фазами газораспределения C-VTC.
+  - url: https://cdn.alexsab.ru/b/forthing/img/models/d60-plus/sections/technology/3.webp
+    title: 10-дюймовый большой сенсорный экран
+    description: Удобный и простой в управлении полносенсорный 10-дюймовый экран.
+- id: documentation
+  sectionClass: ''
+  title: Документация для D60 Plus
+  suptitle: Может пригодиться
+  text: <p><span><a href='https://ixenmotors-perm.ru/wp-content/uploads/2023/11/d60.pdf?ysclid=m7ym7yh8v4627161508'
+    class='underline' target='_blank'>Технические характеристики, комплектации и цены</a></span></p>
