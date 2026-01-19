@@ -11789,7 +11789,17 @@
 		"complectations": [
 			{
 				"name": "2.0T AT Explore 4WD",
-				"price": "3449000",
+				"price": "3619000",
+				"bodytype": "Пикап",
+				"engine": "2.0 м3",
+				"engine_power": "224",
+				"gear_rus": "AT",
+				"drive": "Полный (4WD)",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "2.0T AT URBAN 4WD",
+				"price": "3659000",
 				"bodytype": "Пикап",
 				"engine": "2.0 м3",
 				"engine_power": "224",
@@ -11799,7 +11809,7 @@
 			},
 			{
 				"name": "2.0TDi EXPLORE 4WD",
-				"price": "3649000",
+				"price": "3719000",
 				"bodytype": "Пикап",
 				"engine": "2.0 м3",
 				"engine_power": "163",

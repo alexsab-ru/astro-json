@@ -194,11 +194,6 @@
         </picture>
     - id: vkVideo
       text: <iframe src="https://vk.com/video_ext.php?oid=-226331383&id=456239176" class="w-full h-[300px] md:h-[500px] block" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
-    - id: description
-      sectionClass: ""
-      title: Комплектации и цены
-      text: |
-        <p><span><a href='https://jaccar.ru/T9-TDi-Urban_price_web-120126_14133938344885021981.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: j7
   sections:
     - id: hero
