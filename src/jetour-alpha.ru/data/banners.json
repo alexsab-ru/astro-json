@@ -5,6 +5,23 @@
         "type": "",
         "view": "link",
         "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/autocredit-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/autocredit-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/autocredit-mobile.webp"
+        },
+        "title": "<div class=\"flex flex-col gap-[20px] md:gap-[50px]\"><div class=\"uppercase flex flex-col gap-[6px]\"><div class=\"h1\">Авто-рассрочка*</div><div class=\"bg-accent-500/80 text-white px-[15px] py-[5px] lowercase w-fit! self-start!\">до <strong>84</strong> месяцев</div></div><div class=\"uppercase flex flex-col gap-[6px]\"><div class=\"h1\">Ставка банка*</div><div class=\"bg-accent-500/80 text-white px-[15px] py-[5px] lowercase w-fit! self-start!\">от <strong>0.01%</strong> годовых</div></div><div class=\"uppercase flex flex-col gap-[6px]\"><div class=\"h1\">Первый взнос*</div><div class=\"bg-accent-500/80 text-white px-[15px] py-[5px] lowercase w-fit! self-start!\">от <strong>0%</strong></div></div><div class=\"text-[16px] md:text-[18px]\">* Не оферта, подробности в отделе продаж и по телефону</div></div>",
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/jetour-vigoda/",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/t1-t2-desktop.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/2026/01/14/t1-t2-tablet.webp"
         },
