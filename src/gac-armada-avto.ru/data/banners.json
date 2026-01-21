@@ -9,8 +9,8 @@
             "tablet": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gs8-tablet.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gs8-mobile.webp"
         },
-        "title": "Держим старые цены на GAC!",
-        "descr": "с выгодой <span class=\"font-bold text-xl sm:text-3xl md:text-5xl\">{{max-benefitb-to}}</span><span class=\"block\">и комплектом &laquo;Все включено&raquo;!</span>",
+        "title": "<div class=\"xl:font-normal uppercase xs:text-lg! text-2xl! sm:text-2xl! md:text-3xl! lg:text-4xl! xl:text-5xl!\">Последние 10 автомобилей <br class=\"hidden sm:block\"/>по ценам 2025 года <br class=\"hidden sm:block\"/>и комплект \"Всё включено\" в&nbsp;подарок!</div>",
+        "descr": "Увеличенная выгода <br class=\"hidden xl:block\"/><span class=\"font-bold text-xl sm:text-3xl md:text-5xl\">{{max-benefitb-to}}</span><span class=\"mt-2 block\">Предложение  <br class=\"sm:hidden\"/>действует <br class=\"sm:block\"/>только в&nbsp;январе!</span>",
         "btnUrl": "/cars/?year=2024%2C2025",
         "btn": "Подробнее",
         "badge": "",
