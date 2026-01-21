@@ -22167,7 +22167,7 @@
 		"benefits": [
 			{
 				"url": "#common-modal",
-				"label": "Выгода за трейд-ин до 200&nbsp;000&nbsp;₽",
+				"label": "Выгодный трейд-ин",
 				"icon_name": "mdi:credit-card-check-outline",
 				"data_title": "Выгодный трейд-ин",
 				"data_form_name": "Выгодный трейд-ин. VGV U70PRO",
@@ -22175,7 +22175,7 @@
 			},
 			{
 				"url": "#common-modal",
-				"label": "Выгода за кредит до 300&nbsp;000&nbsp;₽",
+				"label": "Выгодный кредит",
 				"icon_name": "mdi:gift-outline",
 				"data_title": "Выгодный кредит",
 				"data_form_name": "Выгодный кредит. VGV U70PRO",
@@ -22351,7 +22351,7 @@
 		"benefits": [
 			{
 				"url": "#common-modal",
-				"label": "Выгода за трейд-ин до&nbsp;150&nbsp;000&nbsp;₽",
+				"label": "Выгодный трейд-ин",
 				"icon_name": "mdi:credit-card-check-outline",
 				"data_title": "Выгодный трейд-ин",
 				"data_form_name": "Выгодный трейд-ин. VGV U75PLUS",
@@ -22359,7 +22359,7 @@
 			},
 			{
 				"url": "#common-modal",
-				"label": "Выгода за кредит до&nbsp;300&nbsp;000&nbsp;₽",
+				"label": "Выгодный кредит",
 				"icon_name": "mdi:gift-outline",
 				"data_title": "Выгодный кредит",
 				"data_form_name": "Выгодный кредит. VGV U75PLUS",
