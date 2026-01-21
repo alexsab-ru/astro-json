@@ -1,0 +1,19 @@
+[
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/knewstar/001.webp"
+        },
+        "title": "KNEWSTAR 001",
+        "descr": "РАССРОЧКА",
+        "btn": "",
+        "btnUrl": "",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    }
+]
