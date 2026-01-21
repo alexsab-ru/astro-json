@@ -29,8 +29,8 @@
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/vgv/krd/banner-u75plus.webp"
         },
-        "title": "<span class=\"font-light\">VGV U75PLUS</span><br/> Выгода до&nbsp;150&nbsp;000&nbsp;руб.",
-        "descr": "от&nbsp;2&nbsp;799&nbsp;900&nbsp;₽",
+        "title": "<span class=\"font-light\">VGV U75PLUS</span><br/> Выгода до&nbsp;350&nbsp;000&nbsp;руб.",
+        "descr": "{{priceb-vgv-u75-plus-from}}",
         "btn": "Подробнее",
         "btnUrl": "/models/u75-plus/",
         "dataTitle": "",
@@ -46,8 +46,8 @@
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/vgv/krd/banner-u70pro.webp"
         },
-        "title": "<span class=\"font-light\">VGV U70PRO</span><br/> Выгода до&nbsp;200&nbsp;000&nbsp;руб.",
-        "descr": "от&nbsp;2&nbsp;199&nbsp;900&nbsp;₽",
+        "title": "<span class=\"font-light\">VGV U70PRO</span><br/> Выгода до&nbsp;350&nbsp;000&nbsp;руб.",
+        "descr": "{{priceb-vgv-u70-pro-from}}",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "",
