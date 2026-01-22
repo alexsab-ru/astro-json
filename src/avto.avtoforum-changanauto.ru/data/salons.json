@@ -1,6 +1,6 @@
 [
     {
-        "name": "Чанган Центр Автофорум Восток",
+        "name": "Автофорум Чанган",
         "address": "Саратов, ул.&nbsp;Усть-Курдюмская, д.&nbsp;33",
         "phone":  "+7 (8452) 74-94-94",
         "work_hours": "пн — вс: 9:00 — 19:00",
@@ -8,7 +8,19 @@
             "zoom": 5,
             "balloon": "https://cdn.alexsab.ru/locator/changan-locator.svg",
             "coords": [51.57663910315775, 46.08686308484443],
-            "ya_link": "https://yandex.ru/maps/org/avtoforum_changan/155740418581/?ll=46.086817%2C51.576704&z=17.03"
+            "ya_link": "https://yandex.ru/profile/155740418581?lang=ru"
+        }
+    },
+    {
+        "name": "Чанган",
+        "address": "Саратов, ул.&nbsp;имени А.П. Шехурдина, 12А, стр.&nbsp;1",
+        "phone":  "+7 (8452) 39-99-29",
+        "work_hours": "пн — вс: 9:00 — 19:00",
+        "map": {
+            "zoom": 5,
+            "balloon": "https://cdn.alexsab.ru/locator/changan-locator.svg",
+            "coords": [51.570754,45.995135],
+            "ya_link": "https://yandex.ru/profile/82958593237?lang=ru"
         }
     }
 ]
