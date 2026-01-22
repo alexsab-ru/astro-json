@@ -15,6 +15,22 @@
       {
         "url": "/test-drive/",
         "name": "Запись на тест-драйв"
+      },
+      {
+        "url": "/insurance/",
+        "name": "Страхование"
+      },
+      {
+        "url": "/corporate-clients/",
+        "name": "Корпоративным клиентам"
+      },
+      {
+        "url": "/brochures/",
+        "name": "Каталоги"
+      },
+      {
+        "url": "/manuals/",
+        "name": "Руководства"
       }
     ]
   },
