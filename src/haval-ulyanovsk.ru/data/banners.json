@@ -19,7 +19,7 @@
         "dataTitle": "Узнать подробнее",
         "dataFormName": "Новый Haval Jolion. Добавь динамики в Новом году. Баннер на главной",
         "badge": {
-            "descr": "<span class=\"bg-black/70 block w-fit p-2 text-left\"><sup>*</sup> Акция действительна до 31.12.2025 при покупке <br class=\"hidden lg:block\" />HAVAL JOLION, HAVAL F7, HAVAL F7x 2025 года.</span>",
+            "descr": "<span class=\"bg-black/70 block w-fit p-2 text-left\"><sup>*</sup> Акция действительна до {{lastDay}}.{{month}}.{{year}} при покупке <br class=\"hidden lg:block\" />HAVAL JOLION, HAVAL F7, HAVAL F7x {{year}} года.</span>",
             "position": "left"
         },
         "autoplay": 10000,
