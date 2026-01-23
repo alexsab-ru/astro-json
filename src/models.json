@@ -22249,7 +22249,7 @@
 		"complectations": [
 			{
 				"name": "Comfort (5 мест)",
-				"price": "{{price-vgv-u70-pro}}",
+				"price": "2393990",
 				"bodytype": "Кроссовер",
 				"engine": "1.5 м3",
 				"engine_power": "143",
@@ -22259,7 +22259,7 @@
 			},
 			{
 				"name": "Comfort (7 мест)",
-				"price": 2059900,
+				"price": "2393990",
 				"bodytype": "Кроссовер",
 				"engine": "1.5 м3",
 				"engine_power": "143",
@@ -22269,7 +22269,7 @@
 			},
 			{
 				"name": "Lifestyle (5 мест)",
-				"price": "2399900",
+				"price": "2467900",
 				"bodytype": "Кроссовер",
 				"engine": "1.5 м3",
 				"engine_power": "143",
@@ -22279,7 +22279,7 @@
 			},
 			{
 				"name": "Lifestyle (7 мест)",
-				"price": "2299900",
+				"price": "2393900",
 				"bodytype": "Кроссовер",
 				"engine": "1.5 м3",
 				"engine_power": "143",
@@ -22289,7 +22289,7 @@
 			},
 			{
 				"name": "Executive (7 мест)",
-				"price": "2399900",
+				"price": "2496900",
 				"bodytype": "Кроссовер",
 				"engine": "1.5 м3",
 				"engine_power": "143",
@@ -22433,16 +22433,6 @@
 		"complectations": [
 			{
 				"name": "Executive (5 мест)",
-				"price": "2599900",
-				"bodytype": "Кроссовер",
-				"engine": "2.0 м3",
-				"engine_power": "199",
-				"gear_rus": "8AT",
-				"drive": "Передний",
-				"fuel": "Бензин"
-			},
-			{
-				"name": "Executive (7 мест)",
 				"price": "2649900",
 				"bodytype": "Кроссовер",
 				"engine": "2.0 м3",
@@ -22452,8 +22442,18 @@
 				"fuel": "Бензин"
 			},
 			{
+				"name": "Executive (7 мест)",
+				"price": "2700900",
+				"bodytype": "Кроссовер",
+				"engine": "2.0 м3",
+				"engine_power": "199",
+				"gear_rus": "8AT",
+				"drive": "Передний",
+				"fuel": "Бензин"
+			},
+			{
 				"name": "Premium (7 мест)",
-				"price": 2749900,
+				"price": "2852900",
 				"bodytype": "Кроссовер",
 				"engine": "2.0 м3",
 				"engine_power": "199",
