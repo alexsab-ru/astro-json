@@ -41,6 +41,18 @@
       {
         "url": "/service-request/",
         "name": "Запись на сервис"
+      },
+      {
+        "url": "/guarantee/",
+        "name": "Гарантия"
+      },
+      {
+        "url": "/reglament/",
+        "name": "Регламент ТО"
+      },
+      {
+        "url": "/oil/",
+        "name": "Масла"
       }
     ]
   },
