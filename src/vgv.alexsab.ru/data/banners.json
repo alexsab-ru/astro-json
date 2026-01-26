@@ -48,7 +48,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/vgv/u70pro-winter-mobile.webp"
         },
         "title": "VGV U70PRO",
-        "descr": "<b>Выгода до 300 000 руб.</b><br />С VGV зимой ТЕПЛО!<br /><br />От {{price-vgv-u70-pro}}",
+        "descr": "<b>Выгода до 300 000 руб.</b><br />С VGV зимой ТЕПЛО!<br /><br />От {{priceb-vgv-u70-pro}}",
         "btn": "Подробнее",
         "btnUrl": "/models/u70-pro/",
         "dataTitle": "",
