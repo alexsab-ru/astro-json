@@ -9,7 +9,7 @@
             "tablet": "https://cdn.alexsab.ru/main-sliders/tenet/t4-hero-t.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/tenet/t4-hero-m.webp"
         },
-        "title": "<div class=\"bg-accent-500 text-white rounded-sm py-1 px-2 w-fit text-xs text-normal mb-5\">Включайся в движение</div><div class=\"h1\">TENET T4 <br>Теперь<br>и с полным <br>приводом!</div>",
+        "title": "<div class=\"bg-accent-500 text-white rounded-sm py-1 px-2 w-fit text-xs text-normal mb-5\">Включайся в движение</div><div class=\"h1 sm:text-[1.2em]\">TENET T4 <br>Теперь<br>и с полным <br>приводом!</div>",
         "descr": "от {{priceb-tenet-t4}}",
         "btn": "Подробнее",
         "btnUrl": "/models/t4/",
@@ -25,7 +25,7 @@
             "tablet": "https://cdn.alexsab.ru/main-sliders/tenet/t7-hero-t.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/tenet/t7-hero-m.webp"
         },
-        "title": "<div class=\"bg-accent-500 text-white rounded-sm py-1 px-2 w-fit text-xs text-normal mb-5\">Открой город по‑новому</div><div class=\"h1\">TENET T7</div>",
+        "title": "<div class=\"bg-accent-500 text-white rounded-sm py-1 px-2 w-fit text-xs text-normal mb-5\">Открой город по‑новому</div><div class=\"h1 sm:text-[1.2em]\">TENET T7</div>",
         "descr": "от {{priceb-tenet-t7}}",
         "btn": "Подробнее",
         "btnUrl": "/models/t7/",
@@ -41,7 +41,7 @@
             "tablet": "https://cdn.alexsab.ru/main-sliders/tenet/t8-hero-t.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/tenet/t8-hero-m.webp"
         },
-        "title": "<div class=\"bg-accent-500 text-white rounded-sm py-1 px-2 w-fit text-xs text-normal mb-5\">Флагманский кроссовер</div><div class=\"h1\">TENET T8</div>",
+        "title": "<div class=\"bg-accent-500 text-white rounded-sm py-1 px-2 w-fit text-xs text-normal mb-5\">Флагманский кроссовер</div><div class=\"h1 sm:text-[1.2em]\">TENET T8</div>",
         "descr": "от {{priceb-tenet-t8}}",
         "btn": "Подробнее",
         "btnUrl": "/models/t8/",
@@ -57,7 +57,7 @@
             "tablet": "https://cdn.alexsab.ru/main-sliders/tenet/tenet-winter-service-t.webp",
             "mobile": "https://cdn.alexsab.ru/main-sliders/tenet/tenet-winter-service-m.webp"
         },
-        "title": "<div class=\"bg-accent-500 text-white rounded-sm py-1 px-2 w-fit text-xs xs:text-[9px] text-normal mb-5\">26 шагов к уверенности за рулём этой зимой</div><div class=\"h1\">Снежный иммунитет</div>",
+        "title": "<div class=\"bg-accent-500 text-white rounded-sm py-1 px-2 w-fit text-xs xs:text-[9px] text-normal mb-5\">26 шагов к уверенности за рулём этой зимой</div><div class=\"h1 sm:text-[1.2em]\">Снежный иммунитет</div>",
         "descr": "Защита от морозов для вашего авто за 2026 рублей",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
