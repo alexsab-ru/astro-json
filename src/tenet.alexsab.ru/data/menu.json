@@ -1,0 +1,31 @@
+[
+  {
+    "url": "/cars/",
+    "name": "Авто в наличии"
+  },
+  {
+    "url": "/models/",
+    "name": "Модели",
+    "children": "models"
+  },
+  {
+    "url": "/special-offers/",
+    "name": "Спецпредложения"
+  },
+  {
+    "url": "/test-drive/",
+    "name": "Запись на тест-драйв"
+  },
+  {
+    "url": "/service-request/",
+    "name": "Запись на сервис"
+  },
+  {
+    "url": "/#services",
+    "name": "Услуги"
+  },
+  {
+    "url": "/contacts/",
+    "name": "Контакты"
+  }
+]
