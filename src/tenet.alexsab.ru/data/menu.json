@@ -1,31 +1,52 @@
 [
   {
-    "url": "/cars/",
+    "url": "/cars/", 
     "name": "Авто в наличии"
   },
   {
-    "url": "/models/",
-    "name": "Модели",
+    "url": "/models/", 
+    "name": "Модели", 
     "children": "models"
   },
   {
-    "url": "/special-offers/",
-    "name": "Спецпредложения"
+    "url": "javascript:void(0)", 
+    "name": "Покупателям",
+    "children": [
+      {
+        "url": "/special-offers/", 
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/test-drive/", 
+        "name": "Запись на тест-драйв"
+      }
+    ]
   },
   {
-    "url": "/test-drive/",
-    "name": "Запись на тест-драйв"
+    "url": "javascript:void(0)", 
+    "name": "Владельцам",
+    "children": [
+      {
+        "url": "/special-offers/", 
+        "name": "Спецпредложения"
+      },
+      {
+        "url": "/service-request/", 
+        "name": "Запись на сервис"
+      }
+    ]
   },
   {
-    "url": "/service-request/",
-    "name": "Запись на сервис"
+      "url": "/#services", 
+      "name": "Услуги"
   },
   {
-    "url": "/#services",
-    "name": "Услуги"
-  },
-  {
-    "url": "/contacts/",
+    "url": "/contacts/", 
     "name": "Контакты"
+  },
+  {
+    "url": "javascript:void(0)", 
+    "name": "Мир TENET",
+    "children": []
   }
 ]
