@@ -20507,6 +20507,552 @@
 		]
 	},
 	{
+		"mark_id": "TENET",
+		"id": "t4",
+		"show": true,
+		"status": "enable",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Теперь и с полным приводом!",
+		"name": "T4",
+		"cyrillic": "Т4",
+		"price": "{{price-tenet-t4}}",
+		"benefit": "{{benefit-tenet-t4}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Получить выгодное предложение",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Получить выгодное предложение",
+				"data_form_name": "Получить выгодное предложение. T4",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Специальное кредитное предложение",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Специальное кредитное предложение",
+				"data_form_name": "Специальное кредитное предложение. T4",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/models/tenet/t4/thumb.webp",
+		"colors": [
+			{
+				"id": "black",
+				"name": "Глубокий черный",
+				"names": [
+				"Black",
+				"Черный",
+				"Чёрный",
+				"Глубокий черный",
+				"Глубокий чёрный"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t4/colors/black.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t4/ext/black.ext.png); background-size: contain;"
+			},
+			{
+				"id": "grey_tech",
+				"name": "Технологичный серый",
+				"names": [
+				"Grey",
+				"Grey Tech",
+				"Gray",
+				"Gray Tech",
+				"Серый",
+				"Технологичный серый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t4/colors/grey_tech.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t4/ext/grey.ext.png); background-size: contain;"
+			},
+			{
+				"id": "red",
+				"name": "Огненно-красный",
+				"names": [
+				"Red",
+				"Красный",
+				"Огненно-красный"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t4/colors/red.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t4/ext/red.ext.png); background-size: contain;"
+			},
+			{
+				"id": "white",
+				"name": "Искрящийся белый",
+				"names": [
+				"White",
+				"Белый",
+				"Искрящийся белый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t4/colors/white.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t4/ext/white.ext.png); background-size: contain;"
+			}
+		],
+		"feed_names": [
+			"T4"
+		],
+		"photos": "",
+			"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "MT5/CVT7\nDCT6/DCT7"
+		},
+		"complectations": [
+			{
+				"name": "MT Line",
+				"price": "{{price-tenet-t4}}",
+				"bodytype": "Кроссовер",
+				"engine": "1.5",
+				"engine_power": "113",
+				"gear_rus": "MT5",
+				"drive": "Передний",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "CVT Line",
+				"price": "2169000",
+				"bodytype": "Кроссовер",
+				"engine": "1.5",
+				"engine_power": "113",
+				"gear_rus": "CVT7",
+				"drive": "Передний",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "Active",
+				"price": "2295000",
+				"bodytype": "Кроссовер",
+				"engine": "1.5",
+				"engine_power": "147",
+				"gear_rus": "DCT6",
+				"drive": "Передний",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "Prime",
+				"price": "2429000",
+				"bodytype": "Кроссовер",
+				"engine": "1.5",
+				"engine_power": "147",
+				"gear_rus": "DCT6",
+				"drive": "Передний",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "Active 4WD",
+				"price": "2439000",
+				"bodytype": "Кроссовер",
+				"engine": "1.5PT",
+				"engine_power": "147",
+				"gear_rus": "DCT7",
+				"drive": "Полный",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "Prime 4WD",
+				"price": "2599000",
+				"bodytype": "Кроссовер",
+				"engine": "1.5PT",
+				"engine_power": "147",
+				"gear_rus": "DCT7",
+				"drive": "Полный",
+				"fuel": "Бензин"
+			}
+		],
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2610",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4320",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1831",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "1.5",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "138/210",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Передний/Полный",
+				"measure": ""
+			}
+		]
+	},
+	{
+		"mark_id": "TENET",
+		"id": "t7",
+		"show": true,
+		"status": "enable",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Открой город по-новому",
+		"name": "T7",
+		"cyrillic": "Т7",
+		"price": "{{price-tenet-t7}}",
+		"benefit": "{{benefit-tenet-t7}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Получить выгодное предложение",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Получить выгодное предложение",
+				"data_form_name": "Получить выгодное предложение. T7",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Специальное кредитное предложение",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Специальное кредитное предложение",
+				"data_form_name": "Специальное кредитное предложение. T7",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/models/tenet/t7/thumb.webp",
+		"colors": [
+			{
+				"id": "black",
+				"name": "Глубокий черный",
+				"names": [
+				"Black",
+				"Черный",
+				"Чёрный",
+				"Глубокий черный",
+				"Глубокий чёрный"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t7/colors/black.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t7/ext/black.ext.png); background-size: contain;"
+			},
+			{
+				"id": "white",
+				"name": "Искрящийся белый",
+				"names": [
+				"White",
+				"Белый",
+				"Искрящийся белый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t7/colors/white.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t7/ext/white.ext.png); background-size: contain;"
+			},
+			{
+				"id": "red",
+				"name": "Огненно-красный",
+				"names": [
+				"Red",
+				"Красный",
+				"Огненно-красный"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t7/colors/red.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t7/ext/red.ext.png); background-size: contain;"
+			},
+			{
+				"id": "blue",
+				"name": "Морской синий",
+				"names": [
+				"Blue",
+				"Синий",
+				"Морской синий"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t7/colors/blue.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t7/ext/blue.ext.png); background-size: contain;"
+			},
+			{
+				"id": "silver",
+				"name": "Серебристый",
+				"names": [
+				"Silver",
+				"Серебристый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t7/colors/silver.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t7/ext/silver.ext.png); background-size: contain;"
+			},
+			{
+				"id": "grey_tech",
+				"name": "Технологичный серый",
+				"names": [
+				"Grey",
+				"Grey Tech",
+				"Gray",
+				"Gray Tech",
+				"Серый",
+				"Технологичный серый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t7/colors/grey_tech.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t7/ext/grey.ext.png); background-size: contain;"
+			}
+		],
+		"feed_names": [
+			"T7"
+		],
+		"photos": "",
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "DCT7"
+		},
+		"complectations": [
+			{
+				"name": "Active 2WD",
+				"price": "{{price-tenet-t7}}",
+				"bodytype": "Кроссовер",
+				"engine": "1.6T",
+				"engine_power": "150",
+				"gear_rus": "DCT7",
+				"drive": "Передний",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "Prime 4WD",
+				"price": "2835000",
+				"bodytype": "Кроссовер",
+				"engine": "1.6T",
+				"engine_power": "150",
+				"gear_rus": "DCT7",
+				"drive": "Полный",
+				"fuel": "Бензин"
+			}
+		],
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2670",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4513",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1862",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "1.6",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "275",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Передний/Полный",
+				"measure": ""
+			}
+		]
+	},
+	{
+		"mark_id": "TENET",
+		"id": "t8",
+		"show": true,
+		"status": "enable",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"slogan": "Для новых моментов",
+		"name": "T8",
+		"cyrillic": "Т8",
+		"price": "{{price-tenet-t8}}",
+		"benefit": "{{benefit-tenet-t8}}",
+		"benefits": [
+			{
+				"url": "#common-modal",
+				"label": "Получить выгодное предложение",
+				"icon_name": "mdi:credit-card-check-outline",
+				"data_title": "Получить выгодное предложение",
+				"data_form_name": "Получить выгодное предложение. T8",
+				"view": "popup-link"
+			},
+			{
+				"url": "#common-modal",
+				"label": "Специальное кредитное предложение",
+				"icon_name": "mdi:gift-outline",
+				"data_title": "Специальное кредитное предложение",
+				"data_form_name": "Специальное кредитное предложение. T8",
+				"view": "popup-link"
+			}
+		],
+		"thumb": "https://cdn.alexsab.ru/models/tenet/t8/thumb.webp",
+		"colors": [
+			{
+				"id": "green_bamboo",
+				"name": "Благородный серый",
+				"names": [
+				"Green Bamboo",
+				"Благородный серый",
+				"Серый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t8/colors/green_bamboo.webp",
+				"style": "background: rgb(80, 132, 153);"
+			},
+			{
+				"id": "green_emerald",
+				"name": "Изумрудный зеленый",
+				"names": [
+				"Green Emerald",
+				"Изумрудный зеленый",
+				"Зеленый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t8/colors/green_emerald.webp",
+				"style": "background: rgb(67, 140, 147);"
+			},
+			{
+				"id": "black",
+				"name": "Глубокий черный",
+				"names": [
+				"Black",
+				"Черный",
+				"Чёрный",
+				"Глубокий черный",
+				"Глубокий чёрный"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t8/colors/black.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t8/ext/black.ext.png); background-size: contain;"
+			},
+			{
+				"id": "grey_tech",
+				"name": "Технологичный серый",
+				"names": [
+				"Grey",
+				"Grey Tech",
+				"Gray",
+				"Gray Tech",
+				"Серый",
+				"Технологичный серый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t8/colors/grey_tech.webp",
+				"style": "background: rgb(142, 146, 144);"
+			},
+			{
+				"id": "silver",
+				"name": "Серебристый",
+				"names": [
+				"Silver",
+				"Серебристый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t8/colors/silver.webp",
+				"style": "background: rgb(195, 197, 200);;"
+			},
+			{
+				"id": "white",
+				"name": "Искрящийся белый",
+				"names": [
+				"White",
+				"Белый",
+				"Искрящийся белый"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t8/colors/white.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t8/ext/white.ext.png); background-size: contain;"
+			},
+			{
+				"id": "blue",
+				"name": "Лазурный синий",
+				"names": [
+				"Blue",
+				"Синий",
+				"Лазурный синий"
+				],
+				"carImage": "https://cdn.alexsab.ru/models/tenet/t8/colors/blue.webp",
+				"style": "background-image: url(https://cdn.alexsab.ru/models/tenet/t8/ext/azure-glaze.ext.png); background-size: contain;"
+			}
+		],
+		"feed_names": [
+			"T8"
+		],
+		"photos": "",
+		"chars": {
+			"seats": "7 мест",
+			"fuel": "Бензин",
+			"gearbox": "DCT7"
+		},
+		"complectations": [
+			{
+				"name": "Prime AWD",
+				"price": "{{price-tenet-t8}}",
+				"bodytype": "Кроссовер",
+				"engine": "2.0 TGDI",
+				"engine_power": "197",
+				"gear_rus": "DCT7",
+				"drive": "Полный",
+				"fuel": "Бензин"
+			},
+			{
+				"name": "Ultra AWD",
+				"price": "3715000",
+				"bodytype": "Кроссовер",
+				"engine": "2.0 TGDI",
+				"engine_power": "197",
+				"gear_rus": "DCT7",
+				"drive": "Полный",
+				"fuel": "Бензин"
+			}
+		],
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2710",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4725",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1860",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "2.0",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "375",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Полный",
+				"measure": ""
+			}
+		]
+	},
+	{
 		"mark_id": "Toyota",
 		"id": "camry",
 		"show": true,
