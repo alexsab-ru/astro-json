@@ -23877,6 +23877,461 @@
 		"chars": {}
 	},
 	{
+		"mark_id": "Honda",
+		"id": "crv",
+		"show": true,
+		"status": "enable",
+		"name": "CR-V",
+		"cyrillic": "СиЭр-Ви",
+		"price": "{{price-honda-crv}}",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"thumb": "https://cdn.alexsab.ru/models/honda/crv/thumb.webp",
+		"colors": [
+			{
+				"id": "red",
+				"name": "Красный металлик",
+				"names": [
+					"красный"
+				],
+				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+				"style": ""
+			}
+		],
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "CVT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2700",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4703",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1866",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "1.5",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "243",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Полный",
+				"measure": ""
+			}
+		]
+	},
+	{
+		"mark_id": "Honda",
+		"id": "urv",
+		"show": true,
+		"status": "enable",
+		"name": "UR-V",
+		"cyrillic": "ЮЭр-Ви",
+		"price": "{{price-honda-urv}}",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"thumb": "https://cdn.alexsab.ru/models/honda/urv/thumb.webp",
+		"colors": [
+			{
+				"id": "blue",
+				"name": "Синий металлик",
+				"names": [
+					"Синий"
+				],
+				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+				"style": ""
+			}
+		],
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "9AT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2820",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4856",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1942",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "2.0",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "370",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Полный",
+				"measure": ""
+			}
+		]
+	},
+	{
+		"mark_id": "Honda",
+		"id": "zrv",
+		"show": true,
+		"status": "enable",
+		"name": "ZR-V",
+		"cyrillic": "ЗиЭр-Ви",
+		"price": "{{price-honda-zrv}}",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"thumb": "https://cdn.alexsab.ru/models/honda/zrv/thumb.webp",
+		"colors": [
+			{
+				"id": "white",
+				"name": "Белый металлик",
+				"names": [
+					"Белый"
+				],
+				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+				"style": ""
+			}
+		],
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "CVT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2655",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4568",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1840",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "1.5",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "240",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Передний",
+				"measure": ""
+			}
+		]
+	},
+	{
+		"mark_id": "Honda",
+		"id": "vezel",
+		"show": true,
+		"status": "enable",
+		"name": "Vezel",
+		"cyrillic": "Визэль",
+		"price": "{{price-honda-vezel}}",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"thumb": "https://cdn.alexsab.ru/models/honda/vezel/thumb.webp",
+		"colors": [
+			{
+				"id": "blue",
+				"name": "Синий",
+				"names": [
+					"Синий"
+				],
+				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+				"style": ""
+			}
+		],
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "CVT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2610",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4380",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1790",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "1.5",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "145",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Передний",
+				"measure": ""
+			}
+		]
+	},
+	{
+		"mark_id": "Honda",
+		"id": "odyssey",
+		"show": true,
+		"status": "enable",
+		"name": "Odyssey",
+		"cyrillic": "Одисей",
+		"price": "{{price-honda-odyssey}}",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"thumb": "https://cdn.alexsab.ru/models/honda/odyssey/thumb.webp",
+		"colors": [
+			{
+				"id": "black",
+				"name": "Черный",
+				"names": [
+					"Черный"
+				],
+				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+				"style": ""
+			}
+		],
+		"chars": {
+			"seats": "7 мест",
+			"fuel": "Бензин",
+			"gearbox": "E-CVT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2900",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4861",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1820",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "2.0",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "175",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Передний",
+				"measure": ""
+			}
+		]
+	},
+	{
+		"mark_id": "Honda",
+		"id": "accord",
+		"show": true,
+		"status": "enable",
+		"name": "Accord",
+		"cyrillic": "Аккорд",
+		"price": "{{price-honda-accord}}",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"thumb": "https://cdn.alexsab.ru/models/honda/accord/thumb.webp",
+		"colors": [
+			{
+				"id": "black",
+				"name": "Черный",
+				"names": [
+					"Черный"
+				],
+				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+				"style": ""
+			}
+		],
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "CVT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2830",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4980",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1862",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "1.5",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "260",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Передний",
+				"measure": ""
+			}
+		]
+	},
+	{
+		"mark_id": "Honda",
+		"id": "fit",
+		"show": true,
+		"status": "enable",
+		"name": "Fit",
+		"cyrillic": "Фит",
+		"price": "{{price-honda-fit}}",
+		"homeImg": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+		"thumb": "https://cdn.alexsab.ru/models/honda/fit/thumb.webp",
+		"colors": [
+			{
+				"id": "pink",
+				"name": "Розовый металлик",
+				"names": [
+					"Розовый"
+				],
+				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+				"style": "background-color: #ef7688;"
+			}
+		],
+		"chars": {
+			"seats": "5 мест",
+			"fuel": "Бензин",
+			"gearbox": "CVT"
+		},
+		"globalChars": [
+			{
+				"id": "wheelbase",
+				"title": "Колёсная база",
+				"value": "2530",
+				"measure": "мм"
+			},
+			{
+				"id": "length",
+				"title": "Длина",
+				"value": "4169",
+				"measure": "мм"
+			},
+			{
+				"id": "width",
+				"title": "Ширина",
+				"value": "1694",
+				"measure": "мм"
+			},
+			{
+				"id": "engine",
+				"title": "Объем двигателя",
+				"value": "1.5",
+				"measure": "л."
+			},
+			{
+				"id": "torque",
+				"title": "Крутящий момент",
+				"value": "145",
+				"measure": "н.м."
+			},
+			{
+				"id": "transmission",
+				"title": "Привод",
+				"value": "Передний",
+				"measure": ""
+			}
+		]
+	},
+	{
 		"mark_id": "Hyundai",
 		"id": "Santa Fe",
 		"show": true,
