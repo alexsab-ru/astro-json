@@ -2293,6 +2293,7 @@
 		"feed_names": [
 			"UNI-S",
 			"UNI-S (CS55 Plus), I",
+			"UNI-S (CS55 Plus)",
 			"CS55PLUS, I Рестайлинг"
 		],
 		"photos": "",
@@ -3004,7 +3005,8 @@
 		],
 		"feed_names": [
 			"CS75PLUS",
-			"CS75 Plus, III"
+			"CS75 Plus, III",
+			"CS75 Plus, I Рестайлинг"
 		],
 		"photos": "",
 		"chars": {
@@ -8166,7 +8168,8 @@
 		],
 		"feed_names": [
 			"Preface, I Рестайлинг 2",
-			"Preface"
+			"Preface",
+			"Preface, I"
 		],
 		"photos": "",
 		"chars": {
