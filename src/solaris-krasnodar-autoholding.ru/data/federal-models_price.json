@@ -3,7 +3,7 @@
     "id": "solaris-hc",
     "brand": "solaris",
     "model": "HC",
-    "price": "19900",
+    "price": "2320000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-hc"
   },
@@ -18,16 +18,16 @@
   {
     "id": "solaris-krs",
     "brand": "solaris",
-    "model": "KRS Двигайся в ритме РИО*!",
-    "price": "17900",
+    "model": "KRS",
+    "price": "2225000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krs"
   },
   {
     "id": "solaris-krx",
     "brand": "solaris",
-    "model": "KRX  Зима в ритме РИО*!",
-    "price": "17900",
+    "model": "KRX",
+    "price": "2225000",
     "benefit": "",
     "link": "https://solaris.auto/models/solaris-krx"
   }
