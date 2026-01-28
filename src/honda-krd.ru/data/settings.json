@@ -1,0 +1,35 @@
+{
+    "brand": "HONDA",
+    "site_brand_style": "honda",
+    "modelIDs": [
+    ],
+    "testDriveIDs": [
+    ],
+    "serviceIDs": [
+    ],
+    "site_name": "Автохолдинг",
+    "site_description": "Официальный дилерский центр",
+    "legal_entity": "ООО «Автохолдинг»",
+    "legal_inn": "1234567890",
+    "legal_city": "Город",
+    "legal_city_where": "Городе",
+    "phone_common": "+7 (999) 000-00-00",
+    "yandex_widget_orgnization": "",
+    "header_top_line": "",
+    "connectforms_link": "https://alexsab.ru/lead/dev/",
+    "grecaptcha_open": "",
+    "favicon": "https://cdn.alexsab.ru/favicon/honda-favicon.svg",
+    "logo_header": "https://cdn.alexsab.ru/logo/honda/logo.svg",
+    "logo_map_info": "https://cdn.alexsab.ru/logo/honda/logo.svg",
+    "logo_footer": "https://cdn.alexsab.ru/logo/honda/logo.svg",
+    "logo_dealer_header": "",
+    "logo_dealer_map_info": "",
+    "logo_dealer_footer": "",
+    "siteType": "",
+    "manager_photo": "https://cdn.alexsab.ru/people/user.webp",
+    "map_background": "https://cdn.alexsab.ru/maps/map-bg.webp",
+    "default_model_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+    "improve_offer_background": "https://cdn.alexsab.ru/models/default-model-bg.webp",
+    "footer_disclaimer": "",
+    "is_header_transparent": false
+}

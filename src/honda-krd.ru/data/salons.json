@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Дилерский центр 1",
+        "legal_entity": "ООО «Юридическое название 1»",
+        "address": "г. Город, ул. Улица, д.&nbsp;123",
+        "phone":  "8 (987) 654-32-10",
+        "work_hours": "пн — вс: 8:00 — 20:00",
+        "map": {
+            "zoom": 5,
+            "balloon": "https://cdn.alexsab.ru/locator/honda-locator.svg",
+            "coords": [55.715873, 47.617700],
+            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+        }
+    }
+]
