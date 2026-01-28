@@ -1,9 +1,12 @@
 export BRAND='solaris'
 export URL="https://solaris.auto/"
-export ITEM_XPATH="//section[contains(@class, 'ModelSlide_container___a9d3')]"
-export ID_XPATH="concat('', substring-after(.//a[contains(@href, 'models/')]/@href, 'models/'))"
-export MODEL_XPATH=".//h1[contains(@class, 'ModelSlide_hideInMobile__G9Y_w')]"
-export PRICE_XPATH="translate(string(.//div[contains(@class, 'toolpip_container__rHDXy')]/h6/text()[1]), translate(string(.//div[contains(@class, 'toolpip_container__rHDXy')]/h6/text()[1]), '0123456789', ''), '')"
-export LINK_XPATH="concat('/models/', substring-after(.//a[contains(@href, 'models/')]/@href, 'models/'))"
+export ITEM_XPATH="//a[contains(@class, 'openModelsMenu_item__8q8vd')]"
+export ID_XPATH="concat('', substring-after(./@href, '/models/'))"
+export MODEL_XPATH=".//p[contains(@class, 'uppercase')]/text()"
+export PRICE_XPATH="translate(string(.//p[contains(@class, 'openModelsMenu_price__2HwTS')]/text()), translate(string(.//p[contains(@class, 'openModelsMenu_price__2HwTS')]/text()), '0123456789', ''), '')"
+export LINK_XPATH="./@href"
 export OUTPUT_PATHS="./src/solaris.alexsab.ru/data/cars.json,./src/solaris-krasnodar-autoholding.ru/data/cars.json"
-node .github/scripts/scrape.js
+export CLICK_SELECTOR="body > main > header > div > div.nYHeader_content__h_M7I.landing-section > nav > button:nth-child(1)"
+export WAIT_SELECTOR="body > main > header > div > div.nYHeader_content__h_M7I.landing-section > nav > button:nth-child(1)"
+export WAIT_TIME=1
+python3 .github/scripts/scrape.py
