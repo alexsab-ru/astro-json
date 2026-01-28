@@ -11767,7 +11767,8 @@
 				"id": "blue",
 				"name": "Синий сапфир",
 				"names": [
-					"Синий"
+					"Синий",
+					"Темно-синий"
 				],
 				"carImage": "https://cdn.alexsab.ru/b/jac/img/models/t9/colors/blue.webp",
 				"style": ""
