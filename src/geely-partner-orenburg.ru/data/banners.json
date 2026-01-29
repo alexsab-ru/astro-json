@@ -5,19 +5,18 @@
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-desktop.webp",
-            "tablet": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-tablet.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-mobile.webp?v"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/orenburg/main-hero-monjaro-1920x720.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/geely/orenburg/main-hero-monjaro-1024x1024.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/orenburg/main-hero-monjaro-640x900.webp"
         },
-        "title": "",
-        "descr": "",
-        "btn": "",
-        "bannerUrl": "/models/monjaro/",
+        "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Monjaro/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Monjaro'><span class='uppercase block font-medium'>Это Космос</span><span class='block font-medium text-[0.6em] mt-5'>Новая версия лидера в сегменте D-SUV</span>",
+        "descr": "<span class=\"font-bold text-[1.1em] sm:text-[1em]\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
+        "btn": "Подробнее",
+        "btnUrl": "/models/monjaro/",
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 7000,
-        "gradient": false
+        "autoplay": 7000
     },
     {
         "id": 0,
@@ -161,7 +160,7 @@
             "mobile": "top"
         },
         "title": "Улучшим предложения конкурентов!",
-        "descr": "У Вас есть предложение от другого дилера?",
+        "descr": "У Вас есть предложение от другого дилера?<span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Сделаем лучше!",
         "btnUrl": "#common-modal",
         "dataTitle": "Улучшим предложения конкурентов!",
@@ -173,7 +172,7 @@
             "image": "https://cdn.alexsab.ru/main-sliders/geely/Sticker_Monjaro_Caroftheyear.svg",
             "position": "left"
         },
-        "autoplay": 6000
+        "autoplay": 7000
     },
     {
         "id": 0,
@@ -188,13 +187,13 @@
             "mobile": "bottom"
         },
         "title": "Специальные предложения на&nbsp;автомобили Geely",
-        "descr": "Максимальная выгода до&nbsp;650&nbsp;000&nbsp;руб",
+        "descr": "Максимальная выгода до&nbsp;550&nbsp;000&nbsp;руб <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "/special-offers/specialnye-predlozheniya-na-avtomobili-geely/",
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
-        "autoplay": 6000
+        "autoplay": 7000
     },
     {
         "id": 0,
@@ -205,7 +204,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/geely/cityray.webp"
         },
         "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Cityray/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Cityray'><span class='uppercase block font-medium'>Энергия города</span>",
-        "descr": "",
+        "descr": "<span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "/models/cityray/",
         "dataTitle": "",
@@ -222,7 +221,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/geely/preface.webp"
         },
         "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Preface/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Preface'><span class='uppercase block font-medium text-4xl'>Предвкушение момента</span>",
-        "descr": "",
+        "descr": "<span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "/models/preface/",
         "dataTitle": "Новый Geely Preface",
@@ -232,7 +231,7 @@
     },
     {
         "id": 4,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -256,7 +255,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new_okavango.webp"
         },
         "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Okavango/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Okavango'>",
-        "descr": "",
+        "descr": "<span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "/models/geely-okavango/",
         "dataTitle": "",
@@ -273,7 +272,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/geely/atlas-new.webp"
         },
         "title": "<span class='uppercase block font-medium'>Новый Geely</span><img src='https://cdn.alexsab.ru/b/geely/img/models/Atlas-2024/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Atlas'><span class='uppercase block font-medium text-4xl'>Эстетика Прогресса</span>",
-        "descr": "",
+        "descr": "<span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "/models/geely-atlas-2024/",
         "dataTitle": "",
