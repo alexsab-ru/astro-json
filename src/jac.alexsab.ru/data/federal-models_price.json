@@ -1,40 +1,8 @@
 [
   {
-    "id": "jac-j7",
-    "brand": "jac",
-    "model": "J7",
-    "price": "1749000",
-    "benefit": "",
-    "link": "https://jaccar.ru/models/j7/"
-  },
-  {
-    "id": "jac-js3",
-    "brand": "jac",
-    "model": "JS3",
-    "price": "1484000",
-    "benefit": "",
-    "link": "https://jaccar.ru/models/js3/"
-  },
-  {
-    "id": "jac-js6",
-    "brand": "jac",
-    "model": "JS6",
-    "price": "1949000",
-    "benefit": "",
-    "link": "https://jaccar.ru/models/js6/"
-  },
-  {
-    "id": "jac-rf8",
-    "brand": "jac",
-    "model": "RF8",
-    "price": "4774000",
-    "benefit": "",
-    "link": "https://jaccar.ru/models/rf8/"
-  },
-  {
     "id": "jac-t8",
     "brand": "jac",
-    "model": "T8",
+    "model": "T8 Пикап",
     "price": "2504000",
     "benefit": "",
     "link": "https://jaccar.ru/models/t8/"
@@ -42,17 +10,9 @@
   {
     "id": "jac-t8-pro",
     "brand": "jac",
-    "model": "T8 PRO",
+    "model": "T8 PRO Пикап",
     "price": "2759000",
     "benefit": "",
     "link": "https://jaccar.ru/models/t8-pro/"
-  },
-  {
-    "id": "jac-t9",
-    "brand": "jac",
-    "model": "T9",
-    "price": "3619000",
-    "benefit": "",
-    "link": "https://jaccar.ru/models/t9/"
   }
 ]
