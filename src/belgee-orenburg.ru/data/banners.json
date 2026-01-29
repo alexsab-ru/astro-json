@@ -1,6 +1,23 @@
 [
     {
         "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/specials/belgee/zimnie-shiny-v-podarok/belgee-winter-tires-1920x1080-notxt.webp"
+        },
+        "title": "Зимние шины в подарок",
+        "descr": "На весь модельный ряд в Belgee Партнер-Авто <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
+        "btn": "Подробнее",
+        "btnUrl": "/special-offers/zimnie-shiny-v-podarok/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 6000
+    },
+    {
+        "id": 0,
         "show": false,
         "type": "",
         "view": "link",
@@ -97,29 +114,6 @@
             "title": "",
             "descr": "ПАО \"Альфабанк\". Не является публичной офертой.",
             "image": "",
-            "position": "left"
-        },
-        "autoplay": 6000
-    },
-    {
-        "id": 0,
-        "show": false,
-        "type": "",
-        "view": "link",
-        "image": {
-            "desktop": "https://cdn.alexsab.ru/specials/belgee/zimnie-shiny-v-podarok/belgee-winter-tires-1920x1080-notext.webp"
-        },
-        "title": "Зимние шины в подарок",
-        "descr": "На весь модельный ряд в Belgee Партнер-Авто",
-        "btn": "Подробнее",
-        "btnUrl": "/special-offers/zimnie-shiny-v-podarok/",
-        "dataTitle": "",
-        "dataFormName": "",
-        "badge": {
-            "autoname": "",
-            "title": "",
-            "descr": "",
-            "image": "https://cdn.alexsab.ru/specials/belgee/zimnie-shiny-v-podarok/belgee-winter-tires-icon.webp",
             "position": "left"
         },
         "autoplay": 6000
