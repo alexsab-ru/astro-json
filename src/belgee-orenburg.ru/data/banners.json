@@ -31,7 +31,7 @@
             "mobile": "top"
         },
         "title": "Новый <span class=\"text-5xl sm:text-7xl\">S50</span> <br/>Элегантный и <br/>практичный седан",
-        "descr": "от {{priceb-belgee-s50}}",
+        "descr": "от {{priceb-belgee-s50}} <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "/models/s50/",
         "dataTitle": "Узнать подробнее. <br/>BELGEE S50",
@@ -87,7 +87,7 @@
             "mobile": "https://cdn.alexsab.ru/specials/belgee/rassrochka/rassrochka-640x800-notxt.webp"
         },
         "title": "До конца месяца",
-        "descr": "СТАВКА от <b>0,01%</b><br>ПЕРВОНАЧАЛЬНЫЙ ВЗНОС от <b>40%</b><br>СРОК от <b>12</b> до <b>96</b> месяцев",
+        "descr": "СТАВКА от <b>0,01%</b><br>ПЕРВОНАЧАЛЬНЫЙ ВЗНОС от <b>40%</b><br>СРОК от <b>12</b> до <b>96</b> месяцев <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "/special-offers/rassrochka/",
         "dataTitle": "Ставка 0.01%, Первоначальный взнос 40%, Срок 12-96 месяцев",
@@ -133,7 +133,7 @@
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp"
         },
         "title": "Выгодное предложение на BELGEE X50",
-        "descr": "Успей забронировать свой Белджи",
+        "descr": "Успей забронировать свой Белджи <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
         "dataTitle": "Выгодное предложение на BELGEE X50",
@@ -171,7 +171,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x70-mobile.webp"
         },
         "title": "<br/>Обновленный кроссовер<img src=\"https://cdn.alexsab.ru/logo/belgee/x70-logo.svg\" alt=\"BELGEE X70\" class=\"w-[180px]\"/>",
-        "descr": "от {{priceb-belgee-x70-facelift}}",
+        "descr": "от {{priceb-belgee-x70-facelift}} <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "/models/x70-facelift/",
         "dataTitle": "",
@@ -212,7 +212,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x50-mobile.webp"
         },
         "title": "<br/>Динамичный кроссовер<img src=\"https://cdn.alexsab.ru/logo/belgee/x50-logo.svg\" alt=\"BELGEE X50\" class=\"w-[180px]\"/>",
-        "descr": "от {{priceb-belgee-x50}}",
+        "descr": "от {{priceb-belgee-x50}} <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
         "btn": "Подробнее",
         "btnUrl": "/models/x50/",
         "dataTitle": "",
@@ -272,9 +272,9 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp"
         },
         "title": "",
-        "descr": "",
-        "btn": "",
-        "bannerUrl": "#common-modal",
+        "descr": "<span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit sm:pt-20\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
         "dataTitle": "Рассрочка",
         "dataFormName": "Рассрочка. Баннер",
         "badge": "",
