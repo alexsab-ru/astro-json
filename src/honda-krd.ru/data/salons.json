@@ -1,15 +1,14 @@
 [
     {
         "name": "Дилерский центр 1",
-        "legal_entity": "ООО «Юридическое название 1»",
-        "address": "г. Город, ул. Улица, д.&nbsp;123",
-        "phone":  "8 (987) 654-32-10",
-        "work_hours": "пн — вс: 8:00 — 20:00",
+        "address": "г. Краснодар, Тургеневское шоссе, 20",
+        "phone":  "+7 (861) 279-59-79",
+        "work_hours": "Ежедневно с 09:00 до 19:00",
         "map": {
-            "zoom": 5,
+            "zoom": 17,
             "balloon": "https://cdn.alexsab.ru/locator/honda-locator.svg",
-            "coords": [55.715873, 47.617700],
-            "ya_link": "https://yandex.ru/maps/geo/rossiya/53000001/?ll=75.960645%2C50.725674&z=3.29"
+            "coords": [45.017711, 38.937869],
+            "ya_link": "https://yandex.ru/maps/51/samara/?from=api-maps&ll=38.937869%2C45.017711&mode=routes&origin=jsapi_2_1_79&rtext=~45.017711%2C38.937869&rtt=auto&ruri=~&z=17"
         }
     }
 ]

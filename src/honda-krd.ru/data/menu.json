@@ -1,33 +1,45 @@
 [
     {
-        "url": "/cars/", 
-        "name": "Авто в наличии"
+        "url": "/#models",
+        "name": "Модели"
     },
     {
-        "url": "/models/",
-        "name": "Модели",
-        "children": "models"
+        "url": "/pod-zakaz/", 
+        "name": "Авто под заказ"
     },
     {
-        "url": "/test-drive/",
+        "url": "/#test-drive",
         "name": "Запись на тест-драйв"
     },
     {
-        "url": "javascript:void(0)", 
+        "url": "/owners/", 
         "name": "Владельцам",
         "children": [
             {
-                "url": "/service-request/", 
-                "name": "Запись на сервис"
+                "url": "/owners/oils", 
+                "name": "Оригинальные масла и жидкости"
             },
             {
-                "url": "/#services", 
-                "name": "Услуги"
+                "url": "/owners/original_spare_parts", 
+                "name": "Преимущества оригинальных запасных частей"
+            },
+            {
+                "url": "/owners/docs/", 
+                "name": "Руководства и регламенты ТО"
+            },
+            {
+                "url": "/service-request/", 
+                "name": "Запись на сервис"
             }
+            
         ]
     },
     {
-        "url": "/contacts/",
+        "url": "/#services", 
+        "name": "Услуги"
+    },
+    {
+        "url": "/#contacts",
         "name": "Контакты"
     }
 ]
