@@ -7777,7 +7777,17 @@
 		"price": "{{price-gac-s7}}",
 		"benefit": "{{benefit-gac-s7}}",
 		"thumb": "",
-		"colors": [],
+		"colors": [
+			{
+				"id": "black",
+				"name": "Чёрный",
+				"names": [
+					"Черный"
+				],
+				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+				"style": "background-color: #2d2d2d"
+			}
+		],
 		"feed_names": [
 			"S7"
 		],
