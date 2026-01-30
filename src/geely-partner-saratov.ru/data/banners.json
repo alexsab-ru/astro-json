@@ -5,19 +5,21 @@
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-desktop.webp",
-            "tablet": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-tablet.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/new-monjaro-mobile.webp?v"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/geely/orenburg/main-hero-monjaro-1920x720.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/geely/orenburg/main-hero-monjaro-1024x1024.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/geely/orenburg/main-hero-monjaro-640x900.webp"
         },
-        "title": "",
+        "title": "<img src='https://cdn.alexsab.ru/b/geely/img/models/Monjaro/logo.svg' class='w-full max-w-[530px] my-2 md:my-3.5' alt='Geely Monjaro'><span class='uppercase block font-medium'>Это Космос</span><span class='block font-medium text-[0.6em] mt-5'>Новая версия лидера в сегменте D-SUV</span>",
         "descr": "",
-        "btn": "",
-        "bannerUrl": "/models/monjaro/",
+        "btn": "Подробнее",
+        "btnUrl": "/models/monjaro/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
-        "autoplay": 7000,
-        "gradient": false
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "position": "left"
+        },
+        "autoplay": 7000
     },
     {
         "id": 0,
@@ -162,7 +164,10 @@
         "btnUrl": "/special-offers/skidka-30-na-uslugi-servisa-dlya-novyh-klientov/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "position": "left"
+        },
         "autoplay": 6000
     },
     {
@@ -179,7 +184,10 @@
         "btnUrl": "/models/cityray/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "position": "left"
+        },
         "autoplay": 7000
     },
     {
@@ -196,12 +204,15 @@
         "btnUrl": "/models/preface/",
         "dataTitle": "Новый Geely Preface",
         "dataFormName": "Подробнее. Новый Geely Preface. Баннер",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "position": "left"
+        },
         "autoplay": 7000
     },
     {
         "id": 4,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -230,7 +241,10 @@
         "btnUrl": "/models/geely-okavango/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "position": "left"
+        },
         "autoplay": 7000
     },
     {
@@ -247,7 +261,10 @@
         "btnUrl": "/models/geely-atlas-2024/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "position": "left"
+        },
         "autoplay": 7000
     },
     {
