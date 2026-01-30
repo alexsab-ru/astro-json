@@ -1,1 +1,52 @@
-[]
+[
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/honda/krd/banner-desktop-1.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/honda/krd/banner-mobile-1.webp"
+        },
+        "title": "<span class=\"text-base bg-accent-500 text-white px-3 py-1\">HondaOfficial</span><div class=\"h1\">Honda под заказ:</div>от мечты до ключей!",
+        "descr": "Принимаем Ваши заявки по программе «Honda под заказ». <br/>У нас большой выбор моделей, выгода до 20% и 3 года защиты от поломок!<sup>*</sup>",
+        "btn": "Подробнее",
+        "btnUrl": "/pod-zakaz/",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/honda/krd/banner-desktop-2.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/honda/krd/banner-mobile-2.webp"
+        },
+        "title": "<span class=\"text-base bg-accent-500 text-white px-3 py-1\">Оригинальные масла</span><div class=\"h1\">Готовимся к сезону выгодно</div>Флагманский магазин HondaOfficial",
+        "descr": "Приобретайте оригинальные масла Honda и масляные фильтры на OZON.",
+        "btn": "Подробнее",
+        "btnUrl": "/owners/oils/",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/honda/krd/banner-desktop-3.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/honda/krd/banner-mobile-3.webp"
+        },
+        "title": "<span class=\"text-base bg-accent-500 text-white px-3 py-1\">ОТЗЫВНАЯ КАМПАНИЯ</span><div class=\"h1\">Любишь терпеть...</div>до последнего?",
+        "descr": "Поменяйте подушку безопасности и получите 1 литр масла в подарок.",
+        "btn": "Записаться",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Поменять подушку безопасности и получить 1 литр масла в подарок!",
+        "dataFormName": "Поменять подушку безопасности. Баннер",
+        "badge": "",
+        "autoplay": 10000
+    }
+]
