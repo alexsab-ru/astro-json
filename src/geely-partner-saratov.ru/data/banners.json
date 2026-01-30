@@ -16,7 +16,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": {
-            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "descr": "<img src=\"https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png\" class=\"max-w-[150px] sm:max-w-[200px] md:max-w-[280px] absolute left-5 bottom-8 md:relative md:left-auto md:bottom-auto\" />",
             "position": "left"
         },
         "autoplay": 7000
@@ -165,7 +165,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": {
-            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "descr": "<img src=\"https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png\" class=\"max-w-[150px] sm:max-w-[200px] md:max-w-[280px] absolute left-5 bottom-8 md:relative md:left-auto md:bottom-auto\" />",
             "position": "left"
         },
         "autoplay": 6000
@@ -185,7 +185,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": {
-            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "descr": "<img src=\"https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png\" class=\"max-w-[150px] sm:max-w-[200px] md:max-w-[280px] absolute left-5 bottom-8 md:relative md:left-auto md:bottom-auto\" />",
             "position": "left"
         },
         "autoplay": 7000
@@ -205,7 +205,7 @@
         "dataTitle": "Новый Geely Preface",
         "dataFormName": "Подробнее. Новый Geely Preface. Баннер",
         "badge": {
-            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "descr": "<img src=\"https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png\" class=\"max-w-[150px] sm:max-w-[200px] md:max-w-[280px] absolute left-5 bottom-8 md:relative md:left-auto md:bottom-auto\" />",
             "position": "left"
         },
         "autoplay": 7000
@@ -242,7 +242,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": {
-            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "descr": "<img src=\"https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png\" class=\"max-w-[150px] sm:max-w-[200px] md:max-w-[280px] absolute left-5 bottom-8 md:relative md:left-auto md:bottom-auto\" />",
             "position": "left"
         },
         "autoplay": 7000
@@ -262,7 +262,7 @@
         "dataTitle": "",
         "dataFormName": "",
         "badge": {
-            "image": "https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png",
+            "descr": "<img src=\"https://cdn.alexsab.ru/badges/geely/5-year-za-1-rub.png\" class=\"max-w-[150px] sm:max-w-[200px] md:max-w-[280px] absolute left-5 bottom-8 md:relative md:left-auto md:bottom-auto\" />",
             "position": "left"
         },
         "autoplay": 7000
