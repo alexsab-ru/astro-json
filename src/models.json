@@ -7766,6 +7766,27 @@
 		]
 	},
 	{
+		"mark_id": "GAC",
+		"id": "s7",
+		"show": false,
+		"status": "disable",
+		"homeImg": "",
+		"slogan": "Скоро в продаже",
+		"name": "S7",
+		"cyrillic": "Эс семь",
+		"price": "{{price-gac-s7}}",
+		"benefit": "{{benefit-gac-s7}}",
+		"thumb": "",
+		"colors": [],
+		"feed_names": [
+			"S7"
+		],
+		"photos": "",
+		"chars": {},
+		"complectations": [],
+		"globalChars": []
+	},
+	{
 		"mark_id": "Geely",
 		"id": "ex5",
 		"show": false,
