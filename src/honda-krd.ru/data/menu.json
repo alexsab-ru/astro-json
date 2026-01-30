@@ -16,12 +16,16 @@
         "name": "Владельцам",
         "children": [
             {
-                "url": "/owners/oils", 
+                "url": "/owners/oils/", 
                 "name": "Оригинальные масла и жидкости"
             },
             {
-                "url": "/owners/original_spare_parts", 
+                "url": "/owners/original_spare_parts/", 
                 "name": "Преимущества оригинальных запасных частей"
+            },
+            {
+                "url": "/owners/sparepartstime/", 
+                "name": "Срок поставки запчастей"
             },
             {
                 "url": "/owners/docs/", 
