@@ -39,7 +39,7 @@
         },
         "btnUrl": "?brand=haval&model=h3+i#cars",
         "title": "Новый <br/> HAVAL H3",
-        "descr": "<div class=\"grid gap-4 *:bg-green-accent *:text-sm xs:*:text-xs sm:*:text-xl *:uppercase py-3 sm:py-5\"><p class=\"substrate-skew substrate-skew-right text-black\">Зимние шины в подарок</p><p class=\"substrate-skew substrate-skew-right text-black\">З года ТО бесплатно</p><p class=\"substrate-skew substrate-skew-right text-black\">Двойной бонус от дилера до {{lastDay}} {{monthGenitive}} {{year}} года!</p></div><div class=\"font-bold xs:text-2xl text-3xl mt-6\">от&nbsp;{{priceb-haval-h3}}</div>",
+        "descr": "<div class=\"grid gap-4 *:bg-green-accent *:text-sm xs:*:text-xs sm:*:text-xl *:uppercase py-3 sm:py-5\"><p class=\"substrate-skew substrate-skew-right text-black\">З года ТО бесплатно</p><p class=\"substrate-skew substrate-skew-right text-black\">Двойной бонус от дилера до {{lastDay}} {{monthGenitive}} {{year}} года!</p></div><div class=\"font-bold xs:text-2xl text-3xl mt-6\">от&nbsp;{{priceb-haval-h3}}</div>",
         "btn": "Подробнее",
         "autoplay": 10000
     },
@@ -177,7 +177,7 @@
     },
     {
         "id": 1,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
