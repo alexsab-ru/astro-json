@@ -24,7 +24,7 @@ declare(strict_types=1);
 session_start();
 
 // ----------------------- Константы/настройки -------------------------------
-$APP_VERSION = '1.2.0';                    // Текущая версия инструмента (SemVer)
+$APP_VERSION = '1.3.0';                    // Текущая версия инструмента (SemVer)
 $SRC_ROOT = __DIR__ . '/src';                 // Корень с сайтами
 $DATA_DIR_NAME = 'data';                      // Внутренняя папка с данными
 $READ_ONLY_BASENAMES = [                      // Имена файлов только для чтения
@@ -38,6 +38,18 @@ $READ_ONLY_BASENAMES = [                      // Имена файлов тол�
 $CHANGELOG = [
     'Unreleased' => [
         // Здесь можно добавлять будущие изменения перед релизом
+    ],
+    '1.3.0' => [
+        'date' => '2025-10-23',
+        'Added' => [
+            'Сохранение фильтров при возврате из редактирования к списку.',
+            'Сводка баннера в заголовке элемента: type + title + миниатюра.',
+            'Миниатюры рядом с ссылками в image.* (desktop/tablet/mobile).',
+        ],
+        'Changed' => [
+            'Отключённые баннеры (show=false) свернуты по умолчанию.',
+            'Сохранение banners.json всегда сортирует по id убыванию; перенумерация — отдельной кнопкой.',
+        ],
     ],
     '1.2.0' => [
         'date' => '2025-10-23',
@@ -136,6 +148,15 @@ function collectAllFilenames(array $catalog): array {
     $names = array_keys($all);
     sort($names);
     return $names;
+}
+
+/** Построить query-строку для фильтров списка (sites/files) */
+function buildFiltersQuery(array $sites, array $files): string {
+    $query = http_build_query([
+        'sites' => array_values($sites),
+        'files' => array_values($files),
+    ]);
+    return $query ? ('&' . $query) : '';
 }
 
 /** Является ли файл read-only по имени */
@@ -455,11 +476,35 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
         echo '<div class="array-items"' . $dataAttrs . '>';
         foreach ($value as $idx => $v) {
             $childName = $name . '[' . h((string)$idx) . ']';
-            echo '<div class="array-item">';
             $childCtx = $ctx; $childCtx['pathParts'] = array_merge($path, [(string)$idx]);
-            renderJsonFields($childName, $v, $disabled, $childCtx);
-            echo '<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)" ' . ($disabled ? 'disabled' : '') . '>Удалить элемент</button>';
-            echo '</div>';
+            // Для корневого массива banners.json — оборачиваем элемент в details с кратким заголовком
+            if ($isBanners && count($path) === 0 && is_array($v)) {
+                $isEnabled = isset($v['show']) ? (bool)$v['show'] : true;
+                $typeLabel = isset($v['type']) && $v['type'] !== '' ? (string)$v['type'] : 'banner';
+                $titleLabel = isset($v['title']) ? (string)$v['title'] : '';
+                $titleLabel = mb_strlen($titleLabel) > 60 ? mb_substr($titleLabel, 0, 60) . '…' : $titleLabel;
+                $thumb = '';
+                if (isset($v['image']) && is_array($v['image'])) {
+                    $thumb = (string)($v['image']['desktop'] ?? '');
+                }
+                echo '<div class="array-item">';
+                echo '<details' . ($isEnabled ? ' open' : '') . '>';
+                echo '<summary style="display:flex;gap:10px;align-items:center">';
+                if ($thumb !== '') {
+                    echo '<img src="' . h($thumb) . '" alt="" style="width:100px;height:auto;object-fit:cover;border:1px solid #2a2d36;border-radius:4px">';
+                }
+                echo '<span><b>' . h($typeLabel) . '</b>' . ($titleLabel !== '' ? ' — ' . h($titleLabel) : '') . '</span>';
+                echo '</summary>';
+                renderJsonFields($childName, $v, $disabled, $childCtx);
+                echo '<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)" ' . ($disabled ? 'disabled' : '') . '>Удалить элемент</button>';
+                echo '</details>';
+                echo '</div>';
+            } else {
+                echo '<div class="array-item">';
+                renderJsonFields($childName, $v, $disabled, $childCtx);
+                echo '<button type="button" class="btn btn-danger" onclick="removeArrayItem(this)" ' . ($disabled ? 'disabled' : '') . '>Удалить элемент</button>';
+                echo '</div>';
+            }
         }
         echo '</div>';
         echo '<button type="button" class="btn" onclick="addArrayItem(this)" ' . ($disabled ? 'disabled' : '') . '>+ Добавить элемент</button>';
@@ -481,6 +526,7 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
     // Для banners.json — position.* (desktop/tablet/mobile) и badge.position — отдельные контролы
     $isBannerPosition = ($isBanners && count($path) >= 1 && in_array($path[0], ['position'], true));
     $isBadgePosition = ($isBanners && count($path) >= 2 && $path[0] === 'badge' && $path[1] === 'position');
+    $isBannerImage = ($isBanners && count($path) >= 2 && $path[0] === 'image' && in_array($path[1], ['desktop','tablet','mobile'], true));
 
     switch ($type) {
         case 'bool':
@@ -500,6 +546,16 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
         case 'string':
         default:
             $str = (string)$val;
+            // Миниатюра рядом с image.* в banners.json
+            if ($isBannerImage) {
+                echo '<div style="display:flex;gap:10px;align-items:center;width:100%">';
+                echo '<input type="text" name="' . h($inputName) . '" value="' . h($str) . '"' . $common . ' class="input">';
+                if ($str !== '') {
+                    echo '<img src="' . h($str) . '" alt="" style="width:100px;height:auto;object-fit:cover;border:1px solid #2a2d36;border-radius:4px">';
+                }
+                echo '</div>';
+                break;
+            }
             // select для badge.position
             if ($isBadgePosition) {
                 $opts = ['left','center','right'];
@@ -674,7 +730,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
         saveJsonWithBackup($path, $normalized);
         $_SESSION['notice'] = 'Файл успешно сохранён: ' . $site . '/' . $DATA_DIR_NAME . '/' . $file;
         // PRG: перенаправляем на GET, чтобы F5 не пересылал форму
-        header('Location: ?action=edit&site=' . rawurlencode($site) . '&file=' . rawurlencode($file), true, 303);
+        $postSites = isset($_POST['sites']) && is_array($_POST['sites']) ? $_POST['sites'] : [];
+        $postFiles = isset($_POST['files']) && is_array($_POST['files']) ? $_POST['files'] : [];
+        $filtersQuery = buildFiltersQuery($postSites, $postFiles);
+        header('Location: ?action=edit&site=' . rawurlencode($site) . '&file=' . rawurlencode($file) . $filtersQuery, true, 303);
         exit;
     } catch (Throwable $e) {
         $error = $e->getMessage();
@@ -900,6 +959,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
         if ($valid):
             $path = buildDataFilePath($SRC_ROOT, $DATA_DIR_NAME, $site, $file);
             $readonly = isReadOnlyFile($file, $READ_ONLY_BASENAMES);
+            // Текущие фильтры списка, чтобы сохранить их при возврате
+            $backSites = isset($_GET['sites']) && is_array($_GET['sites']) ? $_GET['sites'] : [];
+            $backFiles = isset($_GET['files']) && is_array($_GET['files']) ? $_GET['files'] : [];
+            $backQuery = buildFiltersQuery($backSites, $backFiles);
             try {
                 $jsonData = loadJson((string)$path);
             } catch (Throwable $e) {
@@ -909,7 +972,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
     ?>
         <div class="panel">
             <div class="breadcrumbs">
-                <a href="?">← К списку</a>
+                <a href="?<?= ltrim($backQuery, '&') ?>">← К списку</a>
             </div>
             <div class="muted">Файл: <span class="path"><?= h($site . '/' . $DATA_DIR_NAME . '/' . $file) ?></span></div>
             <?php if ($readonly): ?>
@@ -924,6 +987,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
                     <input type="hidden" name="site" value="<?= h($site) ?>">
                     <input type="hidden" name="file" value="<?= h($file) ?>">
                     <input type="hidden" name="csrf_token" value="<?= h($csrfToken) ?>">
+                    <?php foreach ($backSites as $s): ?>
+                        <input type="hidden" name="sites[]" value="<?= h((string)$s) ?>">
+                    <?php endforeach; ?>
+                    <?php foreach ($backFiles as $f): ?>
+                        <input type="hidden" name="files[]" value="<?= h((string)$f) ?>">
+                    <?php endforeach; ?>
                     <?php
                         // Встраиваем карту типов в скрытом JSON-поле
                         renderTypesForValue('types', $jsonData);
