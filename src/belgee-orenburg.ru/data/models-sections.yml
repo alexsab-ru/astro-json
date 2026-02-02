@@ -4,7 +4,7 @@
       sectionClass: "bg-gray-100"
       suptitle: ""
       title: Надежный партнер
-      text: <p>Проверенные временем конструктивные решения в сочетании с современными технологиями.</p><p>Безупречное качество и полное соответствие высоким международным стандартам автомобилестроения.</p><div class="flex items-center gap-4 flex-wrap mt-10"><a href="https://belgee.ru/BELGEE%20S50%20pricelist%20010126_9722356773774093960.pdf" class="btn btn_primary" target="_blank">Прайс-лист</a><a href="https://belgee.ru/Belgee_S50_compressed_3348771469964719489.pdf" class="btn btn-o" target="_blank">Брошюра</a></div>
+      text: <p>Проверенные временем конструктивные решения в сочетании с современными технологиями.</p><p>Безупречное качество и полное соответствие высоким международным стандартам автомобилестроения.</p><div class="flex items-center gap-4 flex-wrap mt-10"><a href="https://belgee.ru/BELGEE-S50-pricelist-010226_919792597439587790.pdf" class="btn btn_primary" target="_blank">Прайс-лист</a><a href="https://belgee.ru/Belgee_S50_compressed_3348771469964719489.pdf" class="btn btn-o" target="_blank">Брошюра</a></div>
       images:
         - url: https://cdn.alexsab.ru/models/belgee/s50/sections/1.webp
     - id: items
