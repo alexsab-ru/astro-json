@@ -1077,6 +1077,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+                    $listFiltersQuery = buildFiltersQuery($filterSites, $filterFiles);
+                ?>
                 <?php foreach ($catalog as $site => $files): ?>
                     <?php if (!empty($filterSites) && !in_array($site, $filterSites, true)) continue; ?>
                     <?php foreach ($files as $file): ?>
@@ -1087,7 +1090,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
                             <td><?= h($file) ?><?= $readonly ? ' <span class="muted">(только чтение)</span>' : '' ?></td>
                             <td class="path"><?= h($site . '/' . $DATA_DIR_NAME . '/' . $file) ?></td>
                             <td>
-                                <a class="btn" href="?action=edit&amp;site=<?= h($site) ?>&amp;file=<?= h($file) ?>">Открыть</a>
+                                <a class="btn" href="?action=edit&amp;site=<?= h($site) ?>&amp;file=<?= h($file) ?><?= $listFiltersQuery ?>">Открыть</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
