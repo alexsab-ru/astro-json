@@ -150,6 +150,17 @@ function collectAllFilenames(array $catalog): array {
     return $names;
 }
 
+/** Превратить HTML в читаемый однострочный текст (игнорировать <br/>) */
+function plainTextFromHtml(string $value): string {
+    // Заменяем <br> на пробелы, остальное удаляем
+    $value = preg_replace('/<\\s*br\\s*\\/?>/i', ' ', $value);
+    $value = strip_tags((string)$value);
+    $value = html_entity_decode($value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+    // Сжимаем пробелы
+    $value = preg_replace('/\\s+/u', ' ', $value);
+    return trim((string)$value);
+}
+
 /** Построить query-строку для фильтров списка (sites/files) */
 function buildFiltersQuery(array $sites, array $files): string {
     $query = http_build_query([
@@ -481,13 +492,14 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
             if ($isBanners && count($path) === 0 && is_array($v)) {
                 $isEnabled = isset($v['show']) ? (bool)$v['show'] : true;
                 $typeLabel = isset($v['type']) && $v['type'] !== '' ? (string)$v['type'] : 'banner';
-                $titleLabel = isset($v['title']) ? (string)$v['title'] : '';
+                $typeLabel = ($isEnabled ? '' : '(Не активно) ') . $typeLabel;
+                $titleLabel = isset($v['title']) ? plainTextFromHtml((string)$v['title']) : '';
                 $titleLabel = mb_strlen($titleLabel) > 60 ? mb_substr($titleLabel, 0, 60) . '…' : $titleLabel;
                 $thumb = '';
                 if (isset($v['image']) && is_array($v['image'])) {
                     $thumb = (string)($v['image']['desktop'] ?? '');
                 }
-                echo '<div class="array-item">';
+                echo '<div class="array-item' . ($isEnabled ? '' : ' banner-disabled') . '">';
                 echo '<details' . ($isEnabled ? ' open' : '') . '>';
                 echo '<summary style="display:flex;gap:10px;align-items:center">';
                 if ($thumb !== '') {
@@ -524,9 +536,14 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
         $forceTextarea = true;
     }
     // Для banners.json — position.* (desktop/tablet/mobile) и badge.position — отдельные контролы
-    $isBannerPosition = ($isBanners && count($path) >= 1 && in_array($path[0], ['position'], true));
-    $isBadgePosition = ($isBanners && count($path) >= 2 && $path[0] === 'badge' && $path[1] === 'position');
-    $isBannerImage = ($isBanners && count($path) >= 2 && $path[0] === 'image' && in_array($path[1], ['desktop','tablet','mobile'], true));
+    $bannerPath = $path;
+    // В корневом массиве баннеров первый элемент пути — индекс
+    if ($isBanners && isset($bannerPath[0]) && is_numeric($bannerPath[0])) {
+        $bannerPath = array_slice($bannerPath, 1);
+    }
+    $isBannerPosition = ($isBanners && count($bannerPath) >= 1 && $bannerPath[0] === 'position');
+    $isBadgePosition = ($isBanners && count($bannerPath) >= 2 && $bannerPath[0] === 'badge' && $bannerPath[1] === 'position');
+    $isBannerImage = ($isBanners && count($bannerPath) >= 2 && $bannerPath[0] === 'image' && in_array($bannerPath[1], ['desktop','tablet','mobile'], true));
 
     switch ($type) {
         case 'bool':
@@ -589,7 +606,7 @@ function renderJsonFields(string $name, $value, bool $disabled = false, array $c
             $shouldTextarea = $forceTextarea || strlen($str) > 120 || strpos($str, "\n") !== false;
             $needsHtml = false;
             if ($isBanners) {
-                $p = $path;
+                $p = $bannerPath;
                 // баннерные поля
                 if (in_array($p[0] ?? '', ['title','descr','dataTitle','dataFormName'], true)) $needsHtml = true;
                 if (($p[0] ?? '') === 'badge' && in_array($p[1] ?? '', ['autoname','title','descr'], true)) $needsHtml = true;
@@ -791,6 +808,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
         .top-actions{display:flex;gap:8px;align-items:center}
         .readonly-note{color:#ffdf9b}
         .path{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace}
+        .banner-disabled{opacity:.55;filter:grayscale(1);background:#101218}
     </style>
     <script>
         // Небольшие JS-хелперы для добавления/удаления полей массива и объектов
