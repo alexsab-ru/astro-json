@@ -1118,9 +1118,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
     </div>
 
     <div class="panel">
-        <h1 style="font-size:16px;margin:0 0 8px">ChangeLog</h1>
-        <div class="muted">Формат по <a href="https://keepachangelog.com/en/1.1.0/" target="_blank" rel="noopener">Keep a Changelog</a>. Версии следуют <a href="https://semver.org/spec/v2.0.0.html" target="_blank" rel="noopener">Semantic Versioning</a>.</div>
-        <div style="margin-top:10px"></div>
+        <details>
+            <summary style="font-size:16px;cursor:pointer">ChangeLog</summary>
+            <div class="muted" style="margin-top:6px">Формат по <a href="https://keepachangelog.com/en/1.1.0/" target="_blank" rel="noopener">Keep a Changelog</a>. Версии следуют <a href="https://semver.org/spec/v2.0.0.html" target="_blank" rel="noopener">Semantic Versioning</a>.</div>
+            <div style="margin-top:10px"></div>
         <?php
         $renderList = function(array $items) {
             if (empty($items)) return;
@@ -1146,6 +1147,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
             }
         }
         ?>
+        </details>
     </div>
 
 <?php /* Конец контейнера */ ?>
