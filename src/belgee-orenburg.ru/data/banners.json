@@ -1,11 +1,60 @@
 [
     {
+        "id": 1,
+        "show": false,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp",
+            "tablet": "",
+            "mobile": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
+        },
+        "title": "Новый BELGEE X70",
+        "descr": "Уже в продаже!",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Новый BELGEE X70",
+        "dataFormName": "Подробнее. Новый BELGEE X70. Баннер",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
+        "autoplay": 6000,
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
+    },
+    {
         "id": 0,
         "show": true,
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/specials/belgee/zimnie-shiny-v-podarok/belgee-winter-tires-1920x1080-notxt.webp"
+            "desktop": "https://cdn.alexsab.ru/specials/belgee/zimnie-shiny-v-podarok/belgee-winter-tires-1920x1080-notxt.webp",
+            "tablet": "",
+            "mobile": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "Зимние шины в подарок",
         "descr": "На весь модельный ряд в Belgee Партнер-Авто <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
@@ -13,8 +62,26 @@
         "btnUrl": "/special-offers/zimnie-shiny-v-podarok/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
-        "autoplay": 6000
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
+        "autoplay": 6000,
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -23,17 +90,40 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/orenburg/s50-presentation-desktop-notxt.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/orenburg/s50-presentation-mobile-notxt.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/orenburg/s50-presentation-mobile-notxt.webp",
+            "tablet": ""
         },
         "position": {
-            "mobile": "top"
+            "mobile": "top",
+            "desktop": "center",
+            "tablet": "center"
         },
         "title": "25 октября <br/>Презентация нового Belgee S50",
         "descr": "Ликвидация склада <sup>*</sup>",
         "btn": "Подробнее",
         "btnUrl": "/special-offers/prezentaciya-novogo-belgee-s50/",
-        "badge": "",
-        "autoplay": 10000
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
+        "autoplay": 10000,
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -42,10 +132,13 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/s50-desktop.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/s50-mobile.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/s50-mobile.webp",
+            "tablet": ""
         },
         "position": {
-            "mobile": "top"
+            "mobile": "top",
+            "desktop": "center",
+            "tablet": "center"
         },
         "title": "Новый <span class=\"text-5xl sm:text-7xl\">S50</span> <br/>Элегантный и <br/>практичный седан",
         "descr": "от {{priceb-belgee-s50}} <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
@@ -53,9 +146,26 @@
         "btnUrl": "/models/s50/",
         "dataTitle": "Узнать подробнее. <br/>BELGEE S50",
         "dataFormName": "Подробнее. BELGEE S50. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
         "autoplay": 10000,
-        "gradient": true
+        "gradient": true,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -64,17 +174,40 @@
         "view": "popup-link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/skidka-director-belgee-1920x1080.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/skidka-director-belgee-1080x1920.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/skidka-director-belgee-1080x1920.webp",
+            "tablet": ""
         },
         "position": {
             "desktop": "center",
-            "mobile": "center"
+            "mobile": "center",
+            "tablet": "center"
         },
-        "bannerUrl": "#common-modal",
+        "title": "",
+        "descr": "",
+        "btn": "",
+        "btnUrl": "",
         "dataTitle": "Урвать халяву!",
         "dataFormName": "Урвать халяву от директора. Баннер",
-        "badge": {},
-        "autoplay": 10000
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
+        "autoplay": 10000,
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "#common-modal",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -83,25 +216,55 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/specials/belgee/belgee-orenburg/special-offer/special-offer-1920x1080.webp",
-            "mobile": "https://cdn.alexsab.ru/specials/belgee/belgee-orenburg/special-offer/special-offer-640x900.webp"
+            "mobile": "https://cdn.alexsab.ru/specials/belgee/belgee-orenburg/special-offer/special-offer-640x900.webp",
+            "tablet": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "",
         "descr": "",
         "btn": "",
-        "bannerUrl": "/special-offers/special-offer/",
-        "gradient": false,
+        "btnUrl": "",
         "dataTitle": "",
         "dataFormName": "",
-        "autoplay": 6000
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
+        "autoplay": 6000,
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "/special-offers/special-offer/",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/specials/belgee/rassrochka/rassrochka-1920x1080-notxt.webp",
-            "mobile": "https://cdn.alexsab.ru/specials/belgee/rassrochka/rassrochka-640x800-notxt.webp"
+            "mobile": "https://cdn.alexsab.ru/specials/belgee/rassrochka/rassrochka-640x800-notxt.webp",
+            "tablet": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "До конца месяца",
         "descr": "СТАВКА от <b>0,01%</b><br>ПЕРВОНАЧАЛЬНЫЙ ВЗНОС от <b>40%</b><br>СРОК от <b>12</b> до <b>96</b> месяцев <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
@@ -114,17 +277,36 @@
             "title": "",
             "descr": "ПАО \"Альфабанк\". Не является публичной офертой.",
             "image": "",
-            "position": "left"
+            "position": "left",
+            "colorText": "",
+            "bg": false
         },
-        "autoplay": 6000
+        "autoplay": 6000,
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "popup-link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/kzy9h57l5mnwibbxeuyzekpa0yzhzh481.webp",
+            "tablet": "",
+            "mobile": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "Выгодное предложение на BELGEE X50",
         "descr": "Успей забронировать свой Белджи <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
@@ -134,26 +316,24 @@
         "dataFormName": "Подробнее. Выгодное предложение на BELGEE X50. Баннер",
         "badge": {
             "image": "https://cdn.alexsab.ru/badges/car-year-2025-horisontal-compact-crossover.png",
-            "position": "left"
+            "position": "left",
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "colorText": "",
+            "bg": false
         },
-        "autoplay": 6000
-    },
-    {
-        "id": 1,
-        "show": false,
-        "type": "",
-        "view": "popup-link",
-        "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/m0xzboh90uxd7yarz4xl19zaczawu1v61.webp"
+        "autoplay": 6000,
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
         },
-        "title": "Новый BELGEE X70",
-        "descr": "Уже в продаже!",
-        "btn": "Подробнее",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Новый BELGEE X70",
-        "dataFormName": "Подробнее. Новый BELGEE X70. Баннер",
-        "badge": "",
-        "autoplay": 6000
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -162,7 +342,13 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/x70-desktop.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x70-mobile.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x70-mobile.webp",
+            "tablet": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "<br/>Обновленный кроссовер<img src=\"https://cdn.alexsab.ru/logo/belgee/x70-logo.svg\" alt=\"BELGEE X70\" class=\"w-[180px]\"/>",
         "descr": "от {{priceb-belgee-x70-facelift}} <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
@@ -170,9 +356,26 @@
         "btnUrl": "/models/x70-facelift/",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
         "autoplay": 6000,
-        "gradient": true
+        "gradient": true,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -181,7 +384,13 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/x70-desktop-old.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x70-mobile-old.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x70-mobile-old.webp",
+            "tablet": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "Семейный кроссовер<br/><img src=\"https://cdn.alexsab.ru/logo/belgee/x70-logo.svg\" alt=\"BELGEE X70\" class=\"w-[180px]\"/>",
         "descr": "от {{priceb-belgee-x70}}",
@@ -191,10 +400,24 @@
         "dataFormName": "",
         "badge": {
             "image": "https://cdn.alexsab.ru/badges/car-year-2025-horisontal-smart-choice.png",
-            "position": "left"
+            "position": "left",
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "colorText": "",
+            "bg": false
         },
         "autoplay": 6000,
-        "gradient": true
+        "gradient": true,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -203,7 +426,13 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/x50-desktop.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x50-mobile.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/x50-mobile.webp",
+            "tablet": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "<br/>Динамичный кроссовер<img src=\"https://cdn.alexsab.ru/logo/belgee/x50-logo.svg\" alt=\"BELGEE X50\" class=\"w-[180px]\"/>",
         "descr": "от {{priceb-belgee-x50}} <span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit mt-5\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
@@ -213,10 +442,24 @@
         "dataFormName": "",
         "badge": {
             "image": "https://cdn.alexsab.ru/badges/car-year-2025-horisontal-compact-crossover.png",
-            "position": "left"
+            "position": "left",
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "colorText": "",
+            "bg": false
         },
         "autoplay": 6000,
-        "gradient": true
+        "gradient": true,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -225,17 +468,40 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025-mobile.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x50-2025-mobile.webp",
+            "tablet": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "",
         "descr": "",
         "btn": "",
-        "bannerUrl": "/models/x50/",
+        "btnUrl": "",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
         "autoplay": 6000,
-        "gradient": false
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "/models/x50/",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -244,17 +510,40 @@
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025-mobile.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/benefit-x70-2025-mobile.webp",
+            "tablet": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "",
         "descr": "",
         "btn": "",
-        "bannerUrl": "/models/x70/",
+        "btnUrl": "",
         "dataTitle": "",
         "dataFormName": "",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
         "autoplay": 6000,
-        "gradient": false
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "/models/x70/",
+        "target": "",
+        "btnColor": ""
     },
     {
         "id": 0,
@@ -263,7 +552,13 @@
         "view": "popup-link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp"
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/installment-2025-mobile.webp",
+            "tablet": ""
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
         },
         "title": "",
         "descr": "<span class=\"font-bold text-[1.1em] sm:text-[1em] block w-fit sm:pt-20\">Успей в рассрочку 0,01% до конца {{monthGenitive}}!</span>",
@@ -271,8 +566,25 @@
         "btnUrl": "#common-modal",
         "dataTitle": "Рассрочка",
         "dataFormName": "Рассрочка. Баннер",
-        "badge": "",
+        "badge": {
+            "autoname": "",
+            "title": "",
+            "descr": "",
+            "image": "",
+            "position": "right",
+            "colorText": "",
+            "bg": false
+        },
         "autoplay": 6000,
-        "gradient": false
+        "gradient": false,
+        "alt": "",
+        "video": {
+            "desktop": "",
+            "tablet": "",
+            "mobile": ""
+        },
+        "bannerUrl": "",
+        "target": "",
+        "btnColor": ""
     }
 ]
