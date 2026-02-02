@@ -482,18 +482,10 @@
   {
     "id": "haval-new-poer",
     "brand": "haval",
-    "model": "НОВЫЙ POER",
+    "model": "POER",
     "price": "3599000",
     "benefit": "",
     "link": "https://haval.ru/models/new-poer/"
-  },
-  {
-    "id": "haval-poer",
-    "brand": "haval",
-    "model": "POER",
-    "price": "3349000",
-    "benefit": "",
-    "link": "https://haval.ru/models/poer/"
   },
   {
     "id": "haval-poer-king-kong",
@@ -555,7 +547,7 @@
     "id": "jetour-dashing",
     "brand": "jetour",
     "model": "Dashing",
-    "price": "2489900",
+    "price": "2039900",
     "benefit": "",
     "link": "https://jetour-ru.com/models/dashing"
   },
@@ -563,7 +555,7 @@
     "id": "jetour-t1",
     "brand": "jetour",
     "model": "T1",
-    "price": "3770000",
+    "price": "3470000",
     "benefit": "",
     "link": "https://jetour-ru.com/models/t1"
   },
@@ -571,7 +563,7 @@
     "id": "jetour-t2",
     "brand": "jetour",
     "model": "T2",
-    "price": "3959000",
+    "price": "3699000",
     "benefit": "",
     "link": "https://jetour-ru.com/models/t2"
   },
@@ -595,7 +587,7 @@
     "id": "jetour-x70plus",
     "brand": "jetour",
     "model": "X70 Plus",
-    "price": "2999900",
+    "price": "2589900",
     "benefit": "",
     "link": "https://jetour-ru.com/models/x70plus"
   },

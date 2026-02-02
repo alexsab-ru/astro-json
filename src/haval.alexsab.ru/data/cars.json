@@ -82,18 +82,10 @@
   {
     "id": "haval-new-poer",
     "brand": "haval",
-    "model": "НОВЫЙ POER",
+    "model": "POER",
     "price": "3599000",
     "benefit": "",
     "link": "https://haval.ru/models/new-poer/"
-  },
-  {
-    "id": "haval-poer",
-    "brand": "haval",
-    "model": "POER",
-    "price": "3349000",
-    "benefit": "",
-    "link": "https://haval.ru/models/poer/"
   },
   {
     "id": "haval-poer-king-kong",
