@@ -25,6 +25,27 @@
     },
     {
         "id": 2,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/solaris/hc-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/solaris/hc-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/solaris/hc-mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
+        "title": "Горы зовут везучих",
+        "descr": "Купите Solaris HC и получите шанс<br />выиграть путешествие в горы<br /><a href=\"https://solaris.auto/promo\" target=\"_blank\" class=\"btn text-sm mt-8\">Подробнее</a>",
+        "btn": "",
+        "btnUrl": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 2,
         "show": false,
         "type": "",
         "view": "link",
