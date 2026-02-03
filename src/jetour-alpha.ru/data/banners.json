@@ -61,7 +61,7 @@
             "desktop": "top"
         },
         "title": "<span class=\"text-[0.6em]\">Успей купить по ценам 2025 года<sup>*</sup></span><br/><span class=\"h1 text-[1.2em]\">Jetour T1</span>",
-        "descr": "<span>Совершенно новый</span><br/><span class=\"h2 uppercase text-[1.2em]\">Цена от <span class=\"\">3 340 000 ₽</span></span><br/><span class=\"h2 uppercase text-[1.2em]\">Выгода до <span class=\"\">330 000 ₽</span></span>",
+        "descr": "<span>Совершенно новый</span><br/><span class=\"h2 uppercase text-[1.2em]\">Цена от <span class=\"\">3 440 000 ₽</span></span><br/><span class=\"h2 uppercase text-[1.2em]\">Выгода до <span class=\"\">330 000 ₽</span></span>",
         "btn": "Подробнее",
         "btnUrl": "/cars/?model=t1&year=2025",
         "badge": {
