@@ -28,6 +28,7 @@
     "scrape-uni": "sh ./.github/scripts/sh/scrape-uni.sh",
     "scrape-vgv": "sh ./.github/scripts/sh/scrape-vgv.sh",
     "scrape-wey": "sh ./.github/scripts/sh/scrape-wey.sh",
+    "scrape-wey-tank": "sh ./.github/scripts/sh/scrape-wey-tank.sh",
     "scrape-wey-js": "sh ./.github/scripts/sh/scrape-wey-js.sh",
     "scrape-wey-js-click": "sh ./.github/scripts/sh/scrape-wey-js-click.sh",
     "scrape-all": "sh ./.github/scripts/sh/run-scrape-all.sh",
