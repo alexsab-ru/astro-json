@@ -14,5 +14,5 @@ export MODEL_XPATH="./@id"
 export PRICE_XPATH="translate(string(.//div[@class='td-about-model__price']/text()), translate(string(.//div[@class='td-about-model__price']/text()), '0123456789', ''), '')"
 export LINK_XPATH=".//a[starts-with(@href, '/models/')]/@href"
 
-export OUTPUT_PATHS="./src/gac.alexsab.ru/data/cars.json,./src/gac-smr.alexsab.ru/data/cars.json,./src/gac-orenburg.alexsab.ru/data/cars.json,./src/gac-stavauto.alexsab.ru/data/cars.json,./src/gac-partner-samara.alexsab.ru/data/cars.json,./src/gac-samara.ru/data/cars.json,./src/gac-armada-avto.ru/data/cars.json"
+export OUTPUT_PATHS="./src/gac.alexsab.ru/data/cars.json"
 python3 .github/scripts/scrape.py
