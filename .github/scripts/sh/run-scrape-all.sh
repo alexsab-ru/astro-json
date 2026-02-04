@@ -16,6 +16,7 @@ pnpm run scrape-omoda
 pnpm run scrape-solaris
 pnpm run scrape-soueast
 pnpm run scrape-tank
+pnpm run scrape-uni
 pnpm run scrape-vgv
 pnpm run scrape-wey
 # pnpm run scrape-wey-js
