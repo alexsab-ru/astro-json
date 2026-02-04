@@ -64,14 +64,6 @@ def save_json(data, file_paths, brand_prefix=None):
                 json.dump(dealer_data, f, ensure_ascii=False, indent=2)
             
             print(f"Данные успешно сохранены в файл: {file_path}")
-
-            # Создаем копию файла с именем federal-models_price.json
-            if file_path.endswith('cars.json'):
-                models_price_path = os.path.join(directory, 'federal-models_price.json')
-                with open(models_price_path, 'w', encoding='utf-8') as f:
-                    json.dump(dealer_data, f, ensure_ascii=False, indent=2)
-                print(f"Создана копия файла: {models_price_path}")
-
         except Exception as e:
             logError(f"Ошибка при сохранении файла", f"{file_path}: {e}")
 

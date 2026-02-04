@@ -17,7 +17,7 @@ for root, dirs, files in os.walk(base_dir):
 
         # Поиск исходных файлов
         src_json = None
-        for candidate in ["federal-models_price.json", "all-prices.json"]:
+        for candidate in ["all-prices.json"]:
             candidate_path = os.path.join(data_dir, candidate)
             if os.path.exists(candidate_path):
                 src_json = candidate_path

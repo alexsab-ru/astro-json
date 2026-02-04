@@ -10,7 +10,7 @@ declare(strict_types=1);
 // - Есть 2 фильтра (мультивыбор): по сайтам и по именам файлов.
 // - Кнопка «Редактировать» открывает форму редактирования JSON, с рекурсивным
 //   рендером полей (строки, числа, булевы, объекты, массивы).
-// - Для files: cars.json, federal-models_price.json, models.json — только чтение.
+// - Для files: cars.json, models.json — только чтение.
 // - При сохранении создаётся .bak (с меткой времени), затем файл перезаписывается
 //   красивым JSON (pretty print, без экранирования Unicode/слэшей).
 // - Есть простая защита: проверка путей (разрешены только src/*/data/), CSRF-токен.
@@ -29,7 +29,6 @@ $SRC_ROOT = __DIR__ . '/src';                 // Корень с сайтами
 $DATA_DIR_NAME = 'data';                      // Внутренняя папка с данными
 $READ_ONLY_BASENAMES = [                      // Имена файлов только для чтения
     'cars.json',
-    'federal-models_price.json',
     'models.json',
 ];
 
@@ -90,7 +89,7 @@ $CHANGELOG = [
         'date' => '2025-10-23',
         'Added' => [
             'Первый выпуск: список файлов src/*/data, фильтры, просмотр/редактирование JSON, бэкап .bak.YmdHis, CSRF и защита путей.',
-            'Режим только для чтения для cars.json, federal-models_price.json, models.json.',
+            'Режим только для чтения для cars.json, models.json.',
         ],
     ],
 ];
@@ -960,7 +959,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($action === 'save')) {
 <div class="container">
     <div class="panel">
         <h1>JSON Admin — src/*/data</h1>
-        <div class="muted">Локальный просмотр и редактирование JSON. Файлы только для чтения: <span class="kbd">cars.json</span>, <span class="kbd">federal-models_price.json</span>, <span class="kbd">models.json</span>.</div>
+        <div class="muted">Локальный просмотр и редактирование JSON. Файлы только для чтения: <span class="kbd">cars.json</span>, <span class="kbd">models.json</span>.</div>
     </div>
 
     <?php if ($notice): ?>
