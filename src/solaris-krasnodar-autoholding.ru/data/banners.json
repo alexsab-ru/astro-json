@@ -14,11 +14,11 @@
             "mobile": "20%"
         },
         "title": "Solaris HC",
-        "descr": "Зима за рулем легенды от {{priceb-solaris-hc}}<br /><img class=\"mt-4\" src=\"https://cdn.alexsab.ru/badges/car-year-2025-vertical.webp\" alt=\"Solaris HC\" />",
+        "descr": "Зима за рулем легенды от {{priceb-solaris-hc}}<br /><img class=\"mt-2 sm:mt-4 h-[60px] sm:h-auto\" src=\"https://cdn.alexsab.ru/badges/car-year-2025-vertical.webp\" alt=\"Solaris HC\" />",
         "btn": "Подробнее",
         "btnUrl": "/special-offers/credits/",
         "badge": {
-            "descr": "<div>* ОЦЕНИВАЙТЕ СВОИ ФИНАНСОВЫЕ ВОЗМОЖНОСТИ И РИСКИ.<br />ИЗУЧИТЕ ВСЕ УСЛОВИЯ КРЕДИТА (ЗАЙМА) НА САЙТЕ:<br /> <a target=\"_blank\" href=\"https://www.vtb.ru/\">WWW.VTB.RU</a>  В РАЗДЕЛЕ «АВТОКРЕДИТЫ».<br />Полная стоимость кредита от 0,01% до 23,892% годовых.</div>",
+            "descr": "<div class=\"text-[10px] sm:text-base\">* ОЦЕНИВАЙТЕ СВОИ ФИНАНСОВЫЕ ВОЗМОЖНОСТИ И РИСКИ.<br />ИЗУЧИТЕ ВСЕ УСЛОВИЯ КРЕДИТА (ЗАЙМА) НА САЙТЕ:<br /> <a target=\"_blank\" href=\"https://www.vtb.ru/\">WWW.VTB.RU</a>  В РАЗДЕЛЕ «АВТОКРЕДИТЫ».<br />Полная стоимость кредита от 0,01% до 23,892% годовых.</div>",
             "position": "left"
         },
         "autoplay": 10000
