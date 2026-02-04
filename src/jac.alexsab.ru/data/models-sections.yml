@@ -255,7 +255,7 @@
       sectionClass: ""
       title: Комплектации и цены
       text: |
-        <p><span><a href='https://jaccar.ru/J7-price_web-020226_16608281064333009726.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
+        <p><span><a href='https://cdn.perxis.ru/originals/d605q2gbeucc73e0450g/original' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: js6
   sections:
     - id: hero
