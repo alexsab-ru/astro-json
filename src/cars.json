@@ -496,6 +496,38 @@
     "link": "https://haval.ru/models/poer-king-kong/"
   },
   {
+    "id": "jac-j7",
+    "brand": "jac",
+    "model": "J7 Лифтбек",
+    "price": "1749000",
+    "benefit": "",
+    "link": "https://jaccar.ru/models/j7/"
+  },
+  {
+    "id": "jac-js3",
+    "brand": "jac",
+    "model": "JS3 Кроссовер",
+    "price": "1484000",
+    "benefit": "",
+    "link": "https://jaccar.ru/models/js3/"
+  },
+  {
+    "id": "jac-js6",
+    "brand": "jac",
+    "model": "JS6 Кроссовер",
+    "price": "1949000",
+    "benefit": "",
+    "link": "https://jaccar.ru/models/js6/"
+  },
+  {
+    "id": "jac-rf8",
+    "brand": "jac",
+    "model": "RF8 Минивэн",
+    "price": "4774000",
+    "benefit": "",
+    "link": "https://jaccar.ru/models/rf8/"
+  },
+  {
     "id": "jac-t8",
     "brand": "jac",
     "model": "T8 Пикап",
@@ -510,6 +542,14 @@
     "price": "2759000",
     "benefit": "",
     "link": "https://jaccar.ru/models/t8-pro/"
+  },
+  {
+    "id": "jac-t9",
+    "brand": "jac",
+    "model": "T9 Пикап",
+    "price": "3619000",
+    "benefit": "",
+    "link": "https://jaccar.ru/models/t9/"
   },
   {
     "id": "jaecoo-modelj6",
@@ -699,7 +739,7 @@
     "id": "tank-300",
     "brand": "tank",
     "model": "300",
-    "price": "3749000",
+    "price": "3999000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-300"
   },
@@ -707,7 +747,7 @@
     "id": "tank-400",
     "brand": "tank",
     "model": "400",
-    "price": "5249000",
+    "price": "5949000",
     "benefit": "",
     "link": "https://tank.ru/models/tank-400"
   },
