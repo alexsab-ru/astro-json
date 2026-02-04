@@ -5,10 +5,11 @@
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/winter-tires-gift-1920x1080-2-notxt.webp",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/winter-tires-gift-500x800-notxt.webp"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/alpha-vigoda-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/alpha-vigoda-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/jetour/alpha/alpha-vigoda-mobile.webp"
         },
-        "title": "<div class=\"h1 sm:mb-4 xs:text-[0.8em]\">Очень выгодное предложение</div><div class=\"text-[0.8em] text-normal\">В ДЦ &laquo;Альфа&raquo;! Не верите?! <br/>Давайте сравним!<sup>*</sup></div>",
+        "title": "<div class=\"h1 sm:mb-4 xs:text-[0.8em]\">Прозрачно. Честно. Выгодно!</div><div class=\"text-[0.8em] text-normal\">В ДЦ &laquo;Альфа&raquo;!</div>",
         "descr": "<span class=\"uppercase block mt-4 sm:mt-7 xs:text-[0.8em] text-[0.9em]\"><span class=\"block mb-3 sm:mb-5\"><span class=\"bg-accent-500 py-1 px-2\">При покупке автомобиля</span> до конца месяца</span>Комплект зимней резины <span class=\"bg-accent-500 py-1 px-2\">в подарок!</span></span><span class=\"text-light block xs:text-xs text-sm mt-8\"><sup>*</sup> Не оферта. Подробности действующего предложения уточняйте в отделе продаж.</span>",
         "btn": "Подробнее",
         "btnUrl": "/cars/",
