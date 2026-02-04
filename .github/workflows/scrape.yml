@@ -301,6 +301,7 @@ jobs:
       - name: Prepare error messages from output.txt
         id: prepare_errors
         run: |
+          cat output.txt || true
           if [ -s output.txt ]; then
             encoded_errors=$(base64 -w 0 output.txt)
             echo "error_output=$encoded_errors" >> $GITHUB_OUTPUT
