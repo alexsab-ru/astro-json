@@ -539,6 +539,7 @@ async function saveJson(data, filePaths) {
         
         const data = await scrapePage(url, xpaths);
         console.log(`Получено ${data.length} элементов данных`);
+        console.log(data);
 
         if (data.length > 0) {
             // Разделение путей сохранения по запятой и обработка их как списка
