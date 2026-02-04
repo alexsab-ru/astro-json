@@ -7,3 +7,5 @@ export PRICE_XPATH="translate(string(.//div[contains(@class,'text-simple-14')]/t
 export LINK_XPATH=".//a/@href"
 export OUTPUT_PATHS="./src/changan.alexsab.ru/data/cars.json"
 node .github/scripts/scrape.js
+# https://models.changan.alexsab.ru/model
+# JSON.parse(document.querySelector("#app").dataset.page)

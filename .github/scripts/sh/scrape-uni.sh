@@ -7,3 +7,5 @@ export PRICE_XPATH=".//meta[@itemprop='price']/@content"
 export LINK_XPATH=".//a[contains(@href,'https://uni-motors.ru/model/')]/@href"
 export OUTPUT_PATHS="./src/uni.alexsab.ru/data/cars.json"
 node .github/scripts/scrape.js
+# https://models.uni.alexsab.ru/model
+# JSON.parse(document.querySelector("#app").dataset.page)
