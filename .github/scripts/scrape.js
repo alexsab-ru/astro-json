@@ -363,7 +363,13 @@ async function scrapePage(url, xpaths) {
             // Перебираем найденные элементы
             items.forEach((item, index) => {
                 try {
-                    const id = getStringValue(xpaths.idXPath, item);
+                    // Берем исходный id из узла. Он может содержать пробелы и разные регистры.
+                    const rawId = getStringValue(xpaths.idXPath, item);
+                    // Нормализуем id:
+                    // 1) заменяем все пробелы на дефисы,
+                    // 2) приводим к нижнему регистру.
+                    // Это делает id стабильным и удобным для сравнения.
+                    const id = rawId.replace(/\s+/g, "-").toLowerCase();
                     let model = getStringValue(xpaths.modelXPath, item);
                     if (model.toLowerCase().startsWith(brandPrefix)) {
                         const regex = new RegExp('^' + brandPrefix, 'i');
