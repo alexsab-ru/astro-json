@@ -115,7 +115,7 @@
       sectionClass: ""
       title: Комплектации и цены
       text: |
-        <p><span><a href='https://jaccar.ru/JS3-price_web-020226_2285848720689025592.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
+        <p><span><a href='https://cdn.perxis.ru/originals/d605pe8beucc73e044vg/original' class='underline' target='_blank'>Скачать прайс-лист</a></p>
 - id: t9
   sections:
     - id: hero
@@ -330,4 +330,4 @@
       sectionClass: ""
       title: Комплектации и цены
       text: |
-        <p><span><a href='https://jaccar.ru/JS6-price_web-020226_11056474705576074689.pdf' class='underline' target='_blank'>Скачать прайс-лист</a></p>
+        <p><span><a href='https://cdn.perxis.ru/originals/d605po8beucc73e04500/original' class='underline' target='_blank'>Скачать прайс-лист</a></p>
