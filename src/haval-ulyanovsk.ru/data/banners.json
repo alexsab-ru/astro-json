@@ -21,7 +21,7 @@
         "dataFormName": "Новый Haval Jolion. Добавь динамики в Новом году. Баннер на главной",
         "badge": "",
         "autoplay": 10000,
-        "gradient": false
+        "gradient": true
     },
     {
         "id": 1,
