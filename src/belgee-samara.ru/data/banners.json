@@ -9,7 +9,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/samara/rasprodazha-mobile.webp"
         },
         "position": {},
-        "title": "Распродажа склада 2025 года<br />до 28 февраля 2026г.",
+        "title": "<div class='lg:text-6xl'>Распродажа склада 2025 года<br />до 15 февраля 2026г.</div>",
         "descr": "",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
