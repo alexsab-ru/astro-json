@@ -1,6 +1,24 @@
 [
     {
         "id": 1,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-vigoda-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/gac/armada-avto/gac-vigoda-mobile.webp"
+        },
+        "title": "",
+        "descr": "",
+        "bannerUrl": "#common-modal",
+        "dataTitle": "Время любимых цен на GAC",
+        "dataFormName": "Время любимых цен на GAC. Баннер",
+        "btn": "",
+        "badge": "",
+        "autoplay": 10000
+    },
+    {
+        "id": 1,
         "show": false,
         "type": "",
         "view": "link",
