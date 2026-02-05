@@ -70,5 +70,13 @@
     "price": "5099000",
     "benefit": "",
     "link": "https://gac.ru/models/new-gs8"
+  },
+  {
+    "id": "gac-s7",
+    "brand": "gac",
+    "model": "S7",
+    "price": null,
+    "benefit": "",
+    "link": "https://gac.ru/models/s7"
   }
 ]
