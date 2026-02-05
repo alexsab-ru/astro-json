@@ -7786,6 +7786,15 @@
 				],
 				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
 				"style": "background-color: #2d2d2d"
+			},
+			{
+				"id": "gray",
+				"name": "Серый",
+				"names": [
+					"Серый"
+				],
+				"carImage": "https://cdn.alexsab.ru/errors/404tr.webp",
+				"style": "background-color: #777777"
 			}
 		],
 		"feed_names": [
