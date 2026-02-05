@@ -9,7 +9,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/samara/rasprodazha-mobile.webp"
         },
         "position": {},
-        "title": "<div class='lg:text-6xl'>Распродажа склада 2025 года<br />до 15 февраля 2026г.</div>",
+        "title": "<div class='lg:text-6xl'>Распродажа склада 2025 года<br />до&nbsp;15 февраля 2026г.</div>",
         "descr": "",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
@@ -29,11 +29,11 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/samara/alarm-mobile.webp"
         },
         "position": {},
-        "title": "Сигнализация в подарок<br />при покупке автомобиля в феврале",
+        "title": "Сигнализация в&nbsp;подарок при&nbsp;покупке автомобиля в&nbsp;феврале",
         "descr": "",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
-        "dataTitle": "Сигнализация в подарок при покупке автомобиля в феврале",
+        "dataTitle": "Сигнализация вподарок при покупке автомобиля в феврале",
         "dataFormName": "Сигнализация в подарок при покупке автомобиля в феврале. Баннер",
         "badge": "",
         "autoplay": 10000,
@@ -49,7 +49,7 @@
             "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/samara/winter-tires-mobile.webp"
         },
         "position": {},
-        "title": "Зимняя резина в подарок<br />при покупке автомобиля в феврале",
+        "title": "Зимняя резина в&nbsp;подарок при&nbsp;покупке автомобиля в феврале",
         "descr": "",
         "btn": "Подробнее",
         "btnUrl": "#common-modal",
