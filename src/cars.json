@@ -115,7 +115,7 @@
     "id": "changan-cs55plus",
     "brand": "changan",
     "model": "CS55PLUS",
-    "price": "2759900",
+    "price": "2879900",
     "benefit": "",
     "link": "https://changanauto.ru/model/cs55plus"
   },
@@ -294,6 +294,14 @@
     "price": "5099000",
     "benefit": "",
     "link": "https://gac.ru/models/new-gs8"
+  },
+  {
+    "id": "gac-s7",
+    "brand": "gac",
+    "model": "S7",
+    "price": null,
+    "benefit": "",
+    "link": "https://gac.ru/models/s7"
   },
   {
     "id": "evolute-",
@@ -795,7 +803,7 @@
     "id": "changan-uni-s",
     "brand": "changan",
     "model": "UNI-S",
-    "price": "2759900",
+    "price": "2919900",
     "benefit": "",
     "link": "https://uni-motors.ru/model/uni-s"
   },
