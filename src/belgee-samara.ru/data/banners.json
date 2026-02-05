@@ -3,6 +3,66 @@
         "id": 0,
         "show": true,
         "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/samara/rasprodazha-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/samara/rasprodazha-mobile.webp"
+        },
+        "position": {},
+        "title": "Распродажа склада 2025 года до 28 февраля 2026г.",
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Узнать подробнее о распродаже",
+        "dataFormName": "Узнать подробнее о распродаже. Баннер",
+        "badge": "",
+        "autoplay": 10000,
+        "gradient": true
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/samara/alarm-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/samara/alarm-mobile.webp"
+        },
+        "position": {},
+        "title": "Сигнализация в подарок при покупке автомобиля в феврале",
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Сигнализация в подарок при покупке автомобиля в феврале",
+        "dataFormName": "Сигнализация в подарок при покупке автомобиля в феврале. Баннер",
+        "badge": "",
+        "autoplay": 10000,
+        "gradient": true
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/samara/winter-tires-desktop.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/belgee/samara/winter-tires-mobile.webp"
+        },
+        "position": {},
+        "title": "Зимняя резина в подарок при покупке автомобиля в феврале",
+        "descr": "",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Зимняя резина в подарок при покупке автомобиля в феврале",
+        "dataFormName": "Зимняя резина в подарок при покупке автомобиля в феврале. Баннер",
+        "badge": "",
+        "autoplay": 10000,
+        "gradient": true
+    },
+    {
+        "id": 0,
+        "show": true,
+        "type": "",
         "view": "link",
         "image": {
             "desktop": "https://cdn.alexsab.ru/main-sliders/belgee/s50-desktop.webp",
