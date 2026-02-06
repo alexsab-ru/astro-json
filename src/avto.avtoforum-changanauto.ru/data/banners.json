@@ -5,19 +5,90 @@
         "type": "",
         "view": "link",
         "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/desktop.webp?v",
-            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/tablet.webp?v",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/mobile.webp?v"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/avtoforum/uni-k-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/avtoforum/uni-k-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/avtoforum/uni-k-mobile.webp"
         },
         "position": {
             "desktop": "center",
             "tablet": "center",
             "mobile": "center"
         },
-        "title": "<div class=\"normal-case\">Долгожданный CS75PLUS NEW <br class=\"hidden sm:block\" />с&nbsp;полным приводом (AWD)</div>",
-        "descr": "<span class=\"bg-[var(--color-orange-transparent)] sm:bg-transparent inline-block p-1\">Платеж от 6 490 р/мес<br/>Зимние шины в подарок</span><br/><br/><span class=\"bg-[var(--color-orange-transparent)] sm:bg-transparent inline-block p-1\">Дополнительные <br />новогодние выгоды</span>",
+        "title": "<div class='text-sm sm:text-xl md:text-5xl'>UNI-K с&nbsp;максимальной выгодой <br class='hidden sm:block' />до&nbsp;{{benefitb-uni-k}}</div>",
+        "descr": "Осталось всего 3 автомобиля!",
+        "btn": "Подробнее",
+        "btnUrl": "/models/uni-k/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "popup-link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/cs75plusnew/mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "mobile": "center"
+        },
+        "title": "Всем светит выгода",
+        "descr": "Полная стоиомсть кредита -<br />от&nbsp;0.01&nbsp;до&nbsp;15%<br/><span class='bg-[var(--color-orange-transparent)] inline-block p-1 my-2'>на&nbsp;8 лет</span>",
+        "btn": "Подробнее",
+        "btnUrl": "#common-modal",
+        "dataTitle": "Всем светит выгода",
+        "dataFormName": "Всем светит выгода. Баннер",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/avtoforum/cs75plus-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/avtoforum/cs75plus-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/avtoforum/cs75plus-mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
+        },
+        "title": "<div class=\"normal-case\">Долгожданный CS75PLUS NEW <br class=\"hidden sm:block\" />с&nbsp;выгодой {{benefitb-cs75plusnew}}</div>",
+        "descr": "Осталось всего 2&nbsp;автомобиля!",
         "btn": "Подробнее",
         "btnUrl": "/models/cs75plusnew/",
+        "dataTitle": "",
+        "dataFormName": "",
+        "badge": "",
+        "autoplay": 7000
+    },
+    {
+        "id": 2,
+        "show": true,
+        "type": "",
+        "view": "link",
+        "image": {
+            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/avtoforum/uni-s-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/avtoforum/uni-s-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/avtoforum/uni-s-mobile.webp"
+        },
+        "position": {
+            "desktop": "center",
+            "tablet": "center",
+            "mobile": "center"
+        },
+        "title": "UNI-S",
+        "descr": "Всего 2&nbsp;автомобиля по&nbsp;специальной цене {{priceb-uni-s}}",
+        "btn": "Подробнее",
+        "btnUrl": "/models/cs55plus/",
         "dataTitle": "",
         "dataFormName": "",
         "badge": "",
@@ -49,46 +120,6 @@
     {
         "id": 2,
         "show": true,
-        "type": "video",
-        "view": "link",
-        "video": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/cs35plusnew/video.mp4"
-        },
-        "title": "CS55PLUS",
-        "descr": "Симфония технологий!<br/><br/><span class=\"inline-block p-1\">Платеж от 6 490 р/мес<br/>Зимние шины в подарок</span><br/><br/><span class=\"inline-block p-1\">Дополнительные <br class=\"\" />новогодние выгоды</span>",
-        "btn": "Подробнее",
-        "btnUrl": "/models/cs35plusnew/",
-        "dataTitle": "",
-        "dataFormName": "",
-        "badge": "",
-        "autoplay": 11000
-    },
-    {
-        "id": 2,
-        "show": true,
-        "type": "",
-        "view": "popup-link",
-        "image": {
-            "desktop": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/desktop.webp?v",
-            "tablet": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/tablet.webp?v",
-            "mobile": "https://cdn.alexsab.ru/main-sliders/changan/vigoda/mobile.webp?v"
-        },
-        "position": {
-            "desktop": "center",
-            "mobile": "center"
-        },
-        "title": "Всем светит выгода",
-        "descr": "Полная стоиомсть кредита -<br />от 0.01 до 15%<br/><span class='bg-[var(--color-orange-transparent)] inline-block p-1 my-2'>на 8 лет</span>",
-        "btn": "Подробнее",
-        "btnUrl": "#common-modal",
-        "dataTitle": "Всем светит выгода",
-        "dataFormName": "Всем светит выгода. Баннер",
-        "badge": "",
-        "autoplay": 7000
-    },
-    {
-        "id": 2,
-        "show": true,
         "type": "",
         "view": "link",
         "image": {
@@ -101,7 +132,7 @@
             "mobile": "center"
         },
         "title": "CS35PLUS NEW",
-        "descr": "Выгода на CHANGAN <br />Почувствуй пульс города!<br/><br/><span class=\"inline-block p-1\">Платеж от 6 490 р/мес<br/>Зимние шины в подарок</span><br/><br/><span class=\"inline-block p-1\">Дополнительные <br class=\"\" />новогодние выгоды</span>",
+        "descr": "Выгода на CHANGAN <br />Почувствуй пульс города!<br/><br/><span class=\"inline-block p-1\">Зимние шины в подарок</span><br/><br/><span class=\"inline-block p-1\">Дополнительные <br class=\"\" />новогодние выгоды</span>",
         "btn": "Подробнее",
         "btnUrl": "/models/cs35plusnew/",
         "dataTitle": "",
@@ -111,7 +142,7 @@
     },
     {
         "id": 2,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -134,7 +165,7 @@
     },
     {
         "id": 2,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
@@ -203,7 +234,7 @@
     },
     {
         "id": 2,
-        "show": true,
+        "show": false,
         "type": "",
         "view": "link",
         "image": {
