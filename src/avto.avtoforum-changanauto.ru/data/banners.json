@@ -14,7 +14,7 @@
             "tablet": "center",
             "mobile": "center"
         },
-        "title": "<div class='text-sm sm:text-xl md:text-5xl'>UNI-K с&nbsp;максимальной выгодой <br class='hidden sm:block' />до&nbsp;830&nbsp;000&nbsp;₽</div>",
+        "title": "<div class='text-2xl sm:text-4xl lg:text-5xl'>UNI-K с&nbsp;максимальной выгодой <br class='hidden sm:block' />до&nbsp;830&nbsp;000&nbsp;₽</div>",
         "descr": "Осталось всего 3 автомобиля!",
         "btn": "Подробнее",
         "btnUrl": "/models/uni-k/",
