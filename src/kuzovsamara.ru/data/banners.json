@@ -5,7 +5,9 @@
         "type": "",
         "view": "popup-link",
         "image": {
-            "desktop": "/img/banners/1.jpg"
+            "desktop": "https://cdn.alexsab.ru/main-sliders/kuzovsamara/main-desktop.webp",
+            "tablet": "https://cdn.alexsab.ru/main-sliders/kuzovsamara/main-tablet.webp",
+            "mobile": "https://cdn.alexsab.ru/main-sliders/kuzovsamara/main-mobile.webp"
         },
         "title": "Кузов Эксперт",
         "descr": "Первый официальный кузовной по&nbsp;автомобилям из&nbsp;Китая",
