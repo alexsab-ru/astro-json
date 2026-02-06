@@ -14,7 +14,7 @@
             "tablet": "center",
             "mobile": "center"
         },
-        "title": "<div class='text-sm sm:text-xl md:text-5xl'>UNI-K с&nbsp;максимальной выгодой <br class='hidden sm:block' />до&nbsp;{{benefitb-uni-k}}</div>",
+        "title": "<div class='text-sm sm:text-xl md:text-5xl'>UNI-K с&nbsp;максимальной выгодой <br class='hidden sm:block' />до&nbsp;830&nbsp;000&nbsp;₽</div>",
         "descr": "Осталось всего 3 автомобиля!",
         "btn": "Подробнее",
         "btnUrl": "/models/uni-k/",
@@ -61,7 +61,7 @@
             "tablet": "center",
             "mobile": "center"
         },
-        "title": "<div class=\"normal-case\">Долгожданный CS75PLUS NEW <br class=\"hidden sm:block\" />с&nbsp;выгодой {{benefitb-cs75plusnew}}</div>",
+        "title": "<div class=\"normal-case\">Долгожданный CS75PLUS NEW <br class=\"hidden sm:block\" />с&nbsp;выгодой!</div>",
         "descr": "Осталось всего 2&nbsp;автомобиля!",
         "btn": "Подробнее",
         "btnUrl": "/models/cs75plusnew/",
@@ -86,7 +86,7 @@
             "mobile": "center"
         },
         "title": "UNI-S",
-        "descr": "Всего 2&nbsp;автомобиля по&nbsp;специальной цене {{priceb-uni-s}}",
+        "descr": "Всего 2&nbsp;автомобиля по&nbsp;специальной цене {{priceb-changan-uni-s}}",
         "btn": "Подробнее",
         "btnUrl": "/models/cs55plus/",
         "dataTitle": "",
